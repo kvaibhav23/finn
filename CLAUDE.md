@@ -10,11 +10,15 @@ Mobile-first investing agent for Indian equities (NSE/BSE).
 Thesis: "FINN reads everything so you only read what could change your mind."
 Graded on judgment, architecture, creativity, cost-efficiency — not completeness.
 
-## Current phase: DATA SPIKES (no product code, no UI)
-Each spike lives in spikes/NN_name/ with:
-- run.py (runnable: python spikes/NN_name/run.py)
-- REPORT.md: what worked, what failed, HTTP status codes, latency, sample output,
-  PASS/FAIL verdict, recommended fallback, proposed function signature.
+## Current phase: CORE ENGINE (still no UI)
+Spikes are done (see spikes/*/REPORT.md, docs/SPIKES_SUMMARY.md). Decision: NSE-only.
+Now: promote spike code into the finn/ package, then build the promise-ledger engine as a CLI.
+- finn/data/   : source clients (one module per source), cache, rate limiter
+- finn/ledger/ : promise extraction, threading, resolution, verdicts
+- finn/llm.py  : the ONLY place that calls a model (routing, cache, cost log)
+- tests/       : run offline against recorded fixtures from data/raw
+Every number carries a receipt (XBRL tag + URL); every quote carries page + speaker and must
+be found verbatim (after normalisation) in the source text, or it is discarded.
 
 ## Rules
 - Python 3.11+, requests + pandas. Playwright only if plain HTTP genuinely fails.
