@@ -1,0 +1,42 @@
+# Spike 08: can a cloud runner reach NSE? Manual trigger only; results go to the job
+# summary and an uploaded artifact. Same requests/headers as local runs; blocks are recorded.
+name: NSE reachability
+
+on:
+  workflow_dispatch:
+    inputs:
+      env_label:
+        description: "Environment label for the results column"
+        required: false
+        default: "github-ubuntu-latest"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Probe NSE sources
+        env:
+          LABEL: ${{ inputs.env_label }}
+        run: |
+          mkdir -p data/reachability
+          python spikes/08_cloud_reachability/run.py --env "$LABEL" | tee data/reachability/stdout.txt
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: reachability-${{ inputs.env_label }}-${{ github.run_id }}
+          path: data/reachability/
