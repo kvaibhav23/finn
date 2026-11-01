@@ -1,0 +1,26 @@
+[project]
+name = "finn"
+version = "0.1.0"
+description = "FINN: grounded research agent for Indian equities (NSE)"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "pandas",
+    "lxml",
+    "pymupdf",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["finn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:builtin type .* has no __module__ attribute:DeprecationWarning"]
