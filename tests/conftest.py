@@ -66,3 +66,40 @@ def fake_client(tmp_path):
         c.fake_session, c.fake_clock = session, clock
         return c
     return make
+
+
+class FakeGenai:
+    """Stands in for google.genai.Client: `replies` are JSON strings (or exceptions) served in order."""
+    def __init__(self, replies: list, tokens: tuple[int, int] = (1000, 200)):
+        self.replies, self.tokens, self.prompts = list(replies), tokens, []
+        self.models = self
+
+    def generate_content(self, model, contents, config):
+        self.prompts.append(contents)
+        r = self.replies.pop(0)
+        if isinstance(r, Exception):
+            raise r
+        usage = type("U", (), {"prompt_token_count": self.tokens[0], "candidates_token_count": self.tokens[1],
+                               "thoughts_token_count": None})()
+        return type("R", (), {"text": r, "usage_metadata": usage})()
+
+
+@pytest.fixture
+def fake_llm(tmp_path, monkeypatch):
+    """finn.llm wired to a FakeGenai; cache + cost log in tmp_path; no sleeping; no .env read."""
+    from finn import llm
+    monkeypatch.setattr(llm, "CACHE_DIR", tmp_path / "llm_cache")
+    monkeypatch.setattr(llm, "COST_LOG", tmp_path / "cost_log.jsonl")
+    monkeypatch.setattr(llm, "ROOT", tmp_path)
+    clock = FakeClock()
+    monkeypatch.setattr(llm, "sleep", clock.sleep)
+    monkeypatch.setattr(llm, "clock", clock)
+    monkeypatch.setattr(llm, "_last_call", 0.0)
+
+    def make(replies, tokens=(1000, 200)):
+        fake = FakeGenai(replies, tokens)
+        llm.set_client(fake)
+        fake.clock = clock
+        return fake
+    yield make
+    llm.set_client(None)

@@ -9,6 +9,7 @@ dependencies = [
     "lxml",
     "pymupdf",
     "python-dotenv",
+    "google-genai",
 ]
 
 [project.optional-dependencies]

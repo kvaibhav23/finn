@@ -37,6 +37,8 @@ COPY = {  # fixture name -> cached URL
     "xbrl_tcs_2024-12_legacy.xml": f"{ARCH}/corporate/xbrl/INDAS_117182_1341298_09012025093940.xml",
     "xbrl_hdfcbank_2026-09_cons.xml": f"{ARCH}/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml",
     "xbrl_hdfcbank_2024-12_legacy.xml": f"{ARCH}/corporate/xbrl/BANKING_117525_1359016_23012025122721.xml",
+    # Q2 FY26 standalone: management said "18.5%" PBDIT margin -> matches the definition without other income
+    "xbrl_asianpaint_2025-09_standalone.xml": f"{ARCH}/corporate/xbrl/INTEGRATED_FILING_INDAS_1572845_12112025080926_WEB.xml",
     "transcript_tcs_2026-09.pdf": f"{ARCH}/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf",
     "transcript_reliance_2026-06.pdf": f"{ARCH}/corporate/kavinavora_19072026180618_SE_Transcript.pdf",
 }

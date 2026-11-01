@@ -16,16 +16,11 @@ from pathlib import Path
 
 from finn.data import http
 from finn.data import transcripts as tr
+from finn.ledger.periods import fy_label
 
 OUT = Path(__file__).resolve().parents[1] / "docs" / "golden"
 COLUMNS = ["id", "quarter", "page", "speaker", "sentence",
            "is_promise", "metric", "target", "horizon", "conditional", "notes"]
-
-
-def fy_label(qe: date) -> str:
-    """Indian FY quarter: 2026-03-31 -> Q4FY26, 2026-06-30 -> Q1FY27."""
-    q = {6: 1, 9: 2, 12: 3, 3: 4}[qe.month]
-    return f"Q{q}FY{(qe.year + (qe.month > 3)) % 100:02d}"
 
 
 def export(symbol: str, n: int, today: date) -> list[dict]:

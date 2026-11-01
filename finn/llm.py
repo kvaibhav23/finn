@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -27,9 +28,16 @@ ROUTES = {"classify": CHEAP, "thread": CHEAP, "resolve": CHEAP, "explain": CHEAP
 PRICES = {"gemini-3.1-flash-lite": (0.25, 1.50),
           "gemini-3.5-flash-lite": (0.30, 2.50)}
 USD_INR = 94.95   # ECB reference rate 2026-10-30 (api.frankfurter.dev)
+# The ₹ figures are paid-tier equivalents; on the free tier the charge is 0 but requests are capped
+# (15/min per model), hence the spacing and the back-off below.
+MIN_INTERVAL = 4.5
+MAX_RETRIES = 3
+SERVER_BACKOFF = (10.0, 30.0, 60.0)   # 500/503 "high demand" are transient
 
 T = TypeVar("T", bound=BaseModel)
 _client = None
+_last_call = 0.0
+sleep, clock = time.sleep, time.monotonic   # injectable for tests
 
 
 class LLMError(RuntimeError):
@@ -67,7 +75,21 @@ def _generate(model: str, prompt: str, schema: type[BaseModel]) -> tuple[str, in
     from google.genai import types
     cfg = types.GenerateContentConfig(response_mime_type="application/json", response_schema=schema, temperature=0,
                                       thinking_config=types.ThinkingConfig(thinking_level="minimal"))  # thinking is billed as output
-    r = client().models.generate_content(model=model, contents=prompt, config=cfg)
+    global _last_call
+    for attempt in range(MAX_RETRIES + 1):
+        wait = MIN_INTERVAL - (clock() - _last_call)
+        if wait > 0:
+            sleep(wait)
+        _last_call = clock()
+        try:
+            r = client().models.generate_content(model=model, contents=prompt, config=cfg)
+            break
+        except Exception as e:  # google.genai.errors.APIError carries .code
+            code = getattr(e, "code", None)
+            if code not in (429, 500, 503) or attempt == MAX_RETRIES:
+                raise
+            m = re.search(r"retry in ([\d.]+)s", str(e))
+            sleep((float(m[1]) + 1) if code == 429 and m else SERVER_BACKOFF[attempt])
     u = r.usage_metadata
     out = (getattr(u, "candidates_token_count", 0) or 0) + (getattr(u, "thoughts_token_count", 0) or 0)
     return r.text or "", getattr(u, "prompt_token_count", 0) or 0, out

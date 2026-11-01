@@ -37,48 +37,54 @@ class Target(BaseModel):
 
 class Item(BaseModel):
     id: str
-    is_commitment: bool
     metric: Metric
     target: Target
     horizon_token: str
     conditional: bool
+    scope: Literal["company", "segment"]
     basis: Literal["standalone", "consolidated", "unspecified"]
     subject: str
     quote: str
 
 
 class Batch(BaseModel):
-    items: list[Item]
+    """Non-commitments come back as bare ids: full objects for them were ~80% of output tokens."""
+    non_commitment_ids: list[str]
+    commitments: list[Item]
 
 
 PROMPT = """You label sentences from an Indian listed company's earnings call for a "promise ledger".
 Company: {symbol}. Results quarter discussed: {quarter}. The call was held during {running}.
 
-A sentence is a commitment (is_commitment=true) only if, at a later date, someone could check
+A sentence is a commitment only if, at a later date, someone could check
 whether it came true: a stated target, range, deadline or milestone, said by management about
 the company's own future. Vague hopes ("demand will improve") are NOT commitments, unless a period
-is named, in which case use metric "direction". Statements about the past, the industry, or
-"we will analyze and tell you" are NOT commitments.
+is named, in which case use metric "direction". Statements about the past, the industry, remarks about
+the call itself ("I will now share...", "we will take questions"), or "we will analyze and tell you"
+are NOT commitments.
 
 Examples:
-- "...guidance of 18-20% of our PBDIT margins holds" -> true, pbdit_margin, range "18" to "20" pct, FY of the call.
-- "We expect the JV to start reflecting in our revenues from Q3" -> true, milestone, subject "JV revenue starts", Q3 of the current FY.
-- "I have not seen the numbers, we will analyze and tell you" -> false.
+- "...guidance of 18-20% of our PBDIT margins holds" -> commitment, pbdit_margin, range "18" to "20" pct, FY of the call.
+- "We expect the JV to start reflecting in our revenues from Q3" -> commitment, milestone, subject "JV revenue starts", Q3 of the current FY.
+- "I have not seen the numbers, we will analyze and tell you" -> not a commitment.
 
-Fields:
+Put the id of every sentence that is not a commitment in non_commitment_ids. For each commitment, return
+an item in commitments with these fields:
 - metric: one of {metrics}.
-- target.kind: value | range | direction | none. low_text/high_text: copy the number(s) EXACTLY as written
+- target.kind: value | range | direction | none. "from 40 million to 190 million" is a value target of 190
+  (the current level is not part of the target); a range is only an explicit band such as "18-20%". low_text/high_text: copy the number(s) EXACTLY as written
   in the sentence (e.g. "18", "20", "1,100"); use "" when there is none. Never compute or convert numbers.
 - target.unit: pct | inr_cr | units | other | none. comparator: at_least | at_most | about | range | up | down | none.
 - horizon_token: Q1FY27 | H2FY27 | FY28 style when the period is named; or current_quarter | next_quarter |
   current_year | next_year for relative periods; medium_term | long_term if open-ended; none if not stated.
   (Indian fiscal year: FY27 = April 2026 to March 2027.)
+- scope: company if it is about the whole listed company's reported figures; segment if it is about a business
+  line, product, plant, joint venture, subsidiary, customer or region (e.g. "margin in our mobile business").
 - conditional: true if the commitment depends on a stated condition ("if demand holds", "subject to approval").
 - basis: standalone | consolidated | unspecified, only if the sentence says so.
 - subject: a 2-6 word description of what is promised (for milestones and other).
-- quote: the shortest verbatim span of the sentence that contains the commitment (copy exactly), or "" if not a commitment.
-For non-commitments set metric "other", target kind "none" with empty texts, unit/comparator "none".
-Return exactly one item per input id.
+- quote: the shortest verbatim span of the sentence that contains the commitment (copy exactly).
+Every input id must appear exactly once: either in non_commitment_ids or in commitments.
 
 Sentences (JSON; "context" is the preceding sentence, for reference only):
 {items}
@@ -86,7 +92,8 @@ Sentences (JSON; "context" is the preceding sentence, for reference only):
 
 
 def numbers(text: str) -> list[str]:
-    return [n.replace(",", "").rstrip(".") for n in NUM.findall(text or "")]
+    """Numbers as canonical strings, compared by value: "1,100" -> "1100", "9.0" -> "9"."""
+    return [f"{float(n.replace(',', '').rstrip('.')):g}" for n in NUM.findall(text or "")]
 
 
 def to_float(text: str) -> float | None:
@@ -119,24 +126,25 @@ def classify_call(call: dict, model: str | None = None) -> tuple[list[dict], lis
                                running=fy_label(shift(call["quarter_end"], 1)), metrics=", ".join(METRICS),
                                items=json.dumps([{"id": c["id"], "speaker": c["speaker"], "context": c["context"],
                                                   "sentence": c["sentence"]} for c in chunk], ensure_ascii=False))
-        got = {it.id: it for it in llm.call("classify", prompt, Batch, symbol=call["symbol"], model=model).items}
+        res = llm.call("classify", prompt, Batch, symbol=call["symbol"], model=model)
+        got, negatives = {it.id: it for it in res.commitments}, set(res.non_commitment_ids)
         for c in chunk:
             base = {k: c[k] for k in ("id", "page", "speaker", "sentence")} | {
                 "quarter": call["quarter"], "quarter_end": call["quarter_end"]}
             it = got.get(c["id"])
             if it is None:
-                rejected.append(base | {"reason": "model returned no label for this id"})
-                out.append(base | {"is_commitment": None})
+                if c["id"] not in negatives:
+                    rejected.append(base | {"reason": "model returned no label for this id"})
+                out.append(base | {"is_commitment": False if c["id"] in negatives else None})
                 continue
-            row = base | it.model_dump(exclude={"id"}) | {"quote": it.quote or c["sentence"]}
-            if it.is_commitment:
-                reason = check(it, c, call["text"])
-                if reason:
-                    rejected.append(row | {"reason": reason})
-                    row["is_commitment"], row["rejected"] = False, reason
-                else:
-                    t = row["target"]
-                    t["low"], t["high"] = to_float(t["low_text"]), to_float(t["high_text"])
-                    row["horizon"] = resolve_horizon(it.horizon_token, call["quarter_end"])
+            row = base | it.model_dump(exclude={"id"}) | {"quote": it.quote or c["sentence"], "is_commitment": True}
+            reason = check(it, c, call["text"])
+            if reason:
+                rejected.append(row | {"reason": reason})
+                row["is_commitment"], row["rejected"] = False, reason
+            else:
+                t = row["target"]
+                t["low"], t["high"] = to_float(t["low_text"]), to_float(t["high_text"])
+                row["horizon"] = resolve_horizon(it.horizon_token, call["quarter_end"])
             out.append(row)
     return out, rejected
