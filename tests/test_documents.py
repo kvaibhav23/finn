@@ -91,3 +91,44 @@ def test_con_call_subjects_are_candidates():
         {"category": "Updates", "subject": "Transcript of conference", "pdf_url": "d"},
     ])
     assert list(tr.candidates(ann)["pdf_url"]) == ["a", "b", "d"]
+
+
+def test_ir_opened_call_keeps_opening_remarks_and_firm_labelled_analysts(fx):
+    """Asian Paints: IR head opens, moderator appears only at Q&A, analysts labelled "Name (Firm):"."""
+    p = tr.parse_transcript(fx("transcript_asianpaint_2025-06_excerpt.pdf"))
+    assert set(p["management"]) == {"Amit Syngle", "Lakshya Sharma"}
+    assert {"Abneesh Roy", "Tejash Shah"} <= set(p["analysts"])     # Tejash's first turn has no "(Firm)" label
+    assert tr.opening_remarks(p) == {"first_page": 2, "last_page": 4, "qa_page": 4,
+                                     "speakers": ["Lakshya Sharma", "Amit Syngle"]}
+    sents = tr.management_sentences(p)
+    assert any(s["page"] == 2 and s["speaker"] == "Amit Syngle" for s in sents)    # opening remarks kept
+    assert not any("P a g e" in s["sentence"] for s in sents)                     # "3 | P a g e" footer stripped
+
+
+def test_segment_headings_fold_into_the_speakers_turn(fx):
+    """Dixon: "Mobile Phones:" etc. inside prepared remarks are headings, not speakers."""
+    p = tr.parse_transcript(fx("transcript_dixon_2025-06_excerpt.pdf"))
+    speakers = {t["speaker"] for t in p["turns"]}
+    assert not speakers & {"Mobile Phones", "LED TV", "Refrigerators", "Lighting", "At Rexxam Dixon Electronics"}
+    assert {"Atul Lall", "Saurabh Gupta"} <= set(p["management"])
+    assert "P Khandelwal" in p["analysts"]                          # introduced as "Piyush Khandelwal"
+    heading = [s for s in tr.management_sentences(p) if "Mobile Phones:" in s["sentence"]]
+    assert heading and heading[0]["speaker"] == "Atul Lall" and heading[0]["page"] == 3
+
+
+def test_management_sentences_are_verbatim_with_start_page(fx):
+    pdf = fx("transcript_dixon_2025-06_excerpt.pdf")
+    p = tr.parse_transcript(pdf)
+    pages = {}
+    for page, line in tr.page_lines(pdf):
+        pages[page] = pages.get(page, "") + " " + line
+    sents = tr.management_sentences(p)
+    assert len(sents) > 20 and all(tr.verify_quote(s["sentence"], p["text"]) for s in sents)
+    starts = [s for s in sents if tr.canonical(s["sentence"][:30]) in tr.canonical(pages[s["page"]])]
+    assert len(starts) == len(sents)
+
+
+def test_split_sentences_keeps_abbreviations_and_decimals():
+    text = "Mr. Rane said margins of 18.5% will hold. Capex is Rs. 700 crores! Next?"
+    assert [s for _, s in tr.split_sentences(text)] == [
+        "Mr. Rane said margins of 18.5% will hold.", "Capex is Rs. 700 crores!", "Next?"]

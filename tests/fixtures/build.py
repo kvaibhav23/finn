@@ -45,6 +45,12 @@ PDF_PAGES = {  # fixture name -> (cached URL, 0-based pages to keep)
     "agm_asianpaint_2026_p1-2.pdf": (f"{ARCH}/corporate/ASIANPAINT_16072026204353_SEIntimation80thAGMTranscriptandVideosigned.pdf", [0, 1]),
     "ar_tcs_fy26_excerpt.pdf": (f"{ARCH}/annual_reports/AR_29263_TCS_2025_2026_A_17427580_15052026234830.pdf",
                                 [0, 3, 41, 42, 167]),  # cover, TOC, MD&A x2, consolidated P&L (p.168)
+    # IR head opens (no moderator until Q&A), "Mr. Name : Title" roster, "Name (Firm):" analysts
+    "transcript_asianpaint_2025-06_excerpt.pdf": (f"{ARCH}/corporate/ASIANPAINT_02082025122344_SEintimationtranscript.pdf",
+                                                  [1, 2, 3, 18, 19, 20]),
+    # segment headings in prepared remarks ("Mobile Phones:"), "P Khandelwal" <- "Piyush Khandelwal"
+    "transcript_dixon_2025-06_excerpt.pdf": (f"{ARCH}/corporate/DIXON_28072025185656_28072025Transcript.pdf",
+                                             [1, 2, 3, 4, 5, 6, 10, 11]),
 }
 
 
