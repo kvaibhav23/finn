@@ -1,12 +1,16 @@
 # Spike 08: are NSE sources reachable from cloud servers?
 
-**Status: local baseline done. Cloud columns are waiting on runs.**
+**Status: local and GitHub Actions columns done. Other hosts are waiting on manual runs.**
 
 **Verdict:**
 - **Local (residential):** PASS, 7/7 data checks.
-- **Cloud:** to be decided. This spike decides FINN's deployment.
+- **Cloud, GitHub Actions `ubuntu-latest` (Azure, github-hosted):** PASS, 7/7 data checks, identical to local (2 runs, 2026-11-01 17:43 and 18:13 IST).
+- **Other cloud providers and regions:** not run yet. This spike decides FINN's deployment.
 
 Run: `python spikes/08_cloud_reachability/run.py --env <label>`
+
+## Verdict
+**(A) Everything works from the cloud.** On GitHub's Azure-hosted runner, the static `nsearchives` files and all three cookie-gated `/api/` calls returned 200 with real data, identical to the local Mac. Caveats: two runs from one datacentre; steady scheduled polling and Indian regions are untested.
 
 ## Method
 - **Same requests everywhere.** The headers are imported unchanged from `spikes/common.py`, as used by spikes 01–07. Only the network differs.
@@ -28,16 +32,16 @@ Cell format: `status verdict · latency (· items)`. Columns marked *pending* ar
 
 | id | check | local-mac (residential) | github-ubuntu-latest | aws-ap-south-1 | gcp-asia-south1 | indian-vps | other (non-India) |
 |---|---|---|---|---|---|---|---|
-| a1 | `nsearchives` EQUITY_L.csv | 200 OK · 533 ms | *pending* | | | | |
-| a2 | `nsearchives` UDiFF bhavcopy (last trading day) | 200 OK · 283 ms (2026-10-30) | *pending* | | | | |
-| a3 | `nsearchives` known XBRL (TCS Q2 FY27) | 200 OK · 99 ms | *pending* | | | | |
-| a4 | `nsearchives` known PDF (RIL, 239 KB) | 200 OK · 187 ms | *pending* | | | | |
-| b0 | `www` home-page warm-up (recorded only) | 403 BLOCKED · 319 ms | *pending* | | | | |
-| b1 | `/api/corporate-announcements` (RELIANCE, 7 days) | 200 OK · 911 ms · 8 items | *pending* | | | | |
-| b2 | `/api/integrated-filing-results` (TCS, financials) | 200 OK · 179 ms · 14 items | *pending* | | | | |
-| b3 | `/api/annual-reports` (TCS) | 200 OK · 187 ms · 17 items | *pending* | | | | |
-| | run time (IST) | 2026-11-01 05:08 | | | | | |
-| | re-warm used? | no | | | | | |
+| a1 | `nsearchives` EQUITY_L.csv | 200 OK · 533 ms | 200 OK · 353 ms | | | | |
+| a2 | `nsearchives` UDiFF bhavcopy (last trading day) | 200 OK · 283 ms (2026-10-30) | 200 OK · 212 ms (2026-10-30) | | | | |
+| a3 | `nsearchives` known XBRL (TCS Q2 FY27) | 200 OK · 99 ms | 200 OK · 220 ms | | | | |
+| a4 | `nsearchives` known PDF (RIL, 239 KB) | 200 OK · 187 ms | 200 OK · 208 ms | | | | |
+| b0 | `www` home-page warm-up (recorded only) | 403 BLOCKED · 319 ms | 403 BLOCKED · 77 ms | | | | |
+| b1 | `/api/corporate-announcements` (RELIANCE, 7 days) | 200 OK · 911 ms · 8 items | 200 OK · 672 ms · 8 items | | | | |
+| b2 | `/api/integrated-filing-results` (TCS, financials) | 200 OK · 179 ms · 14 items | 200 OK · 272 ms · 14 items | | | | |
+| b3 | `/api/annual-reports` (TCS) | 200 OK · 187 ms · 17 items | 200 OK · 284 ms · 17 items | | | | |
+| | run time (IST) | 2026-11-01 05:08 | 2026-11-01 17:43 (run 41305423895); repeated 18:13 (run 41307837602), identical verdicts | | | | |
+| | re-warm used? | no | no | | | | |
 
 ### Local notes (local-mac, 2026-11-01 05:07 and 05:08 IST, two runs, identical verdicts)
 - **The home page returns 403 "Access Denied" from a residential connection too**, yet every `/api/` call succeeds after it.
@@ -45,8 +49,17 @@ Cell format: `status verdict · latency (· items)`. Columns marked *pending* ar
   - Whether the API needs the warm-up at all wasn't tested; that would be probing the bot defences.
 - **The first run used TCS for b1.** It returned `[]` (200 OK, 2 bytes), because TCS genuinely had no filings that week. b1 was switched to RELIANCE (8 items) so a success can't be confused with an empty soft-block.
 
+### GitHub Actions notes (run 41305423895, 2026-11-01 17:43 IST)
+- **Runner:** `Linux-7.0.0-1017-azure-x86_64`, `RUNNER_ENVIRONMENT=github-hosted`, Python 3.12.15. The Azure region isn't exposed or chosen.
+- **Same pattern as local:**
+  - the home page returns 403 with only the `AKA_A2` cookie;
+  - all three APIs return 200 with the same item counts (8 / 14 / 17);
+  - every static file returns 200 with byte-identical sizes.
+- **Second run** (41307837602, 18:13 IST, 30 min later): identical verdicts and item counts. Latencies were 104–729 ms (a1 114 ms, b1 729 ms).
+- **Scope:** this is two runs, 30 minutes apart, from one datacentre. Akamai policy can vary by IP reputation, region and load. Treat it as "not blocked by default from a major cloud", not a guarantee. Sustained or scheduled polling from cloud IPs is untested.
+
 ### Failure excerpts
-- **local-mac b0** `403`: `<HTML><HEAD><TITLE>Access Denied</TITLE></HEAD><BODY><H1>Access Denied</H1> You don't have permission to access "http://www.nseindia.com/" on this server.<P> Reference…`
+- **local-mac b0 and github-ubuntu-latest b0** `403` (identical bodies): `<HTML><HEAD><TITLE>Access Denied</TITLE></HEAD><BODY><H1>Access Denied</H1> You don't have permission to access "http://www.nseindia.com/" on this server.<P> Reference…`
 
 ## How to run on another host
 ```bash
