@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-02T12:00:42Z",
+ "generated_at": "2026-11-02T12:15:04Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2629,22 +2629,6 @@
   },
   {
    "date": "2026-10-28",
-   "tag": "Appointment",
-   "worth_a_look": false,
-   "category": "Appointment",
-   "subject": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "tag": "Other",
-   "worth_a_look": false,
-   "category": "Giving guarantees/indemnity/ becoming a surety for third party",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
    "tag": "Expansion",
    "worth_a_look": false,
    "category": "Acquisition",
@@ -2658,6 +2642,22 @@
    "category": "Sale or disposal",
    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "tag": "Appointment",
+   "worth_a_look": false,
+   "category": "Appointment",
+   "subject": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "tag": "Other",
+   "worth_a_look": false,
+   "category": "Giving guarantees/indemnity/ becoming a surety for third party",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2720,16 +2720,16 @@
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-11",
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-01",
