@@ -90,4 +90,93 @@ export interface IndexEntry {
   to: string | null;
   promises: number;
   counts: Record<Verdict, number>;
+  close?: number | null;
+  change_pct?: number | null;
+  price_as_of?: string | null;
+}
+
+// Written by finn.market via scripts/build_web_data.py: prices (NSE bhavcopy), results (XBRL), filings (NSE).
+
+export interface PriceStats {
+  as_of: string;
+  close: number;
+  change: number | null;
+  change_pct: number | null;
+  high_52w: number;
+  low_52w: number;
+  range_position: number | null;
+  return_1y: number | null;
+  nifty_return_1y: number | null;
+  delivery_20d: number | null;
+  delivery_avg: number | null;
+  delivery_sessions: number;
+}
+
+export interface QuarterFigures {
+  quarter: string;
+  qe: string;
+  revenue_cr: number | null;
+  pat_cr: number | null;
+  xbrl_url: string | null;
+}
+
+export interface Results {
+  basis: string;
+  bank: boolean;
+  latest_quarter: string;
+  latest_qe: string;
+  xbrl_url: string | null;
+  top_line: string;
+  ttm_revenue_cr: number | null;
+  ttm_pat_cr: number | null;
+  ttm_margin_pct: number | null;
+  ttm_eps: number | null;
+  pe: number | null;
+  pe_note: string | null;
+  market_cap_cr: number | null;
+  revenue_yoy_pct: number | null;
+  pat_yoy_pct: number | null;
+  net_npa_pct: number | null;
+  quarters: QuarterFigures[];
+}
+
+export interface Filing {
+  date: string | null;
+  tag: string;
+  worth_a_look: boolean;
+  category: string;
+  subject: string;
+  pdf_url: string;
+}
+
+export interface Signal {
+  key: "track" | "price" | "delivery" | "filings";
+  label: string;
+  text: string;
+  detail: string | null;
+  source: "promises" | "prices" | "filings";
+  items?: { date: string | null; tag: string; pdf_url: string }[];
+}
+
+export interface CallDate {
+  quarter: string;
+  date: string;
+  pdf_url: string | null;
+}
+
+/** [date, close, volume, delivery %] */
+export type PriceRow = [string, number, number, number | null];
+
+export interface Market {
+  symbol: string;
+  generated_at: string;
+  price: PriceStats | null;
+  prices: { source: string; adjusted_for: string[]; rows: PriceRow[] } | null;
+  nifty: [string, number][] | null;
+  results: Results | null;
+  filings: Filing[] | null;
+  calls: CallDate[] | null;
+  signals: Signal[];
+  summary: string[];
+  missing: string[];
 }

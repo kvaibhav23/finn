@@ -70,7 +70,7 @@ def test_build_writes_index_and_status_ledgers(tmp_path):
     out = tmp_path / "out"
     out.mkdir()
     (out / "symbols.json").write_text(json.dumps([["X", "X Ltd"], ["Y", "Y Industries"]]))
-    idx = {i["symbol"]: i for i in bw.build(tmp_path / "in", out)}
+    idx = {i["symbol"]: i for i in bw.build(tmp_path / "in", out, tmp_path / "market")}
     assert idx["X"]["counts"]["Kept"] == 1 and idx["Y"]["status"] == "no_transcripts" and idx["Y"]["name"] == "Y Industries"
     assert json.loads((out / "ledgers" / "Y.json").read_text())["promises"] == []
 
@@ -82,3 +82,18 @@ def test_bank_nan_revenue_cannot_be_compared():
     df = pd.DataFrame([{"qe": q[0], "revenue": float("nan"), "pbt": 1e9, "finance_costs": 0.0, "dep_amort": 0.0,
                         "other_income": 0.0, "receipts": {}}])
     assert rs.compute("pbdit_margin", df, q) is None
+
+
+def test_summary_sentences_need_their_facts():
+    m = {"symbol": "TCS", "price": {"close": 3412.5, "as_of": "2026-10-30", "return_1y": -8.24,
+                                    "nifty_return_1y": 6.1},
+         "results": {"latest_quarter": "Q2FY27", "revenue_yoy_pct": 5.04, "pat_yoy_pct": -2.0, "bank": False}}
+    s = bw.summary("TCS", m, {"Kept": 4, "Missed": 1})
+    assert s == ["TCS closed at ₹3,412.50 on 30 Oct 2026, down 8.2% over the year, while the Nifty 50 rose 6.1%.",
+                 "Management kept 4 of the 5 promises FINN could check against results.",
+                 "In Q2 FY27, revenue grew 5.0% and profit fell 2.0% on a year earlier."]
+    m["results"]["pat_yoy_pct"] = None
+    m["price"]["nifty_return_1y"] = None
+    s = bw.summary("TCS", m, {"Kept": 1, "Missed": 1})
+    assert s == ["TCS closed at ₹3,412.50 on 30 Oct 2026, down 8.2% over the year."]
+    assert bw.summary("TCS", {"symbol": "TCS"}, None) == []

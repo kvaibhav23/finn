@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { IndexEntry, Ledger } from "./types";
+import type { IndexEntry, Ledger, Market } from "./types";
 
 const DATA = path.join(process.cwd(), "public", "data");
 
@@ -21,6 +21,11 @@ export const getSymbols = async () => (await json<[string, string][]>("symbols.j
 export async function getLedger(symbol: string): Promise<Ledger | null> {
   if (!/^[A-Z0-9&_-]{1,20}$/.test(symbol)) return null;
   return json<Ledger>(`ledgers/${symbol}.json`);
+}
+
+export async function getMarket(symbol: string): Promise<Market | null> {
+  if (!/^[A-Z0-9&_-]{1,20}$/.test(symbol)) return null;
+  return json<Market>(`market/${symbol}.json`);
 }
 
 export async function companyName(symbol: string): Promise<string | null> {

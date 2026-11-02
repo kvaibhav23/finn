@@ -4,7 +4,7 @@ import { Search } from "@/components/Search";
 import { Track } from "@/components/Track";
 import { VerdictMark } from "@/components/VerdictMark";
 import { getIndex, getLedger } from "@/lib/data";
-import { displayName, monthYear, quarter } from "@/lib/format";
+import { displayName, monthYear, quarter, rupees, signedPct } from "@/lib/format";
 import type { IndexEntry, Ledger, Promise_ } from "@/lib/types";
 
 /** A real promise for the opening example: a Kept one with a filed (XBRL) actual, repeated across calls. */
@@ -72,8 +72,8 @@ export default async function Home() {
       )}
 
       <section aria-labelledby="ready-title">
-        <h2 className="section-title" id="ready-title">Ledgers ready to read</h2>
-        <p className="section-sub">Search above to request any other NSE company.</p>
+        <h2 className="section-title" id="ready-title">Companies ready to read</h2>
+        <p className="section-sub">Prices, results and filings update every weekday night. Search above to request any other NSE company.</p>
         <ul className="co-list">
           {ready.map((e) => {
             const decided = e.counts.Kept + e.counts.Missed;
@@ -82,6 +82,16 @@ export default async function Home() {
                 <Link href={`/c/${e.symbol}`} className="co-row">
                   <span className="co-name">
                     {displayName(e.name, e.symbol)}<span className="co-sym">{e.symbol}</span>
+                    {e.close != null && (
+                      <span className="co-price">
+                        <b>{rupees(e.close)}</b>{" "}
+                        {e.change_pct != null && (
+                          <span className={e.change_pct > 0 ? "up" : e.change_pct < 0 ? "down" : ""}>
+                            {signedPct(e.change_pct, 2)}
+                          </span>
+                        )}
+                      </span>
+                    )}
                   </span>
                   <span className="co-span">
                     {e.calls} calls, {quarter(e.from)} to {quarter(e.to)}

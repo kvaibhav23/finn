@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import { monthYear, pageLink, quarter } from "@/lib/format";
 import { VERDICTS, type Ledger, type Promise_, type Verdict } from "@/lib/types";
+import { GROUPS, MEANING } from "@/lib/verdicts";
 
 import { Track, domainFor, type Domain } from "./Track";
 import { VerdictMark, verdictClass } from "./VerdictMark";
@@ -13,6 +14,7 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
   const [metric, setMetric] = useState("All");
   const [made, setMade] = useState("All");
   const [open, setOpen] = useState<Set<string>>(new Set());
+  const [showUnverifiable, setShowUnverifiable] = useState(false);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(VERDICTS.map((v) => [v, 0])) as Record<Verdict, number>;
@@ -21,14 +23,29 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
   }, [ledger]);
   const metrics = useMemo(() => [...new Set(ledger.promises.map((p) => p.metric_label))].sort(), [ledger]);
   const domain = useMemo(() => domainFor(ledger.promises, ledger.calls), [ledger]);
-  const shown = ledger.promises.filter((p) =>
+  const matching = ledger.promises.filter((p) =>
     (verdict === "All" || p.verdict === verdict) && (metric === "All" || p.metric_label === metric)
     && (made === "All" || p.first_quarter === made));
+  // Promises nothing could check are kept out of the way under "All": they bury the ones with an answer.
+  const hidden = verdict === "All" && !showUnverifiable ? matching.filter((p) => p.verdict === "Unverifiable").length : 0;
+  const shown = hidden ? matching.filter((p) => p.verdict !== "Unverifiable") : matching;
+
+  // A tap on an earnings call in the price chart shows the promises first made on that call.
+  useEffect(() => {
+    const onMade = (e: Event) => {
+      const q = (e as CustomEvent<string>).detail;
+      if (ledger.calls.some((c) => c.quarter === q)) { setMade(q); setVerdict("All"); setMetric("All"); }
+    };
+    window.addEventListener("finn:made", onMade);
+    return () => window.removeEventListener("finn:made", onMade);
+  }, [ledger]);
 
   // /c/SYMBOL#<promise id> opens that promise: a shareable link to one receipt.
   useEffect(() => {
     const id = decodeURIComponent(window.location.hash.slice(1));
-    if (!id || !ledger.promises.some((p) => p.id === id)) return;
+    const target = ledger.promises.find((p) => p.id === id);
+    if (!id || !target) return;
+    if (target.verdict === "Unverifiable") setShowUnverifiable(true);
     setOpen(new Set([id]));
     requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
   }, [ledger]);
@@ -45,13 +62,19 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
         <button type="button" aria-pressed={verdict === "All"} onClick={() => setVerdict("All")}>
           All <span className="n">{ledger.promises.length}</span>
         </button>
-        {VERDICTS.map((v) => (
-          <button key={v} type="button" aria-pressed={verdict === v} disabled={!counts[v]}
-                  onClick={() => setVerdict(verdict === v ? "All" : v)}>
-            <VerdictMark verdict={v} /> {v} <span className="n">{counts[v]}</span>
-          </button>
+        {GROUPS.map((g) => (
+          <span key={g.label} className="tally-group">
+            <span className="tally-label">{g.label}</span>
+            {g.verdicts.map((v) => (
+              <button key={v} type="button" aria-pressed={verdict === v} disabled={!counts[v]}
+                      onClick={() => setVerdict(verdict === v ? "All" : v)}>
+                <VerdictMark verdict={v} /> {v} <span className="n">{counts[v]}</span>
+              </button>
+            ))}
+          </span>
         ))}
       </div>
+      {verdict !== "All" && <p className="meaning"><b>{verdict}:</b> {MEANING[verdict]}</p>}
 
       <div className="filters">
         <label>Metric
@@ -66,17 +89,31 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
             {ledger.calls.map((c) => <option key={c.quarter} value={c.quarter}>{quarter(c.quarter)}</option>)}
           </select>
         </label>
+        {made !== "All" && (
+          <button type="button" className="btn-plain" onClick={() => setMade("All")}>Show every call</button>
+        )}
         <span className="count" aria-live="polite">{shown.length} of {ledger.promises.length} promises</span>
       </div>
 
       {shown.length === 0 ? (
-        <p className="empty">No promises match these filters.</p>
+        <p className="empty">{hidden ? "Every promise here is one FINN couldn't check." : "No promises match these filters."}</p>
       ) : (
         <ul className="rows">
           {shown.map((p) => (
             <Row key={p.id} p={p} ledger={ledger} domain={domain} open={open.has(p.id)} onToggle={() => toggle(p.id)} />
           ))}
         </ul>
+      )}
+      {(hidden > 0 || (showUnverifiable && verdict === "All")) && (
+        <p className="unverified">
+          {hidden > 0
+            ? <>{hidden} more {hidden === 1 ? "promise" : "promises"} couldn&apos;t be checked: no filed figure matches
+                them and management never said what happened. </>
+            : <>Showing the promises FINN couldn&apos;t check as well. </>}
+          <button type="button" className="btn-plain" onClick={() => setShowUnverifiable(!showUnverifiable)}>
+            {hidden > 0 ? "Show them" : "Hide them"}
+          </button>
+        </p>
       )}
     </>
   );

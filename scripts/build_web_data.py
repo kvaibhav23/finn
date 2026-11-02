@@ -1,4 +1,4 @@
-"""Build the website's data from the ledgers: web/public/data/{symbols,index}.json + ledgers/<SYM>.json.
+"""Build the website's data: web/public/data/{symbols,index}.json + ledgers/<SYM>.json + market/<SYM>.json.
 
     python scripts/build_web_data.py            # all ledgers in data/ledger/
     python scripts/build_web_data.py --symbols  # also refresh the NSE symbol list (1 request, cached daily)
@@ -11,6 +11,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+from datetime import date
 from pathlib import Path
 
 from finn.ledger.classify import numbers
@@ -19,6 +21,7 @@ from finn.ledger.thread import effective
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGERS = ROOT / "data" / "ledger"
+MARKET = ROOT / "data" / "market"
 OUT = ROOT / "web" / "public" / "data"
 
 METRIC_LABEL = {"revenue_growth": "Revenue growth", "ebitda_margin": "EBITDA margin", "pbdit_margin": "PBDIT margin",
@@ -123,8 +126,46 @@ def counts(promises: list[dict]) -> dict:
     return c
 
 
-def build(ledger_dir: Path = LEDGERS, out: Path = OUT) -> list[dict]:
+def _q(token: str) -> str:
+    return re.sub(r"^(Q\d)(FY)", r"\1 \2", token)
+
+
+def summary(symbol: str, m: dict, counts: dict | None) -> list[str]:
+    """Up to three plain sentences, each written from facts in the file. A sentence whose facts are
+    missing is left out rather than worded around the gap."""
+    out = []
+    p = m.get("price") or {}
+    if p.get("close") is not None and p.get("as_of"):
+        d = date.fromisoformat(p["as_of"])
+        line = f"{symbol} closed at ₹{p['close']:,.2f} on {d.day} {d:%b %Y}"
+        r, n = p.get("return_1y"), p.get("nifty_return_1y")
+        if r is not None:
+            line += f", {'up' if r >= 0 else 'down'} {abs(r):.1f}% over the year"
+            if n is not None:
+                line += f", while the Nifty 50 {'rose' if n >= 0 else 'fell'} {abs(n):.1f}%"
+        out.append(line + ".")
+    if counts:
+        kept, decided = counts.get("Kept", 0), counts.get("Kept", 0) + counts.get("Missed", 0)
+        if decided >= 3:
+            out.append(f"Management kept {kept} of the {decided} promises FINN could check against results.")
+    r = m.get("results") or {}
+    rev, pat = r.get("revenue_yoy_pct"), r.get("pat_yoy_pct")
+    if rev is not None and pat is not None and r.get("latest_quarter"):
+        top = "total income" if r.get("bank") else "revenue"
+        out.append(f"In {_q(r['latest_quarter'])}, {top} {'grew' if rev >= 0 else 'fell'} {abs(rev):.1f}% and profit "
+                   f"{'grew' if pat >= 0 else 'fell'} {abs(pat):.1f}% on a year earlier.")
+    return out
+
+
+def slim_market(m: dict, counts: dict | None) -> dict:
+    keep = ("symbol", "generated_at", "price", "prices", "nifty", "results", "filings", "calls", "signals")
+    return {k: m.get(k) for k in keep} | {"summary": summary(m["symbol"], m, counts),
+                                          "missing": sorted((m.get("errors") or {}).keys())}
+
+
+def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET) -> list[dict]:
     (out / "ledgers").mkdir(parents=True, exist_ok=True)
+    (out / "market").mkdir(parents=True, exist_ok=True)
     sym_file = out / "symbols.json"
     names = dict(json.loads(sym_file.read_text())) if sym_file.exists() else {}
     index = []
@@ -137,11 +178,19 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT) -> list[dict]:
         s = slim(L | {"status": L.get("status", "ok"), "name": L.get("name") or names.get(L["symbol"])})
         (out / "ledgers" / f"{s['symbol']}.json").write_text(json.dumps(s, ensure_ascii=False, separators=(",", ":")))
         calls = s["calls"]
+        mf = market_dir / f"{s['symbol']}.json"
+        price = None
+        if mf.exists():
+            mk = slim_market(json.loads(mf.read_text()), counts(s["promises"]) if s["status"] == "ok" else None)
+            (out / "market" / mf.name).write_text(json.dumps(mk, ensure_ascii=False, separators=(",", ":")))
+            price = mk.get("price")
         index.append({"symbol": s["symbol"], "name": s["name"], "status": s["status"],
                       "generated_at": s["generated_at"], "as_of_results": s.get("as_of_results"),
                       "calls": len(calls), "from": calls[0]["quarter"] if calls else None,
                       "to": calls[-1]["quarter"] if calls else None, "promises": len(s["promises"]),
-                      "counts": counts(s["promises"])})
+                      "counts": counts(s["promises"]),
+                      "close": (price or {}).get("close"), "change_pct": (price or {}).get("change_pct"),
+                      "price_as_of": (price or {}).get("as_of")})
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
     return index
 

@@ -17,7 +17,10 @@
    "Pending": 10,
    "Dropped": 1,
    "Unverifiable": 14
-  }
+  },
+  "close": 2344.3,
+  "change_pct": 1.0474137931034466,
+  "price_as_of": "2026-11-02"
  },
  {
   "symbol": "DIXON",
@@ -37,7 +40,10 @@
    "Pending": 70,
    "Dropped": 1,
    "Unverifiable": 80
-  }
+  },
+  "close": 12319.0,
+  "change_pct": 11.990909090909096,
+  "price_as_of": "2026-11-02"
  },
  {
   "symbol": "KPITTECH",
@@ -57,7 +63,10 @@
    "Pending": 32,
    "Dropped": 1,
    "Unverifiable": 21
-  }
+  },
+  "close": 531.95,
+  "change_pct": 0.32060348892033463,
+  "price_as_of": "2026-11-02"
  },
  {
   "symbol": "SUPREMEIND",
@@ -77,7 +86,10 @@
    "Pending": 26,
    "Dropped": 0,
    "Unverifiable": 18
-  }
+  },
+  "close": 3218.2,
+  "change_pct": 2.16507936507937,
+  "price_as_of": "2026-11-02"
  },
  {
   "symbol": "TCS",
@@ -97,6 +109,9 @@
    "Pending": 14,
    "Dropped": 1,
    "Unverifiable": 20
-  }
+  },
+  "close": 2501.7,
+  "change_pct": -0.035962598897154585,
+  "price_as_of": "2026-11-02"
  }
 ]

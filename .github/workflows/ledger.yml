@@ -53,6 +53,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -m finn.ledger "$SYMBOL" --quarters 6
 
+      # Prices, key numbers and filings for the company page (NSE files only, no model).
+      - name: Read prices, results and filings
+        if: always()
+        continue-on-error: true
+        run: python -m finn.market "$SYMBOL"
+
       # Runs even if the analysis failed: the site then shows what went wrong instead of waiting.
       - name: Build site data
         if: always()
@@ -63,7 +69,7 @@ jobs:
         run: |
           git config user.name "finn-ledger-bot"
           git config user.email "finn-ledger-bot@users.noreply.github.com"
-          git add "data/ledger/$SYMBOL.json" "data/ledger/$SYMBOL.md" web/public/data || true
+          git add "data/ledger/$SYMBOL.json" "data/ledger/$SYMBOL.md" data/market web/public/data || true
           git diff --cached --quiet && { echo "nothing to publish"; exit 0; }
           git commit -m "Ledger: $SYMBOL"
           for i in 1 2 3; do

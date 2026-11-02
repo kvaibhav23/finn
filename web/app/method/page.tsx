@@ -1,19 +1,12 @@
 import type { Metadata } from "next";
 
 import { VerdictMark } from "@/components/VerdictMark";
-import type { Verdict } from "@/lib/types";
+import { VERDICTS } from "@/lib/types";
+import { MEANING } from "@/lib/verdicts";
 
 export const metadata: Metadata = { title: "How it works" };
 
-const RULES: [Verdict, string][] = [
-  ["Kept", "The deadline has passed and the filed result met the target. Beating a margin or growth band counts; overspending a budget does not."],
-  ["Missed", "The deadline has passed and the result fell short, or management said it was delayed."],
-  ["On track", "Not due yet, and the results so far already meet the target."],
-  ["Revised", "Not due yet, and a later call changed the number or the deadline."],
-  ["Pending", "Not due yet, or no deadline was given, and there is nothing to judge so far."],
-  ["Dropped", "Never mentioned again in any later call FINN read."],
-  ["Unverifiable", "Due, but there is no filed figure and management never said what happened."],
-];
+const RULES = VERDICTS.map((v) => [v, MEANING[v]] as const);
 
 export default function Method() {
   return (
@@ -62,6 +55,38 @@ export default function Method() {
           </div>
         ))}
       </dl>
+
+      <h2>Prices, results and filings</h2>
+      <p>
+        Each company page also shows the share price, key numbers and recent filings, all from NSE, and refreshed every
+        weekday night after the market&apos;s files are published.
+      </p>
+      <ul>
+        <li>
+          <b>Prices</b> are NSE&apos;s official daily closing prices, not live quotes. Prices before a split or bonus
+          are adjusted so the chart has no false drops. Dotted lines on the chart mark earnings calls; tap one to read
+          what was promised on that call.
+        </li>
+        <li>
+          <b>Key numbers</b> such as profit, growth, margin and P/E are computed from the results the company filed
+          with NSE (XBRL). Market cap is shares on issue times the last close. Nothing is estimated: a number that
+          can&apos;t be computed from filings is left out.
+        </li>
+        <li>
+          <b>Filings</b> are the company&apos;s own announcements to NSE, each linking the original document. Routine
+          paperwork is left out. Resignations, auditor changes, pledges, credit ratings and regulatory orders are
+          marked &ldquo;worth a look&rdquo; by fixed rules, not by a model.
+        </li>
+        <li>
+          <b>Signals</b> are four plain facts: how many checkable promises management kept, how the price moved
+          against the Nifty 50, whether delivery is above or below usual, and any filings worth a look. They are not
+          a rating.
+        </li>
+      </ul>
+      <p>
+        When a company files a new earnings-call transcript or new results, FINN checks its promises again
+        overnight, one company a night.
+      </p>
 
       <h2>What to keep in mind</h2>
       <p>

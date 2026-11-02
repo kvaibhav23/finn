@@ -75,3 +75,22 @@ def get_eod(day: date, with_delivery: bool = False, client: http.Client | None =
         df = df.merge(parse_full(full), on=["symbol", "series"], how="left")
     df.attrs["source_url"] = UDIFF.format(d=day)
     return df
+
+
+INDICES = "https://nsearchives.nseindia.com/content/indices/ind_close_all_{d:%d%m%Y}.csv"
+
+
+def parse_index_close(csv_bytes: bytes) -> dict[str, float]:
+    df = pd.read_csv(io.BytesIO(csv_bytes), skipinitialspace=True)
+    df.columns = [c.strip() for c in df.columns]
+    closes = pd.to_numeric(df["Closing Index Value"], errors="coerce")
+    return {str(n).strip(): float(v) for n, v in zip(df["Index Name"], closes) if pd.notna(v)}
+
+
+def get_index_close(day: date, client: http.Client | None = None) -> dict[str, float] | None:
+    """Closing value of every NSE index for one day ({"Nifty 50": 23053.1, ...}); None if no session."""
+    c = client or http.client()
+    if day > c.today():
+        raise NotYetPublished(f"{day} is in the future")
+    raw = _fetch_daily_file(INDICES.format(d=day), day, c)
+    return parse_index_close(raw) if raw is not None else None

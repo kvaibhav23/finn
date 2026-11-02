@@ -1,0 +1,72 @@
+# The nightly refresh: prices, key numbers and filings for every company on the site, then a promise
+# ledger rerun for one company whose ledger is out of date (a new earnings call or new results).
+# 19:30 UTC = 01:00 IST, after NSE publishes the day's delivery file (~23:55 IST).
+name: Daily update
+run-name: daily update
+
+on:
+  schedule:
+    - cron: "30 19 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install FINN
+        run: pip install -e .
+
+      - name: Restore cache
+        uses: actions/cache@v6
+        with:
+          path: |
+            data/raw
+            data/llm_cache
+          key: finn-${{ github.run_id }}
+          restore-keys: finn-
+
+      - name: Read prices, results and filings
+        run: python -m finn.market --ledgers --stale > stale.tsv
+
+      - name: Build site data
+        run: python scripts/build_web_data.py
+
+      - name: Publish
+        run: |
+          git config user.name "finn-ledger-bot"
+          git config user.email "finn-ledger-bot@users.noreply.github.com"
+          git add data/market web/public/data
+          git diff --cached --quiet && { echo "nothing to publish"; exit 0; }
+          git commit -m "Daily update $(TZ=Asia/Kolkata date +%F)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+
+      # One rerun a night: the Gemini free tier allows one analysis at a time.
+      # (workflow_dispatch is one of the events the built-in token may start.)
+      - name: Rerun one out-of-date ledger
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat stale.tsv
+          [ -s stale.tsv ] || { echo "all ledgers up to date"; exit 0; }
+          IFS=$'\t' read -r sym why < stale.tsv
+          echo "rerunning $sym: $why"
+          gh workflow run ledger.yml -f symbol="$sym"

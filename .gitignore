@@ -1,6 +1,7 @@
 .venv/
 /data/*
 !/data/ledger/
+!/data/market/
 /data/ledger/cost_log.jsonl
 .env
 __pycache__/

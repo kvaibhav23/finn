@@ -20,3 +20,27 @@ export function pageLink(pdf: string | null, page: number): string | null {
 export function displayName(name: string | null, symbol: string): string {
   return name ? name.replace(/\s+Limited$/i, "").replace(/\s+Ltd\.?$/i, "") : symbol;
 }
+
+/** 3412.5 -> "₹3,412.50" (Indian digit grouping) */
+export function rupees(n: number, digits = 2): string {
+  return `₹${n.toLocaleString("en-IN", { minimumFractionDigits: digits, maximumFractionDigits: digits })}`;
+}
+
+/** Crore amounts the way Indian investors read them: "₹12.34 lakh cr" from 1,00,000 crore, else "₹45,230 cr". */
+export function crore(n: number): string {
+  if (Math.abs(n) >= 100_000) return `₹${(n / 100_000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} lakh cr`;
+  return `₹${n.toLocaleString("en-IN", { maximumFractionDigits: Math.abs(n) >= 100 ? 0 : 1 })} cr`;
+}
+
+/** 4.26 -> "+4.3%", -1.2 -> "−1.2%" (a true minus sign) */
+export function signedPct(n: number, digits = 1): string {
+  const s = Math.abs(n).toFixed(digits);
+  return n > 0 ? `+${s}%` : n < 0 ? `−${s}%` : `${s}%`;
+}
+
+/** "2026-10-30" -> "30 Oct 2026" */
+export function dayMonthYear(iso: string | null | undefined): string {
+  if (!iso) return "";
+  const [y, m, d] = iso.split("-");
+  return `${Number(d)} ${MONTHS[Number(m) - 1]} ${y}`;
+}
