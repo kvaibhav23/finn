@@ -78,5 +78,25 @@
    "Dropped": 0,
    "Unverifiable": 18
   }
+ },
+ {
+  "symbol": "TCS",
+  "name": "Tata Consultancy Services Limited",
+  "status": "ok",
+  "generated_at": "2026-11-02T09:20:26Z",
+  "as_of_results": "2026-09-30",
+  "calls": 6,
+  "from": "Q1FY26",
+  "to": "Q2FY27",
+  "promises": 46,
+  "counts": {
+   "Kept": 4,
+   "Missed": 1,
+   "On track": 1,
+   "Revised": 5,
+   "Pending": 14,
+   "Dropped": 1,
+   "Unverifiable": 20
+  }
  }
 ]
