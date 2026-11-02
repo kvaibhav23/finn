@@ -51,6 +51,15 @@ def _change(v: dict) -> str:
     return f"{old} → {new}" if old != new else f"due {_due(v['revised_from']['horizon'])} → {_due(v['horizon'])}"
 
 
+def write_status(ledger: dict) -> Path:
+    """A ledger with no promises (no transcripts, or a failed run): JSON + a one-line markdown."""
+    OUT.mkdir(parents=True, exist_ok=True)
+    js = OUT / f"{ledger['symbol']}.json"
+    js.write_text(json.dumps(ledger, indent=1, ensure_ascii=False, default=str))
+    (OUT / f"{ledger['symbol']}.md").write_text(f"# {ledger['symbol']}: promise ledger\n\n{ledger['message']}\n")
+    return js
+
+
 def write(ledger: dict) -> tuple[Path, Path]:
     OUT.mkdir(parents=True, exist_ok=True)
     sym = ledger["symbol"]

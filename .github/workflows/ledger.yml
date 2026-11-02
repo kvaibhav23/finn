@@ -1,0 +1,73 @@
+# The analysis worker behind the website: one run = one company's promise ledger.
+# Started by web/app/api/analyze (workflow_dispatch). A run takes ~10-15 minutes, longer than a
+# Vercel function may live; the ledger is committed and Vercel redeploys with it.
+name: Promise ledger
+run-name: ledger ${{ inputs.symbol }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "NSE symbol, e.g. ASIANPAINT"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ledger-${{ inputs.symbol }}
+  cancel-in-progress: false
+
+jobs:
+  ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SYMBOL: ${{ inputs.symbol }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check the symbol
+        run: |
+          echo "$SYMBOL" | grep -Eq '^[A-Z0-9&_-]{1,20}$' || { echo "invalid symbol"; exit 1; }
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install FINN
+        run: pip install -e .
+
+      # Downloads (data/raw) and model answers (data/llm_cache) are reused across runs.
+      - name: Restore cache
+        uses: actions/cache@v6
+        with:
+          path: |
+            data/raw
+            data/llm_cache
+          key: finn-${{ github.run_id }}
+          restore-keys: finn-
+
+      - name: Read earnings calls and check promises
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m finn.ledger "$SYMBOL" --quarters 6
+
+      # Runs even if the analysis failed: the site then shows what went wrong instead of waiting.
+      - name: Build site data
+        if: always()
+        run: python scripts/build_web_data.py
+
+      - name: Publish ledger
+        if: always()
+        run: |
+          git config user.name "finn-ledger-bot"
+          git config user.email "finn-ledger-bot@users.noreply.github.com"
+          git add "data/ledger/$SYMBOL.json" "data/ledger/$SYMBOL.md" web/public/data || true
+          git diff --cached --quiet && { echo "nothing to publish"; exit 0; }
+          git commit -m "Ledger: $SYMBOL"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

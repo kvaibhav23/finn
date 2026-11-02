@@ -67,26 +67,33 @@ def compute(metric: str, df: pd.DataFrame, quarters: list[date], unit: str = "pc
     rows = _rows(df, quarters)
     if rows is None:
         return None
-    s = lambda col, r=rows: float(r[col].sum())
+    s = lambda col, r=rows: float(r[col].sum(min_count=len(r)))   # any missing input -> NaN, never 0
     if metric in ("pbdit_margin", "ebitda_margin"):
+        if not s("revenue"):                     # zero revenue (holding company): no margin
+            return None
         core = s("pbt") + s("finance_costs") + s("dep_amort")
         vals = {"with_other_income": core / s("revenue") * 100,
                 "without_other_income": (core - s("other_income")) / s("revenue") * 100}
-        return {"values": vals, "formulas": MARGIN_DEFS, "quarters": [q.isoformat() for q in quarters],
-                "receipts": _receipts(rows, ["pbt", "finance_costs", "dep_amort", "other_income", "revenue"])}
+        return _finite({"values": vals, "formulas": MARGIN_DEFS, "quarters": [q.isoformat() for q in quarters],
+                        "receipts": _receipts(rows, ["pbt", "finance_costs", "dep_amort", "other_income", "revenue"])})
     if metric in ("revenue_growth", "pat"):
         col = "revenue" if metric == "revenue_growth" else "pat"
         if unit == "inr_cr":
-            return {"values": {"level": s(col) / 1e7}, "formulas": {"level": f"sum({col}) / 1e7 (INR crore)"},
-                    "quarters": [q.isoformat() for q in quarters], "receipts": _receipts(rows, [col])}
+            return _finite({"values": {"level": s(col) / 1e7}, "formulas": {"level": f"sum({col}) / 1e7 (INR crore)"},
+                            "quarters": [q.isoformat() for q in quarters], "receipts": _receipts(rows, [col])})
         prior = _rows(df, [shift(q, -4) for q in quarters])
-        if prior is None:
+        if prior is None or not s(col, prior):
             return None
-        return {"values": {"yoy": (s(col) / s(col, prior) - 1) * 100},
-                "formulas": {"yoy": f"sum({col}) / sum({col}, same quarters a year earlier) - 1"},
-                "quarters": [q.isoformat() for q in quarters],
-                "receipts": _receipts(rows, [col]) + _receipts(prior, [col])}
+        return _finite({"values": {"yoy": (s(col) / s(col, prior) - 1) * 100},
+                        "formulas": {"yoy": f"sum({col}) / sum({col}, same quarters a year earlier) - 1"},
+                        "quarters": [q.isoformat() for q in quarters],
+                        "receipts": _receipts(rows, [col]) + _receipts(prior, [col])})
     return None
+
+
+def _finite(got: dict) -> dict | None:
+    """Banks file no `revenue`; a NaN must mean 'cannot compute', never a comparison that fails."""
+    return got if all(math.isfinite(v) for v in got["values"].values()) else None
 
 
 # --- self-reported evidence -----------------------------------------------------------------

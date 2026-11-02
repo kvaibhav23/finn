@@ -1,0 +1,42 @@
+[
+ {
+  "symbol": "ASIANPAINT",
+  "name": "Asian Paints Limited",
+  "status": "ok",
+  "generated_at": "2026-11-01T21:21:47",
+  "as_of_results": "2026-09-30",
+  "calls": 6,
+  "from": "Q4FY25",
+  "to": "Q1FY27",
+  "promises": 35,
+  "counts": {
+   "Kept": 6,
+   "Missed": 0,
+   "On track": 2,
+   "Revised": 2,
+   "Pending": 10,
+   "Dropped": 1,
+   "Unverifiable": 14
+  }
+ },
+ {
+  "symbol": "DIXON",
+  "name": "Dixon Technologies (India) Limited",
+  "status": "ok",
+  "generated_at": "2026-11-01T21:19:15",
+  "as_of_results": "2026-09-30",
+  "calls": 6,
+  "from": "Q4FY25",
+  "to": "Q1FY27",
+  "promises": 186,
+  "counts": {
+   "Kept": 14,
+   "Missed": 9,
+   "On track": 3,
+   "Revised": 9,
+   "Pending": 70,
+   "Dropped": 1,
+   "Unverifiable": 80
+  }
+ }
+]
