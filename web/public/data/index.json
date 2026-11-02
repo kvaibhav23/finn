@@ -38,5 +38,25 @@
    "Dropped": 1,
    "Unverifiable": 80
   }
+ },
+ {
+  "symbol": "KPITTECH",
+  "name": "KPIT Technologies Limited",
+  "status": "ok",
+  "generated_at": "2026-11-02T05:45:49Z",
+  "as_of_results": "2026-09-30",
+  "calls": 6,
+  "from": "Q4FY25",
+  "to": "Q1FY27",
+  "promises": 64,
+  "counts": {
+   "Kept": 4,
+   "Missed": 2,
+   "On track": 1,
+   "Revised": 3,
+   "Pending": 32,
+   "Dropped": 1,
+   "Unverifiable": 21
+  }
  }
 ]
