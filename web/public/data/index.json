@@ -58,5 +58,25 @@
    "Dropped": 1,
    "Unverifiable": 21
   }
+ },
+ {
+  "symbol": "SUPREMEIND",
+  "name": "Supreme Industries Limited",
+  "status": "ok",
+  "generated_at": "2026-11-02T08:00:17Z",
+  "as_of_results": "2026-09-30",
+  "calls": 6,
+  "from": "Q1FY26",
+  "to": "Q2FY27",
+  "promises": 61,
+  "counts": {
+   "Kept": 8,
+   "Missed": 3,
+   "On track": 2,
+   "Revised": 4,
+   "Pending": 26,
+   "Dropped": 0,
+   "Unverifiable": 18
+  }
  }
 ]
