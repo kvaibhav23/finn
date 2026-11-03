@@ -119,8 +119,35 @@ export interface QuarterFigures {
   quarter: string;
   qe: string;
   revenue_cr: number | null;
+  ebitda_cr?: number | null;
+  pbt_cr?: number | null;
   pat_cr: number | null;
+  /** The date the board approved these results (XBRL), which ties a results filing to its quarter. */
+  approved?: string | null;
   xbrl_url: string | null;
+}
+
+/** One quarter's headline figures against the quarter before and a year before (finn.market.stats.results_card). */
+export interface ResultsCardData {
+  quarter: string;
+  qe: string;
+  approved: string | null;
+  basis: string | null;
+  xbrl_url: string | null;
+  prev_quarter: string | null;
+  year_quarter: string | null;
+  rows: { key: "revenue" | "total_income" | "ebitda" | "pbt" | "pat"; now: number | null;
+          qoq: number | null; yoy: number | null; note?: string }[];
+}
+
+/** The incoming or outgoing person's profile, copied from the company's own NSE filing (finn.market.people). */
+export interface Profile {
+  excerpt: string;
+  page: number;
+  name?: string | null;
+  role?: string | null;
+  effective?: string | null;
+  previous?: string[];
 }
 
 export interface Results {
@@ -145,11 +172,15 @@ export interface Results {
 
 export interface Filing {
   date: string | null;
+  /** IST, with time: "2026-11-02T18:40:00+05:30" */
+  filed_at?: string | null;
   tag: string;
+  priority?: 1 | 2 | 3;
   worth_a_look: boolean;
   category: string;
   subject: string;
   pdf_url: string;
+  profile?: Profile | null;
 }
 
 export interface Signal {
@@ -201,5 +232,33 @@ export interface Market {
   calls: CallDate[] | null;
   signals: Signal[];
   move: Move | null;
+  card?: ResultsCardData | null;
   missing: string[];
+}
+
+export interface PortfolioEntry {
+  symbol: string;
+  name: string;
+  sector: string;
+  ledger: boolean;
+}
+
+export interface DigestItem {
+  symbol: string;
+  name: string;
+  filed_at: string;
+  tag: string;
+  priority: 1 | 2 | 3;
+  subject: string;
+  pdf_url: string;
+  card?: ResultsCardData | null;
+  profile?: Profile | null;
+}
+
+export interface Digest {
+  as_of: string | null;
+  days: number;
+  items: DigestItem[];
+  /** symbol -> when each routine filing (left out of the list) was filed */
+  routine: Record<string, string[]>;
 }

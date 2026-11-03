@@ -98,6 +98,17 @@ def test_results_stats_tcs(fx):
     assert r["revenue_yoy_pct"] is None                  # no quarter a year earlier in the frame
 
 
+def test_results_quarters_carry_the_four_headline_figures(fx):
+    df = tcs_frame(fx)
+    q = stats.results_stats(df, None, close=3000.0)["quarters"][-1]
+    last = df.iloc[-1]
+    assert q["revenue_cr"] == pytest.approx(last["revenue"] / 1e7) and q["pat_cr"] == pytest.approx(last["pat"] / 1e7)
+    assert q["pbt_cr"] == pytest.approx(last["pbt"] / 1e7)
+    assert q["ebitda_cr"] == pytest.approx((last["pbt"] + last["finance_costs"] + last["dep_amort"]
+                                            - last["other_income"]) / 1e7)
+    assert q["approved"] and len(q["approved"]) == 10
+
+
 def test_pe_after_a_bonus_uses_adjusted_eps(fx):
     df = tcs_frame(fx)
     acts = pd.DataFrame([{"subject": "Bonus 1:1", "type": "bonus", "ex_date": date(2026, 12, 1), "factor": 2.0}])
@@ -268,3 +279,47 @@ def test_evening_run_keeps_todays_prices_before_the_delivery_file(fx):
 
     rows, _ = prices.history(["TCS"], DAY, days=0, eod_fn=eod_fn, index_fn=lambda d: None)
     assert rows["TCS"][0]["date"] == DAY and rows["TCS"][0]["deliv_pct"] is None
+
+
+def _results(qs, bank=False):
+    return {"top_line": "total_income" if bank else "revenue", "basis": "Consolidated",
+            "ebitda_note": "EBITDA is not meaningful for banks" if bank else None,
+            "quarters": [{"quarter": f"Q{i}", "qe": qe, "approved": ap, "xbrl_url": "u",
+                          "revenue_cr": rev, "ebitda_cr": None if bank else rev / 4, "pbt_cr": rev / 5, "pat_cr": pat}
+                         for i, (qe, ap, rev, pat) in enumerate(qs)]}
+
+
+QS = [("2025-09-30", "2025-10-20", 100.0, 10.0), ("2025-12-31", "2026-01-15", 105.0, -2.0),
+      ("2026-03-31", "2026-04-20", 110.0, 12.0), ("2026-06-30", "2026-07-18", 115.0, 12.0),
+      ("2026-09-30", "2026-10-17", 120.0, 15.0)]
+
+
+def test_results_card_qoq_and_yoy():
+    c = stats.results_card(_results(QS))
+    rev, ebitda, pbt, pat = c["rows"]
+    assert c["quarter"] == "Q4" and c["prev_quarter"] == "Q3" and c["year_quarter"] == "Q0"
+    assert rev["key"] == "revenue" and rev["qoq"] == pytest.approx(120 / 115 * 100 - 100)
+    assert rev["yoy"] == pytest.approx(20.0) and pat["yoy"] == pytest.approx(50.0)
+    assert ebitda["now"] == pytest.approx(30.0) and "note" not in ebitda
+
+
+def test_results_card_no_percent_on_a_loss_base_or_a_gap():
+    c = stats.results_card(_results(QS), "2026-03-31")
+    pat = c["rows"][3]
+    assert pat["qoq"] is None                  # the quarter before was a loss
+    assert c["year_quarter"] is None and pat["yoy"] is None
+    gap = stats.results_card(_results([QS[0], QS[2]]))
+    assert gap["prev_quarter"] is None and gap["rows"][0]["qoq"] is None
+
+
+def test_results_card_bank_has_no_ebitda():
+    c = stats.results_card(_results(QS, bank=True))
+    assert c["rows"][0]["key"] == "total_income" and c["rows"][1]["now"] is None and c["rows"][1]["note"]
+
+
+def test_card_for_filing_matches_the_board_meeting():
+    r = _results(QS)
+    assert stats.card_for_filing(r, "2026-10-17T16:05:00+05:30")["quarter"] == "Q4"
+    assert stats.card_for_filing(r, "2026-10-19T09:00:00+05:30")["quarter"] == "Q4"
+    assert stats.card_for_filing(r, "2026-11-30T09:00:00+05:30") is None
+    assert stats.card_for_filing(r, None) is None

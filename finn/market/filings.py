@@ -37,6 +37,12 @@ RULES: list[tuple[str, str]] = [
     ("Press release", r"press release"),
 ]
 WORTH_A_LOOK = {"Auditor change", "Pledge", "Regulatory or legal", "Resignation", "Credit rating"}
+# How high a filing sits in the digest. Fixed by tag, never by a model: results, people, M&A and anything a
+# regulator, auditor, lender or rating agency did come first; dividends, orders and calls next; the rest last.
+PRIORITY = {"Results": 1, "Appointment": 1, "Resignation": 1, "Auditor change": 1, "Pledge": 1,
+            "Regulatory or legal": 1, "Credit rating": 1, "Expansion": 1,
+            "Order or contract": 2, "Dividend or corporate action": 2, "Earnings call": 2,
+            "Board meeting": 3, "Press release": 3, "Other": 3}
 ROUTINE = re.compile(r"newspaper publication|certificate under sebi|trading window|trading plan"
                      r"|loss of share certificate|duplicate share|investor complaints|compliance certificate"
                      r"|disclosure under sebi takeover", re.I)
@@ -54,15 +60,17 @@ def tag(category: str, subject: str) -> str | None:
     return "Other"
 
 
-def recent(ann: pd.DataFrame, limit: int = 40) -> list[dict]:
-    """Newest first; one entry per filing that is not routine paperwork."""
+def recent(ann: pd.DataFrame, limit: int = 80) -> list[dict]:
+    """Newest first; one entry per filing that is not routine paperwork. NSE's times are IST."""
     out = []
     for r in ann.sort_values("filed_at", ascending=False).to_dict("records"):
         t = tag(r.get("category"), r.get("subject"))
         if t is None or not r.get("pdf_url"):
             continue
         filed = r.get("filed_at")
-        out.append({"date": filed.date().isoformat() if pd.notna(filed) else None, "tag": t,
+        out.append({"date": filed.date().isoformat() if pd.notna(filed) else None,
+                    "filed_at": filed.strftime("%Y-%m-%dT%H:%M:00+05:30") if pd.notna(filed) else None,
+                    "tag": t, "priority": PRIORITY.get(t, 3),
                     "worth_a_look": t in WORTH_A_LOOK, "category": (r.get("category") or "").strip(),
                     "subject": " ".join(str(r.get("subject") or "").split())[:280], "pdf_url": r["pdf_url"]})
         if len(out) >= limit:
@@ -110,3 +118,10 @@ def call_dates(ann: pd.DataFrame) -> list[dict]:
 
 def get_announcements_for(symbol: str, end: date, client: http.Client | None = None) -> pd.DataFrame:
     return get_announcements(end - timedelta(days=CALL_DAYS), end, [symbol], client=client)
+
+
+def routine_times(ann: pd.DataFrame) -> list[str]:
+    """When routine paperwork was filed: the digest says how many it left out in a window, so nothing is
+    silently hidden."""
+    return [r["filed_at"].strftime("%Y-%m-%dT%H:%M:00+05:30") for r in ann.to_dict("records")
+            if pd.notna(r.get("filed_at")) and tag(r.get("category"), r.get("subject")) is None]

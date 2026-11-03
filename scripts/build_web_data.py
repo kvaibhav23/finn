@@ -1,4 +1,5 @@
-"""Build the website's data: web/public/data/{symbols,index}.json + ledgers/<SYM>.json + market/<SYM>.json.
+"""Build the website's data: web/public/data/{symbols,index,portfolio,digest}.json + ledgers/<SYM>.json
++ market/<SYM>.json.
 
     python scripts/build_web_data.py            # all ledgers in data/ledger/
     python scripts/build_web_data.py --symbols  # also refresh the NSE symbol list (1 request, cached daily)
@@ -11,11 +12,14 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import date, timedelta
 from pathlib import Path
 
 from finn.ledger.classify import numbers
 from finn.ledger.render import target_text
 from finn.ledger.thread import effective
+from finn.market.stats import card_for_filing, results_card
+from finn.portfolio import PORTFOLIO
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGERS = ROOT / "data" / "ledger"
@@ -128,7 +132,38 @@ def slim_market(m: dict) -> dict:
     """What the page shows. The summary and signal sentences are written by the site (web/lib/sentences.ts),
     from these facts, in the reader's language."""
     keep = ("symbol", "generated_at", "price", "prices", "nifty", "results", "filings", "calls", "signals", "move")
-    return {k: m.get(k) for k in keep} | {"missing": sorted((m.get("errors") or {}).keys())}
+    return {k: m.get(k) for k in keep} | {"card": results_card(m.get("results")),
+                                          "missing": sorted((m.get("errors") or {}).keys())}
+
+
+DIGEST_DAYS = 30
+
+
+def digest(markets: dict[str, dict], names: dict[str, str]) -> dict:
+    """Every non-routine filing across the companies FINN watches, last 30 days, newest first. Each carries its
+    priority (fixed by tag in finn/market/filings.py), the results card for its quarter where NSE's XBRL is in,
+    and the appointee's profile where one was read from the filing. Routine paperwork is only counted."""
+    items, routine, as_of = [], {}, None
+    for sym, m in sorted(markets.items()):
+        as_of = max(filter(None, [as_of, m.get("generated_at")]), default=None)
+        routine[sym] = m.get("routine") or []
+        for f in m.get("filings") or []:
+            if not f.get("filed_at"):
+                continue
+            item = {"symbol": sym, "name": names.get(sym, sym), "filed_at": f["filed_at"], "tag": f["tag"],
+                    "priority": f.get("priority", 3), "subject": f["subject"], "pdf_url": f["pdf_url"]}
+            if f["tag"] == "Results":
+                item["card"] = card_for_filing(m.get("results"), f["filed_at"])
+            if f.get("profile"):
+                item["profile"] = f["profile"]
+            items.append(item)
+    items.sort(key=lambda i: i["filed_at"], reverse=True)
+    newest = items[0]["filed_at"][:10] if items else None
+    if newest:
+        cut = (date.fromisoformat(newest) - timedelta(days=DIGEST_DAYS)).isoformat()
+        items = [i for i in items if i["filed_at"][:10] > cut]
+        routine = {k: [t for t in v if t[:10] > cut] for k, v in routine.items()}
+    return {"as_of": as_of, "days": DIGEST_DAYS, "items": items, "routine": routine}
 
 
 def spark(rows: list | None, points: int = 52) -> list[float]:
@@ -174,7 +209,6 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
         price, rows = None, None
         if mf.exists():
             mk = slim_market(json.loads(mf.read_text()))
-            (out / "market" / mf.name).write_text(json.dumps(mk, ensure_ascii=False, separators=(",", ":")))
             price, rows = mk.get("price"), (mk.get("prices") or {}).get("rows")
         index.append({"symbol": s["symbol"], "name": s["name"], "status": s["status"],
                       "generated_at": s["generated_at"], "as_of_results": s.get("as_of_results"),
@@ -187,6 +221,21 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
                       "big_move": bool(mf.exists() and json.loads(mf.read_text()).get("move")),
                       "spark": spark(rows)})
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
+
+    # Every company with market data gets its page, ledger or not: the portfolio and the analysed companies.
+    markets = {}
+    for mf in sorted(market_dir.glob("*.json")):
+        if mf.name.startswith("_"):
+            continue
+        m = json.loads(mf.read_text())
+        markets[mf.stem] = m
+        (out / "market" / mf.name).write_text(json.dumps(slim_market(m), ensure_ascii=False, separators=(",", ":")))
+    analysed = {i["symbol"] for i in index if i["status"] == "ok"}
+    portfolio = [{"symbol": s, "name": names.get(s, s), "sector": sector, "ledger": s in analysed}
+                 for s, sector in PORTFOLIO.items() if s in markets]
+    (out / "portfolio.json").write_text(json.dumps(portfolio, ensure_ascii=False, indent=1))
+    watched = {s: markets[s] for s in set(PORTFOLIO) | analysed if s in markets}
+    (out / "digest.json").write_text(json.dumps(digest(watched, names), ensure_ascii=False, separators=(",", ":")))
     banner = market_banner(market_dir, index)
     (out / "market.json").write_text(json.dumps(banner, ensure_ascii=False, indent=1))
     return index

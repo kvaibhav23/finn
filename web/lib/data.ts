@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { IndexEntry, Ledger, Market, MarketDay } from "./types";
+import type { Digest, IndexEntry, Ledger, Market, MarketDay, PortfolioEntry } from "./types";
 
 const DATA = path.join(process.cwd(), "public", "data");
 
@@ -30,6 +30,12 @@ export async function getMarket(symbol: string): Promise<Market | null> {
   if (!/^[A-Z0-9&_-]{1,20}$/.test(symbol)) return null;
   return json<Market>(`market/${symbol}.json`);
 }
+
+/** The mock portfolio FINN watches every trading day (finn/portfolio.py). */
+export const getPortfolio = async () => (await json<PortfolioEntry[]>("portfolio.json")) ?? [];
+
+/** Every non-routine filing across the watched companies, last 30 days, ranked (scripts/build_web_data.py). */
+export const getDigest = async () => json<Digest>("digest.json");
 
 /** The Nifty 50's last session and the biggest movers on FINN (written by scripts/build_web_data.py). */
 export const getMarketDay = async () => json<MarketDay>("market.json");

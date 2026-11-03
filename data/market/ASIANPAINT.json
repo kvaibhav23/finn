@@ -1,20 +1,20 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-03T04:37:11Z",
+ "generated_at": "2026-11-03T18:05:55Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-02",
-  "close": 2344.3,
-  "change": 24.300000000000182,
-  "change_pct": 1.0474137931034466,
+  "as_of": "2026-11-03",
+  "close": 2437.8,
+  "change": 93.5,
+  "change_pct": 3.9883973894126123,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.2633513265188931,
-  "return_1y": -6.631352556953962,
-  "nifty_return_1y": -8.869027023454535,
-  "delivery_20d": 52.5855,
-  "delivery_avg": 56.43360655737705,
-  "delivery_sessions": 61
+  "range_position": 0.370736189272999,
+  "return_1y": -2.961547647480278,
+  "nifty_return_1y": -7.578595174928726,
+  "delivery_20d": 51.89149999999999,
+  "delivery_avg": 56.2241935483871,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     2344.3,
     789896,
     48.96
+   ],
+   [
+    "2026-11-03",
+    2437.8,
+    2008963,
+    43.45
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-02",
    23440.8
+  ],
+  [
+   "2026-11-03",
+   23810.85
   ]
  ],
  "results": {
@@ -2545,67 +2555,102 @@
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 46.45858105430043,
+  "pe": 48.3115338882283,
   "pe_note": null,
-  "market_cap_cr": 224865.256,
+  "market_cap_cr": 233833.776,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
+  "ebitda_note": null,
   "quarters": [
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 8027.54,
+    "ebitda_cr": 1059.37,
+    "pbt_cr": 927.92,
+    "pat_cr": 693.66,
+    "approved": "2024-11-09",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_114752_1302989_09112024045711.xml"
+   },
    {
     "quarter": "Q3FY25",
     "qe": "2024-12-31",
     "revenue_cr": 8549.44,
+    "ebitda_cr": 1636.73,
+    "pbt_cr": 1468.34,
     "pat_cr": 1128.43,
+    "approved": "2025-02-04",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118658_1370927_04022025080634.xml"
    },
    {
     "quarter": "Q4FY25",
     "qe": "2025-03-31",
     "revenue_cr": 8358.91,
+    "ebitda_cr": 1253.24,
+    "pbt_cr": 999.2,
     "pat_cr": 700.83,
+    "approved": "2025-05-08",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1434305_08052025080224_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
     "qe": "2025-06-30",
     "revenue_cr": 8938.55,
+    "ebitda_cr": 1624.97,
+    "pbt_cr": 1472.39,
     "pat_cr": 1117.05,
+    "approved": "2025-07-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1497018_29072025071144_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
     "qe": "2025-09-30",
     "revenue_cr": 8531.27,
+    "ebitda_cr": 1503.38,
+    "pbt_cr": 1353.22,
     "pat_cr": 1018.23,
+    "approved": "2025-11-12",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
     "qe": "2025-12-31",
     "revenue_cr": 8867.02,
+    "ebitda_cr": 1623.35,
+    "pbt_cr": 1423.34,
     "pat_cr": 1073.92,
+    "approved": "2026-01-27",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1611229_28012026112809_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
     "qe": "2026-03-31",
     "revenue_cr": 9246.7,
+    "ebitda_cr": 1786.61,
+    "pbt_cr": 1588.9,
     "pat_cr": 1185.49,
+    "approved": "2026-05-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1693690_15072026083521_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
     "qe": "2026-06-30",
     "revenue_cr": 10541.94,
+    "ebitda_cr": 2168.76,
+    "pbt_cr": 2057.59,
     "pat_cr": 1559.45,
+    "approved": "2026-07-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
     "qe": "2026-09-30",
     "revenue_cr": 9976.51,
+    "ebitda_cr": 1557.07,
+    "pbt_cr": 1435.79,
     "pat_cr": 1085.35,
+    "approved": "2026-10-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml"
    }
   ]
@@ -2613,7 +2658,9 @@
  "filings": [
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T21:18:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Asian Paints Limited has informed the Exchange about Link of Recording",
@@ -2621,7 +2668,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T16:45:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Asian Paints Limited has informed the Exchange about Investor Presentation",
@@ -2629,7 +2678,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T14:14:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Please find enclosed the Press Release on the performance of the Company for the quarter and half year ended 30th September 2026.",
@@ -2637,7 +2688,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T14:12:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "The Board of Directors at their meeting held today i.e., 29th October 2026, has, inter alia, approved the payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 20",
@@ -2645,7 +2698,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T14:10:00+05:30",
    "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.",
@@ -2653,7 +2708,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T14:08:00+05:30",
    "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Dividend",
    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.",
@@ -2661,7 +2718,9 @@
   },
   {
    "date": "2026-10-29",
+   "filed_at": "2026-10-29T14:04:00+05:30",
    "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Asian Paints Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
@@ -2669,7 +2728,9 @@
   },
   {
    "date": "2026-10-07",
+   "filed_at": "2026-10-07T20:44:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the Postal Ballot Notice dated 7th September 2026 together with the Explanatory Statement being sent to the members of the Company seeking their approval for appointment of Mr. Leo Puri as an Independent Director of the Company for a term of five consecutive ",
@@ -2677,7 +2738,9 @@
   },
   {
    "date": "2026-10-06",
+   "filed_at": "2026-10-06T20:12:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The Company will hold a conference with investors on 29th October 2026 at 5 p.m. IST.on the business and financial performance of the Company for the quarter and half year ended 30th September 2026.",
@@ -2685,7 +2748,9 @@
   },
   {
    "date": "2026-10-06",
+   "filed_at": "2026-10-06T19:12:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Asian Paints Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
@@ -2693,7 +2758,9 @@
   },
   {
    "date": "2026-10-06",
+   "filed_at": "2026-10-06T19:10:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Asian Paints Limited has informed the Exchange regarding 'This is to inform you that a meeting of the Board of Directors of the Company will be held on Thursday, 29th October 2026, inter alia, to consider the declaration of interim dividend, if any, for the financial year ending ",
@@ -2701,7 +2768,9 @@
   },
   {
    "date": "2026-09-18",
+   "filed_at": "2026-09-18T18:45:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Find enclosed the intimation with respect to ESG rating received by the Company from Niche Ninety Nine Capability and Certifications (OPC) Private Limited",
@@ -2709,7 +2778,9 @@
   },
   {
    "date": "2026-09-17",
+   "filed_at": "2026-09-17T21:56:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Commencement of commercial production/operations",
    "subject": "Find enclosed intimation under Regulation 30 of the SEBI (LODR)Regulations, 2015 with respect to the commencement of commercial production at the Company's VAE manufacturing facility at Dahej, Gujarat.",
@@ -2717,7 +2788,9 @@
   },
   {
    "date": "2026-09-11",
+   "filed_at": "2026-09-11T20:28:00+05:30",
    "tag": "Credit rating",
+   "priority": 1,
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Asian Paints Limited has informed the Exchange about Credit Rating",
@@ -2725,7 +2798,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T22:25:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding shareholders' approval for appointment of Ms Shubhlakshmi Dani as Non- Executive Director of the company w.e.f. July 29, 2026.",
@@ -2733,7 +2808,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T22:20:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Change in Director(s)",
    "subject": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
@@ -2741,7 +2818,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T21:51:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the following: 1. Voting result pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014; and 2.",
@@ -2749,7 +2828,9 @@
   },
   {
    "date": "2026-09-07",
+   "filed_at": "2026-09-07T14:46:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Non- Executive Independent Director of the company w.e.f. September 07, 2026.",
@@ -2757,7 +2838,9 @@
   },
   {
    "date": "2026-09-07",
+   "filed_at": "2026-09-07T14:46:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Chairman of the company w.e.f. January 23, 2027.",
@@ -2765,7 +2848,9 @@
   },
   {
    "date": "2026-09-07",
+   "filed_at": "2026-09-07T13:41:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The Company through its representatives, will be participating in the conference as per enclosed communication",
@@ -2773,7 +2858,9 @@
   },
   {
    "date": "2026-09-03",
+   "filed_at": "2026-09-03T15:34:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Find enclosed ESG rating received by the Company from NSE Sustainability Ratings & Analytics Ltd",
@@ -2781,7 +2868,9 @@
   },
   {
    "date": "2026-09-02",
+   "filed_at": "2026-09-02T11:29:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "This is to inform you that the Company through its representatives, will be participating in the conference as per enclosed letter",
@@ -2789,12 +2878,18 @@
   },
   {
    "date": "2026-08-10",
+   "filed_at": "2026-08-10T20:02:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the Postal Ballot Notice dated 29th July 2026 together with the Explanatory Statement being sent to the members of the Company seeking approval of shareholders for appointment of Ms. Shubhlakshmi Dani as Non- Executive Director of the Company.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_10082026200145_SE_Intimation_-_Postal_ballot_notice_2026_signed.pdf"
   }
+ ],
+ "routine": [
+  "2026-10-15T22:59:00+05:30",
+  "2026-10-08T15:13:00+05:30"
  ],
  "calls": [
   {
@@ -2823,8 +2918,31 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-03",
+  "change_pct": 3.9883973894126123,
+  "typical_pct": 0.776274050882797,
+  "times": 5.137872874762352,
+  "volume_x": 3.055934550137918,
+  "biggest_in_year": false,
+  "nifty_change_pct": 1.5786577249923273,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-03",
+    "change_pct": 3.9883973894126123,
+    "typical_pct": 0.776274050882797,
+    "times": 5.137872874762352,
+    "volume_x": 3.055934550137918,
+    "biggest_in_year": false,
+    "nifty_change_pct": 1.5786577249923273
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "enough",
@@ -2839,9 +2957,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -6.631352556953962,
-    "nifty_return_1y": -8.869027023454535,
-    "close": 2344.3,
+    "return_1y": -2.961547647480278,
+    "nifty_return_1y": -7.578595174928726,
+    "close": 2437.8,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }
@@ -2850,8 +2968,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.5855,
-    "usual": 56.43360655737705,
+    "recent": 51.89149999999999,
+    "usual": 56.2241935483871,
     "months": 3
    }
   },
@@ -2884,5 +3002,17 @@
   "Dropped": 1,
   "On track": 2
  },
- "events": []
+ "events": [
+  {
+   "id": "5e4b3e733b6f3f10",
+   "symbol": "ASIANPAINT",
+   "kind": "move",
+   "date": "2026-11-03",
+   "facts": {
+    "change_pct": 3.9883973894126123,
+    "times": 5.137872874762352,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

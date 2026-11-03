@@ -102,3 +102,24 @@ def test_spark_keeps_first_and_last_close_and_thins_the_rest():
     assert s == sorted(s)
     assert bw.spark([["d", 1.0, 1, None]]) == []
     assert bw.spark(None) == []
+
+
+def test_digest_keeps_30_days_ranks_by_time_and_attaches_cards():
+    res = {"top_line": "revenue", "basis": "Consolidated", "quarters": [
+        {"quarter": "Q1FY27", "qe": "2026-06-30", "approved": "2026-07-20", "revenue_cr": 100.0, "ebitda_cr": 20.0,
+         "pbt_cr": 15.0, "pat_cr": 10.0, "xbrl_url": "x"},
+        {"quarter": "Q2FY27", "qe": "2026-09-30", "approved": "2026-10-20", "revenue_cr": 110.0, "ebitda_cr": 22.0,
+         "pbt_cr": 16.0, "pat_cr": 11.0, "xbrl_url": "y"}]}
+    f = lambda at, tag, pr: {"filed_at": at, "tag": tag, "priority": pr, "subject": tag, "pdf_url": f"p{at}"}
+    markets = {
+        "AAA": {"generated_at": "2026-11-02T10:00:00Z", "results": res,
+                "routine": ["2026-11-01T10:00:00+05:30", "2026-09-01T10:00:00+05:30"],
+                "filings": [f("2026-10-20T18:00:00+05:30", "Results", 1), f("2026-09-01T09:00:00+05:30", "Other", 3)]},
+        "BBB": {"generated_at": "2026-11-02T11:00:00Z",
+                "filings": [f("2026-11-02T09:00:00+05:30", "Appointment", 1) | {"profile": {"excerpt": "x"}}]},
+    }
+    d = bw.digest(markets, {"AAA": "Aaa Ltd"})
+    assert [i["symbol"] for i in d["items"]] == ["BBB", "AAA"]          # newest first; September dropped
+    assert d["items"][1]["card"]["quarter"] == "Q2FY27" and d["items"][1]["name"] == "Aaa Ltd"
+    assert d["items"][0]["profile"] == {"excerpt": "x"} and d["routine"]["AAA"] == ["2026-11-01T10:00:00+05:30"]
+    assert d["as_of"] == "2026-11-02T11:00:00Z"

@@ -1,20 +1,20 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-03T04:37:11Z",
+ "generated_at": "2026-11-03T18:06:39Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-02",
-  "close": 12319.0,
-  "change": 1319.0,
-  "change_pct": 11.990909090909096,
+  "as_of": "2026-11-03",
+  "close": 12270.0,
+  "change": -49.0,
+  "change_pct": -0.3977595584057192,
   "high_52w": 15775.0,
   "low_52w": 9600.0,
-  "range_position": 0.4403238866396761,
-  "return_1y": -20.491803278688526,
-  "nifty_return_1y": -8.869027023454535,
-  "delivery_20d": 37.1665,
-  "delivery_avg": 38.430163934426226,
-  "delivery_sessions": 61
+  "range_position": 0.43238866396761133,
+  "return_1y": -20.762027768808522,
+  "nifty_return_1y": -7.578595174928726,
+  "delivery_20d": 36.5295,
+  "delivery_avg": 38.20564516129032,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     12319.0,
     1631850,
     18.24
+   ],
+   [
+    "2026-11-03",
+    12270.0,
+    528694,
+    24.51
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-02",
    23440.8
+  ],
+  [
+   "2026-11-03",
+   23810.85
   ]
  ],
  "results": {
@@ -2545,67 +2555,102 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 42.97275613074267,
+  "pe": 42.801827885722254,
   "pe_note": null,
-  "market_cap_cr": 75330.685,
+  "market_cap_cr": 75031.05,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
+  "ebitda_note": null,
   "quarters": [
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 11534.08,
+    "ebitda_cr": 635.98,
+    "pbt_cr": 526.32,
+    "pat_cr": 411.7,
+    "approved": "2024-10-24",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113237_1287582_24102024072513.xml"
+   },
    {
     "quarter": "Q3FY25",
     "qe": "2024-12-31",
     "revenue_cr": 10453.68,
+    "ebitda_cr": 390.52,
+    "pbt_cr": 281.55,
     "pat_cr": 216.23,
+    "approved": "2025-01-20",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117401_1353114_20012025053427.xml"
    },
    {
     "quarter": "Q4FY25",
     "qe": "2025-03-31",
     "revenue_cr": 10292.54,
+    "ebitda_cr": 693.16,
+    "pbt_cr": 572.27,
     "pat_cr": 464.95,
+    "approved": "2025-05-20",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1445040_20052025100659_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
     "qe": "2025-06-30",
     "revenue_cr": 12835.66,
+    "ebitda_cr": 482.37,
+    "pbt_cr": 358.76,
     "pat_cr": 280.02,
+    "approved": "2025-07-22",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1490403_22072025044542_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
     "qe": "2025-09-30",
     "revenue_cr": 14855.04,
+    "ebitda_cr": 561.33,
+    "pbt_cr": 922.44,
     "pat_cr": 745.7,
+    "approved": "2025-10-17",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
     "qe": "2025-12-31",
     "revenue_cr": 10671.59,
+    "ebitda_cr": 414.45,
+    "pbt_cr": 403.87,
     "pat_cr": 320.56,
+    "approved": "2026-01-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1613517_29012026064329_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
     "qe": "2026-03-31",
     "revenue_cr": 10510.51,
+    "ebitda_cr": 408.37,
+    "pbt_cr": 364.04,
     "pat_cr": 297.97,
+    "approved": "2026-05-12",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1666286_12052026113823_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
     "qe": "2026-06-30",
     "revenue_cr": 15547.66,
+    "ebitda_cr": 463.12,
+    "pbt_cr": 860.34,
     "pat_cr": 717.83,
+    "approved": "2026-07-31",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
     "qe": "2026-09-30",
     "revenue_cr": 21793.64,
+    "ebitda_cr": 596.82,
+    "pbt_cr": 529.54,
     "pat_cr": 410.87,
+    "approved": "2026-10-30",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml"
    }
   ]
@@ -2613,7 +2658,9 @@
  "filings": [
   {
    "date": "2026-10-30",
+   "filed_at": "2026-10-30T20:32:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
@@ -2621,7 +2668,9 @@
   },
   {
    "date": "2026-10-30",
+   "filed_at": "2026-10-30T16:19:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
@@ -2629,7 +2678,9 @@
   },
   {
    "date": "2026-10-30",
+   "filed_at": "2026-10-30T16:10:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
@@ -2637,7 +2688,9 @@
   },
   {
    "date": "2026-10-30",
+   "filed_at": "2026-10-30T16:07:00+05:30",
    "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Dixon Technologies (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
@@ -2645,7 +2698,9 @@
   },
   {
    "date": "2026-10-23",
+   "filed_at": "2026-10-23T18:10:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
@@ -2653,7 +2708,9 @@
   },
   {
    "date": "2026-10-21",
+   "filed_at": "2026-10-21T18:41:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Giving of guarantees or indemnity or becoming a surety for any third party'.",
@@ -2661,7 +2718,9 @@
   },
   {
    "date": "2026-10-14",
+   "filed_at": "2026-10-14T18:25:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange ESG Rating by Crisil ESG Ratings & Analystics Ltd.",
@@ -2669,7 +2728,9 @@
   },
   {
    "date": "2026-10-10",
+   "filed_at": "2026-10-10T13:41:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
@@ -2677,7 +2738,9 @@
   },
   {
    "date": "2026-10-07",
+   "filed_at": "2026-10-07T15:01:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Agreements",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd",
@@ -2685,7 +2748,9 @@
   },
   {
    "date": "2026-10-01",
+   "filed_at": "2026-10-01T15:59:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2693,7 +2758,9 @@
   },
   {
    "date": "2026-09-30",
+   "filed_at": "2026-09-30T14:45:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Execution of Intellectual Property License Agreement between Dixon Electro Appliances Private Limited, a Subsidiary / Joint Venture of Dixon Technologies (India) Limited and Aviat Networks (India) Private Limited",
@@ -2701,7 +2768,9 @@
   },
   {
    "date": "2026-09-29",
+   "filed_at": "2026-09-29T18:33:00+05:30",
    "tag": "Appointment",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
@@ -2709,7 +2778,9 @@
   },
   {
    "date": "2026-09-29",
+   "filed_at": "2026-09-29T17:38:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Dixon Technologies (India) Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on September 28, 2026. Further, the company has informed the Exchange regarding voting results.",
@@ -2717,7 +2788,9 @@
   },
   {
    "date": "2026-09-28",
+   "filed_at": "2026-09-28T19:26:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Proceeding of 33rd AGM of Dixon Technologies (India) Limited held on 28th September, 2026.",
@@ -2725,7 +2798,9 @@
   },
   {
    "date": "2026-09-24",
+   "filed_at": "2026-09-24T10:59:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2733,7 +2808,9 @@
   },
   {
    "date": "2026-09-23",
+   "filed_at": "2026-09-23T12:01:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2741,7 +2818,9 @@
   },
   {
    "date": "2026-09-22",
+   "filed_at": "2026-09-22T10:56:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2749,7 +2828,9 @@
   },
   {
    "date": "2026-09-21",
+   "filed_at": "2026-09-21T18:40:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Acquisition",
@@ -2757,7 +2838,9 @@
   },
   {
    "date": "2026-09-18",
+   "filed_at": "2026-09-18T20:22:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2765,7 +2848,9 @@
   },
   {
    "date": "2026-09-18",
+   "filed_at": "2026-09-18T20:19:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2773,7 +2858,9 @@
   },
   {
    "date": "2026-09-18",
+   "filed_at": "2026-09-18T14:41:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about ESG Rating assigned by Niche Ninety Nine Capability and Certifications (OPC) Private Limited",
@@ -2781,7 +2868,9 @@
   },
   {
    "date": "2026-09-18",
+   "filed_at": "2026-09-18T11:30:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2789,7 +2878,9 @@
   },
   {
    "date": "2026-09-17",
+   "filed_at": "2026-09-17T13:20:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2797,7 +2888,9 @@
   },
   {
    "date": "2026-09-15",
+   "filed_at": "2026-09-15T16:41:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2805,7 +2898,9 @@
   },
   {
    "date": "2026-09-11",
+   "filed_at": "2026-09-11T18:22:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2813,7 +2908,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T22:49:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
@@ -2821,7 +2918,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T22:29:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
@@ -2829,7 +2928,9 @@
   },
   {
    "date": "2026-09-03",
+   "filed_at": "2026-09-03T22:25:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Business Responsibility and Sustainability Report - FY 2025-26",
@@ -2837,7 +2938,9 @@
   },
   {
    "date": "2026-09-03",
+   "filed_at": "2026-09-03T22:09:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange that Record date for the purpose of Dividend is 21-Sep-2026.",
@@ -2845,7 +2948,9 @@
   },
   {
    "date": "2026-09-03",
+   "filed_at": "2026-09-03T21:52:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Shareholder Meeting- 33rd Annual General Meeting of Dixon Technologies (India) Limited on 28th September, 2026",
@@ -2853,7 +2958,9 @@
   },
   {
    "date": "2026-09-02",
+   "filed_at": "2026-09-02T19:07:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding Allotment of 28455 Shares.",
@@ -2861,7 +2968,9 @@
   },
   {
    "date": "2026-09-02",
+   "filed_at": "2026-09-02T10:28:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
@@ -2869,7 +2978,9 @@
   },
   {
    "date": "2026-09-01",
+   "filed_at": "2026-09-01T11:32:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
@@ -2877,7 +2988,9 @@
   },
   {
    "date": "2026-08-31",
+   "filed_at": "2026-08-31T21:30:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Intimation with regard to 33rd Annual General Meeting of Dixon Technologies (India) Limited, Closure ofRegister of Members & Share Transfer books, E-Voting details and Record date",
@@ -2885,7 +2998,9 @@
   },
   {
    "date": "2026-08-25",
+   "filed_at": "2026-08-25T14:34:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
@@ -2893,7 +3008,9 @@
   },
   {
    "date": "2026-08-21",
+   "filed_at": "2026-08-21T17:29:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
@@ -2901,7 +3018,9 @@
   },
   {
    "date": "2026-08-20",
+   "filed_at": "2026-08-20T14:40:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
@@ -2909,7 +3028,9 @@
   },
   {
    "date": "2026-08-19",
+   "filed_at": "2026-08-19T16:17:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
@@ -2917,7 +3038,9 @@
   },
   {
    "date": "2026-08-14",
+   "filed_at": "2026-08-14T18:59:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Giving guarantees/indemnity/ becoming a surety for third party",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Giving guarantees/indemnity/ becoming a surety for third party",
@@ -2925,12 +3048,58 @@
   },
   {
    "date": "2026-08-12",
+   "filed_at": "2026-08-12T16:09:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Proposed incorporation of One (1) Subsidiary Company of Dixon Technologies (India) Limited",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_12082026160858_Reg30DisclosureAdivistar.pdf"
+  },
+  {
+   "date": "2026-08-12",
+   "filed_at": "2026-08-12T13:16:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_12082026131615_InvestorMeetOutcome12082026.pdf"
+  },
+  {
+   "date": "2026-08-11",
+   "filed_at": "2026-08-11T22:30:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026223027_InvestorMeetIntimation11082026.pdf"
+  },
+  {
+   "date": "2026-08-11",
+   "filed_at": "2026-08-11T12:28:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026122835_InvestorMeetOutcome11082026.pdf"
+  },
+  {
+   "date": "2026-08-11",
+   "filed_at": "2026-08-11T12:26:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026122548_InvestorMeetOutcome11082026.pdf"
   }
+ ],
+ "routine": [
+  "2026-10-31T19:32:00+05:30",
+  "2026-10-09T18:23:00+05:30"
  ],
  "calls": [
   {
@@ -2954,73 +3123,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-02",
-  "change_pct": 11.990909090909096,
-  "typical_pct": 1.3995584988962473,
-  "times": 8.5676369371953,
-  "volume_x": 4.932894974695429,
-  "biggest_in_year": true,
-  "nifty_change_pct": 1.6817694800265404,
-  "filings": [
-   {
-    "date": "2026-10-30",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
-   },
-   {
-    "date": "2026-10-30",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
-   },
-   {
-    "date": "2026-10-30",
-    "tag": "Appointment",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf"
-   },
-   {
-    "date": "2026-10-30",
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-02",
-    "change_pct": 11.990909090909096,
-    "typical_pct": 1.3995584988962473,
-    "times": 8.5676369371953,
-    "volume_x": 4.932894974695429,
-    "biggest_in_year": true,
-    "nifty_change_pct": 1.6817694800265404
-   },
-   "items": [
-    {
-     "date": "2026-10-30",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
-    },
-    {
-     "date": "2026-10-30",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
-    },
-    {
-     "date": "2026-10-30",
-     "tag": "Appointment",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf"
-    },
-    {
-     "date": "2026-10-30",
-     "tag": "Results",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "enough",
@@ -3035,9 +3139,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -20.491803278688526,
-    "nifty_return_1y": -8.869027023454535,
-    "close": 12319.0,
+    "return_1y": -20.762027768808522,
+    "nifty_return_1y": -7.578595174928726,
+    "close": 12270.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
    }
@@ -3046,8 +3150,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 37.1665,
-    "usual": 38.430163934426226,
+    "recent": 36.5295,
+    "usual": 38.20564516129032,
     "months": 3
    }
   },

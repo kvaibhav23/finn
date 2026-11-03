@@ -3,6 +3,7 @@
     python -m finn.market TCS ASIANPAINT        # named companies
     python -m finn.market --ledgers             # every company with a ledger (the nightly job)
     python -m finn.market --ledgers --stale     # also print companies whose ledger needs a rerun
+    python -m finn.market --portfolio --ledgers # the portfolio plus every ledger company (the daily job)
 
 No model is called. One company failing (NSE hiccup) does not stop the others; its file keeps the
 error so the site can leave that section out.
@@ -22,6 +23,7 @@ from finn.data import http
 from finn.data.corporate_actions import get_corporate_actions
 from finn.data.financials import get_quarterly_financials
 from finn.data.transcripts import candidates, quarter_for
+from finn.portfolio import PORTFOLIO
 
 from . import filings as filings_mod
 from .moves import big_move, events, market_day
@@ -95,6 +97,7 @@ def build_one(symbol: str, rows: list[dict], nifty: list[dict], end: date,
     try:
         ann = filings_mod.get_announcements_for(symbol, end, client)
         out["filings"] = filings_mod.recent(filings_mod.within(ann, end))
+        out["routine"] = filings_mod.routine_times(filings_mod.within(ann, end, 30))
         out["calls"] = filings_mod.call_dates(ann)
     except Exception as e:                       # noqa: BLE001
         out["filings"], out["errors"]["filings"] = None, f"{type(e).__name__}: {e}"
@@ -143,12 +146,14 @@ def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(prog="python -m finn.market")
     ap.add_argument("symbols", nargs="*")
     ap.add_argument("--ledgers", action="store_true", help="every company in data/ledger/")
+    ap.add_argument("--portfolio", action="store_true", help="every company in finn/portfolio.py")
     ap.add_argument("--stale", action="store_true", help="print 'SYMBOL<TAB>reason' for ledgers needing a rerun")
     ap.add_argument("--end", type=date.fromisoformat, help="last day (default: today, IST)")
     a = ap.parse_args(argv)
-    symbols = sorted(set(s.upper() for s in a.symbols) | (set(ledger_symbols()) if a.ledgers else set()))
+    symbols = sorted(set(s.upper() for s in a.symbols) | (set(ledger_symbols()) if a.ledgers else set())
+                     | (set(PORTFOLIO) if a.portfolio else set()))
     if not symbols:
-        ap.error("name at least one symbol, or pass --ledgers")
+        ap.error("name at least one symbol, or pass --ledgers or --portfolio")
     built = run(symbols, a.end)
     for m in built:
         p, err = m.get("price"), m.get("errors") or {}

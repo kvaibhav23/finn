@@ -106,8 +106,55 @@ def results_stats(fin: pd.DataFrame, actions: pd.DataFrame | None, close: float 
         if len(prior) and _f(latest[col]) is not None and _f(prior[col].iloc[0]) else None
     out["revenue_yoy_pct"], out["pat_yoy_pct"] = yoy(top), yoy("pat")
     out["net_npa_pct"] = _f(latest.get("net_npa_pct")) if bank else None
+    cr = lambda r, col: _f(r.get(col)) / CR if _f(r.get(col)) is not None else None
+    # Revenue, EBITDA, PBT and PAT for the results card (vs the quarter before and a year before). EBITDA is
+    # derived (pbt + finance costs + depreciation - other income) and is None for banks, with the reason.
+    out["ebitda_note"] = "EBITDA is not meaningful for banks" if bank else None
     out["quarters"] = [{"quarter": fy_label(r["qe"]), "qe": r["qe"].isoformat(),
-                        "revenue_cr": _f(r[top]) / CR if _f(r[top]) is not None else None,
-                        "pat_cr": _f(r["pat"]) / CR if _f(r["pat"]) is not None else None,
-                        "xbrl_url": r.get("xbrl_url")} for _, r in df.tail(8).iterrows()]
+                        "revenue_cr": cr(r, top), "ebitda_cr": None if bank else cr(r, "ebitda"),
+                        "pbt_cr": cr(r, "pbt"), "pat_cr": cr(r, "pat"),
+                        "approved": str(r["board_meeting"])[:10] if r.get("board_meeting") else None,
+                        "xbrl_url": r.get("xbrl_url")} for _, r in df.tail(9).iterrows()]
     return out
+
+
+def _change(now: float | None, then: float | None) -> float | None:
+    """Percent change; None when either is missing or the base was zero or a loss (a % on a loss misleads)."""
+    return (now / then - 1) * 100 if now is not None and then is not None and then > 0 else None
+
+
+def results_card(results: dict | None, qe: str | None = None) -> dict | None:
+    """Revenue, EBITDA, PBT and PAT for one quarter (default: the latest), against the quarter before and the
+    same quarter a year earlier. Only exact quarters count: a gap in the filings gives None, never a guess."""
+    qs = (results or {}).get("quarters") or []
+    by_qe = {q["qe"]: q for q in qs}
+    cur = by_qe.get(qe) if qe else (qs[-1] if qs else None)
+    if not cur:
+        return None
+    p = pd.Period(cur["qe"], freq="Q")
+    prev, year = by_qe.get(str((p - 1).end_time.date())), by_qe.get(str((p - 4).end_time.date()))
+    top = results.get("top_line", "revenue")
+    rows = []
+    for key, col in ((top, "revenue_cr"), ("ebitda", "ebitda_cr"), ("pbt", "pbt_cr"), ("pat", "pat_cr")):
+        now = cur.get(col)
+        row = {"key": key, "now": now,
+               "qoq": _change(now, (prev or {}).get(col)), "yoy": _change(now, (year or {}).get(col))}
+        if key == "ebitda" and results.get("ebitda_note"):
+            row["note"] = results["ebitda_note"]
+        rows.append(row)
+    return {"quarter": cur["quarter"], "qe": cur["qe"], "approved": cur.get("approved"),
+            "basis": results.get("basis"), "xbrl_url": cur.get("xbrl_url"),
+            "prev_quarter": prev["quarter"] if prev else None, "year_quarter": year["quarter"] if year else None,
+            "rows": rows}
+
+
+def card_for_filing(results: dict | None, filed: str | None, days: int = 3) -> dict | None:
+    """The card for the quarter whose results the board approved within `days` of this filing, if NSE's XBRL
+    for it is in; otherwise None and the digest links the PDF."""
+    if not filed:
+        return None
+    day = date.fromisoformat(filed[:10])
+    for q in reversed((results or {}).get("quarters") or []):
+        if q.get("approved") and abs((date.fromisoformat(q["approved"]) - day).days) <= days:
+            return results_card(results, q["qe"])
+    return None

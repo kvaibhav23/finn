@@ -1,23 +1,23 @@
 {
- "date": "2026-11-02",
- "close": 23440.8,
- "change_pct": 1.6817694800265404,
+ "date": "2026-11-03",
+ "close": 23810.85,
+ "change_pct": 1.5786577249923273,
  "big": false,
  "movers": [
   {
-   "symbol": "DIXON",
-   "name": "Dixon Technologies (India) Limited",
-   "change_pct": 11.990909090909096
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints Limited",
+   "change_pct": 3.9883973894126123
   },
   {
    "symbol": "SUPREMEIND",
    "name": "Supreme Industries Limited",
-   "change_pct": 2.16507936507937
+   "change_pct": 2.5417935491889976
   },
   {
-   "symbol": "ASIANPAINT",
-   "name": "Asian Paints Limited",
-   "change_pct": 1.0474137931034466
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies Limited",
+   "change_pct": -2.2840492527493317
   }
  ]
 }

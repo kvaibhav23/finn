@@ -1,20 +1,20 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-03T04:37:11Z",
+ "generated_at": "2026-11-03T18:08:57Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-02",
-  "close": 2501.7,
-  "change": -0.900000000000091,
-  "change_pct": -0.035962598897154585,
+  "as_of": "2026-11-03",
+  "close": 2499.1,
+  "change": -2.599999999999909,
+  "change_pct": -0.10392932805691757,
   "high_52w": 3350.0,
   "low_52w": 1976.8,
-  "range_position": 0.3822458491115641,
-  "return_1y": -18.19162851536953,
-  "nifty_return_1y": -8.869027023454535,
-  "delivery_20d": 47.124,
-  "delivery_avg": 48.53885245901639,
-  "delivery_sessions": 61
+  "range_position": 0.38035246140401974,
+  "return_1y": -17.160567488729782,
+  "nifty_return_1y": -7.578595174928726,
+  "delivery_20d": 47.445,
+  "delivery_avg": 48.611935483870965,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     2501.7,
     2817192,
     53.4
+   ],
+   [
+    "2026-11-03",
+    2499.1,
+    3488517,
+    53.07
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-02",
    23440.8
+  ],
+  [
+   "2026-11-03",
+   23810.85
   ]
  ],
  "results": {
@@ -2545,67 +2555,102 @@
   "ttm_pat_cr": 51858.0,
   "ttm_margin_pct": 18.308337569903408,
   "ttm_eps": 142.64000000000001,
-  "pe": 17.538558609085808,
+  "pe": 17.520330902972514,
   "pe_note": null,
-  "market_cap_cr": 905615.4,
+  "market_cap_cr": 904674.2,
   "revenue_yoy_pct": 11.229653946108598,
   "pat_yoy_pct": 14.86274833072294,
   "net_npa_pct": null,
+  "ebitda_note": null,
   "quarters": [
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 64259.0,
+    "ebitda_cr": 16731.0,
+    "pbt_cr": 16032.0,
+    "pat_cr": 11955.0,
+    "approved": "2024-10-10",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_112733_1265368_10102024065944.xml"
+   },
    {
     "quarter": "Q3FY25",
     "qe": "2024-12-31",
     "revenue_cr": 63973.0,
+    "ebitda_cr": 17034.0,
+    "pbt_cr": 16666.0,
     "pat_cr": 12444.0,
+    "approved": "2025-01-09",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117182_1341298_09012025093940.xml"
    },
    {
     "quarter": "Q4FY25",
     "qe": "2025-03-31",
     "revenue_cr": 64479.0,
+    "ebitda_cr": 16980.0,
+    "pbt_cr": 16402.0,
     "pat_cr": 12293.0,
+    "approved": "2025-04-10",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1412101_11042025074137_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
     "qe": "2025-06-30",
     "revenue_cr": 63437.0,
+    "ebitda_cr": 16875.0,
+    "pbt_cr": 16979.0,
     "pat_cr": 12819.0,
+    "approved": "2025-07-10",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1480382_10072025064011_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
     "qe": "2025-09-30",
     "revenue_cr": 65799.0,
+    "ebitda_cr": 16843.0,
+    "pbt_cr": 16068.0,
     "pat_cr": 12131.0,
+    "approved": "2025-10-09",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1543879_09102025115624_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
     "qe": "2025-12-31",
     "revenue_cr": 67087.0,
+    "ebitda_cr": 14878.0,
+    "pbt_cr": 14078.0,
     "pat_cr": 10720.0,
+    "approved": "2026-01-12",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1599094_12012026064316_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
     "qe": "2026-03-31",
     "revenue_cr": 70698.0,
+    "ebitda_cr": 19276.0,
+    "pbt_cr": 18362.0,
     "pat_cr": 13784.0,
+    "approved": "2026-04-09",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1648408_09042026114218_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
     "qe": "2026-06-30",
     "revenue_cr": 72275.0,
+    "ebitda_cr": 17888.0,
+    "pbt_cr": 17944.0,
     "pat_cr": 13420.0,
+    "approved": "2026-07-09",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1690004_09072026063620_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
     "qe": "2026-09-30",
     "revenue_cr": 73188.0,
+    "ebitda_cr": 18815.0,
+    "pbt_cr": 18638.0,
     "pat_cr": 13934.0,
+    "approved": "2026-10-08",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1734607_08102026100810_WEB.xml"
    }
   ]
@@ -2613,7 +2658,9 @@
  "filings": [
   {
    "date": "2026-10-19",
+   "filed_at": "2026-10-19T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank'.",
@@ -2621,7 +2668,9 @@
   },
   {
    "date": "2026-10-16",
+   "filed_at": "2026-10-16T16:29:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
@@ -2629,7 +2678,9 @@
   },
   {
    "date": "2026-10-15",
+   "filed_at": "2026-10-15T13:30:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about completion of acquisition of BBY Services India LLP",
@@ -2637,7 +2688,9 @@
   },
   {
    "date": "2026-10-15",
+   "filed_at": "2026-10-15T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering'.",
@@ -2645,7 +2698,9 @@
   },
   {
    "date": "2026-10-14",
+   "filed_at": "2026-10-14T16:00:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Transcript",
@@ -2653,7 +2708,9 @@
   },
   {
    "date": "2026-10-14",
+   "filed_at": "2026-10-14T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release -MyState Limited selects TCS BaNCSTM to transform core banking operations'.",
@@ -2661,7 +2718,9 @@
   },
   {
    "date": "2026-10-09",
+   "filed_at": "2026-10-09T08:08:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program'.",
@@ -2669,7 +2728,9 @@
   },
   {
    "date": "2026-10-08",
+   "filed_at": "2026-10-08T22:38:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Link of Recording",
@@ -2677,7 +2738,9 @@
   },
   {
    "date": "2026-10-08",
+   "filed_at": "2026-10-08T15:44:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Date of Payment of Dividend.",
@@ -2685,7 +2748,9 @@
   },
   {
    "date": "2026-10-08",
+   "filed_at": "2026-10-08T15:43:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
@@ -2693,7 +2758,9 @@
   },
   {
    "date": "2026-10-08",
+   "filed_at": "2026-10-08T15:42:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Dividend",
    "subject": "Tata Consultancy Services Limited has informed the Exchange that Board of Directors at its meeting held on October 8, 2026, declared Interim Dividend of Rs. 12 per equity share.",
@@ -2701,7 +2768,9 @@
   },
   {
    "date": "2026-10-08",
+   "filed_at": "2026-10-08T15:40:00+05:30",
    "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
@@ -2709,7 +2778,9 @@
   },
   {
    "date": "2026-10-01",
+   "filed_at": "2026-10-01T21:42:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Best Buy s Global Capability Center in India to transition to TCS\".",
@@ -2717,7 +2788,9 @@
   },
   {
    "date": "2026-10-01",
+   "filed_at": "2026-10-01T20:08:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
@@ -2725,7 +2798,9 @@
   },
   {
    "date": "2026-10-01",
+   "filed_at": "2026-10-01T18:41:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
@@ -2733,7 +2808,9 @@
   },
   {
    "date": "2026-10-01",
+   "filed_at": "2026-10-01T18:39:00+05:30",
    "tag": "Board meeting",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
@@ -2741,7 +2818,9 @@
   },
   {
    "date": "2026-09-23",
+   "filed_at": "2026-09-23T13:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS renews title partnership with Jaguar TCS Racing and expands role as official AI partner ahead of Formula E's GEN4 era'.",
@@ -2749,7 +2828,9 @@
   },
   {
    "date": "2026-09-22",
+   "filed_at": "2026-09-22T18:27:00+05:30",
    "tag": "Dividend or corporate action",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Tata Consultancy Services Limited has informed the Exchange that Record date for the purpose of Dividend is 14-Oct-2026.",
@@ -2757,7 +2838,9 @@
   },
   {
    "date": "2026-09-15",
+   "filed_at": "2026-09-15T14:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS to Accelerate AI-Led Technology Transformation for Germany's Aareal Bank'.",
@@ -2765,7 +2848,9 @@
   },
   {
    "date": "2026-09-15",
+   "filed_at": "2026-09-15T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - DGCX partners with TCS to advance and upgrade derivatives market infrastructure'.",
@@ -2773,7 +2858,9 @@
   },
   {
    "date": "2026-09-09",
+   "filed_at": "2026-09-09T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches India's first lights-out factory lab to advance AI-first manufacturing'.",
@@ -2781,7 +2868,9 @@
   },
   {
    "date": "2026-09-08",
+   "filed_at": "2026-09-08T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS wins Rs 122 crore bid to build AI-enabled digital governance platform for Odisha Government'.",
@@ -2789,7 +2878,9 @@
   },
   {
    "date": "2026-09-07",
+   "filed_at": "2026-09-07T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches AI-native creative engineering studio in the UK'.",
@@ -2797,7 +2888,9 @@
   },
   {
    "date": "2026-09-05",
+   "filed_at": "2026-09-05T15:24:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Press Release titled TCS HyperVault to establish large-scale AI data center campus in Telangana being issued by HyperVault AI Data Center Limited, a subsidiary of the Company.",
@@ -2805,7 +2898,9 @@
   },
   {
    "date": "2026-09-03",
+   "filed_at": "2026-09-03T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS to harmonise Metro's IT application landscape and support scalable growth'.",
@@ -2813,7 +2908,9 @@
   },
   {
    "date": "2026-08-26",
+   "filed_at": "2026-08-26T15:38:00+05:30",
    "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
@@ -2821,7 +2918,9 @@
   },
   {
    "date": "2026-08-24",
+   "filed_at": "2026-08-24T16:58:00+05:30",
    "tag": "Order or contract",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
@@ -2829,7 +2928,9 @@
   },
   {
    "date": "2026-08-24",
+   "filed_at": "2026-08-24T16:57:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated August 24, 2026, titled \"TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility\".",
@@ -2837,7 +2938,9 @@
   },
   {
    "date": "2026-08-24",
+   "filed_at": "2026-08-24T16:55:00+05:30",
    "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
@@ -2845,7 +2948,9 @@
   },
   {
    "date": "2026-08-17",
+   "filed_at": "2026-08-17T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Agentic AI platform to transform drug development'.",
@@ -2853,7 +2958,9 @@
   },
   {
    "date": "2026-08-14",
+   "filed_at": "2026-08-14T20:05:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Pursuant to Regulation 30 read with Schedule III Part A Para A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose the communication se",
@@ -2861,7 +2968,9 @@
   },
   {
    "date": "2026-08-13",
+   "filed_at": "2026-08-13T11:30:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS and Vodafone join forces to drive AI-led digital transformation for UK enterprises'.",
@@ -2869,7 +2978,9 @@
   },
   {
    "date": "2026-08-12",
+   "filed_at": "2026-08-12T15:25:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is attached.",
@@ -2877,7 +2988,9 @@
   },
   {
    "date": "2026-08-12",
+   "filed_at": "2026-08-12T11:42:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is awaited.",
@@ -2885,7 +2998,9 @@
   },
   {
    "date": "2026-08-11",
+   "filed_at": "2026-08-11T11:36:00+05:30",
    "tag": "Press release",
+   "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS and Google Cloud launch Gemini Experience Center in Mexico to help drive AI adoption'.",
@@ -2893,12 +3008,19 @@
   },
   {
    "date": "2026-08-10",
+   "filed_at": "2026-08-10T16:06:00+05:30",
    "tag": "Other",
+   "priority": 3,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about General Updates",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_10082026160412_TCS__3_.pdf"
   }
+ ],
+ "routine": [
+  "2026-10-10T18:06:00+05:30",
+  "2026-10-10T17:56:00+05:30",
+  "2026-10-09T18:43:00+05:30"
  ],
  "calls": [
   {
@@ -2943,9 +3065,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.19162851536953,
-    "nifty_return_1y": -8.869027023454535,
-    "close": 2501.7,
+    "return_1y": -17.160567488729782,
+    "nifty_return_1y": -7.578595174928726,
+    "close": 2499.1,
     "low_52w": 1976.8,
     "high_52w": 3350.0
    }
@@ -2954,8 +3076,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 47.124,
-    "usual": 48.53885245901639,
+    "recent": 47.445,
+    "usual": 48.611935483870965,
     "months": 3
    }
   },

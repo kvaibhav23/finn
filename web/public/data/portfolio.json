@@ -1,0 +1,122 @@
+[
+ {
+  "symbol": "TCS",
+  "name": "Tata Consultancy Services Limited",
+  "sector": "IT services",
+  "ledger": true
+ },
+ {
+  "symbol": "INFY",
+  "name": "Infosys Limited",
+  "sector": "IT services",
+  "ledger": false
+ },
+ {
+  "symbol": "KPITTECH",
+  "name": "KPIT Technologies Limited",
+  "sector": "IT services",
+  "ledger": true
+ },
+ {
+  "symbol": "HDFCBANK",
+  "name": "HDFC Bank Limited",
+  "sector": "Banking",
+  "ledger": false
+ },
+ {
+  "symbol": "ICICIBANK",
+  "name": "ICICI Bank Limited",
+  "sector": "Banking",
+  "ledger": false
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "name": "Bajaj Finance Limited",
+  "sector": "Lending",
+  "ledger": false
+ },
+ {
+  "symbol": "RELIANCE",
+  "name": "Reliance Industries Limited",
+  "sector": "Energy and retail",
+  "ledger": false
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "name": "Bharti Airtel Limited",
+  "sector": "Telecom",
+  "ledger": false
+ },
+ {
+  "symbol": "ITC",
+  "name": "ITC Limited",
+  "sector": "Consumer goods",
+  "ledger": false
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "name": "Asian Paints Limited",
+  "sector": "Paints",
+  "ledger": true
+ },
+ {
+  "symbol": "TITAN",
+  "name": "Titan Company Limited",
+  "sector": "Jewellery and watches",
+  "ledger": false
+ },
+ {
+  "symbol": "DMART",
+  "name": "Avenue Supermarts Limited",
+  "sector": "Retail",
+  "ledger": false
+ },
+ {
+  "symbol": "MARUTI",
+  "name": "Maruti Suzuki India Limited",
+  "sector": "Autos",
+  "ledger": false
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "name": "Sun Pharmaceutical Industries Limited",
+  "sector": "Pharma",
+  "ledger": false
+ },
+ {
+  "symbol": "LT",
+  "name": "Larsen & Toubro Limited",
+  "sector": "Engineering",
+  "ledger": false
+ },
+ {
+  "symbol": "POLYCAB",
+  "name": "Polycab India Limited",
+  "sector": "Cables and wires",
+  "ledger": false
+ },
+ {
+  "symbol": "DIXON",
+  "name": "Dixon Technologies (India) Limited",
+  "sector": "Electronics manufacturing",
+  "ledger": true
+ },
+ {
+  "symbol": "SUPREMEIND",
+  "name": "Supreme Industries Limited",
+  "sector": "Plastics",
+  "ledger": true
+ },
+ {
+  "symbol": "COCHINSHIP",
+  "name": "Cochin Shipyard Limited",
+  "sector": "Shipbuilding",
+  "ledger": false
+ },
+ {
+  "symbol": "ETERNAL",
+  "name": "ETERNAL LIMITED",
+  "sector": "Food delivery and quick commerce",
+  "ledger": false
+ }
+]
