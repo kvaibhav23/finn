@@ -95,6 +95,7 @@ export interface IndexEntry {
   price_as_of?: string | null;
   return_1y?: number | null;
   big_move?: boolean;
+  spark?: number[];
 }
 
 // Written by finn.market via scripts/build_web_data.py: prices (NSE bhavcopy), results (XBRL), filings (NSE).

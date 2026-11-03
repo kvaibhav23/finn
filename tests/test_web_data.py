@@ -92,3 +92,13 @@ def test_market_banner_lists_the_biggest_movers(tmp_path):
     b = bw.market_banner(tmp_path, index, top=2)
     assert b["big"] and [m["symbol"] for m in b["movers"]] == ["B", "C"]   # D's price is from another day
     assert bw.market_banner(tmp_path / "none", index) is None
+
+
+def test_spark_keeps_first_and_last_close_and_thins_the_rest():
+    rows = [[f"d{i}", float(i), 1, None] for i in range(250)]
+    s = bw.spark(rows)
+    assert s[0] == 0.0 and s[-1] == 249.0
+    assert 50 <= len(s) <= 60
+    assert s == sorted(s)
+    assert bw.spark([["d", 1.0, 1, None]]) == []
+    assert bw.spark(None) == []

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 import { useT } from "@/lib/i18n/client";
 
@@ -13,6 +14,19 @@ export function NavLinks() {
     { href: "/method", label: t.nav.method, on: path === "/method" },
     { href: "/settings", label: t.nav.settings, on: path === "/settings" },
   ];
+  // "/" jumps to the search box on any page, as in most data terminals.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const el = e.target as HTMLElement;
+      if (e.key !== "/" || e.metaKey || e.ctrlKey || el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName)) return;
+      const input = [...document.querySelectorAll<HTMLInputElement>(".search input")].find((i) => i.offsetParent);
+      if (!input) return;
+      e.preventDefault();
+      input.focus();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
   return (
     <nav className="site-nav" aria-label={t.nav.main}>
       {links.map((l) => (

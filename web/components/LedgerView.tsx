@@ -43,14 +43,20 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
     return () => window.removeEventListener("finn:made", onMade);
   }, [ledger]);
 
-  // /c/SYMBOL#<promise id> opens that promise: a shareable link to one receipt.
+  // /c/SYMBOL#<promise id> opens that promise: a shareable link to one receipt (also from "Coming up").
   useEffect(() => {
-    const id = decodeURIComponent(window.location.hash.slice(1));
-    const target = ledger.promises.find((p) => p.id === id);
-    if (!id || !target) return;
-    if (target.verdict === "Unverifiable") setShowUnverifiable(true);
-    setOpen(new Set([id]));
-    requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
+    const openHash = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      const target = ledger.promises.find((p) => p.id === id);
+      if (!id || !target) return;
+      if (target.verdict === "Unverifiable") setShowUnverifiable(true);
+      setVerdict("All"); setMetric("All"); setMade("All");
+      setOpen((s) => new Set([...s, id]));
+      requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
+    };
+    openHash();
+    window.addEventListener("hashchange", openHash);
+    return () => window.removeEventListener("hashchange", openHash);
   }, [ledger]);
 
   const toggle = (id: string) => setOpen((s) => {

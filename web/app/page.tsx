@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { MarketBanner } from "@/components/MarketBanner";
 import { Search } from "@/components/Search";
+import { Sparkline } from "@/components/Sparkline";
 import { Track } from "@/components/Track";
 import { VerdictMark } from "@/components/VerdictMark";
 import { getIndex, getLedger, getMarketDay } from "@/lib/data";
@@ -97,8 +98,9 @@ export default async function Home() {
                       </span>
                     )}
                   </span>
-                  <span className="co-span">
-                    {quarter(e.from)} – {quarter(e.to)}
+                  <span className="co-trend">
+                    {e.spark && e.spark.length > 1 && <Sparkline values={e.spark} width={140} height={34} />}
+                    {e.return_1y != null && <span className="co-span">{t.view.tile.priceYear(e.return_1y >= 0, `${Math.abs(e.return_1y).toFixed(1)}%`)}</span>}
                   </span>
                   <span className="co-score">
                     <Mix c={e.counts} total={e.promises} />

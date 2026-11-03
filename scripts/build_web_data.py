@@ -131,6 +131,19 @@ def slim_market(m: dict) -> dict:
     return {k: m.get(k) for k in keep} | {"missing": sorted((m.get("errors") or {}).keys())}
 
 
+def spark(rows: list | None, points: int = 52) -> list[float]:
+    """About one close a week over the year (always ending on the last close), for the small price lines in
+    the company lists."""
+    closes = [r[1] for r in rows or [] if r[1] is not None]
+    if len(closes) < 2:
+        return []
+    step = max(1, -(-len(closes) // points))
+    picked = list(range(len(closes) - 1, -1, -step))[::-1]
+    if picked[0] != 0:
+        picked.insert(0, 0)
+    return [closes[i] for i in picked]
+
+
 def market_banner(market_dir: Path, index: list[dict], top: int = 3) -> dict | None:
     """The Nifty 50's last day and the tracked companies that moved most that day."""
     f = market_dir / "_market.json"
@@ -158,11 +171,11 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
         (out / "ledgers" / f"{s['symbol']}.json").write_text(json.dumps(s, ensure_ascii=False, separators=(",", ":")))
         calls = s["calls"]
         mf = market_dir / f"{s['symbol']}.json"
-        price = None
+        price, rows = None, None
         if mf.exists():
             mk = slim_market(json.loads(mf.read_text()))
             (out / "market" / mf.name).write_text(json.dumps(mk, ensure_ascii=False, separators=(",", ":")))
-            price = mk.get("price")
+            price, rows = mk.get("price"), (mk.get("prices") or {}).get("rows")
         index.append({"symbol": s["symbol"], "name": s["name"], "status": s["status"],
                       "generated_at": s["generated_at"], "as_of_results": s.get("as_of_results"),
                       "calls": len(calls), "from": calls[0]["quarter"] if calls else None,
@@ -171,7 +184,8 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
                       "close": (price or {}).get("close"), "change_pct": (price or {}).get("change_pct"),
                       "price_as_of": (price or {}).get("as_of"),
                       "return_1y": (price or {}).get("return_1y"),
-                      "big_move": bool(mf.exists() and json.loads(mf.read_text()).get("move"))})
+                      "big_move": bool(mf.exists() and json.loads(mf.read_text()).get("move")),
+                      "spark": spark(rows)})
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
     banner = market_banner(market_dir, index)
     (out / "market.json").write_text(json.dumps(banner, ensure_ascii=False, indent=1))

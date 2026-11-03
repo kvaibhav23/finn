@@ -55,3 +55,10 @@ export function dayMonthYear(iso: string | null | undefined, lang: Lang = DEFAUL
   }
   return fmt(lang, { day: "numeric", month: "short", year: "numeric" }).format(utc(iso));
 }
+
+/** Share counts the Indian way: "1.95 crore", "19.5 lakh", else "45,230". */
+export function shares(n: number, words: { crore: string; lakh: string } = { crore: "crore", lakh: "lakh" }): string {
+  if (n >= 1e7) return `${(n / 1e7).toLocaleString("en-IN", { maximumFractionDigits: 2 })} ${words.crore}`;
+  if (n >= 1e5) return `${(n / 1e5).toLocaleString("en-IN", { maximumFractionDigits: 1 })} ${words.lakh}`;
+  return n.toLocaleString("en-IN");
+}

@@ -2,13 +2,18 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { AlertsSignup } from "@/components/AlertsSignup";
+import { BigDays } from "@/components/BigDays";
+import { ComingUp } from "@/components/ComingUp";
 import { Filings } from "@/components/Filings";
+import { Glance } from "@/components/Glance";
 import { KeyNumbers } from "@/components/KeyNumbers";
 import { LedgerView } from "@/components/LedgerView";
 import { PriceChart } from "@/components/PriceChart";
+import { DeliveryBars, RangeBar, Returns } from "@/components/PriceFacts";
 import { QuarterBars } from "@/components/QuarterBars";
 import { RequestAnalysis } from "@/components/RequestAnalysis";
 import { Search } from "@/components/Search";
+import { SectionTabs, type Tab } from "@/components/SectionTabs";
 import { Signals } from "@/components/Signals";
 import { channels } from "@/lib/alerts/config";
 import { companyName, getIndex, getLedger, getMarket } from "@/lib/data";
@@ -47,6 +52,95 @@ export default async function CompanyPage({ params }: Props) {
   const lines = market ? summary(t, lang, symbol, market, counts) : [];
   const move = market?.move ?? null;
 
+  const today = p?.as_of ?? new Date().toISOString().slice(0, 10);
+
+  const promises = (
+    <>
+      <h2 className="section-title">{t.company.promises}</h2>
+      {ok && (
+        <p className="section-sub">
+          {t.company.promisesSub(ledger!.calls.length, quarter(ledger!.calls[0]?.quarter),
+            quarter(ledger!.calls.at(-1)?.quarter), monthYear(ledger!.as_of_results, lang))}
+          {ledger!.margin_note && t.company.marginNote(ledger!.margin_note.split(":")[0])}
+        </p>
+      )}
+      {ok && <ComingUp ledger={ledger!} today={today} t={t} lang={lang} />}
+      {ok && <LedgerView ledger={ledger!} />}
+      {ledger?.status === "no_transcripts" && <p className="notice">{t.request.noTranscripts(name)}</p>}
+      {(!ledger || ledger.status === "failed") && listed && (
+        <RequestAnalysis symbol={symbol} name={name} retry={ledger?.status === "failed"} />
+      )}
+      {ok && (
+        <p className="small-print">{t.company.readCount(ledger!.candidates ?? 0, ledger!.promises.length, ledger!.rejected ?? 0)}</p>
+      )}
+    </>
+  );
+
+  const tabs: Tab[] = [];
+  const panels: React.ReactNode[] = [];
+  const add = (id: keyof typeof t.view.tabs, node: React.ReactNode, count?: number) => {
+    tabs.push({ id, label: t.view.tabs[id], count });
+    panels.push(node);
+  };
+  if (market) {
+    add("overview", (
+      <>
+        {lines.length > 0 && <div className="summary">{lines.map((line) => <p key={line}>{line}</p>)}</div>}
+        <Glance market={market} ledger={ledger} days={FILING_DAYS} t={t} lang={lang} />
+        {market.signals.length > 0 && (
+          <>
+            <h2 className="sub-title">{t.company.signalsTitle}</h2>
+            <p className="section-sub">{t.company.signalsSub}</p>
+            <Signals signals={market.signals} t={t} lang={lang} />
+          </>
+        )}
+      </>
+    ));
+  }
+  if (rows.length > 1) {
+    add("price", (
+      <>
+        <PriceChart rows={rows} nifty={market!.nifty} calls={market!.calls ?? []}
+                    ledgerQuarters={ok ? ledger!.calls.map((c) => c.quarter) : []}
+                    adjustedFor={market!.prices?.adjusted_for ?? []} />
+        <div className="pair">
+          <div className="stack">
+            {p && <RangeBar p={p} t={t} />}
+            <BigDays rows={rows} nifty={market!.nifty} />
+          </div>
+          <div className="stack">
+            <Returns rows={rows} nifty={market!.nifty} symbol={symbol} t={t} lang={lang} />
+            <DeliveryBars rows={rows} t={t} lang={lang} />
+          </div>
+        </div>
+      </>
+    ));
+  }
+  if (market?.results) {
+    add("results", (
+      <>
+        <h2 className="section-title">{t.view.keyNumbers}</h2>
+        <KeyNumbers price={p} results={market.results} />
+        {market.results.quarters.length > 1 && (
+          <>
+            <h2 className="sub-title">{t.view.quarters.title}</h2>
+            <QuarterBars quarters={market.results.quarters} topLine={market.results.top_line} />
+          </>
+        )}
+      </>
+    ));
+  }
+  add("promises", promises, ok ? ledger!.promises.length : undefined);
+  if (filings) {
+    add("filings", (
+      <>
+        <h2 className="section-title">{t.company.filings}</h2>
+        <p className="section-sub">{t.company.filingsSub(name, FILING_DAYS)}</p>
+        <Filings filings={filings} days={FILING_DAYS} />
+      </>
+    ), filings.length);
+  }
+
   return (
     <>
       <div className="co-head">
@@ -82,70 +176,11 @@ export default async function CompanyPage({ params }: Props) {
             ) : <p>{t.move.noFilings}</p>}
           </div>
         )}
-        {lines.length > 0 && (
-          <div className="summary">
-            {lines.map((line) => <p key={line}>{line}</p>)}
-          </div>
-        )}
         {market && <AlertsSignup symbol={symbol} name={name} channels={channels()} />}
-        {lang !== "en" && <p className="small-print">{t.company.englishNote}</p>}
       </div>
 
-      {(market || ok) && (
-        <nav className="section-nav" aria-label={t.company.onThisPage}>
-          {market && <a href="#overview">{t.company.overview}</a>}
-          {ok && <a href="#promises">{t.company.promises} <span className="n">{ledger!.promises.length}</span></a>}
-          {filings && <a href="#filings">{t.company.filings} <span className="n">{filings.length}</span></a>}
-        </nav>
-      )}
-
-      {market && (
-        <section id="overview" className="section" aria-label={t.company.overview}>
-          {rows.length > 1 && (
-            <PriceChart rows={rows} nifty={market.nifty} calls={market.calls ?? []}
-                        ledgerQuarters={ok ? ledger!.calls.map((c) => c.quarter) : []}
-                        adjustedFor={market.prices?.adjusted_for ?? []} />
-          )}
-          <KeyNumbers price={p} results={market.results} />
-          {market.results && market.results.quarters.length > 1 && (
-            <QuarterBars quarters={market.results.quarters} topLine={market.results.top_line} t={t} />
-          )}
-          {market.signals.length > 0 && (
-            <>
-              <h2 className="sub-title">{t.company.signalsTitle}</h2>
-              <p className="section-sub">{t.company.signalsSub}</p>
-              <Signals signals={market.signals} t={t} lang={lang} />
-            </>
-          )}
-        </section>
-      )}
-
-      <section id="promises" className="section" aria-labelledby="promises-title">
-        <h2 className="section-title" id="promises-title">{t.company.promises}</h2>
-        {ok && (
-          <p className="section-sub">
-            {t.company.promisesSub(ledger!.calls.length, quarter(ledger!.calls[0]?.quarter),
-              quarter(ledger!.calls.at(-1)?.quarter), monthYear(ledger!.as_of_results, lang))}
-            {ledger!.margin_note && t.company.marginNote(ledger!.margin_note.split(":")[0])}
-          </p>
-        )}
-        {ok && <LedgerView ledger={ledger!} />}
-        {ledger?.status === "no_transcripts" && <p className="notice">{t.request.noTranscripts(name)}</p>}
-        {(!ledger || ledger.status === "failed") && listed && (
-          <RequestAnalysis symbol={symbol} name={name} retry={ledger?.status === "failed"} />
-        )}
-        {ok && (
-          <p className="small-print">{t.company.readCount(ledger!.candidates ?? 0, ledger!.promises.length, ledger!.rejected ?? 0)}</p>
-        )}
-      </section>
-
-      {filings && (
-        <section id="filings" className="section" aria-labelledby="filings-title">
-          <h2 className="section-title" id="filings-title">{t.company.filings}</h2>
-          <p className="section-sub">{t.company.filingsSub(name, FILING_DAYS)}</p>
-          <Filings filings={filings} days={FILING_DAYS} />
-        </section>
-      )}
+      {tabs.length > 1 ? <SectionTabs tabs={tabs} panels={panels} /> : <section className="panel">{panels[0]}</section>}
+      {lang !== "en" && <p className="small-print">{t.company.englishNote}</p>}
     </>
   );
 }

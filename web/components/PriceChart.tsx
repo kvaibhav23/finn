@@ -3,13 +3,18 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { RANGES, ms, nearest, rebase, sliceRange, ticks, type Range } from "@/lib/chart";
-import { dayMonthYear, quarter, rupees, signedPct } from "@/lib/format";
+import { dayMonthYear, quarter, rupees, shares, signedPct } from "@/lib/format";
 import { useT } from "@/lib/i18n/client";
 import type { CallDate, PriceRow } from "@/lib/types";
 
-// End-of-day closes as one thin line. The only marks on it are the earnings calls FINN read: tapping one
-// opens the promises made on that call, so what management said sits next to what the stock did after.
-const H = 240, TOP = 16, BOTTOM = 34, RIGHT = 64;
+import { AT_EVENT } from "./BigDays";
+import { openTab } from "./SectionTabs";
+
+// End-of-day closes as one thin line, with each day's volume as faint bars beneath it. The only marks on the
+// line are the earnings calls FINN read: tapping one opens the promises made on that call, so what management
+// said sits next to what the stock did after.
+const H = 300, TOP = 16, BOTTOM = 34, RIGHT = 64, VOL = 44, VOL_GAP = 8;
+const PLOT_BOTTOM = H - BOTTOM - VOL - VOL_GAP;
 
 export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: {
   rows: PriceRow[];
@@ -24,6 +29,19 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
   const [at, setAt] = useState<number | null>(null);
   const [width, setWidth] = useState(960);
   const box = useRef<HTMLDivElement>(null);
+
+  // "Biggest days" below the chart moves the marker to the chosen day.
+  useEffect(() => {
+    const onAt = (e: Event) => {
+      const date = (e as CustomEvent<string>).detail;
+      const i = sliceRange(rows, "1Y").findIndex((r) => r[0] === date);
+      if (i < 0) return;
+      setRange("1Y");
+      setAt(i);
+    };
+    window.addEventListener(AT_EVENT, onAt);
+    return () => window.removeEventListener(AT_EVENT, onAt);
+  }, [rows]);
 
   useEffect(() => {
     const el = box.current;
@@ -53,7 +71,9 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
   const t0 = ms(shown[0][0]), t1 = ms(shown[shown.length - 1][0]);
   const plotW = width - RIGHT;
   const x = (iso: string) => ((ms(iso) - t0) / (t1 - t0 || 1)) * plotW;
-  const y = (v: number) => TOP + (1 - (v - y0) / (y1 - y0)) * (H - TOP - BOTTOM);
+  const y = (v: number) => TOP + (1 - (v - y0) / (y1 - y0)) * (PLOT_BOTTOM - TOP);
+  const vmax = Math.max(1, ...shown.map((r) => r[2] ?? 0));
+  const barW = Math.max(1, plotW / shown.length - 1);
   const xs = shown.map((r) => x(r[0]));
   const path = (pts: readonly (readonly [string, number])[]) =>
     pts.map((p, i) => `${i ? "L" : "M"}${x(p[0]).toFixed(1)},${y(p[1]).toFixed(1)}`).join("");
@@ -87,8 +107,8 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
     setAt((i) => Math.max(0, Math.min(shown.length - 1, (i ?? shown.length - 1) + (e.key === "ArrowLeft" ? -step : step))));
   };
   const openCall = (q: string) => {
+    openTab("promises");
     window.dispatchEvent(new CustomEvent("finn:made", { detail: q }));
-    document.getElementById("promises")?.scrollIntoView({ block: "start" });
   };
 
   return (
@@ -97,7 +117,10 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
         <p className="chart-read" aria-live="polite">
           {point ? (
             <><b>{t.chart.on(rupees(point[1]), dayMonthYear(point[0], lang))}</b>
-              {point[3] != null && <span className="chart-sub">{t.chart.delivered(`${point[3].toFixed(0)}%`)}</span>}</>
+              <span className="chart-sub">
+                {point[2] ? `, ${t.view.volume(shares(point[2], t.view.words))}` : ""}
+                {point[3] != null ? t.chart.delivered(`${point[3].toFixed(0)}%`) : ""}
+              </span></>
           ) : (
             <b>{t.chart.overText(signedPct((last / first - 1) * 100), t.chart.over[range])}</b>
           )}
@@ -119,9 +142,13 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
             </g>
           ))}
           {marks.map((c) => (
-            <line key={c.quarter} x1={x(c.date)} x2={x(c.date)} y1={TOP} y2={H - BOTTOM} stroke="var(--rule)"
+            <line key={c.quarter} x1={x(c.date)} x2={x(c.date)} y1={TOP} y2={PLOT_BOTTOM} stroke="var(--rule)"
                   strokeDasharray="2 3" />
           ))}
+          {shown.map((r, i) => r[2] ? (
+            <rect key={r[0]} x={xs[i] - barW / 2} width={barW} y={H - BOTTOM - (r[2] / vmax) * VOL}
+                  height={(r[2] / vmax) * VOL} className={i === at ? "vol on" : "vol"} />
+          ) : null)}
           {niftyShown.length > 1 && (
             <path d={path(niftyShown)} fill="none" stroke="var(--faint)" strokeWidth={1.2} strokeDasharray="3 3" />
           )}
@@ -129,7 +156,7 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
                 strokeLinejoin="round" />
           {point && at != null && (
             <g>
-              <line x1={xs[at]} x2={xs[at]} y1={TOP} y2={H - BOTTOM} stroke="var(--quiet)" />
+              <line x1={xs[at]} x2={xs[at]} y1={TOP} y2={PLOT_BOTTOM} stroke="var(--quiet)" />
               <circle cx={xs[at]} cy={y(point[1])} r={4} fill="var(--paper)" stroke="var(--ink)" strokeWidth={1.6} />
             </g>
           )}

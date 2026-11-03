@@ -6,8 +6,8 @@ import type { Signal } from "@/lib/types";
 const HREF: Record<Signal["key"], { href: string; key: "promises" | "prices" | "filings" }> = {
   move: { href: "#filings", key: "filings" },
   track: { href: "#promises", key: "promises" },
-  price: { href: "#overview", key: "prices" },
-  delivery: { href: "#overview", key: "prices" },
+  price: { href: "#price", key: "prices" },
+  delivery: { href: "#price", key: "prices" },
   filings: { href: "#filings", key: "filings" },
 };
 

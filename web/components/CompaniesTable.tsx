@@ -7,6 +7,8 @@ import { displayName, rupees, signedPct } from "@/lib/format";
 import { useT } from "@/lib/i18n/client";
 import type { IndexEntry } from "@/lib/types";
 
+import { Sparkline } from "./Sparkline";
+
 type Sort = "name" | "move" | "year" | "track";
 
 const keptShare = (e: IndexEntry) => {
@@ -59,7 +61,12 @@ export function CompaniesTable({ rows }: { rows: IndexEntry[] }) {
                 <td className={`num ${e.change_pct == null ? "" : e.change_pct > 0 ? "up" : e.change_pct < 0 ? "down" : ""}`}>
                   {e.change_pct != null ? signedPct(e.change_pct, 2) : ""}
                 </td>
-                <td className="num">{e.return_1y != null ? signedPct(e.return_1y) : ""}</td>
+                <td className="num">
+                  <span className="co-year">
+                    {e.spark && e.spark.length > 1 && <Sparkline values={e.spark} width={88} height={24} />}
+                    {e.return_1y != null ? signedPct(e.return_1y) : ""}
+                  </span>
+                </td>
                 <td className="num">{decided ? c.trackOf(e.counts.Kept, decided) : ""}</td>
               </tr>
             );
