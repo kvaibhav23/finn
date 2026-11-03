@@ -62,6 +62,7 @@ TAGS = {
                 "cet1_ratio": ["CET1Ratio"],
                 "roa": ["ReturnOnAssets"]},
 }
+TAGS["nbfc"] = TAGS["indas"]
 ZERO_MEANS_MISSING = ("gross_npa_pct", "net_npa_pct", "cet1_ratio", "roa")
 VALUE_FIELDS = sorted({f for t in TAGS.values() for f in t})
 
@@ -93,7 +94,8 @@ def parse_xbrl(content: bytes, quarter_end: date, url: str = "") -> dict:
     for el in root:
         if isinstance(el.tag, str) and el.get("contextRef") in ctx:
             facts.setdefault(etree.QName(el).localname, (el.text or "").strip())
-    taxonomy = "banking" if "InterestEarned" in facts else "indas"
+    # Banks file InterestEarned and no RevenueFromOperations; NBFCs (Bajaj Finance) file both, with Ind AS tags.
+    taxonomy = ("nbfc" if "RevenueFromOperations" in facts else "banking") if "InterestEarned" in facts else "indas"
     row = {"qe": quarter_end, "taxonomy": taxonomy, "xbrl_url": url,
            "basis": facts.get("NatureOfReportStandaloneConsolidated"),
            "audited": facts.get("WhetherResultsAreAuditedOrUnaudited"),
@@ -114,11 +116,12 @@ def parse_xbrl(content: bytes, quarter_end: date, url: str = "") -> dict:
                 row[field] = math.nan
                 receipts.pop(field, None)
                 notes.append(f"{field}: tagged 0 in consolidated bank filing -> not reported (see standalone)")
-    # Trap 3: some filings tag a face value of 0 (SUNPHARMA, TITAN): that can't be a share's face value.
-    if row.get("face_value") == 0:
+    # Trap 3: some filings tag an impossible face value: 0 (SUNPHARMA, TITAN) or 15,86,949 (BHARTIARTL, Q1 FY27).
+    fv = row.get("face_value")
+    if fv is not None and not math.isnan(fv) and not 0 < fv <= 1000:
         row["face_value"] = math.nan
         receipts.pop("face_value", None)
-        notes.append("face_value: tagged 0 -> not reported")
+        notes.append(f"face_value: tagged {fv:g} -> not a face value, not reported")
     row["receipts"], row["notes"] = receipts, notes
     return row
 
@@ -204,6 +207,9 @@ def add_derived(df: pd.DataFrame) -> pd.DataFrame:
         if bank:
             rec["ebitda"] = _derived("n/a", [], "EBITDA is not meaningful for banks")
             base, base_name = r["total_income"], "total_income"
+        elif r["taxonomy"] == "nbfc":    # interest is a lender's cost of goods: EBITDA would add it back
+            rec["ebitda"] = _derived("n/a", [], "EBITDA is not meaningful for lenders")
+            base, base_name = r["revenue"], "revenue"
         else:
             df.at[i, "ebitda"] = r["pbt"] + r["finance_costs"] + r["dep_amort"] - r["other_income"]
             rec["ebitda"] = _derived("pbt + finance_costs + dep_amort - other_income",

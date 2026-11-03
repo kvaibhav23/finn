@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-03T18:19:21Z",
+ "generated_at": "2026-11-03T18:36:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -0.8114558472553712,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 55.06699999999999,
-  "delivery_avg": 57.803870967741936,
-  "delivery_sessions": 62
+  "delivery_avg": 57.96655737704918,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    3923.8,
-    1057688,
-    null
-   ],
    [
     "2025-10-28",
     3972.8,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     4057.0,
     1910224,
-    47.88
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2976,26 +2966,6 @@
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07082026125329_PressRelease07082026.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T19:06:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Larsen & Toubro Limited has informed the Exchange regarding 're-filing of announcement in machine readable format'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_06082026190416_Reply06082026.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T13:44:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_06082026134416_Intimation06082026.pdf"
   }
  ],
  "routine": [
@@ -3053,7 +3023,7 @@
    "state": "usual",
    "facts": {
     "recent": 55.06699999999999,
-    "usual": 57.803870967741936,
+    "usual": 57.96655737704918,
     "months": 3
    }
   },

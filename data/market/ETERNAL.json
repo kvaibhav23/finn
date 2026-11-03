@@ -1,6 +1,6 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-03T18:19:17Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": 8.323000619962784,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 56.92999999999999,
-  "delivery_avg": 57.4083870967742,
-  "delivery_sessions": 62
+  "delivery_avg": 57.594098360655735,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    333.7,
-    27703118,
-    null
-   ],
    [
     "2025-10-28",
     334.6,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     310.35,
     12296275,
-    46.08
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2709,8 +2699,8 @@
   {
    "date": "2026-10-13",
    "filed_at": "2026-10-13T18:25:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Eternal Limited has informed the exchange that the Company will hold its Earnings Conference Call on Wednesday, October 21, 2026 at 5 P.M. (IST), to discuss the financial results for the quarter and half year ended September 30, 2026.",
@@ -2825,7 +2815,7 @@
    "state": "usual",
    "facts": {
     "recent": 56.92999999999999,
-    "usual": 57.4083870967742,
+    "usual": 57.594098360655735,
     "months": 3
    }
   },

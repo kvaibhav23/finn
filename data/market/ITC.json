@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-03T18:19:18Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -33.832588476869184,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 54.1115,
-  "delivery_avg": 57.44725806451613,
-  "delivery_sessions": 62
+  "delivery_avg": 57.444426229508196,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    420.65,
-    11603679,
-    null
-   ],
    [
     "2025-10-28",
     417.9,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     286.95,
     11771241,
-    57.62
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2777,15 +2767,13 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_14082026160912_SE.pdf"
   }
  ],
- "routine": [
-  "2026-10-05T14:21:00+05:30"
- ],
+ "routine": [],
  "calls": [],
  "move": {
   "date": "2026-11-03",
   "change_pct": 2.8153153153153143,
-  "typical_pct": 0.6787241587175696,
-  "times": 4.147952123340908,
+  "typical_pct": 0.681452112501546,
+  "times": 4.131347256347271,
   "volume_x": 1.8421356243297171,
   "biggest_in_year": false,
   "nifty_change_pct": 1.5786577249923273,
@@ -2819,8 +2807,8 @@
    "facts": {
     "date": "2026-11-03",
     "change_pct": 2.8153153153153143,
-    "typical_pct": 0.6787241587175696,
-    "times": 4.147952123340908,
+    "typical_pct": 0.681452112501546,
+    "times": 4.131347256347271,
     "volume_x": 1.8421356243297171,
     "biggest_in_year": false,
     "nifty_change_pct": 1.5786577249923273
@@ -2869,7 +2857,7 @@
    "state": "usual",
    "facts": {
     "recent": 54.1115,
-    "usual": 57.44725806451613,
+    "usual": 57.444426229508196,
     "months": 3
    }
   },

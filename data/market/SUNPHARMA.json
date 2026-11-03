@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-03T18:19:26Z",
+ "generated_at": "2026-11-03T18:36:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": 3.721284575714945,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 59.985,
-  "delivery_avg": 63.2066129032258,
-  "delivery_sessions": 62
+  "delivery_avg": 63.13688524590164,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1693.6,
-    2067904,
-    null
-   ],
    [
     "2025-10-28",
     1687.0,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1940.0,
     2152829,
-    67.46
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2787,7 +2777,7 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
    "profile": {
     "page": 2,
-    "excerpt": "; Not Applicable 5 Disclosure of relationships between directors (in case of appointment of a director) Not Applicable",
+    "excerpt": null,
     "name": "Mr. Gautam Doshi",
     "role": null,
     "effective": "12 October 2026",
@@ -2963,26 +2953,6 @@
    "category": "General Updates",
    "subject": "Update on Lipitor Antitrust Litigation",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_17082026083921_SEIntimationforupdateonLipitor.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T20:34:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Receipt of No-objection letters from the Stock Exchanges for Reclassification of Promoter Group",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNHARSH_06082026203354_SEIntimationNOCforReclassification.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T16:58:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_06082026165829_IntimationSE20260806EarningsCallTranscriptQ1FY27_Signed.pdf"
   }
  ],
  "routine": [
@@ -3040,7 +3010,7 @@
    "state": "usual",
    "facts": {
     "recent": 59.985,
-    "usual": 63.2066129032258,
+    "usual": 63.13688524590164,
     "months": 3
    }
   },

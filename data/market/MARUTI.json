@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-03T18:19:26Z",
+ "generated_at": "2026-11-03T18:36:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -24.164590122036934,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 51.489,
-  "delivery_avg": 53.62354838709677,
-  "delivery_sessions": 62
+  "delivery_avg": 53.64262295081967,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    16388.0,
-    209829,
-    null
-   ],
    [
     "2025-10-28",
     16311.0,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     14190.0,
     312540,
-    52.46
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -3025,16 +3015,6 @@
    "category": "Shareholders meeting",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Shareholders meeting",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026211830_STxIntimation_AGMNotice_AR2026_8Aug2026.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T17:32:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Maruti Suzuki India Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_06082026173039_STxIntimation_Transcript_6Aug2026.pdf"
   }
  ],
  "routine": [
@@ -3091,7 +3071,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.489,
-    "usual": 53.62354838709677,
+    "usual": 53.64262295081967,
     "months": 3
    }
   },

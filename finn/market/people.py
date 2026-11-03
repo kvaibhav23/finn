@@ -29,6 +29,7 @@ PAGE_CHARS = 6000         # characters of the page given to the model
 
 LABEL = re.compile(r"brief\s+profile(\s*\(in\s+case\s+of\s+appointment\))?|profile\s+of\s+(mr|ms|mrs|dr)\b", re.I)
 # The rows that follow the profile in SEBI's format: where the excerpt stops.
+NOT_GIVEN = re.compile(r"[;:,.\s]*(not applicable|n\.?\s?a\.?|nil)\b", re.I)   # resignations: the row is blank
 TITLE = re.compile(r"\b(Mr|Ms|Mrs|Dr|Prof|Shri|Smt)\.?\s+[A-Z]")
 # A full stop that ends a sentence: not the one in "Mr." or "Dr.", and followed by a space or the end.
 SENTENCE_END = re.compile(r"(?<!\bMr)(?<!\bMs)(?<!\bDr)(?<!\bMrs)(?<!\bProf)(?<!\bSmt)(?<!\bShri)\.(?=\s|$)")
@@ -80,7 +81,7 @@ def excerpt(text: str) -> str | None:
     # Scanned tables put other row labels before the profile; profiles open with the person's title.
     who = TITLE.search(body[:250])
     body = re.sub(r"^[\s:.\-–]+", "", body[who.start():] if who else body)
-    if len(body) < 40:
+    if len(body) < 40 or NOT_GIVEN.match(body):
         return None
     if len(body) > EXCERPT:
         ends = [m.end() for m in SENTENCE_END.finditer(body[:EXCERPT + 1])]

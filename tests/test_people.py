@@ -63,3 +63,8 @@ def test_add_profiles_reads_only_recent_people_filings(fx):
     c = FakeClient(fx("reg30_dixon_2026-10_p3.pdf"))
     assert people.add_profiles("DIXON", filings, c, "2026-10-04", use_model=False) == 1
     assert filings[0]["profile"]["excerpt"] and "profile" not in filings[1] and "profile" not in filings[2]
+
+
+def test_a_blank_profile_row_is_not_a_profile():
+    assert people.excerpt("Brief profile (in case of appointment)\n; Not Applicable Disclosure of relationships "
+                          "between directors (in case of appointment of a director). Not Applicable") is None

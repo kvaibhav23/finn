@@ -29,6 +29,9 @@ RULES: list[tuple[str, str]] = [
     ("Resignation", r"cessation|resignation"),
     ("Appointment", r"appointment|change in director|change in management|re-?designation"),
     ("Credit rating", r"credit rating"),
+    # Call material often names the results ("transcript of the discussion on the financial results"): it is a call.
+    ("Earnings call", r"transcript|audio recording|recording of the|link of recording|analyst meet|analysts? call"
+                      r"|earnings (call|conference)|call with media|conference call|con\.? ?call"),
     ("Results", r"financial result|outcome of board meeting.*result|results? for the (quarter|period|year)"
                 r"|financial statements for the (quarter|period|half|year)|report of auditors on financial"),
     ("Board meeting", r"board meeting|to announce .*results"),

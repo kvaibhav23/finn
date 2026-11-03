@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-03T18:19:18Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": 5.800653594771243,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 60.4985,
-  "delivery_avg": 61.17629032258064,
-  "delivery_sessions": 62
+  "delivery_avg": 61.35672131147541,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1377.6,
-    11499836,
-    null
-   ],
    [
     "2025-10-28",
     1363.1,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1450.1,
     11723296,
-    50.17
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2709,8 +2699,8 @@
   {
    "date": "2026-10-23",
    "filed_at": "2026-10-23T18:00:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about transcript of the call with media and of earnings call with analysts and investors on the financial results for the quarter and six months ended September 30, 2026",
@@ -2729,8 +2719,8 @@
   {
    "date": "2026-10-17",
    "filed_at": "2026-10-17T20:35:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about link of audio recording of the call with media and of earnings call with analysts and investors on the financial results for quarter and six months ended September 30, 2026",
@@ -2789,8 +2779,8 @@
   {
    "date": "2026-10-12",
    "filed_at": "2026-10-12T18:08:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Call with media on financial results for the quarter and six months ended September 30, 2026.",
@@ -2799,8 +2789,8 @@
   {
    "date": "2026-10-12",
    "filed_at": "2026-10-12T18:03:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Earnings call on financial results for the quarter and six months ended September 30, 2026.",
@@ -3245,26 +3235,6 @@
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_06082026235854_NSEBSE_06082026.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T22:15:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_06082026221438_BSENSE.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T11:58:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 246525 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_06082026115753_Lettertoexchange.pdf"
   }
  ],
  "routine": [
@@ -3296,8 +3266,8 @@
  "move": {
   "date": "2026-11-03",
   "change_pct": 2.6740665993945534,
-  "typical_pct": 0.7693611287240554,
-  "times": 3.475697561988024,
+  "typical_pct": 0.7640949554896137,
+  "times": 3.4996522096930684,
   "volume_x": 1.6776260139564794,
   "biggest_in_year": false,
   "nifty_change_pct": 1.5786577249923273,
@@ -3316,8 +3286,8 @@
    "facts": {
     "date": "2026-11-03",
     "change_pct": 2.6740665993945534,
-    "typical_pct": 0.7693611287240554,
-    "times": 3.475697561988024,
+    "typical_pct": 0.7640949554896137,
+    "times": 3.4996522096930684,
     "volume_x": 1.6776260139564794,
     "biggest_in_year": false,
     "nifty_change_pct": 1.5786577249923273
@@ -3351,7 +3321,7 @@
    "state": "usual",
    "facts": {
     "recent": 60.4985,
-    "usual": 61.17629032258064,
+    "usual": 61.35672131147541,
     "months": 3
    }
   },

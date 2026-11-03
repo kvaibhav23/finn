@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-03T18:19:12Z",
+ "generated_at": "2026-11-03T18:36:51Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -7.00795705109768,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 60.224000000000004,
-  "delivery_avg": 62.354354838709675,
-  "delivery_sessions": 62
+  "delivery_avg": 62.42918032786885,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1084.4,
-    7366175,
-    null
-   ],
    [
     "2025-10-28",
     1072.75,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1158.8,
     5154683,
-    57.79
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2546,110 +2536,110 @@
  ],
  "results": {
   "basis": "Consolidated",
-  "bank": true,
+  "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
   "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml",
-  "top_line": "total_income",
-  "ttm_revenue_cr": 90563.32,
-  "ttm_pat_cr": null,
-  "ttm_margin_pct": null,
-  "ttm_eps": null,
-  "pe": null,
-  "pe_note": "not enough filed quarters",
+  "top_line": "revenue",
+  "ttm_revenue_cr": 90531.5,
+  "ttm_pat_cr": 22066.48,
+  "ttm_margin_pct": 24.37436693305645,
+  "ttm_eps": 34.790000000000006,
+  "pe": 27.881575165277372,
+  "pe_note": null,
   "market_cap_cr": 603718.3,
-  "revenue_yoy_pct": 21.77846622228301,
-  "pat_yoy_pct": null,
+  "revenue_yoy_pct": 21.643746685894683,
+  "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
-  "ebitda_note": "EBITDA is not meaningful for banks",
+  "ebitda_note": "EBITDA is not meaningful for lenders",
   "quarters": [
    {
     "quarter": "Q2FY25",
     "qe": "2024-09-30",
-    "revenue_cr": 17095.41,
+    "revenue_cr": 17090.27,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 5398.03,
+    "pat_cr": 4013.74,
     "approved": "2024-10-22",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/NBFC_INDAS_113040_1285336_22102024074237.xml"
    },
    {
     "quarter": "Q3FY25",
     "qe": "2024-12-31",
-    "revenue_cr": 18058.32,
+    "revenue_cr": 18035.11,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 5762.4,
+    "pat_cr": 4308.19,
     "approved": "2025-01-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/NBFC_INDAS_118072_1365160_29012025074915.xml"
    },
    {
     "quarter": "Q4FY25",
     "qe": "2025-03-31",
-    "revenue_cr": 18468.74,
+    "revenue_cr": 18456.85,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 5638.56,
+    "pat_cr": 4545.57,
     "approved": "2025-04-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1428677_30042025123348_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
     "qe": "2025-06-30",
-    "revenue_cr": 19527.74,
+    "revenue_cr": 19523.88,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 6366.84,
+    "pat_cr": 4765.29,
     "approved": "2025-07-24",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1492810_24072025074528_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
     "qe": "2025-09-30",
-    "revenue_cr": 20180.76,
+    "revenue_cr": 20178.9,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 6604.83,
+    "pat_cr": 4947.76,
     "approved": "2025-11-10",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1570585_10112025100247_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
     "qe": "2025-12-31",
-    "revenue_cr": 21214.58,
+    "revenue_cr": 21213.89,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 5428.89,
+    "pat_cr": 4066.01,
     "approved": "2026-02-03",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1617485_03022026071306_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
     "qe": "2026-03-31",
-    "revenue_cr": 21606.5,
+    "revenue_cr": 21605.79,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 7399.63,
+    "pat_cr": 5553.3,
     "approved": "2026-04-29",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1661603_29042026104724_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
     "qe": "2026-06-30",
-    "revenue_cr": 23166.42,
+    "revenue_cr": 23165.45,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 8143.89,
+    "pat_cr": 6080.6,
     "approved": "2026-07-30",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1705543_30072026070233_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
     "qe": "2026-09-30",
-    "revenue_cr": 24575.82,
+    "revenue_cr": 24546.37,
     "ebitda_cr": null,
-    "pbt_cr": null,
-    "pat_cr": null,
+    "pbt_cr": 8533.47,
+    "pat_cr": 6366.57,
     "approved": "2026-10-19",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml"
    }
@@ -2976,7 +2966,7 @@
    "state": "usual",
    "facts": {
     "recent": 60.224000000000004,
-    "usual": 62.354354838709675,
+    "usual": 62.42918032786885,
     "months": 3
    }
   },

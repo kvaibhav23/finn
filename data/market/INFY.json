@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-03T18:19:18Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -22.71289128239651,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 54.367999999999995,
-  "delivery_avg": 55.339999999999996,
-  "delivery_sessions": 62
+  "delivery_avg": 55.39393442622951,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1504.5,
-    7273211,
-    null
-   ],
    [
     "2025-10-28",
     1500.2,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1174.0,
     9964155,
-    52.05
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2935,16 +2925,6 @@
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_10082026161643_SE_filing_Investor_conference_10082026__002_.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T17:41:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Infosys Limited has informed the Exchange regarding 'Infosys to Accelerate IT System Transformation for Crocs, Inc., Optimizing Global Operational Capabilities to Scale for Future Growth'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_06082026174050_PR_06082026.pdf"
   }
  ],
  "routine": [
@@ -2997,7 +2977,7 @@
    "state": "usual",
    "facts": {
     "recent": 54.367999999999995,
-    "usual": 55.339999999999996,
+    "usual": 55.39393442622951,
     "months": 3
    }
   },

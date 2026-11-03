@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-03T18:19:11Z",
+ "generated_at": "2026-11-03T18:36:51Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -2.961547647480278,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 51.89149999999999,
-  "delivery_avg": 56.2241935483871,
-  "delivery_sessions": 62
+  "delivery_avg": 56.22655737704918,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    2518.8,
-    550089,
-    null
-   ],
    [
     "2025-10-28",
     2509.3,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     2760.0,
     688876,
-    56.08
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-03",
+   "filed_at": "2026-11-03T18:24:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Asian Paints Limited has informed the Exchange about Transcript of the investor conference call held on 29th October 2026 on the performance of the Company for the quarter and half year ended 30th September 2026",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+  },
+  {
    "date": "2026-10-29",
    "filed_at": "2026-10-29T21:18:00+05:30",
    "tag": "Earnings call",
@@ -2916,18 +2916,24 @@
   {
    "quarter": "Q2FY27",
    "date": "2026-10-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
   }
  ],
  "move": {
   "date": "2026-11-03",
   "change_pct": 3.9883973894126123,
-  "typical_pct": 0.776274050882797,
-  "times": 5.137872874762352,
+  "typical_pct": 0.7808259217503943,
+  "times": 5.1079213411252224,
   "volume_x": 3.055934550137918,
   "biggest_in_year": false,
   "nifty_change_pct": 1.5786577249923273,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-03",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -2936,13 +2942,19 @@
    "facts": {
     "date": "2026-11-03",
     "change_pct": 3.9883973894126123,
-    "typical_pct": 0.776274050882797,
-    "times": 5.137872874762352,
+    "typical_pct": 0.7808259217503943,
+    "times": 5.1079213411252224,
     "volume_x": 3.055934550137918,
     "biggest_in_year": false,
     "nifty_change_pct": 1.5786577249923273
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-03",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -2970,7 +2982,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.89149999999999,
-    "usual": 56.2241935483871,
+    "usual": 56.22655737704918,
     "months": 3
    }
   },
@@ -2993,7 +3005,7 @@
    ]
   }
  ],
- "rerun": null,
+ "rerun": "earnings call transcript for the quarter ended 2026-09-30",
  "ledger_generated_at": "2026-11-01T21:21:47",
  "ledger_counts": {
   "Unverifiable": 14,

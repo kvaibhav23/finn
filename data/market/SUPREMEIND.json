@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-03T18:19:30Z",
+ "generated_at": "2026-11-03T18:36:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -16.019849853670955,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 49.773,
-  "delivery_avg": 48.635,
-  "delivery_sessions": 62
+  "delivery_avg": 48.62459016393443,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    4000.9,
-    987205,
-    null
-   ],
    [
     "2025-10-28",
     3814.2,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     3460.6,
     137058,
-    49.27
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2775,16 +2765,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Supreme Industries Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_07082026144414_IntimationtoStockExchangesforInvestorMeets.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T17:03:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Supreme Industries Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_06082026170222_IntimationofScheduleofAnalystInstitutionalInvestorMeets12082026.pdf"
   }
  ],
  "routine": [
@@ -2794,7 +2774,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-10-27",
+   "date": "2025-10-31",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102025172044_Transcriptstockexchangeintimation31102025signed.pdf"
   },
   {
@@ -2846,7 +2826,7 @@
    "state": "usual",
    "facts": {
     "recent": 49.773,
-    "usual": 48.635,
+    "usual": 48.62459016393443,
     "months": 3
    }
   },

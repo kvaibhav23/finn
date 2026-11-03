@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-03T18:19:17Z",
+ "generated_at": "2026-11-03T18:36:51Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -0.433944069431047,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 66.299,
-  "delivery_avg": 67.75693548387098,
-  "delivery_sessions": 62
+  "delivery_avg": 67.87311475409837,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    2080.1,
-    5796831,
-    null
-   ],
    [
     "2025-10-28",
     2090.2,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1978.0,
     14286999,
-    60.67
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2557,7 +2547,7 @@
   "ttm_eps": 47.779999999999994,
   "pe": 43.218920050230224,
   "pe_note": null,
-  "market_cap_cr": 4.060126065802996,
+  "market_cap_cr": 1258328.4,
   "revenue_yoy_pct": 18.35022825326611,
   "pat_yoy_pct": 34.894499986526185,
   "net_npa_pct": null,
@@ -2915,16 +2905,6 @@
    "category": "Action(s) taken or orders passed",
    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_07082026131325_BhartiAirtelReg30.pdf"
-  },
-  {
-   "date": "2026-08-06",
-   "filed_at": "2026-08-06T22:56:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Acquisition",
-   "subject": "Bharti Airtel Limited has informed the Exchange that Nxtra Data Limited ( Nxtra Data ), a subsidiary of the Company, has entered into agreements for acquisition of upto 85% stake each, in one or more tranches, in Rochak Systems Private Limited and Rovision Tech Hub Private Limite",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06082026225434_STX_Disclosure_-_Nxtra_SPVs_Acquisition.pdf"
   }
  ],
  "routine": [
@@ -2957,8 +2937,8 @@
  "move": {
   "date": "2026-11-03",
   "change_pct": 3.774058997939589,
-  "typical_pct": 0.8172512730584225,
-  "times": 4.6179909684518705,
+  "typical_pct": 0.8207934336525335,
+  "times": 4.598061879156384,
   "volume_x": 2.6060906764343654,
   "biggest_in_year": false,
   "nifty_change_pct": 1.5786577249923273,
@@ -2971,8 +2951,8 @@
    "facts": {
     "date": "2026-11-03",
     "change_pct": 3.774058997939589,
-    "typical_pct": 0.8172512730584225,
-    "times": 4.6179909684518705,
+    "typical_pct": 0.8207934336525335,
+    "times": 4.598061879156384,
     "volume_x": 2.6060906764343654,
     "biggest_in_year": false,
     "nifty_change_pct": 1.5786577249923273
@@ -3000,7 +2980,7 @@
    "state": "usual",
    "facts": {
     "recent": 66.299,
-    "usual": 67.75693548387098,
+    "usual": 67.87311475409837,
     "months": 3
    }
   },

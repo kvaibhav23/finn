@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-03T18:19:17Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -26.912809147232153,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 56.616,
-  "delivery_avg": 60.14274193548387,
-  "delivery_sessions": 62
+  "delivery_avg": 59.956393442622954,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1002.95,
-    15700796,
-    null
-   ],
    [
     "2025-10-28",
     1003.55,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     735.0,
     60050538,
-    71.51
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -3044,11 +3034,6 @@
  ],
  "calls": [
   {
-   "quarter": "Q2FY26",
-   "date": "2025-10-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102025185000_Transcript.pdf"
-  },
-  {
    "quarter": "Q3FY26",
    "date": "2026-01-17",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23012026155630_SEintimationTranscriptofearningscall17_Jan_2026.pdf"
@@ -3072,8 +3057,8 @@
  "move": {
   "date": "2026-11-03",
   "change_pct": 3.6428571428571477,
-  "typical_pct": 0.8099803161675412,
-  "times": 4.497463790346774,
+  "typical_pct": 0.8133516425477993,
+  "times": 4.478821892393317,
   "volume_x": 1.4125386152122583,
   "biggest_in_year": false,
   "nifty_change_pct": 1.5786577249923273,
@@ -3086,8 +3071,8 @@
    "facts": {
     "date": "2026-11-03",
     "change_pct": 3.6428571428571477,
-    "typical_pct": 0.8099803161675412,
-    "times": 4.497463790346774,
+    "typical_pct": 0.8133516425477993,
+    "times": 4.478821892393317,
     "volume_x": 1.4125386152122583,
     "biggest_in_year": false,
     "nifty_change_pct": 1.5786577249923273
@@ -3115,7 +3100,7 @@
    "state": "usual",
    "facts": {
     "recent": 56.616,
-    "usual": 60.14274193548387,
+    "usual": 59.956393442622954,
     "months": 3
    }
   },

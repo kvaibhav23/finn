@@ -70,6 +70,7 @@ def results_stats(fin: pd.DataFrame, actions: pd.DataFrame | None, close: float 
     acts = actions if actions is not None else pd.DataFrame(columns=["factor", "ex_date", "subject"])
     df = adjust_per_share(df, acts) if "board_meeting" in df else df
     bank = df["taxonomy"].iloc[-1] == "banking"
+    lender = df["taxonomy"].iloc[-1] in ("banking", "nbfc")
     top = "total_income" if bank else "revenue"
     latest = df.iloc[-1]
     out = {"basis": basis, "bank": bool(bank), "latest_quarter": fy_label(latest["qe"]),
@@ -93,9 +94,12 @@ def results_stats(fin: pd.DataFrame, actions: pd.DataFrame | None, close: float 
     else:
         out["pe"], out["pe_note"] = close / ttm_eps, None
 
-    shares = _f(latest.get("shares_outstanding"))
+    # Shares from the latest quarter that tagged them properly (a misfiled face value leaves a quarter blank).
+    with_shares = df[df["shares_outstanding"].map(_f).notna()]
+    src = with_shares.iloc[-1] if len(with_shares) else latest
+    shares = _f(src.get("shares_outstanding"))
     if shares is not None and close is not None:
-        pub = latest.get("board_meeting")
+        pub = src.get("board_meeting")
         f = factor_after(acts, date.fromisoformat(str(pub)[:10]))[0] if pub and not acts.empty else 1.0
         out["market_cap_cr"] = shares * f * close / CR
     else:
@@ -109,9 +113,10 @@ def results_stats(fin: pd.DataFrame, actions: pd.DataFrame | None, close: float 
     cr = lambda r, col: _f(r.get(col)) / CR if _f(r.get(col)) is not None else None
     # Revenue, EBITDA, PBT and PAT for the results card (vs the quarter before and a year before). EBITDA is
     # derived (pbt + finance costs + depreciation - other income) and is None for banks, with the reason.
-    out["ebitda_note"] = "EBITDA is not meaningful for banks" if bank else None
+    out["ebitda_note"] = ("EBITDA is not meaningful for banks" if bank else
+                          "EBITDA is not meaningful for lenders" if lender else None)
     out["quarters"] = [{"quarter": fy_label(r["qe"]), "qe": r["qe"].isoformat(),
-                        "revenue_cr": cr(r, top), "ebitda_cr": None if bank else cr(r, "ebitda"),
+                        "revenue_cr": cr(r, top), "ebitda_cr": None if lender else cr(r, "ebitda"),
                         "pbt_cr": cr(r, "pbt"), "pat_cr": cr(r, "pat"),
                         "approved": str(r["board_meeting"])[:10] if r.get("board_meeting") else None,
                         "xbrl_url": r.get("xbrl_url")} for _, r in df.tail(9).iterrows()]

@@ -152,6 +152,8 @@ def test_pe_loss_making(fx):
      "October 2026", "Business update"),
     ("General Updates", "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Results "
      "on October 23, 2026'.", "Board meeting"),
+    ("General Updates", "Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of "
+     "the Company for the quarter and half year ended September 30, 2026", "Earnings call"),
 ])
 def test_filing_tags(category, subject, expected):
     assert filings.tag(category, subject) == expected
@@ -337,3 +339,12 @@ def test_card_for_filing_matches_the_board_meeting():
     assert stats.card_for_filing(r, "2026-10-19T09:00:00+05:30")["quarter"] == "Q4"
     assert stats.card_for_filing(r, "2026-11-30T09:00:00+05:30") is None
     assert stats.card_for_filing(r, None) is None
+
+
+def test_market_cap_uses_the_last_quarter_that_tagged_shares(fx):
+    df = tcs_frame(fx)
+    good = stats.results_stats(df, None, close=3000.0)["market_cap_cr"]
+    df.loc[df.index[-1], "shares_outstanding"] = float("nan")        # e.g. a misfiled face value
+    assert stats.results_stats(df, None, close=3000.0)["market_cap_cr"] == pytest.approx(
+        df["shares_outstanding"].iloc[-2] * 3000 / 1e7)
+    assert good is not None

@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-03T18:19:17Z",
+ "generated_at": "2026-11-03T18:36:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -20.762027768808522,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 36.5295,
-  "delivery_avg": 38.20564516129032,
-  "delivery_sessions": 62
+  "delivery_avg": 38.30360655737705,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    15505.0,
-    302086,
-    null
-   ],
    [
     "2025-10-28",
     15372.0,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     14310.0,
     445064,
-    32.23
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2657,6 +2647,26 @@
  },
  "filings": [
   {
+   "date": "2026-11-03",
+   "filed_at": "2026-11-03T17:30:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Change in Corporate Office Address of RTA with effect from 01st December 2026'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026172946_Regulation30DisclosureRTAAddress.pdf"
+  },
+  {
+   "date": "2026-11-03",
+   "filed_at": "2026-11-03T11:24:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026112356_InvestorMeetOutcome031102026.pdf"
+  },
+  {
    "date": "2026-10-30",
    "filed_at": "2026-10-30T20:32:00+05:30",
    "tag": "Earnings call",
@@ -3161,7 +3171,7 @@
    "state": "usual",
    "facts": {
     "recent": 36.5295,
-    "usual": 38.20564516129032,
+    "usual": 38.30360655737705,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-03T18:19:26Z",
+ "generated_at": "2026-11-03T18:36:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -13,19 +13,13 @@
   "return_1y": -11.908129588469052,
   "nifty_return_1y": -7.578595174928726,
   "delivery_20d": 50.33,
-  "delivery_avg": 57.68032258064516,
-  "delivery_sessions": 62
+  "delivery_avg": 57.509672131147546,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-27",
-    1484.1,
-    14113867,
-    null
-   ],
    [
     "2025-10-28",
     1486.9,
@@ -1164,7 +1158,7 @@
     "2026-08-05",
     1280.0,
     24820782,
-    68.09
+    null
    ],
    [
     "2026-08-06",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-10-27",
-   25966.05
-  ],
   [
    "2025-10-28",
    25936.2
@@ -2659,8 +2649,8 @@
   {
    "date": "2026-11-01",
    "filed_at": "2026-11-01T23:09:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is attached and also available on the website of the Company.",
@@ -2669,8 +2659,8 @@
   {
    "date": "2026-10-31",
    "filed_at": "2026-10-31T17:34:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.",
@@ -2739,8 +2729,8 @@
   {
    "date": "2026-10-27",
    "filed_at": "2026-10-27T19:17:00+05:30",
-   "tag": "Results",
-   "priority": 1,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The meeting of the Board of Directors of the Company is scheduled on October 30, 2026, inter alia, to consider and approve a. the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2026; and b. raising of funds",
@@ -3127,7 +3117,7 @@
    "state": "lower",
    "facts": {
     "recent": 50.33,
-    "usual": 57.68032258064516,
+    "usual": 57.509672131147546,
     "months": 3
    }
   },
