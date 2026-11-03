@@ -1003,7 +1003,10 @@ button, input, select { font: inherit; color: inherit; }
   .qchart .chart-tick { font-size: 9.5px; }
   .co-year .spark { display: none; }
   .rules-grid { grid-template-columns: minmax(0, 1fr); }
-  .rcard th, .rcard td { padding: 9px 10px; }
+  .rcard table, .rcard.compact table { font-size: var(--s13); }
+  .rcard th, .rcard td, .rcard.compact th, .rcard.compact td { padding: 8px 7px; }
+  .rcard thead th, .rcard tbody th { white-space: normal; }
+  .rcard thead th { font-size: 11px; line-height: 1.25; }
   .site-nav { overflow-x: auto; scrollbar-width: none; flex: 1; padding-right: 16px;
     mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); }
   .site-nav::-webkit-scrollbar { display: none; }
