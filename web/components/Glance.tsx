@@ -32,7 +32,7 @@ export function Glance({ market, ledger, days, t, lang }:
     const q = r?.quarters.filter((x) => x.revenue_cr != null) ?? [];
     tiles.push(
       <Tile key="results" href="#results" label={t.view.tabs.results}
-            tone={r?.pat_yoy_pct == null ? null : r.pat_yoy_pct >= 0 ? "up" : "down"}
+            tone={growth(r?.revenue_yoy_pct, r?.pat_yoy_pct)}
             head={r && r.revenue_yoy_pct != null && r.pat_yoy_pct != null
               ? g.results(r.bank, signedPct(r.revenue_yoy_pct), signedPct(r.pat_yoy_pct)) : g.noResults}
             sub={r ? [r.revenue_yoy_pct != null ? g.resultsSub(quarter(r.latest_quarter)) : null,
@@ -88,6 +88,12 @@ export function Glance({ market, ledger, days, t, lang }:
       <div className="glance">{tiles}</div>
     </div>
   );
+}
+
+// Green only when top line and profit both grew, red only when both fell; a mixed quarter stays neutral.
+function growth(rev: number | null | undefined, pat: number | null | undefined): "up" | "down" | null {
+  if (rev == null || pat == null) return null;
+  return rev >= 0 && pat >= 0 ? "up" : rev < 0 && pat < 0 ? "down" : null;
 }
 
 // The headline takes the colour of what it says: green or red for a rise or fall, amber for filings worth a look.

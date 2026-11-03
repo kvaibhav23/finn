@@ -24,9 +24,9 @@ const beng = Noto_Sans_Bengali({ subsets: ["bengali"], variable: "--font-beng", 
 const fonts = [ui, quote, deva, gujr, taml, telu, beng].map((f) => f.variable).join(" ");
 
 export const metadata: Metadata = {
-  title: { default: "FINN: did management do what they said?", template: "%s | FINN" },
+  title: { default: "FINN: Indian stocks, read for you", template: "%s | FINN" },
   description:
-    "FINN reads the earnings calls of NSE-listed companies, finds every promise that can be checked, and checks it against filed results.",
+    "Prices, results, NSE filings and earnings calls for listed Indian companies in plain words, with every number linked to its source and every management promise checked against later results.",
 };
 
 export const viewport: Viewport = {
