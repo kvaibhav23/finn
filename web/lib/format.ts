@@ -67,3 +67,19 @@ export function shares(n: number, words: { crore: string; lakh: string } = { cro
   if (n >= 1e5) return `${(n / 1e5).toLocaleString("en-IN", { maximumFractionDigits: 1 })} ${words.lakh}`;
   return n.toLocaleString("en-IN");
 }
+
+/** "2026-11-02T18:40:00+05:30" -> "Mon 2 Nov, 18:40" in India time, whatever the reader's clock. */
+export function dayTime(iso: string | null | undefined, lang: Lang = DEFAULT_LANG): string {
+  if (!iso) return "";
+  return new Intl.DateTimeFormat(localeOf(lang), {
+    weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23",
+    timeZone: "Asia/Kolkata",
+  }).format(new Date(iso));
+}
+
+/** "Tata Consultancy Services Limited has informed the Exchange regarding 'X'." -> "X" (NSE's own boilerplate). */
+export function crisp(subject: string): string {
+  const s = subject.replace(/^.*?has (?:informed|filed with) the Exchange (?:about|regarding|that|with)?\s*/i, "")
+    .replace(/^['‘"]|['’".]+$/g, "").trim();
+  return s ? s[0].toUpperCase() + s.slice(1) : subject;
+}

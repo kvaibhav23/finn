@@ -22,7 +22,7 @@ CACHE_DIR = ROOT / "data" / "llm_cache"
 COST_LOG = ROOT / "data" / "ledger" / "cost_log.jsonl"
 
 CHEAP = "gemini-3.1-flash-lite"     # cheapest Lite open to new keys (2.5 Lite: 404 for new users)
-ROUTES = {"classify": CHEAP, "thread": CHEAP, "resolve": CHEAP, "explain": CHEAP}
+ROUTES = {"classify": CHEAP, "thread": CHEAP, "resolve": CHEAP, "explain": CHEAP, "profile": CHEAP}
 # USD per 1M tokens (input, output incl. thinking), paid tier.
 # Source: https://ai.google.dev/gemini-api/docs/pricing, read 2026-11-01.
 PRICES = {"gemini-3.1-flash-lite": (0.25, 1.50),

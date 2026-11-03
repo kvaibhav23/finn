@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-03T18:14:30Z",
+ "generated_at": "2026-11-03T18:19:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2699,9 +2699,9 @@
   {
    "date": "2026-10-30",
    "filed_at": "2026-10-30T15:18:00+05:30",
-   "tag": "Appointment",
+   "tag": "Auditor change",
    "priority": 1,
-   "worth_a_look": false,
+   "worth_a_look": true,
    "category": "General Updates",
    "subject": "Appointment of Statutory Auditors Pursuant to Mandatory Auditor Rotation",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf"
@@ -2784,7 +2784,15 @@
    "worth_a_look": true,
    "category": "Resignation",
    "subject": "Resignation of Director of the Company",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "; Not Applicable 5 Disclosure of relationships between directors (in case of appointment of a director) Not Applicable",
+    "name": "Mr. Gautam Doshi",
+    "role": null,
+    "effective": "12 October 2026",
+    "previous": []
+   }
   },
   {
    "date": "2026-10-12",
@@ -3040,10 +3048,11 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 7,
+    "count": 8,
     "days": 90,
     "tags": [
      "Clarification",
+     "Auditor change",
      "Credit rating",
      "Resignation",
      "Regulatory or legal"
@@ -3061,6 +3070,11 @@
      "pdf_url": "-"
     },
     {
+     "date": "2026-10-30",
+     "tag": "Auditor change",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf"
+    },
+    {
      "date": "2026-10-13",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf"
@@ -3069,11 +3083,6 @@
      "date": "2026-10-12",
      "tag": "Resignation",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip"
-    },
-    {
-     "date": "2026-10-12",
-     "tag": "Resignation",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
     }
    ]
   }

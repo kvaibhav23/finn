@@ -9,7 +9,7 @@ import { Track } from "@/components/Track";
 import { VerdictMark, verdictClass } from "@/components/VerdictMark";
 import { ms, periodReturns } from "@/lib/chart";
 import { getIndex, getLedger, getMarket, getMarketDay } from "@/lib/data";
-import { dayMonthYear, displayName, monthYear, quarter, rupees, signedPct } from "@/lib/format";
+import { crisp, dayMonthYear, displayName, monthYear, quarter, rupees, signedPct } from "@/lib/format";
 import { getT } from "@/lib/i18n/server";
 import { moveTitle } from "@/lib/sentences";
 import type { Ledger } from "@/lib/types";
@@ -22,12 +22,6 @@ const OPEN = new Set(["On track", "Pending", "Revised"]);
 const FEED_TAGS: Record<string, FeedItem["kind"]> = {
   Results: "results", "Order or contract": "order", "Dividend or corporate action": "dividend",
 };
-
-/** "Tata Consultancy Services Limited has informed the Exchange regarding 'X'." -> "X" (NSE's own boilerplate). */
-function crisp(subject: string): string {
-  const s = subject.replace(/^.*?has informed the Exchange (?:about|regarding|that)\s*/i, "").replace(/^['‘"]|['’".]+$/g, "").trim();
-  return s ? s[0].toUpperCase() + s.slice(1) : subject;
-}
 
 export default async function Home() {
   const [{ t, lang }, index, day] = await Promise.all([getT(), getIndex(), getMarketDay()]);

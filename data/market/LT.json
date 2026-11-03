@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-03T18:14:29Z",
+ "generated_at": "2026-11-03T18:19:21Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2754,7 +2754,18 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Larsen & Toubro Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "Dr. C. Jayakumar is a distinguished HR leader with over 38 years of rich and diverse experience in strategic HRM & organizational transformation. As the CHRO of L&T Ltd., he has played a pivotal role in shaping the people agenda of one of India's top conglomerates. An alumnus of LBS, Dr. Jayakumar holds a doctorate in leadership, certification in executive coaching from CFI. He is certified in Organizational Development from NTL Institute of Advanced Behavioural Sciences, USA.",
+    "name": "Mr. Suresh Kumar Narang",
+    "role": "Senior Vice President",
+    "effective": "July 1, 2026",
+    "previous": [
+     "Chief Executive of Nabha Power Ltd (2021-2026)",
+     "Project Director - Nabha Power"
+    ]
+   }
   },
   {
    "date": "2026-10-07",

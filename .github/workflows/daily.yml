@@ -1,6 +1,7 @@
-# Twice each trading day: prices, key numbers and filings for every company on the site, then alerts.
-#   11:45 UTC = 17:15 IST, once NSE has published the day's closing prices (~16:35 IST), so a big move
-#                shows the same evening. The delivery file is not out yet; that run goes without it.
+# Through each trading day: prices, key numbers, filings (and new appointees' profiles) for the portfolio and every
+# analysed company, then alerts.
+#   Every 2 hours, 09:00 to 21:00 IST (03:30-15:30 UTC): new filings reach the digest within about 2 hours, and
+#                the 17:00 run onwards has the day's closing prices (NSE publishes them at about 16:35 IST).
 #   19:30 UTC = 01:00 IST, after the delivery file (~23:55 IST). This run also reruns one promise
 #                ledger that is out of date (a new earnings call or new results).
 name: Daily update
@@ -8,7 +9,7 @@ run-name: daily update
 
 on:
   schedule:
-    - cron: "45 11 * * 1-5"
+    - cron: "30 3-15/2 * * 1-5"
     - cron: "30 19 * * 1-5"
   workflow_dispatch:
 
@@ -44,7 +45,9 @@ jobs:
           restore-keys: finn-
 
       - name: Read prices, results and filings
-        run: python -m finn.market --ledgers --stale > stale.tsv
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # only for new appointees' profiles (cached)
+        run: python -m finn.market --portfolio --ledgers --stale > stale.tsv
 
       - name: Build site data
         run: python scripts/build_web_data.py
@@ -73,7 +76,7 @@ jobs:
       # One rerun a night, in the 01:00 run: the Gemini free tier allows one analysis at a time.
       # (workflow_dispatch is one of the events the built-in token may start.)
       - name: Rerun one out-of-date ledger
-        if: github.event.schedule != '45 11 * * 1-5'
+        if: github.event.schedule == '30 19 * * 1-5' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

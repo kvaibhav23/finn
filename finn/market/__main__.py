@@ -5,7 +5,8 @@
     python -m finn.market --ledgers --stale     # also print companies whose ledger needs a rerun
     python -m finn.market --portfolio --ledgers # the portfolio plus every ledger company (the daily job)
 
-No model is called. One company failing (NSE hiccup) does not stop the others; its file keeps the
+No model is called, except to lay out a new appointee's profile that code has already found in the filing
+(finn/market/people.py; cached, and skipped without a key). One company failing (NSE hiccup) does not stop the others; its file keeps the
 error so the site can leave that section out.
 """
 from __future__ import annotations
@@ -14,7 +15,7 @@ import argparse
 import json
 import sys
 import traceback
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -26,6 +27,7 @@ from finn.data.transcripts import candidates, quarter_for
 from finn.portfolio import PORTFOLIO
 
 from . import filings as filings_mod
+from .people import add_profiles
 from .moves import big_move, events, market_day
 from .prices import SOURCE, adjust, history
 from .signals import signals
@@ -98,6 +100,10 @@ def build_one(symbol: str, rows: list[dict], nifty: list[dict], end: date,
         ann = filings_mod.get_announcements_for(symbol, end, client)
         out["filings"] = filings_mod.recent(filings_mod.within(ann, end))
         out["routine"] = filings_mod.routine_times(filings_mod.within(ann, end, 30))
+        try:
+            add_profiles(symbol, out["filings"], client, (end - timedelta(days=30)).isoformat())
+        except Exception as e:                   # noqa: BLE001 - profiles are extra; the filings stand without them
+            out["errors"]["profiles"] = f"{type(e).__name__}: {e}"
         out["calls"] = filings_mod.call_dates(ann)
     except Exception as e:                       # noqa: BLE001
         out["filings"], out["errors"]["filings"] = None, f"{type(e).__name__}: {e}"

@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-03T18:14:28Z",
+ "generated_at": "2026-11-03T18:19:12Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2704,7 +2704,19 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Bajaj Finance Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "Prashant Verma is the Chief Information Security Officer of Bajaj Finance Ltd since February 1, 2024. Prashant Verma has around 21 years of full-time experience on Security Domain. He joined us as head of Cyber Risk Unit 7 years back and is now heading Information Security. In his previous job, he has architected security services and has worked as security auditor and consultant for various domestic and international banks and insurance companies. He is CISSP and is co- author of couple of security books.",
+    "name": "Prashant Verma",
+    "role": "Chief Information Security Officer",
+    "effective": "1 February 2027",
+    "previous": [
+     "Chief Information Security Officer of Bajaj Finance Ltd",
+     "head of Cyber Risk Unit",
+     "security auditor and consultant"
+    ]
+   }
   },
   {
    "date": "2026-10-19",

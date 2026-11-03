@@ -29,6 +29,9 @@ PAGE_CHARS = 6000         # characters of the page given to the model
 
 LABEL = re.compile(r"brief\s+profile(\s*\(in\s+case\s+of\s+appointment\))?|profile\s+of\s+(mr|ms|mrs|dr)\b", re.I)
 # The rows that follow the profile in SEBI's format: where the excerpt stops.
+TITLE = re.compile(r"\b(Mr|Ms|Mrs|Dr|Prof|Shri|Smt)\.?\s+[A-Z]")
+# A full stop that ends a sentence: not the one in "Mr." or "Dr.", and followed by a space or the end.
+SENTENCE_END = re.compile(r"(?<!\bMr)(?<!\bMs)(?<!\bDr)(?<!\bMrs)(?<!\bProf)(?<!\bSmt)(?<!\bShri)\.(?=\s|$)")
 NEXT_ROW = re.compile(r"\n\s*\d{1,2}\.?\s*\n|disclosure\s+of\s+relationships?|relationship\s+(with|between)", re.I)
 
 
@@ -74,12 +77,14 @@ def excerpt(text: str) -> str | None:
     rest = text[m.end():]
     stop = NEXT_ROW.search(rest, 40)
     body = canonical(rest[:stop.start()] if stop else rest)
-    body = re.sub(r"^[\s:.\-–]+", "", body)
+    # Scanned tables put other row labels before the profile; profiles open with the person's title.
+    who = TITLE.search(body[:250])
+    body = re.sub(r"^[\s:.\-–]+", "", body[who.start():] if who else body)
     if len(body) < 40:
         return None
     if len(body) > EXCERPT:
-        cut = body.rfind(". ", 0, EXCERPT)
-        body = body[:cut + 1] if cut > 200 else body[:EXCERPT].rsplit(" ", 1)[0] + "…"
+        ends = [m.end() for m in SENTENCE_END.finditer(body[:EXCERPT + 1])]
+        body = body[:ends[-1]] if ends and ends[-1] > 200 else body[:EXCERPT].rsplit(" ", 1)[0] + "…"
     return body
 
 

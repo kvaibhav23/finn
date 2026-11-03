@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-03T18:14:28Z",
+ "generated_at": "2026-11-03T18:19:17Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2684,7 +2684,17 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
+   "profile": {
+    "page": 3,
+    "excerpt": "Mr. Prithvi Vachani is currently serving as the Vice President at Dixon Technologies (India) Limited. A 2017 graduate of Bentley University, Mr. Prithvi quickly demonstrated his strategic acumen upon entering the professional arena. His exceptional foresight and leadership were notably displayed when he successfully orchestrated a major collaboration with boAt, India's leading audio product company, resulting in the production of innovative twin wireless speakers.",
+    "name": "Mr. Prithvi Vachani",
+    "role": "Additional Director in the capacity of Executive Director",
+    "effective": "30-10-2026",
+    "previous": [
+     "Vice President at Dixon Technologies (India) Limited"
+    ]
+   }
   },
   {
    "date": "2026-10-30",

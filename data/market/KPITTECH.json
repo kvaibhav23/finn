@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-03T18:14:29Z",
+ "generated_at": "2026-11-03T18:19:18Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2664,7 +2664,15 @@
    "worth_a_look": true,
    "category": "Cessation",
    "subject": "KPIT Technologies Limited has informed the Exchange that Prof. Rajiv Lal (DIN: 09360601) completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently he has ceased to be a Director of the Company w.e.f. the end of business hours of said d",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "; Not Applicable Disclosure of relationships between directors (in case of appointment of a director). Not Applicable Information required pursuant to BSE Circular no. LIST/COMP/14/2018-19 and the NSE Circular no. NSE/ CML/2018/24, both dated 20 June 2018 Not Applicable",
+    "name": "Prof. Rajiv Lal",
+    "role": "Independent Director",
+    "effective": "October 31, 2026",
+    "previous": []
+   }
   },
   {
    "date": "2026-10-28",
@@ -2684,7 +2692,20 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf",
+   "profile": {
+    "page": 4,
+    "excerpt": "Mr. Anant Talaulicar holds a bachelor's degree in Mechanical Engineering from Mysore University, a master's degree from the University of Michigan in Ann Arbor and a MBA degree from Tulane University, USA. He was the Chairman and Managing Director of the Cummins Group in India from March 2004 through October 2017, was a member of t he Cummins Inc. global leadership team from August 2009 t ill October 2017 and t he President of the Cummins Inc. Components Group from 2010 through 2014.",
+    "name": "Mr. Anant Talaulicar",
+    "role": "Board of KPIT US",
+    "effective": "October 28, 2026",
+    "previous": [
+     "Chairman and Managing Director of the Cummins Group in India",
+     "member of t he Cummins Inc. global leadership team",
+     "President of the Cummins Inc. Components Group",
+     "Managing Director of Tat a Cummins Private Limited"
+    ]
+   }
   },
   {
    "date": "2026-10-28",
