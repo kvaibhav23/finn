@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 
+import { useT } from "@/lib/i18n/client";
+
 type Sym = [string, string];
 
 let cache: Promise<Sym[]> | null = null;
@@ -25,6 +27,7 @@ function rank(q: string, all: Sym[]): Sym[] {
 export function Search({ analysed, compact = false, autoFocus = false }:
   { analysed: string[]; compact?: boolean; autoFocus?: boolean }) {
   const router = useRouter();
+  const { t } = useT();
   const id = useId();
   const [all, setAll] = useState<Sym[]>([]);
   const [q, setQ] = useState("");
@@ -44,7 +47,7 @@ export function Search({ analysed, compact = false, autoFocus = false }:
 
   return (
     <div className={`search${compact ? " compact" : ""}`} ref={box}>
-      <label htmlFor={`${id}-q`} className="visually-hidden">Search any NSE company</label>
+      <label htmlFor={`${id}-q`} className="visually-hidden">{t.search.label}</label>
       <input
         id={`${id}-q`}
         type="search"
@@ -55,7 +58,7 @@ export function Search({ analysed, compact = false, autoFocus = false }:
         autoComplete="off"
         spellCheck={false}
         autoFocus={autoFocus}
-        placeholder={compact ? "Search company" : "Search any NSE company, e.g. Asian Paints or DIXON"}
+        placeholder={compact ? t.search.placeholderCompact : t.search.placeholder}
         value={q}
         onFocus={() => { loadSymbols().then(setAll); setOpen(true); }}
         onChange={(e) => { setQ(e.target.value); setActive(0); setOpen(true); }}
@@ -69,14 +72,14 @@ export function Search({ analysed, compact = false, autoFocus = false }:
       {open && q.trim() && (
         <ul className="search-list" role="listbox" id={`${id}-list`}>
           {results.length === 0 && all.length > 0 && (
-            <li className="search-empty" role="option" aria-selected={false}>No NSE company matches “{q.trim()}”.</li>
+            <li className="search-empty" role="option" aria-selected={false}>{t.search.none(q.trim())}</li>
           )}
           {results.map(([sym, name], i) => (
             <li key={sym} id={`${id}-o${i}`} role="option" aria-selected={i === active}
                 onMouseEnter={() => setActive(i)} onMouseDown={(e) => { e.preventDefault(); go(sym); }}>
               <span className="opt-sym">{sym}</span>
               <span className="opt-name">{name}</span>
-              {done.has(sym) && <span className="opt-tag">Ledger ready</span>}
+              {done.has(sym) && <span className="opt-tag">{t.search.ready}</span>}
             </li>
           ))}
         </ul>

@@ -11,8 +11,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
-from datetime import date
 from pathlib import Path
 
 from finn.ledger.classify import numbers
@@ -126,41 +124,22 @@ def counts(promises: list[dict]) -> dict:
     return c
 
 
-def _q(token: str) -> str:
-    return re.sub(r"^(Q\d)(FY)", r"\1 \2", token)
+def slim_market(m: dict) -> dict:
+    """What the page shows. The summary and signal sentences are written by the site (web/lib/sentences.ts),
+    from these facts, in the reader's language."""
+    keep = ("symbol", "generated_at", "price", "prices", "nifty", "results", "filings", "calls", "signals", "move")
+    return {k: m.get(k) for k in keep} | {"missing": sorted((m.get("errors") or {}).keys())}
 
 
-def summary(symbol: str, m: dict, counts: dict | None) -> list[str]:
-    """Up to three plain sentences, each written from facts in the file. A sentence whose facts are
-    missing is left out rather than worded around the gap."""
-    out = []
-    p = m.get("price") or {}
-    if p.get("close") is not None and p.get("as_of"):
-        d = date.fromisoformat(p["as_of"])
-        line = f"{symbol} closed at ₹{p['close']:,.2f} on {d.day} {d:%b %Y}"
-        r, n = p.get("return_1y"), p.get("nifty_return_1y")
-        if r is not None:
-            line += f", {'up' if r >= 0 else 'down'} {abs(r):.1f}% over the year"
-            if n is not None:
-                line += f", while the Nifty 50 {'rose' if n >= 0 else 'fell'} {abs(n):.1f}%"
-        out.append(line + ".")
-    if counts:
-        kept, decided = counts.get("Kept", 0), counts.get("Kept", 0) + counts.get("Missed", 0)
-        if decided >= 3:
-            out.append(f"Management kept {kept} of the {decided} promises FINN could check against results.")
-    r = m.get("results") or {}
-    rev, pat = r.get("revenue_yoy_pct"), r.get("pat_yoy_pct")
-    if rev is not None and pat is not None and r.get("latest_quarter"):
-        top = "total income" if r.get("bank") else "revenue"
-        out.append(f"In {_q(r['latest_quarter'])}, {top} {'grew' if rev >= 0 else 'fell'} {abs(rev):.1f}% and profit "
-                   f"{'grew' if pat >= 0 else 'fell'} {abs(pat):.1f}% on a year earlier.")
-    return out
-
-
-def slim_market(m: dict, counts: dict | None) -> dict:
-    keep = ("symbol", "generated_at", "price", "prices", "nifty", "results", "filings", "calls", "signals")
-    return {k: m.get(k) for k in keep} | {"summary": summary(m["symbol"], m, counts),
-                                          "missing": sorted((m.get("errors") or {}).keys())}
+def market_banner(market_dir: Path, index: list[dict], top: int = 3) -> dict | None:
+    """The Nifty 50's last day and the tracked companies that moved most that day."""
+    f = market_dir / "_market.json"
+    if not f.exists():
+        return None
+    day = json.loads(f.read_text())
+    same_day = [i for i in index if i.get("price_as_of") == day["date"] and i.get("change_pct") is not None]
+    movers = sorted(same_day, key=lambda i: -abs(i["change_pct"]))[:top]
+    return day | {"movers": [{"symbol": i["symbol"], "name": i["name"], "change_pct": i["change_pct"]} for i in movers]}
 
 
 def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET) -> list[dict]:
@@ -181,7 +160,7 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
         mf = market_dir / f"{s['symbol']}.json"
         price = None
         if mf.exists():
-            mk = slim_market(json.loads(mf.read_text()), counts(s["promises"]) if s["status"] == "ok" else None)
+            mk = slim_market(json.loads(mf.read_text()))
             (out / "market" / mf.name).write_text(json.dumps(mk, ensure_ascii=False, separators=(",", ":")))
             price = mk.get("price")
         index.append({"symbol": s["symbol"], "name": s["name"], "status": s["status"],
@@ -190,8 +169,12 @@ def build(ledger_dir: Path = LEDGERS, out: Path = OUT, market_dir: Path = MARKET
                       "to": calls[-1]["quarter"] if calls else None, "promises": len(s["promises"]),
                       "counts": counts(s["promises"]),
                       "close": (price or {}).get("close"), "change_pct": (price or {}).get("change_pct"),
-                      "price_as_of": (price or {}).get("as_of")})
+                      "price_as_of": (price or {}).get("as_of"),
+                      "return_1y": (price or {}).get("return_1y"),
+                      "big_move": bool(mf.exists() and json.loads(mf.read_text()).get("move"))})
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
+    banner = market_banner(market_dir, index)
+    (out / "market.json").write_text(json.dumps(banner, ensure_ascii=False, indent=1))
     return index
 
 

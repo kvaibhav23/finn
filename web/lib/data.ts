@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { IndexEntry, Ledger, Market } from "./types";
+import type { IndexEntry, Ledger, Market, MarketDay } from "./types";
 
 const DATA = path.join(process.cwd(), "public", "data");
 
@@ -27,6 +27,9 @@ export async function getMarket(symbol: string): Promise<Market | null> {
   if (!/^[A-Z0-9&_-]{1,20}$/.test(symbol)) return null;
   return json<Market>(`market/${symbol}.json`);
 }
+
+/** The Nifty 50's last session and the biggest movers on FINN (written by scripts/build_web_data.py). */
+export const getMarketDay = async () => json<MarketDay>("market.json");
 
 export async function companyName(symbol: string): Promise<string | null> {
   const hit = (await getSymbols()).find(([s]) => s === symbol);

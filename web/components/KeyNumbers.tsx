@@ -3,56 +3,35 @@
 import { useState } from "react";
 
 import { crore, dayMonthYear, quarter, rupees, signedPct } from "@/lib/format";
+import { useT } from "@/lib/i18n/client";
+import type { Dict } from "@/lib/i18n";
 import type { PriceStats, Results } from "@/lib/types";
 
 interface Item { term: string; value: string; note?: string | null; explain: string }
 
-function items(p: PriceStats | null, r: Results | null): Item[] {
+function items(t: Dict, p: PriceStats | null, r: Results | null): Item[] {
   const out: Item[] = [];
-  const top = r?.bank ? "Total income" : "Revenue";
-  if (r?.market_cap_cr != null) {
-    out.push({ term: "Market cap", value: crore(r.market_cap_cr),
-      explain: "What all the company's shares are worth at the last closing price: shares on issue times the price." });
-  }
-  if (r) {
-    out.push({ term: "P/E", value: r.pe != null ? r.pe.toFixed(1) : "n/a", note: r.pe_note,
-      explain: "Price divided by the profit per share of the last four quarters. How many years of today's profit the price pays for." });
-  }
-  if (p) {
-    out.push({ term: "52-week range", value: `${rupees(p.low_52w, 0)} to ${rupees(p.high_52w, 0)}`,
-      explain: "The lowest and highest price the share traded at over the last year." });
-  }
-  if (r?.ttm_revenue_cr != null) {
-    out.push({ term: `${top}, last 4 quarters`, value: crore(r.ttm_revenue_cr),
-      explain: r.bank ? "Interest and other income the bank earned over the last four reported quarters."
-        : "Sales from the company's operations over the last four reported quarters." });
-  }
-  if (r?.ttm_margin_pct != null) {
-    out.push({ term: "Profit margin", value: `${r.ttm_margin_pct.toFixed(1)}%`,
-      explain: `Profit after tax as a share of ${top.toLowerCase()}, over the last four quarters. Of every ₹100 earned, how much was left as profit.` });
-  }
+  const k = t.keys;
+  const add = ([term, explain]: string[], value: string, note?: string | null) => out.push({ term, explain, value, note });
+  const cr = (n: number) => crore(n, k);
+  if (r?.market_cap_cr != null) add(k.marketCap, cr(r.market_cap_cr));
+  if (r) add(k.pe, r.pe != null ? r.pe.toFixed(1) : k.na, r.pe_note ? k.peNote[r.pe_note] ?? r.pe_note : null);
+  if (p) add(k.range52, `${rupees(p.low_52w, 0)} ${k.to} ${rupees(p.high_52w, 0)}`);
+  if (r?.ttm_revenue_cr != null) add(r.bank ? k.income4 : k.revenue4, cr(r.ttm_revenue_cr));
+  if (r?.ttm_margin_pct != null) add(k.margin, `${r.ttm_margin_pct.toFixed(1)}%`);
   if (r?.revenue_yoy_pct != null) {
-    out.push({ term: `${top} growth`, value: signedPct(r.revenue_yoy_pct), note: `${quarter(r.latest_quarter)} on a year earlier`,
-      explain: `${top} in the latest quarter compared with the same quarter a year before, so seasons don't distort it.` });
+    add(r.bank ? k.incomeGrowth : k.revGrowth, signedPct(r.revenue_yoy_pct), k.onYear(quarter(r.latest_quarter)));
   }
-  if (r?.pat_yoy_pct != null) {
-    out.push({ term: "Profit growth", value: signedPct(r.pat_yoy_pct), note: `${quarter(r.latest_quarter)} on a year earlier`,
-      explain: "Profit after tax in the latest quarter compared with the same quarter a year before." });
-  }
-  if (r?.bank && r.net_npa_pct != null) {
-    out.push({ term: "Net NPA", value: `${r.net_npa_pct.toFixed(2)}%`,
-      explain: "Loans that have stopped paying, after provisions, as a share of all loans. Lower is healthier." });
-  }
-  if (p?.delivery_20d != null) {
-    out.push({ term: "Delivery, 20 days", value: `${p.delivery_20d.toFixed(0)}%`,
-      explain: "Share of traded shares that buyers took into their demat accounts, rather than selling the same day." });
-  }
+  if (r?.pat_yoy_pct != null) add(k.patGrowth, signedPct(r.pat_yoy_pct), k.onYear(quarter(r.latest_quarter)));
+  if (r?.bank && r.net_npa_pct != null) add(k.npa, `${r.net_npa_pct.toFixed(2)}%`);
+  if (p?.delivery_20d != null) add(k.delivery, `${p.delivery_20d.toFixed(0)}%`);
   return out;
 }
 
 export function KeyNumbers({ price, results }: { price: PriceStats | null; results: Results | null }) {
+  const { t, lang } = useT();
   const [open, setOpen] = useState<string | null>(null);
-  const list = items(price, results);
+  const list = items(t, price, results);
   if (!list.length) return null;
   return (
     <>
@@ -75,10 +54,10 @@ export function KeyNumbers({ price, results }: { price: PriceStats | null; resul
       </dl>
       {results && (
         <p className="small-print">
-          Results: {results.basis.toLowerCase()} filings up to {quarter(results.latest_quarter)} (quarter ended{" "}
-          {dayMonthYear(results.latest_qe)}).{" "}
-          {results.xbrl_url && <><a href={results.xbrl_url} target="_blank" rel="noreferrer">Latest XBRL filing</a>.</>}
-          {price && <> Price: NSE close on {dayMonthYear(price.as_of)}.</>} Tap a term to see what it means.
+          {t.keys.results(t.keys.basis[results.basis] ?? results.basis, quarter(results.latest_quarter),
+            dayMonthYear(results.latest_qe, lang))}{" "}
+          {results.xbrl_url && <><a href={results.xbrl_url} target="_blank" rel="noreferrer">{t.keys.xbrl}</a>.</>}
+          {price && t.keys.price(dayMonthYear(price.as_of, lang))} {t.keys.tap}
         </p>
       )}
     </>

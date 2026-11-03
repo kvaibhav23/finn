@@ -4,12 +4,12 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 import { RANGES, ms, nearest, rebase, sliceRange, ticks, type Range } from "@/lib/chart";
 import { dayMonthYear, quarter, rupees, signedPct } from "@/lib/format";
+import { useT } from "@/lib/i18n/client";
 import type { CallDate, PriceRow } from "@/lib/types";
 
 // End-of-day closes as one thin line. The only marks on it are the earnings calls FINN read: tapping one
 // opens the promises made on that call, so what management said sits next to what the stock did after.
 const H = 240, TOP = 16, BOTTOM = 34, RIGHT = 64;
-const RANGE_WORDS: Record<Range, string> = { "1M": "a month", "6M": "6 months", "1Y": "a year" };
 
 export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: {
   rows: PriceRow[];
@@ -18,6 +18,7 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
   ledgerQuarters: string[];
   adjustedFor: string[];
 }) {
+  const { t, lang } = useT();
   const [range, setRange] = useState<Range>("1Y");
   const [compare, setCompare] = useState(false);
   const [at, setAt] = useState<number | null>(null);
@@ -64,15 +65,15 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
   const roomy = plotW / Math.max(1, marks.length) >= 96;
   const placed: { c: CallDate; left: number; text: string }[] = [];
   for (const c of marks) {
-    const text = roomy ? `${quarter(c.quarter)} call` : quarter(c.quarter);
+    const text = roomy ? t.chart.call(quarter(c.quarter)) : quarter(c.quarter);
     const w = text.length * 6.6 + 14;
     const left = Math.min(Math.max(x(c.date), w / 2), plotW - w / 2);
     const prev = placed[placed.length - 1];
     if (prev && left - w / 2 < prev.left + (prev.text.length * 6.6 + 14) / 2 + 4) continue;
     placed.push({ c, left, text });
   }
-  const label = `Closing price over ${RANGE_WORDS[range]}: ${rupees(first)} on ${dayMonthYear(shown[0][0])} to `
-    + `${rupees(last)} on ${dayMonthYear(shown[shown.length - 1][0])}, ${signedPct((last / first - 1) * 100)}.`;
+  const label = t.chart.aria(t.chart.over[range], rupees(first), dayMonthYear(shown[0][0], lang), rupees(last),
+    dayMonthYear(shown[shown.length - 1][0], lang), signedPct((last / first - 1) * 100));
 
   const move = (clientX: number) => {
     const rect = box.current?.getBoundingClientRect();
@@ -95,13 +96,13 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
       <div className="chart-head">
         <p className="chart-read" aria-live="polite">
           {point ? (
-            <><b>{rupees(point[1])}</b> on {dayMonthYear(point[0])}
-              {point[3] != null && <span className="chart-sub">, {point[3].toFixed(0)}% delivered</span>}</>
+            <><b>{t.chart.on(rupees(point[1]), dayMonthYear(point[0], lang))}</b>
+              {point[3] != null && <span className="chart-sub">{t.chart.delivered(`${point[3].toFixed(0)}%`)}</span>}</>
           ) : (
-            <><b>{signedPct((last / first - 1) * 100)}</b> over {RANGE_WORDS[range]}</>
+            <b>{t.chart.overText(signedPct((last / first - 1) * 100), t.chart.over[range])}</b>
           )}
         </p>
-        <div className="seg" role="group" aria-label="Time range">
+        <div className="seg" role="group" aria-label={t.chart.range}>
           {RANGES.map((r) => (
             <button key={r} type="button" aria-pressed={range === r} onClick={() => { setRange(r); setAt(null); }}>{r}</button>
           ))}
@@ -138,12 +139,12 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
             const inLedger = ledgerQuarters.includes(c.quarter);
             return inLedger ? (
               <button key={c.quarter} type="button" className="call-mark" style={{ left }} onClick={() => openCall(c.quarter)}
-                      title={`See the promises made on the ${quarter(c.quarter)} earnings call (${dayMonthYear(c.date)})`}>
+                      title={t.chart.callTitle(quarter(c.quarter), dayMonthYear(c.date, lang))}>
                 {text}
               </button>
             ) : (
               <span key={c.quarter} className="call-mark off" style={{ left }}
-                    title={`${quarter(c.quarter)} earnings call, ${dayMonthYear(c.date)}`}>
+                    title={t.chart.callOff(quarter(c.quarter), dayMonthYear(c.date, lang))}>
                 {text}
               </span>
             );
@@ -154,13 +155,13 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
       <div className="chart-foot">
         {nifty?.length ? (
           <label className="check">
-            <input type="checkbox" checked={compare} onChange={(e) => setCompare(e.target.checked)} /> Compare with
-            Nifty 50 <span className="chart-sub">(dashed, started at the same price)</span>
+            <input type="checkbox" checked={compare} onChange={(e) => setCompare(e.target.checked)} /> {t.chart.compare}{" "}
+            <span className="chart-sub">{t.chart.compareNote}</span>
           </label>
         ) : <span />}
         <span className="chart-sub">
-          Daily closing prices from NSE.{adjustedFor.length ? ` Adjusted for ${adjustedFor.join(", ")}.` : ""}
-          {marks.length ? " Dotted lines mark earnings calls; tap one to read what was promised." : ""}
+          {t.chart.source}{adjustedFor.length ? t.chart.adjusted(adjustedFor.join(", ")) : ""}
+          {marks.length ? t.chart.marks : ""}
         </span>
       </div>
     </div>

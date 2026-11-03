@@ -77,3 +77,11 @@ jobs:
             sleep 5
           done
           exit 1
+
+      # A rerun of an existing ledger tells subscribers what changed.
+      - name: Send alerts
+        continue-on-error: true
+        env:
+          FINN_SITE_URL: ${{ vars.FINN_SITE_URL }}
+          ALERTS_SECRET: ${{ secrets.ALERTS_SECRET }}
+        run: python scripts/send_alerts.py "$SYMBOL"

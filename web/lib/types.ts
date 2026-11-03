@@ -93,6 +93,8 @@ export interface IndexEntry {
   close?: number | null;
   change_pct?: number | null;
   price_as_of?: string | null;
+  return_1y?: number | null;
+  big_move?: boolean;
 }
 
 // Written by finn.market via scripts/build_web_data.py: prices (NSE bhavcopy), results (XBRL), filings (NSE).
@@ -150,12 +152,32 @@ export interface Filing {
 }
 
 export interface Signal {
-  key: "track" | "price" | "delivery" | "filings";
-  label: string;
-  text: string;
-  detail: string | null;
-  source: "promises" | "prices" | "filings";
+  key: "move" | "track" | "price" | "delivery" | "filings";
+  state: string;
+  facts: Record<string, unknown>;
   items?: { date: string | null; tag: string; pdf_url: string }[];
+}
+
+export interface MoveFacts {
+  date: string;
+  change_pct: number;
+  typical_pct: number;
+  times: number | null;
+  volume_x: number | null;
+  biggest_in_year: boolean;
+  nifty_change_pct: number | null;
+}
+
+export interface Move extends MoveFacts {
+  filings: { date: string; tag: string; pdf_url: string }[];
+}
+
+export interface MarketDay {
+  date: string;
+  close: number;
+  change_pct: number;
+  big: boolean;
+  movers: { symbol: string; name: string | null; change_pct: number }[];
 }
 
 export interface CallDate {
@@ -177,6 +199,6 @@ export interface Market {
   filings: Filing[] | null;
   calls: CallDate[] | null;
   signals: Signal[];
-  summary: string[];
+  move: Move | null;
   missing: string[];
 }

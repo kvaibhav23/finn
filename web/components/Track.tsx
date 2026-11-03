@@ -1,4 +1,5 @@
 import { monthYear, quarter } from "@/lib/format";
+import { dict, type Dict, type Lang } from "@/lib/i18n";
 import type { Call, Promise_ } from "@/lib/types";
 
 // A promise's life on one line: faint ticks are the calls FINN read; a filled dot is where it was
@@ -7,45 +8,45 @@ import type { Call, Promise_ } from "@/lib/types";
 const W = 260, H = 22, PAD = 6, Y = 11;
 const DAY = 86_400_000;
 
-const t = (iso: string) => Date.parse(`${iso}T00:00:00Z`);
+const at = (iso: string) => Date.parse(`${iso}T00:00:00Z`);
 
 export interface Domain { start: number; end: number }
 
 /** One time axis for every row of a ledger, so tracks line up and can be compared down the page. */
 export function domainFor(promises: Promise_[], calls: Call[]): Domain {
-  const lastCall = t(calls[calls.length - 1].quarter_end);
-  const dues = promises.map((p) => (p.due ? Math.min(t(p.due), lastCall + 3 * 365 * DAY) : lastCall));
-  return { start: t(calls[0].quarter_end) - 30 * DAY, end: Math.max(lastCall, ...dues) + 45 * DAY };
+  const lastCall = at(calls[calls.length - 1].quarter_end);
+  const dues = promises.map((p) => (p.due ? Math.min(at(p.due), lastCall + 3 * 365 * DAY) : lastCall));
+  return { start: at(calls[0].quarter_end) - 30 * DAY, end: Math.max(lastCall, ...dues) + 45 * DAY };
 }
 
-export function Track({ p, calls, asOf, domain }:
-  { p: Promise_; calls: Call[]; asOf: string | null | undefined; domain?: Domain }) {
+export function Track({ p, calls, asOf, domain, t = dict("en"), lang = "en" }:
+  { p: Promise_; calls: Call[]; asOf: string | null | undefined; domain?: Domain; t?: Dict; lang?: Lang }) {
   if (!calls.length) return null;
   const qe = Object.fromEntries(calls.map((c) => [c.quarter, c.quarter_end]));
-  const lastCall = t(calls[calls.length - 1].quarter_end);
-  const due = p.due ? Math.min(t(p.due), lastCall + 3 * 365 * DAY) : null;
+  const lastCall = at(calls[calls.length - 1].quarter_end);
+  const due = p.due ? Math.min(at(p.due), lastCall + 3 * 365 * DAY) : null;
   const { start, end } = domain ?? domainFor([p], calls);
   const x = (ms: number) => PAD + ((ms - start) / (end - start)) * (W - 2 * PAD);
 
   const marks = p.history
     .filter((v) => qe[v.quarter])
-    .map((v) => ({ ...v, x: x(t(qe[v.quarter])) }));
+    .map((v) => ({ ...v, x: x(at(qe[v.quarter])) }));
   const firstX = marks[0]?.x ?? PAD;
-  const solidTo = x(Math.min(asOf ? t(asOf) : lastCall, due ?? Infinity));
+  const solidTo = x(Math.min(asOf ? at(asOf) : lastCall, due ?? Infinity));
   const dueX = due != null ? x(due) : null;
   const dueColor = p.verdict === "Kept" ? "var(--kept)" : p.verdict === "Missed" ? "var(--missed)" : "var(--ink)";
 
   const label = [
-    ...p.history.map((v) => `${v.status === "New" ? "Said" : v.status} in ${quarter(v.quarter)}`),
-    p.due ? `due ${monthYear(p.due)}` : "no deadline",
-    p.verdict.toLowerCase(),
+    ...p.history.map((v) => `${t.ledger.status[v.status] ?? v.status} ${t.ledger.track.in} ${quarter(v.quarter)}`),
+    p.due ? `${t.ledger.track.due} ${monthYear(p.due, lang)}` : t.ledger.track.noDeadline,
+    t.verdict[p.verdict],
   ].join(", ");
 
   return (
     <svg className="track" width="100%" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={label}
          style={{ maxWidth: W, display: "block" }}>
       {calls.map((c) => (
-        <line key={c.quarter} x1={x(t(c.quarter_end))} x2={x(t(c.quarter_end))} y1={Y - 3} y2={Y + 3}
+        <line key={c.quarter} x1={x(at(c.quarter_end))} x2={x(at(c.quarter_end))} y1={Y - 3} y2={Y + 3}
               stroke="var(--rule)" strokeWidth={1} />
       ))}
       {dueX != null && solidTo > firstX && (

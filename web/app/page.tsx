@@ -1,11 +1,15 @@
 import Link from "next/link";
 
+import { MarketBanner } from "@/components/MarketBanner";
 import { Search } from "@/components/Search";
 import { Track } from "@/components/Track";
 import { VerdictMark } from "@/components/VerdictMark";
-import { getIndex, getLedger } from "@/lib/data";
+import { getIndex, getLedger, getMarketDay } from "@/lib/data";
 import { displayName, monthYear, quarter, rupees, signedPct } from "@/lib/format";
+import { getT } from "@/lib/i18n/server";
 import type { IndexEntry, Ledger, Promise_ } from "@/lib/types";
+
+export const dynamic = "force-dynamic";
 
 /** A real promise for the opening example: a Kept one with a filed (XBRL) actual, repeated across calls. */
 async function example(index: IndexEntry[]): Promise<{ ledger: Ledger; p: Promise_ } | null> {
@@ -32,48 +36,47 @@ function Mix({ c, total }: { c: IndexEntry["counts"]; total: number }) {
 }
 
 export default async function Home() {
-  const index = await getIndex();
+  const [{ t, lang }, index, day] = await Promise.all([getT(), getIndex(), getMarketDay()]);
   const ex = await example(index);
   const ready = index.filter((i) => i.status === "ok");
+  const h = t.home;
 
   return (
     <>
+      {day && <MarketBanner day={day} t={t} lang={lang} />}
       <section className="home-hero">
-        <h1>Did management do what they said?</h1>
-        <p className="lede">
-          FINN reads the earnings calls of NSE-listed companies, finds every promise that can be checked, and checks
-          it against the results they filed later. Every verdict shows the exact words and where they came from.
-        </p>
+        <h1>{h.title}</h1>
+        <p className="lede">{h.lede}</p>
         <Search analysed={index.map((i) => i.symbol)} autoFocus />
       </section>
 
       {ex && (
-        <section className="example" aria-label="An example from a real ledger">
+        <section className="example" aria-label={h.exampleAria}>
           <div className="example-grid">
             <div>
               <p className="example-who">
-                {displayName(ex.ledger.name, ex.ledger.symbol)}, {ex.p.speaker}, {quarter(ex.p.quarter)} earnings call
+                {h.exampleWho(displayName(ex.ledger.name, ex.ledger.symbol), ex.p.speaker, quarter(ex.p.quarter))}
               </p>
-              <blockquote className="quote">“{ex.p.quote}”</blockquote>
+              <blockquote className="quote" lang="en">“{ex.p.quote}”</blockquote>
             </div>
             <div className="example-out">
-              <Track p={ex.p} calls={ex.ledger.calls} asOf={ex.ledger.as_of_results} />
+              <Track p={ex.p} calls={ex.ledger.calls} asOf={ex.ledger.as_of_results} t={t} lang={lang} />
               <p className="example-line">
                 <span className="row-verdict v-kept" style={{ justifyContent: "flex-start" }}>
-                  <VerdictMark verdict="Kept" /> Kept
+                  <VerdictMark verdict="Kept" /> {t.verdict.Kept}
                 </span>{" "}
-                {ex.p.title}, came in at <strong>{ex.p.actual!.text}</strong> for the period ending{" "}
-                {monthYear(ex.p.due)}, from the filed results.
+                <span lang="en">{ex.p.title}</span>, {h.cameIn} <strong>{ex.p.actual!.text}</strong>{" "}
+                {h.forPeriod(monthYear(ex.p.due, lang))}
               </p>
-              <Link href={`/c/${ex.ledger.symbol}`}>See all {ex.ledger.promises.length} promises</Link>
+              <Link href={`/c/${ex.ledger.symbol}`}>{h.seeAll(ex.ledger.promises.length)}</Link>
             </div>
           </div>
         </section>
       )}
 
       <section aria-labelledby="ready-title">
-        <h2 className="section-title" id="ready-title">Companies ready to read</h2>
-        <p className="section-sub">Prices, results and filings update every weekday night. Search above to request any other NSE company.</p>
+        <h2 className="section-title" id="ready-title">{h.readyTitle}</h2>
+        <p className="section-sub">{h.readySub}</p>
         <ul className="co-list">
           {ready.map((e) => {
             const decided = e.counts.Kept + e.counts.Missed;
@@ -90,17 +93,18 @@ export default async function Home() {
                             {signedPct(e.change_pct, 2)}
                           </span>
                         )}
+                        {e.big_move && <span className="look">{t.companies.bigMove}</span>}
                       </span>
                     )}
                   </span>
                   <span className="co-span">
-                    {e.calls} calls, {quarter(e.from)} to {quarter(e.to)}
+                    {quarter(e.from)} – {quarter(e.to)}
                   </span>
                   <span className="co-score">
                     <Mix c={e.counts} total={e.promises} />
                     <span className="co-score-text">
-                      <b>{e.counts.Kept}</b> kept, <b>{e.counts.Missed}</b> missed of {decided} decided;{" "}
-                      {e.promises} promises
+                      {t.verdict.Kept} <b>{e.counts.Kept}</b>, {t.verdict.Missed} <b>{e.counts.Missed}</b>
+                      {decided ? ` (${t.companies.trackOf(e.counts.Kept, decided)})` : ""}
                     </span>
                   </span>
                 </Link>
@@ -108,21 +112,16 @@ export default async function Home() {
             );
           })}
         </ul>
+        <p className="small-print"><Link href="/companies">{h.allCompanies}</Link></p>
       </section>
 
-      <section className="how" aria-label="How FINN checks a promise">
-        <div>
-          <h3>Only what was said</h3>
-          <p>Every promise is quoted word for word from the transcript, with the speaker and page. Anything FINN can&apos;t find verbatim is thrown out.</p>
-        </div>
-        <div>
-          <h3>Numbers from filings</h3>
-          <p>Actuals come from the results the company filed with NSE, or from management&apos;s own later words, labelled as such.</p>
-        </div>
-        <div>
-          <h3>Verdicts by rule</h3>
-          <p>Kept, missed, revised or dropped is decided by fixed rules anyone can read. <Link href="/method">How it works</Link></p>
-        </div>
+      <section className="how" aria-label={t.nav.method}>
+        {h.how.map((x, i) => (
+          <div key={x.h}>
+            <h3>{x.h}</h3>
+            <p>{x.p}{i === 2 && <> <Link href="/method">{t.nav.method}</Link></>}</p>
+          </div>
+        ))}
       </section>
     </>
   );

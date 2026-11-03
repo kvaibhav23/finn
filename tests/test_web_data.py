@@ -84,16 +84,11 @@ def test_bank_nan_revenue_cannot_be_compared():
     assert rs.compute("pbdit_margin", df, q) is None
 
 
-def test_summary_sentences_need_their_facts():
-    m = {"symbol": "TCS", "price": {"close": 3412.5, "as_of": "2026-10-30", "return_1y": -8.24,
-                                    "nifty_return_1y": 6.1},
-         "results": {"latest_quarter": "Q2FY27", "revenue_yoy_pct": 5.04, "pat_yoy_pct": -2.0, "bank": False}}
-    s = bw.summary("TCS", m, {"Kept": 4, "Missed": 1})
-    assert s == ["TCS closed at ₹3,412.50 on 30 Oct 2026, down 8.2% over the year, while the Nifty 50 rose 6.1%.",
-                 "Management kept 4 of the 5 promises FINN could check against results.",
-                 "In Q2 FY27, revenue grew 5.0% and profit fell 2.0% on a year earlier."]
-    m["results"]["pat_yoy_pct"] = None
-    m["price"]["nifty_return_1y"] = None
-    s = bw.summary("TCS", m, {"Kept": 1, "Missed": 1})
-    assert s == ["TCS closed at ₹3,412.50 on 30 Oct 2026, down 8.2% over the year."]
-    assert bw.summary("TCS", {"symbol": "TCS"}, None) == []
+def test_market_banner_lists_the_biggest_movers(tmp_path):
+    (tmp_path / "_market.json").write_text(json.dumps({"date": "2026-11-02", "close": 23000.0,
+                                                       "change_pct": -2.4, "big": True}))
+    index = [{"symbol": s, "name": s, "price_as_of": d, "change_pct": c} for s, d, c in
+             [("A", "2026-11-02", -1.0), ("B", "2026-11-02", -6.5), ("C", "2026-11-02", 3.0), ("D", "2026-10-30", -9.0)]]
+    b = bw.market_banner(tmp_path, index, top=2)
+    assert b["big"] and [m["symbol"] for m in b["movers"]] == ["B", "C"]   # D's price is from another day
+    assert bw.market_banner(tmp_path / "none", index) is None

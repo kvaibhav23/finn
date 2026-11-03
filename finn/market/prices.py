@@ -34,11 +34,15 @@ def _day(eod_fn: Callable, d: date, delivery: bool) -> pd.DataFrame | None:
     try:
         return eod_fn(d, delivery)
     except eod.NotYetPublished:
-        return None
+        if not delivery:
+            return None                # today's bhavcopy not out yet
     except http.FetchError:
         if not delivery:
             raise
-        return eod_fn(d, False)        # bhavcopy out, delivery file not yet: prices without it
+    try:                               # evening run: prices are out, delivery file comes ~23:55 IST
+        return eod_fn(d, False)
+    except eod.NotYetPublished:
+        return None
 
 
 def history(symbols: list[str], end: date, days: int = DAYS, delivery_days: int = DELIVERY_DAYS,

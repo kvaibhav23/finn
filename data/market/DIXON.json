@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-03T01:44:54Z",
+ "generated_at": "2026-11-03T04:37:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2954,36 +2954,124 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
   }
  ],
+ "move": {
+  "date": "2026-11-02",
+  "change_pct": 11.990909090909096,
+  "typical_pct": 1.3995584988962473,
+  "times": 8.5676369371953,
+  "volume_x": 4.932894974695429,
+  "biggest_in_year": true,
+  "nifty_change_pct": 1.6817694800265404,
+  "filings": [
+   {
+    "date": "2026-10-30",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
+   },
+   {
+    "date": "2026-10-30",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
+   },
+   {
+    "date": "2026-10-30",
+    "tag": "Appointment",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf"
+   },
+   {
+    "date": "2026-10-30",
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
+   }
+  ]
+ },
  "signals": [
   {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-02",
+    "change_pct": 11.990909090909096,
+    "typical_pct": 1.3995584988962473,
+    "times": 8.5676369371953,
+    "volume_x": 4.932894974695429,
+    "biggest_in_year": true,
+    "nifty_change_pct": 1.6817694800265404
+   },
+   "items": [
+    {
+     "date": "2026-10-30",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "tag": "Appointment",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "tag": "Results",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
+    }
+   ]
+  },
+  {
    "key": "track",
-   "label": "Track record",
-   "source": "promises",
-   "text": "Kept 14 of the 23 promises whose results are in.",
-   "detail": "1 more was never mentioned again."
+   "state": "enough",
+   "facts": {
+    "kept": 14,
+    "missed": 9,
+    "decided": 23,
+    "dropped": 1
+   }
   },
   {
    "key": "price",
-   "label": "Price trend",
-   "text": "Down 20.5% in a year; the Nifty 50 fell 8.9% over the same days.",
-   "detail": "Closed at ₹12,319.00, between its 52-week low and high (₹9,600.00 to ₹15,775.00).",
-   "source": "prices"
+   "state": "middle",
+   "facts": {
+    "return_1y": -20.491803278688526,
+    "nifty_return_1y": -8.869027023454535,
+    "close": 12319.0,
+    "low_52w": 9600.0,
+    "high_52w": 15775.0
+   }
   },
   {
    "key": "delivery",
-   "label": "Delivery",
-   "text": "37% of shares traded in the last 20 sessions were delivered, against 38% over the last 3 months.",
-   "detail": "About usual for this stock.",
-   "source": "prices"
+   "state": "usual",
+   "facts": {
+    "recent": 37.1665,
+    "usual": 38.430163934426226,
+    "months": 3
+   }
   },
   {
    "key": "filings",
-   "label": "Filings",
-   "text": "No resignations, auditor changes, pledges, credit ratings or regulatory orders filed in the last 90 days.",
-   "detail": null,
-   "source": "filings",
+   "state": "clear",
+   "facts": {
+    "count": 0,
+    "days": 90,
+    "tags": []
+   },
    "items": []
   }
  ],
- "rerun": null
+ "rerun": null,
+ "ledger_generated_at": "2026-11-01T21:19:15",
+ "ledger_counts": {
+  "Unverifiable": 80,
+  "Pending": 70,
+  "Missed": 9,
+  "Revised": 9,
+  "Kept": 14,
+  "On track": 3,
+  "Dropped": 1
+ },
+ "events": []
 }

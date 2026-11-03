@@ -31,7 +31,8 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-ui), system-ui, sans-serif;
+  font-family: var(--font-ui), var(--font-deva), var(--font-gujr), var(--font-taml), var(--font-telu), var(--font-beng),
+    system-ui, sans-serif;
   font-size: var(--s15);
   line-height: 1.55;
   font-feature-settings: "tnum" 1;
@@ -62,7 +63,8 @@ button, input, select { font: inherit; color: inherit; }
 .brand-beta { font-size: var(--s13); color: var(--quiet); }
 .site-nav { display: flex; gap: 20px; font-size: var(--s15); }
 .site-nav a { color: var(--quiet); }
-.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--ink); text-decoration: none; }
+.site-nav a:hover { color: var(--ink); text-decoration: none; }
+.site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 .head-search { margin-left: auto; width: 280px; }
 
 .site-foot { border-top: 1px solid var(--rule); margin-top: 96px; }
@@ -319,6 +321,79 @@ button, input, select { font: inherit; color: inherit; }
 .co-price b { color: var(--ink); font-weight: 600; }
 .co-price .up { color: var(--kept); }
 .co-price .down { color: var(--missed); }
+.co-price .look { margin-left: 8px; }
+
+/* ---------- big moves, market banner ---------- */
+
+.move-note { margin: 16px 0 0; padding: 12px 16px; border-left: 3px solid var(--ink); background: var(--wash); max-width: 72ch; }
+.move-note.down { border-left-color: var(--missed); }
+.move-note.up { border-left-color: var(--kept); }
+.move-note p { margin: 0 0 4px; font-size: var(--s15); }
+.move-note p:last-child { margin-bottom: 0; color: var(--quiet); font-size: var(--s13); }
+.move-note .move-title { font-weight: 600; font-size: var(--s17); color: var(--ink); }
+.signal-move dt { color: var(--ink); font-weight: 600; }
+
+.market { margin: 20px 0 0; padding: 10px 14px; border: 1px solid var(--rule); border-radius: 6px; font-size: var(--s15); }
+.market.big { border-color: var(--ink); }
+.market + .seg-wrap { margin-top: 24px; }
+.market p { margin: 0; }
+.market .up, .co-table .up { color: var(--kept); }
+.market .down, .co-table .down { color: var(--missed); }
+
+/* ---------- companies page ---------- */
+
+.page-head { padding: 40px 0 8px; display: grid; gap: 12px; }
+.page-head h1 { font-size: var(--s34); line-height: 1.15; font-weight: 600; letter-spacing: -0.015em; margin: 0; }
+.page-head .lede { color: var(--quiet); margin: 0; max-width: 64ch; }
+.page-search { max-width: 520px; }
+.co-table { width: 100%; border-collapse: collapse; margin: 4px 0 0; font-size: var(--s15); }
+.co-table th, .co-table td { text-align: left; padding: 14px 8px 14px 0; border-bottom: 1px solid var(--rule); font-weight: 400; vertical-align: baseline; }
+.co-table thead th { color: var(--quiet); font-size: var(--s13); padding-top: 8px; padding-bottom: 8px; }
+.co-table tbody th a { font-weight: 600; color: var(--ink); }
+.co-table tbody th .look { margin-left: 8px; }
+.co-table .num { text-align: right; white-space: nowrap; }
+.co-table tbody tr:hover { background: var(--wash); }
+
+/* ---------- alerts ---------- */
+
+.alerts-open { margin: 16px 0 0; }
+.btn-quiet {
+  display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px; background: var(--paper);
+  border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); cursor: pointer; font-size: var(--s13);
+}
+.btn-quiet:hover { border-color: var(--ink); }
+.alerts { margin: 16px 0 0; padding: 16px 18px; border: 1px solid var(--rule); border-radius: 8px; max-width: 620px; display: grid; gap: 12px; }
+.alerts p { margin: 0; }
+.alerts-title { font-size: var(--s17); font-weight: 600; margin: 0; }
+.alerts fieldset { border: 0; margin: 0; padding: 0; }
+.alerts legend { font-size: var(--s13); color: var(--quiet); margin-bottom: 6px; padding: 0; }
+.alerts-row { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.alerts-events { display: grid; gap: 6px; }
+.alerts-field { display: grid; gap: 4px; font-size: var(--s13); color: var(--quiet); }
+.alerts-field input {
+  height: 40px; padding: 0 12px; border: 1px solid var(--rule); border-radius: 6px; font-size: var(--s15); color: var(--ink); max-width: 360px;
+}
+.alerts-field input:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(35, 80, 184, 0.12); }
+.alerts .check { align-items: flex-start; font-size: var(--s15); }
+.alerts .check input { margin-top: 5px; }
+.alerts-consent { font-size: var(--s13) !important; color: var(--quiet); }
+.alerts-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.alerts .notice { margin: 0; }
+
+/* ---------- settings ---------- */
+
+.langs { border: 0; padding: 0; margin: 12px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; position: relative; }
+.lang {
+  display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 6px; cursor: pointer;
+}
+.lang:hover { border-color: #cfd5dc; }
+.lang.on { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.lang input { position: absolute; opacity: 0; pointer-events: none; }
+.lang:has(input:focus-visible) { outline: 2px solid var(--blue); outline-offset: 2px; }
+.lang-name { font-size: var(--s17); font-weight: 600; }
+.lang-en { color: var(--quiet); font-size: var(--s13); }
+.saved { grid-column: 1 / -1; color: var(--kept); font-size: var(--s13); }
+.settings .notice p:last-child { margin-bottom: 0; }
 
 /* ---------- request an analysis ---------- */
 
@@ -380,6 +455,12 @@ button, input, select { font: inherit; color: inherit; }
   .summary { font-size: var(--s15); }
   .chart-head { flex-wrap: wrap; }
   .tally-group { padding-left: 6px; margin-left: 2px; }
+  .co-table thead { display: none; }
+  .co-table tr { display: grid; grid-template-columns: 1fr auto auto; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+  .co-table th, .co-table td { border: 0; padding: 0; }
+  .co-table tbody th { grid-column: 1 / -1; }
+  .co-table td:nth-child(4), .co-table td:nth-child(5) { color: var(--quiet); font-size: var(--s13); }
+  .co-table td:nth-child(2) { text-align: left; }
 }
 
 @media (prefers-reduced-motion: no-preference) {

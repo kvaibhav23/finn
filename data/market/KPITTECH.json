@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-03T01:44:58Z",
+ "generated_at": "2026-11-03T04:37:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2629,22 +2629,6 @@
   },
   {
    "date": "2026-10-28",
-   "tag": "Expansion",
-   "worth_a_look": false,
-   "category": "Acquisition",
-   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "tag": "Other",
-   "worth_a_look": false,
-   "category": "Sale or disposal",
-   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
    "tag": "Appointment",
    "worth_a_look": false,
    "category": "Appointment",
@@ -2658,6 +2642,22 @@
    "category": "Giving guarantees/indemnity/ becoming a surety for third party",
    "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "tag": "Expansion",
+   "worth_a_look": false,
+   "category": "Acquisition",
+   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "tag": "Other",
+   "worth_a_look": false,
+   "category": "Sale or disposal",
+   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2720,16 +2720,16 @@
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-11",
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2839,34 +2839,49 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026215259_Earnings_call_Audio_Recording_Link_S.pdf"
   }
  ],
+ "move": null,
  "signals": [
   {
    "key": "track",
-   "label": "Track record",
-   "source": "promises",
-   "text": "Kept 4 of the 6 promises whose results are in.",
-   "detail": "1 more was never mentioned again."
+   "state": "enough",
+   "facts": {
+    "kept": 4,
+    "missed": 2,
+    "decided": 6,
+    "dropped": 1
+   }
   },
   {
    "key": "price",
-   "label": "Price trend",
-   "text": "Down 54.4% in a year; the Nifty 50 fell 8.9% over the same days.",
-   "detail": "Closed at ₹531.95, near its 52-week low (₹470.10 to ₹1,284.90).",
-   "source": "prices"
+   "state": "low",
+   "facts": {
+    "return_1y": -54.405588411759666,
+    "nifty_return_1y": -8.869027023454535,
+    "close": 531.95,
+    "low_52w": 470.1,
+    "high_52w": 1284.9
+   }
   },
   {
    "key": "delivery",
-   "label": "Delivery",
-   "text": "32% of shares traded in the last 20 sessions were delivered, against 35% over the last 3 months.",
-   "detail": "About usual for this stock.",
-   "source": "prices"
+   "state": "usual",
+   "facts": {
+    "recent": 31.677,
+    "usual": 34.54229508196721,
+    "months": 3
+   }
   },
   {
    "key": "filings",
-   "label": "Filings",
-   "text": "2 filings worth a look in the last 90 days: resignation, regulatory or legal.",
-   "detail": null,
-   "source": "filings",
+   "state": "flagged",
+   "facts": {
+    "count": 2,
+    "days": 90,
+    "tags": [
+     "Resignation",
+     "Regulatory or legal"
+    ]
+   },
    "items": [
     {
      "date": "2026-10-31",
@@ -2881,5 +2896,16 @@
    ]
   }
  ],
- "rerun": null
+ "rerun": null,
+ "ledger_generated_at": "2026-11-02T05:45:49Z",
+ "ledger_counts": {
+  "Unverifiable": 21,
+  "Missed": 2,
+  "Dropped": 1,
+  "Revised": 3,
+  "Pending": 32,
+  "Kept": 4,
+  "On track": 1
+ },
+ "events": []
 }

@@ -24,6 +24,7 @@ from finn.data.financials import get_quarterly_financials
 from finn.data.transcripts import candidates, quarter_for
 
 from . import filings as filings_mod
+from .moves import big_move, events, market_day
 from .prices import SOURCE, adjust, history
 from .signals import signals
 from .stats import price_stats, results_stats
@@ -99,9 +100,19 @@ def build_one(symbol: str, rows: list[dict], nifty: list[dict], end: date,
         out["filings"], out["errors"]["filings"] = None, f"{type(e).__name__}: {e}"
 
     L = read_ledger(symbol, ledger_dir)
-    out["signals"] = signals(price, verdict_counts(L), out["filings"], filings_mod.DAYS)
+    counts = verdict_counts(L)
+    out["move"] = big_move(rows, out["filings"], nifty)
+    out["signals"] = signals(price, counts, out["filings"], filings_mod.DAYS, out["move"])
     out["rerun"] = needs_rerun(L, ann, (out.get("results") or {}).get("latest_qe"))
+    out["ledger_generated_at"], out["ledger_counts"] = (L or {}).get("generated_at"), counts
     return out
+
+
+def read_previous(path: Path) -> dict | None:
+    try:
+        return json.loads(path.read_text())
+    except (OSError, ValueError):
+        return None
 
 
 def run(symbols: list[str], end: date | None = None, out_dir: Path = OUT, ledger_dir: Path = LEDGERS,
@@ -110,14 +121,20 @@ def run(symbols: list[str], end: date | None = None, out_dir: Path = OUT, ledger
     end = end or c.today()
     rows, nifty = history(symbols, end, client=c)
     out_dir.mkdir(parents=True, exist_ok=True)
+    day = market_day(nifty)
+    if day:
+        (out_dir / "_market.json").write_text(json.dumps(day, indent=1))
     built = []
     for s in symbols:
+        path = out_dir / f"{s}.json"
+        before = read_previous(path)
         try:
             m = build_one(s, rows.get(s, []), nifty, end, c, ledger_dir)
+            m["events"] = events(s, m, before)
         except Exception as e:                   # noqa: BLE001 - one company must not stop the night's run
             traceback.print_exc()
-            m = {"symbol": s, "errors": {"build": f"{type(e).__name__}: {e}"}}
-        (out_dir / f"{s}.json").write_text(json.dumps(m, ensure_ascii=False, indent=1, default=str))
+            m = (before or {"symbol": s}) | {"errors": {"build": f"{type(e).__name__}: {e}"}, "events": []}
+        path.write_text(json.dumps(m, ensure_ascii=False, indent=1, default=str))
         built.append(m)
     return built
 

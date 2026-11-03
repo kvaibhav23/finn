@@ -3,13 +3,16 @@
 import { useEffect, useMemo, useState } from "react";
 
 import { monthYear, pageLink, quarter } from "@/lib/format";
+import { useT } from "@/lib/i18n/client";
+import type { Dict, Lang } from "@/lib/i18n";
 import { VERDICTS, type Ledger, type Promise_, type Verdict } from "@/lib/types";
-import { GROUPS, MEANING } from "@/lib/verdicts";
+import { GROUPS } from "@/lib/verdicts";
 
 import { Track, domainFor, type Domain } from "./Track";
 import { VerdictMark, verdictClass } from "./VerdictMark";
 
 export function LedgerView({ ledger }: { ledger: Ledger }) {
+  const { t, lang } = useT();
   const [verdict, setVerdict] = useState<Verdict | "All">("All");
   const [metric, setMetric] = useState("All");
   const [made, setMade] = useState("All");
@@ -21,10 +24,10 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
     ledger.promises.forEach((p) => { c[p.verdict] += 1; });
     return c;
   }, [ledger]);
-  const metrics = useMemo(() => [...new Set(ledger.promises.map((p) => p.metric_label))].sort(), [ledger]);
+  const metrics = useMemo(() => [...new Set(ledger.promises.map((p) => p.metric))].sort(), [ledger]);
   const domain = useMemo(() => domainFor(ledger.promises, ledger.calls), [ledger]);
   const matching = ledger.promises.filter((p) =>
-    (verdict === "All" || p.verdict === verdict) && (metric === "All" || p.metric_label === metric)
+    (verdict === "All" || p.verdict === verdict) && (metric === "All" || p.metric === metric)
     && (made === "All" || p.first_quarter === made));
   // Promises nothing could check are kept out of the way under "All": they bury the ones with an answer.
   const hidden = verdict === "All" && !showUnverifiable ? matching.filter((p) => p.verdict === "Unverifiable").length : 0;
@@ -58,60 +61,58 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
 
   return (
     <>
-      <div className="tally" role="group" aria-label="Filter by verdict">
+      <div className="tally" role="group" aria-label={t.ledger.filterVerdict}>
         <button type="button" aria-pressed={verdict === "All"} onClick={() => setVerdict("All")}>
-          All <span className="n">{ledger.promises.length}</span>
+          {t.ledger.all} <span className="n">{ledger.promises.length}</span>
         </button>
         {GROUPS.map((g) => (
-          <span key={g.label} className="tally-group">
-            <span className="tally-label">{g.label}</span>
+          <span key={g.key} className="tally-group">
+            <span className="tally-label">{t.groups[g.key]}</span>
             {g.verdicts.map((v) => (
               <button key={v} type="button" aria-pressed={verdict === v} disabled={!counts[v]}
                       onClick={() => setVerdict(verdict === v ? "All" : v)}>
-                <VerdictMark verdict={v} /> {v} <span className="n">{counts[v]}</span>
+                <VerdictMark verdict={v} /> {t.verdict[v]} <span className="n">{counts[v]}</span>
               </button>
             ))}
           </span>
         ))}
       </div>
-      {verdict !== "All" && <p className="meaning"><b>{verdict}:</b> {MEANING[verdict]}</p>}
+      {verdict !== "All" && <p className="meaning"><b>{t.verdict[verdict]}:</b> {t.meaning[verdict]}</p>}
 
       <div className="filters">
-        <label>Metric
+        <label>{t.ledger.metric}
           <select value={metric} onChange={(e) => setMetric(e.target.value)}>
-            <option>All</option>
-            {metrics.map((m) => <option key={m}>{m}</option>)}
+            <option value="All">{t.ledger.all}</option>
+            {metrics.map((m) => <option key={m} value={m}>{t.metric[m] ?? m}</option>)}
           </select>
         </label>
-        <label>First said in
+        <label>{t.ledger.firstSaid}
           <select value={made} onChange={(e) => setMade(e.target.value)}>
-            <option value="All">Any call</option>
+            <option value="All">{t.ledger.anyCall}</option>
             {ledger.calls.map((c) => <option key={c.quarter} value={c.quarter}>{quarter(c.quarter)}</option>)}
           </select>
         </label>
         {made !== "All" && (
-          <button type="button" className="btn-plain" onClick={() => setMade("All")}>Show every call</button>
+          <button type="button" className="btn-plain" onClick={() => setMade("All")}>{t.ledger.everyCall}</button>
         )}
-        <span className="count" aria-live="polite">{shown.length} of {ledger.promises.length} promises</span>
+        <span className="count" aria-live="polite">{t.ledger.count(shown.length, ledger.promises.length)}</span>
       </div>
 
       {shown.length === 0 ? (
-        <p className="empty">{hidden ? "Every promise here is one FINN couldn't check." : "No promises match these filters."}</p>
+        <p className="empty">{hidden ? t.ledger.allUnverifiable : t.ledger.none}</p>
       ) : (
         <ul className="rows">
           {shown.map((p) => (
-            <Row key={p.id} p={p} ledger={ledger} domain={domain} open={open.has(p.id)} onToggle={() => toggle(p.id)} />
+            <Row key={p.id} p={p} ledger={ledger} domain={domain} open={open.has(p.id)} onToggle={() => toggle(p.id)}
+                 t={t} lang={lang} />
           ))}
         </ul>
       )}
       {(hidden > 0 || (showUnverifiable && verdict === "All")) && (
         <p className="unverified">
-          {hidden > 0
-            ? <>{hidden} more {hidden === 1 ? "promise" : "promises"} couldn&apos;t be checked: no filed figure matches
-                them and management never said what happened. </>
-            : <>Showing the promises FINN couldn&apos;t check as well. </>}
+          {hidden > 0 ? `${t.ledger.hidden(hidden)} ` : `${t.ledger.showing} `}
           <button type="button" className="btn-plain" onClick={() => setShowUnverifiable(!showUnverifiable)}>
-            {hidden > 0 ? "Show them" : "Hide them"}
+            {hidden > 0 ? t.ledger.show : t.ledger.hide}
           </button>
         </p>
       )}
@@ -119,47 +120,47 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
   );
 }
 
-function Row({ p, ledger, domain, open, onToggle }:
-  { p: Promise_; ledger: Ledger; domain: Domain; open: boolean; onToggle: () => void }) {
+function Row({ p, ledger, domain, open, onToggle, t, lang }:
+  { p: Promise_; ledger: Ledger; domain: Domain; open: boolean; onToggle: () => void; t: Dict; lang: Lang }) {
   const detailId = `d-${p.id}`;
-  const due = p.due ? `due ${monthYear(p.due)}${p.due_assumed ? " (no date stated; year end assumed)" : ""}` : "no deadline stated";
-  const actual = p.actual?.text ? `${p.actual.text}${p.actual.partial ? " so far" : ""}` : null;
+  const due = p.due ? `${t.ledger.due(monthYear(p.due, lang))}${p.due_assumed ? t.ledger.dueAssumed : ""}` : t.ledger.noDeadline;
+  const actual = p.actual?.text ? `${t.ledger.actualText[p.actual.text] ?? p.actual.text}${p.actual.partial ? t.ledger.soFar : ""}` : null;
   return (
     <li className="row" id={p.id}>
       <button type="button" className="row-btn" aria-expanded={open} aria-controls={detailId} onClick={onToggle}>
         <span>
-          <span className="row-title">{p.title}</span>
+          <span className="row-title" lang="en">{p.title}</span>
           <span className="row-sub" style={{ display: "block" }}>
-            First said in {quarter(p.first_quarter)}, {due}
-            {p.conditional && <span className="cond">. Conditional</span>}
+            {t.ledger.firstSaidIn(quarter(p.first_quarter))}, {due}
+            {p.conditional && <span className="cond">{t.ledger.conditional}</span>}
           </span>
         </span>
-        <span className="row-track"><Track p={p} calls={ledger.calls} asOf={ledger.as_of_results} domain={domain} /></span>
+        <span className="row-track"><Track p={p} calls={ledger.calls} asOf={ledger.as_of_results} domain={domain} t={t} lang={lang} /></span>
         <span className="row-out">
-          <span className={`row-verdict ${verdictClass(p.verdict)}`}><VerdictMark verdict={p.verdict} /> {p.verdict}</span>
+          <span className={`row-verdict ${verdictClass(p.verdict)}`}><VerdictMark verdict={p.verdict} /> {t.verdict[p.verdict]}</span>
           {actual && <span className="row-actual">{actual}</span>}
         </span>
       </button>
       <div className="detail" id={detailId} hidden={!open}>
         <div>
-          <blockquote className="quote">“{p.quote}”</blockquote>
+          <blockquote className="quote" lang="en">“{p.quote}”</blockquote>
           <p className="cite">
-            {p.speaker}, {quarter(p.quarter)} earnings call, page {p.page}.{" "}
-            {pageLink(p.pdf_url, p.page) && <a href={pageLink(p.pdf_url, p.page)!} target="_blank" rel="noreferrer">Open transcript</a>}
-            <a href={`#${p.id}`} style={{ marginLeft: 14 }}>Link to this promise</a>
+            {t.ledger.cite(p.speaker, quarter(p.quarter), p.page)}{" "}
+            {pageLink(p.pdf_url, p.page) && <a href={pageLink(p.pdf_url, p.page)!} target="_blank" rel="noreferrer">{t.ledger.openTranscript}</a>}
+            <a href={`#${p.id}`} style={{ marginLeft: 14 }}>{t.ledger.link}</a>
           </p>
           {p.history.length > 1 && (
-            <ol className="history" aria-label="Every time this was said">
+            <ol className="history" aria-label={t.ledger.everyTime}>
               {p.history.map((v, i) => (
                 <li key={i}>
                   <span className="h-q">{quarter(v.quarter)}</span>
-                  <span className="h-s">{v.status === "New" ? "Said" : v.status}{v.status === "Revised" ? ` to ${v.target}` : ""}</span>
-                  <span className="h-quote">
+                  <span className="h-s">{t.ledger.status[v.status] ?? v.status}{v.status === "Revised" ? t.ledger.revisedTo(v.target) : ""}</span>
+                  <span className="h-quote" lang="en">
                     “{v.quote}”{" "}
                     {pageLink(v.pdf_url, v.page) && (
                       <a href={pageLink(v.pdf_url, v.page)!} target="_blank" rel="noreferrer"
                          style={{ fontFamily: "var(--font-ui)", fontStyle: "normal", fontSize: "var(--s13)" }}>
-                        page {v.page}
+                        {t.ledger.page(v.page)}
                       </a>
                     )}
                   </span>
@@ -170,15 +171,15 @@ function Row({ p, ledger, domain, open, onToggle }:
         </div>
         <div className="facts">
           <div className="fact">
-            <h4>Target</h4>
-            <p>{p.target !== "—" ? p.target : p.metric_label}{p.scope === "segment" ? ", for part of the business" : ""}</p>
+            <h4>{t.ledger.target}</h4>
+            <p>{p.target !== "—" ? p.target : (t.metric[p.metric] ?? p.metric_label)}{p.scope === "segment" ? t.ledger.partOfBusiness : ""}</p>
           </div>
-          <Actual p={p} />
+          <Actual p={p} t={t} />
           <div className="fact">
-            <h4>Why {p.verdict.toLowerCase()}</h4>
-            <p>{p.explanation}</p>
+            <h4>{t.ledger.why(t.verdict[p.verdict])}</h4>
+            <p lang="en">{p.explanation}</p>
             {p.verdict === "Dropped" && p.searched_later.length > 0 && (
-              <p className="small">Not mentioned again in {p.searched_later.map(quarter).join(", ")}.</p>
+              <p className="small">{t.ledger.notAgain(p.searched_later.map(quarter).join(", "))}</p>
             )}
           </div>
         </div>
@@ -187,38 +188,38 @@ function Row({ p, ledger, domain, open, onToggle }:
   );
 }
 
-function Actual({ p }: { p: Promise_ }) {
+function Actual({ p, t }: { p: Promise_; t: Dict }) {
   const a = p.actual;
   if (!a) {
     return (
       <div className="fact">
-        <h4>Actual</h4>
-        <p className="small">No filed figure or later statement by management was found.</p>
+        <h4>{t.ledger.actual}</h4>
+        <p className="small">{t.ledger.noActual}</p>
       </div>
     );
   }
   if (a.source === "XBRL filing") {
     return (
       <div className="fact">
-        <h4>Actual{a.partial ? ", year to date" : ""}</h4>
+        <h4>{t.ledger.actual}{a.partial ? t.ledger.ytd : ""}</h4>
         <p>{a.text}{a.basis ? `, ${a.basis}` : ""}{a.definition ? `, ${a.definition}` : ""}</p>
         <p className="small">
-          Computed from the company&apos;s filed results.{" "}
-          {a.link && <a href={a.link} target="_blank" rel="noreferrer">XBRL filing</a>}
+          {t.ledger.computed}{" "}
+          {a.link && <a href={a.link} target="_blank" rel="noreferrer">{t.ledger.xbrl}</a>}
         </p>
-        {a.note && <p className="small">Definition: {a.note}</p>}
+        {a.note && <p className="small" lang="en">{t.ledger.definition(a.note)}</p>}
       </div>
     );
   }
   return (
     <div className="fact">
-      <h4>Actual, as reported by management</h4>
-      <p>{a.text}</p>
+      <h4>{t.ledger.byManagement}</h4>
+      <p>{a.text ? t.ledger.actualText[a.text] ?? a.text : ""}</p>
       {a.quote && (
         <p className="small">
-          “{a.quote}” {a.speaker}, {quarter(a.quarter)} call, page {a.page}.{" "}
+          <span lang="en">“{a.quote}”</span> {t.ledger.later(a.speaker ?? "", quarter(a.quarter), a.page ?? 1)}{" "}
           {pageLink(a.pdf_url ?? null, a.page ?? 1) && (
-            <a href={pageLink(a.pdf_url ?? null, a.page ?? 1)!} target="_blank" rel="noreferrer">Open transcript</a>
+            <a href={pageLink(a.pdf_url ?? null, a.page ?? 1)!} target="_blank" rel="noreferrer">{t.ledger.openTranscript}</a>
           )}
         </p>
       )}

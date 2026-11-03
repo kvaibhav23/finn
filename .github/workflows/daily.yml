@@ -1,11 +1,14 @@
-# The nightly refresh: prices, key numbers and filings for every company on the site, then a promise
-# ledger rerun for one company whose ledger is out of date (a new earnings call or new results).
-# 19:30 UTC = 01:00 IST, after NSE publishes the day's delivery file (~23:55 IST).
+# Twice each trading day: prices, key numbers and filings for every company on the site, then alerts.
+#   11:45 UTC = 17:15 IST, once NSE has published the day's closing prices (~16:35 IST), so a big move
+#                shows the same evening. The delivery file is not out yet; that run goes without it.
+#   19:30 UTC = 01:00 IST, after the delivery file (~23:55 IST). This run also reruns one promise
+#                ledger that is out of date (a new earnings call or new results).
 name: Daily update
 run-name: daily update
 
 on:
   schedule:
+    - cron: "45 11 * * 1-5"
     - cron: "30 19 * * 1-5"
   workflow_dispatch:
 
@@ -52,16 +55,25 @@ jobs:
           git config user.email "finn-ledger-bot@users.noreply.github.com"
           git add data/market web/public/data
           git diff --cached --quiet && { echo "nothing to publish"; exit 0; }
-          git commit -m "Daily update $(TZ=Asia/Kolkata date +%F)"
+          git commit -m "Daily update $(TZ=Asia/Kolkata date '+%F %H:%M')"
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && exit 0
             sleep 5
           done
           exit 1
 
-      # One rerun a night: the Gemini free tier allows one analysis at a time.
+      # Alerts go out only after the new data is published, so every link in a message already works.
+      - name: Send alerts
+        continue-on-error: true
+        env:
+          FINN_SITE_URL: ${{ vars.FINN_SITE_URL }}
+          ALERTS_SECRET: ${{ secrets.ALERTS_SECRET }}
+        run: python scripts/send_alerts.py
+
+      # One rerun a night, in the 01:00 run: the Gemini free tier allows one analysis at a time.
       # (workflow_dispatch is one of the events the built-in token may start.)
       - name: Rerun one out-of-date ledger
+        if: github.event.schedule != '45 11 * * 1-5'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

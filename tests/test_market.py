@@ -7,7 +7,7 @@ import pytest
 from finn.data import corporate_actions as ca
 from finn.data import eod
 from finn.data.announcements import parse_announcements
-from finn.market import filings, prices, signals, stats
+from finn.market import filings, moves, prices, signals, stats
 from finn.market.__main__ import needs_rerun
 from tests.test_financials import tcs_frame
 
@@ -142,35 +142,79 @@ def test_recent_filings_drop_paperwork_and_link_pdfs(fx):
 
 
 # --- signals ------------------------------------------------------------------------------
-def test_track_record_wording():
+def test_track_record_states():
     s = signals.track_record({"Kept": 4, "Missed": 1, "Dropped": 1})
-    assert s["text"] == "Kept 4 of the 5 promises whose results are in."
-    assert s["detail"] == "1 more was never mentioned again."
-    assert "too few" in signals.track_record({"Kept": 1, "Missed": 1})["text"]
-    assert "hasn't checked" in signals.track_record(None)["text"]
+    assert s["state"] == "enough" and s["facts"] == {"kept": 4, "missed": 1, "decided": 5, "dropped": 1}
+    assert signals.track_record({"Kept": 1, "Missed": 1})["state"] == "few"
+    assert signals.track_record(None)["state"] == "none"
 
 
-def test_price_trend_wording():
-    p = {"return_1y": -8.24, "nifty_return_1y": 6.1, "range_position": 0.1, "close": 3412.5,
+@pytest.mark.parametrize("pos,state", [(0.1, "low"), (0.5, "middle"), (0.9, "high"), (None, "unknown")])
+def test_price_trend_states(pos, state):
+    p = {"return_1y": -8.2, "nifty_return_1y": 6.1, "range_position": pos, "close": 3412.5,
          "low_52w": 3300.0, "high_52w": 4280.0}
-    s = signals.price_trend(p)
-    assert s["text"] == "Down 8.2% in a year; the Nifty 50 rose 6.1% over the same days."
-    assert "near its 52-week low" in s["detail"] and "₹3,300.00" in s["detail"]
+    assert signals.price_trend(p)["state"] == state
     assert signals.price_trend({"return_1y": None}) is None
 
 
-@pytest.mark.parametrize("recent,usual,word", [(48, 41, "Higher"), (30, 41, "Lower"), (43, 41, "About usual")])
-def test_delivery_wording(recent, usual, word):
+@pytest.mark.parametrize("recent,usual,state", [(48, 41, "higher"), (30, 41, "lower"), (43, 41, "usual")])
+def test_delivery_states(recent, usual, state):
     s = signals.delivery({"delivery_20d": recent, "delivery_avg": usual, "delivery_sessions": 63})
-    assert s["detail"].startswith(word) and "last 3 months" in s["text"]
+    assert s["state"] == state and s["facts"]["months"] == 3
 
 
 def test_filings_flag():
     f = [{"worth_a_look": True, "tag": "Auditor change", "date": "2026-10-01", "pdf_url": "u"},
          {"worth_a_look": False, "tag": "Results", "date": "2026-10-02", "pdf_url": "v"}]
     s = signals.filings_flag(f, 90)
-    assert s["text"] == "1 filing worth a look in the last 90 days: auditor change." and len(s["items"]) == 1
-    assert signals.filings_flag([], 90)["text"].startswith("No resignations")
+    assert s["state"] == "flagged" and s["facts"]["tags"] == ["Auditor change"] and len(s["items"]) == 1
+    assert signals.filings_flag([], 90)["state"] == "clear"
+
+
+def test_move_signal_comes_first():
+    move = {"date": "2026-11-02", "change_pct": -12.0, "times": 6.0, "filings": []}
+    out = signals.signals(None, None, [], 90, move)
+    assert out[0]["key"] == "move" and out[0]["state"] == "down"
+
+
+# --- big moves and alert events -------------------------------------------------------------
+def calm_then(last_pct, n=120, volume_last=500):
+    rows, close = [], 100.0
+    for i in range(n):
+        close *= 1.004 if i % 2 else 0.996                 # +-0.4% days
+        rows.append(row(DAY - timedelta(days=n - i), close, volume=100))
+    rows.append(row(DAY, close * (1 + last_pct / 100), volume=volume_last))
+    return rows
+
+
+def test_big_move_is_relative_to_the_stock():
+    m = moves.big_move(calm_then(-3.0), [{"date": DAY.isoformat(), "tag": "Results", "pdf_url": "r"}])
+    assert m and m["change_pct"] == pytest.approx(-3.0) and m["times"] > 5 and m["volume_x"] == pytest.approx(5.0)
+    assert m["biggest_in_year"] and m["filings"][0]["tag"] == "Results"
+    assert moves.big_move(calm_then(1.0)) is None            # 1%: neither 5% nor 2% and 3x typical
+    assert moves.big_move(calm_then(-6.0))["change_pct"] < -5
+
+
+def test_market_day():
+    nifty = [{"date": DAY - timedelta(days=1), "close": 100.0}, {"date": DAY, "close": 97.5}]
+    d = moves.market_day(nifty)
+    assert d["big"] and d["change_pct"] == pytest.approx(-2.5)
+    assert moves.market_day(nifty[:1]) is None
+
+
+def test_events_are_only_what_changed():
+    f_old = {"pdf_url": "a", "worth_a_look": True, "tag": "Resignation", "date": "2026-10-01"}
+    f_new = {"pdf_url": "b", "worth_a_look": True, "tag": "Pledge", "date": "2026-11-02"}
+    f_res = {"pdf_url": "c", "worth_a_look": False, "tag": "Results", "date": "2026-11-02"}
+    f_plain = {"pdf_url": "d", "worth_a_look": False, "tag": "Press release", "date": "2026-11-02"}
+    move = {"date": "2026-11-02", "change_pct": -7.0, "times": 4.0, "biggest_in_year": True}
+    before = {"filings": [f_old], "move": None, "ledger_generated_at": "2026-10-01T00:00:00Z"}
+    now = {"filings": [f_new, f_res, f_plain, f_old], "move": move, "ledger_generated_at": "2026-11-02T00:00:00Z",
+           "ledger_counts": {"Kept": 5}}
+    ev = moves.events("TCS", now, before)
+    assert [e["kind"] for e in ev] == ["move", "flag", "results", "ledger"]
+    assert moves.events("TCS", now, now | {"filings": now["filings"]}) == []     # same day, second run: nothing new
+    assert moves.events("TCS", now, None) == []                                 # first run: nothing to compare
 
 
 # --- rerun detection ----------------------------------------------------------------------
@@ -212,3 +256,15 @@ def test_call_date_is_the_recording_not_the_transcript():
     ])
     assert filings.call_dates(ann) == [{"quarter": "Q1FY27", "date": "2026-07-29", "pdf_url": "t1"},
                                        {"quarter": "Q2FY27", "date": "2026-10-29", "pdf_url": "r2"}]
+
+
+def test_evening_run_keeps_todays_prices_before_the_delivery_file(fx):
+    px = eod.parse_udiff(fx("bhav_udiff_2026-10-30_sample.zip"))
+
+    def eod_fn(d, delivery):
+        if delivery:
+            raise eod.NotYetPublished("delivery file comes at 23:55")
+        return px.assign(date=d)
+
+    rows, _ = prices.history(["TCS"], DAY, days=0, eod_fn=eod_fn, index_fn=lambda d: None)
+    assert rows["TCS"][0]["date"] == DAY and rows["TCS"][0]["deliv_pct"] is None

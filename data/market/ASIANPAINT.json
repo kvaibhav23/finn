@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-03T01:44:49Z",
+ "generated_at": "2026-11-03T04:37:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2823,34 +2823,48 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf"
   }
  ],
+ "move": null,
  "signals": [
   {
    "key": "track",
-   "label": "Track record",
-   "source": "promises",
-   "text": "Kept 6 of the 6 promises whose results are in.",
-   "detail": "1 more was never mentioned again."
+   "state": "enough",
+   "facts": {
+    "kept": 6,
+    "missed": 0,
+    "decided": 6,
+    "dropped": 1
+   }
   },
   {
    "key": "price",
-   "label": "Price trend",
-   "text": "Down 6.6% in a year; the Nifty 50 fell 8.9% over the same days.",
-   "detail": "Closed at ₹2,344.30, between its 52-week low and high (₹2,115.00 to ₹2,985.70).",
-   "source": "prices"
+   "state": "middle",
+   "facts": {
+    "return_1y": -6.631352556953962,
+    "nifty_return_1y": -8.869027023454535,
+    "close": 2344.3,
+    "low_52w": 2115.0,
+    "high_52w": 2985.7
+   }
   },
   {
    "key": "delivery",
-   "label": "Delivery",
-   "text": "53% of shares traded in the last 20 sessions were delivered, against 56% over the last 3 months.",
-   "detail": "About usual for this stock.",
-   "source": "prices"
+   "state": "usual",
+   "facts": {
+    "recent": 52.5855,
+    "usual": 56.43360655737705,
+    "months": 3
+   }
   },
   {
    "key": "filings",
-   "label": "Filings",
-   "text": "1 filing worth a look in the last 90 days: credit rating.",
-   "detail": null,
-   "source": "filings",
+   "state": "flagged",
+   "facts": {
+    "count": 1,
+    "days": 90,
+    "tags": [
+     "Credit rating"
+    ]
+   },
    "items": [
     {
      "date": "2026-09-11",
@@ -2860,5 +2874,15 @@
    ]
   }
  ],
- "rerun": null
+ "rerun": null,
+ "ledger_generated_at": "2026-11-01T21:21:47",
+ "ledger_counts": {
+  "Unverifiable": 14,
+  "Pending": 10,
+  "Kept": 6,
+  "Revised": 2,
+  "Dropped": 1,
+  "On track": 2
+ },
+ "events": []
 }

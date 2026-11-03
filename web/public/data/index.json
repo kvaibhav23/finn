@@ -20,7 +20,9 @@
   },
   "close": 2344.3,
   "change_pct": 1.0474137931034466,
-  "price_as_of": "2026-11-02"
+  "price_as_of": "2026-11-02",
+  "return_1y": -6.631352556953962,
+  "big_move": false
  },
  {
   "symbol": "DIXON",
@@ -43,7 +45,9 @@
   },
   "close": 12319.0,
   "change_pct": 11.990909090909096,
-  "price_as_of": "2026-11-02"
+  "price_as_of": "2026-11-02",
+  "return_1y": -20.491803278688526,
+  "big_move": true
  },
  {
   "symbol": "KPITTECH",
@@ -66,7 +70,9 @@
   },
   "close": 531.95,
   "change_pct": 0.32060348892033463,
-  "price_as_of": "2026-11-02"
+  "price_as_of": "2026-11-02",
+  "return_1y": -54.405588411759666,
+  "big_move": false
  },
  {
   "symbol": "SUPREMEIND",
@@ -89,7 +95,9 @@
   },
   "close": 3218.2,
   "change_pct": 2.16507936507937,
-  "price_as_of": "2026-11-02"
+  "price_as_of": "2026-11-02",
+  "return_1y": -15.588196721311476,
+  "big_move": false
  },
  {
   "symbol": "TCS",
@@ -112,6 +120,8 @@
   },
   "close": 2501.7,
   "change_pct": -0.035962598897154585,
-  "price_as_of": "2026-11-02"
+  "price_as_of": "2026-11-02",
+  "return_1y": -18.19162851536953,
+  "big_move": false
  }
 ]

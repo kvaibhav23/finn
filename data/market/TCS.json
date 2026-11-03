@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-03T01:45:07Z",
+ "generated_at": "2026-11-03T04:37:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2927,36 +2927,59 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
   }
  ],
+ "move": null,
  "signals": [
   {
    "key": "track",
-   "label": "Track record",
-   "source": "promises",
-   "text": "Kept 4 of the 5 promises whose results are in.",
-   "detail": "1 more was never mentioned again."
+   "state": "enough",
+   "facts": {
+    "kept": 4,
+    "missed": 1,
+    "decided": 5,
+    "dropped": 1
+   }
   },
   {
    "key": "price",
-   "label": "Price trend",
-   "text": "Down 18.2% in a year; the Nifty 50 fell 8.9% over the same days.",
-   "detail": "Closed at ₹2,501.70, between its 52-week low and high (₹1,976.80 to ₹3,350.00).",
-   "source": "prices"
+   "state": "middle",
+   "facts": {
+    "return_1y": -18.19162851536953,
+    "nifty_return_1y": -8.869027023454535,
+    "close": 2501.7,
+    "low_52w": 1976.8,
+    "high_52w": 3350.0
+   }
   },
   {
    "key": "delivery",
-   "label": "Delivery",
-   "text": "47% of shares traded in the last 20 sessions were delivered, against 49% over the last 3 months.",
-   "detail": "About usual for this stock.",
-   "source": "prices"
+   "state": "usual",
+   "facts": {
+    "recent": 47.124,
+    "usual": 48.53885245901639,
+    "months": 3
+   }
   },
   {
    "key": "filings",
-   "label": "Filings",
-   "text": "No resignations, auditor changes, pledges, credit ratings or regulatory orders filed in the last 90 days.",
-   "detail": null,
-   "source": "filings",
+   "state": "clear",
+   "facts": {
+    "count": 0,
+    "days": 90,
+    "tags": []
+   },
    "items": []
   }
  ],
- "rerun": null
+ "rerun": null,
+ "ledger_generated_at": "2026-11-02T09:20:26Z",
+ "ledger_counts": {
+  "Unverifiable": 20,
+  "Dropped": 1,
+  "Revised": 5,
+  "Missed": 1,
+  "Kept": 4,
+  "Pending": 14,
+  "On track": 1
+ },
+ "events": []
 }

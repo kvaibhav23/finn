@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-03T01:45:03Z",
+ "generated_at": "2026-11-03T04:37:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -2743,36 +2743,58 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
   }
  ],
+ "move": null,
  "signals": [
   {
    "key": "track",
-   "label": "Track record",
-   "source": "promises",
-   "text": "Kept 8 of the 11 promises whose results are in.",
-   "detail": null
+   "state": "enough",
+   "facts": {
+    "kept": 8,
+    "missed": 3,
+    "decided": 11,
+    "dropped": 0
+   }
   },
   {
    "key": "price",
-   "label": "Price trend",
-   "text": "Down 15.6% in a year; the Nifty 50 fell 8.9% over the same days.",
-   "detail": "Closed at ₹3,218.20, near its 52-week low (₹3,127.00 to ₹4,074.80).",
-   "source": "prices"
+   "state": "low",
+   "facts": {
+    "return_1y": -15.588196721311476,
+    "nifty_return_1y": -8.869027023454535,
+    "close": 3218.2,
+    "low_52w": 3127.0,
+    "high_52w": 4074.8
+   }
   },
   {
    "key": "delivery",
-   "label": "Delivery",
-   "text": "49% of shares traded in the last 20 sessions were delivered, against 49% over the last 3 months.",
-   "detail": "About usual for this stock.",
-   "source": "prices"
+   "state": "usual",
+   "facts": {
+    "recent": 49.171499999999995,
+    "usual": 48.56180327868852,
+    "months": 3
+   }
   },
   {
    "key": "filings",
-   "label": "Filings",
-   "text": "No resignations, auditor changes, pledges, credit ratings or regulatory orders filed in the last 90 days.",
-   "detail": null,
-   "source": "filings",
+   "state": "clear",
+   "facts": {
+    "count": 0,
+    "days": 90,
+    "tags": []
+   },
    "items": []
   }
  ],
- "rerun": null
+ "rerun": null,
+ "ledger_generated_at": "2026-11-02T08:00:17Z",
+ "ledger_counts": {
+  "Unverifiable": 18,
+  "Missed": 3,
+  "Kept": 8,
+  "Revised": 4,
+  "Pending": 26,
+  "On track": 2
+ },
+ "events": []
 }

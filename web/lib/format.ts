@@ -1,15 +1,23 @@
+import { DEFAULT_LANG, localeOf, type Lang } from "./i18n/languages.ts";
+
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+const utc = (iso: string) => new Date(`${iso.slice(0, 10)}T00:00:00Z`);
+const fmt = (lang: Lang, o: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat(localeOf(lang), { ...o, timeZone: "UTC" });
 
 /** "Q4FY25" -> "Q4 FY25" */
 export function quarter(q: string | null | undefined): string {
   return q ? q.replace(/^(Q\d)(FY\d+)$/, "$1 $2") : "";
 }
 
-/** "2026-03-31" -> "Mar 2026" */
-export function monthYear(iso: string | null | undefined): string {
+/** "2026-03-31" -> "Mar 2026" (month name in the reader's language) */
+export function monthYear(iso: string | null | undefined, lang: Lang = DEFAULT_LANG): string {
   if (!iso) return "";
-  const [y, m] = iso.split("-");
-  return `${MONTHS[Number(m) - 1]} ${y}`;
+  if (lang === "en") {
+    const [y, m] = iso.split("-");
+    return `${MONTHS[Number(m) - 1]} ${y}`;
+  }
+  return fmt(lang, { month: "short", year: "numeric" }).format(utc(iso));
 }
 
 /** Opens the transcript PDF at the quoted page (supported by browser PDF viewers). */
@@ -27,9 +35,9 @@ export function rupees(n: number, digits = 2): string {
 }
 
 /** Crore amounts the way Indian investors read them: "₹12.34 lakh cr" from 1,00,000 crore, else "₹45,230 cr". */
-export function crore(n: number): string {
-  if (Math.abs(n) >= 100_000) return `₹${(n / 100_000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} lakh cr`;
-  return `₹${n.toLocaleString("en-IN", { maximumFractionDigits: Math.abs(n) >= 100 ? 0 : 1 })} cr`;
+export function crore(n: number, words: { lakhCr: string; cr: string } = { lakhCr: "lakh cr", cr: "cr" }): string {
+  if (Math.abs(n) >= 100_000) return `₹${(n / 100_000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} ${words.lakhCr}`;
+  return `₹${n.toLocaleString("en-IN", { maximumFractionDigits: Math.abs(n) >= 100 ? 0 : 1 })} ${words.cr}`;
 }
 
 /** 4.26 -> "+4.3%", -1.2 -> "−1.2%" (a true minus sign) */
@@ -38,9 +46,12 @@ export function signedPct(n: number, digits = 1): string {
   return n > 0 ? `+${s}%` : n < 0 ? `−${s}%` : `${s}%`;
 }
 
-/** "2026-10-30" -> "30 Oct 2026" */
-export function dayMonthYear(iso: string | null | undefined): string {
+/** "2026-10-30" -> "30 Oct 2026" (month name in the reader's language) */
+export function dayMonthYear(iso: string | null | undefined, lang: Lang = DEFAULT_LANG): string {
   if (!iso) return "";
-  const [y, m, d] = iso.split("-");
-  return `${Number(d)} ${MONTHS[Number(m) - 1]} ${y}`;
+  if (lang === "en") {
+    const [y, m, d] = iso.split("-");
+    return `${Number(d)} ${MONTHS[Number(m) - 1]} ${y}`;
+  }
+  return fmt(lang, { day: "numeric", month: "short", year: "numeric" }).format(utc(iso));
 }
