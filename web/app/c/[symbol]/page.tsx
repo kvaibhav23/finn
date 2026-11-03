@@ -13,6 +13,7 @@ import { DeliveryBars, RangeBar, Returns } from "@/components/PriceFacts";
 import { QuarterBars } from "@/components/QuarterBars";
 import { QuoteBoard } from "@/components/QuoteBoard";
 import { RequestAnalysis } from "@/components/RequestAnalysis";
+import { ResultsCard } from "@/components/ResultsCard";
 import { Search } from "@/components/Search";
 import { SectionTabs, type Tab } from "@/components/SectionTabs";
 import { Signals } from "@/components/Signals";
@@ -88,6 +89,12 @@ export default async function CompanyPage({ params }: Props) {
       <>
         {lines.length > 0 && <div className="summary">{lines.map((line) => <p key={line}>{line}</p>)}</div>}
         <Glance market={market} ledger={ledger} days={FILING_DAYS} t={t} lang={lang} />
+        {market.card && (
+          <>
+            <h2 className="sub-title">{t.results.title}</h2>
+            <ResultsCard card={market.card} t={t} />
+          </>
+        )}
         {market.signals.length > 0 && (
           <>
             <h2 className="sub-title">{t.company.signalsTitle}</h2>
@@ -120,7 +127,13 @@ export default async function CompanyPage({ params }: Props) {
   if (market?.results) {
     add("results", (
       <>
-        <h2 className="section-title">{t.view.keyNumbers}</h2>
+        {market.card && (
+          <>
+            <h2 className="section-title">{t.results.title}</h2>
+            <ResultsCard card={market.card} t={t} />
+          </>
+        )}
+        <h2 className={market.card ? "sub-title" : "section-title"}>{t.view.keyNumbers}</h2>
         <KeyNumbers price={p} results={market.results} />
         {market.results.quarters.length > 1 && (
           <>

@@ -10,6 +10,8 @@ export function NavLinks() {
   const { t } = useT();
   const path = usePathname();
   const links = [
+    { href: "/digest", label: t.nav.digest, on: path === "/digest" },
+    { href: "/alerts", label: t.nav.alerts, on: path === "/alerts" },
     { href: "/companies", label: t.nav.companies, on: path === "/companies" || path.startsWith("/c/") },
     { href: "/method", label: t.nav.method, on: path === "/method" },
     { href: "/settings", label: t.nav.settings, on: path === "/settings" },

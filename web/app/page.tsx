@@ -7,8 +7,8 @@ import { Monitor, type MonitorRow } from "@/components/Monitor";
 import { Search } from "@/components/Search";
 import { Track } from "@/components/Track";
 import { VerdictMark, verdictClass } from "@/components/VerdictMark";
-import { ms, periodReturns } from "@/lib/chart";
-import { getIndex, getLedger, getMarket, getMarketDay } from "@/lib/data";
+import { ms, periodReturns, thin } from "@/lib/chart";
+import { getIndex, getLedger, getMarket, getMarketDay, getPortfolio } from "@/lib/data";
 import { crisp, dayMonthYear, displayName, monthYear, quarter, rupees, signedPct } from "@/lib/format";
 import { getT } from "@/lib/i18n/server";
 import { moveTitle } from "@/lib/sentences";
@@ -17,6 +17,8 @@ import type { Ledger } from "@/lib/types";
 export const dynamic = "force-dynamic";
 
 const FEED_DAYS = 30;
+/** About one close a week over the year, for the monitor's small price lines. */
+const spark = (rows: [string, number, ...unknown[]][]) => thin(rows.map((r) => r[1]), 52);
 const DAY = 86_400_000;
 const OPEN = new Set(["On track", "Pending", "Revised"]);
 const FEED_TAGS: Record<string, FeedItem["kind"]> = {
@@ -24,29 +26,34 @@ const FEED_TAGS: Record<string, FeedItem["kind"]> = {
 };
 
 export default async function Home() {
-  const [{ t, lang }, index, day] = await Promise.all([getT(), getIndex(), getMarketDay()]);
+  const [{ t, lang }, index, day, portfolio] = await Promise.all([getT(), getIndex(), getMarketDay(), getPortfolio()]);
   const ready = index.filter((i) => i.status === "ok");
+  // The monitor and the feed cover the whole portfolio; promise ledgers exist for the analysed companies.
+  const watched = [...portfolio.map((p) => ({ symbol: p.symbol, name: p.name })),
+    ...ready.filter((e) => !portfolio.some((p) => p.symbol === e.symbol)).map((e) => ({ symbol: e.symbol, name: e.name }))];
   const [markets, ledgers] = await Promise.all([
-    Promise.all(ready.map((e) => getMarket(e.symbol))),
+    Promise.all(watched.map((e) => getMarket(e.symbol))),
     Promise.all(ready.map((e) => getLedger(e.symbol))),
   ]);
+  const counts = Object.fromEntries(ready.map((e) => [e.symbol, e.counts]));
   const h = t.home;
   const today = day?.date ?? ready.find((e) => e.price_as_of)?.price_as_of ?? new Date().toISOString().slice(0, 10);
 
-  const rows: MonitorRow[] = ready.map((e, i) => {
+  const rows: MonitorRow[] = watched.map((e, i) => {
     const m = markets[i];
     const prices = m?.prices?.rows ?? [];
+    const c = counts[e.symbol];
     return {
-      symbol: e.symbol, name: displayName(e.name, e.symbol), close: e.close ?? null, day: e.change_pct ?? null,
-      m1: periodReturns(prices, null).find((r) => r.key === "1M")?.stock ?? null, y1: e.return_1y ?? null,
-      spark: e.spark ?? [], pe: m?.results?.pe ?? null, cap: m?.results?.market_cap_cr ?? null,
-      kept: e.counts.Kept, decided: e.counts.Kept + e.counts.Missed,
+      symbol: e.symbol, name: displayName(e.name, e.symbol), close: m?.price?.close ?? null, day: m?.price?.change_pct ?? null,
+      m1: periodReturns(prices, null).find((r) => r.key === "1M")?.stock ?? null, y1: m?.price?.return_1y ?? null,
+      spark: spark(prices), pe: m?.results?.pe ?? null, cap: m?.results?.market_cap_cr ?? null,
+      kept: c?.Kept ?? 0, decided: c ? c.Kept + c.Missed : 0,
       look: m?.filings ? m.filings.filter((f) => f.worth_a_look).length : null,
     };
   });
 
   const feed: FeedItem[] = [];
-  ready.forEach((e, i) => {
+  watched.forEach((e, i) => {
     const m = markets[i];
     if (!m) return;
     if (m.move && ms(m.move.date) >= ms(today) - FEED_DAYS * DAY) {
@@ -78,7 +85,7 @@ export default async function Home() {
 
   return (
     <>
-      <Ticker day={day} entries={ready} label={h.tickerAria} />
+      <Ticker day={day} entries={rows.map((r) => ({ symbol: r.symbol, close: r.close, change_pct: r.day }))} label={h.tickerAria} />
       {day && <MarketBanner day={day} t={t} lang={lang} />}
 
       <section className="hero">
@@ -122,7 +129,7 @@ export default async function Home() {
       )}
 
       <div className="home-pair">
-        <Feed items={feed} days={FEED_DAYS} />
+        <Feed items={feed} days={FEED_DAYS} more={<Link href="/digest">{t.digest.full}</Link>} />
         {due.length > 0 && (
           <section className="home-due" aria-labelledby="due-title">
             <h2 className="section-title" id="due-title">{h.coming.title}</h2>
@@ -196,7 +203,8 @@ function example(ledgers: (Ledger | null)[]) {
 
 /** The last close of the Nifty 50 and of every company FINN covers, in one strip. */
 function Ticker({ day, entries, label }:
-  { day: Awaited<ReturnType<typeof getMarketDay>>; entries: Awaited<ReturnType<typeof getIndex>>; label: string }) {
+  { day: Awaited<ReturnType<typeof getMarketDay>>; entries: { symbol: string; close: number | null; change_pct: number | null }[];
+    label: string }) {
   const items = entries.filter((e) => e.close != null);
   if (!day && !items.length) return null;
   const chg = (n: number | null | undefined) => n == null ? null

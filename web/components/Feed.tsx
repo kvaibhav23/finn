@@ -15,7 +15,7 @@ export interface FeedItem {
 const KINDS: FeedKind[] = ["move", "look", "results", "order", "dividend"];
 
 /** What changed across every company FINN covers, newest first, with one press to narrow it to a kind. */
-export function Feed({ items, days }: { items: FeedItem[]; days: number }) {
+export function Feed({ items, days, more }: { items: FeedItem[]; days: number; more?: React.ReactNode }) {
   const { t, lang } = useT();
   const f = t.home.feed;
   const [kind, setKind] = useState<FeedKind | "all">("all");
@@ -49,6 +49,7 @@ export function Feed({ items, days }: { items: FeedItem[]; days: number }) {
           ))}
         </ol>
       )}
+      {more && <p className="small-print">{more}</p>}
     </div>
   );
 }
