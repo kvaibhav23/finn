@@ -29,12 +29,7 @@ export const metadata: Metadata = {
     "Prices, results, NSE filings and earnings calls for listed Indian companies in plain words, with every number linked to its source and every management promise checked against later results.",
 };
 
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#121a23" },
-  ],
-};
+export const viewport: Viewport = { themeColor: "#ffffff" };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const [{ lang, t }, theme] = await Promise.all([getT(), getTheme()]);

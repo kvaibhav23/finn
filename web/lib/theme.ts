@@ -1,8 +1,9 @@
-// Light or dark. "system" follows the device; the choice is kept in the finn_theme cookie so the server
-// renders the right colours on the first paint.
+// Light or dark. Light is the default; "system" follows the device. The choice is kept in the finn_theme cookie
+// so the server renders the right colours on the first paint.
 
-export const THEMES = ["system", "light", "dark"] as const;
+export const THEMES = ["light", "dark", "system"] as const;
 export type Theme = (typeof THEMES)[number];
+export const DEFAULT_THEME: Theme = "light";
 export const THEME_COOKIE = "finn_theme";
 export const THEME_EVENT = "finn:theme";
 

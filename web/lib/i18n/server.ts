@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 
 import { dict } from "./index";
-import { THEME_COOKIE, type Theme, isTheme } from "../theme";
+import { DEFAULT_THEME, THEME_COOKIE, type Theme, isTheme } from "../theme";
 
 import { COOKIE, DEFAULT_LANG, isLang, type Lang } from "./languages";
 
@@ -16,8 +16,8 @@ export async function getT() {
   return { lang, t: dict(lang) };
 }
 
-/** The reader's light/dark choice from the finn_theme cookie ("system" when they haven't made one). */
+/** The reader's light/dark choice from the finn_theme cookie. Light until they choose otherwise. */
 export async function getTheme(): Promise<Theme> {
   const v = (await cookies()).get(THEME_COOKIE)?.value;
-  return isTheme(v) ? v : "system";
+  return isTheme(v) ? v : DEFAULT_THEME;
 }
