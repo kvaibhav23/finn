@@ -1,20 +1,12 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-01T21:21:47",
+ "name": "Asian Paints Limited",
+ "status": "ok",
+ "generated_at": "2026-11-03T19:06:14Z",
  "model": "gemini-3.1-flash-lite",
- "margin_calibration": {
-  "basis": "consolidated",
-  "definition": "without_other_income",
-  "note": "consolidated, without other income: matches management's stated 19.4% for 2026-03-31 (Q4FY26 p.17)"
- },
+ "margin_calibration": null,
  "as_of_results": "2026-09-30",
  "calls": [
-  {
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_12052025154734_SEINTIMATIONTRANSCRIPT080525.pdf",
-   "warnings": []
-  },
   {
    "quarter": "Q1FY26",
    "quarter_end": "2025-06-30",
@@ -44,1359 +36,15 @@
    "quarter_end": "2026-06-30",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03082026144133_Regulation_30_Intimation_-_Transcript_for_Investor_Conference_Signed.pdf",
    "warnings": []
+  },
+  {
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf",
+   "warnings": []
   }
  ],
  "classified": [
-  {
-   "id": "ASIANPAINT-Q4FY25-001",
-   "page": 3,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I think we will start with the opening areas in terms of what we are looking for.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-002",
-   "page": 5,
-   "speaker": "Amit Syngle",
-   "sentence": "On a 12 monthly level, the volume will stand at about 2.8% and the value at about -4.6%.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-003",
-   "page": 5,
-   "speaker": "Amit Syngle",
-   "sentence": "So, you could see that the industrial trajectory is still doing quite well this year.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-004",
-   "page": 6,
-   "speaker": "Amit Syngle",
-   "sentence": "This is our overall trajectory.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-005",
-   "page": 6,
-   "speaker": "Amit Syngle",
-   "sentence": "But we continuously keep on looking at driving the growth from the point of view of going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-006",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "In Q4, we have seen a fairly strong trajectory of what we have been able to deliver in the overall B2B business.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-007",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "We have more than 130 patents created in the last five years, and more than that this trajectory has contributed almost 14% to the top line in Q4.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-008",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "The plant should be operational by June of this year, and we will continue to look at white cement coming from this plant for us which is our first foray into cement.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "milestone",
-   "target": {
-    "kind": "none",
-    "low_text": "",
-    "high_text": "",
-    "unit": "none",
-    "comparator": "none",
-    "low": null,
-    "high": null
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "segment",
-   "basis": "unspecified",
-   "subject": "white cement plant operational",
-   "quote": "The plant should be operational by June of this year",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": false,
-    "token": "current_year"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-009",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "The second big investment has been in terms of looking at the most progressive emulsion which would be there, and it is a futuristic project from a point of view of emulsion which will be environmentally friendly.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-010",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "This should be operational partially in the month of March - April of 2026 and fully by April 2027.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "milestone",
-   "target": {
-    "kind": "none",
-    "low_text": "",
-    "high_text": "",
-    "unit": "none",
-    "comparator": "none",
-    "low": null,
-    "high": null
-   },
-   "horizon_token": "FY27",
-   "conditional": false,
-   "scope": "segment",
-   "basis": "unspecified",
-   "subject": "new plant operational",
-   "quote": "This should be operational partially in the month of March - April of 2026 and fully by April 2027.",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2027-03-31",
-    "quarters": [
-     "2026-06-30",
-     "2026-09-30",
-     "2026-12-31",
-     "2027-03-31"
-    ],
-    "assumed": false,
-    "token": "FY27"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-011",
-   "page": 8,
-   "speaker": "Amit Syngle",
-   "sentence": "And we believe that once these forays are complete, they will significantly add to our overall margins plus also from the innovation in the products qualities which we can impart.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-012",
-   "page": 13,
-   "speaker": "Amit Syngle",
-   "sentence": "We say it's a winner campaign that is been running and which we launched in Q4 and now running into April and May just to give you the idea of saying that today warranty for Asian Paints would mean that “Har Doosra Ghar Kuch Kehta Hai”.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-013",
-   "page": 16,
-   "speaker": "Amit Syngle",
-   "sentence": "These are initial stages; I would say it may take time to build up this category because all of you are aware that today the Home Decor category is the large unorganized sector.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-014",
-   "page": 18,
-   "speaker": "Amit Syngle",
-   "sentence": "And that is something which we need to set it right as we are going ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-015",
-   "page": 18,
-   "speaker": "Amit Syngle",
-   "sentence": "But again, this is something which we are looking at strongly even from what we can build together as we grow ahead in profitability.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-016",
-   "page": 18,
-   "speaker": "Amit Syngle",
-   "sentence": "And that is something which we are still committed to, of how we would take it ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-017",
-   "page": 22,
-   "speaker": "Amit Syngle",
-   "sentence": "Overall PBDIT margins are in the zone of guidance of 18% to 20% at about 18.5% although they are a notch lower than Q4 of last year and sequentially a little bit lower than that of Q3.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-018",
-   "page": 22,
-   "speaker": "Amit Syngle",
-   "sentence": "From a overall year perspective, the top line trajectory is decline of 5.4%.Gross margins are at about 43% which is 42.9%.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-019",
-   "page": 23,
-   "speaker": "Amit Syngle",
-   "sentence": "So, we have taken impairment in terms of White Teak this was obviously that today we had to take a provision because of the fact that the trajectory of the business was not at as per what we had really predicted and therefore a fair valuation loss on derivative contracts for the future stake purchases is what we have taken.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-020",
-   "page": 24,
-   "speaker": "Amit Syngle",
-   "sentence": "Overall, I think yes, we will be curious to see how we are looking at quarter one.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-021",
-   "page": 24,
-   "speaker": "Amit Syngle",
-   "sentence": "We'll have to wait and see how things really mature there in terms of their normalcy.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-022",
-   "page": 24,
-   "speaker": "Amit Syngle",
-   "sentence": "Given that, we're seeing the certain demand, which is there, we are still cautiously optimistic about the coming quarter.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-023",
-   "page": 25,
-   "speaker": "Amit Syngle",
-   "sentence": "Just a bit on ESG, which has been a core to our strategy in how we are building up on all the fronts, whether it is environment, social or governance, strong imperatives, strong commitment in what the organization is showing and taking it ahead in a big way.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-024",
-   "page": 26,
-   "speaker": "Amit Syngle",
-   "sentence": "So, overall, from a point of view of how we have looked at our numbers, going forward today, the current status is that all the numbers seem to be growing strong from what we have done.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-025",
-   "page": 26,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I think well on to our overall target numbers, and we are confident of what we should deliver.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-026",
-   "page": 27,
-   "speaker": "Amit Syngle",
-   "sentence": "So, it's not necessary that every customer will look at five years or ten years or fifteen years of repainting.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-027",
-   "page": 27,
-   "speaker": "Amit Syngle",
-   "sentence": "And it gives you an assurance that if this product is going to be talking of this kind of a warranty, it's looking at possibly giving me this kind of durability over a period of time.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-028",
-   "page": 27,
-   "speaker": "Amit Syngle",
-   "sentence": "Today we offer more than 1000 shops across the country which offers the best colour consultancy, which is what possibly any Gen Z or a millennial customer would really look at from the view of appropriation when they are looking at it today.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-029",
-   "page": 28,
-   "speaker": "Amit Syngle",
-   "sentence": "We want to say that in all the brand spaces, if you are not one or two looking at the businesses, we should not exist there going forward at this stage.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-030",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I would say that one would largely attribute it to the slowing down of the market what has happened, demand conditions being very challenging both from the new construction, second from the repainting and third, while the B2B business is good, but it is not compared to what we have seen in the last five years.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-031",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "I would say that possibly to some extent in a market which is already slow, the intensity of competitive action has been much more as well.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-032",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "Our stand is very clear that we would look at playing to our strengths of what we would like to do in this environment.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-033",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "The whole area of Asian Paints, bringing a certain quality, certain kind of loyalty, certain value to the consumer which is very important because we believe if your value proposition is strong, the customer will buy into it.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-034",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "And therefore, we would continuously play on the value proposition very strongly as to what we want to offer, whether it’s economy, whether it’s premium or luxury.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-035",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "The proposition is very important what we have been fighting on and which will continue to fight as we go ahead looking at the market.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-036",
-   "page": 29,
-   "speaker": "Amit Syngle",
-   "sentence": "And I think that's the other area which we will keep on expanding.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-037",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "As I see it, the moment the demand conditions are back, we would see a much better performance ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-038",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "I think from a competitive intensity, some of it will continue, but it has to be countered only to an extent possibly that it doesn't go beyond a certain value in what we are able to offer to the consumer.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-039",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "There is no two ways about it that possibly you will have to spend more in the market very clearly.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-040",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "And therefore, we are still very confident that today, as we are going ahead, there are series of things as an organization which we have taken up, whether it is a very big area of backward integration which we have built in.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-041",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "And as I said that we saw it coming earlier what was going to happen in terms of the competitive intensity and we invested earlier.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-042",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "Two I spoke of, which are going to kick in now and next year as we see it.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-043",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "That is going to bring us a very strong cushion for some of the spend which we are going to make in the market.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-044",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "I think that is something which is going to be very important looking at as we go forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-045",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "And the third area is, that these times call for very strong cost efficiency measures, which would be in the way we spend, the way we look at our existing models and redefining our model.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-046",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "We see in the current quarter also there would be a deflation of about 0.5% to 1% what would happen.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "range",
-    "low_text": "0.5",
-    "high_text": "1",
-    "unit": "pct",
-    "comparator": "range",
-    "low": 0.5,
-    "high": 1.0
-   },
-   "horizon_token": "current_quarter",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "input cost deflation",
-   "quote": "We see in the current quarter also there would be a deflation of about 0.5% to 1% what would happen.",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2025-06-30",
-    "quarters": [
-     "2025-06-30"
-    ],
-    "assumed": false,
-    "token": "current_quarter"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-047",
-   "page": 30,
-   "speaker": "Amit Syngle",
-   "sentence": "I think all these are good arsenals to give us good spending power in the market at the same time maintaining the guidance which we have and are going to maintain.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-048",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "When we look at FY26, there are some good areas which are occurring of what we are seeing.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-049",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "And we feel that is going to give us a good gain from our whole B2B business which is going to come up.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-050",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "That is one area which we are very confident and that is something which is going to increase.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-051",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "Second, we also see that the mid-to-luxury housing is going to flare up as we go ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-052",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "And that is something which we see will go up.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-053",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "And given the fact that last year was a good monsoon and we are looking at a predictability of a good monsoon coming further that is another big bright spot which would auger well going ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-054",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "Given these factors which are there, you know unless there is a geopolitical event which really looks at spoiling this trajectory, we think FY26 should definitely be much better.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "direction",
-   "target": {
-    "kind": "direction",
-    "low_text": "",
-    "high_text": "",
-    "unit": "none",
-    "comparator": "up",
-    "low": null,
-    "high": null
-   },
-   "horizon_token": "current_year",
-   "conditional": true,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "FY26 performance",
-   "quote": "we think FY26 should definitely be much better",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": false,
-    "token": "current_year"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-055",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "We are still being overall cautious in what we would look at.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-056",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "But the idea is to aim for single digit value growths for the year FY26.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "revenue_growth",
-   "target": {
-    "kind": "value",
-    "low_text": "single digit",
-    "high_text": "single digit",
-    "unit": "none",
-    "comparator": "about"
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "single digit value growths",
-   "quote": "aim for single digit value growths for the year FY26",
-   "is_commitment": false,
-   "rejected": "value/range target without a number"
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-057",
-   "page": 32,
-   "speaker": "Amit Syngle",
-   "sentence": "As we look at FY26, our overall CapEx will be complete from a white cement perspective.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "capex",
-   "target": {
-    "kind": "none",
-    "low_text": "",
-    "high_text": "",
-    "unit": "none",
-    "comparator": "none",
-    "low": null,
-    "high": null
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "white cement capex completion",
-   "quote": "our overall CapEx will be complete from a white cement perspective",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": false,
-    "token": "current_year"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-058",
-   "page": 32,
-   "speaker": "Amit Syngle",
-   "sentence": "It's only part of the VAM VAE plant CapEx which is going to go till FY27 which would be left out of Rs 3000 crores.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "capex",
-   "target": {
-    "kind": "value",
-    "low_text": "3000",
-    "high_text": "3000",
-    "unit": "inr_cr",
-    "comparator": "about",
-    "low": 3000.0,
-    "high": 3000.0
-   },
-   "horizon_token": "FY27",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "VAM VAE plant capex",
-   "quote": "It's only part of the VAM VAE plant CapEx which is going to go till FY27 which would be left out of Rs 3000 crores.",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2027-03-31",
-    "quarters": [
-     "2026-06-30",
-     "2026-09-30",
-     "2026-12-31",
-     "2027-03-31"
-    ],
-    "assumed": false,
-    "token": "FY27"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-059",
-   "page": 32,
-   "speaker": "Amit Syngle",
-   "sentence": "I think that would be something which would come in this years.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-060",
-   "page": 32,
-   "speaker": "Amit Syngle",
-   "sentence": "From a standalone and a console overall CapEx this year we would be.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-061",
-   "page": 32,
-   "speaker": "Parag Rane",
-   "sentence": "We are expecting about Rs 700 to 800 crores outflow this year and probably a similar number next year.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "capex",
-   "target": {
-    "kind": "range",
-    "low_text": "700",
-    "high_text": "800",
-    "unit": "inr_cr",
-    "comparator": "range",
-    "low": 700.0,
-    "high": 800.0
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "capex outflow",
-   "quote": "We are expecting about Rs 700 to 800 crores outflow this year",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": false,
-    "token": "current_year"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-062",
-   "page": 32,
-   "speaker": "Amit Syngle",
-   "sentence": "I think from a overall share in the market as I said that we will have to wait for all the results which would come in for Q4.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-063",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "We did not anticipate possibly the kind of competitive intensity which would have come up given the fact that demand was not there and everyone was fighting for the same share.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-064",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "Second, what we see is that possibly when you look at the price elasticity and when you look at from fighting the competition on a certain pricing level, you would be very clear that you would go to a certain level which is sustainable, and you will not go to a level which is unsustainable.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-065",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "I think sustainability is more important.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-066",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "But one thing is very clear is that you are looking at possibly an area of sustainability, that you want to maintain the market share when you look at possibly even preventing your share erosion to some extent.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-067",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "It will not be singularly only on the price to that extent.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-068",
-   "page": 33,
-   "speaker": "Amit Syngle",
-   "sentence": "Therefore, it will not be that you are not reacting, but you're reacting not in possibly a more predictable way what the market expects.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-069",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "And as we are looking at in the market today, there are definitely areas which we are trying to strengthen, whether it is distribution or whether it is servicing or even from looking at how we want to build capabilities into our people going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-070",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I think that is all part of looking at how these execution skills will come in.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-071",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "Similarly, looking at dealer coverage, dealer opening, dealer servicing in a certain period what we can do, what are the pluses of what you can incorporate going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-072",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "So, we definitely are re-looking at some of those full areas in terms of execution so that we don't lag in those areas as we go ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-073",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "In fact, if you look at it the larger plethora of products, basically I think about 60% of the products will come in the premium to the luxury space what we will introduce.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "value",
-    "low_text": "60",
-    "high_text": "60",
-    "unit": "pct",
-    "comparator": "about",
-    "low": 60.0,
-    "high": 60.0
-   },
-   "horizon_token": "none",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "premium luxury product introduction",
-   "quote": "about 60% of the products will come in the premium to the luxury space what we will introduce",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": true,
-    "token": "none"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-074",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "And therefore, even from a point of view of contributing to the gross margins, that would be similarly that same range of what they will contribute.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "value",
-    "low_text": "60",
-    "high_text": "60",
-    "unit": "pct",
-    "comparator": "about"
-   },
-   "horizon_token": "none",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "gross margin contribution",
-   "quote": "that would be similarly that same range of what they will contribute",
-   "is_commitment": false,
-   "rejected": "target number(s) ['60'] not in quote"
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-075",
-   "page": 35,
-   "speaker": "Amit Syngle",
-   "sentence": "And that is how the contribution also gets affected on how we would look at in maximizing the sale for premium luxury.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-076",
-   "page": 35,
-   "speaker": "Amit Syngle",
-   "sentence": "And that is why the mix has not been so great what possibly we would have really seen overall.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-077",
-   "page": 35,
-   "speaker": "Amit Syngle",
-   "sentence": "So, it's not that I will just pre decide that I'm going to launch a product at an X rupees per litre.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-078",
-   "page": 35,
-   "speaker": "Amit Syngle",
-   "sentence": "And then you would look at possibly expanding that price point from a new product or innovation.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-079",
-   "page": 35,
-   "speaker": "Amit Syngle",
-   "sentence": "Largely it would come from interiors about 65% would be interiors roughly.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-080",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "So, if you ask me frankly saying that will it stop at 2.5 lakh?",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-081",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "No it will not.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-082",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "So, in that way, we would really look at saying that these are the minimum counters we would really need to cater to a certain population of a customer in a certain cluster in how it comes up because it is essential that today's world when people don't want to travel and the whole area of saying that I want convenience at footstep, I think that's becomes a very big area in looking at that cluster analysis.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-083",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "We would like to open a counter so that we can give access to that town availing the set of paints.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-084",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "Because essentially, we would not also like to say that we keep on offering or improving the counters only in one cluster.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-085",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "Well then it will only distribute the sales.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-086",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "It will not increase the sales going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-087",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "Roughly the overall paint market size if we take waterproofing and putty everything would be about Rs 80,000 crores what we see in overall size.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-088",
-   "page": 36,
-   "speaker": "Amit Syngle",
-   "sentence": "And I would say that from a value share today 75 to 78% is organized.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-089",
-   "page": 37,
-   "speaker": "Amit Syngle",
-   "sentence": "Today if you look at luxury homes, if you look at possibly the top 500 HNI families in India, they would really look at getting a lot of things from outside India by either travelling to Italy or travelling to Germany and looking at really purchasing a lot of stuff from there or looking at seeking something which is exclusive, which is bespoke, which is limited collection kind of a thing.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-090",
-   "page": 37,
-   "speaker": "Amit Syngle",
-   "sentence": "We have the best of the Indian decor items that we have put, it could be the kitchen, it could be a furnishing range, it could be the wallpaper range, texture, artifact what would be there.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-091",
-   "page": 37,
-   "speaker": "Amit Syngle",
-   "sentence": "And as I said that path is sometimes not very sustainable.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-092",
-   "page": 38,
-   "speaker": "Amit Syngle",
-   "sentence": "And given the fact that if some people are constrained to really do it because there is event at home or there is something which is there, I think possibly today some amount of down trading will happen from person saying that if not luxury I'll take into premium product or if not premium I'll buy into a good super economy product.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-093",
-   "page": 39,
-   "speaker": "Amit Syngle",
-   "sentence": "See, as I said, you know currently given the overall environment, I think we should be more practical in looking at what is the reality in the market today.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-094",
-   "page": 39,
-   "speaker": "Amit Syngle",
-   "sentence": "It might be towards the infrastructure side, as I mentioned that we would see a more flurry of the overall demand and in consumption which will come in.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-095",
-   "page": 39,
-   "speaker": "Amit Syngle",
-   "sentence": "From that point in view today, I don't think so that we should just say that we are gunning for double digit or something like that.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-096",
-   "page": 39,
-   "speaker": "Amit Syngle",
-   "sentence": "I think we should really be watchful and look at possibly saying that what you are gaining, what is achievable and what you are kind of really targeting which is aligned to your strategies of going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-097",
-   "page": 39,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I think from that point of view, I would still say that at this stage, I think single digit value growth would be a more good stronger imperative in how we would look at going ahead in the market.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "revenue_growth",
-   "target": {
-    "kind": "direction",
-    "low_text": "",
-    "high_text": "",
-    "unit": "none",
-    "comparator": "up",
-    "low": null,
-    "high": null
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "single digit value growth",
-   "quote": "single digit value growth would be a more good stronger imperative in how we would look at going ahead in the market.",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": false,
-    "token": "current_year"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-098",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "At this moment I don't think it would be really appropriate to take stances in looking at either decreasing or looking at prices in very different ways.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-099",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "We don't know what the second salvo of tariffs is which are going to come after 90 days of this reprieve which is going to happen.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-100",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "And we don't know how the geopolitical conditions will pan out.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-101",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "At the same time, there is also the talk of some anti dumping duties which are going to come in for some of the raw materials which is being spoken in the market.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-102",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "So, I think we'll have to wait and watch and see how these things pan out and maybe then take calls going forward, it's too early to say that you could take up price decrease going forward.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-103",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "I had commented last time also that we are aiming that this should not be more than 6%, as we see it this time it is between 7 to 7.5%.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "value",
-    "low_text": "6",
-    "high_text": "6",
-    "unit": "pct",
-    "comparator": "at_most",
-    "low": 6.0,
-    "high": 6.0
-   },
-   "horizon_token": "none",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "cost metric",
-   "quote": "we are aiming that this should not be more than 6%",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": true,
-    "token": "none"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-104",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "The endeavor is very clearly, as we look at our product mix very strongly and the intention would be to get it within that band of 6%.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "value",
-    "low_text": "6",
-    "high_text": "6",
-    "unit": "pct",
-    "comparator": "at_most",
-    "low": 6.0,
-    "high": 6.0
-   },
-   "horizon_token": "none",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "cost metric",
-   "quote": "the intention would be to get it within that band of 6%",
-   "is_commitment": true,
-   "horizon": {
-    "end": "2026-03-31",
-    "quarters": [
-     "2025-06-30",
-     "2025-09-30",
-     "2025-12-31",
-     "2026-03-31"
-    ],
-    "assumed": true,
-    "token": "none"
-   }
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-105",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "What we are seeing is that it is pan home categories and construction categories which have not grown the way possibly we had anticipated.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-106",
-   "page": 40,
-   "speaker": "Amit Syngle",
-   "sentence": "A lot of stuff which has gone into the infrastructure, for example, the number of airports which have come in or the consumption, which is going to happen at railways, defense, some of this sectors is something which we are looking at rather than just looking at the home segment.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-107",
-   "page": 41,
-   "speaker": "Amit Syngle",
-   "sentence": "But having said that, today I think the whole area of, the Awas Yojana, which the government had put for affordable housing and from the point of view of mid to luxury housing are some of those avenues which are going to come around as I see it from a cyclicity point of view.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-108",
-   "page": 41,
-   "speaker": "Amit Syngle",
-   "sentence": "Which means that if you can get more households to either consume paint or even if you look at increasing the frequency of painting, both will improve the per capita consumption of paint.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-109",
-   "page": 42,
-   "speaker": "Amit Syngle",
-   "sentence": "But what I see is very clear is that from the correlation between market share and margin, we are very clear that we should look at something which is really sustainable going ahead.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-110",
-   "page": 42,
-   "speaker": "Amit Syngle",
-   "sentence": "There is no point looking at artificially trying to do something in the market which possibly finds that after about a year, year and a half you're not able to sustain.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-111",
-   "page": 43,
-   "speaker": "Amit Syngle",
-   "sentence": "And I think if these actions give you the best retention of share or even gain of share, possibly that would be the best route to take.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-112",
-   "page": 43,
-   "speaker": "Amit Syngle",
-   "sentence": "So, we would like to first see how this goes because white cement is very different which goes into repairs, Putty, into a lot many other segments like sanitary and so on, so forth.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-113",
-   "page": 43,
-   "speaker": "Amit Syngle",
-   "sentence": "So, we would really want to see that first we get this thing going and then examine if possibly there is any other desire to get into any other cement in future.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-114",
-   "page": 44,
-   "speaker": "Amit Syngle",
-   "sentence": "Hope to meet you next time with much better numbers as we see.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "is_commitment": false
-  },
   {
    "id": "ASIANPAINT-Q1FY26-001",
    "page": 3,
@@ -6049,181 +4697,453 @@
    "quarter": "Q1FY27",
    "quarter_end": "2026-06-30",
    "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-001",
+   "page": 27,
+   "speaker": "Amit Syngle",
+   "sentence": "So, what we are looking very clearly as we go forward, that calibration will continue.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-002",
+   "page": 27,
+   "speaker": "Amit Syngle",
+   "sentence": "And from a gross margin point of view, obviously it will depend on inflation.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-003",
+   "page": 27,
+   "speaker": "Amit Syngle",
+   "sentence": "This band of about 41% to 43% would really be the band we should be looking forward to.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "ebitda_margin",
+   "target": {
+    "kind": "range",
+    "low_text": "41",
+    "high_text": "43",
+    "unit": "pct",
+    "comparator": "range",
+    "low": 41.0,
+    "high": 43.0
+   },
+   "horizon_token": "none",
+   "conditional": false,
+   "scope": "company",
+   "basis": "unspecified",
+   "subject": "gross margin band",
+   "quote": "This band of about 41% to 43% would really be the band we should be looking forward to.",
+   "is_commitment": true,
+   "horizon": {
+    "end": "2027-03-31",
+    "quarters": [
+     "2026-06-30",
+     "2026-09-30",
+     "2026-12-31",
+     "2027-03-31"
+    ],
+    "assumed": true,
+    "token": "none"
+   }
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-004",
+   "page": 27,
+   "speaker": "Amit Syngle",
+   "sentence": "At the same time, it also gives birth to some of the differentiated new products which might come which also would go into the patent zone of how we would see.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-005",
+   "page": 28,
+   "speaker": "Amit Syngle",
+   "sentence": "See, as I said that, given the whole area of volatility of what we are seeing, if we look at the H1 picture, okay, both at the standalone level and as at the consolidated level, we are in that band of what we have stated.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-006",
+   "page": 28,
+   "speaker": "Amit Syngle",
+   "sentence": "We believe as we go forward, for the year we should be able to maintain the band of what we have spoken of 18% to 20%.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "ebitda_margin",
+   "target": {
+    "kind": "range",
+    "low_text": "18",
+    "high_text": "20",
+    "unit": "pct",
+    "comparator": "range",
+    "low": 18.0,
+    "high": 20.0
+   },
+   "horizon_token": "current_year",
+   "conditional": false,
+   "scope": "company",
+   "basis": "unspecified",
+   "subject": "maintain margin band",
+   "quote": "We believe as we go forward, for the year we should be able to maintain the band of what we have spoken of 18% to 20%.",
+   "is_commitment": true,
+   "horizon": {
+    "end": "2027-03-31",
+    "quarters": [
+     "2026-06-30",
+     "2026-09-30",
+     "2026-12-31",
+     "2027-03-31"
+    ],
+    "assumed": false,
+    "token": "current_year"
+   }
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-007",
+   "page": 28,
+   "speaker": "Amit Syngle",
+   "sentence": "So, see, right now we are in a phase where we are really normalizing the whole area of formulations, but we believe that when it really works to its full potential, it should really give us some advantage of 300 bps to 500 bps on relevant products.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "ebitda_margin",
+   "target": {
+    "kind": "range",
+    "low_text": "300",
+    "high_text": "500",
+    "unit": "other",
+    "comparator": "range",
+    "low": 300.0,
+    "high": 500.0
+   },
+   "horizon_token": "none",
+   "conditional": true,
+   "scope": "segment",
+   "basis": "unspecified",
+   "subject": "margin advantage on products",
+   "quote": "it should really give us some advantage of 300 bps to 500 bps on relevant products.",
+   "is_commitment": true,
+   "horizon": {
+    "end": "2027-03-31",
+    "quarters": [
+     "2026-06-30",
+     "2026-09-30",
+     "2026-12-31",
+     "2027-03-31"
+    ],
+    "assumed": true,
+    "token": "none"
+   }
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-008",
+   "page": 29,
+   "speaker": "Amit Syngle",
+   "sentence": "See, given the longer Diwali, we should get good traction from the October-November period of quarter three.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-009",
+   "page": 29,
+   "speaker": "Amit Syngle",
+   "sentence": "We also have a wedding season which is coming, while rural will come into some question with the monsoon deficit of what is really, we are talking of, but we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "volume_growth",
+   "target": {
+    "kind": "range",
+    "low_text": "8",
+    "high_text": "9",
+    "unit": "pct",
+    "comparator": "range",
+    "low": 8.0,
+    "high": 9.0
+   },
+   "horizon_token": "none",
+   "conditional": false,
+   "scope": "company",
+   "basis": "unspecified",
+   "subject": "volume growth",
+   "quote": "we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward.",
+   "is_commitment": true,
+   "horizon": {
+    "end": "2027-03-31",
+    "quarters": [
+     "2026-06-30",
+     "2026-09-30",
+     "2026-12-31",
+     "2027-03-31"
+    ],
+    "assumed": true,
+    "token": "none"
+   }
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-010",
+   "page": 29,
+   "speaker": "Amit Syngle",
+   "sentence": "In JV2, which is the APPPG, there has been a greater lag of seeing some of those increases of what we are taking, but we are really mindful of saying that there are no options in it and that is something which we have done and we will see gradually some improvement happening when we look at the further quarters which are coming.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-011",
+   "page": 30,
+   "speaker": "Amit Syngle",
+   "sentence": "There we are also anticipating some improvements happening in the coming quarters and we will try to build up on this lag which has happened at this stage.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-012",
+   "page": 30,
+   "speaker": "Amit Syngle",
+   "sentence": "And as we go forward, obviously we'll have to watch out how the China pricing basically stands because last time also what we had seen is that the prices didn’t increase to the same extent.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-013",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "What we see is that possibly the competition has also done the same, basically following the same trajectory of what we have been following.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-014",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "So possibly, a lot of players would be in the same boat, not covering the full inflation at the same time, the expenses being high.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-015",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "We have basically looked at balancing it in some way from a point of view of focusing, going ahead on premiumization.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-016",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "As we see, quarter three should be a better product mix of what we should be able to get.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-017",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "And as you look at it, at an H1 level, we've been able to retain the band of what we have spoken of.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-018",
+   "page": 31,
+   "speaker": "Amit Syngle",
+   "sentence": "So that gives us confidence that going forward, we should be able to manage some increases as we have taken.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-019",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "It is also a science to really understand how consumers would really look at because we are especially in a discretionary category.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-020",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "So, we are mindful of that and today you can look at calibrating that when you look at a certain estimation of a demand, customer would look at a certain inflation and if the inflation goes beyond a certain mark, obviously it would have an impact on the demand.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-021",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "So, I would say that this multitude of factors is something which is all in the consideration which we make so that possibly we can assuage some of the apprehensions of the customer level of what it can go and therefore I don't think it's reasonable to look at passing the entire impact currently.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-022",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "So, I've said it many times, I'll say it again because currently as we said that we've commissioned the plant and it's a good thing, it's a record time of how we are commissioning the overall piece.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-023",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "As we go, we will be looking at a part of the overall capacity of what we will utilize till March and what we plan is that next year we will be able to utilize the full capacity of this phase one of going forward.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "capex",
+   "target": {
+    "kind": "value",
+    "low_text": "full",
+    "high_text": "",
+    "unit": "none",
+    "comparator": "none"
+   },
+   "horizon_token": "next_year",
+   "conditional": false,
+   "scope": "segment",
+   "basis": "unspecified",
+   "subject": "utilize full plant capacity",
+   "quote": "next year we will be able to utilize the full capacity of this phase one of going forward.",
+   "is_commitment": false,
+   "rejected": "value/range target without a number"
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-024",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "So that is the plan of what we want to do, and this will really give us strong benefits from three points of view.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-025",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "The other angle where it really works very strongly is to really see some of the newer products with the newer areas for the consumer which come in, which will also give us revenues to look at in the premium end very differently from how we see it.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-026",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "There are a lot of advantages of what we are seeing going forward.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-027",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "And as I said, with the full capacity of 150 KT we should be able to utilize in the next year.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "milestone",
+   "target": {
+    "kind": "value",
+    "low_text": "150",
+    "high_text": "150",
+    "unit": "units",
+    "comparator": "at_least",
+    "low": 150.0,
+    "high": 150.0
+   },
+   "horizon_token": "next_year",
+   "conditional": false,
+   "scope": "segment",
+   "basis": "unspecified",
+   "subject": "utilize 150 KT capacity",
+   "quote": "with the full capacity of 150 KT we should be able to utilize in the next year",
+   "is_commitment": true,
+   "horizon": {
+    "end": "2028-03-31",
+    "quarters": [
+     "2027-06-30",
+     "2027-09-30",
+     "2027-12-31",
+     "2028-03-31"
+    ],
+    "assumed": false,
+    "token": "next_year"
+   }
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-028",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "First, it is in specific segments but across the price range, okay.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-029",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "And as we see it, at least this is the minimum we should be able to get.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-030",
+   "page": 33,
+   "speaker": "Amit Syngle",
+   "sentence": "It could be higher going forward as well.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-031",
+   "page": 34,
+   "speaker": "Amit Syngle",
+   "sentence": "At the same time, Asian Paints has been working towards upgradation which is also very important of showing the customer of how they can upgrade to premium and luxury and to super luxury going forward.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-032",
+   "page": 34,
+   "speaker": "Amit Syngle",
+   "sentence": "Obviously, the attempt is of saying that we drive the premium luxury and the super luxury bracket possibly higher than the eco segment, but at the same time, the eco segment is also going to be very important of how we look at galvanizing our network, how we look at possibly reaching out to every strata of the consumer in the market.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "is_commitment": false
   }
  ],
  "promises": [
   {
-   "id": "ASIANPAINT-Q4FY25-057",
-   "metric": "capex",
-   "scope": "company",
-   "code_linked": true,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-057",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 32,
-     "speaker": "Amit Syngle",
-     "quote": "our overall CapEx will be complete from a white cement perspective",
-     "target": {
-      "kind": "none",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "none",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": false,
-      "token": "current_year"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "white cement capex completion",
-     "status": "New",
-     "also_said": [
-      "ASIANPAINT-Q4FY25-061"
-     ]
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-058",
-   "metric": "capex",
-   "scope": "company",
-   "code_linked": true,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-058",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 32,
-     "speaker": "Amit Syngle",
-     "quote": "It's only part of the VAM VAE plant CapEx which is going to go till FY27 which would be left out of Rs 3000 crores.",
-     "target": {
-      "kind": "value",
-      "low_text": "3000",
-      "high_text": "3000",
-      "unit": "inr_cr",
-      "comparator": "about",
-      "low": 3000.0,
-      "high": 3000.0
-     },
-     "horizon": {
-      "end": "2027-03-31",
-      "quarters": [
-       "2026-06-30",
-       "2026-09-30",
-       "2026-12-31",
-       "2027-03-31"
-      ],
-      "assumed": false,
-      "token": "FY27"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "VAM VAE plant capex",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Pending",
-   "rule": "not due yet",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "The promise is not yet due for evaluation."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-097",
+   "id": "ASIANPAINT-Q1FY26-063",
    "metric": "revenue_growth",
    "scope": "company",
    "code_linked": true,
    "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-097",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 39,
-     "speaker": "Amit Syngle",
-     "quote": "single digit value growth would be a more good stronger imperative in how we would look at going ahead in the market.",
-     "target": {
-      "kind": "direction",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "up",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": false,
-      "token": "current_year"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "single digit value growth",
-     "status": "New"
-    },
     {
      "id": "ASIANPAINT-Q1FY26-063",
      "quarter": "Q1FY26",
@@ -6255,7 +5175,7 @@
      "scope": "company",
      "basis": "unspecified",
      "subject": "single digit growth",
-     "status": "Reaffirmed"
+     "status": "New"
     },
     {
      "id": "ASIANPAINT-Q2FY26-042",
@@ -6326,11 +5246,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -6341,507 +5263,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-008",
-   "metric": "milestone",
-   "scope": "segment",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-008",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 8,
-     "speaker": "Amit Syngle",
-     "quote": "The plant should be operational by June of this year",
-     "target": {
-      "kind": "none",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "none",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": false,
-      "token": "current_year"
-     },
-     "conditional": false,
-     "scope": "segment",
-     "basis": "unspecified",
-     "subject": "white cement plant operational",
-     "status": "New"
-    },
-    {
-     "id": "ASIANPAINT-Q1FY26-059",
-     "quarter": "Q1FY26",
-     "quarter_end": "2025-06-30",
-     "page": 23,
-     "speaker": "Amit Syngle",
-     "quote": "we should start soon seeing the benefits of the white cement outputs to start coming in the next quarters or so.",
-     "target": {
-      "kind": "none",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "none",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2025-12-31",
-      "quarters": [
-       "2025-12-31"
-      ],
-      "assumed": false,
-      "token": "next_quarter"
-     },
-     "conditional": false,
-     "scope": "segment",
-     "basis": "unspecified",
-     "subject": "white cement output benefits",
-     "status": "Reaffirmed"
-    }
-   ],
-   "searched_later": [
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Kept",
-   "rule": "management later reported it done",
-   "resolution": {
-    "source": "self-reported",
-    "final": "event_done",
-    "interim": null,
-    "note": null,
-    "fact": {
-     "sid": "ASIANPAINT-Q1FY27-s0092",
-     "quarter": "Q1FY27",
-     "quote": "We have already completed our white cement plant, which is now fully operational and running at very good capacities in Fujairah, UAE.",
-     "page": 9,
-     "speaker": "Amit Syngle",
-     "kind": "event_done",
-     "value": null,
-     "period_end": "2026-06-30",
-     "basis": "unspecified"
-    }
-   },
-   "explanation": "Management later reported that the event was completed."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-010",
-   "metric": "milestone",
-   "scope": "segment",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-010",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 8,
-     "speaker": "Amit Syngle",
-     "quote": "This should be operational partially in the month of March - April of 2026 and fully by April 2027.",
-     "target": {
-      "kind": "none",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "none",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2027-03-31",
-      "quarters": [
-       "2026-06-30",
-       "2026-09-30",
-       "2026-12-31",
-       "2027-03-31"
-      ],
-      "assumed": false,
-      "token": "FY27"
-     },
-     "conditional": false,
-     "scope": "segment",
-     "basis": "unspecified",
-     "subject": "new plant operational",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Kept",
-   "rule": "management later reported it done",
-   "resolution": {
-    "source": "self-reported",
-    "final": "event_done",
-    "interim": null,
-    "note": null,
-    "fact": {
-     "sid": "ASIANPAINT-Q2FY26-s0081",
-     "quarter": "Q2FY26",
-     "quote": "We just commissioned our white cement plant which has unfolded in Fujairah, UAE.",
-     "page": 12,
-     "speaker": "Amit Syngle",
-     "kind": "event_done",
-     "value": null,
-     "period_end": "2025-09-30",
-     "basis": "unspecified"
-    }
-   },
-   "explanation": "Management later reported that the event was completed."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-046",
-   "metric": "other",
-   "scope": "company",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-046",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 30,
-     "speaker": "Amit Syngle",
-     "quote": "We see in the current quarter also there would be a deflation of about 0.5% to 1% what would happen.",
-     "target": {
-      "kind": "range",
-      "low_text": "0.5",
-      "high_text": "1",
-      "unit": "pct",
-      "comparator": "range",
-      "low": 0.5,
-      "high": 1.0
-     },
-     "horizon": {
-      "end": "2025-06-30",
-      "quarters": [
-       "2025-06-30"
-      ],
-      "assumed": false,
-      "token": "current_quarter"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "input cost deflation",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-054",
-   "metric": "direction",
-   "scope": "company",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-054",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 31,
-     "speaker": "Amit Syngle",
-     "quote": "we think FY26 should definitely be much better",
-     "target": {
-      "kind": "direction",
-      "low_text": "",
-      "high_text": "",
-      "unit": "none",
-      "comparator": "up",
-      "low": null,
-      "high": null
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": false,
-      "token": "current_year"
-     },
-     "conditional": true,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "FY26 performance",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-073",
-   "metric": "other",
-   "scope": "company",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-073",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 34,
-     "speaker": "Amit Syngle",
-     "quote": "about 60% of the products will come in the premium to the luxury space what we will introduce",
-     "target": {
-      "kind": "value",
-      "low_text": "60",
-      "high_text": "60",
-      "unit": "pct",
-      "comparator": "about",
-      "low": 60.0,
-      "high": 60.0
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": true,
-      "token": "none"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "premium luxury product introduction",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-103",
-   "metric": "other",
-   "scope": "company",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-103",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 40,
-     "speaker": "Amit Syngle",
-     "quote": "we are aiming that this should not be more than 6%",
-     "target": {
-      "kind": "value",
-      "low_text": "6",
-      "high_text": "6",
-      "unit": "pct",
-      "comparator": "at_most",
-      "low": 6.0,
-      "high": 6.0
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": true,
-      "token": "none"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "cost metric",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-104",
-   "metric": "other",
-   "scope": "company",
-   "code_linked": false,
-   "versions": [
-    {
-     "id": "ASIANPAINT-Q4FY25-104",
-     "quarter": "Q4FY25",
-     "quarter_end": "2025-03-31",
-     "page": 40,
-     "speaker": "Amit Syngle",
-     "quote": "the intention would be to get it within that band of 6%",
-     "target": {
-      "kind": "value",
-      "low_text": "6",
-      "high_text": "6",
-      "unit": "pct",
-      "comparator": "at_most",
-      "low": 6.0,
-      "high": 6.0
-     },
-     "horizon": {
-      "end": "2026-03-31",
-      "quarters": [
-       "2025-06-30",
-       "2025-09-30",
-       "2025-12-31",
-       "2026-03-31"
-      ],
-      "assumed": true,
-      "token": "none"
-     },
-     "conditional": false,
-     "scope": "company",
-     "basis": "unspecified",
-     "subject": "cost metric",
-     "status": "New"
-    }
-   ],
-   "searched_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY26",
-    "Q2FY26",
-    "Q3FY26",
-    "Q4FY26",
-    "Q1FY27"
-   ],
-   "dropped": false,
-   "verdict": "Unverifiable",
-   "rule": "no XBRL series for this metric and no later management figure found",
-   "resolution": {
-    "source": "unverifiable",
-    "final": null,
-    "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
-   },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "There is no XBRL data for this metric and no subsequent management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q1FY26-074",
@@ -6957,23 +5379,25 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Kept",
-   "rule": "within range",
+   "rule": "above range",
    "resolution": {
     "source": "xbrl",
-    "final": 19.530359304089636,
+    "final": 22.561707250171274,
     "interim": null,
     "note": null,
     "basis": "standalone",
-    "definition": "without_other_income",
-    "definition_note": "consolidated, without other income: matches management's stated 19.4% for 2026-03-31 (Q4FY26 p.17)",
+    "definition": "with_other_income",
+    "definition_note": "no figure stated by management to calibrate against; default: with other income",
     "basis_note": null,
     "detail": {
      "values": {
@@ -7114,7 +5538,7 @@
      ]
     }
    },
-   "explanation": "The actual performance was within the specified range."
+   "explanation": "The actual performance exceeded the specified guidance range."
   },
   {
    "id": "ASIANPAINT-Q1FY26-011",
@@ -7191,7 +5615,8 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
@@ -7206,7 +5631,80 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The deadline for this promise has not yet arrived."
+  },
+  {
+   "id": "ASIANPAINT-Q1FY26-059",
+   "metric": "milestone",
+   "scope": "segment",
+   "code_linked": false,
+   "versions": [
+    {
+     "id": "ASIANPAINT-Q1FY26-059",
+     "quarter": "Q1FY26",
+     "quarter_end": "2025-06-30",
+     "page": 23,
+     "speaker": "Amit Syngle",
+     "quote": "we should start soon seeing the benefits of the white cement outputs to start coming in the next quarters or so.",
+     "target": {
+      "kind": "none",
+      "low_text": "",
+      "high_text": "",
+      "unit": "none",
+      "comparator": "none",
+      "low": null,
+      "high": null
+     },
+     "horizon": {
+      "end": "2025-12-31",
+      "quarters": [
+       "2025-12-31"
+      ],
+      "assumed": false,
+      "token": "next_quarter"
+     },
+     "conditional": false,
+     "scope": "segment",
+     "basis": "unspecified",
+     "subject": "white cement output benefits",
+     "status": "New"
+    }
+   ],
+   "searched_later": [
+    "Q2FY26",
+    "Q3FY26",
+    "Q4FY26",
+    "Q1FY27",
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY26",
+    "Q3FY26",
+    "Q4FY26",
+    "Q1FY27",
+    "Q2FY27"
+   ],
+   "dropped": false,
+   "verdict": "Kept",
+   "rule": "management later reported it done",
+   "resolution": {
+    "source": "self-reported",
+    "final": "event_done",
+    "interim": null,
+    "note": null,
+    "fact": {
+     "sid": "ASIANPAINT-Q1FY27-s0092",
+     "quarter": "Q1FY27",
+     "quote": "We have already completed our white cement plant, which is now fully operational and running at very good capacities in Fujairah, UAE.",
+     "page": 9,
+     "speaker": "Amit Syngle",
+     "kind": "event_done",
+     "value": null,
+     "period_end": "2026-06-30",
+     "basis": "unspecified"
+    }
+   },
+   "explanation": "Management later confirmed that the promised action was completed."
   },
   {
    "id": "ASIANPAINT-Q1FY26-060",
@@ -7278,7 +5776,8 @@
    "searched_later": [
     "Q3FY26",
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q3FY26",
@@ -7294,7 +5793,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "No XBRL series exists for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q1FY26-061",
@@ -7394,24 +5893,36 @@
      "scope": "company",
      "basis": "unspecified",
      "subject": "VAM-VAE production phase 1",
-     "status": "Reaffirmed",
-     "also_said": [
-      "ASIANPAINT-Q1FY27-026"
-     ]
+     "status": "Reaffirmed"
     }
    ],
-   "searched_later": [],
-   "mentioned_later": [],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
    "dropped": false,
-   "verdict": "Pending",
-   "rule": "not due yet",
+   "verdict": "Kept",
+   "rule": "management later reported it done",
    "resolution": {
-    "source": "unverifiable",
-    "final": null,
+    "source": "self-reported",
+    "final": "event_done",
     "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
+    "note": null,
+    "fact": {
+     "sid": "ASIANPAINT-Q2FY27-s0019",
+     "quarter": "Q2FY27",
+     "quote": "And we also have the VAE now getting really incorporated in our formulations.",
+     "page": 28,
+     "speaker": "Amit Syngle",
+     "kind": "event_done",
+     "value": null,
+     "period_end": "2026-09-30",
+     "basis": "unspecified"
+    }
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "Management later reported that the event was completed."
   },
   {
    "id": "ASIANPAINT-Q1FY26-073",
@@ -7457,13 +5968,15 @@
     "Q2FY26",
     "Q3FY26",
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q2FY26",
     "Q3FY26",
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -7474,7 +5987,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "There is no XBRL data for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q2FY26-041",
@@ -7519,12 +6032,14 @@
    "searched_later": [
     "Q3FY26",
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q3FY26",
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -7535,7 +6050,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "No XBRL series exists for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q2FY26-050",
@@ -7637,32 +6152,23 @@
     }
    ],
    "searched_later": [
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Revised",
    "rule": "target or deadline changed in a later call",
    "resolution": {
-    "source": "self-reported",
+    "source": "unverifiable",
     "final": null,
-    "interim": 16.6,
-    "note": null,
-    "fact": {
-     "sid": "ASIANPAINT-Q1FY27-s0106",
-     "quarter": "Q1FY27",
-     "quote": "If you look at the value, the decorative value has grown at a very good pitch of about 16.6%, albeit on a lower base.",
-     "page": 10,
-     "speaker": "Amit Syngle",
-     "kind": "value",
-     "value": 16.6,
-     "period_end": "2026-06-30",
-     "basis": "unspecified"
-    }
+    "interim": null,
+    "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The target or deadline was changed in a later management call."
+   "explanation": "The target or deadline for this promise was changed in a subsequent management call."
   },
   {
    "id": "ASIANPAINT-Q3FY26-011",
@@ -7703,11 +6209,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Kept",
@@ -7729,7 +6237,7 @@
      "basis": "unspecified"
     }
    },
-   "explanation": "The actual performance showed an upward direction."
+   "explanation": "The actual performance followed the promised upward direction."
   },
   {
    "id": "ASIANPAINT-Q3FY26-043",
@@ -7770,11 +6278,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -7785,7 +6295,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "No XBRL series exists for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q3FY26-054",
@@ -7826,11 +6336,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Kept",
@@ -7852,7 +6364,7 @@
      "basis": "unspecified"
     }
    },
-   "explanation": "The actual performance was within the specified range."
+   "explanation": "The actual performance fell within the specified growth range."
   },
   {
    "id": "ASIANPAINT-Q3FY26-072",
@@ -7896,11 +6408,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -7912,8 +6426,8 @@
     "note": null,
     "basis": "consolidated",
     "definition": "without_other_income",
-    "definition_note": "consolidated, without other income: matches management's stated 19.4% for 2026-03-31 (Q4FY26 p.17)",
-    "basis_note": "basis not stated; consolidated used (as calibrated)",
+    "definition_note": "no figure stated by management to calibrate against; default: without other income",
+    "basis_note": "basis not stated; consolidated used",
     "detail": {
      "values": {
       "with_other_income": 20.40862151432938,
@@ -8054,7 +6568,7 @@
     },
     "standalone_value": 19.530359304089636
    },
-   "explanation": "The target is not numerically comparable to the reported data."
+   "explanation": "The target is not numerically comparable to the reported XBRL data."
   },
   {
    "id": "ASIANPAINT-Q3FY26-014",
@@ -8098,11 +6612,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Pending",
@@ -8113,7 +6629,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The deadline for this promise has not yet arrived."
   },
   {
    "id": "ASIANPAINT-Q3FY26-020",
@@ -8157,11 +6673,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -8172,7 +6690,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "No XBRL series exists for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q3FY26-021",
@@ -8302,8 +6820,12 @@
      "status": "Reaffirmed"
     }
    ],
-   "searched_later": [],
-   "mentioned_later": [],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
    "dropped": false,
    "verdict": "Revised",
    "rule": "target or deadline changed in a later call",
@@ -8313,7 +6835,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The target or deadline was changed in a later management call."
+   "explanation": "The target or deadline for this promise was changed in a later management call."
   },
   {
    "id": "ASIANPAINT-Q3FY26-022",
@@ -8408,19 +6930,20 @@
     }
    ],
    "searched_later": [
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [],
    "dropped": true,
    "verdict": "Dropped",
-   "rule": "not mentioned in later calls (Q1FY27)",
+   "rule": "not mentioned in later calls (Q1FY27, Q2FY27)",
    "resolution": {
     "source": "unverifiable",
     "final": null,
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise was not mentioned in later management calls."
+   "explanation": "This promise was not mentioned in subsequent management calls."
   },
   {
    "id": "ASIANPAINT-Q3FY26-027",
@@ -8464,11 +6987,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Kept",
@@ -8490,7 +7015,7 @@
      "basis": "unspecified"
     }
    },
-   "explanation": "The actual result was within the tolerance of the target."
+   "explanation": "The actual result was within the acceptable tolerance of the target."
   },
   {
    "id": "ASIANPAINT-Q3FY26-037",
@@ -8534,11 +7059,13 @@
    ],
    "searched_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
     "Q4FY26",
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
    "verdict": "Unverifiable",
@@ -8549,7 +7076,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "There is no XBRL series for this metric and no later management figure was found to verify the claim."
+   "explanation": "No XBRL series exists for this metric and no later management figures were found to verify the claim."
   },
   {
    "id": "ASIANPAINT-Q4FY26-027",
@@ -8650,31 +7177,86 @@
      "also_said": [
       "ASIANPAINT-Q1FY27-039"
      ]
+    },
+    {
+     "id": "ASIANPAINT-Q2FY27-009",
+     "quarter": "Q2FY27",
+     "quarter_end": "2026-09-30",
+     "page": 29,
+     "speaker": "Amit Syngle",
+     "quote": "we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward.",
+     "target": {
+      "kind": "range",
+      "low_text": "8",
+      "high_text": "9",
+      "unit": "pct",
+      "comparator": "range",
+      "low": 8.0,
+      "high": 9.0
+     },
+     "horizon": {
+      "end": "2027-03-31",
+      "quarters": [
+       "2026-06-30",
+       "2026-09-30",
+       "2026-12-31",
+       "2027-03-31"
+      ],
+      "assumed": true,
+      "token": "none"
+     },
+     "conditional": false,
+     "scope": "company",
+     "basis": "unspecified",
+     "subject": "volume growth",
+     "status": "Revised",
+     "revised_from": {
+      "target": {
+       "kind": "range",
+       "low_text": "8",
+       "high_text": "10",
+       "unit": "pct",
+       "comparator": "range",
+       "low": 8.0,
+       "high": 10.0
+      },
+      "horizon": {
+       "end": "2027-03-31",
+       "quarters": [
+        "2026-06-30",
+        "2026-09-30",
+        "2026-12-31",
+        "2027-03-31"
+       ],
+       "assumed": true,
+       "token": "none"
+      }
+     }
     }
    ],
    "searched_later": [],
    "mentioned_later": [],
    "dropped": false,
-   "verdict": "On track",
-   "rule": "interim actual meets the target",
+   "verdict": "Revised",
+   "rule": "target or deadline changed in a later call",
    "resolution": {
     "source": "self-reported",
     "final": null,
-    "interim": 9.0,
+    "interim": 7.0,
     "note": null,
     "fact": {
-     "sid": "ASIANPAINT-Q1FY27-s0104",
-     "quarter": "Q1FY27",
-     "quote": "Overall, we are at about a strong 9% volume growth.",
-     "page": 10,
+     "sid": "ASIANPAINT-Q2FY27-s0004",
+     "quarter": "Q2FY27",
+     "quote": "We have a lot of products which are seasonal because it's also a stocking quarter from that context, we see, a 7% growth in volume is quite decent in terms of what we've been able to achieve and the impact of the inventory has been full in terms of what we have taken for the quarter two.",
+     "page": 26,
      "speaker": "Amit Syngle",
      "kind": "value",
-     "value": 9.0,
-     "period_end": "2026-06-30",
+     "value": 7.0,
+     "period_end": "2026-09-30",
      "basis": "unspecified"
     }
    },
-   "explanation": "The interim actual performance meets the target."
+   "explanation": "The target or deadline for this promise was changed in a later management call."
   },
   {
    "id": "ASIANPAINT-Q4FY26-038",
@@ -8717,17 +7299,49 @@
      "also_said": [
       "ASIANPAINT-Q4FY26-042"
      ]
+    },
+    {
+     "id": "ASIANPAINT-Q2FY27-003",
+     "quarter": "Q2FY27",
+     "quarter_end": "2026-09-30",
+     "page": 27,
+     "speaker": "Amit Syngle",
+     "quote": "This band of about 41% to 43% would really be the band we should be looking forward to.",
+     "target": {
+      "kind": "range",
+      "low_text": "41",
+      "high_text": "43",
+      "unit": "pct",
+      "comparator": "range",
+      "low": 41.0,
+      "high": 43.0
+     },
+     "horizon": {
+      "end": "2027-03-31",
+      "quarters": [
+       "2026-06-30",
+       "2026-09-30",
+       "2026-12-31",
+       "2027-03-31"
+      ],
+      "assumed": true,
+      "token": "none"
+     },
+     "conditional": false,
+     "scope": "company",
+     "basis": "unspecified",
+     "subject": "gross margin band",
+     "status": "Reaffirmed",
+     "also_said": [
+      "ASIANPAINT-Q2FY27-006"
+     ]
     }
    ],
-   "searched_later": [
-    "Q1FY27"
-   ],
-   "mentioned_later": [
-    "Q1FY27"
-   ],
+   "searched_later": [],
+   "mentioned_later": [],
    "dropped": false,
    "verdict": "Pending",
-   "rule": "not due yet",
+   "rule": "interim actual off target",
    "resolution": {
     "source": "xbrl",
     "final": null,
@@ -8735,8 +7349,8 @@
     "note": null,
     "basis": "consolidated",
     "definition": "without_other_income",
-    "definition_note": "consolidated, without other income: matches management's stated 19.4% for 2026-03-31 (Q4FY26 p.17)",
-    "basis_note": "basis not stated; consolidated used (as calibrated)",
+    "definition_note": "no figure stated by management to calibrate against; default: without other income",
+    "basis_note": "basis not stated; consolidated used",
     "interim_quarters": [
      "2026-06-30",
      "2026-09-30"
@@ -8819,7 +7433,7 @@
     },
     "standalone_value": 19.571849838438716
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The interim actual performance is currently off the target range."
   },
   {
    "id": "ASIANPAINT-Q4FY26-017",
@@ -8862,21 +7476,34 @@
     }
    ],
    "searched_later": [
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "mentioned_later": [
-    "Q1FY27"
+    "Q1FY27",
+    "Q2FY27"
    ],
    "dropped": false,
-   "verdict": "Pending",
-   "rule": "not due yet",
+   "verdict": "Kept",
+   "rule": "management later reported it done",
    "resolution": {
-    "source": "unverifiable",
-    "final": null,
+    "source": "self-reported",
+    "final": "event_done",
     "interim": null,
-    "note": "no XBRL series for this metric and no later management figure found"
+    "note": null,
+    "fact": {
+     "sid": "ASIANPAINT-Q2FY27-s0039",
+     "quarter": "Q2FY27",
+     "quote": "We have tried to basically see that we marry some of the increases we are taking because we knew that this was something which was coming.",
+     "page": 30,
+     "speaker": "Amit Syngle",
+     "kind": "event_done",
+     "value": null,
+     "period_end": "2026-09-30",
+     "basis": "unspecified"
+    }
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "Management later reported that the promised action was completed."
   },
   {
    "id": "ASIANPAINT-Q1FY27-041",
@@ -8922,20 +7549,24 @@
      ]
     }
    ],
-   "searched_later": [],
-   "mentioned_later": [],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
    "dropped": false,
    "verdict": "On track",
    "rule": "interim actual meets the target",
    "resolution": {
     "source": "xbrl",
     "final": null,
-    "interim": 18.158437893700548,
+    "interim": 20.539904330005434,
     "note": null,
     "basis": "consolidated",
-    "definition": "without_other_income",
-    "definition_note": "consolidated, without other income: matches management's stated 19.4% for 2026-03-31 (Q4FY26 p.17)",
-    "basis_note": "basis not stated; consolidated used (as calibrated)",
+    "definition": "with_other_income",
+    "definition_note": "no figure stated by management to calibrate against; default: with other income",
+    "basis_note": "basis not stated; consolidated used",
     "interim_quarters": [
      "2026-06-30",
      "2026-09-30"
@@ -9016,9 +7647,9 @@
       }
      ]
     },
-    "standalone_value": 19.571849838438716
+    "standalone_value": 22.925940352446837
    },
-   "explanation": "The interim actual performance meets the target."
+   "explanation": "The interim actual performance meets the specified target range."
   },
   {
    "id": "ASIANPAINT-Q1FY27-014",
@@ -9060,8 +7691,12 @@
      "status": "New"
     }
    ],
-   "searched_later": [],
-   "mentioned_later": [],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
    "dropped": false,
    "verdict": "Pending",
    "rule": "not due yet",
@@ -9071,7 +7706,72 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The deadline for this promise has not yet arrived."
+  },
+  {
+   "id": "ASIANPAINT-Q1FY27-026",
+   "metric": "milestone",
+   "scope": "company",
+   "code_linked": false,
+   "versions": [
+    {
+     "id": "ASIANPAINT-Q1FY27-026",
+     "quarter": "Q1FY27",
+     "quarter_end": "2026-06-30",
+     "page": 18,
+     "speaker": "Amit Syngle",
+     "quote": "In Q2, we will kick off our VAE also.",
+     "target": {
+      "kind": "none",
+      "low_text": "",
+      "high_text": "",
+      "unit": "none",
+      "comparator": "none",
+      "low": null,
+      "high": null
+     },
+     "horizon": {
+      "end": "2026-12-31",
+      "quarters": [
+       "2026-12-31"
+      ],
+      "assumed": false,
+      "token": "next_quarter"
+     },
+     "conditional": false,
+     "scope": "company",
+     "basis": "unspecified",
+     "subject": "kick off VAE",
+     "status": "New"
+    }
+   ],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
+   "dropped": false,
+   "verdict": "Kept",
+   "rule": "management later reported it done",
+   "resolution": {
+    "source": "self-reported",
+    "final": "event_done",
+    "interim": null,
+    "note": null,
+    "fact": {
+     "sid": "ASIANPAINT-Q2FY27-s0019",
+     "quarter": "Q2FY27",
+     "quote": "And we also have the VAE now getting really incorporated in our formulations.",
+     "page": 28,
+     "speaker": "Amit Syngle",
+     "kind": "event_done",
+     "value": null,
+     "period_end": "2026-09-30",
+     "basis": "unspecified"
+    }
+   },
+   "explanation": "Management later reported that the event was completed."
   },
   {
    "id": "ASIANPAINT-Q1FY27-073",
@@ -9113,8 +7813,12 @@
      "status": "New"
     }
    ],
-   "searched_later": [],
-   "mentioned_later": [],
+   "searched_later": [
+    "Q2FY27"
+   ],
+   "mentioned_later": [
+    "Q2FY27"
+   ],
    "dropped": false,
    "verdict": "Pending",
    "rule": "not due yet",
@@ -9124,7 +7828,7 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The deadline for this promise has not yet arrived."
   },
   {
    "id": "ASIANPAINT-Q1FY27-076",
@@ -9154,20 +7858,65 @@
      "basis": "unspecified",
      "subject": "reach capacity of 150,000 MT",
      "status": "New"
+    },
+    {
+     "id": "ASIANPAINT-Q2FY27-027",
+     "quarter": "Q2FY27",
+     "quarter_end": "2026-09-30",
+     "page": 33,
+     "speaker": "Amit Syngle",
+     "quote": "with the full capacity of 150 KT we should be able to utilize in the next year",
+     "target": {
+      "kind": "value",
+      "low_text": "150",
+      "high_text": "150",
+      "unit": "units",
+      "comparator": "at_least",
+      "low": 150.0,
+      "high": 150.0
+     },
+     "horizon": {
+      "end": "2028-03-31",
+      "quarters": [
+       "2027-06-30",
+       "2027-09-30",
+       "2027-12-31",
+       "2028-03-31"
+      ],
+      "assumed": false,
+      "token": "next_year"
+     },
+     "conditional": false,
+     "scope": "segment",
+     "basis": "unspecified",
+     "subject": "utilize 150 KT capacity",
+     "status": "Revised",
+     "revised_from": {
+      "target": {
+       "kind": "value",
+       "low_text": "150,000",
+       "high_text": "150,000",
+       "unit": "units",
+       "comparator": "about",
+       "low": 150000.0,
+       "high": 150000.0
+      },
+      "horizon": null
+     }
     }
    ],
    "searched_later": [],
    "mentioned_later": [],
    "dropped": false,
-   "verdict": "Pending",
-   "rule": "no deadline stated",
+   "verdict": "Revised",
+   "rule": "target or deadline changed in a later call",
    "resolution": {
     "source": "unverifiable",
     "final": null,
     "interim": null,
-    "note": "open-ended horizon"
+    "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "No deadline was stated for this promise."
+   "explanation": "The target or deadline for this promise was changed in a later management call."
   },
   {
    "id": "ASIANPAINT-Q1FY27-079",
@@ -9207,6 +7956,39 @@
      "basis": "unspecified",
      "subject": "category of products margin band",
      "status": "New"
+    },
+    {
+     "id": "ASIANPAINT-Q2FY27-007",
+     "quarter": "Q2FY27",
+     "quarter_end": "2026-09-30",
+     "page": 28,
+     "speaker": "Amit Syngle",
+     "quote": "it should really give us some advantage of 300 bps to 500 bps on relevant products.",
+     "target": {
+      "kind": "range",
+      "low_text": "300",
+      "high_text": "500",
+      "unit": "other",
+      "comparator": "range",
+      "low": 300.0,
+      "high": 500.0
+     },
+     "horizon": {
+      "end": "2027-03-31",
+      "quarters": [
+       "2026-06-30",
+       "2026-09-30",
+       "2026-12-31",
+       "2027-03-31"
+      ],
+      "assumed": true,
+      "token": "none"
+     },
+     "conditional": true,
+     "scope": "segment",
+     "basis": "unspecified",
+     "subject": "margin advantage on products",
+     "status": "Reaffirmed"
     }
    ],
    "searched_later": [],
@@ -9220,58 +8002,10 @@
     "interim": null,
     "note": "no XBRL series for this metric and no later management figure found"
    },
-   "explanation": "The promise is not yet due for evaluation."
+   "explanation": "The deadline for this promise has not yet arrived."
   }
  ],
  "rejected": [
-  {
-   "id": "ASIANPAINT-Q4FY25-056",
-   "page": 31,
-   "speaker": "Amit Syngle",
-   "sentence": "But the idea is to aim for single digit value growths for the year FY26.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "revenue_growth",
-   "target": {
-    "kind": "value",
-    "low_text": "single digit",
-    "high_text": "single digit",
-    "unit": "none",
-    "comparator": "about"
-   },
-   "horizon_token": "current_year",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "single digit value growths",
-   "quote": "aim for single digit value growths for the year FY26",
-   "is_commitment": true,
-   "reason": "value/range target without a number"
-  },
-  {
-   "id": "ASIANPAINT-Q4FY25-074",
-   "page": 34,
-   "speaker": "Amit Syngle",
-   "sentence": "And therefore, even from a point of view of contributing to the gross margins, that would be similarly that same range of what they will contribute.",
-   "quarter": "Q4FY25",
-   "quarter_end": "2025-03-31",
-   "metric": "other",
-   "target": {
-    "kind": "value",
-    "low_text": "60",
-    "high_text": "60",
-    "unit": "pct",
-    "comparator": "about"
-   },
-   "horizon_token": "none",
-   "conditional": false,
-   "scope": "company",
-   "basis": "unspecified",
-   "subject": "gross margin contribution",
-   "quote": "that would be similarly that same range of what they will contribute",
-   "is_commitment": true,
-   "reason": "target number(s) ['60'] not in quote"
-  },
   {
    "id": "ASIANPAINT-Q1FY26-075",
    "page": 25,
@@ -9319,41 +8053,65 @@
    "quote": "see that we are still able to maintain our margin guidance",
    "is_commitment": true,
    "reason": "quote not found verbatim in transcript"
+  },
+  {
+   "id": "ASIANPAINT-Q2FY27-023",
+   "page": 32,
+   "speaker": "Amit Syngle",
+   "sentence": "As we go, we will be looking at a part of the overall capacity of what we will utilize till March and what we plan is that next year we will be able to utilize the full capacity of this phase one of going forward.",
+   "quarter": "Q2FY27",
+   "quarter_end": "2026-09-30",
+   "metric": "capex",
+   "target": {
+    "kind": "value",
+    "low_text": "full",
+    "high_text": "",
+    "unit": "none",
+    "comparator": "none"
+   },
+   "horizon_token": "next_year",
+   "conditional": false,
+   "scope": "segment",
+   "basis": "unspecified",
+   "subject": "utilize full plant capacity",
+   "quote": "next year we will be able to utilize the full capacity of this phase one of going forward.",
+   "is_commitment": true,
+   "reason": "value/range target without a number"
   }
  ],
  "cost": {
   "by_stage": {
    "classify": {
-    "calls": 22,
-    "cached": 22,
-    "tokens_in": 0,
-    "tokens_out": 0,
-    "inr": 0.0
+    "calls": 19,
+    "cached": 0,
+    "tokens_in": 52904,
+    "tokens_out": 15518,
+    "inr": 3.46595985
    },
    "thread": {
     "calls": 5,
-    "cached": 5,
-    "tokens_in": 0,
-    "tokens_out": 0,
-    "inr": 0.0
+    "cached": 0,
+    "tokens_in": 5344,
+    "tokens_out": 1164,
+    "inr": 0.2926359
    },
    "resolve": {
     "calls": 5,
-    "cached": 5,
-    "tokens_in": 0,
-    "tokens_out": 0,
-    "inr": 0.0
+    "cached": 0,
+    "tokens_in": 20499,
+    "tokens_out": 1145,
+    "inr": 0.6496716375
    },
    "explain": {
     "calls": 1,
-    "cached": 1,
-    "tokens_in": 0,
-    "tokens_out": 0,
-    "inr": 0.0
+    "cached": 0,
+    "tokens_in": 2823,
+    "tokens_out": 1282,
+    "inr": 0.24959981250000002
    }
   },
-  "total_inr": 0.0,
-  "calls": 33,
-  "cached": 33
+  "total_inr": 4.6579,
+  "calls": 30,
+  "cached": 0
  }
 }

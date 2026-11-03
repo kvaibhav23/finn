@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-03T18:56:32Z",
+ "generated_at": "2026-11-03T19:06:21Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2960,9 +2960,9 @@
    "key": "track",
    "state": "enough",
    "facts": {
-    "kept": 6,
+    "kept": 8,
     "missed": 0,
-    "decided": 6,
+    "decided": 8,
     "dropped": 1
    }
   },
@@ -3005,15 +3005,30 @@
    ]
   }
  ],
- "rerun": "earnings call transcript for the quarter ended 2026-09-30",
- "ledger_generated_at": "2026-11-01T21:21:47",
+ "rerun": null,
+ "ledger_generated_at": "2026-11-03T19:06:14Z",
  "ledger_counts": {
-  "Unverifiable": 14,
-  "Pending": 10,
-  "Kept": 6,
-  "Revised": 2,
+  "Unverifiable": 8,
+  "Kept": 8,
+  "Pending": 6,
+  "Revised": 4,
   "Dropped": 1,
-  "On track": 2
+  "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "c908e39723618279",
+   "symbol": "ASIANPAINT",
+   "kind": "ledger",
+   "date": "2026-11-03",
+   "facts": {
+    "Unverifiable": 8,
+    "Kept": 8,
+    "Pending": 6,
+    "Revised": 4,
+    "Dropped": 1,
+    "On track": 1
+   }
+  }
+ ]
 }
