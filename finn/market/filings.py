@@ -22,36 +22,49 @@ CALL_DAYS = 372   # announcements read: a year of earnings-call dates for the pr
 RULES: list[tuple[str, str]] = [
     ("Auditor change", r"change in auditor|resignation of (the )?(statutory |secretarial )?auditor"),
     ("Pledge", r"\bpledg|encumbrance"),
-    ("Regulatory or legal", r"action\(s\) taken or orders passed|\bsebi\b.*\border\b|show cause|penalt|litigation"
+    ("Clarification", r"sought clarification|clarification (on|regarding|with respect to|to) .*(news|media|article|report)"
+                      r"|news (item|report|article)"),
+    ("Regulatory or legal", r"action\(s\) (taken|initiated) or orders passed|\bsebi\b.*\border\b|show cause|penalt|litigation"
                             r"|\bdispute|\bfine\b|\bgst\b.*\bdemand|tax demand|search and seizure|insolvency"),
     ("Resignation", r"cessation|resignation"),
     ("Appointment", r"appointment|change in director|change in management|re-?designation"),
     ("Credit rating", r"credit rating"),
-    ("Results", r"financial result|outcome of board meeting.*result|results? for the (quarter|period|year)"),
+    ("Board meeting", r"board meeting|to announce .*results"),
+    ("Results", r"financial result|outcome of board meeting.*result|results? for the (quarter|period|year)"
+                r"|financial statements for the (quarter|period|half|year)|report of auditors on financial"),
     ("Earnings call", r"con\.? ?call|conference call|earnings call|analysts?/institutional investor meet"
-                      r"|investor presentation|transcript|link of recording"),
+                      r"|investor presentation|transcript|link of recording|analyst\(s\)/investor\(s\) meet|investor conference"
+                      r"|investors' call|analyst presentation"),
     ("Order or contract", r"bagging|receiving.*order|award(ing|ed) of order|order win|letter of award|\bcontract\b"),
     ("Dividend or corporate action", r"dividend|record date|bonus|split|buy-?back|rights issue"),
-    ("Board meeting", r"board meeting"),
-    ("Expansion", r"commercial production|capacity|acquisition|amalgamation|merger|restructuring|new plant"),
+    ("Expansion", r"commercial production|capacity|acquisition|amalgamation|merger|restructuring|new plant"
+                  r"|initial public offer|red herring|share purchase agreement|business transfer agreement"
+                  r"|scheme of arrangement|demerger|stake"),
+    ("Business update", r"production volume|sales volume|store opening|business update|operational update"
+                        r"|monthly sales|production and sales"),
     ("Press release", r"press release"),
 ]
-WORTH_A_LOOK = {"Auditor change", "Pledge", "Regulatory or legal", "Resignation", "Credit rating"}
+WORTH_A_LOOK = {"Auditor change", "Pledge", "Regulatory or legal", "Resignation", "Credit rating", "Clarification"}
 # How high a filing sits in the digest. Fixed by tag, never by a model: results, people, M&A and anything a
 # regulator, auditor, lender or rating agency did come first; dividends, orders and calls next; the rest last.
 PRIORITY = {"Results": 1, "Appointment": 1, "Resignation": 1, "Auditor change": 1, "Pledge": 1,
             "Regulatory or legal": 1, "Credit rating": 1, "Expansion": 1,
-            "Order or contract": 2, "Dividend or corporate action": 2, "Earnings call": 2,
+            "Clarification": 1, "Order or contract": 2, "Business update": 2, "Dividend or corporate action": 2, "Earnings call": 2,
             "Board meeting": 3, "Press release": 3, "Other": 3}
 ROUTINE = re.compile(r"newspaper publication|certificate under sebi|trading window|trading plan"
                      r"|loss of share certificate|duplicate share|investor complaints|compliance certificate"
                      r"|disclosure under sebi takeover", re.I)
+# Routine by subject, whatever the category: employee share allotments and option grants, and the steady stream
+# of debt-paper issues and redemptions from lenders.
+ROUTINE_SUBJECT = re.compile(r"allotment of [\d,]+ (equity )?(shares|securities)|grant of [\d,]+ (stock )?options"
+                             r"|esop|esps|commercial paper|non convertible securities|newspaper clipping"
+                             r"|reminder notice for payment", re.I)
 
 
 def tag(category: str, subject: str) -> str | None:
     """-> a tag, None for routine paperwork, or "Other"."""
     category, subject = (category or "").strip(), (subject or "").strip()
-    if ROUTINE.search(category):
+    if ROUTINE.search(category) or ROUTINE_SUBJECT.search(subject):
         return None
     text = f"{category} | {subject}".lower()
     for name, pat in RULES:
