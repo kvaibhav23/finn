@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-03T18:36:52Z",
+ "generated_at": "2026-11-03T18:59:29Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2697,6 +2697,26 @@
   {
    "date": "2026-10-28",
    "filed_at": "2026-10-28T13:28:00+05:30",
+   "tag": "Expansion",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Acquisition",
+   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "filed_at": "2026-10-28T13:28:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Sale or disposal",
+   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "filed_at": "2026-10-28T13:28:00+05:30",
    "tag": "Appointment",
    "priority": 1,
    "worth_a_look": false,
@@ -2726,26 +2746,6 @@
    "category": "Giving guarantees/indemnity/ becoming a surety for third party",
    "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "filed_at": "2026-10-28T13:28:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Acquisition",
-   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "filed_at": "2026-10-28T13:28:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Sale or disposal",
-   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2814,8 +2814,8 @@
    "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2824,8 +2824,8 @@
    "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-01",
