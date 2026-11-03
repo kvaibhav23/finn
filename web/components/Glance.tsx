@@ -18,7 +18,7 @@ export function Glance({ market, ledger, days, t, lang }:
   if (p && rows.length > 1) {
     const year = p.return_1y;
     tiles.push(
-      <Tile key="price" href="#price" label={t.view.tabs.price}
+      <Tile key="price" href="#price" label={t.view.tabs.price} tone={year == null ? null : year >= 0 ? "up" : "down"}
             head={year != null ? g.priceYear(year >= 0, `${Math.abs(year).toFixed(1)}%`)
               : g.priceShort(signedPct((rows.at(-1)![1] / rows[0][1] - 1) * 100), dayMonthYear(rows[0][0], lang))}
             sub={p.nifty_return_1y != null ? g.priceNifty(signedPct(p.nifty_return_1y)) : null}>
@@ -32,6 +32,7 @@ export function Glance({ market, ledger, days, t, lang }:
     const q = r?.quarters.filter((x) => x.revenue_cr != null) ?? [];
     tiles.push(
       <Tile key="results" href="#results" label={t.view.tabs.results}
+            tone={r?.pat_yoy_pct == null ? null : r.pat_yoy_pct >= 0 ? "up" : "down"}
             head={r && r.revenue_yoy_pct != null && r.pat_yoy_pct != null
               ? g.results(r.bank, signedPct(r.revenue_yoy_pct), signedPct(r.pat_yoy_pct)) : g.noResults}
             sub={r ? [r.revenue_yoy_pct != null ? g.resultsSub(quarter(r.latest_quarter)) : null,
@@ -70,7 +71,7 @@ export function Glance({ market, ledger, days, t, lang }:
     const kinds = [...new Set(look.map((x) => (t.filings.tag[x.tag] ?? x.tag).toLowerCase()))].join(", ");
     const latest = f[0];
     tiles.push(
-      <Tile key="filings" href="#filings" label={t.view.tabs.filings}
+      <Tile key="filings" href="#filings" label={t.view.tabs.filings} tone={look.length ? "look" : null}
             head={look.length ? g.look(look.length, kinds) : g.clear}
             sub={[g.count(f.length, days), latest ? g.latest(t.filings.tag[latest.tag] ?? latest.tag, dayMonthYear(latest.date, lang)) : null]
               .filter(Boolean).join(", ")}>
@@ -89,10 +90,12 @@ export function Glance({ market, ledger, days, t, lang }:
   );
 }
 
-function Tile({ href, label, head, sub, children }:
-  { href: string; label: string; head: string; sub: string | null; children?: React.ReactNode }) {
+// The headline takes the colour of what it says: green or red for a rise or fall, amber for filings worth a look.
+function Tile({ href, label, head, sub, tone = null, children }:
+  { href: string; label: string; head: string; sub: string | null; tone?: "up" | "down" | "look" | null;
+    children?: React.ReactNode }) {
   return (
-    <a className="tile" href={href}>
+    <a className={`tile${tone ? ` tone-${tone}` : ""}`} href={href}>
       <span className="tile-label">{label}</span>
       <span className="tile-head">{head}</span>
       {sub && <span className="tile-sub">{sub}</span>}

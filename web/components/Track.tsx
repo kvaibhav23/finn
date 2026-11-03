@@ -34,7 +34,8 @@ export function Track({ p, calls, asOf, domain, t = dict("en"), lang = "en" }:
   const firstX = marks[0]?.x ?? PAD;
   const solidTo = x(Math.min(asOf ? at(asOf) : lastCall, due ?? Infinity));
   const dueX = due != null ? x(due) : null;
-  const dueColor = p.verdict === "Kept" ? "var(--kept)" : p.verdict === "Missed" ? "var(--missed)" : "var(--ink)";
+  const dueColor = ({ Kept: "var(--kept)", Missed: "var(--missed)", "On track": "var(--ontrack)", Revised: "var(--revised)",
+    Pending: "var(--pending)", Dropped: "var(--dropped)" } as Record<string, string>)[p.verdict] ?? "var(--ink)";
 
   const label = [
     ...p.history.map((v) => `${t.ledger.status[v.status] ?? v.status} ${t.ledger.track.in} ${quarter(v.quarter)}`),

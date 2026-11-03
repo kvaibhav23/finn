@@ -79,6 +79,8 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
     pts.map((p, i) => `${i ? "L" : "M"}${x(p[0]).toFixed(1)},${y(p[1]).toFixed(1)}`).join("");
 
   const first = closes[0], last = closes[closes.length - 1];
+  const dir = last >= first ? "up" : "down";
+  const line = path(shown.map((r) => [r[0], r[1]] as const));
   const point = at != null ? shown[at] : null;
   const marks = calls.filter((c) => ms(c.date) >= t0 && ms(c.date) <= t1);
   // Labels shorten on narrow screens, and one that would overlap its neighbour is left out (its line stays).
@@ -147,17 +149,19 @@ export function PriceChart({ rows, nifty, calls, ledgerQuarters, adjustedFor }: 
           ))}
           {shown.map((r, i) => r[2] ? (
             <rect key={r[0]} x={xs[i] - barW / 2} width={barW} y={H - BOTTOM - (r[2] / vmax) * VOL}
-                  height={(r[2] / vmax) * VOL} className={i === at ? "vol on" : "vol"} />
+                  height={(r[2] / vmax) * VOL}
+                  className={`vol${i > 0 && r[1] < shown[i - 1][1] ? " dn" : ""}${i === at ? " on" : ""}`} />
           ) : null)}
           {niftyShown.length > 1 && (
-            <path d={path(niftyShown)} fill="none" stroke="var(--faint)" strokeWidth={1.2} strokeDasharray="3 3" />
+            <path d={path(niftyShown)} className="pc-nifty" />
           )}
-          <path d={path(shown.map((r) => [r[0], r[1]] as const))} fill="none" stroke="var(--ink)" strokeWidth={1.6}
-                strokeLinejoin="round" />
+          <path d={`${line}L${xs[xs.length - 1].toFixed(1)},${PLOT_BOTTOM}L${xs[0].toFixed(1)},${PLOT_BOTTOM}Z`}
+                className={`pc-area ${dir}`} />
+          <path d={line} className={`pc-line ${dir}`} />
           {point && at != null && (
             <g>
-              <line x1={xs[at]} x2={xs[at]} y1={TOP} y2={PLOT_BOTTOM} stroke="var(--quiet)" />
-              <circle cx={xs[at]} cy={y(point[1])} r={4} fill="var(--paper)" stroke="var(--ink)" strokeWidth={1.6} />
+              <line x1={xs[at]} x2={xs[at]} y1={TOP} y2={PLOT_BOTTOM} className="pc-cross" />
+              <circle cx={xs[at]} cy={y(point[1])} r={4.5} className={`pc-dot ${dir}`} />
             </g>
           )}
         </svg>

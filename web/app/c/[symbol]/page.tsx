@@ -11,6 +11,7 @@ import { LedgerView } from "@/components/LedgerView";
 import { PriceChart } from "@/components/PriceChart";
 import { DeliveryBars, RangeBar, Returns } from "@/components/PriceFacts";
 import { QuarterBars } from "@/components/QuarterBars";
+import { QuoteBoard } from "@/components/QuoteBoard";
 import { RequestAnalysis } from "@/components/RequestAnalysis";
 import { Search } from "@/components/Search";
 import { SectionTabs, type Tab } from "@/components/SectionTabs";
@@ -159,6 +160,7 @@ export default async function CompanyPage({ params }: Props) {
             <span className="asof">{t.company.asOf(dayMonthYear(p.as_of, lang))}</span>
           </p>
         )}
+        {market && <QuoteBoard market={market} ledger={ledger} t={t} />}
         {move && move.date === p?.as_of && (
           <div className={`move-note ${move.change_pct < 0 ? "down" : "up"}`} role="note">
             <p className="move-title">{moveTitle(t, lang, move)}.</p>
