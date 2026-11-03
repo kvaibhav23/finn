@@ -5,12 +5,15 @@ import type { IndexEntry, Ledger, Market, MarketDay } from "./types";
 
 const DATA = path.join(process.cwd(), "public", "data");
 
-async function json<T>(file: string): Promise<T | null> {
-  try {
-    return JSON.parse(await readFile(path.join(DATA, file), "utf8")) as T;
-  } catch {
-    return null;
+// The data files only change with a new deploy (the nightly update commits them), so each server instance reads
+// and parses a file once and reuses it, instead of on every page view.
+const cache = new Map<string, Promise<unknown>>();
+
+function json<T>(file: string): Promise<T | null> {
+  if (!cache.has(file)) {
+    cache.set(file, readFile(path.join(DATA, file), "utf8").then((s) => JSON.parse(s) as T, () => null));
   }
+  return cache.get(file) as Promise<T | null>;
 }
 
 export const getIndex = async () => (await json<IndexEntry[]>("index.json")) ?? [];

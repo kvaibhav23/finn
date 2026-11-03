@@ -1,5 +1,5 @@
 import { monthYear, quarter } from "@/lib/format";
-import { dict, type Dict, type Lang } from "@/lib/i18n";
+import type { Dict, Lang } from "@/lib/i18n";
 import type { Call, Promise_ } from "@/lib/types";
 
 // A promise's life on one line: faint ticks are the calls FINN read; a filled dot is where it was
@@ -19,8 +19,8 @@ export function domainFor(promises: Promise_[], calls: Call[]): Domain {
   return { start: at(calls[0].quarter_end) - 30 * DAY, end: Math.max(lastCall, ...dues) + 45 * DAY };
 }
 
-export function Track({ p, calls, asOf, domain, t = dict("en"), lang = "en" }:
-  { p: Promise_; calls: Call[]; asOf: string | null | undefined; domain?: Domain; t?: Dict; lang?: Lang }) {
+export function Track({ p, calls, asOf, domain, t, lang }:
+  { p: Promise_; calls: Call[]; asOf: string | null | undefined; domain?: Domain; t: Dict; lang: Lang }) {
   if (!calls.length) return null;
   const qe = Object.fromEntries(calls.map((c) => [c.quarter, c.quarter_end]));
   const lastCall = at(calls[calls.length - 1].quarter_end);
