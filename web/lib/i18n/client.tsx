@@ -2,16 +2,19 @@
 
 import { createContext, useContext } from "react";
 
-import { dict, type Dict } from "./index";
-import { DEFAULT_LANG, type Lang } from "./languages";
+import type { Dict } from "./en";
+import type { Lang } from "./languages";
 
-const LangContext = createContext<Lang>(DEFAULT_LANG);
+const LangContext = createContext<{ lang: Lang; t: Dict } | null>(null);
 
-export function LangProvider({ lang, children }: { lang: Lang; children: React.ReactNode }) {
-  return <LangContext.Provider value={lang}>{children}</LangContext.Provider>;
+/** Hands one language's words to every client component below. Each language has its own provider file
+ * (providers/<lang>.tsx), so the browser downloads only the language being read, not all seven. */
+export function Provide({ lang, t, children }: { lang: Lang; t: Dict; children: React.ReactNode }) {
+  return <LangContext.Provider value={{ lang, t }}>{children}</LangContext.Provider>;
 }
 
 export function useT(): { lang: Lang; t: Dict } {
-  const lang = useContext(LangContext);
-  return { lang, t: dict(lang) };
+  const v = useContext(LangContext);
+  if (!v) throw new Error("useT outside LangProvider");
+  return v;
 }

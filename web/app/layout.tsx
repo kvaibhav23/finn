@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import { NavLinks } from "@/components/NavLinks";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { LangProvider } from "@/lib/i18n/client";
+import { LangProvider } from "@/lib/i18n/provider";
 import { LANGS } from "@/lib/i18n/languages";
 import { getT, getTheme } from "@/lib/i18n/server";
 
