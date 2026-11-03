@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-02T12:15:08Z",
+ "generated_at": "2026-11-03T01:45:07Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -13,8 +13,8 @@
   "return_1y": -18.19162851536953,
   "nifty_return_1y": -8.869027023454535,
   "delivery_20d": 47.124,
-  "delivery_avg": 48.62645161290323,
-  "delivery_sessions": 62
+  "delivery_avg": 48.53885245901639,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-04",
     2460.0,
     2792792,
-    53.97
+    null
    ],
    [
     "2026-08-05",

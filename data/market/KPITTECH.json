@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-02T12:15:04Z",
+ "generated_at": "2026-11-03T01:44:58Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -13,8 +13,8 @@
   "return_1y": -54.405588411759666,
   "nifty_return_1y": -8.869027023454535,
   "delivery_20d": 31.677,
-  "delivery_avg": 34.399032258064516,
-  "delivery_sessions": 62
+  "delivery_avg": 34.54229508196721,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-04",
     625.6,
     2143138,
-    25.66
+    null
    ],
    [
     "2026-08-05",
@@ -2720,16 +2720,16 @@
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-11",
    "tag": "Earnings call",
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026162026_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, September 21, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_11092026161950_KPIT_Investor_Conference_Anand_Rathi_and_JP_Morgan_2026_signed.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2810,46 +2810,6 @@
    "category": "General Updates",
    "subject": "KPIT Technologies Limited has informed the Exchange about the Company will be sending a letter providing a web link of the Annual Report 2025-26 to those Members who have not registered their e-mail addresses with the Registrar & Share Transfer Agent /Depository Participant",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_07082026181443_CovLet_Weblink_letter_signed.pdf"
-  },
-  {
-   "date": "2026-08-05",
-   "tag": "Other",
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Business Responsibility and Sustainability Report for FY 2025-26.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_05082026201656_Cov_BRSR_2025-26.pdf"
-  },
-  {
-   "date": "2026-08-05",
-   "tag": "Other",
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "KPIT Technologies Limited has informed the Exchange regarding Notice of 9th Annual General Meeting to be held on August 31, 2026, at 10.30 A.M. IST through VC/OAVM",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_05082026195025_AGM_Notice_Intimation_2026_signed.pdf"
-  },
-  {
-   "date": "2026-08-05",
-   "tag": "Earnings call",
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange that Company officials will participate in the Investor Conference scheduled on Monday, August 10, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_05082026164909_KPIT_Conference_Aug_2026_signed.pdf"
-  },
-  {
-   "date": "2026-08-05",
-   "tag": "Earnings call",
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange that Company officials will participate in the Investor Conference scheduled on Thursday, August 13, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_05082026164938_KPIT_Conference_Aug_2026_signed.pdf"
-  },
-  {
-   "date": "2026-08-05",
-   "tag": "Earnings call",
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange that Company officials will participate in the Investor Conference scheduled on Wednesday, August 12, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_05082026164923_KPIT_Conference_Aug_2026_signed.pdf"
   }
  ],
  "calls": [
@@ -2897,7 +2857,7 @@
   {
    "key": "delivery",
    "label": "Delivery",
-   "text": "32% of shares traded in the last 20 sessions were delivered, against 34% over the last 3 months.",
+   "text": "32% of shares traded in the last 20 sessions were delivered, against 35% over the last 3 months.",
    "detail": "About usual for this stock.",
    "source": "prices"
   },

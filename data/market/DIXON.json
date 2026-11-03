@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-02T12:14:49Z",
+ "generated_at": "2026-11-03T01:44:54Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -13,8 +13,8 @@
   "return_1y": -20.491803278688526,
   "nifty_return_1y": -8.869027023454535,
   "delivery_20d": 37.1665,
-  "delivery_avg": 38.24645161290323,
-  "delivery_sessions": 62
+  "delivery_avg": 38.430163934426226,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-04",
     13988.0,
     300730,
-    27.04
+    null
    ],
    [
     "2026-08-05",

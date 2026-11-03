@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-02T12:15:06Z",
+ "generated_at": "2026-11-03T01:45:03Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-02",
@@ -13,8 +13,8 @@
   "return_1y": -15.588196721311476,
   "nifty_return_1y": -8.869027023454535,
   "delivery_20d": 49.171499999999995,
-  "delivery_avg": 48.76483870967742,
-  "delivery_sessions": 62
+  "delivery_avg": 48.56180327868852,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-04",
     3501.0,
     182306,
-    61.15
+    null
    ],
    [
     "2026-08-05",
