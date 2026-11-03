@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { biggestDays, nearest, periodReturns, rebase, sliceRange, thin, ticks, yearEarlier } from "./chart.ts";
+import { around, biggestDays, nearest, periodReturns, rebase, sliceRange, thin, ticks, yearEarlier } from "./chart.ts";
 
 const rows: [string, number][] = [
   ["2025-10-30", 1], ["2026-04-29", 2], ["2026-04-30", 3], ["2026-09-30", 4], ["2026-10-30", 5],
@@ -69,4 +69,18 @@ test("thin keeps the ends; year-earlier quarter matches month and day", () => {
   const qes = ["2025-06-30", "2025-09-30", "2026-06-30", "2026-09-30"];
   assert.equal(yearEarlier(qes, 3), 1);
   assert.equal(yearEarlier(qes, 1), -1);
+});
+
+test("around a filing runs from the close before its date to the first close after it", () => {
+  const r: [string, number][] = [["2026-10-14", 100], ["2026-10-15", 104], ["2026-10-16", 110], ["2026-10-19", 99]];
+  const n: [string, number][] = [["2026-10-14", 200], ["2026-10-16", 202]];
+  const a = around(r, n, "2026-10-15")!;
+  assert.deepEqual([a.from, a.to], [["2026-10-14", 100], ["2026-10-16", 110]]);
+  assert.equal(a.pct.toFixed(1), "10.0");
+  assert.equal(a.nifty!.toFixed(1), "1.0");
+  // Filed on a Saturday: Friday's close to Monday's. No Nifty close on Monday, so no comparison.
+  const w = around(r, n, "2026-10-17")!;
+  assert.deepEqual([w.from[0], w.to[0], w.nifty], ["2026-10-16", "2026-10-19", null]);
+  assert.equal(around(r, n, "2026-10-19"), null);   // no session has closed since
+  assert.equal(around(r, n, "2026-10-14"), null);   // no close before
 });

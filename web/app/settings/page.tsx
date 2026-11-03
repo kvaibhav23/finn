@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 import { LanguagePicker } from "@/components/LanguagePicker";
 import { StopAlerts } from "@/components/StopAlerts";
-import { getT } from "@/lib/i18n/server";
+import { ThemePicker } from "@/components/ThemePicker";
+import { getT, getTheme } from "@/lib/i18n/server";
 
 export const dynamic = "force-dynamic";
 
@@ -13,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 type Props = { searchParams: Promise<Record<string, string | undefined>> };
 
 export default async function Settings({ searchParams }: Props) {
-  const { t } = await getT();
+  const [{ t }, theme] = await Promise.all([getT(), getTheme()]);
   const q = await searchParams;
   const s = t.settings;
   const status = q.alerts === "confirmed" ? s.confirmed : q.alerts === "stopped" ? s.stopped
@@ -28,6 +29,9 @@ export default async function Settings({ searchParams }: Props) {
       <h2 id="language">{s.language}</h2>
       <p className="small-print">{s.languageNote}</p>
       <LanguagePicker />
+
+      <h2 id="theme">{s.theme}</h2>
+      <ThemePicker initial={theme} />
 
       <h2 id="alerts">{s.alerts}</h2>
       <p>{s.alertsText}</p>

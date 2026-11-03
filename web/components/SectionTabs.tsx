@@ -64,6 +64,16 @@ export function SectionTabs({ tabs, panels }: { tabs: Tab[]; panels: React.React
     };
   });
 
+  // On a phone the tab bar scrolls sideways: keep the chosen tab fully in it (sideways only, never the page).
+  useEffect(() => {
+    const b = buttons.current[tabs.findIndex((x) => x.id === active)], list = b?.parentElement;
+    if (!b || !list) return;
+    if (b.offsetLeft < list.scrollLeft) list.scrollLeft = b.offsetLeft;
+    else if (b.offsetLeft + b.offsetWidth > list.scrollLeft + list.clientWidth) {
+      list.scrollLeft = b.offsetLeft + b.offsetWidth - list.clientWidth;
+    }
+  }, [active, tabs]);
+
   const select = (id: string) => {
     history.replaceState(null, "", `#${id}`);
     show(id, true);

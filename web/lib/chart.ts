@@ -111,3 +111,19 @@ export function yearEarlier(qes: string[], i: number): number {
   const [y, rest] = [Number(qes[i].slice(0, 4)), qes[i].slice(4)];
   return qes.indexOf(`${y - 1}${rest}`);
 }
+
+export interface Around { from: [string, number]; to: [string, number]; pct: number; nifty: number | null }
+
+/** What the price did across a filing dated `date`: from the last close before that day to the first close
+ * after it, so the move is caught whether the filing came before, during or after trading. Null until a
+ * session has closed after the filing. The Nifty 50 is over the same two dates when it has both closes. */
+export function around(rows: [string, number, ...unknown[]][], nifty: [string, number][] | null, date: string): Around | null {
+  let i = -1;
+  while (i + 1 < rows.length && rows[i + 1][0] < date) i++;
+  let j = i + 1;
+  while (j < rows.length && rows[j][0] <= date) j++;
+  if (i < 0 || j >= rows.length) return null;
+  const a = rows[i], b = rows[j];
+  const idx = new Map(nifty ?? []), na = idx.get(a[0]), nb = idx.get(b[0]);
+  return { from: [a[0], a[1]], to: [b[0], b[1]], pct: (b[1] / a[1] - 1) * 100, nifty: na && nb ? (nb / na - 1) * 100 : null };
+}

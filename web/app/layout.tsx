@@ -6,9 +6,10 @@ import {
 import Link from "next/link";
 
 import { NavLinks } from "@/components/NavLinks";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { LangProvider } from "@/lib/i18n/client";
 import { LANGS } from "@/lib/i18n/languages";
-import { getT } from "@/lib/i18n/server";
+import { getT, getTheme } from "@/lib/i18n/server";
 
 import "./globals.css";
 
@@ -28,12 +29,18 @@ export const metadata: Metadata = {
     "FINN reads the earnings calls of NSE-listed companies, finds every promise that can be checked, and checks it against filed results.",
 };
 
-export const viewport: Viewport = { themeColor: "#ffffff" };
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#121a23" },
+  ],
+};
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const { lang, t } = await getT();
+  const [{ lang, t }, theme] = await Promise.all([getT(), getTheme()]);
   return (
-    <html lang={LANGS.find((l) => l.code === lang)!.locale} className={fonts}>
+    <html lang={LANGS.find((l) => l.code === lang)!.locale} className={fonts}
+          data-theme={theme === "system" ? undefined : theme}>
       <body>
         <LangProvider lang={lang}>
           <header className="site-head">
@@ -43,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 <span className="brand-beta">{t.nav.beta}</span>
               </Link>
               <NavLinks />
+              <ThemeToggle />
             </div>
           </header>
           <main className="wrap">{children}</main>

@@ -136,7 +136,7 @@ export default async function CompanyPage({ params }: Props) {
       <>
         <h2 className="section-title">{t.company.filings}</h2>
         <p className="section-sub">{t.company.filingsSub(name, FILING_DAYS)}</p>
-        <Filings filings={filings} days={FILING_DAYS} />
+        <Filings filings={filings} days={FILING_DAYS} rows={rows} nifty={market!.nifty} end={p?.as_of ?? null} />
       </>
     ), filings.length);
   }

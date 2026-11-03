@@ -5,7 +5,7 @@
 const plural = (n: number, one: string, many: string) => (n === 1 ? one : many);
 
 export const en = {
-  nav: { companies: "Companies", method: "How it works", settings: "Settings", home: "FINN home", beta: "Beta", main: "Main" },
+  nav: { companies: "Companies", method: "How it works", settings: "Settings", home: "FINN home", beta: "Beta", main: "Main", dark: "Dark mode" },
   footer: {
     disclaimer: "Beta. Verdicts are produced by automated rules from public NSE filings and are not investment advice. Every claim links to its source; check it before relying on it.",
     sources: "Prices, results, filings and transcripts: National Stock Exchange of India.",
@@ -232,6 +232,20 @@ export const en = {
   },
   filings: {
     filter: "Filter filings",
+    search: "Search filings",
+    noMatch: "No filings match.",
+    showAll: "Show all filings",
+    timeline: (days: number) => `Filings over the last ${days} days`,
+    timelineSub: "One square per filing; filled squares are worth a look. Point at one, tap it, or use the arrow keys to see what the price did around it.",
+    more: (n: number) => `and ${n} more that day`,
+    aroundShort: (pct: string) => `Price across the filing ${pct}`,
+    niftyShort: (pct: string) => `Nifty 50 ${pct}`,
+    aroundLong: (a: string, d1: string, b: string, d2: string) => `Closed at ${a} on ${d1} and ${b} on ${d2}:`,
+    aroundNifty: (pct: string) => `Nifty 50 over the same days ${pct}`,
+    aroundNone: "No trading session has closed since this filing yet.",
+    aroundNote: "From the last close before the filing date to the first close after it. Other news on those days can move the price too.",
+    category: (c: string) => `NSE category: ${c}`,
+    showOnTimeline: "Show on timeline",
     all: "All",
     look: "Worth a look",
     open: "Open filing",
@@ -277,6 +291,8 @@ export const en = {
     language: "Language",
     languageNote: "FINN's own words appear in the language you choose. Management's quotes and NSE filing titles stay in the original English, because they are the evidence.",
     saved: "Saved",
+    theme: "Appearance",
+    themes: { system: "Match my device", light: "Light", dark: "Dark" },
     alerts: "Alerts",
     alertsText: "Turn on alerts from any company's page with “Get alerts”. Every email has an unsubscribe link; on WhatsApp, reply STOP.",
     confirmed: "Your email is confirmed. Alerts are on.",

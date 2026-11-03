@@ -20,6 +20,11 @@ export function monthYear(iso: string | null | undefined, lang: Lang = DEFAULT_L
   return fmt(lang, { month: "short", year: "numeric" }).format(utc(iso));
 }
 
+/** "2026-03-31" -> "Mar" (for chart axes) */
+export function monthShort(iso: string, lang: Lang = DEFAULT_LANG): string {
+  return lang === "en" ? MONTHS[Number(iso.slice(5, 7)) - 1] : fmt(lang, { month: "short" }).format(utc(iso));
+}
+
 /** Opens the transcript PDF at the quoted page (supported by browser PDF viewers). */
 export function pageLink(pdf: string | null, page: number): string | null {
   return pdf ? `${pdf}#page=${page}` : null;
