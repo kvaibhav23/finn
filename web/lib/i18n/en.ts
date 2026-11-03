@@ -207,6 +207,7 @@ export const en = {
     hidden: (n: number) => `${n} more ${plural(n, "promise", "promises")} couldn't be checked: no filed figure matches them and management never said what happened.`,
     showing: "Showing the promises FINN couldn't check as well.",
     show: "Show them", hide: "Hide them",
+    more: (n: number) => `Show ${n} more`,
     firstSaidIn: (q: string) => `First said in ${q}`,
     due: (month: string) => `due ${month}`,
     dueAssumed: " (no date stated; year end assumed)",

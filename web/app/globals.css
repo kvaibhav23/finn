@@ -312,6 +312,7 @@ button, input, select { font: inherit; color: inherit; }
 .history .h-quote { font-family: var(--font-quote), Georgia, serif; font-style: italic; font-size: var(--s15); color: var(--ink); }
 
 .empty { padding: 40px 0; color: var(--quiet); }
+.more-rows { margin: 16px 0 0; }
 
 /* ---------- company: price, summary, sections ---------- */
 
@@ -843,6 +844,24 @@ button, input, select { font: inherit; color: inherit; }
 .board-cell.tone-down .board-value { color: var(--missed); }
 .board-cell.tone-look .board-value { color: var(--amber); }
 
+/* ---------- loading outline ---------- */
+
+.skeleton { display: grid; gap: 14px; padding: 40px 0; }
+.sk { display: block; background: var(--panel-2); border-radius: var(--radius); }
+.sk-title { height: 36px; width: min(460px, 80%); }
+.sk-price { height: 48px; width: 240px; }
+.sk-line { height: 16px; width: min(640px, 100%); }
+.sk-line.short { width: min(420px, 70%); }
+.sk-board { height: 72px; }
+.sk-tabs { height: 44px; margin-top: 18px; }
+.sk-block { height: 180px; }
+.sk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.sk-tile { height: 170px; }
+@media (prefers-reduced-motion: no-preference) {
+  .sk { animation: pulse 1.2s ease-in-out infinite alternate; }
+  @keyframes pulse { from { opacity: 1; } to { opacity: 0.45; } }
+}
+
 /* ---------- small screens ---------- */
 
 @media (max-width: 760px) {
@@ -895,6 +914,7 @@ button, input, select { font: inherit; color: inherit; }
   .tile { min-height: 0; }
   .tile-head { font-size: var(--s17); }
   .pair { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .sk-grid { grid-template-columns: minmax(0, 1fr); }
   .tabs { overflow-x: auto; scrollbar-width: none; margin-right: calc(-1 * var(--gutter)); }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs [role="tab"] { padding: 12px 10px 11px; }

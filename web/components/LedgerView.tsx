@@ -11,6 +11,9 @@ import { GROUPS } from "@/lib/verdicts";
 import { Track, domainFor, type Domain } from "./Track";
 import { VerdictMark, verdictClass } from "./VerdictMark";
 
+// Rows drawn at first; the rest wait for "Show more", so a company with 180 promises opens quickly on a phone.
+const PAGE = 40;
+
 export function LedgerView({ ledger }: { ledger: Ledger }) {
   const { t, lang } = useT();
   const [verdict, setVerdict] = useState<Verdict | "All">("All");
@@ -18,6 +21,7 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
   const [made, setMade] = useState("All");
   const [open, setOpen] = useState<Set<string>>(new Set());
   const [showUnverifiable, setShowUnverifiable] = useState(false);
+  const [limit, setLimit] = useState(PAGE);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(VERDICTS.map((v) => [v, 0])) as Record<Verdict, number>;
@@ -52,6 +56,7 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
       if (target.verdict === "Unverifiable") setShowUnverifiable(true);
       setVerdict("All"); setMetric("All"); setMade("All");
       setOpen((s) => new Set([...s, id]));
+      setLimit(Infinity);
       requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
     };
     openHash();
@@ -108,11 +113,16 @@ export function LedgerView({ ledger }: { ledger: Ledger }) {
         <p className="empty">{hidden ? t.ledger.allUnverifiable : t.ledger.none}</p>
       ) : (
         <ul className="rows">
-          {shown.map((p) => (
+          {shown.slice(0, limit).map((p) => (
             <Row key={p.id} p={p} ledger={ledger} domain={domain} open={open.has(p.id)} onToggle={() => toggle(p.id)}
                  t={t} lang={lang} />
           ))}
         </ul>
+      )}
+      {shown.length > limit && (
+        <p className="more-rows">
+          <button type="button" className="btn-quiet" onClick={() => setLimit(Infinity)}>{t.ledger.more(shown.length - limit)}</button>
+        </p>
       )}
       {(hidden > 0 || (showUnverifiable && verdict === "All")) && (
         <p className="unverified">
@@ -147,48 +157,51 @@ function Row({ p, ledger, domain, open, onToggle, t, lang }:
           {actual && <span className="row-actual">{actual}</span>}
         </span>
       </button>
+      {/* The receipt is drawn only once opened: most rows are never opened, and drawing them all slows the page. */}
       <div className="detail" id={detailId} hidden={!open}>
-        <div>
-          <blockquote className="quote" lang="en">“{p.quote}”</blockquote>
-          <p className="cite">
-            {t.ledger.cite(p.speaker, quarter(p.quarter), p.page)}{" "}
-            {pageLink(p.pdf_url, p.page) && <a href={pageLink(p.pdf_url, p.page)!} target="_blank" rel="noreferrer">{t.ledger.openTranscript}</a>}
-            <a href={`#${p.id}`} style={{ marginLeft: 14 }}>{t.ledger.link}</a>
-          </p>
-          {p.history.length > 1 && (
-            <ol className="history" aria-label={t.ledger.everyTime}>
-              {p.history.map((v, i) => (
-                <li key={i}>
-                  <span className="h-q">{quarter(v.quarter)}</span>
-                  <span className="h-s">{t.ledger.status[v.status] ?? v.status}{v.status === "Revised" ? t.ledger.revisedTo(v.target) : ""}</span>
-                  <span className="h-quote" lang="en">
-                    “{v.quote}”{" "}
-                    {pageLink(v.pdf_url, v.page) && (
-                      <a href={pageLink(v.pdf_url, v.page)!} target="_blank" rel="noreferrer"
-                         style={{ fontFamily: "var(--font-ui)", fontStyle: "normal", fontSize: "var(--s13)" }}>
-                        {t.ledger.page(v.page)}
-                      </a>
-                    )}
-                  </span>
-                </li>
-              ))}
-            </ol>
-          )}
-        </div>
-        <div className="facts">
-          <div className="fact">
-            <h4>{t.ledger.target}</h4>
-            <p>{p.target !== "—" ? p.target : (t.metric[p.metric] ?? p.metric_label)}{p.scope === "segment" ? t.ledger.partOfBusiness : ""}</p>
-          </div>
-          <Actual p={p} t={t} />
-          <div className="fact">
-            <h4>{t.ledger.why(t.verdict[p.verdict])}</h4>
-            <p lang="en">{p.explanation}</p>
-            {p.verdict === "Dropped" && p.searched_later.length > 0 && (
-              <p className="small">{t.ledger.notAgain(p.searched_later.map(quarter).join(", "))}</p>
+        {open && <>
+          <div>
+            <blockquote className="quote" lang="en">“{p.quote}”</blockquote>
+            <p className="cite">
+              {t.ledger.cite(p.speaker, quarter(p.quarter), p.page)}{" "}
+              {pageLink(p.pdf_url, p.page) && <a href={pageLink(p.pdf_url, p.page)!} target="_blank" rel="noreferrer">{t.ledger.openTranscript}</a>}
+              <a href={`#${p.id}`} style={{ marginLeft: 14 }}>{t.ledger.link}</a>
+            </p>
+            {p.history.length > 1 && (
+              <ol className="history" aria-label={t.ledger.everyTime}>
+                {p.history.map((v, i) => (
+                  <li key={i}>
+                    <span className="h-q">{quarter(v.quarter)}</span>
+                    <span className="h-s">{t.ledger.status[v.status] ?? v.status}{v.status === "Revised" ? t.ledger.revisedTo(v.target) : ""}</span>
+                    <span className="h-quote" lang="en">
+                      “{v.quote}”{" "}
+                      {pageLink(v.pdf_url, v.page) && (
+                        <a href={pageLink(v.pdf_url, v.page)!} target="_blank" rel="noreferrer"
+                           style={{ fontFamily: "var(--font-ui)", fontStyle: "normal", fontSize: "var(--s13)" }}>
+                          {t.ledger.page(v.page)}
+                        </a>
+                      )}
+                    </span>
+                  </li>
+                ))}
+              </ol>
             )}
           </div>
-        </div>
+          <div className="facts">
+            <div className="fact">
+              <h4>{t.ledger.target}</h4>
+              <p>{p.target !== "—" ? p.target : (t.metric[p.metric] ?? p.metric_label)}{p.scope === "segment" ? t.ledger.partOfBusiness : ""}</p>
+            </div>
+            <Actual p={p} t={t} />
+            <div className="fact">
+              <h4>{t.ledger.why(t.verdict[p.verdict])}</h4>
+              <p lang="en">{p.explanation}</p>
+              {p.verdict === "Dropped" && p.searched_later.length > 0 && (
+                <p className="small">{t.ledger.notAgain(p.searched_later.map(quarter).join(", "))}</p>
+              )}
+            </div>
+          </div>
+        </>}
       </div>
     </li>
   );
