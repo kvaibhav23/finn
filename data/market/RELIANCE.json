@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-03T18:08:33Z",
+ "generated_at": "2026-11-03T18:14:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2749,8 +2749,8 @@
   {
    "date": "2026-10-24",
    "filed_at": "2026-10-24T21:48:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Initial Public Offer of Jio Platforms Limited",
@@ -2777,20 +2777,10 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf"
   },
   {
-   "date": "2026-10-17",
-   "filed_at": "2026-10-17T19:32:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "The newspaper clippings of the advertisement on the captioned subject published today are enclosed.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_17102026193113_RIL_SE_171026.pdf"
-  },
-  {
    "date": "2026-10-14",
    "filed_at": "2026-10-14T20:12:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Proposed Initial Public Offer of Jio Platforms Limited.",
@@ -2799,8 +2789,8 @@
   {
    "date": "2026-10-14",
    "filed_at": "2026-10-14T18:35:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.",
@@ -2989,8 +2979,8 @@
   {
    "date": "2026-08-28",
    "filed_at": "2026-08-28T18:36:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Observation Letter on the Draft Red Herring Prospectus for the proposed Initial Public Offer of Jio Platforms Limited",
@@ -3019,8 +3009,8 @@
   {
    "date": "2026-08-18",
    "filed_at": "2026-08-18T20:04:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "This is further to the disclosure dated August 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Motilal Oswal's 22nd Annual Global Investor Conference and no unpublished price sensitive informat",
@@ -3029,7 +3019,7 @@
   {
    "date": "2026-08-18",
    "filed_at": "2026-08-18T17:43:00+05:30",
-   "tag": "Regulatory or legal",
+   "tag": "Clarification",
    "priority": 1,
    "worth_a_look": true,
    "category": "News Verification",
@@ -3039,7 +3029,7 @@
   {
    "date": "2026-08-17",
    "filed_at": "2026-08-17T17:37:00+05:30",
-   "tag": "Regulatory or legal",
+   "tag": "Clarification",
    "priority": 1,
    "worth_a_look": true,
    "category": "News Verification",
@@ -3088,6 +3078,7 @@
   }
  ],
  "routine": [
+  "2026-10-17T19:32:00+05:30",
   "2026-10-16T20:58:00+05:30",
   "2026-10-15T18:06:00+05:30"
  ],
@@ -3148,7 +3139,8 @@
     "days": 90,
     "tags": [
      "Credit rating",
-     "Regulatory or legal"
+     "Regulatory or legal",
+     "Clarification"
     ]
    },
    "items": [

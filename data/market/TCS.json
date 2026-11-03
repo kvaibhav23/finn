@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-03T18:08:57Z",
+ "generated_at": "2026-11-03T18:14:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2979,9 +2979,9 @@
   {
    "date": "2026-08-12",
    "filed_at": "2026-08-12T15:25:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
+   "tag": "Clarification",
+   "priority": 1,
+   "worth_a_look": true,
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is attached.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/swarnikas_12082026152353_TCS_12082026__2_.pdf"
@@ -2989,9 +2989,9 @@
   {
    "date": "2026-08-12",
    "filed_at": "2026-08-12T11:42:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
+   "tag": "Clarification",
+   "priority": 1,
+   "worth_a_look": true,
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is awaited.",
    "pdf_url": "-"
@@ -3083,13 +3083,26 @@
   },
   {
    "key": "filings",
-   "state": "clear",
+   "state": "flagged",
    "facts": {
-    "count": 0,
+    "count": 2,
     "days": 90,
-    "tags": []
+    "tags": [
+     "Clarification"
+    ]
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-08-12",
+     "tag": "Clarification",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/swarnikas_12082026152353_TCS_12082026__2_.pdf"
+    },
+    {
+     "date": "2026-08-12",
+     "tag": "Clarification",
+     "pdf_url": "-"
+    }
+   ]
   }
  ],
  "rerun": null,

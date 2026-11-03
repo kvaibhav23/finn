@@ -114,6 +114,11 @@ def parse_xbrl(content: bytes, quarter_end: date, url: str = "") -> dict:
                 row[field] = math.nan
                 receipts.pop(field, None)
                 notes.append(f"{field}: tagged 0 in consolidated bank filing -> not reported (see standalone)")
+    # Trap 3: some filings tag a face value of 0 (SUNPHARMA, TITAN): that can't be a share's face value.
+    if row.get("face_value") == 0:
+        row["face_value"] = math.nan
+        receipts.pop("face_value", None)
+        notes.append("face_value: tagged 0 -> not reported")
     row["receipts"], row["notes"] = receipts, notes
     return row
 
@@ -260,7 +265,9 @@ def get_quarterly_financials(symbol: str, n_quarters: int = 12, basis: str = "Co
     picked = pick_quarters(list_filings(symbol, c), n_quarters, basis)
     rows = []
     for _, f in picked.iterrows():
-        x = c.get(f["xbrl"], policy="permanent").raise_for_status()
-        row = parse_xbrl(x.content, f["qe"], f["xbrl"])
+        x = c.get(f["xbrl"], policy="permanent")
+        if x.status == 404:      # NSE lists a few XBRL files it no longer serves (LT, Q1 FY26): that quarter is missing
+            continue
+        row = parse_xbrl(x.raise_for_status().content, f["qe"], f["xbrl"])
         rows.append(row | {"symbol": symbol, "source": f["source"], "filed": f["filed"]})
     return add_derived(pd.DataFrame(rows)) if rows else pd.DataFrame()

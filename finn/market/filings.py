@@ -20,7 +20,7 @@ DAYS = 90         # filings shown on the page
 CALL_DAYS = 372   # announcements read: a year of earnings-call dates for the price chart
 # (tag, pattern on "category | subject"), first match wins. Order matters: specific before general.
 RULES: list[tuple[str, str]] = [
-    ("Auditor change", r"change in auditor|resignation of (the )?(statutory |secretarial )?auditor"),
+    ("Auditor change", r"change in auditor|(resignation|appointment) of (the )?(statutory |secretarial )?auditor|auditor rotation"),
     ("Pledge", r"\bpledg|encumbrance"),
     ("Clarification", r"sought clarification|clarification (on|regarding|with respect to|to) .*(news|media|article|report)"
                       r"|news (item|report|article)"),
@@ -29,9 +29,9 @@ RULES: list[tuple[str, str]] = [
     ("Resignation", r"cessation|resignation"),
     ("Appointment", r"appointment|change in director|change in management|re-?designation"),
     ("Credit rating", r"credit rating"),
-    ("Board meeting", r"board meeting|to announce .*results"),
     ("Results", r"financial result|outcome of board meeting.*result|results? for the (quarter|period|year)"
                 r"|financial statements for the (quarter|period|half|year)|report of auditors on financial"),
+    ("Board meeting", r"board meeting|to announce .*results"),
     ("Earnings call", r"con\.? ?call|conference call|earnings call|analysts?/institutional investor meet"
                       r"|investor presentation|transcript|link of recording|analyst\(s\)/investor\(s\) meet|investor conference"
                       r"|investors' call|analyst presentation"),

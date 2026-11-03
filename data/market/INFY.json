@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-03T18:07:28Z",
+ "generated_at": "2026-11-03T18:14:29Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2699,8 +2699,8 @@
   {
    "date": "2026-10-27",
    "filed_at": "2026-10-27T22:53:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding ' Investor Conference'.",
@@ -2719,8 +2719,8 @@
   {
    "date": "2026-10-23",
    "filed_at": "2026-10-23T20:07:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Results",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Report of auditors on financial statements for the quarter and half year ended September 30, 2026 withUDIN'.",
@@ -2749,7 +2749,7 @@
   {
    "date": "2026-10-19",
    "filed_at": "2026-10-19T15:40:00+05:30",
-   "tag": "Other",
+   "tag": "Board meeting",
    "priority": 3,
    "worth_a_look": false,
    "category": "Updates",
@@ -2807,16 +2807,6 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/INFY_30092026152928_PR_30092026.pdf"
   },
   {
-   "date": "2026-09-18",
-   "filed_at": "2026-09-18T10:31:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Allotment of Securities",
-   "subject": "Infosys Limited has informed the Exchange regarding allotment of 44116 securities pursuant to ESOP/ESPS.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_18092026103021_ESOP_Allotment_Batch100.pdf"
-  },
-  {
    "date": "2026-09-16",
    "filed_at": "2026-09-16T18:18:00+05:30",
    "tag": "Other",
@@ -2839,8 +2829,8 @@
   {
    "date": "2026-09-07",
    "filed_at": "2026-09-07T22:35:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
@@ -2859,8 +2849,8 @@
   {
    "date": "2026-09-01",
    "filed_at": "2026-09-01T15:34:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
@@ -2869,8 +2859,8 @@
   {
    "date": "2026-08-25",
    "filed_at": "2026-08-25T17:33:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
@@ -2929,8 +2919,8 @@
   {
    "date": "2026-08-17",
    "filed_at": "2026-08-17T16:44:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
@@ -2939,8 +2929,8 @@
   {
    "date": "2026-08-10",
    "filed_at": "2026-08-10T16:17:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",

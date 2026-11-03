@@ -1,9 +1,7 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-03T18:08:58Z",
- "errors": {
-  "results": "ZeroDivisionError: float division by zero"
- },
+ "generated_at": "2026-11-03T18:14:30Z",
+ "errors": {},
  "price": {
   "as_of": "2026-11-03",
   "close": 4562.0,
@@ -2546,7 +2544,117 @@
    23810.85
   ]
  ],
- "results": null,
+ "results": {
+  "basis": "Consolidated",
+  "bank": false,
+  "latest_quarter": "Q1FY27",
+  "latest_qe": "2026-06-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710081_07082026064307_WEB.xml",
+  "top_line": "revenue",
+  "ttm_revenue_cr": 92417.0,
+  "ttm_pat_cr": 5760.0,
+  "ttm_margin_pct": 6.232619539695078,
+  "ttm_eps": 64.61,
+  "pe": 70.60826497446216,
+  "pe_note": null,
+  "market_cap_cr": 405014.36,
+  "revenue_yoy_pct": 29.25013617381831,
+  "pat_yoy_pct": 62.87809349220899,
+  "net_npa_pct": null,
+  "ebitda_note": null,
+  "quarters": [
+   {
+    "quarter": "Q1FY25",
+    "qe": "2024-06-30",
+    "revenue_cr": 13266.0,
+    "ebitda_cr": 1247.0,
+    "pbt_cr": 973.0,
+    "pat_cr": 715.68,
+    "approved": "2024-08-02",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_110257_1211293_02082024091439.xml"
+   },
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 14534.0,
+    "ebitda_cr": 1236.0,
+    "pbt_cr": 947.0,
+    "pat_cr": 704.0,
+    "approved": "2024-11-05",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_114205_1298004_05112024110042.xml"
+   },
+   {
+    "quarter": "Q3FY25",
+    "qe": "2024-12-31",
+    "revenue_cr": 17740.0,
+    "ebitda_cr": 1674.0,
+    "pbt_cr": 1396.0,
+    "pat_cr": 1047.28,
+    "approved": "2025-02-04",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118668_1371012_04022025105441.xml"
+   },
+   {
+    "quarter": "Q4FY25",
+    "qe": "2025-03-31",
+    "revenue_cr": 14916.0,
+    "ebitda_cr": 1537.0,
+    "pbt_cr": 1218.0,
+    "pat_cr": 871.0,
+    "approved": "2025-05-08",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1434467_08052025105413_WEB.xml"
+   },
+   {
+    "quarter": "Q1FY26",
+    "qe": "2025-06-30",
+    "revenue_cr": 16523.0,
+    "ebitda_cr": 1830.0,
+    "pbt_cr": 1480.0,
+    "pat_cr": 1091.0,
+    "approved": "2025-08-07",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1506412_08082025123555_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY26",
+    "qe": "2025-09-30",
+    "revenue_cr": 18725.0,
+    "ebitda_cr": 1875.0,
+    "pbt_cr": 1521.0,
+    "pat_cr": 1120.0,
+    "approved": "2025-11-03",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564284_03112025103706_WEB.xml"
+   },
+   {
+    "quarter": "Q3FY26",
+    "qe": "2025-12-31",
+    "revenue_cr": 25416.0,
+    "ebitda_cr": 2561.0,
+    "pbt_cr": 2223.0,
+    "pat_cr": 1684.0,
+    "approved": "2026-02-10",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1622765_10022026065219_WEB.xml"
+   },
+   {
+    "quarter": "Q4FY26",
+    "qe": "2026-03-31",
+    "revenue_cr": 26920.0,
+    "ebitda_cr": 1988.0,
+    "pbt_cr": 1576.0,
+    "pat_cr": 1179.0,
+    "approved": "2026-05-08",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1665068_08052026074730_WEB.xml"
+   },
+   {
+    "quarter": "Q1FY27",
+    "qe": "2026-06-30",
+    "revenue_cr": 21356.0,
+    "ebitda_cr": 2890.0,
+    "pbt_cr": 2427.0,
+    "pat_cr": 1777.0,
+    "approved": "2026-08-07",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710081_07082026064307_WEB.xml"
+   }
+  ]
+ },
  "filings": [
   {
    "date": "2026-10-28",
@@ -2567,26 +2675,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Titan Company Limited has informed the Exchange about Earnings call for Q2 and half year ended FY 2026-27",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_23102026195704_SEQ2FY27EarningCall.pdf"
-  },
-  {
-   "date": "2026-10-19",
-   "filed_at": "2026-10-19T16:11:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_19102026161128_SECPRedemption16102026.pdf"
-  },
-  {
-   "date": "2026-10-08",
-   "filed_at": "2026-10-08T16:12:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Titan Company Limited has informed the Exchange regarding 'Redemption of Commercial Paper'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_08102026161235_SECPRedemption08102026.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2639,16 +2727,6 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11092026175302_SE_Intimation_credit_rating.pdf"
   },
   {
-   "date": "2026-09-10",
-   "filed_at": "2026-09-10T16:11:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_10092026161122_SECPRedemption10092026.pdf"
-  },
-  {
    "date": "2026-09-07",
    "filed_at": "2026-09-07T14:31:00+05:30",
    "tag": "Press release",
@@ -2667,16 +2745,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Titan Company Limited has informed the Exchange about Schedule of Analysts / Institutional Investors Meeting",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_04092026170738_SEintimation_4.pdf"
-  },
-  {
-   "date": "2026-09-04",
-   "filed_at": "2026-09-04T16:42:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_04092026164112_SECPRedemption04092026.pdf"
   },
   {
    "date": "2026-09-03",
@@ -2811,7 +2879,9 @@
  ],
  "routine": [
   "2026-10-28T17:26:00+05:30",
-  "2026-10-13T10:23:00+05:30"
+  "2026-10-19T16:11:00+05:30",
+  "2026-10-13T10:23:00+05:30",
+  "2026-10-08T16:12:00+05:30"
  ],
  "calls": [
   {

@@ -1,9 +1,7 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-03T18:08:43Z",
- "errors": {
-  "results": "ZeroDivisionError: float division by zero"
- },
+ "generated_at": "2026-11-03T18:14:30Z",
+ "errors": {},
  "price": {
   "as_of": "2026-11-03",
   "close": 1769.9,
@@ -2546,14 +2544,124 @@
    23810.85
   ]
  ],
- "results": null,
+ "results": {
+  "basis": "Consolidated",
+  "bank": false,
+  "latest_quarter": "Q2FY27",
+  "latest_qe": "2026-09-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+  "top_line": "revenue",
+  "ttm_revenue_cr": 61630.92,
+  "ttm_pat_cr": 10987.13,
+  "ttm_margin_pct": 17.827301620680007,
+  "ttm_eps": 45.7,
+  "pe": 38.72866520787746,
+  "pe_note": null,
+  "market_cap_cr": 424652.107,
+  "revenue_yoy_pct": 11.88260232029843,
+  "pat_yoy_pct": -36.15673850781612,
+  "net_npa_pct": null,
+  "ebitda_note": null,
+  "quarters": [
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 13291.39,
+    "ebitda_cr": 3938.96,
+    "pbt_cr": 3597.88,
+    "pat_cr": 3037.33,
+    "approved": "2024-10-28",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113712_1291536_28102024081314.xml"
+   },
+   {
+    "quarter": "Q3FY25",
+    "qe": "2024-12-31",
+    "revenue_cr": 13675.46,
+    "ebitda_cr": 3692.85,
+    "pbt_cr": 3476.4,
+    "pat_cr": 2912.98,
+    "approved": "2025-01-31",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118371_1367891_31012025073304.xml"
+   },
+   {
+    "quarter": "Q4FY25",
+    "qe": "2025-03-31",
+    "revenue_cr": 12958.84,
+    "ebitda_cr": 3354.41,
+    "pbt_cr": 3254.35,
+    "pat_cr": 2153.93,
+    "approved": "2025-05-22",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1447743_22052025080124_WEB.xml"
+   },
+   {
+    "quarter": "Q1FY26",
+    "qe": "2025-06-30",
+    "revenue_cr": 13851.4,
+    "ebitda_cr": 3483.66,
+    "pbt_cr": 3172.77,
+    "pat_cr": 2292.87,
+    "approved": "2025-07-31",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1499462_31072025064338_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY26",
+    "qe": "2025-09-30",
+    "revenue_cr": 14478.31,
+    "ebitda_cr": 4527.05,
+    "pbt_cr": 4167.61,
+    "pat_cr": 3124.95,
+    "approved": "2025-11-05",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+   },
+   {
+    "quarter": "Q3FY26",
+    "qe": "2025-12-31",
+    "revenue_cr": 15520.54,
+    "ebitda_cr": 4459.01,
+    "pbt_cr": 4227.16,
+    "pat_cr": 3381.17,
+    "approved": "2026-01-31",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1615658_31012026050621_WEB.xml"
+   },
+   {
+    "quarter": "Q4FY26",
+    "qe": "2026-03-31",
+    "revenue_cr": 14611.79,
+    "ebitda_cr": 3954.2,
+    "pbt_cr": 3551.34,
+    "pat_cr": 2709.66,
+    "approved": "2026-05-22",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1671527_22052026063920_WEB.xml"
+   },
+   {
+    "quarter": "Q1FY27",
+    "qe": "2026-06-30",
+    "revenue_cr": 15299.88,
+    "ebitda_cr": 4213.58,
+    "pbt_cr": 4098.81,
+    "pat_cr": 2901.23,
+    "approved": "2026-07-31",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY27",
+    "qe": "2026-09-30",
+    "revenue_cr": 16198.71,
+    "ebitda_cr": 3475.06,
+    "pbt_cr": 3159.37,
+    "pat_cr": 1995.07,
+    "approved": "2026-10-30",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml"
+   }
+  ]
+ },
  "filings": [
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T20:58:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
+   "tag": "Clarification",
+   "priority": 1,
+   "worth_a_look": true,
    "category": "Rumour Verification - Regulation 30(11)",
    "subject": "Clarification regarding news report relating to the Company s Assam facility",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
@@ -2561,9 +2669,9 @@
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T14:18:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
+   "tag": "Clarification",
+   "priority": 1,
+   "worth_a_look": true,
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited.",
    "pdf_url": "-"
@@ -2617,16 +2725,6 @@
    "category": "Press Release",
    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis\".",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf"
-  },
-  {
-   "date": "2026-10-26",
-   "filed_at": "2026-10-26T12:30:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Allotment of Securities",
-   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on October 26, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf"
   },
   {
    "date": "2026-10-23",
@@ -2881,6 +2979,7 @@
  ],
  "routine": [
   "2026-10-31T17:32:00+05:30",
+  "2026-10-26T12:30:00+05:30",
   "2026-10-14T17:38:00+05:30"
  ],
  "calls": [
@@ -2941,15 +3040,26 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 5,
+    "count": 7,
     "days": 90,
     "tags": [
+     "Clarification",
      "Credit rating",
      "Resignation",
      "Regulatory or legal"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-02",
+     "tag": "Clarification",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
+    },
+    {
+     "date": "2026-11-02",
+     "tag": "Clarification",
+     "pdf_url": "-"
+    },
     {
      "date": "2026-10-13",
      "tag": "Credit rating",
@@ -2964,16 +3074,6 @@
      "date": "2026-10-12",
      "tag": "Resignation",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
-    },
-    {
-     "date": "2026-09-08",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_08092026203827_SEIntimationforInternationalCreditRatings.pdf"
-    },
-    {
-     "date": "2026-08-17",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_17082026083921_SEIntimationforupdateonLipitor.pdf"
     }
    ]
   }

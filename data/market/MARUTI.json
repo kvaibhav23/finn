@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-03T18:08:04Z",
+ "generated_at": "2026-11-03T18:14:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2669,8 +2669,8 @@
   {
    "date": "2026-11-01",
    "filed_at": "2026-11-01T14:44:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Business update",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: October 2026",
@@ -2699,8 +2699,8 @@
   {
    "date": "2026-10-27",
    "filed_at": "2026-10-27T20:30:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Audio Recording of the investors' call held on 27th October 2026.",
@@ -2799,8 +2799,8 @@
   {
    "date": "2026-10-01",
    "filed_at": "2026-10-01T13:34:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Business update",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: September 2026",
@@ -2959,8 +2959,8 @@
   {
    "date": "2026-09-01",
    "filed_at": "2026-09-01T15:11:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Business update",
+   "priority": 2,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: August 2026",

@@ -138,6 +138,20 @@ def test_pe_loss_making(fx):
     ("Copy of Newspaper Publication", "Results published in newspapers", None),
     ("Trading Window", "Closure of trading window", None),
     ("General Updates", "Something else entirely", "Other"),
+    # Real subjects from the portfolio, November 2026
+    ("Clarification - Financial Results", "The Exchange has sought clarification from Sun Pharmaceutical Industries "
+     "Limited with respect to recent news item captioned India orders Sun Pharma to", "Clarification"),
+    ("General Updates", "Avenue Supermarts Limited has informed the Exchange about Action(s) initiated or orders passed",
+     "Regulatory or legal"),
+    ("Allotment of Securities", "ICICI Bank Limited has informed the Exchange regarding Allotment of 62879 Shares.", None),
+    ("ESOP/ESOS/ESPS", "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379 Options.", None),
+    ("General Updates", "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper", None),
+    ("General Updates", "Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.",
+     "Expansion"),
+    ("Sales/Production", "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: "
+     "October 2026", "Business update"),
+    ("General Updates", "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Results "
+     "on October 23, 2026'.", "Board meeting"),
 ])
 def test_filing_tags(category, subject, expected):
     assert filings.tag(category, subject) == expected

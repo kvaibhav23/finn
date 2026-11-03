@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-03T18:07:57Z",
+ "generated_at": "2026-11-03T18:14:29Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2747,16 +2747,6 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026124748_Outcome_NSE.pdf"
   },
   {
-   "date": "2026-10-27",
-   "filed_at": "2026-10-27T19:45:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about the grant of 54,100 Options to the eligible employees covered under the KPIT Technologies Limited - Restricted Stock Unit Plan 2022",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_27102026194517_NRC_Outcome_October_2026_S.pdf"
-  },
-  {
    "date": "2026-10-21",
    "filed_at": "2026-10-21T17:31:00+05:30",
    "tag": "Earnings call",
@@ -2849,8 +2839,8 @@
   {
    "date": "2026-08-25",
    "filed_at": "2026-08-25T16:02:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "KPIT Technologies Limited 9th Annual General Meeting to be held on August 31, 2026 - Response to Stakeholders Empowerment Services (SES) Voting Recommendations",
@@ -2909,6 +2899,7 @@
  ],
  "routine": [
   "2026-10-29T15:33:00+05:30",
+  "2026-10-27T19:45:00+05:30",
   "2026-10-13T21:20:00+05:30",
   "2026-10-13T21:09:00+05:30"
  ],

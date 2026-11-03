@@ -1,9 +1,7 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-03T18:07:57Z",
- "errors": {
-  "results": "FetchError: 404 HTTP 404 https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1477033_03072025073621_WEB.xml"
- },
+ "generated_at": "2026-11-03T18:14:29Z",
+ "errors": {},
  "price": {
   "as_of": "2026-11-03",
   "close": 3948.2,
@@ -2546,7 +2544,107 @@
    23810.85
   ]
  ],
- "results": null,
+ "results": {
+  "basis": "Consolidated",
+  "bank": false,
+  "latest_quarter": "Q2FY27",
+  "latest_qe": "2026-09-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml",
+  "top_line": "revenue",
+  "ttm_revenue_cr": 300903.54,
+  "ttm_pat_cr": 20894.89,
+  "ttm_margin_pct": 6.944049245814789,
+  "ttm_eps": 129.82,
+  "pe": 30.412879371437374,
+  "pe_note": null,
+  "market_cap_cr": 543232.838,
+  "revenue_yoy_pct": 15.836791646447313,
+  "pat_yoy_pct": 27.172665299988672,
+  "net_npa_pct": null,
+  "ebitda_note": null,
+  "quarters": [
+   {
+    "quarter": "Q2FY25",
+    "qe": "2024-09-30",
+    "revenue_cr": 61554.58,
+    "ebitda_cr": 6362.04,
+    "pbt_cr": 5555.09,
+    "pat_cr": 4098.84,
+    "approved": "2024-10-30",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_114071_1295139_31102024022725.xml"
+   },
+   {
+    "quarter": "Q3FY25",
+    "qe": "2024-12-31",
+    "revenue_cr": 64667.78,
+    "ebitda_cr": 6254.87,
+    "pbt_cr": 5333.03,
+    "pat_cr": 3973.98,
+    "approved": "2025-01-30",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118260_1367030_31012025015554.xml"
+   },
+   {
+    "quarter": "Q1FY26",
+    "qe": "2025-06-30",
+    "revenue_cr": 63678.92,
+    "ebitda_cr": 6317.66,
+    "pbt_cr": 5859.53,
+    "pat_cr": 4318.17,
+    "approved": "2025-07-29",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1497092_29072025074331_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY26",
+    "qe": "2025-09-30",
+    "revenue_cr": 67983.53,
+    "ebitda_cr": 6806.41,
+    "pbt_cr": 6336.11,
+    "pat_cr": 4678.01,
+    "approved": "2025-10-29",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1560629_29102025075509_WEB.xml"
+   },
+   {
+    "quarter": "Q3FY26",
+    "qe": "2025-12-31",
+    "revenue_cr": 71449.7,
+    "ebitda_cr": 5625.72,
+    "pbt_cr": 5369.89,
+    "pat_cr": 3824.65,
+    "approved": "2026-01-28",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1612263_28012026075512_WEB.xml"
+   },
+   {
+    "quarter": "Q4FY26",
+    "qe": "2026-03-31",
+    "revenue_cr": 82762.16,
+    "ebitda_cr": 8678.91,
+    "pbt_cr": 8410.28,
+    "pat_cr": 6133.06,
+    "approved": "2026-05-05",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1663820_05052026073236_WEB.xml"
+   },
+   {
+    "quarter": "Q1FY27",
+    "qe": "2026-06-30",
+    "revenue_cr": 67941.74,
+    "ebitda_cr": 6116.48,
+    "pbt_cr": 6922.26,
+    "pat_cr": 4988.03,
+    "approved": "2026-07-28",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1703294_28072026061959_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY27",
+    "qe": "2026-09-30",
+    "revenue_cr": 78749.94,
+    "ebitda_cr": 6844.65,
+    "pbt_cr": 7641.06,
+    "pat_cr": 5949.15,
+    "approved": "2026-10-27",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml"
+   }
+  ]
+ },
  "filings": [
   {
    "date": "2026-11-02",
@@ -2571,8 +2669,8 @@
   {
    "date": "2026-10-31",
    "filed_at": "2026-10-31T13:00:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
@@ -2591,8 +2689,8 @@
   {
    "date": "2026-10-27",
    "filed_at": "2026-10-27T18:37:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Earnings call",
+   "priority": 2,
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding 'Analyst Presentation.- Q2 / H1 FY27'.",
@@ -2607,16 +2705,6 @@
    "category": "Outcome of Board Meeting",
    "subject": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf"
-  },
-  {
-   "date": "2026-10-27",
-   "filed_at": "2026-10-27T13:29:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Allotment of Securities",
-   "subject": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2739,16 +2827,6 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_16092026172400_Intimation16092026.pdf"
   },
   {
-   "date": "2026-09-15",
-   "filed_at": "2026-09-15T17:31:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Allotment of Securities",
-   "subject": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 28,903 shares pursuant to ESOP/ESPS at its meeting held on September 15, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_15092026173026_ESOPAllotment15092026.pdf"
-  },
-  {
    "date": "2026-09-09",
    "filed_at": "2026-09-09T14:46:00+05:30",
    "tag": "Other",
@@ -2801,8 +2879,8 @@
   {
    "date": "2026-09-01",
    "filed_at": "2026-09-01T18:47:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "Scheme of Arrangement",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Scheme of Arrangement",
@@ -2861,8 +2939,8 @@
   {
    "date": "2026-08-11",
    "filed_at": "2026-08-11T15:58:00+05:30",
-   "tag": "Other",
-   "priority": 3,
+   "tag": "Expansion",
+   "priority": 1,
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Execution of Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and execution of Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limit",
@@ -2911,6 +2989,7 @@
  ],
  "routine": [
   "2026-10-28T19:47:00+05:30",
+  "2026-10-27T13:29:00+05:30",
   "2026-10-12T18:30:00+05:30"
  ],
  "calls": [
