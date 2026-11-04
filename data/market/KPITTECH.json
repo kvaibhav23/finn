@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-04T00:08:54Z",
+ "generated_at": "2026-11-04T00:14:33Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -2967,10 +2967,10 @@
    "key": "track",
    "state": "enough",
    "facts": {
-    "kept": 4,
+    "kept": 2,
     "missed": 2,
-    "decided": 6,
-    "dropped": 1
+    "decided": 4,
+    "dropped": 8
    }
   },
   {
@@ -3018,16 +3018,32 @@
    ]
   }
  ],
- "rerun": "earnings call transcript for the quarter ended 2026-09-30",
- "ledger_generated_at": "2026-11-02T05:45:49Z",
+ "rerun": null,
+ "ledger_generated_at": "2026-11-04T00:14:27Z",
  "ledger_counts": {
   "Unverifiable": 21,
   "Missed": 2,
-  "Dropped": 1,
-  "Revised": 3,
-  "Pending": 32,
-  "Kept": 4,
+  "Pending": 40,
+  "Revised": 7,
+  "Dropped": 8,
+  "Kept": 2,
   "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "915c9909bdd8e883",
+   "symbol": "KPITTECH",
+   "kind": "ledger",
+   "date": "2026-11-04",
+   "facts": {
+    "Unverifiable": 21,
+    "Missed": 2,
+    "Pending": 40,
+    "Revised": 7,
+    "Dropped": 8,
+    "Kept": 2,
+    "On track": 1
+   }
+  }
+ ]
 }
