@@ -1,17 +1,17 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-04T00:08:54Z",
+ "generated_at": "2026-11-04T11:28:31Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 273.9,
-  "change": 7.5,
-  "change_pct": 2.8153153153153143,
-  "high_52w": 414.5,
+  "as_of": "2026-11-04",
+  "close": 280.0,
+  "change": 6.100000000000023,
+  "change_pct": 2.2270901788974173,
+  "high_52w": 413.3,
   "low_52w": 252.8,
-  "range_position": 0.13048855905998744,
-  "return_1y": -33.832588476869184,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.16947040498442362,
+  "return_1y": -31.52359990217657,
+  "nifty_return_1y": null,
   "delivery_20d": 54.1115,
   "delivery_avg": 57.444426229508196,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     273.9,
     31526562,
     48.13
+   ],
+   [
+    "2026-11-04",
+    280.0,
+    42452845,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 19226.31,
   "ttm_margin_pct": 18.20159307286522,
   "ttm_eps": 15.07,
-  "pe": 18.175182481751822,
+  "pe": 18.579960185799603,
   "pe_note": null,
-  "market_cap_cr": 343210.39499999996,
+  "market_cap_cr": 350854.0,
   "revenue_yoy_pct": 43.85868179410291,
   "pat_yoy_pct": -18.455813594778803,
   "net_npa_pct": null,
@@ -2770,71 +2776,29 @@
  "routine": [],
  "calls": [],
  "move": {
-  "date": "2026-11-03",
-  "change_pct": 2.8153153153153143,
-  "typical_pct": 0.681452112501546,
-  "times": 4.131347256347271,
-  "volume_x": 1.8421356243297171,
+  "date": "2026-11-04",
+  "change_pct": 2.2270901788974173,
+  "typical_pct": 0.6821977994640238,
+  "times": 3.264581299803598,
+  "volume_x": 2.4711752504884883,
   "biggest_in_year": false,
-  "nifty_change_pct": 1.5786577249923273,
-  "filings": [
-   {
-    "date": "2026-11-02",
-    "tag": "Expansion",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
-   },
-   {
-    "date": "2026-11-02",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf"
-   },
-   {
-    "date": "2026-11-02",
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf"
-   },
-   {
-    "date": "2026-11-02",
-    "tag": "Board meeting",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf"
-   }
-  ]
+  "nifty_change_pct": null,
+  "filings": []
  },
  "signals": [
   {
    "key": "move",
    "state": "up",
    "facts": {
-    "date": "2026-11-03",
-    "change_pct": 2.8153153153153143,
-    "typical_pct": 0.681452112501546,
-    "times": 4.131347256347271,
-    "volume_x": 1.8421356243297171,
+    "date": "2026-11-04",
+    "change_pct": 2.2270901788974173,
+    "typical_pct": 0.6821977994640238,
+    "times": 3.264581299803598,
+    "volume_x": 2.4711752504884883,
     "biggest_in_year": false,
-    "nifty_change_pct": 1.5786577249923273
+    "nifty_change_pct": null
    },
-   "items": [
-    {
-     "date": "2026-11-02",
-     "tag": "Expansion",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
-    },
-    {
-     "date": "2026-11-02",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf"
-    },
-    {
-     "date": "2026-11-02",
-     "tag": "Results",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf"
-    },
-    {
-     "date": "2026-11-02",
-     "tag": "Board meeting",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf"
-    }
-   ]
+   "items": []
   },
   {
    "key": "track",
@@ -2843,13 +2807,13 @@
   },
   {
    "key": "price",
-   "state": "low",
+   "state": "middle",
    "facts": {
-    "return_1y": -33.832588476869184,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 273.9,
+    "return_1y": -31.52359990217657,
+    "nifty_return_1y": null,
+    "close": 280.0,
     "low_52w": 252.8,
-    "high_52w": 414.5
+    "high_52w": 413.3
    }
   },
   {
@@ -2875,5 +2839,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "7f536d4527aa88a6",
+   "symbol": "ITC",
+   "kind": "move",
+   "date": "2026-11-04",
+   "facts": {
+    "change_pct": 2.2270901788974173,
+    "times": 3.264581299803598,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

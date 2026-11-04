@@ -3,21 +3,5 @@
  "close": 23810.85,
  "change_pct": 1.5786577249923273,
  "big": false,
- "movers": [
-  {
-   "symbol": "ASIANPAINT",
-   "name": "Asian Paints Limited",
-   "change_pct": 3.9883973894126123
-  },
-  {
-   "symbol": "SUPREMEIND",
-   "name": "Supreme Industries Limited",
-   "change_pct": 2.5417935491889976
-  },
-  {
-   "symbol": "KPITTECH",
-   "name": "KPIT Technologies Limited",
-   "change_pct": -2.2840492527493317
-  }
- ]
+ "movers": []
 }

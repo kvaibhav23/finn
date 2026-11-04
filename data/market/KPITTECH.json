@@ -1,17 +1,17 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-04T00:14:33Z",
+ "generated_at": "2026-11-04T11:28:31Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 519.8,
-  "change": -12.150000000000091,
-  "change_pct": -2.2840492527493317,
+  "as_of": "2026-11-04",
+  "close": 520.0,
+  "change": 0.20000000000004547,
+  "change_pct": 0.03847633705271747,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.06099656357388307,
-  "return_1y": -55.343642611683855,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.06124202258222874,
+  "return_1y": -54.993941492123945,
+  "nifty_return_1y": null,
   "delivery_20d": 31.839999999999996,
   "delivery_avg": 34.44901639344262,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     519.8,
     885491,
     32.08
+   ],
+   [
+    "2026-11-04",
+    520.0,
+    1620202,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 26.656410256410254,
+  "pe": 26.666666666666668,
   "pe_note": null,
-  "market_cap_cr": 14167.35692,
+  "market_cap_cr": 14172.808,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2977,9 +2983,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -55.343642611683855,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 519.8,
+    "return_1y": -54.993941492123945,
+    "nifty_return_1y": null,
+    "close": 520.0,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -3029,21 +3035,5 @@
   "Kept": 2,
   "On track": 1
  },
- "events": [
-  {
-   "id": "915c9909bdd8e883",
-   "symbol": "KPITTECH",
-   "kind": "ledger",
-   "date": "2026-11-04",
-   "facts": {
-    "Unverifiable": 21,
-    "Missed": 2,
-    "Pending": 40,
-    "Revised": 7,
-    "Dropped": 8,
-    "Kept": 2,
-    "On track": 1
-   }
-  }
- ]
+ "events": []
 }

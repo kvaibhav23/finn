@@ -1,17 +1,17 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-04T00:08:53Z",
+ "generated_at": "2026-11-04T11:28:29Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 2437.8,
-  "change": 93.5,
-  "change_pct": 3.9883973894126123,
+  "as_of": "2026-11-04",
+  "close": 2418.3,
+  "change": -19.5,
+  "change_pct": -0.7999015505783857,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.370736189272999,
-  "return_1y": -2.961547647480278,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.34834041575743685,
+  "return_1y": -2.750633369525868,
+  "nifty_return_1y": null,
   "delivery_20d": 51.89149999999999,
   "delivery_avg": 56.22655737704918,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     2437.8,
     2008963,
     43.45
+   ],
+   [
+    "2026-11-04",
+    2418.3,
+    1354097,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 48.3115338882283,
+  "pe": 47.92508917954815,
   "pe_note": null,
-  "market_cap_cr": 233833.776,
+  "market_cap_cr": 231963.336,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
@@ -2919,43 +2925,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-03",
-  "change_pct": 3.9883973894126123,
-  "typical_pct": 0.7808259217503943,
-  "times": 5.1079213411252224,
-  "volume_x": 3.055934550137918,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.5786577249923273,
-  "filings": [
-   {
-    "date": "2026-11-03",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-03",
-    "change_pct": 3.9883973894126123,
-    "typical_pct": 0.7808259217503943,
-    "times": 5.1079213411252224,
-    "volume_x": 3.055934550137918,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.5786577249923273
-   },
-   "items": [
-    {
-     "date": "2026-11-03",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "enough",
@@ -2970,9 +2941,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -2.961547647480278,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 2437.8,
+    "return_1y": -2.750633369525868,
+    "nifty_return_1y": null,
+    "close": 2418.3,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }

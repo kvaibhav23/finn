@@ -1,17 +1,17 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-04T00:08:54Z",
+ "generated_at": "2026-11-04T11:28:30Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 3359.0,
-  "change": 129.0,
-  "change_pct": 3.9938080495355965,
+  "as_of": "2026-11-04",
+  "close": 3414.0,
+  "change": 55.0,
+  "change_pct": 1.6373920809764853,
   "high_52w": 4644.0,
   "low_52w": 3102.3,
-  "range_position": 0.16650450801063751,
-  "return_1y": -19.17709335899904,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.20217941233703046,
+  "return_1y": -18.37222647283856,
+  "nifty_return_1y": null,
   "delivery_20d": 49.7295,
   "delivery_avg": 54.09508196721312,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     3359.0,
     782428,
     50.05
+   ],
+   [
+    "2026-11-04",
+    3414.0,
+    1076867,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 3115.62,
   "ttm_margin_pct": 4.197631794229519,
   "ttm_eps": 47.82,
-  "pe": 70.24257632789627,
+  "pe": 71.39272271016311,
   "pe_note": null,
-  "market_cap_cr": 219090.775,
+  "market_cap_cr": 222678.15,
   "revenue_yoy_pct": 17.79597392707015,
   "pat_yoy_pct": 8.48799007081842,
   "net_npa_pct": null,
@@ -2920,43 +2926,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_04082026124725_ASLTranscriptIntimation04082026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-03",
-  "change_pct": 3.9938080495355965,
-  "typical_pct": 0.9107708553326321,
-  "times": 4.385085475837911,
-  "volume_x": 1.2593848498591418,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.5786577249923273,
-  "filings": [
-   {
-    "date": "2026-11-03",
-    "tag": "Business update",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-03",
-    "change_pct": 3.9938080495355965,
-    "typical_pct": 0.9107708553326321,
-    "times": 4.385085475837911,
-    "volume_x": 1.2593848498591418,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.5786577249923273
-   },
-   "items": [
-    {
-     "date": "2026-11-03",
-     "tag": "Business update",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2966,9 +2937,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -19.17709335899904,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 3359.0,
+    "return_1y": -18.37222647283856,
+    "nifty_return_1y": null,
+    "close": 3414.0,
     "low_52w": 3102.3,
     "high_52w": 4644.0
    }

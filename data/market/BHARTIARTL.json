@@ -1,17 +1,17 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-04T00:08:53Z",
+ "generated_at": "2026-11-04T11:28:29Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 2065.0,
-  "change": 75.09999999999991,
-  "change_pct": 3.774058997939589,
+  "as_of": "2026-11-04",
+  "close": 2067.6,
+  "change": 2.599999999999909,
+  "change_pct": 0.1259079903147553,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.7556894243641232,
-  "return_1y": -0.433944069431047,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.7614904060687191,
+  "return_1y": -2.162494676572202,
+  "nifty_return_1y": null,
   "delivery_20d": 66.299,
   "delivery_avg": 67.87311475409837,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     2065.0,
     18603124,
     73.72
+   ],
+   [
+    "2026-11-04",
+    2067.6,
+    11272829,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 36412.6,
   "ttm_margin_pct": 16.54747367976176,
   "ttm_eps": 47.779999999999994,
-  "pe": 43.218920050230224,
+  "pe": 43.27333612390122,
   "pe_note": null,
-  "market_cap_cr": 1258328.4,
+  "market_cap_cr": 1259912.736,
   "revenue_yoy_pct": 18.35022825326611,
   "pat_yoy_pct": 34.894499986526185,
   "net_npa_pct": null,
@@ -2934,31 +2940,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026185505_Stx_Intimation.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-03",
-  "change_pct": 3.774058997939589,
-  "typical_pct": 0.8207934336525335,
-  "times": 4.598061879156384,
-  "volume_x": 2.6060906764343654,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.5786577249923273,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-03",
-    "change_pct": 3.774058997939589,
-    "typical_pct": 0.8207934336525335,
-    "times": 4.598061879156384,
-    "volume_x": 2.6060906764343654,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.5786577249923273
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "none",
@@ -2968,9 +2951,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -0.433944069431047,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 2065.0,
+    "return_1y": -2.162494676572202,
+    "nifty_return_1y": null,
+    "close": 2067.6,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }

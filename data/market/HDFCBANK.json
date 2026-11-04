@@ -1,17 +1,17 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-04T00:08:54Z",
+ "generated_at": "2026-11-04T11:28:30Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-03",
-  "close": 725.5,
-  "change": 25.5,
-  "change_pct": 3.6428571428571477,
+  "as_of": "2026-11-04",
+  "close": 736.7,
+  "change": 11.200000000000045,
+  "change_pct": 1.5437629221226823,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.1616422624174561,
-  "return_1y": -26.912809147232153,
-  "nifty_return_1y": -7.578595174928726,
+  "range_position": 0.19379844961240314,
+  "return_1y": -25.227099720883018,
+  "nifty_return_1y": null,
   "delivery_20d": 56.616,
   "delivery_avg": 59.956393442622954,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     725.5,
     42746644,
     62.88
+   ],
+   [
+    "2026-11-04",
+    736.7,
+    50677695,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 13.98419429452583,
+  "pe": 14.200077101002314,
   "pe_note": null,
-  "market_cap_cr": 1118619.43,
+  "market_cap_cr": 1135888.262,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3054,31 +3060,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-03",
-  "change_pct": 3.6428571428571477,
-  "typical_pct": 0.8133516425477993,
-  "times": 4.478821892393317,
-  "volume_x": 1.4125386152122583,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.5786577249923273,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-03",
-    "change_pct": 3.6428571428571477,
-    "typical_pct": 0.8133516425477993,
-    "times": 4.478821892393317,
-    "volume_x": 1.4125386152122583,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.5786577249923273
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "none",
@@ -3088,9 +3071,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -26.912809147232153,
-    "nifty_return_1y": -7.578595174928726,
-    "close": 725.5,
+    "return_1y": -25.227099720883018,
+    "nifty_return_1y": null,
+    "close": 736.7,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
