@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-04T11:28:29Z",
+ "generated_at": "2026-11-04T18:51:13Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 787.9,
   "range_position": 0.5305019305019304,
   "return_1y": -5.960264900662249,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.224000000000004,
-  "delivery_avg": 62.42918032786885,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 60.931,
+  "delivery_avg": 62.55540983606558,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    1072.75,
-    12324341,
-    null
-   ],
    [
     "2025-10-29",
     1062.95,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     1144.8,
     6472397,
-    63.46
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     994.0,
     14416253,
-    null
+    71.16
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T15:29:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Shareholders meeting",
+   "subject": "Bajaj Finance Limited has submitted the Exchange a copy Srutinizers report of Extraordinary General Meeting held on November 02, 2026. Further, the company has informed the Exchange regarding voting results.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf"
+  },
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T19:31:00+05:30",
@@ -2961,7 +2965,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -5.960264900662249,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 994.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -2971,8 +2975,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.224000000000004,
-    "usual": 62.42918032786885,
+    "recent": 60.931,
+    "usual": 62.55540983606558,
     "months": 3
    }
   },

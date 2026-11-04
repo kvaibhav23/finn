@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-04T11:28:33Z",
+ "generated_at": "2026-11-04T18:52:33Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 3736.0,
   "range_position": 0.7020059281726062,
   "return_1y": 24.67287268913072,
-  "nifty_return_1y": null,
-  "delivery_20d": 55.977999999999994,
-  "delivery_avg": 56.15459016393442,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 55.0665,
+  "delivery_avg": 56.064918032786885,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    3717.0,
-    1482961,
-    null
-   ],
    [
     "2025-10-29",
     3748.3,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     4998.0,
     1283840,
-    50.52
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     4754.4,
     1324883,
-    null
+    45.05
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2791,86 +2785,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Titan Company Limited has informed the Exchange about Earnings Call Transcripts",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11082026225424_SEanalystcalltranscriptQ1.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T22:09:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026220858_SEanalystrecordingQ1.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T19:22:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Titan Company Limited Performance Based Stock Unit Scheme 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026192145_Outcome_7_Aug_26.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T18:53:00+05:30",
-   "tag": "Appointment",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Appointment",
-   "subject": "Titan Company Limited has informed the Exchange regarding Appointment of Ms. Priya Mathilakath as the Chief People Officer (CPO), Senior Management Personnel of the company w.e.f. April 01, 2027.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026185334_Outcome_7_Aug_26.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T18:31:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Titan Company Limited has informed the Exchange regarding 'Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026183040_SEIntimationCPupdate.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T18:18:00+05:30",
-   "tag": "Appointment",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Outcome of Board Meeting",
-   "subject": "Titan Company Limited has informed the Exchange regarding Outcome of Board Meeting held on August 07, 2026 - appointment Senior Management Personnel effective 1st April 2027.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026181543_Outcome_7_Aug_26.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T18:18:00+05:30",
-   "tag": "Board meeting",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Outcome of Board Meeting",
-   "subject": "Titan Company Limited has informed the Exchange regarding Outcome of Board Meeting held on August 07, 2026 - Titan Company Limited Performance Based Stock Unit Scheme 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026181628_Outcome_7_Aug_26.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T16:57:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Investor Presentation",
-   "subject": "Titan Company Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026165728_SEearningpresentationQ127.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T16:04:00+05:30",
-   "tag": "Results",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Outcome of Board Meeting",
-   "subject": "Titan Company Limited has submitted to the Exchange, Unaudited Standalone and Consolidated Financial Results for the quarter ended 30th June 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_07082026160159_SEresultQ127.pdf"
   }
  ],
  "routine": [
@@ -2904,11 +2818,11 @@
  "move": {
   "date": "2026-11-04",
   "change_pct": 4.217448487505471,
-  "typical_pct": 0.7682150745652483,
-  "times": 5.489931956740406,
+  "typical_pct": 0.7658419138363737,
+  "times": 5.506943941444489,
   "volume_x": 1.9393719006832109,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 0.6289149694362006,
   "filings": []
  },
  "signals": [
@@ -2918,11 +2832,11 @@
    "facts": {
     "date": "2026-11-04",
     "change_pct": 4.217448487505471,
-    "typical_pct": 0.7682150745652483,
-    "times": 5.489931956740406,
+    "typical_pct": 0.7658419138363737,
+    "times": 5.506943941444489,
     "volume_x": 1.9393719006832109,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 0.6289149694362006
    },
    "items": []
   },
@@ -2936,7 +2850,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 24.67287268913072,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 4754.4,
     "low_52w": 3736.0,
     "high_52w": 5186.7
@@ -2946,8 +2860,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.977999999999994,
-    "usual": 56.15459016393442,
+    "recent": 55.0665,
+    "usual": 56.064918032786885,
     "months": 3
    }
   },
@@ -2973,17 +2887,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "29dbbe665ef40d71",
-   "symbol": "TITAN",
-   "kind": "move",
-   "date": "2026-11-04",
-   "facts": {
-    "change_pct": 4.217448487505471,
-    "times": 5.489931956740406,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

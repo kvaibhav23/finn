@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-04T11:28:32Z",
+ "generated_at": "2026-11-04T18:52:20Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 1583.7,
   "range_position": 0.4095423143350605,
   "return_1y": 4.934911242603546,
-  "nifty_return_1y": null,
-  "delivery_20d": 59.985,
-  "delivery_avg": 63.13688524590164,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 60.0785,
+  "delivery_avg": 63.11639344262295,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    1687.0,
-    2440939,
-    null
-   ],
    [
     "2025-10-29",
     1715.9,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     1951.0,
     1864891,
-    63.05
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     1773.4,
     4925315,
-    null
+    61.8
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,26 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T19:15:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Transcript",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf"
+  },
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T10:04:00+05:30",
+   "tag": "Clarification",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "News Verification",
+   "subject": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is attached.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
+  },
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T20:58:00+05:30",
@@ -2990,7 +3004,7 @@
   {
    "quarter": "Q2FY27",
    "date": "2026-10-30",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_30102026201207_IntimationSE20261030_Q2FY27_Call_Recording_Signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf"
   }
  ],
  "move": null,
@@ -3005,7 +3019,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 4.934911242603546,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 1773.4,
     "low_52w": 1583.7,
     "high_52w": 2046.9
@@ -3015,8 +3029,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.985,
-    "usual": 63.13688524590164,
+    "recent": 60.0785,
+    "usual": 63.11639344262295,
     "months": 3
    }
   },
@@ -3024,7 +3038,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 8,
+    "count": 9,
     "days": 90,
     "tags": [
      "Clarification",
@@ -3035,6 +3049,11 @@
     ]
    },
    "items": [
+    {
+     "date": "2026-11-04",
+     "tag": "Clarification",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
+    },
     {
      "date": "2026-11-02",
      "tag": "Clarification",
@@ -3054,11 +3073,6 @@
      "date": "2026-10-13",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf"
-    },
-    {
-     "date": "2026-10-12",
-     "tag": "Resignation",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip"
     }
    ]
   }
@@ -3066,5 +3080,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "9bc1c950835e1105",
+   "symbol": "SUNPHARMA",
+   "kind": "flag",
+   "date": "2026-11-04",
+   "facts": {
+    "tag": "Clarification",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
+   }
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-04T11:28:31Z",
+ "generated_at": "2026-11-04T18:51:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 252.8,
   "range_position": 0.16947040498442362,
   "return_1y": -31.52359990217657,
-  "nifty_return_1y": null,
-  "delivery_20d": 54.1115,
-  "delivery_avg": 57.444426229508196,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 53.729,
+  "delivery_avg": 57.32836065573771,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    417.9,
-    17163147,
-    null
-   ],
    [
     "2025-10-29",
     421.6,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     285.9,
     12447629,
-    56.5
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     280.0,
     42452845,
-    null
+    49.42
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T12:18:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "ITC Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
+  },
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T18:45:00+05:30",
@@ -2778,12 +2782,18 @@
  "move": {
   "date": "2026-11-04",
   "change_pct": 2.2270901788974173,
-  "typical_pct": 0.6821977994640238,
-  "times": 3.264581299803598,
+  "typical_pct": 0.681452112501546,
+  "times": 3.268153606160205,
   "volume_x": 2.4711752504884883,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
-  "filings": []
+  "nifty_change_pct": 0.6289149694362006,
+  "filings": [
+   {
+    "date": "2026-11-04",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -2792,13 +2802,19 @@
    "facts": {
     "date": "2026-11-04",
     "change_pct": 2.2270901788974173,
-    "typical_pct": 0.6821977994640238,
-    "times": 3.264581299803598,
+    "typical_pct": 0.681452112501546,
+    "times": 3.268153606160205,
     "volume_x": 2.4711752504884883,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 0.6289149694362006
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-04",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -2810,7 +2826,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -31.52359990217657,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 280.0,
     "low_52w": 252.8,
     "high_52w": 413.3
@@ -2820,8 +2836,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 54.1115,
-    "usual": 57.444426229508196,
+    "recent": 53.729,
+    "usual": 57.32836065573771,
     "months": 3
    }
   },
@@ -2839,17 +2855,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "7f536d4527aa88a6",
-   "symbol": "ITC",
-   "kind": "move",
-   "date": "2026-11-04",
-   "facts": {
-    "change_pct": 2.2270901788974173,
-    "times": 3.264581299803598,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

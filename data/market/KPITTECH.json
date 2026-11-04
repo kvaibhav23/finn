@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-04T11:28:31Z",
+ "generated_at": "2026-11-04T18:51:56Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 470.1,
   "range_position": 0.06124202258222874,
   "return_1y": -54.993941492123945,
-  "nifty_return_1y": null,
-  "delivery_20d": 31.839999999999996,
-  "delivery_avg": 34.44901639344262,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 31.8385,
+  "delivery_avg": 34.709836065573775,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    1190.3,
-    812079,
-    null
-   ],
    [
     "2025-10-29",
     1194.1,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     623.0,
     3620699,
-    23.87
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     520.0,
     1620202,
-    null
+    39.78
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2922,16 +2916,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "KPIT Technologies Limited has informed the Exchange about Outcome of the investor conference. held on Monday, August 10, 2026.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_10082026215114_KPIT_Nirmal_Bang_outcome_signed.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T18:15:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about the Company will be sending a letter providing a web link of the Annual Report 2025-26 to those Members who have not registered their e-mail addresses with the Registrar & Share Transfer Agent /Depository Participant",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_07082026181443_CovLet_Weblink_letter_signed.pdf"
   }
  ],
  "routine": [
@@ -2984,7 +2968,7 @@
    "state": "low",
    "facts": {
     "return_1y": -54.993941492123945,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 520.0,
     "low_52w": 470.1,
     "high_52w": 1284.9
@@ -2994,8 +2978,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 31.839999999999996,
-    "usual": 34.44901639344262,
+    "recent": 31.8385,
+    "usual": 34.709836065573775,
     "months": 3
    }
   },

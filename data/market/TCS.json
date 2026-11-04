@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-04T11:28:33Z",
+ "generated_at": "2026-11-04T18:52:28Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 1976.8,
   "range_position": 0.33440139819399944,
   "return_1y": -18.533877332619888,
-  "nifty_return_1y": null,
-  "delivery_20d": 47.445,
-  "delivery_avg": 48.40459016393442,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 47.486000000000004,
+  "delivery_avg": 48.42590163934426,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    3057.9,
-    3470737,
-    null
-   ],
    [
     "2025-10-29",
     3057.6,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     2373.0,
     2729141,
-    50.4
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     2436.0,
     3142051,
-    null
+    51.7
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T11:00:00+05:30",
+   "tag": "Press release",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS Enterprise AI Study: 84% say productivity is AI s top benefit; just 10% let AI act without human oversight'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_04112026104913_PR_04Nov26_signed.pdf"
+  },
   {
    "date": "2026-10-19",
    "filed_at": "2026-10-19T11:30:00+05:30",
@@ -3063,7 +3067,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -18.533877332619888,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 2436.0,
     "low_52w": 1976.8,
     "high_52w": 3350.0
@@ -3073,8 +3077,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 47.445,
-    "usual": 48.40459016393442,
+    "recent": 47.486000000000004,
+    "usual": 48.42590163934426,
     "months": 3
    }
   },

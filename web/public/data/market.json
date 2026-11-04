@@ -1,7 +1,23 @@
 {
- "date": "2026-11-03",
- "close": 23810.85,
- "change_pct": 1.5786577249923273,
+ "date": "2026-11-04",
+ "close": 23960.6,
+ "change_pct": 0.6289149694362006,
  "big": false,
- "movers": []
+ "movers": [
+  {
+   "symbol": "TCS",
+   "name": "Tata Consultancy Services Limited",
+   "change_pct": -2.524908967228201
+  },
+  {
+   "symbol": "SUPREMEIND",
+   "name": "Supreme Industries Limited",
+   "change_pct": 1.6212121212121122
+  },
+  {
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints Limited",
+   "change_pct": -0.7999015505783857
+  }
+ ]
 }

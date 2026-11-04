@@ -1,6 +1,6 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-04T11:28:32Z",
+ "generated_at": "2026-11-04T18:52:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 6663.0,
   "range_position": 0.3658677447300029,
   "return_1y": 4.894179894179884,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.545,
-  "delivery_avg": 52.24688524590164,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 49.602,
+  "delivery_avg": 52.19508196721311,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    7510.0,
-    761477,
-    null
-   ],
    [
     "2025-10-29",
     7735.5,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     9315.0,
     221520,
-    52.22
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     7930.0,
     141947,
-    null
+    49.06
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -3001,27 +2995,12 @@
    "category": "Demise",
    "subject": "Polycab India Limited has informed the Exchange regarding Demise of Mr Diwaker Bharadwaj, SMP of the company on August 17, 2026.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_18082026174455_Intimationtostockexchange.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T14:09:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_07082026140949_Intimationtostockexchange.pdf"
   }
  ],
  "routine": [
   "2026-10-27T18:42:00+05:30"
  ],
  "calls": [
-  {
-   "quarter": "Q2FY26",
-   "date": "2025-10-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102025211243_SEintimationearningscall17102025.pdf"
-  },
   {
    "quarter": "Q3FY26",
    "date": "2026-01-16",
@@ -3055,7 +3034,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 4.894179894179884,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 7930.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
@@ -3065,8 +3044,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.545,
-    "usual": 52.24688524590164,
+    "recent": 49.602,
+    "usual": 52.19508196721311,
     "months": 3
    }
   },

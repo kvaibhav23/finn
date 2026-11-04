@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-04T11:28:32Z",
+ "generated_at": "2026-11-04T18:52:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 3127.0,
   "range_position": 0.23897446718717025,
   "return_1y": -13.760736511855164,
-  "nifty_return_1y": null,
-  "delivery_20d": 49.773,
-  "delivery_avg": 48.62459016393443,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 49.722500000000004,
+  "delivery_avg": 48.788688524590164,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    3814.2,
-    1649586,
-    null
-   ],
    [
     "2025-10-29",
     3849.3,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     3477.0,
     172388,
-    46.74
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     3353.5,
     110374,
-    null
+    56.75
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2751,26 +2745,6 @@
    "category": "Updates",
    "subject": "Supreme Industries Limited has informed the Exchange regarding 'Disclosure under Regulation 10 (6) of SEBI (Substantial Acquisition of Share andTakeover) Regulation, 2011",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_04092026162633_StockExchangeIntimationregarding106.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T16:01:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Analyst and Institutional Investor Meets to be held on Thursday, 13th August, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_07082026160024_IntimationtoStockExchangesforInvestorMeets.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T14:45:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Supreme Industries Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_07082026144414_IntimationtoStockExchangesforInvestorMeets.pdf"
   }
  ],
  "routine": [
@@ -2821,7 +2795,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -13.760736511855164,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 3353.5,
     "low_52w": 3127.0,
     "high_52w": 4074.8
@@ -2831,8 +2805,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 49.773,
-    "usual": 48.62459016393443,
+    "recent": 49.722500000000004,
+    "usual": 48.788688524590164,
     "months": 3
    }
   },

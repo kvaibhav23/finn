@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-04T11:28:30Z",
+ "generated_at": "2026-11-04T18:51:43Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 1187.6,
   "range_position": 0.8088235294117645,
   "return_1y": 6.522552172937379,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.4985,
-  "delivery_avg": 61.35672131147541,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 60.708000000000006,
+  "delivery_avg": 61.39737704918032,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    1363.1,
-    26477914,
-    null
-   ],
    [
     "2025-10-29",
     1370.4,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     1457.5,
     14954726,
-    59.02
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     1424.1,
     10606471,
-    null
+    61.5
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -3231,16 +3225,6 @@
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 300684 Shares.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_11082026120029_Lettertoexchange.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T00:00:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_06082026235854_NSEBSE_06082026.pdf"
   }
  ],
  "routine": [
@@ -3281,7 +3265,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 6.522552172937379,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 1424.1,
     "low_52w": 1187.6,
     "high_52w": 1480.0
@@ -3291,8 +3275,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.4985,
-    "usual": 61.35672131147541,
+    "recent": 60.708000000000006,
+    "usual": 61.39737704918032,
     "months": 3
    }
   },

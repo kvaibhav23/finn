@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-04T11:28:31Z",
+ "generated_at": "2026-11-04T18:52:01Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 3288.1,
   "range_position": 0.569754318951298,
   "return_1y": 0.5096320456630332,
-  "nifty_return_1y": null,
-  "delivery_20d": 55.06699999999999,
-  "delivery_avg": 57.96655737704918,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 54.763999999999996,
+  "delivery_avg": 57.99016393442623,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    3972.8,
-    3391806,
-    null
-   ],
    [
     "2025-10-29",
     3958.1,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     4061.8,
     1401341,
-    54.42
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     3944.4,
     2494060,
-    null
+    55.86
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2642,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T18:51:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Larsen & Toubro Limited has informed the Exchange regarding Change in Corporate Office Address of Registrar and Share Transfer Agent '.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_04112026185041_Intimation04112026.pdf"
+  },
   {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T17:56:00+05:30",
@@ -2962,16 +2966,6 @@
    "category": "General Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about ESG Credit Rating",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_11082026140555_NSEESGRating11082026.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T12:53:00+05:30",
-   "tag": "Order or contract",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Bagging/Receiving of orders/contracts",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07082026125329_PressRelease07082026.pdf"
   }
  ],
  "routine": [
@@ -3018,7 +3012,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 0.5096320456630332,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 3944.4,
     "low_52w": 3288.1,
     "high_52w": 4440.0
@@ -3028,8 +3022,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.06699999999999,
-    "usual": 57.96655737704918,
+    "recent": 54.763999999999996,
+    "usual": 57.99016393442623,
     "months": 3
    }
   },

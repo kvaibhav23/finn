@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-04T11:28:29Z",
+ "generated_at": "2026-11-04T18:51:17Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -11,21 +11,15 @@
   "low_52w": 1726.3,
   "range_position": 0.7614904060687191,
   "return_1y": -2.162494676572202,
-  "nifty_return_1y": null,
-  "delivery_20d": 66.299,
-  "delivery_avg": 67.87311475409837,
+  "nifty_return_1y": -6.395313632306099,
+  "delivery_20d": 67.095,
+  "delivery_avg": 68.19622950819672,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-28",
-    2090.2,
-    9891522,
-    null
-   ],
    [
     "2025-10-29",
     2100.6,
@@ -1164,7 +1158,7 @@
     "2026-08-06",
     1948.0,
     5391645,
-    54.11
+    null
    ],
    [
     "2026-08-07",
@@ -1530,15 +1524,11 @@
     "2026-11-04",
     2067.6,
     11272829,
-    null
+    73.82
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-28",
-   25936.2
-  ],
   [
    "2025-10-29",
    26053.9
@@ -2538,6 +2528,10 @@
   [
    "2026-11-03",
    23810.85
+  ],
+  [
+   "2026-11-04",
+   23960.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,36 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T21:59:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Shareholders meeting",
+   "subject": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf"
+  },
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T17:03:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Bharti Airtel Limited has informed the Exchange regarding 'Updates'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026165700_BhartiAirtelSTXintimation.pdf"
+  },
+  {
+   "date": "2026-11-04",
+   "filed_at": "2026-11-04T16:47:00+05:30",
+   "tag": "Regulatory or legal",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Action(s) taken or orders passed",
+   "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf"
+  },
   {
    "date": "2026-10-30",
    "filed_at": "2026-10-30T22:40:00+05:30",
@@ -2901,19 +2925,10 @@
    "category": "Press Release",
    "subject": "Bharti Airtel Limited has informed the Exchange regarding a press release dated August 10, 2026, titled \"Airtel Business and ITI Limited enter into strategic partnership to accelerate India s digital transformation\".",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026120302_BhartiAirtelPressRelease.pdf"
-  },
-  {
-   "date": "2026-08-07",
-   "filed_at": "2026-08-07T13:15:00+05:30",
-   "tag": "Regulatory or legal",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Action(s) taken or orders passed",
-   "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_07082026131325_BhartiAirtelReg30.pdf"
   }
  ],
  "routine": [
+  "2026-11-04T15:38:00+05:30",
   "2026-11-03T22:33:00+05:30",
   "2026-10-30T15:23:00+05:30",
   "2026-10-26T19:01:00+05:30"
@@ -2952,7 +2967,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -2.162494676572202,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -6.395313632306099,
     "close": 2067.6,
     "low_52w": 1726.3,
     "high_52w": 2174.5
@@ -2962,8 +2977,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.299,
-    "usual": 67.87311475409837,
+    "recent": 67.095,
+    "usual": 68.19622950819672,
     "months": 3
    }
   },
@@ -2978,6 +2993,11 @@
     ]
    },
    "items": [
+    {
+     "date": "2026-11-04",
+     "tag": "Regulatory or legal",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf"
+    },
     {
      "date": "2026-10-30",
      "tag": "Regulatory or legal",
@@ -2997,11 +3017,6 @@
      "date": "2026-10-01",
      "tag": "Regulatory or legal",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_01102026125929_BhartiAirtel-Reg30.pdf"
-    },
-    {
-     "date": "2026-09-29",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf"
     }
    ]
   }
@@ -3009,5 +3024,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "d87eef773d833ac8",
+   "symbol": "BHARTIARTL",
+   "kind": "flag",
+   "date": "2026-11-04",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf"
+   }
+  }
+ ]
 }
