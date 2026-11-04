@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-03T19:06:21Z",
+ "generated_at": "2026-11-04T00:08:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-03",
@@ -3015,20 +3015,5 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": [
-  {
-   "id": "c908e39723618279",
-   "symbol": "ASIANPAINT",
-   "kind": "ledger",
-   "date": "2026-11-03",
-   "facts": {
-    "Unverifiable": 8,
-    "Kept": 8,
-    "Pending": 6,
-    "Revised": 4,
-    "Dropped": 1,
-    "On track": 1
-   }
-  }
- ]
+ "events": []
 }
