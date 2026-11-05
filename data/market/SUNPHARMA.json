@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-04T18:52:20Z",
+ "generated_at": "2026-11-05T00:29:47Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-04",
@@ -3080,16 +3080,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "9bc1c950835e1105",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-11-04",
-   "facts": {
-    "tag": "Clarification",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
-   }
-  }
- ]
+ "events": []
 }
