@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-05T11:25:32Z",
+ "generated_at": "2026-11-05T18:56:50Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 470.1,
   "range_position": 0.0855424644084437,
   "return_1y": -53.280249264324056,
-  "nifty_return_1y": null,
-  "delivery_20d": 31.8385,
-  "delivery_avg": 34.709836065573775,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 32.0695,
+  "delivery_avg": 34.83491803278688,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    1194.1,
-    446515,
-    null
-   ],
    [
     "2025-10-30",
     1171.5,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     629.9,
     2544167,
-    32.23
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     539.8,
     2026902,
-    null
+    39.86
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2957,8 +2951,31 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026220723_KPIT_Q2FY27_Transcript_Signed.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-05",
+  "change_pct": 3.8076923076922897,
+  "typical_pct": 1.265398474817725,
+  "times": 3.0090855832908847,
+  "volume_x": 0.9900610841051201,
+  "biggest_in_year": false,
+  "nifty_change_pct": 2.40394647880271,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-05",
+    "change_pct": 3.8076923076922897,
+    "typical_pct": 1.265398474817725,
+    "times": 3.0090855832908847,
+    "volume_x": 0.9900610841051201,
+    "biggest_in_year": false,
+    "nifty_change_pct": 2.40394647880271
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "enough",
@@ -2974,7 +2991,7 @@
    "state": "low",
    "facts": {
     "return_1y": -53.280249264324056,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 539.8,
     "low_52w": 470.1,
     "high_52w": 1284.9
@@ -2984,8 +3001,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 31.8385,
-    "usual": 34.709836065573775,
+    "recent": 32.0695,
+    "usual": 34.83491803278688,
     "months": 3
    }
   },
@@ -3025,5 +3042,17 @@
   "Kept": 2,
   "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "3e8464fd878e5889",
+   "symbol": "KPITTECH",
+   "kind": "move",
+   "date": "2026-11-05",
+   "facts": {
+    "change_pct": 3.8076923076922897,
+    "times": 3.0090855832908847,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

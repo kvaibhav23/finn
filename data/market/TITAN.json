@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-05T11:25:34Z",
+ "generated_at": "2026-11-05T18:57:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 3736.0,
   "range_position": 0.7572895843385955,
   "return_1y": 26.77592762554084,
-  "nifty_return_1y": null,
-  "delivery_20d": 55.0665,
-  "delivery_avg": 56.064918032786885,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 54.84400000000001,
+  "delivery_avg": 55.84098360655738,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    3748.3,
-    789557,
-    null
-   ],
    [
     "2025-10-30",
     3750.7,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     4941.0,
     1166858,
-    54.17
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     4834.6,
     1241367,
-    null
+    40.51
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,37 +2528,31 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
   "basis": "Consolidated",
   "bank": false,
-  "latest_quarter": "Q1FY27",
-  "latest_qe": "2026-06-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710081_07082026064307_WEB.xml",
+  "latest_quarter": "Q2FY27",
+  "latest_qe": "2026-09-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754035_05112026071123_WEB.xml",
   "top_line": "revenue",
-  "ttm_revenue_cr": 92417.0,
-  "ttm_pat_cr": 5760.0,
-  "ttm_margin_pct": 6.232619539695078,
-  "ttm_eps": 64.61,
-  "pe": 74.82742609503174,
+  "ttm_revenue_cr": 94306.0,
+  "ttm_pat_cr": 7032.73,
+  "ttm_margin_pct": 7.457351600110279,
+  "ttm_eps": 78.94999999999999,
+  "pe": 61.23622545915138,
   "pe_note": null,
   "market_cap_cr": 429215.78800000006,
-  "revenue_yoy_pct": 29.25013617381831,
-  "pat_yoy_pct": 62.87809349220899,
+  "revenue_yoy_pct": 10.088117489986658,
+  "pat_yoy_pct": 113.63660714285713,
   "net_npa_pct": null,
   "ebitda_note": null,
   "quarters": [
-   {
-    "quarter": "Q1FY25",
-    "qe": "2024-06-30",
-    "revenue_cr": 13266.0,
-    "ebitda_cr": 1247.0,
-    "pbt_cr": 973.0,
-    "pat_cr": 715.68,
-    "approved": "2024-08-02",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_110257_1211293_02082024091439.xml"
-   },
    {
     "quarter": "Q2FY25",
     "qe": "2024-09-30",
@@ -2648,10 +2632,80 @@
     "pat_cr": 1777.0,
     "approved": "2026-08-07",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710081_07082026064307_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY27",
+    "qe": "2026-09-30",
+    "revenue_cr": 20614.0,
+    "ebitda_cr": 2984.0,
+    "pbt_cr": 3001.0,
+    "pat_cr": 2392.73,
+    "approved": "2026-11-05",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754035_05112026071123_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T20:33:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Analyst Call Recording",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T18:51:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Retirement",
+   "subject": "Titan Company Limited has informed the Exchange about Retirement of Mr. Noel N. Tata as Director and Vice-Chairman",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T18:36:00+05:30",
+   "tag": "Auditor change",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Change in Auditors",
+   "subject": "Titan Company Limited has informed the Exchange regarding Change in Auditors of the company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T18:02:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026180204_SECPQ2.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T17:16:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Investor Presentation",
+   "subject": "Titan Company Limited has informed the Exchange about Investor Presentation",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T16:50:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Outcome of Board Meeting",
+   "subject": "Titan Company Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf"
+  },
   {
    "date": "2026-10-28",
    "filed_at": "2026-10-28T13:49:00+05:30",
@@ -2794,6 +2848,7 @@
   }
  ],
  "routine": [
+  "2026-11-05T18:23:00+05:30",
   "2026-10-28T17:26:00+05:30",
   "2026-10-19T16:11:00+05:30",
   "2026-10-13T10:23:00+05:30",
@@ -2819,6 +2874,11 @@
    "quarter": "Q1FY27",
    "date": "2026-08-07",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11082026225424_SEanalystcalltranscriptQ1.pdf"
+  },
+  {
+   "quarter": "Q2FY27",
+   "date": "2026-11-05",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
   }
  ],
  "move": null,
@@ -2833,7 +2893,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 26.77592762554084,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 4834.6,
     "low_52w": 3736.0,
     "high_52w": 5186.7
@@ -2843,8 +2903,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.0665,
-    "usual": 56.064918032786885,
+    "recent": 54.84400000000001,
+    "usual": 55.84098360655738,
     "months": 3
    }
   },
@@ -2852,13 +2912,19 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 1,
+    "count": 2,
     "days": 90,
     "tags": [
+     "Auditor change",
      "Credit rating"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-05",
+     "tag": "Auditor change",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
+    },
     {
      "date": "2026-09-11",
      "tag": "Credit rating",
@@ -2870,5 +2936,26 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "9326ca6281fd738b",
+   "symbol": "TITAN",
+   "kind": "flag",
+   "date": "2026-11-05",
+   "facts": {
+    "tag": "Auditor change",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
+   }
+  },
+  {
+   "id": "96a8c4de97d70d4a",
+   "symbol": "TITAN",
+   "kind": "results",
+   "date": "2026-11-05",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf"
+   }
+  }
+ ]
 }

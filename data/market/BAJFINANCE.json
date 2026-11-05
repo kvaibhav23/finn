@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-05T11:25:31Z",
+ "generated_at": "2026-11-05T18:56:05Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 787.9,
   "range_position": 0.7261261261261259,
   "return_1y": 1.2298959318826963,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.931,
-  "delivery_avg": 62.55540983606558,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 61.7925,
+  "delivery_avg": 62.83983606557377,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    1062.95,
-    5386803,
-    null
-   ],
    [
     "2025-10-30",
     1052.3,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     1078.0,
     15614001,
-    55.76
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     1070.0,
     29819613,
-    null
+    73.11
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2929,8 +2923,7 @@
   "2026-10-30T14:53:00+05:30",
   "2026-10-21T12:29:00+05:30",
   "2026-10-10T17:19:00+05:30",
-  "2026-10-09T12:14:00+05:30",
-  "2026-10-07T18:52:00+05:30"
+  "2026-10-09T12:14:00+05:30"
  ],
  "calls": [
   {
@@ -2962,11 +2955,11 @@
  "move": {
   "date": "2026-11-05",
   "change_pct": 7.64587525150906,
-  "typical_pct": 1.091897848122625,
-  "times": 7.002372304932315,
+  "typical_pct": 1.096282173498575,
+  "times": 6.9743679468112765,
   "volume_x": 4.208494046873838,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.40394647880271,
   "filings": [
    {
     "date": "2026-11-04",
@@ -2982,11 +2975,11 @@
    "facts": {
     "date": "2026-11-05",
     "change_pct": 7.64587525150906,
-    "typical_pct": 1.091897848122625,
-    "times": 7.002372304932315,
+    "typical_pct": 1.096282173498575,
+    "times": 6.9743679468112765,
     "volume_x": 4.208494046873838,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.40394647880271
    },
    "items": [
     {
@@ -3006,7 +2999,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 1.2298959318826963,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 1070.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -3016,8 +3009,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.931,
-    "usual": 62.55540983606558,
+    "recent": 61.7925,
+    "usual": 62.83983606557377,
     "months": 3
    }
   },
@@ -3048,17 +3041,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "8c08d54b38200635",
-   "symbol": "BAJFINANCE",
-   "kind": "move",
-   "date": "2026-11-05",
-   "facts": {
-    "change_pct": 7.64587525150906,
-    "times": 7.002372304932315,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

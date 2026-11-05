@@ -1,7 +1,23 @@
 {
- "date": "2026-11-04",
- "close": 23960.6,
- "change_pct": 0.6289149694362006,
- "big": false,
- "movers": []
+ "date": "2026-11-05",
+ "close": 24536.6,
+ "change_pct": 2.40394647880271,
+ "big": true,
+ "movers": [
+  {
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints Limited",
+   "change_pct": 4.362568746640205
+  },
+  {
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies Limited",
+   "change_pct": 3.8076923076922897
+  },
+  {
+   "symbol": "DIXON",
+   "name": "Dixon Technologies (India) Limited",
+   "change_pct": 2.6525630593978944
+  }
+ ]
 }

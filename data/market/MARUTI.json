@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-05T11:25:33Z",
+ "generated_at": "2026-11-05T18:57:00Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 10985.0,
   "range_position": 0.2610806577916993,
   "return_1y": -17.70521659945362,
-  "nifty_return_1y": null,
-  "delivery_20d": 52.201499999999996,
-  "delivery_avg": 53.80049180327869,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 52.1315,
+  "delivery_avg": 53.89377049180328,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    16138.0,
-    232815,
-    null
-   ],
    [
     "2025-10-30",
     16206.0,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     14037.0,
     324104,
-    53.04
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     12652.0,
     1203576,
-    null
+    58.73
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2981,46 +2975,6 @@
    "category": "Shareholders meeting",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Shareholders meeting",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31082026131802_Proceedings_of_45thAGM.pdf"
-  },
-  {
-   "date": "2026-08-08",
-   "filed_at": "2026-08-08T22:11:00+05:30",
-   "tag": "Press release",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Press Release",
-   "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated August 08, 2026, titled \"Maruti Suzuki Annual Integrated Report 2025-26 The Next Million, New Momentum: Every Engine of Growth in Motion\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf"
-  },
-  {
-   "date": "2026-08-08",
-   "filed_at": "2026-08-08T21:46:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Maruti Suzuki India Limited has informed the Exchange about Issuance of letter providing Web-link of the Annual Report for the financial year 2025-26",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026214409_STxIntimation_WebLink.pdf"
-  },
-  {
-   "date": "2026-08-08",
-   "filed_at": "2026-08-08T21:38:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Maruti Suzuki India Limited has informed the Exchange about Business Responsibility and Sustainability Report (BRSR) for the financial year 2025-26",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026213558_STxIntimation_BRSR_8Aug2026.pdf"
-  },
-  {
-   "date": "2026-08-08",
-   "filed_at": "2026-08-08T21:20:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Maruti Suzuki India Limited has informed the Exchange about Shareholders meeting",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026211830_STxIntimation_AGMNotice_AR2026_8Aug2026.pdf"
   }
  ],
  "routine": [
@@ -3057,11 +3011,11 @@
  "move": {
   "date": "2026-11-05",
   "change_pct": 5.477282200917055,
-  "typical_pct": 0.8756997898922925,
-  "times": 6.25474878964027,
+  "typical_pct": 0.882151953780208,
+  "times": 6.209000816067731,
   "volume_x": 2.789879240047332,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.40394647880271,
   "filings": []
  },
  "signals": [
@@ -3071,11 +3025,11 @@
    "facts": {
     "date": "2026-11-05",
     "change_pct": 5.477282200917055,
-    "typical_pct": 0.8756997898922925,
-    "times": 6.25474878964027,
+    "typical_pct": 0.882151953780208,
+    "times": 6.209000816067731,
     "volume_x": 2.789879240047332,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.40394647880271
    },
    "items": []
   },
@@ -3089,7 +3043,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -17.70521659945362,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 12652.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
@@ -3099,8 +3053,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.201499999999996,
-    "usual": 53.80049180327869,
+    "recent": 52.1315,
+    "usual": 53.89377049180328,
     "months": 3
    }
   },
@@ -3131,17 +3085,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "345390db8e77b2c4",
-   "symbol": "MARUTI",
-   "kind": "move",
-   "date": "2026-11-05",
-   "facts": {
-    "change_pct": 5.477282200917055,
-    "times": 6.25474878964027,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

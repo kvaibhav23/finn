@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-05T11:25:31Z",
+ "generated_at": "2026-11-05T18:56:09Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 1726.3,
   "range_position": 0.7376171352074968,
   "return_1y": -2.668811810911853,
-  "nifty_return_1y": null,
-  "delivery_20d": 67.095,
-  "delivery_avg": 68.19622950819672,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 66.7205,
+  "delivery_avg": 68.07426229508197,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    2100.6,
-    2742750,
-    null
-   ],
    [
     "2025-10-30",
     2066.3,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     1959.9,
     3019876,
-    66.9
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     2056.9,
     9773137,
-    null
+    59.46
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,37 +2528,31 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
   "basis": "Consolidated",
   "bank": false,
-  "latest_quarter": "Q1FY27",
-  "latest_qe": "2026-06-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+  "latest_quarter": "Q2FY27",
+  "latest_qe": "2026-09-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
   "top_line": "revenue",
-  "ttm_revenue_cr": 220049.3,
-  "ttm_pat_cr": 36412.6,
-  "ttm_margin_pct": 16.54747367976176,
-  "ttm_eps": 47.779999999999994,
-  "pe": 43.049393051485985,
+  "ttm_revenue_cr": 228781.4,
+  "ttm_pat_cr": 38472.2,
+  "ttm_margin_pct": 16.816139773600476,
+  "ttm_eps": 50.78,
+  "pe": 40.50610476565577,
   "pe_note": null,
-  "market_cap_cr": 1253392.584,
-  "revenue_yoy_pct": 18.35022825326611,
-  "pat_yoy_pct": 34.894499986526185,
+  "market_cap_cr": 1283670.152,
+  "revenue_yoy_pct": 16.745676512213926,
+  "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
   "ebitda_note": null,
   "quarters": [
-   {
-    "quarter": "Q1FY25",
-    "qe": "2024-06-30",
-    "revenue_cr": 38506.4,
-    "ebitda_cr": 20442.6,
-    "pbt_cr": 5113.6,
-    "pat_cr": 4717.5,
-    "approved": "2024-08-05",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_110417_1213293_05082024090212.xml"
-   },
    {
     "quarter": "Q2FY25",
     "qe": "2024-09-30",
@@ -2648,10 +2632,70 @@
     "pat_cr": 10011.6,
     "approved": "2026-08-04",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY27",
+    "qe": "2026-09-30",
+    "revenue_cr": 60877.5,
+    "ebitda_cr": 34765.7,
+    "pbt_cr": 15318.2,
+    "pat_cr": 10710.4,
+    "approved": "2026-11-05",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T19:35:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "subject": "Bharti Airtel Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T19:33:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Monitoring Agency Report",
+   "subject": "Monitoring Agency Report for the quarter ended September 30, 2026",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T16:25:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Bharti Airtel Limited has informed the Exchange regarding 'Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T16:23:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Press Release",
+   "subject": "Bharti Airtel Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended Septe",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf"
+  },
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T16:20:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Outcome of Board Meeting",
+   "subject": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
+  },
   {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T21:59:00+05:30",
@@ -2934,6 +2978,7 @@
   }
  ],
  "routine": [
+  "2026-11-05T14:01:00+05:30",
   "2026-11-04T15:38:00+05:30",
   "2026-11-03T22:33:00+05:30",
   "2026-10-30T15:23:00+05:30",
@@ -2973,7 +3018,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -2.668811810911853,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 2056.9,
     "low_52w": 1726.3,
     "high_52w": 2174.5
@@ -2983,8 +3028,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 67.095,
-    "usual": 68.19622950819672,
+    "recent": 66.7205,
+    "usual": 68.07426229508197,
     "months": 3
    }
   },
@@ -3030,5 +3075,36 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "396b880148766191",
+   "symbol": "BHARTIARTL",
+   "kind": "results",
+   "date": "2026-11-05",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf"
+   }
+  },
+  {
+   "id": "40c708f717ac6891",
+   "symbol": "BHARTIARTL",
+   "kind": "results",
+   "date": "2026-11-05",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf"
+   }
+  },
+  {
+   "id": "87d8556679c0fe5c",
+   "symbol": "BHARTIARTL",
+   "kind": "results",
+   "date": "2026-11-05",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
+   }
+  }
+ ]
 }

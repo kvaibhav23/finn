@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-05T11:25:30Z",
+ "generated_at": "2026-11-05T18:55:59Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 2115.0,
   "range_position": 0.4695072929826579,
   "return_1y": 1.4919371054007424,
-  "nifty_return_1y": null,
-  "delivery_20d": 52.053999999999995,
-  "delivery_avg": 56.28098360655738,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 52.278,
+  "delivery_avg": 56.17852459016393,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    2538.7,
-    615292,
-    null
-   ],
    [
     "2025-10-30",
     2523.5,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     2735.0,
     1067986,
-    62.51
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     2523.8,
     2383904,
-    null
+    56.26
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2928,11 +2922,11 @@
  "move": {
   "date": "2026-11-05",
   "change_pct": 4.362568746640205,
-  "typical_pct": 0.7813773396762369,
-  "times": 5.58317796680389,
+  "typical_pct": 0.7819287576020795,
+  "times": 5.579240697092125,
   "volume_x": 3.36465809378233,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.40394647880271,
   "filings": []
  },
  "signals": [
@@ -2942,11 +2936,11 @@
    "facts": {
     "date": "2026-11-05",
     "change_pct": 4.362568746640205,
-    "typical_pct": 0.7813773396762369,
-    "times": 5.58317796680389,
+    "typical_pct": 0.7819287576020795,
+    "times": 5.579240697092125,
     "volume_x": 3.36465809378233,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.40394647880271
    },
    "items": []
   },
@@ -2965,7 +2959,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 1.4919371054007424,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 2523.8,
     "low_52w": 2115.0,
     "high_52w": 2985.7
@@ -2975,8 +2969,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.053999999999995,
-    "usual": 56.28098360655738,
+    "recent": 52.278,
+    "usual": 56.17852459016393,
     "months": 3
    }
   },
@@ -3009,17 +3003,5 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": [
-  {
-   "id": "fc7b85294c04226b",
-   "symbol": "ASIANPAINT",
-   "kind": "move",
-   "date": "2026-11-05",
-   "facts": {
-    "change_pct": 4.362568746640205,
-    "times": 5.58317796680389,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

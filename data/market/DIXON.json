@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-05T11:25:31Z",
+ "generated_at": "2026-11-05T18:56:19Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 9600.0,
   "range_position": 0.4884210526315789,
   "return_1y": -17.293824570604432,
-  "nifty_return_1y": null,
-  "delivery_20d": 36.058499999999995,
-  "delivery_avg": 38.246065573770494,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 36.1335,
+  "delivery_avg": 38.30885245901639,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    15512.0,
-    195693,
-    null
-   ],
    [
     "2025-10-30",
     15644.0,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     14200.0,
     192713,
-    31.41
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     12616.0,
     329831,
-    null
+    35.24
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T16:36:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Transcript",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
+  },
   {
    "date": "2026-11-03",
    "filed_at": "2026-11-03T17:30:00+05:30",
@@ -3124,6 +3128,7 @@
   }
  ],
  "routine": [
+  "2026-11-05T17:16:00+05:30",
   "2026-10-31T19:32:00+05:30",
   "2026-10-09T18:23:00+05:30"
  ],
@@ -3146,7 +3151,7 @@
   {
    "quarter": "Q2FY27",
    "date": "2026-10-30",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
   }
  ],
  "move": null,
@@ -3166,7 +3171,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -17.293824570604432,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 12616.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
@@ -3176,8 +3181,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.058499999999995,
-    "usual": 38.246065573770494,
+    "recent": 36.1335,
+    "usual": 38.30885245901639,
     "months": 3
    }
   },
@@ -3192,7 +3197,7 @@
    "items": []
   }
  ],
- "rerun": null,
+ "rerun": "earnings call transcript for the quarter ended 2026-09-30",
  "ledger_generated_at": "2026-11-01T21:19:15",
  "ledger_counts": {
   "Unverifiable": 80,

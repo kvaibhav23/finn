@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-05T11:25:33Z",
+ "generated_at": "2026-11-05T18:57:13Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -11,21 +11,15 @@
   "low_52w": 1583.7,
   "range_position": 0.5295768566493954,
   "return_1y": 8.224852071005916,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.0785,
-  "delivery_avg": 63.11639344262295,
+  "nifty_return_1y": -4.145107070375609,
+  "delivery_20d": 59.51800000000001,
+  "delivery_avg": 63.102295081967206,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-29",
-    1715.9,
-    1016738,
-    null
-   ],
    [
     "2025-10-30",
     1703.4,
@@ -1164,7 +1158,7 @@
     "2026-08-07",
     1945.0,
     2425268,
-    62.93
+    null
    ],
    [
     "2026-08-10",
@@ -1530,15 +1524,11 @@
     "2026-11-05",
     1829.0,
     3923834,
-    null
+    62.07
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-29",
-   26053.9
-  ],
   [
    "2025-10-30",
    25877.85
@@ -2538,6 +2528,10 @@
   [
    "2026-11-04",
    23960.6
+  ],
+  [
+   "2026-11-05",
+   24536.6
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-05",
+   "filed_at": "2026-11-05T15:54:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf"
+  },
   {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T19:15:00+05:30",
@@ -3016,12 +3020,17 @@
  "move": {
   "date": "2026-11-05",
   "change_pct": 3.1352204804330652,
-  "typical_pct": 0.6428663677791935,
-  "times": 4.876939652736547,
+  "typical_pct": 0.6420545746388395,
+  "times": 4.883105898274535,
   "volume_x": 2.2595137355282073,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.40394647880271,
   "filings": [
+   {
+    "date": "2026-11-05",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf"
+   },
    {
     "date": "2026-11-04",
     "tag": "Earnings call",
@@ -3041,13 +3050,18 @@
    "facts": {
     "date": "2026-11-05",
     "change_pct": 3.1352204804330652,
-    "typical_pct": 0.6428663677791935,
-    "times": 4.876939652736547,
+    "typical_pct": 0.6420545746388395,
+    "times": 4.883105898274535,
     "volume_x": 2.2595137355282073,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.40394647880271
    },
    "items": [
+    {
+     "date": "2026-11-05",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf"
+    },
     {
      "date": "2026-11-04",
      "tag": "Earnings call",
@@ -3070,7 +3084,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 8.224852071005916,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -4.145107070375609,
     "close": 1829.0,
     "low_52w": 1583.7,
     "high_52w": 2046.9
@@ -3080,8 +3094,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.0785,
-    "usual": 63.11639344262295,
+    "recent": 59.51800000000001,
+    "usual": 63.102295081967206,
     "months": 3
    }
   },
@@ -3131,17 +3145,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "b78c8b2f073e76b2",
-   "symbol": "SUNPHARMA",
-   "kind": "move",
-   "date": "2026-11-05",
-   "facts": {
-    "change_pct": 3.1352204804330652,
-    "times": 4.876939652736547,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }
