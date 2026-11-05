@@ -1,17 +1,17 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-05T00:29:46Z",
+ "generated_at": "2026-11-05T11:25:32Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-04",
-  "close": 1128.2,
-  "change": -19.899999999999864,
-  "change_pct": -1.733298493162605,
+  "as_of": "2026-11-05",
+  "close": 1167.4,
+  "change": 39.200000000000045,
+  "change_pct": 3.47456124800567,
   "high_52w": 1728.0,
   "low_52w": 980.4,
-  "range_position": 0.19769930444087755,
-  "return_1y": -23.141903399414133,
-  "nifty_return_1y": -6.395313632306099,
+  "range_position": 0.25013376136971655,
+  "return_1y": -20.471421758975406,
+  "nifty_return_1y": null,
   "delivery_20d": 53.958000000000006,
   "delivery_avg": 55.27967213114754,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     1128.2,
     9333345,
     44.15
+   ],
+   [
+    "2026-11-05",
+    1167.4,
+    10174914,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 30788.0,
   "ttm_margin_pct": 16.261038576921454,
   "ttm_eps": 75.59,
-  "pe": 14.925254663315254,
+  "pe": 15.443841778012965,
   "pe_note": null,
-  "market_cap_cr": 457146.64,
+  "market_cap_cr": 473030.48,
   "revenue_yoy_pct": 10.685547314003152,
   "pat_yoy_pct": 6.2779661016949095,
   "net_npa_pct": null,
@@ -2964,8 +2970,43 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-05",
+  "change_pct": 3.47456124800567,
+  "typical_pct": 1.1194123101429199,
+  "times": 3.1039155247114074,
+  "volume_x": 0.8266072215880117,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
+  "filings": [
+   {
+    "date": "2026-11-04",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/INFY_04112026210117_SE_filing_Investor_conference_04112026_signed.pdf"
+   }
+  ]
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-05",
+    "change_pct": 3.47456124800567,
+    "typical_pct": 1.1194123101429199,
+    "times": 3.1039155247114074,
+    "volume_x": 0.8266072215880117,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
+   },
+   "items": [
+    {
+     "date": "2026-11-04",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/INFY_04112026210117_SE_filing_Investor_conference_04112026_signed.pdf"
+    }
+   ]
+  },
   {
    "key": "track",
    "state": "none",
@@ -2975,9 +3016,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -23.141903399414133,
-    "nifty_return_1y": -6.395313632306099,
-    "close": 1128.2,
+    "return_1y": -20.471421758975406,
+    "nifty_return_1y": null,
+    "close": 1167.4,
     "low_52w": 980.4,
     "high_52w": 1728.0
    }
@@ -3005,5 +3046,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "6c320918d426bf2b",
+   "symbol": "INFY",
+   "kind": "move",
+   "date": "2026-11-05",
+   "facts": {
+    "change_pct": 3.47456124800567,
+    "times": 3.1039155247114074,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

@@ -1,17 +1,17 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-05T00:29:46Z",
+ "generated_at": "2026-11-05T11:25:32Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-04",
-  "close": 280.0,
-  "change": 6.100000000000023,
-  "change_pct": 2.2270901788974173,
+  "as_of": "2026-11-05",
+  "close": 278.85,
+  "change": -1.1499999999999773,
+  "change_pct": -0.4107142857142754,
   "high_52w": 413.3,
   "low_52w": 252.8,
-  "range_position": 0.16947040498442362,
-  "return_1y": -31.52359990217657,
-  "nifty_return_1y": -6.395313632306099,
+  "range_position": 0.16230529595015583,
+  "return_1y": -31.804842259721188,
+  "nifty_return_1y": null,
   "delivery_20d": 53.729,
   "delivery_avg": 57.32836065573771,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     280.0,
     42452845,
     49.42
+   ],
+   [
+    "2026-11-05",
+    278.85,
+    23247461,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 19226.31,
   "ttm_margin_pct": 18.20159307286522,
   "ttm_eps": 15.07,
-  "pe": 18.579960185799603,
+  "pe": 18.5036496350365,
   "pe_note": null,
-  "market_cap_cr": 350854.0,
+  "market_cap_cr": 349412.99250000005,
   "revenue_yoy_pct": 43.85868179410291,
   "pat_yoy_pct": -18.455813594778803,
   "net_npa_pct": null,
@@ -2779,43 +2785,8 @@
  ],
  "routine": [],
  "calls": [],
- "move": {
-  "date": "2026-11-04",
-  "change_pct": 2.2270901788974173,
-  "typical_pct": 0.681452112501546,
-  "times": 3.268153606160205,
-  "volume_x": 2.4711752504884883,
-  "biggest_in_year": false,
-  "nifty_change_pct": 0.6289149694362006,
-  "filings": [
-   {
-    "date": "2026-11-04",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-04",
-    "change_pct": 2.2270901788974173,
-    "typical_pct": 0.681452112501546,
-    "times": 3.268153606160205,
-    "volume_x": 2.4711752504884883,
-    "biggest_in_year": false,
-    "nifty_change_pct": 0.6289149694362006
-   },
-   "items": [
-    {
-     "date": "2026-11-04",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2825,9 +2796,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -31.52359990217657,
-    "nifty_return_1y": -6.395313632306099,
-    "close": 280.0,
+    "return_1y": -31.804842259721188,
+    "nifty_return_1y": null,
+    "close": 278.85,
     "low_52w": 252.8,
     "high_52w": 413.3
    }

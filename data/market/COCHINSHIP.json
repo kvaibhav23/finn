@@ -1,17 +1,17 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-05T00:29:45Z",
+ "generated_at": "2026-11-05T11:25:31Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-04",
-  "close": 1237.5,
-  "change": 36.5,
-  "change_pct": 3.0391340549541956,
+  "as_of": "2026-11-05",
+  "close": 1232.9,
+  "change": -4.599999999999909,
+  "change_pct": -0.37171717171716745,
   "high_52w": 1842.8,
   "low_52w": 1101.2,
-  "range_position": 0.18379180151024807,
-  "return_1y": -30.03335783343699,
-  "nifty_return_1y": -6.395313632306099,
+  "range_position": 0.17758899676375414,
+  "return_1y": -30.29343585684401,
+  "nifty_return_1y": null,
   "delivery_20d": 37.7735,
   "delivery_avg": 36.05983606557377,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     1237.5,
     759371,
     26.89
+   ],
+   [
+    "2026-11-05",
+    1232.9,
+    769099,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 680.1376,
   "ttm_margin_pct": 13.47477024914604,
   "ttm_eps": 25.86,
-  "pe": 47.853828306264504,
+  "pe": 47.67594740912607,
   "pe_note": null,
-  "market_cap_cr": 32556.249,
+  "market_cap_cr": 32435.231832,
   "revenue_yoy_pct": 2.3974943542678595,
   "pat_yoy_pct": -19.366146192703138,
   "net_npa_pct": null,
@@ -2889,9 +2895,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -30.03335783343699,
-    "nifty_return_1y": -6.395313632306099,
-    "close": 1237.5,
+    "return_1y": -30.29343585684401,
+    "nifty_return_1y": null,
+    "close": 1232.9,
     "low_52w": 1101.2,
     "high_52w": 1842.8
    }

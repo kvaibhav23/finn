@@ -1,17 +1,17 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-05T00:29:46Z",
+ "generated_at": "2026-11-05T11:25:33Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-04",
-  "close": 11995.0,
-  "change": 126.0,
-  "change_pct": 1.0615890133962358,
+  "as_of": "2026-11-05",
+  "close": 12652.0,
+  "change": 657.0,
+  "change_pct": 5.477282200917055,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.1581832419733751,
-  "return_1y": -21.97866527904254,
-  "nifty_return_1y": -6.395313632306099,
+  "range_position": 0.2610806577916993,
+  "return_1y": -17.70521659945362,
+  "nifty_return_1y": null,
   "delivery_20d": 52.201499999999996,
   "delivery_avg": 53.80049180327869,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     11995.0,
     581928,
     62.39
+   ],
+   [
+    "2026-11-05",
+    12652.0,
+    1203576,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 28.036837061449642,
+  "pe": 29.57249374751654,
   "pe_note": null,
-  "market_cap_cr": 377122.8,
+  "market_cap_cr": 397778.88,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3048,8 +3054,31 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-05",
+  "change_pct": 5.477282200917055,
+  "typical_pct": 0.8756997898922925,
+  "times": 6.25474878964027,
+  "volume_x": 2.789879240047332,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-05",
+    "change_pct": 5.477282200917055,
+    "typical_pct": 0.8756997898922925,
+    "times": 6.25474878964027,
+    "volume_x": 2.789879240047332,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "none",
@@ -3059,9 +3088,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -21.97866527904254,
-    "nifty_return_1y": -6.395313632306099,
-    "close": 11995.0,
+    "return_1y": -17.70521659945362,
+    "nifty_return_1y": null,
+    "close": 12652.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3102,5 +3131,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "345390db8e77b2c4",
+   "symbol": "MARUTI",
+   "kind": "move",
+   "date": "2026-11-05",
+   "facts": {
+    "change_pct": 5.477282200917055,
+    "times": 6.25474878964027,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

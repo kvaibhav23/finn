@@ -1,17 +1,17 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-05T00:29:46Z",
+ "generated_at": "2026-11-05T11:25:33Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-04",
-  "close": 7930.0,
-  "change": 93.0,
-  "change_pct": 1.1866785759857112,
+  "as_of": "2026-11-05",
+  "close": 7849.0,
+  "change": -81.0,
+  "change_pct": -1.0214375788146324,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.3658677447300029,
-  "return_1y": 4.894179894179884,
-  "nifty_return_1y": -6.395313632306099,
+  "range_position": 0.3424776205602079,
+  "return_1y": 3.8227513227513166,
+  "nifty_return_1y": null,
   "delivery_20d": 49.602,
   "delivery_avg": 52.19508196721311,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     7930.0,
     141947,
     49.06
+   ],
+   [
+    "2026-11-05",
+    7849.0,
+    228020,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 37.77809537420799,
+  "pe": 37.3922157114954,
   "pe_note": null,
-  "market_cap_cr": 119498.756,
+  "market_cap_cr": 118278.1508,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -3033,9 +3039,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 4.894179894179884,
-    "nifty_return_1y": -6.395313632306099,
-    "close": 7930.0,
+    "return_1y": 3.8227513227513166,
+    "nifty_return_1y": null,
+    "close": 7849.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
