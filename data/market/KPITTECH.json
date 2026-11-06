@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-05T18:56:50Z",
+ "generated_at": "2026-11-06T00:30:32Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -3042,17 +3042,5 @@
   "Kept": 2,
   "On track": 1
  },
- "events": [
-  {
-   "id": "3e8464fd878e5889",
-   "symbol": "KPITTECH",
-   "kind": "move",
-   "date": "2026-11-05",
-   "facts": {
-    "change_pct": 3.8076923076922897,
-    "times": 3.0090855832908847,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }
