@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-06T18:19:25Z",
+ "generated_at": "2026-11-06T23:48:05Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-30",
-    3987.5,
-    4959400,
-    null
-   ],
    [
     "2025-10-31",
     4030.9,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-10-30",
-   25877.85
-  ],
-  [
    "2025-10-31",
    25722.1
   ],
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T15:36:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_06112026153645_AnalystMeetIntimation06112026.pdf"
+  },
+  {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T18:51:00+05:30",
    "tag": "Other",
@@ -2764,18 +2764,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Larsen & Toubro Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf",
-   "profile": {
-    "page": 2,
-    "excerpt": "Dr. C. Jayakumar is a distinguished HR leader with over 38 years of rich and diverse experience in strategic HRM & organizational transformation. As the CHRO of L&T Ltd., he has played a pivotal role in shaping the people agenda of one of India's top conglomerates. An alumnus of LBS, Dr. Jayakumar holds a doctorate in leadership, certification in executive coaching from CFI. He is certified in Organizational Development from NTL Institute of Advanced Behavioural Sciences, USA.",
-    "name": "Mr. Suresh Kumar Narang",
-    "role": "Senior Vice President",
-    "effective": "July 1, 2026",
-    "previous": [
-     "Chief Executive of Nabha Power Ltd (2021-2026)",
-     "Project Director - Nabha Power"
-    ]
-   }
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf"
   },
   {
    "date": "2026-10-07",

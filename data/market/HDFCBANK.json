@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-06T18:19:24Z",
+ "generated_at": "2026-11-06T23:47:41Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-30",
-    998.15,
-    19962917,
-    null
-   ],
    [
     "2025-10-31",
     987.3,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-10-30",
-   25877.85
-  ],
-  [
    "2025-10-31",
    25722.1
   ],
@@ -2657,6 +2647,36 @@
  },
  "filings": [
   {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T22:27:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Shareholders meeting",
+   "subject": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf"
+  },
+  {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T15:21:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Change in Management",
+   "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
+   "profile": {
+    "page": 3,
+    "excerpt": "Mr. V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection. Prior to joining the Bank, he served as Head - Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited. He holds a Post Graduate degree in Business Administration from PSG College of Technology and a Bachelor of Technology (B. Tech) from Sri Venkateshwara University.",
+    "name": "Mr. V.N. Srivatsan",
+    "role": "Chief Compliance Officer",
+    "effective": "November 6, 2026",
+    "previous": [
+     "Head - Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited"
+    ]
+   }
+  },
+  {
    "date": "2026-10-31",
    "filed_at": "2026-10-31T22:16:00+05:30",
    "tag": "Appointment",
@@ -3067,12 +3087,23 @@
  "move": {
   "date": "2026-11-06",
   "change_pct": 3.717105263157894,
-  "typical_pct": 0.8289027707311547,
-  "times": 4.484368244877655,
+  "typical_pct": 0.8230452674897082,
+  "times": 4.516282894736862,
   "volume_x": 2.2723405320189505,
   "biggest_in_year": false,
   "nifty_change_pct": 2.012299992664013,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-06",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf"
+   },
+   {
+    "date": "2026-11-06",
+    "tag": "Appointment",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -3081,13 +3112,24 @@
    "facts": {
     "date": "2026-11-06",
     "change_pct": 3.717105263157894,
-    "typical_pct": 0.8289027707311547,
-    "times": 4.484368244877655,
+    "typical_pct": 0.8230452674897082,
+    "times": 4.516282894736862,
     "volume_x": 2.2723405320189505,
     "biggest_in_year": false,
     "nifty_change_pct": 2.012299992664013
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-06",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf"
+    },
+    {
+     "date": "2026-11-06",
+     "tag": "Appointment",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf"
+    }
+   ]
   },
   {
    "key": "track",

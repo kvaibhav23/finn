@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-06T18:19:26Z",
+ "generated_at": "2026-11-06T23:48:20Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-30",
-    1488.5,
-    9318663,
-    null
-   ],
    [
     "2025-10-31",
     1486.4,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-10-30",
-   25877.85
-  ],
-  [
    "2025-10-31",
    25722.1
   ],
@@ -2656,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T19:10:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - CLSA India Forum, scheduled to be held on November 16, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_06112026191022_Pre_CLSA_SE_06112026.pdf"
+  },
   {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T20:47:00+05:30",

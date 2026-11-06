@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-06T18:19:23Z",
+ "generated_at": "2026-11-06T23:47:15Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-30",
-    1052.3,
-    4271927,
-    null
-   ],
    [
     "2025-10-31",
     1042.8,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-10-30",
-   25877.85
-  ],
-  [
    "2025-10-31",
    25722.1
   ],
@@ -2709,6 +2699,16 @@
   {
    "date": "2026-10-19",
    "filed_at": "2026-10-19T17:57:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Issue of Securities",
+   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
+  },
+  {
+   "date": "2026-10-19",
+   "filed_at": "2026-10-19T17:57:00+05:30",
    "tag": "Appointment",
    "priority": 1,
    "worth_a_look": false,
@@ -2727,16 +2727,6 @@
      "security auditor and consultant"
     ]
    }
-  },
-  {
-   "date": "2026-10-19",
-   "filed_at": "2026-10-19T17:57:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Issue of Securities",
-   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
   },
   {
    "date": "2026-10-19",

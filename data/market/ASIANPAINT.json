@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-06T18:19:23Z",
+ "generated_at": "2026-11-06T23:47:07Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-30",
-    2523.5,
-    736486,
-    null
-   ],
    [
     "2025-10-31",
     2510.8,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-10-30",
-   25877.85
-  ],
-  [
    "2025-10-31",
    25722.1
   ],
@@ -2657,6 +2647,52 @@
  },
  "filings": [
   {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T22:06:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Appointment",
+   "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Independent Director of the company w.e.f. September 07, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
+   "profile": {
+    "page": 1,
+    "excerpt": "Mr. Leo Puri, as required under Regulation 30 of the Listing Regulations, was disclosed by the Company vide its letter no. APL/SEC/57/2026-27/35 dated 7th September 2026 and is available on the website of the Company at www.asianpaints.com. Mr. Leo Puri is not related to any of the Directors and/or Key Managerial Personnel and/or members of the Promoter(s) & Promoter(s) Group of the Company.",
+    "name": "Mr. Leo Puri",
+    "role": "Independent Director",
+    "effective": "7th September 2026",
+    "previous": []
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T22:02:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Change in Director(s)",
+   "subject": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
+   "profile": {
+    "page": 1,
+    "excerpt": "Mr. Leo Puri, as required under Regulation 30 of the Listing Regulations, was disclosed by the Company vide its letter no. APL/SEC/57/2026-27/35 dated 7th September 2026 and is available on the website of the Company at www.asianpaints.com. Mr. Leo Puri is not related to any of the Directors and/or Key Managerial Personnel and/or members of the Promoter(s) & Promoter(s) Group of the Company.",
+    "name": "Mr. Leo Puri",
+    "role": "Independent Director",
+    "effective": "7th September 2026",
+    "previous": []
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "filed_at": "2026-11-06T21:46:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Shareholders meeting",
+   "subject": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of th",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf"
+  },
+  {
    "date": "2026-11-03",
    "filed_at": "2026-11-03T18:24:00+05:30",
    "tag": "Earnings call",
@@ -2744,8 +2780,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the Postal Ballot Notice dated 7th September 2026 together with the Explanatory Statement being sent to the members of the Company seeking their approval for appointment of Mr. Leo Puri as an Independent Director of the Company for a term of five consecutive ",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf",
-   "profile": null
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2899,8 +2934,7 @@
   }
  ],
  "routine": [
-  "2026-10-15T22:59:00+05:30",
-  "2026-10-08T15:13:00+05:30"
+  "2026-10-15T22:59:00+05:30"
  ],
  "calls": [
   {
