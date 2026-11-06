@@ -1,17 +1,17 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-06T00:30:30Z",
+ "generated_at": "2026-11-06T11:24:16Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 1232.9,
-  "change": -4.599999999999909,
-  "change_pct": -0.37171717171716745,
+  "as_of": "2026-11-06",
+  "close": 1220.0,
+  "change": -12.900000000000091,
+  "change_pct": -1.0463135696325843,
   "high_52w": 1842.8,
   "low_52w": 1101.2,
-  "range_position": 0.17758899676375414,
-  "return_1y": -30.29343585684401,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 0.1601941747572815,
+  "return_1y": -28.34909261760733,
+  "nifty_return_1y": null,
   "delivery_20d": 37.2545,
   "delivery_avg": 36.038688524590164,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     1232.9,
     769099,
     36.74
+   ],
+   [
+    "2026-11-06",
+    1220.0,
+    647001,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 680.1376,
   "ttm_margin_pct": 13.47477024914604,
   "ttm_eps": 25.86,
-  "pe": 47.67594740912607,
+  "pe": 47.17710750193349,
   "pe_note": null,
-  "market_cap_cr": 32435.231832,
+  "market_cap_cr": 32095.8576,
   "revenue_yoy_pct": 2.3974943542678595,
   "pat_yoy_pct": -19.366146192703138,
   "net_npa_pct": null,
@@ -2889,9 +2895,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -30.29343585684401,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 1232.9,
+    "return_1y": -28.34909261760733,
+    "nifty_return_1y": null,
+    "close": 1220.0,
     "low_52w": 1101.2,
     "high_52w": 1842.8
    }

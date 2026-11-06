@@ -1,17 +1,17 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-06T00:30:30Z",
+ "generated_at": "2026-11-06T11:24:16Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 2523.8,
-  "change": 105.5,
-  "change_pct": 4.362568746640205,
+  "as_of": "2026-11-06",
+  "close": 2546.0,
+  "change": 22.199999999999818,
+  "change_pct": 0.8796259608526702,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.4695072929826579,
-  "return_1y": 1.4919371054007424,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 0.49500401975422087,
+  "return_1y": -2.1860232817242364,
+  "nifty_return_1y": null,
   "delivery_20d": 52.278,
   "delivery_avg": 56.17852459016393,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     2523.8,
     2383904,
     56.26
+   ],
+   [
+    "2026-11-06",
+    2546.0,
+    969158,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 50.015854141894565,
+  "pe": 50.45580657946888,
   "pe_note": null,
-  "market_cap_cr": 242082.896,
+  "market_cap_cr": 244212.32,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
@@ -2919,31 +2925,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-05",
-  "change_pct": 4.362568746640205,
-  "typical_pct": 0.7819287576020795,
-  "times": 5.579240697092125,
-  "volume_x": 3.36465809378233,
-  "biggest_in_year": false,
-  "nifty_change_pct": 2.40394647880271,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-05",
-    "change_pct": 4.362568746640205,
-    "typical_pct": 0.7819287576020795,
-    "times": 5.579240697092125,
-    "volume_x": 3.36465809378233,
-    "biggest_in_year": false,
-    "nifty_change_pct": 2.40394647880271
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "enough",
@@ -2958,9 +2941,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 1.4919371054007424,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 2523.8,
+    "return_1y": -2.1860232817242364,
+    "nifty_return_1y": null,
+    "close": 2546.0,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }

@@ -1,17 +1,17 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-06T00:30:33Z",
+ "generated_at": "2026-11-06T11:24:18Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 3291.0,
-  "change": -62.5,
-  "change_pct": -1.8637244669748032,
+  "as_of": "2026-11-06",
+  "close": 3156.9,
+  "change": -134.0999999999999,
+  "change_pct": -4.074749316317227,
   "high_52w": 4074.8,
-  "low_52w": 3127.0,
-  "range_position": 0.17303228529225573,
-  "return_1y": -15.367998765622593,
-  "nifty_return_1y": -4.145107070375609,
+  "low_52w": 3078.5,
+  "range_position": 0.07869115728194327,
+  "return_1y": -17.898104080518063,
+  "nifty_return_1y": null,
   "delivery_20d": 50.384499999999996,
   "delivery_avg": 48.490327868852454,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     3291.0,
     189262,
     48.61
+   ],
+   [
+    "2026-11-06",
+    3156.9,
+    504269,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 36.99415467625899,
+  "pe": 35.48673561151079,
   "pe_note": null,
-  "market_cap_cr": 41812.155,
+  "market_cap_cr": 40108.4145,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2779,8 +2785,31 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-06",
+  "change_pct": -4.074749316317227,
+  "typical_pct": 1.1436655454197975,
+  "times": 3.562885436774732,
+  "volume_x": 2.569269323769337,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "down",
+   "facts": {
+    "date": "2026-11-06",
+    "change_pct": -4.074749316317227,
+    "typical_pct": 1.1436655454197975,
+    "times": 3.562885436774732,
+    "volume_x": 2.569269323769337,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "enough",
@@ -2793,12 +2822,12 @@
   },
   {
    "key": "price",
-   "state": "middle",
+   "state": "low",
    "facts": {
-    "return_1y": -15.367998765622593,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 3291.0,
-    "low_52w": 3127.0,
+    "return_1y": -17.898104080518063,
+    "nifty_return_1y": null,
+    "close": 3156.9,
+    "low_52w": 3078.5,
     "high_52w": 4074.8
    }
   },
@@ -2832,5 +2861,17 @@
   "Pending": 26,
   "On track": 2
  },
- "events": []
+ "events": [
+  {
+   "id": "3fc211d89dfe7fe2",
+   "symbol": "SUPREMEIND",
+   "kind": "move",
+   "date": "2026-11-06",
+   "facts": {
+    "change_pct": -4.074749316317227,
+    "times": 3.562885436774732,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

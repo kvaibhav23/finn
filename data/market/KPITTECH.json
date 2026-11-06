@@ -1,17 +1,17 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-06T00:30:32Z",
+ "generated_at": "2026-11-06T11:24:17Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 539.8,
-  "change": 19.799999999999955,
-  "change_pct": 3.8076923076922897,
+  "as_of": "2026-11-06",
+  "close": 540.45,
+  "change": 0.650000000000091,
+  "change_pct": 0.12041496850687672,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.0855424644084437,
-  "return_1y": -53.280249264324056,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 0.08634020618556704,
+  "return_1y": -53.37732919254658,
+  "nifty_return_1y": null,
   "delivery_20d": 32.0695,
   "delivery_avg": 34.83491803278688,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     539.8,
     2026902,
     39.86
+   ],
+   [
+    "2026-11-06",
+    540.45,
+    1283225,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 27.68205128205128,
+  "pe": 27.715384615384618,
   "pe_note": null,
-  "market_cap_cr": 14712.46492,
+  "market_cap_cr": 14730.18093,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2951,31 +2957,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026220723_KPIT_Q2FY27_Transcript_Signed.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-05",
-  "change_pct": 3.8076923076922897,
-  "typical_pct": 1.265398474817725,
-  "times": 3.0090855832908847,
-  "volume_x": 0.9900610841051201,
-  "biggest_in_year": false,
-  "nifty_change_pct": 2.40394647880271,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-05",
-    "change_pct": 3.8076923076922897,
-    "typical_pct": 1.265398474817725,
-    "times": 3.0090855832908847,
-    "volume_x": 0.9900610841051201,
-    "biggest_in_year": false,
-    "nifty_change_pct": 2.40394647880271
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "enough",
@@ -2990,9 +2973,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -53.280249264324056,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 539.8,
+    "return_1y": -53.37732919254658,
+    "nifty_return_1y": null,
+    "close": 540.45,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }

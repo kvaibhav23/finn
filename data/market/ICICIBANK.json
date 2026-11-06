@@ -1,17 +1,17 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-06T00:30:31Z",
+ "generated_at": "2026-11-06T11:24:17Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 1500.0,
-  "change": 75.90000000000009,
-  "change_pct": 5.32968190436065,
-  "high_52w": 1501.4,
+  "as_of": "2026-11-06",
+  "close": 1571.2,
+  "change": 71.20000000000005,
+  "change_pct": 4.746666666666677,
+  "high_52w": 1571.2,
   "low_52w": 1187.6,
-  "range_position": 0.9955385595920966,
-  "return_1y": 12.199865360161555,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 1.0,
+  "return_1y": 18.994244168433806,
+  "nifty_return_1y": null,
   "delivery_20d": 61.229,
   "delivery_avg": 61.41213114754098,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     1500.0,
     38324323,
     70.82
+   ],
+   [
+    "2026-11-06",
+    1571.2,
+    40383259,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 18.42072946088665,
+  "pe": 19.295100085963405,
   "pe_note": null,
-  "market_cap_cr": 1076970.0,
+  "market_cap_cr": 1128090.176,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3255,13 +3261,13 @@
   }
  ],
  "move": {
-  "date": "2026-11-05",
-  "change_pct": 5.32968190436065,
-  "typical_pct": 0.774627301958497,
-  "times": 6.880317658421758,
-  "volume_x": 3.5711499562428792,
-  "biggest_in_year": true,
-  "nifty_change_pct": 2.40394647880271,
+  "date": "2026-11-06",
+  "change_pct": 4.746666666666677,
+  "typical_pct": 0.7778128458262756,
+  "times": 6.102581992746934,
+  "volume_x": 3.5448813137492556,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
   "filings": []
  },
  "signals": [
@@ -3269,13 +3275,13 @@
    "key": "move",
    "state": "up",
    "facts": {
-    "date": "2026-11-05",
-    "change_pct": 5.32968190436065,
-    "typical_pct": 0.774627301958497,
-    "times": 6.880317658421758,
-    "volume_x": 3.5711499562428792,
-    "biggest_in_year": true,
-    "nifty_change_pct": 2.40394647880271
+    "date": "2026-11-06",
+    "change_pct": 4.746666666666677,
+    "typical_pct": 0.7778128458262756,
+    "times": 6.102581992746934,
+    "volume_x": 3.5448813137492556,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
    },
    "items": []
   },
@@ -3288,11 +3294,11 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 12.199865360161555,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 1500.0,
+    "return_1y": 18.994244168433806,
+    "nifty_return_1y": null,
+    "close": 1571.2,
     "low_52w": 1187.6,
-    "high_52w": 1501.4
+    "high_52w": 1571.2
    }
   },
   {
@@ -3346,5 +3352,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "4bb907dec4eef583",
+   "symbol": "ICICIBANK",
+   "kind": "move",
+   "date": "2026-11-06",
+   "facts": {
+    "change_pct": 4.746666666666677,
+    "times": 6.102581992746934,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

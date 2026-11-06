@@ -1,17 +1,17 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-06T00:30:33Z",
+ "generated_at": "2026-11-06T11:24:18Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 12652.0,
-  "change": 657.0,
-  "change_pct": 5.477282200917055,
+  "as_of": "2026-11-06",
+  "close": 12750.0,
+  "change": 98.0,
+  "change_pct": 0.7745810938982078,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.2610806577916993,
-  "return_1y": -17.70521659945362,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 0.2764291307752545,
+  "return_1y": -17.486409526274915,
+  "nifty_return_1y": null,
   "delivery_20d": 52.1315,
   "delivery_avg": 53.89377049180328,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     12652.0,
     1203576,
     58.73
+   ],
+   [
+    "2026-11-06",
+    12750.0,
+    923719,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 29.57249374751654,
+  "pe": 29.80155669307903,
   "pe_note": null,
-  "market_cap_cr": 397778.88,
+  "market_cap_cr": 400860.0,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3008,31 +3014,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-05",
-  "change_pct": 5.477282200917055,
-  "typical_pct": 0.882151953780208,
-  "times": 6.209000816067731,
-  "volume_x": 2.789879240047332,
-  "biggest_in_year": false,
-  "nifty_change_pct": 2.40394647880271,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-05",
-    "change_pct": 5.477282200917055,
-    "typical_pct": 0.882151953780208,
-    "times": 6.209000816067731,
-    "volume_x": 2.789879240047332,
-    "biggest_in_year": false,
-    "nifty_change_pct": 2.40394647880271
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "none",
@@ -3042,9 +3025,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -17.70521659945362,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 12652.0,
+    "return_1y": -17.486409526274915,
+    "nifty_return_1y": null,
+    "close": 12750.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }

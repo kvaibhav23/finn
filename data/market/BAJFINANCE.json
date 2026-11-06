@@ -1,17 +1,17 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-06T00:30:30Z",
+ "generated_at": "2026-11-06T11:24:16Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-05",
-  "close": 1070.0,
-  "change": 76.0,
-  "change_pct": 7.64587525150906,
+  "as_of": "2026-11-06",
+  "close": 1087.75,
+  "change": 17.75,
+  "change_pct": 1.6588785046729004,
   "high_52w": 1176.4,
   "low_52w": 787.9,
-  "range_position": 0.7261261261261259,
-  "return_1y": 1.2298959318826963,
-  "nifty_return_1y": -4.145107070375609,
+  "range_position": 0.7718146718146717,
+  "return_1y": 4.400614262405211,
+  "nifty_return_1y": null,
   "delivery_20d": 61.7925,
   "delivery_avg": 62.83983606557377,
   "delivery_sessions": 61
@@ -1525,6 +1525,12 @@
     1070.0,
     29819613,
     73.11
+   ],
+   [
+    "2026-11-06",
+    1087.75,
+    9053404,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 22066.48,
   "ttm_margin_pct": 24.37436693305645,
   "ttm_eps": 34.790000000000006,
-  "pe": 30.75596435757401,
+  "pe": 31.266168439206663,
   "pe_note": null,
-  "market_cap_cr": 665957.3,
+  "market_cap_cr": 677004.7225,
   "revenue_yoy_pct": 21.643746685894683,
   "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
@@ -2952,43 +2958,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-05",
-  "change_pct": 7.64587525150906,
-  "typical_pct": 1.096282173498575,
-  "times": 6.9743679468112765,
-  "volume_x": 4.208494046873838,
-  "biggest_in_year": false,
-  "nifty_change_pct": 2.40394647880271,
-  "filings": [
-   {
-    "date": "2026-11-04",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-05",
-    "change_pct": 7.64587525150906,
-    "typical_pct": 1.096282173498575,
-    "times": 6.9743679468112765,
-    "volume_x": 4.208494046873838,
-    "biggest_in_year": false,
-    "nifty_change_pct": 2.40394647880271
-   },
-   "items": [
-    {
-     "date": "2026-11-04",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2998,9 +2969,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 1.2298959318826963,
-    "nifty_return_1y": -4.145107070375609,
-    "close": 1070.0,
+    "return_1y": 4.400614262405211,
+    "nifty_return_1y": null,
+    "close": 1087.75,
     "low_52w": 787.9,
     "high_52w": 1176.4
    }
