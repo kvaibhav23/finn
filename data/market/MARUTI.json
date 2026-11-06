@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-06T11:24:18Z",
+ "generated_at": "2026-11-06T18:19:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 10985.0,
   "range_position": 0.2764291307752545,
   "return_1y": -17.486409526274915,
-  "nifty_return_1y": null,
-  "delivery_20d": 52.1315,
-  "delivery_avg": 53.89377049180328,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 52.246500000000005,
+  "delivery_avg": 54.03370967741936,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     12750.0,
     923719,
-    null
+    62.57
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -3026,7 +3030,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -17.486409526274915,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 12750.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
@@ -3036,8 +3040,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.1315,
-    "usual": 53.89377049180328,
+    "recent": 52.246500000000005,
+    "usual": 54.03370967741936,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-06T11:24:17Z",
+ "generated_at": "2026-11-06T18:19:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 1187.6,
   "range_position": 1.0,
   "return_1y": 18.994244168433806,
-  "nifty_return_1y": null,
-  "delivery_20d": 61.229,
-  "delivery_avg": 61.41213114754098,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 61.977999999999994,
+  "delivery_avg": 61.49935483870968,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     1571.2,
     40383259,
-    null
+    66.82
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -3267,7 +3271,7 @@
   "times": 6.102581992746934,
   "volume_x": 3.5448813137492556,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.012299992664013,
   "filings": []
  },
  "signals": [
@@ -3281,7 +3285,7 @@
     "times": 6.102581992746934,
     "volume_x": 3.5448813137492556,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.012299992664013
    },
    "items": []
   },
@@ -3295,7 +3299,7 @@
    "state": "high",
    "facts": {
     "return_1y": 18.994244168433806,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 1571.2,
     "low_52w": 1187.6,
     "high_52w": 1571.2
@@ -3305,8 +3309,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 61.229,
-    "usual": 61.41213114754098,
+    "recent": 61.977999999999994,
+    "usual": 61.49935483870968,
     "months": 3
    }
   },
@@ -3352,17 +3356,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "4bb907dec4eef583",
-   "symbol": "ICICIBANK",
-   "kind": "move",
-   "date": "2026-11-06",
-   "facts": {
-    "change_pct": 4.746666666666677,
-    "times": 6.102581992746934,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

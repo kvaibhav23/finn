@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-06T11:24:18Z",
+ "generated_at": "2026-11-06T18:19:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 3078.5,
   "range_position": 0.07869115728194327,
   "return_1y": -17.898104080518063,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.384499999999996,
-  "delivery_avg": 48.490327868852454,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 50.5735,
+  "delivery_avg": 48.44064516129033,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     3156.9,
     504269,
-    null
+    45.41
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -2792,7 +2796,7 @@
   "times": 3.562885436774732,
   "volume_x": 2.569269323769337,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.012299992664013,
   "filings": []
  },
  "signals": [
@@ -2806,7 +2810,7 @@
     "times": 3.562885436774732,
     "volume_x": 2.569269323769337,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.012299992664013
    },
    "items": []
   },
@@ -2825,7 +2829,7 @@
    "state": "low",
    "facts": {
     "return_1y": -17.898104080518063,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 3156.9,
     "low_52w": 3078.5,
     "high_52w": 4074.8
@@ -2835,8 +2839,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.384499999999996,
-    "usual": 48.490327868852454,
+    "recent": 50.5735,
+    "usual": 48.44064516129033,
     "months": 3
    }
   },
@@ -2861,17 +2865,5 @@
   "Pending": 26,
   "On track": 2
  },
- "events": [
-  {
-   "id": "3fc211d89dfe7fe2",
-   "symbol": "SUPREMEIND",
-   "kind": "move",
-   "date": "2026-11-06",
-   "facts": {
-    "change_pct": -4.074749316317227,
-    "times": 3.562885436774732,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-06T11:24:17Z",
+ "generated_at": "2026-11-06T18:19:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 669.2,
   "range_position": 0.34180304335343087,
   "return_1y": -19.94617376732849,
-  "nifty_return_1y": null,
-  "delivery_20d": 57.6635,
-  "delivery_avg": 59.85360655737705,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 58.0465,
+  "delivery_avg": 59.90725806451613,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     788.25,
     73482878,
-    null
+    63.18
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -3067,7 +3071,7 @@
   "times": 4.484368244877655,
   "volume_x": 2.2723405320189505,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 2.012299992664013,
   "filings": []
  },
  "signals": [
@@ -3081,7 +3085,7 @@
     "times": 4.484368244877655,
     "volume_x": 2.2723405320189505,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 2.012299992664013
    },
    "items": []
   },
@@ -3095,7 +3099,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -19.94617376732849,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 788.25,
     "low_52w": 669.2,
     "high_52w": 1017.5
@@ -3105,8 +3109,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.6635,
-    "usual": 59.85360655737705,
+    "recent": 58.0465,
+    "usual": 59.90725806451613,
     "months": 3
    }
   },
@@ -3137,17 +3141,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "75232b3a4b69cca0",
-   "symbol": "HDFCBANK",
-   "kind": "move",
-   "date": "2026-11-06",
-   "facts": {
-    "change_pct": 3.717105263157894,
-    "times": 4.484368244877655,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

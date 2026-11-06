@@ -1,7 +1,23 @@
 {
- "date": "2026-11-05",
- "close": 24536.6,
- "change_pct": 2.40394647880271,
+ "date": "2026-11-06",
+ "close": 25030.35,
+ "change_pct": 2.012299992664013,
  "big": true,
- "movers": []
+ "movers": [
+  {
+   "symbol": "SUPREMEIND",
+   "name": "Supreme Industries Limited",
+   "change_pct": -4.074749316317227
+  },
+  {
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints Limited",
+   "change_pct": 0.8796259608526702
+  },
+  {
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies Limited",
+   "change_pct": 0.12041496850687672
+  }
+ ]
 }

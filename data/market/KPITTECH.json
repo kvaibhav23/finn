@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-06T11:24:17Z",
+ "generated_at": "2026-11-06T18:19:25Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 470.1,
   "range_position": 0.08634020618556704,
   "return_1y": -53.37732919254658,
-  "nifty_return_1y": null,
-  "delivery_20d": 32.0695,
-  "delivery_avg": 34.83491803278688,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 31.6615,
+  "delivery_avg": 34.60677419354838,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     540.45,
     1283225,
-    null
+    20.69
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -2974,7 +2978,7 @@
    "state": "low",
    "facts": {
     "return_1y": -53.37732919254658,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 540.45,
     "low_52w": 470.1,
     "high_52w": 1284.9
@@ -2984,8 +2988,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 32.0695,
-    "usual": 34.83491803278688,
+    "recent": 31.6615,
+    "usual": 34.60677419354838,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-06T11:24:17Z",
+ "generated_at": "2026-11-06T18:19:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 3102.3,
   "range_position": 0.20931439320230905,
   "return_1y": -16.099162216451912,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.903,
-  "delivery_avg": 54.091147540983606,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 50.691500000000005,
+  "delivery_avg": 54.060322580645156,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     3425.0,
     322304,
-    null
+    52.18
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -2937,7 +2941,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -16.099162216451912,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 3425.0,
     "low_52w": 3102.3,
     "high_52w": 4644.0
@@ -2947,8 +2951,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.903,
-    "usual": 54.091147540983606,
+    "recent": 50.691500000000005,
+    "usual": 54.060322580645156,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-06T11:24:18Z",
+ "generated_at": "2026-11-06T18:19:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 1583.7,
   "range_position": 0.596502590673575,
   "return_1y": 10.326828400260979,
-  "nifty_return_1y": null,
-  "delivery_20d": 59.51800000000001,
-  "delivery_avg": 63.102295081967206,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 59.446000000000005,
+  "delivery_avg": 63.035322580645165,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     1860.0,
     2348251,
-    null
+    58.95
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -3035,7 +3039,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 10.326828400260979,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 1860.0,
     "low_52w": 1583.7,
     "high_52w": 2046.9
@@ -3045,8 +3049,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.51800000000001,
-    "usual": 63.102295081967206,
+    "recent": 59.446000000000005,
+    "usual": 63.035322580645165,
     "months": 3
    }
   },

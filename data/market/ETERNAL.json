@@ -1,6 +1,6 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-06T11:24:17Z",
+ "generated_at": "2026-11-06T18:19:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-06",
@@ -11,10 +11,10 @@
   "low_52w": 212.6,
   "range_position": 1.0,
   "return_1y": 18.812367086536884,
-  "nifty_return_1y": null,
-  "delivery_20d": 57.048,
-  "delivery_avg": 58.13852459016393,
-  "delivery_sessions": 61
+  "nifty_return_1y": -1.879089130801237,
+  "delivery_20d": 56.6995,
+  "delivery_avg": 57.998064516129034,
+  "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1530,7 +1530,7 @@
     "2026-11-06",
     363.15,
     25612265,
-    null
+    49.43
    ]
   ]
  },
@@ -2538,6 +2538,10 @@
   [
    "2026-11-05",
    24536.6
+  ],
+  [
+   "2026-11-06",
+   25030.35
   ]
  ],
  "results": {
@@ -2808,7 +2812,7 @@
    "state": "high",
    "facts": {
     "return_1y": 18.812367086536884,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.879089130801237,
     "close": 363.15,
     "low_52w": 212.6,
     "high_52w": 363.15
@@ -2818,8 +2822,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.048,
-    "usual": 58.13852459016393,
+    "recent": 56.6995,
+    "usual": 57.998064516129034,
     "months": 3
    }
   },
