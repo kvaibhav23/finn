@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-06T00:30:31Z",
+ "generated_at": "2026-11-06T00:38:36Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-05",
@@ -3160,9 +3160,9 @@
    "key": "track",
    "state": "enough",
    "facts": {
-    "kept": 14,
-    "missed": 9,
-    "decided": 23,
+    "kept": 15,
+    "missed": 4,
+    "decided": 19,
     "dropped": 1
    }
   },
@@ -3197,16 +3197,32 @@
    "items": []
   }
  ],
- "rerun": "earnings call transcript for the quarter ended 2026-09-30",
- "ledger_generated_at": "2026-11-01T21:19:15",
+ "rerun": null,
+ "ledger_generated_at": "2026-11-06T00:38:31Z",
  "ledger_counts": {
-  "Unverifiable": 80,
-  "Pending": 70,
-  "Missed": 9,
-  "Revised": 9,
-  "Kept": 14,
-  "On track": 3,
-  "Dropped": 1
+  "Unverifiable": 70,
+  "Pending": 103,
+  "Missed": 4,
+  "Revised": 10,
+  "Kept": 15,
+  "Dropped": 1,
+  "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "101cad3928152854",
+   "symbol": "DIXON",
+   "kind": "ledger",
+   "date": "2026-11-06",
+   "facts": {
+    "Unverifiable": 70,
+    "Pending": 103,
+    "Missed": 4,
+    "Revised": 10,
+    "Kept": 15,
+    "Dropped": 1,
+    "On track": 1
+   }
+  }
+ ]
 }
