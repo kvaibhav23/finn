@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-09T12:00:38Z",
+ "generated_at": "2026-11-09T23:07:56Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 9600.0,
   "range_position": 0.4863157894736842,
   "return_1y": -15.125597683345681,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 36.199,
-  "delivery_avg": 38.16129032258065,
-  "delivery_sessions": 62
+  "delivery_avg": 38.3016393442623,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     14023.0,
     140977,
-    29.6
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -3071,26 +3075,6 @@
    "category": "Giving guarantees/indemnity/ becoming a surety for third party",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Giving guarantees/indemnity/ becoming a surety for third party",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_14082026185848_CGPEPL14082026.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T16:09:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Acquisition",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Proposed incorporation of One (1) Subsidiary Company of Dixon Technologies (India) Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_12082026160858_Reg30DisclosureAdivistar.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T13:16:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_12082026131615_InvestorMeetOutcome12082026.pdf"
   }
  ],
  "routine": [
@@ -3136,7 +3120,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -15.125597683345681,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 12603.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
@@ -3147,7 +3131,7 @@
    "state": "usual",
    "facts": {
     "recent": 36.199,
-    "usual": 38.16129032258065,
+    "usual": 38.3016393442623,
     "months": 3
    }
   },

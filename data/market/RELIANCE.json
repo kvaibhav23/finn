@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-09T12:01:28Z",
+ "generated_at": "2026-11-09T23:08:46Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 1152.2,
   "range_position": 0.37467362924282,
   "return_1y": -10.392422192151551,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 50.1875,
-  "delivery_avg": 57.32064516129032,
-  "delivery_sessions": 62
+  "delivery_avg": 57.53590163934426,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     1323.9,
     9953124,
-    44.19
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -3061,16 +3065,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Motilal Oswal's 22nd Annual Global Investor Conference, scheduled to be held on August 18, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_13082026194059_SE_13082026.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T19:45:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "This is further to the disclosure dated August 7, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Emkay Confluence 2026 and no unpublished price sensitive information was shared/discussed in the sa",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_12082026194133_SE_12082026.pdf"
   }
  ],
  "routine": [
@@ -3112,7 +3106,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -10.392422192151551,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 1324.4,
     "low_52w": 1152.2,
     "high_52w": 1611.8
@@ -3123,7 +3117,7 @@
    "state": "lower",
    "facts": {
     "recent": 50.1875,
-    "usual": 57.32064516129032,
+    "usual": 57.53590163934426,
     "months": 3
    }
   },

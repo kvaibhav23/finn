@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-09T12:00:51Z",
+ "generated_at": "2026-11-09T23:08:09Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 669.2,
   "range_position": 0.3702268159632499,
   "return_1y": -18.74681869082765,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 58.3235,
-  "delivery_avg": 59.840806451612906,
-  "delivery_sessions": 62
+  "delivery_avg": 59.885737704918036,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     729.0,
     29154365,
-    57.1
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -3092,7 +3096,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -18.74681869082765,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 798.15,
     "low_52w": 669.2,
     "high_52w": 1017.5
@@ -3103,7 +3107,7 @@
    "state": "usual",
    "facts": {
     "recent": 58.3235,
-    "usual": 59.840806451612906,
+    "usual": 59.885737704918036,
     "months": 3
    }
   },

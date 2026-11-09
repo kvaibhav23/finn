@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-09T12:00:29Z",
+ "generated_at": "2026-11-09T23:07:47Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 1726.3,
   "range_position": 0.7715305667112894,
   "return_1y": 3.5428742754347375,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 65.98150000000001,
-  "delivery_avg": 67.77306451612904,
-  "delivery_sessions": 62
+  "delivery_avg": 67.84163934426229,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     1915.2,
     6798617,
-    63.59
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -3029,7 +3033,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 3.5428742754347375,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 2072.1,
     "low_52w": 1726.3,
     "high_52w": 2174.5
@@ -3040,7 +3044,7 @@
    "state": "usual",
    "facts": {
     "recent": 65.98150000000001,
-    "usual": 67.77306451612904,
+    "usual": 67.84163934426229,
     "months": 3
    }
   },

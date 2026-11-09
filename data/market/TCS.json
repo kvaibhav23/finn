@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-09T12:01:41Z",
+ "generated_at": "2026-11-09T23:08:59Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 1976.8,
   "range_position": 0.3630935042237111,
   "return_1y": -17.260512066314593,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 50.1135,
-  "delivery_avg": 48.538709677419355,
-  "delivery_sessions": 62
+  "delivery_avg": 48.66377049180328,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     2445.7,
     1514105,
-    40.91
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -2981,26 +2985,6 @@
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS and Vodafone join forces to drive AI-led digital transformation for UK enterprises'.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_13082026112214_PR_13Aug26_signed.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T15:25:00+05:30",
-   "tag": "Clarification",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "News Verification",
-   "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is attached.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/swarnikas_12082026152353_TCS_12082026__2_.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T11:42:00+05:30",
-   "tag": "Clarification",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "News Verification",
-   "subject": "The Exchange has sought clarification from Tata Consultancy Services Limited with respect to recent news item captioned N Chandrasekaran may step down as Tata Sons chairman ahead of AGM. The response from the Company is awaited.",
-   "pdf_url": "-"
   }
  ],
  "routine": [
@@ -3050,7 +3034,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -17.260512066314593,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 2475.4,
     "low_52w": 1976.8,
     "high_52w": 3350.0
@@ -3061,32 +3045,19 @@
    "state": "usual",
    "facts": {
     "recent": 50.1135,
-    "usual": 48.538709677419355,
+    "usual": 48.66377049180328,
     "months": 3
    }
   },
   {
    "key": "filings",
-   "state": "flagged",
+   "state": "clear",
    "facts": {
-    "count": 2,
+    "count": 0,
     "days": 90,
-    "tags": [
-     "Clarification"
-    ]
+    "tags": []
    },
-   "items": [
-    {
-     "date": "2026-08-12",
-     "tag": "Clarification",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/swarnikas_12082026152353_TCS_12082026__2_.pdf"
-    },
-    {
-     "date": "2026-08-12",
-     "tag": "Clarification",
-     "pdf_url": "-"
-    }
-   ]
+   "items": []
   }
  ],
  "rerun": null,

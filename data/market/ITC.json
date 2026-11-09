@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-09T12:01:04Z",
+ "generated_at": "2026-11-09T23:08:23Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 252.8,
   "range_position": 0.16331658291457288,
   "return_1y": -30.998638782328914,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 53.902,
-  "delivery_avg": 56.914032258064516,
-  "delivery_sessions": 62
+  "delivery_avg": 56.736065573770496,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     279.0,
     13053722,
-    67.77
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -2787,7 +2791,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -30.998638782328914,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 278.8,
     "low_52w": 252.8,
     "high_52w": 412.0
@@ -2798,7 +2802,7 @@
    "state": "usual",
    "facts": {
     "recent": 53.902,
-    "usual": 56.914032258064516,
+    "usual": 56.736065573770496,
     "months": 3
    }
   },

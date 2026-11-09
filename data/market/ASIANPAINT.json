@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-09T12:00:19Z",
+ "generated_at": "2026-11-09T23:07:37Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 2115.0,
   "range_position": 0.4528540254967271,
   "return_1y": -3.9980105593388937,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 52.614999999999995,
-  "delivery_avg": 55.99290322580645,
-  "delivery_sessions": 62
+  "delivery_avg": 55.85114754098361,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     2735.5,
     951134,
-    64.64
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -2642,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-09",
+   "filed_at": "2026-11-09T18:11:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "The Company will be participating in the analyst/institutional investor conferences/meetings on 18th and 19th November 2026 as per enclosed schedule.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09112026175712_SEINTIMATIONANALYSTMEETSNOV2026.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T22:06:00+05:30",
@@ -2966,7 +2980,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -3.9980105593388937,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 2509.3,
     "low_52w": 2115.0,
     "high_52w": 2985.7
@@ -2977,7 +2991,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.614999999999995,
-    "usual": 55.99290322580645,
+    "usual": 55.85114754098361,
     "months": 3
    }
   },

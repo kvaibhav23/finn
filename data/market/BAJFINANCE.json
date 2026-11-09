@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-09T12:00:25Z",
+ "generated_at": "2026-11-09T23:07:43Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -11,10 +11,10 @@
   "low_52w": 787.9,
   "range_position": 0.7128700128700125,
   "return_1y": -0.16407275454716208,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 60.722,
-  "delivery_avg": 62.53709677419355,
-  "delivery_sessions": 62
+  "delivery_avg": 62.538688524590164,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1158,7 +1158,7 @@
     "2026-08-11",
     1093.3,
     6523358,
-    62.44
+    null
    ],
    [
     "2026-08-12",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-06",
    25030.35
+  ],
+  [
+   "2026-11-09",
+   25044.65
   ]
  ],
  "results": {
@@ -2903,16 +2907,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17082026151637_BSENSE_Intimation_Concall_Q1_17_August_2026.pdf"
-  },
-  {
-   "date": "2026-08-12",
-   "filed_at": "2026-08-12T11:39:00+05:30",
-   "tag": "Resignation",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Resignation of Director/KMP/SMP",
-   "subject": "Bajaj Finance Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_ROID_96046_KMP_Doc.zip"
   }
  ],
  "routine": [
@@ -2958,7 +2952,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -0.16407275454716208,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7560204453893835,
     "close": 1064.85,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -2969,27 +2963,19 @@
    "state": "usual",
    "facts": {
     "recent": 60.722,
-    "usual": 62.53709677419355,
+    "usual": 62.538688524590164,
     "months": 3
    }
   },
   {
    "key": "filings",
-   "state": "flagged",
+   "state": "clear",
    "facts": {
-    "count": 1,
+    "count": 0,
     "days": 90,
-    "tags": [
-     "Resignation"
-    ]
+    "tags": []
    },
-   "items": [
-    {
-     "date": "2026-08-12",
-     "tag": "Resignation",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_ROID_96046_KMP_Doc.zip"
-    }
-   ]
+   "items": []
   }
  ],
  "rerun": null,
