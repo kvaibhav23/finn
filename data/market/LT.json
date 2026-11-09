@@ -1,31 +1,25 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-06T23:48:05Z",
+ "generated_at": "2026-11-09T12:01:13Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 4117.7,
-  "change": 67.69999999999982,
-  "change_pct": 1.6716049382716092,
+  "as_of": "2026-11-09",
+  "close": 4185.0,
+  "change": 67.30000000000018,
+  "change_pct": 1.6344075576171235,
   "high_52w": 4440.0,
   "low_52w": 3288.1,
-  "range_position": 0.7202014063720807,
-  "return_1y": 6.082543281121189,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 54.802499999999995,
-  "delivery_avg": 57.975967741935484,
+  "range_position": 0.7786266168938276,
+  "return_1y": 7.791371538956859,
+  "nifty_return_1y": null,
+  "delivery_20d": 54.569500000000005,
+  "delivery_avg": 57.96032258064516,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    4030.9,
-    2328183,
-    null
-   ],
    [
     "2025-11-03",
     3980.5,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     4080.0,
     1082855,
-    58.06
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     4117.7,
     3396323,
     60.18
+   ],
+   [
+    "2026-11-09",
+    4185.0,
+    3251721,
+    57.09
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 20894.89,
   "ttm_margin_pct": 6.944049245814789,
   "ttm_eps": 129.82,
-  "pe": 31.718533353874594,
+  "pe": 32.23694346017563,
   "pe_note": null,
-  "market_cap_cr": 566554.343,
+  "market_cap_cr": 575814.15,
   "revenue_yoy_pct": 15.836791646447313,
   "pat_yoy_pct": 27.172665299988672,
   "net_npa_pct": null,
@@ -2636,6 +2632,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-09",
+   "filed_at": "2026-11-09T10:37:00+05:30",
+   "tag": "Order or contract",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Bagging/Receiving of orders/contracts",
+   "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_09112026103717_PressRelease09112026.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T15:36:00+05:30",
@@ -2945,26 +2951,6 @@
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_13082026112910_PressRelease13082026.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T15:58:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Execution of Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and execution of Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limit",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_11082026155835_Intimation11082026.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T14:06:00+05:30",
-   "tag": "Credit rating",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "General Updates",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about ESG Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_11082026140555_NSEESGRating11082026.pdf"
   }
  ],
  "routine": [
@@ -3010,9 +2996,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 6.082543281121189,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 4117.7,
+    "return_1y": 7.791371538956859,
+    "nifty_return_1y": null,
+    "close": 4185.0,
     "low_52w": 3288.1,
     "high_52w": 4440.0
    }
@@ -3021,8 +3007,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 54.802499999999995,
-    "usual": 57.975967741935484,
+    "recent": 54.569500000000005,
+    "usual": 57.96032258064516,
     "months": 3
    }
   },
@@ -3030,7 +3016,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 4,
+    "count": 3,
     "days": 90,
     "tags": [
      "Credit rating"
@@ -3051,11 +3037,6 @@
      "date": "2026-09-01",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
-    },
-    {
-     "date": "2026-08-11",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_11082026140555_NSEESGRating11082026.pdf"
     }
    ]
   }

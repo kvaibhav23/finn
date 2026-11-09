@@ -1,31 +1,25 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-06T23:48:01Z",
+ "generated_at": "2026-11-09T12:01:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 540.45,
-  "change": 0.650000000000091,
-  "change_pct": 0.12041496850687672,
+  "as_of": "2026-11-09",
+  "close": 542.35,
+  "change": 1.8999999999999773,
+  "change_pct": 0.35155888611342334,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.08634020618556704,
-  "return_1y": -53.37732919254658,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 31.6615,
-  "delivery_avg": 34.60677419354838,
+  "range_position": 0.08867206676485026,
+  "return_1y": -52.961838681699916,
+  "nifty_return_1y": null,
+  "delivery_20d": 31.101,
+  "delivery_avg": 34.4408064516129,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    1166.7,
-    385752,
-    null
-   ],
    [
     "2025-11-03",
     1164.0,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     627.9,
     1469093,
-    35.98
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     540.45,
     1283225,
     20.69
+   ],
+   [
+    "2026-11-09",
+    542.35,
+    1010010,
+    25.69
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 27.715384615384618,
+  "pe": 27.812820512820515,
   "pe_note": null,
-  "market_cap_cr": 14730.18093,
+  "market_cap_cr": 14781.96619,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2906,16 +2902,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "KPIT Technologies Limited has informed the Exchange about Outcome of Investor Conference held on Wednesday, August 12, 2026.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12082026184357_KPIT_Emkay_Confluence_outcome_signed.pdf"
-  },
-  {
-   "date": "2026-08-10",
-   "filed_at": "2026-08-10T21:52:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Outcome of the investor conference. held on Monday, August 10, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_10082026215114_KPIT_Nirmal_Bang_outcome_signed.pdf"
   }
  ],
  "routine": [
@@ -2967,9 +2953,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -53.37732919254658,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 540.45,
+    "return_1y": -52.961838681699916,
+    "nifty_return_1y": null,
+    "close": 542.35,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2978,8 +2964,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 31.6615,
-    "usual": 34.60677419354838,
+    "recent": 31.101,
+    "usual": 34.4408064516129,
     "months": 3
    }
   },

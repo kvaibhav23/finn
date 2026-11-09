@@ -1,31 +1,25 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-06T23:47:15Z",
+ "generated_at": "2026-11-09T12:00:25Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 1087.75,
-  "change": 17.75,
-  "change_pct": 1.6588785046729004,
+  "as_of": "2026-11-09",
+  "close": 1064.85,
+  "change": -22.90000000000009,
+  "change_pct": -2.1052631578947434,
   "high_52w": 1176.4,
   "low_52w": 787.9,
-  "range_position": 0.7718146718146717,
-  "return_1y": 4.400614262405211,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 61.314,
-  "delivery_avg": 62.69564516129032,
+  "range_position": 0.7128700128700125,
+  "return_1y": -0.16407275454716208,
+  "nifty_return_1y": null,
+  "delivery_20d": 60.722,
+  "delivery_avg": 62.53709677419355,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    1042.8,
-    5315632,
-    null
-   ],
    [
     "2025-11-03",
     1043.1,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     1102.2,
     7303098,
-    63.06
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     1087.75,
     9053404,
     53.9
+   ],
+   [
+    "2026-11-09",
+    1064.85,
+    9203283,
+    53.23
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 22066.48,
   "ttm_margin_pct": 24.37436693305645,
   "ttm_eps": 34.790000000000006,
-  "pe": 31.266168439206663,
+  "pe": 30.60793331417073,
   "pe_note": null,
-  "market_cap_cr": 677004.7225,
+  "market_cap_cr": 662751.9914999999,
   "revenue_yoy_pct": 21.643746685894683,
   "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
@@ -2647,6 +2643,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-07",
+   "filed_at": "2026-11-07T16:41:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Bajaj Finance Limited has informed the Exchange about General Updates",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf"
+  },
+  {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T15:29:00+05:30",
    "tag": "Other",
@@ -2699,16 +2705,6 @@
   {
    "date": "2026-10-19",
    "filed_at": "2026-10-19T17:57:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Issue of Securities",
-   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
-  },
-  {
-   "date": "2026-10-19",
-   "filed_at": "2026-10-19T17:57:00+05:30",
    "tag": "Appointment",
    "priority": 1,
    "worth_a_look": false,
@@ -2727,6 +2723,16 @@
      "security auditor and consultant"
     ]
    }
+  },
+  {
+   "date": "2026-10-19",
+   "filed_at": "2026-10-19T17:57:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Issue of Securities",
+   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2907,23 +2913,11 @@
    "category": "Resignation of Director/KMP/SMP",
    "subject": "Bajaj Finance Limited has informed the Exchange about Resignation of Director/KMP/SMP",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_ROID_96046_KMP_Doc.zip"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T20:01:00+05:30",
-   "tag": "Resignation",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Resignation",
-   "subject": "Bajaj Finance Limited has informed the Exchange regarding Resignation of Mr. Amit Raghuvanshi as President - Cars, Two-Wheeler & Sales Finance w.e.f. close of business hours on August 11, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11082026200148_SE_Resignation.pdf"
   }
  ],
  "routine": [
   "2026-10-30T14:53:00+05:30",
-  "2026-10-21T12:29:00+05:30",
-  "2026-10-10T17:19:00+05:30",
-  "2026-10-09T12:14:00+05:30"
+  "2026-10-21T12:29:00+05:30"
  ],
  "calls": [
   {
@@ -2963,9 +2957,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 4.400614262405211,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 1087.75,
+    "return_1y": -0.16407275454716208,
+    "nifty_return_1y": null,
+    "close": 1064.85,
     "low_52w": 787.9,
     "high_52w": 1176.4
    }
@@ -2974,8 +2968,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 61.314,
-    "usual": 62.69564516129032,
+    "recent": 60.722,
+    "usual": 62.53709677419355,
     "months": 3
    }
   },
@@ -2983,7 +2977,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 2,
+    "count": 1,
     "days": 90,
     "tags": [
      "Resignation"
@@ -2994,11 +2988,6 @@
      "date": "2026-08-12",
      "tag": "Resignation",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_ROID_96046_KMP_Doc.zip"
-    },
-    {
-     "date": "2026-08-11",
-     "tag": "Resignation",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11082026200148_SE_Resignation.pdf"
     }
    ]
   }

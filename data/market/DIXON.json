@@ -1,31 +1,25 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-06T23:47:28Z",
+ "generated_at": "2026-11-09T12:00:38Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 12625.0,
-  "change": 9.0,
-  "change_pct": 0.07133798351299792,
+  "as_of": "2026-11-09",
+  "close": 12603.0,
+  "change": -22.0,
+  "change_pct": -0.1742574257425744,
   "high_52w": 15775.0,
   "low_52w": 9600.0,
-  "range_position": 0.4898785425101215,
-  "return_1y": -16.27428874593806,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 36.0345,
-  "delivery_avg": 38.247258064516124,
+  "range_position": 0.4863157894736842,
+  "return_1y": -15.125597683345681,
+  "nifty_return_1y": null,
+  "delivery_20d": 36.199,
+  "delivery_avg": 38.16129032258065,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    15494.0,
-    224779,
-    null
-   ],
    [
     "2025-11-03",
     15485.0,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     14115.0,
     276636,
-    41.84
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     12625.0,
     227053,
     34.49
+   ],
+   [
+    "2026-11-09",
+    12603.0,
+    171649,
+    36.51
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 44.040185579237445,
+  "pe": 43.96344228555482,
   "pe_note": null,
-  "market_cap_cr": 77201.875,
+  "market_cap_cr": 77067.345,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
@@ -3095,42 +3091,11 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_12082026131615_InvestorMeetOutcome12082026.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T22:30:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026223027_InvestorMeetIntimation11082026.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T12:28:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026122835_InvestorMeetOutcome11082026.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T12:26:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst Meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_11082026122548_InvestorMeetOutcome11082026.pdf"
   }
  ],
  "routine": [
   "2026-11-05T17:16:00+05:30",
-  "2026-10-31T19:32:00+05:30",
-  "2026-10-09T18:23:00+05:30"
+  "2026-10-31T19:32:00+05:30"
  ],
  "calls": [
   {
@@ -3170,9 +3135,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -16.27428874593806,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 12625.0,
+    "return_1y": -15.125597683345681,
+    "nifty_return_1y": null,
+    "close": 12603.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
    }
@@ -3181,8 +3146,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.0345,
-    "usual": 38.247258064516124,
+    "recent": 36.199,
+    "usual": 38.16129032258065,
     "months": 3
    }
   },

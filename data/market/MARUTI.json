@@ -1,31 +1,25 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-06T23:48:11Z",
+ "generated_at": "2026-11-09T12:01:19Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 12750.0,
-  "change": 98.0,
-  "change_pct": 0.7745810938982078,
+  "as_of": "2026-11-09",
+  "close": 12928.0,
+  "change": 178.0,
+  "change_pct": 1.3960784313725494,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.2764291307752545,
-  "return_1y": -17.486409526274915,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 52.246500000000005,
-  "delivery_avg": 54.03370967741936,
+  "range_position": 0.3043069694596711,
+  "return_1y": -16.480392790231924,
+  "nifty_return_1y": null,
+  "delivery_20d": 52.2625,
+  "delivery_avg": 53.95709677419355,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    16186.0,
-    719402,
-    null
-   ],
    [
     "2025-11-03",
     15651.0,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     14097.0,
     299446,
-    63.02
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     12750.0,
     923719,
     62.57
+   ],
+   [
+    "2026-11-09",
+    12928.0,
+    558028,
+    58.27
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 29.80155669307903,
+  "pe": 30.217609798284368,
   "pe_note": null,
-  "market_cap_cr": 400860.0,
+  "market_cap_cr": 406456.32,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -2984,7 +2980,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-10-31",
+   "date": "2025-11-03",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf"
   },
   {
@@ -3019,9 +3015,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -17.486409526274915,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 12750.0,
+    "return_1y": -16.480392790231924,
+    "nifty_return_1y": null,
+    "close": 12928.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3030,8 +3026,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.246500000000005,
-    "usual": 54.03370967741936,
+    "recent": 52.2625,
+    "usual": 53.95709677419355,
     "months": 3
    }
   },

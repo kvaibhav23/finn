@@ -1,31 +1,25 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-06T23:48:15Z",
+ "generated_at": "2026-11-09T12:01:23Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 7871.0,
-  "change": 22.0,
-  "change_pct": 0.2802904828640651,
+  "as_of": "2026-11-09",
+  "close": 7832.5,
+  "change": -38.5,
+  "change_pct": -0.48913733960106454,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.34883049379151027,
-  "return_1y": 3.681749324902861,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 48.8515,
-  "delivery_avg": 51.7658064516129,
+  "range_position": 0.33771296563673114,
+  "return_1y": 3.8517634579687154,
+  "nifty_return_1y": null,
+  "delivery_20d": 48.625,
+  "delivery_avg": 51.593709677419355,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    7704.0,
-    324713,
-    null
-   ],
    [
     "2025-11-03",
     7626.5,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     9275.0,
     174445,
-    59.5
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     7871.0,
     415293,
     41.07
+   ],
+   [
+    "2026-11-09",
+    7832.5,
+    228133,
+    48.83
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 37.497022533466726,
+  "pe": 37.31361059501691,
   "pe_note": null,
-  "market_cap_cr": 118609.6732,
+  "market_cap_cr": 118029.509,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -3043,9 +3039,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 3.681749324902861,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 7871.0,
+    "return_1y": 3.8517634579687154,
+    "nifty_return_1y": null,
+    "close": 7832.5,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3054,8 +3050,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 48.8515,
-    "usual": 51.7658064516129,
+    "recent": 48.625,
+    "usual": 51.593709677419355,
     "months": 3
    }
   },

@@ -1,31 +1,25 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-06T23:48:37Z",
+ "generated_at": "2026-11-09T12:01:45Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 5000.0,
-  "change": 165.39999999999964,
-  "change_pct": 3.4211723824101092,
+  "as_of": "2026-11-09",
+  "close": 5005.0,
+  "change": 5.0,
+  "change_pct": 0.09999999999998899,
   "high_52w": 5186.7,
-  "low_52w": 3736.0,
-  "range_position": 0.8713035086509962,
-  "return_1y": 32.471386180584986,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 54.509,
-  "delivery_avg": 55.578548387096774,
+  "low_52w": 3751.0,
+  "range_position": 0.8734415267813611,
+  "return_1y": 32.783275409227166,
+  "nifty_return_1y": null,
+  "delivery_20d": 54.7285,
+  "delivery_avg": 55.93274193548387,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    3746.7,
-    900994,
-    null
-   ],
    [
     "2025-11-03",
     3724.5,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     5090.0,
     3664718,
-    32.61
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     5000.0,
     4132719,
     39.57
+   ],
+   [
+    "2026-11-09",
+    5005.0,
+    839812,
+    54.57
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 7032.73,
   "ttm_margin_pct": 7.457351600110279,
   "ttm_eps": 78.94999999999999,
-  "pe": 63.331222292590255,
+  "pe": 63.394553514882844,
   "pe_note": null,
-  "market_cap_cr": 443900.0,
+  "market_cap_cr": 444343.9,
   "revenue_yoy_pct": 10.088117489986658,
   "pat_yoy_pct": 113.63660714285713,
   "net_npa_pct": null,
@@ -2646,6 +2642,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-09",
+   "filed_at": "2026-11-09T14:58:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_09112026145809_SEintimation_9_Nov_26.pdf"
+  },
   {
    "date": "2026-11-05",
    "filed_at": "2026-11-05T20:33:00+05:30",
@@ -2835,19 +2841,10 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_14082026164055_SEintimation_14_August_26.pdf"
-  },
-  {
-   "date": "2026-08-11",
-   "filed_at": "2026-08-11T22:55:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Earnings Call Transcripts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11082026225424_SEanalystcalltranscriptQ1.pdf"
   }
  ],
  "routine": [
+  "2026-11-09T15:06:00+05:30",
   "2026-11-06T16:56:00+05:30",
   "2026-11-05T18:23:00+05:30",
   "2026-10-28T17:26:00+05:30",
@@ -2881,83 +2878,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-06",
-  "change_pct": 3.4211723824101092,
-  "typical_pct": 0.7793662777953569,
-  "times": 4.389684901543081,
-  "volume_x": 5.721606807317099,
-  "biggest_in_year": false,
-  "nifty_change_pct": 2.012299992664013,
-  "filings": [
-   {
-    "date": "2026-11-05",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
-   },
-   {
-    "date": "2026-11-05",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf"
-   },
-   {
-    "date": "2026-11-05",
-    "tag": "Auditor change",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
-   },
-   {
-    "date": "2026-11-05",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026180204_SECPQ2.pdf"
-   },
-   {
-    "date": "2026-11-05",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-06",
-    "change_pct": 3.4211723824101092,
-    "typical_pct": 0.7793662777953569,
-    "times": 4.389684901543081,
-    "volume_x": 5.721606807317099,
-    "biggest_in_year": false,
-    "nifty_change_pct": 2.012299992664013
-   },
-   "items": [
-    {
-     "date": "2026-11-05",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
-    },
-    {
-     "date": "2026-11-05",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf"
-    },
-    {
-     "date": "2026-11-05",
-     "tag": "Auditor change",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
-    },
-    {
-     "date": "2026-11-05",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026180204_SECPQ2.pdf"
-    },
-    {
-     "date": "2026-11-05",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2967,10 +2889,10 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 32.471386180584986,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 5000.0,
-    "low_52w": 3736.0,
+    "return_1y": 32.783275409227166,
+    "nifty_return_1y": null,
+    "close": 5005.0,
+    "low_52w": 3751.0,
     "high_52w": 5186.7
    }
   },
@@ -2978,8 +2900,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 54.509,
-    "usual": 55.578548387096774,
+    "recent": 54.7285,
+    "usual": 55.93274193548387,
     "months": 3
    }
   },

@@ -1,31 +1,25 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-06T23:47:52Z",
+ "generated_at": "2026-11-09T12:01:00Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 1181.4,
-  "change": 14.0,
-  "change_pct": 1.1992461881103367,
+  "as_of": "2026-11-09",
+  "close": 1154.1,
+  "change": -27.300000000000182,
+  "change_pct": -2.310817673946186,
   "high_52w": 1728.0,
   "low_52w": 980.4,
-  "range_position": 0.2688603531300162,
-  "return_1y": -19.45183064021272,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 53.604,
-  "delivery_avg": 55.16677419354839,
+  "range_position": 0.2323434991974317,
+  "return_1y": -21.851300108342365,
+  "nifty_return_1y": null,
+  "delivery_20d": 53.48350000000001,
+  "delivery_avg": 55.09483870967742,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    1482.3,
-    4819814,
-    null
-   ],
    [
     "2025-11-03",
     1485.5,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     1183.0,
     9377001,
-    52.93
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     1181.4,
     15301109,
     52.24
+   ],
+   [
+    "2026-11-09",
+    1154.1,
+    10099639,
+    48.47
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 30788.0,
   "ttm_margin_pct": 16.261038576921454,
   "ttm_eps": 75.59,
-  "pe": 15.629051461833576,
+  "pe": 15.267892578383382,
   "pe_note": null,
-  "market_cap_cr": 478703.28,
+  "market_cap_cr": 467641.32,
   "revenue_yoy_pct": 10.685547314003152,
   "pat_yoy_pct": 6.2779661016949095,
   "net_npa_pct": null,
@@ -2925,22 +2921,11 @@
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_17082026164414_SE_filing_Investor_conference.pdf"
-  },
-  {
-   "date": "2026-08-10",
-   "filed_at": "2026-08-10T16:17:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_10082026161643_SE_filing_Investor_conference_10082026__002_.pdf"
   }
  ],
  "routine": [
   "2026-10-29T15:15:00+05:30",
-  "2026-10-24T19:43:00+05:30",
-  "2026-10-09T10:13:00+05:30"
+  "2026-10-24T19:43:00+05:30"
  ],
  "calls": [
   {
@@ -2975,9 +2960,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -19.45183064021272,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 1181.4,
+    "return_1y": -21.851300108342365,
+    "nifty_return_1y": null,
+    "close": 1154.1,
     "low_52w": 980.4,
     "high_52w": 1728.0
    }
@@ -2986,8 +2971,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.604,
-    "usual": 55.16677419354839,
+    "recent": 53.48350000000001,
+    "usual": 55.09483870967742,
     "months": 3
    }
   },

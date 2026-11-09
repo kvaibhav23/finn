@@ -1,31 +1,25 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-06T23:47:07Z",
+ "generated_at": "2026-11-09T12:00:19Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 2546.0,
-  "change": 22.199999999999818,
-  "change_pct": 0.8796259608526702,
+  "as_of": "2026-11-09",
+  "close": 2509.3,
+  "change": -36.69999999999982,
+  "change_pct": -1.441476826394339,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.49500401975422087,
-  "return_1y": -2.1860232817242364,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 52.048,
-  "delivery_avg": 56.119354838709675,
+  "range_position": 0.4528540254967271,
+  "return_1y": -3.9980105593388937,
+  "nifty_return_1y": null,
+  "delivery_20d": 52.614999999999995,
+  "delivery_avg": 55.99290322580645,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    2510.8,
-    609128,
-    null
-   ],
    [
     "2025-11-03",
     2512.2,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     2750.0,
     977656,
-    65.87
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     2546.0,
     969158,
     52.51
+   ],
+   [
+    "2026-11-09",
+    2509.3,
+    1001985,
+    58.03
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 50.45580657946888,
+  "pe": 49.72849782005549,
   "pe_note": null,
-  "market_cap_cr": 244212.32,
+  "market_cap_cr": 240692.056,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
@@ -2879,8 +2875,8 @@
    "priority": 1,
    "worth_a_look": false,
    "category": "Appointment",
-   "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Non- Executive Independent Director of the company w.e.f. September 07, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144547_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
+   "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Chairman of the company w.e.f. January 23, 2027.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144607_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2889,8 +2885,8 @@
    "priority": 1,
    "worth_a_look": false,
    "category": "Appointment",
-   "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Chairman of the company w.e.f. January 23, 2027.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144607_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
+   "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Non- Executive Independent Director of the company w.e.f. September 07, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144547_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2921,16 +2917,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "This is to inform you that the Company through its representatives, will be participating in the conference as per enclosed letter",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02092026112840_SEINTIMATIONANALYSTMEETSEP2026signed.pdf"
-  },
-  {
-   "date": "2026-08-10",
-   "filed_at": "2026-08-10T20:02:00+05:30",
-   "tag": "Appointment",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Please find enclosed the Postal Ballot Notice dated 29th July 2026 together with the Explanatory Statement being sent to the members of the Company seeking approval of shareholders for appointment of Ms. Shubhlakshmi Dani as Non- Executive Director of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_10082026200145_SE_Intimation_-_Postal_ballot_notice_2026_signed.pdf"
   }
  ],
  "routine": [
@@ -2979,9 +2965,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -2.1860232817242364,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 2546.0,
+    "return_1y": -3.9980105593388937,
+    "nifty_return_1y": null,
+    "close": 2509.3,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }
@@ -2990,8 +2976,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.048,
-    "usual": 56.119354838709675,
+    "recent": 52.614999999999995,
+    "usual": 55.99290322580645,
     "months": 3
    }
   },

@@ -1,31 +1,25 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-06T23:47:19Z",
+ "generated_at": "2026-11-09T12:00:29Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-06",
-  "close": 2107.2,
-  "change": 50.29999999999973,
-  "change_pct": 2.44542758520101,
+  "as_of": "2026-11-09",
+  "close": 2072.1,
+  "change": -35.09999999999991,
+  "change_pct": -1.6657175398633206,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.8498438197233374,
-  "return_1y": 0.5871401976227819,
-  "nifty_return_1y": -1.879089130801237,
-  "delivery_20d": 66.498,
-  "delivery_avg": 67.98322580645161,
+  "range_position": 0.7715305667112894,
+  "return_1y": 3.5428742754347375,
+  "nifty_return_1y": null,
+  "delivery_20d": 65.98150000000001,
+  "delivery_avg": 67.77306451612904,
   "delivery_sessions": 62
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-10-31",
-    2054.5,
-    4659723,
-    null
-   ],
    [
     "2025-11-03",
     2074.0,
@@ -1158,7 +1152,7 @@
     "2026-08-10",
     1943.0,
     3671000,
-    66.6
+    null
    ],
    [
     "2026-08-11",
@@ -1525,14 +1519,16 @@
     2107.2,
     17095063,
     62.43
+   ],
+   [
+    "2026-11-09",
+    2072.1,
+    6064365,
+    53.57
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-10-31",
-   25722.1
-  ],
   [
    "2025-11-03",
    25763.35
@@ -2545,9 +2541,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.496652225285544,
+  "pe": 40.80543521071288,
   "pe_note": null,
-  "market_cap_cr": 1315061.3759999997,
+  "market_cap_cr": 1293156.168,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -2985,26 +2981,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_13082026165533_Bharti_Airtel-Investor_Meet_STX_Intimation.pdf"
-  },
-  {
-   "date": "2026-08-10",
-   "filed_at": "2026-08-10T19:00:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Bharti Airtel Limited has informed the Exchange about Transcript of Earning Call dt. August 05, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026185505_Stx_Intimation.pdf"
-  },
-  {
-   "date": "2026-08-10",
-   "filed_at": "2026-08-10T12:03:00+05:30",
-   "tag": "Press release",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Press Release",
-   "subject": "Bharti Airtel Limited has informed the Exchange regarding a press release dated August 10, 2026, titled \"Airtel Business and ITI Limited enter into strategic partnership to accelerate India s digital transformation\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026120302_BhartiAirtelPressRelease.pdf"
   }
  ],
  "routine": [
@@ -3052,9 +3028,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 0.5871401976227819,
-    "nifty_return_1y": -1.879089130801237,
-    "close": 2107.2,
+    "return_1y": 3.5428742754347375,
+    "nifty_return_1y": null,
+    "close": 2072.1,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }
@@ -3063,8 +3039,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.498,
-    "usual": 67.98322580645161,
+    "recent": 65.98150000000001,
+    "usual": 67.77306451612904,
     "months": 3
    }
   },
@@ -3110,26 +3086,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "a40c87700c1b900b",
-   "symbol": "BHARTIARTL",
-   "kind": "flag",
-   "date": "2026-11-06",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf"
-   }
-  },
-  {
-   "id": "dc4a5652dab665c1",
-   "symbol": "BHARTIARTL",
-   "kind": "results",
-   "date": "2026-11-06",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf"
-   }
-  }
- ]
+ "events": []
 }
