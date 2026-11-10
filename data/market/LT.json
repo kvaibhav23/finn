@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-10T11:38:37Z",
+ "generated_at": "2026-11-10T20:35:42Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": 7.791371538956859,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 54.569500000000005,
-  "delivery_avg": 58.18524590163935,
-  "delivery_sessions": 61
+  "delivery_avg": 58.008833333333335,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    3980.5,
-    1154072,
-    null
-   ],
    [
     "2025-11-04",
     3924.4,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     4020.0,
     2226623,
-    68.77
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2945,22 +2935,11 @@
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts - L&T Secures Ultra-Mega* Order for Strategic Offshore Development Project in the Middle East",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/Subhodh_17082026113557_SEIntimation_Pressrelease_17082026.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T11:29:00+05:30",
-   "tag": "Order or contract",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Bagging/Receiving of orders/contracts",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_13082026112910_PressRelease13082026.pdf"
   }
  ],
  "routine": [
   "2026-10-28T19:47:00+05:30",
-  "2026-10-27T13:29:00+05:30",
-  "2026-10-12T18:30:00+05:30"
+  "2026-10-27T13:29:00+05:30"
  ],
  "calls": [
   {
@@ -3012,7 +2991,7 @@
    "state": "usual",
    "facts": {
     "recent": 54.569500000000005,
-    "usual": 58.18524590163935,
+    "usual": 58.008833333333335,
     "months": 3
    }
   },

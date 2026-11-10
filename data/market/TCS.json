@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-10T11:38:39Z",
+ "generated_at": "2026-11-10T20:36:09Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -17.260512066314593,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 50.1135,
-  "delivery_avg": 48.66377049180328,
-  "delivery_sessions": 61
+  "delivery_avg": 48.819833333333335,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    3016.8,
-    2194877,
-    null
-   ],
    [
     "2025-11-04",
     2990.2,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     2349.7,
     7022647,
-    39.3
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2975,16 +2965,6 @@
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Pursuant to Regulation 30 read with Schedule III Part A Para A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose the communication se",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14082026200446_SigendStock_exchange_intimation_letter.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T11:30:00+05:30",
-   "tag": "Press release",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS and Vodafone join forces to drive AI-led digital transformation for UK enterprises'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_13082026112214_PR_13Aug26_signed.pdf"
   }
  ],
  "routine": [
@@ -3045,7 +3025,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.1135,
-    "usual": 48.66377049180328,
+    "usual": 48.819833333333335,
     "months": 3
    }
   },

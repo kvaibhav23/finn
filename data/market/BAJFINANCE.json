@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-10T11:38:36Z",
+ "generated_at": "2026-11-10T20:34:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -0.16407275454716208,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 60.722,
-  "delivery_avg": 62.538688524590164,
-  "delivery_sessions": 61
+  "delivery_avg": 62.380833333333335,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    1043.1,
-    4135617,
-    null
-   ],
    [
     "2025-11-04",
     1057.0,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     1094.2,
     7054842,
-    72.01
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T12:15:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Committee Meeting Updates",
+   "subject": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf"
+  },
+  {
    "date": "2026-11-07",
    "filed_at": "2026-11-07T16:41:00+05:30",
    "tag": "Other",
@@ -2709,6 +2709,16 @@
   {
    "date": "2026-10-19",
    "filed_at": "2026-10-19T17:57:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Issue of Securities",
+   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
+  },
+  {
+   "date": "2026-10-19",
+   "filed_at": "2026-10-19T17:57:00+05:30",
    "tag": "Appointment",
    "priority": 1,
    "worth_a_look": false,
@@ -2727,16 +2737,6 @@
      "security auditor and consultant"
     ]
    }
-  },
-  {
-   "date": "2026-10-19",
-   "filed_at": "2026-10-19T17:57:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Issue of Securities",
-   "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2910,6 +2910,7 @@
   }
  ],
  "routine": [
+  "2026-11-10T12:58:00+05:30",
   "2026-10-30T14:53:00+05:30",
   "2026-10-21T12:29:00+05:30"
  ],
@@ -2963,7 +2964,7 @@
    "state": "usual",
    "facts": {
     "recent": 60.722,
-    "usual": 62.538688524590164,
+    "usual": 62.380833333333335,
     "months": 3
    }
   },

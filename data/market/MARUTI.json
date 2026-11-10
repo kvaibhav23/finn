@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-10T11:38:38Z",
+ "generated_at": "2026-11-10T20:35:47Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -16.480392790231924,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 52.2625,
-  "delivery_avg": 53.853442622950816,
-  "delivery_sessions": 61
+  "delivery_avg": 53.68233333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    15651.0,
-    942850,
-    null
-   ],
    [
     "2025-11-04",
     15374.0,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     13875.0,
     354408,
-    64.12
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T11:56:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Maruti Suzuki India Limited has informed the Exchange about Reference to the Financial Results issued by Suzuki Motor Corporation",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
+  },
+  {
    "date": "2026-11-02",
    "filed_at": "2026-11-02T21:08:00+05:30",
    "tag": "Earnings call",
@@ -2983,11 +2983,6 @@
  ],
  "calls": [
   {
-   "quarter": "Q2FY26",
-   "date": "2025-11-03",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf"
-  },
-  {
    "quarter": "Q3FY26",
    "date": "2026-01-28",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf"
@@ -3031,7 +3026,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.2625,
-    "usual": 53.853442622950816,
+    "usual": 53.68233333333333,
     "months": 3
    }
   },
@@ -3062,5 +3057,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "bf2d22a562f84958",
+   "symbol": "MARUTI",
+   "kind": "results",
+   "date": "2026-11-10",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
+   }
+  }
+ ]
 }

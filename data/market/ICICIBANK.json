@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-10T11:38:37Z",
+ "generated_at": "2026-11-10T20:35:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": 18.317200297840653,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 61.970000000000006,
-  "delivery_avg": 61.635245901639344,
-  "delivery_sessions": 61
+  "delivery_avg": 61.748000000000005,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    1346.4,
-    11071450,
-    null
-   ],
    [
     "2025-11-04",
     1336.9,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     1431.7,
     8201733,
-    54.87
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -3185,26 +3175,6 @@
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 114740 Shares.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_17082026180456_LETTER_TO_STOCK_EXCHNAGE1.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T20:32:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange that under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and in continuation to our earlier letters dated August 6, 2026 and August 12, 2026, please note that ICICI Bank Limited ( Bank ),",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_13082026203035_NSEBSE_13082026.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T14:39:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 130909 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_13082026143847_Lettertoexchange.pdf"
   }
  ],
  "routine": [
@@ -3255,7 +3225,7 @@
    "state": "usual",
    "facts": {
     "recent": 61.970000000000006,
-    "usual": 61.635245901639344,
+    "usual": 61.748000000000005,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-10T11:38:38Z",
+ "generated_at": "2026-11-10T20:35:56Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -10.392422192151551,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 50.1875,
-  "delivery_avg": 57.53590163934426,
-  "delivery_sessions": 61
+  "delivery_avg": 57.616166666666665,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    1484.7,
-    8452085,
-    null
-   ],
    [
     "2025-11-04",
     1473.1,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     1329.0,
     7901012,
-    52.72
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -3055,16 +3045,6 @@
    "category": "Updates",
    "subject": "Please find attached a media release by the Company, titled Reliance Industries and Rolls-Royce announce strategic intent to partner and develop India's indigenous combat engine for the Advanced Medium Combat Aircraft (AMCA) programme.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14082026174801_SE_14082026.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T19:41:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Motilal Oswal's 22nd Annual Global Investor Conference, scheduled to be held on August 18, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_13082026194059_SE_13082026.pdf"
   }
  ],
  "routine": [
@@ -3117,7 +3097,7 @@
    "state": "lower",
    "facts": {
     "recent": 50.1875,
-    "usual": 57.53590163934426,
+    "usual": 57.616166666666665,
     "months": 3
    }
   },

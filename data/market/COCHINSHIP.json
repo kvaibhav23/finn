@@ -1,6 +1,6 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-10T11:38:36Z",
+ "generated_at": "2026-11-10T20:35:01Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -25.25205701703558,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 36.2215,
-  "delivery_avg": 35.68459016393443,
-  "delivery_sessions": 61
+  "delivery_avg": 35.7225,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    1787.0,
-    313736,
-    null
-   ],
    [
     "2025-11-04",
     1768.7,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     1506.0,
     622999,
-    33.41
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2537,32 +2527,22 @@
  "results": {
   "basis": "Consolidated",
   "bank": false,
-  "latest_quarter": "Q1FY27",
-  "latest_qe": "2026-06-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1714913_14082026065634_WEB.xml",
+  "latest_quarter": "Q2FY27",
+  "latest_qe": "2026-09-30",
+  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1755884_10112026065521_WEB.xml",
   "top_line": "revenue",
-  "ttm_revenue_cr": 5047.4894,
-  "ttm_pat_cr": 680.1376,
-  "ttm_margin_pct": 13.47477024914604,
-  "ttm_eps": 25.86,
-  "pe": 49.88399071925754,
+  "ttm_revenue_cr": 5178.0932,
+  "ttm_pat_cr": 626.381,
+  "ttm_margin_pct": 12.096750209131036,
+  "ttm_eps": 23.809999999999995,
+  "pe": 54.17891642167158,
   "pe_note": null,
   "market_cap_cr": 33937.4232,
-  "revenue_yoy_pct": 2.3974943542678595,
-  "pat_yoy_pct": -19.366146192703138,
+  "revenue_yoy_pct": 11.675782779901533,
+  "pat_yoy_pct": -49.993397031826305,
   "net_npa_pct": null,
   "ebitda_note": null,
   "quarters": [
-   {
-    "quarter": "Q1FY25",
-    "qe": "2024-06-30",
-    "revenue_cr": 771.4744,
-    "ebitda_cr": 177.3606,
-    "pbt_cr": 235.8214,
-    "pat_cr": 174.2354,
-    "approved": "2024-08-08",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_110912_1217953_09082024104145.xml"
-   },
    {
     "quarter": "Q2FY25",
     "qe": "2024-09-30",
@@ -2642,10 +2622,60 @@
     "pat_cr": 151.4536,
     "approved": "2026-08-14",
     "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1714913_14082026065634_WEB.xml"
+   },
+   {
+    "quarter": "Q2FY27",
+    "qe": "2026-09-30",
+    "revenue_cr": 1249.1909,
+    "ebitda_cr": 50.9417,
+    "pbt_cr": 75.0959,
+    "pat_cr": 53.7708,
+    "approved": "2026-11-10",
+    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1755884_10112026065521_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T16:11:00+05:30",
+   "tag": "Dividend or corporate action",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Cochin Shipyard Limited has informed the Exchange regarding 'Communication on Tax Deduction at Source (TDS) on Dividend payout - 01st Interim Dividend 2026-27'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026161039_SE_Intimation_Sgd.pdf"
+  },
+  {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T14:45:00+05:30",
+   "tag": "Dividend or corporate action",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Record Date",
+   "subject": "Cochin Shipyard Limited has informed the Exchange that Record date for the purpose of Dividend is 16-Nov-2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026144437_SE_Intimation_Sgd.pdf"
+  },
+  {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T14:34:00+05:30",
+   "tag": "Dividend or corporate action",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Dividend",
+   "subject": "Cochin Shipyard Limited has informed the Exchange that Board of Directors at its meeting held on November 10, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026143317_SE_Intimation_Sgd.pdf"
+  },
+  {
+   "date": "2026-11-10",
+   "filed_at": "2026-11-10T14:27:00+05:30",
+   "tag": "Results",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Outcome of Board Meeting",
+   "subject": "Cochin Shipyard Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
+  },
   {
    "date": "2026-11-09",
    "filed_at": "2026-11-09T16:46:00+05:30",
@@ -2888,8 +2918,8 @@
  "move": {
   "date": "2026-11-09",
   "change_pct": 5.737704918032782,
-  "typical_pct": 1.2847823192650765,
-  "times": 4.46589654293723,
+  "typical_pct": 1.303992102905166,
+  "times": 4.400107105901746,
   "volume_x": 1.8048006354767285,
   "biggest_in_year": false,
   "nifty_change_pct": 0.05713064339891716,
@@ -2913,8 +2943,8 @@
    "facts": {
     "date": "2026-11-09",
     "change_pct": 5.737704918032782,
-    "typical_pct": 1.2847823192650765,
-    "times": 4.46589654293723,
+    "typical_pct": 1.303992102905166,
+    "times": 4.400107105901746,
     "volume_x": 1.8048006354767285,
     "biggest_in_year": false,
     "nifty_change_pct": 0.05713064339891716
@@ -2953,7 +2983,7 @@
    "state": "usual",
    "facts": {
     "recent": 36.2215,
-    "usual": 35.68459016393443,
+    "usual": 35.7225,
     "months": 3
    }
   },
@@ -2979,5 +3009,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "466e5c9776dd8d9b",
+   "symbol": "COCHINSHIP",
+   "kind": "results",
+   "date": "2026-11-10",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
+   }
+  }
+ ]
 }

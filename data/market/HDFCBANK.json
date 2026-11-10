@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-10T11:38:37Z",
+ "generated_at": "2026-11-10T20:35:20Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -18.74681869082765,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 58.3235,
-  "delivery_avg": 59.885737704918036,
-  "delivery_sessions": 61
+  "delivery_avg": 59.79566666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    992.65,
-    16607180,
-    null
-   ],
    [
     "2025-11-04",
     985.25,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     729.0,
     26993177,
-    65.29
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -3046,16 +3036,6 @@
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 1729212 Shares.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_14082026140700_SELetterESOP14082026.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T16:17:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_13082026161622_Analystmeetintimation_13082026.pdf"
   }
  ],
  "routine": [
@@ -3107,7 +3087,7 @@
    "state": "usual",
    "facts": {
     "recent": 58.3235,
-    "usual": 59.885737704918036,
+    "usual": 59.79566666666666,
     "months": 3
    }
   },

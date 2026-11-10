@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-10T11:38:36Z",
+ "generated_at": "2026-11-10T20:34:57Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": 3.5428742754347375,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 65.98150000000001,
-  "delivery_avg": 67.84163934426229,
-  "delivery_sessions": 61
+  "delivery_avg": 67.80183333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    2074.0,
-    2979629,
-    null
-   ],
    [
     "2025-11-04",
     2113.3,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     1945.0,
     10871157,
-    70.23
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2975,16 +2965,6 @@
    "category": "Updates",
    "subject": "Bharti Airtel Limited has informed the Exchange regarding an update.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_17082026162258_PRAug17.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T16:56:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_13082026165533_Bharti_Airtel-Investor_Meet_STX_Intimation.pdf"
   }
  ],
  "routine": [
@@ -3044,7 +3024,7 @@
    "state": "usual",
    "facts": {
     "recent": 65.98150000000001,
-    "usual": 67.84163934426229,
+    "usual": 67.80183333333333,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-10T11:38:37Z",
+ "generated_at": "2026-11-10T20:35:37Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -13,19 +13,13 @@
   "return_1y": -52.961838681699916,
   "nifty_return_1y": -1.7560204453893835,
   "delivery_20d": 31.101,
-  "delivery_avg": 34.284918032786884,
-  "delivery_sessions": 61
+  "delivery_avg": 34.243,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-03",
-    1164.0,
-    385914,
-    null
-   ],
    [
     "2025-11-04",
     1155.4,
@@ -1164,7 +1158,7 @@
     "2026-08-12",
     609.2,
     1196638,
-    36.8
+    null
    ],
    [
     "2026-08-13",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-03",
-   25763.35
-  ],
   [
    "2025-11-04",
    25597.65
@@ -2886,16 +2876,6 @@
    "category": "General Updates",
    "subject": "KPIT Technologies Limited 9th AGM to be held on August 31, 2026 - Response to Institutional Investor Advisory Services India (IiAS) Voting Recommendation",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_21082026174836_KPIT_iias_clarification_Final.pdf"
-  },
-  {
-   "date": "2026-08-13",
-   "filed_at": "2026-08-13T18:48:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Outcome of Investor Conference held on Thursday, August 13, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_13082026184555_KPIT_Equirus_Confluence_outcome_signed.pdf"
   }
  ],
  "routine": [
@@ -2959,7 +2939,7 @@
    "state": "usual",
    "facts": {
     "recent": 31.101,
-    "usual": 34.284918032786884,
+    "usual": 34.243,
     "months": 3
    }
   },
