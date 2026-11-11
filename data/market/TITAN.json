@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-11T11:23:47Z",
+ "generated_at": "2026-11-11T18:53:13Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 3751.0,
   "range_position": 0.8490631747579579,
   "return_1y": 30.36407512328192,
-  "nifty_return_1y": null,
-  "delivery_20d": 54.7285,
-  "delivery_avg": 56.00866666666666,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 55.552499999999995,
+  "delivery_avg": 56.312,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    3813.5,
-    2524600,
-    null
-   ],
    [
     "2025-11-06",
     3774.4,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     5063.7,
     533274,
-    49.34
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     4970.0,
     1716837,
-    null
+    67.54
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2642,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-11",
+   "filed_at": "2026-11-11T14:39:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Earnings Call Transcripts",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11112026143915_SEearningcalltranscriptsQ2.pdf"
+  },
   {
    "date": "2026-11-09",
    "filed_at": "2026-11-09T14:58:00+05:30",
@@ -2831,16 +2835,6 @@
    "category": "Shareholders meeting",
    "subject": "Titan Company Limited has informed the Exchange regarding Notice of Postal Ballot",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_17082026121027_SEIntimationPostalballot.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T16:41:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_14082026164055_SEintimation_14_August_26.pdf"
   }
  ],
  "routine": [
@@ -2848,13 +2842,12 @@
   "2026-11-06T16:56:00+05:30",
   "2026-11-05T18:23:00+05:30",
   "2026-10-28T17:26:00+05:30",
-  "2026-10-19T16:11:00+05:30",
-  "2026-10-13T10:23:00+05:30"
+  "2026-10-19T16:11:00+05:30"
  ],
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-04",
+   "date": "2025-11-08",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_08112025170040_SEearningcalltranscriptQ2.pdf"
   },
   {
@@ -2875,7 +2868,7 @@
   {
    "quarter": "Q2FY27",
    "date": "2026-11-05",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_11112026143915_SEearningcalltranscriptsQ2.pdf"
   }
  ],
  "move": null,
@@ -2890,7 +2883,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 30.36407512328192,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 4970.0,
     "low_52w": 3751.0,
     "high_52w": 5186.7
@@ -2900,8 +2893,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 54.7285,
-    "usual": 56.00866666666666,
+    "recent": 55.552499999999995,
+    "usual": 56.312,
     "months": 3
    }
   },

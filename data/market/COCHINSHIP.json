@@ -1,6 +1,6 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-11T11:23:43Z",
+ "generated_at": "2026-11-11T18:52:01Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 1101.2,
   "range_position": 0.13592233009708735,
   "return_1y": -31.49045312054717,
-  "nifty_return_1y": null,
-  "delivery_20d": 36.2215,
-  "delivery_avg": 35.7225,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 36.510000000000005,
+  "delivery_avg": 35.6785,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    1768.7,
-    438411,
-    null
-   ],
    [
     "2025-11-06",
     1702.7,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     1507.0,
     1161993,
-    34.29
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     1202.0,
     8510681,
-    null
+    31.65
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2642,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-11",
+   "filed_at": "2026-11-11T14:20:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Cochin Shipyard Limited has informed the Exchange regarding ' Receipt of order for Normal refit cum re-powering of an Indian Naval Vessel'.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_11112026142023_SE_Intimation_Sgd.pdf"
+  },
   {
    "date": "2026-11-10",
    "filed_at": "2026-11-10T16:11:00+05:30",
@@ -2891,29 +2895,11 @@
    "category": "Appointment",
    "subject": "Cochin Shipyard Limited has informed the Exchange regarding Appointment of Dr. Vani Ahluwalia as Non-Official (Independent) Director of the company.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_17082026172454_SE_Intimation_SD.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T18:08:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Cochin Shipyard Limited has informed the Exchange regarding ''Comments of the Board of Directors of the Company pursuant to SEBI Master Circular dated January 30, 2026\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_14082026180354_Board_Comments_Q4FY26_sd.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T17:52:00+05:30",
-   "tag": "Results",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Outcome of Board Meeting",
-   "subject": "Cochin Shipyard Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_14082026174331_SE_Intimation_14_08_2026_SD.pdf"
   }
  ],
- "routine": [],
+ "routine": [
+  "2026-11-11T15:26:00+05:30"
+ ],
  "calls": [
   {
    "quarter": "Q1FY27",
@@ -2924,12 +2910,17 @@
  "move": {
   "date": "2026-11-11",
   "change_pct": -6.821705426356594,
-  "typical_pct": 1.3232018865452555,
-  "times": 5.1554532197406155,
+  "typical_pct": 1.303992102905166,
+  "times": 5.231400873639116,
   "volume_x": 8.804314575850652,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 0.8400995821462809,
   "filings": [
+   {
+    "date": "2026-11-11",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_11112026142023_SE_Intimation_Sgd.pdf"
+   },
    {
     "date": "2026-11-10",
     "tag": "Dividend or corporate action",
@@ -2949,11 +2940,6 @@
     "date": "2026-11-10",
     "tag": "Results",
     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
-   },
-   {
-    "date": "2026-11-09",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
    }
   ]
  },
@@ -2964,13 +2950,18 @@
    "facts": {
     "date": "2026-11-11",
     "change_pct": -6.821705426356594,
-    "typical_pct": 1.3232018865452555,
-    "times": 5.1554532197406155,
+    "typical_pct": 1.303992102905166,
+    "times": 5.231400873639116,
     "volume_x": 8.804314575850652,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 0.8400995821462809
    },
    "items": [
+    {
+     "date": "2026-11-11",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_11112026142023_SE_Intimation_Sgd.pdf"
+    },
     {
      "date": "2026-11-10",
      "tag": "Dividend or corporate action",
@@ -2990,11 +2981,6 @@
      "date": "2026-11-10",
      "tag": "Results",
      "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
-    },
-    {
-     "date": "2026-11-09",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
     }
    ]
   },
@@ -3008,7 +2994,7 @@
    "state": "low",
    "facts": {
     "return_1y": -31.49045312054717,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 1202.0,
     "low_52w": 1101.2,
     "high_52w": 1842.8
@@ -3018,8 +3004,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.2215,
-    "usual": 35.7225,
+    "recent": 36.510000000000005,
+    "usual": 35.6785,
     "months": 3
    }
   },
@@ -3045,17 +3031,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "256a3b93e9329f55",
-   "symbol": "COCHINSHIP",
-   "kind": "move",
-   "date": "2026-11-11",
-   "facts": {
-    "change_pct": -6.821705426356594,
-    "times": 5.1554532197406155,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

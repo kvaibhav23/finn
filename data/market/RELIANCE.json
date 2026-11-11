@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-11T11:23:46Z",
+ "generated_at": "2026-11-11T18:52:55Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 1152.2,
   "range_position": 0.39860748476936486,
   "return_1y": -10.57988482657024,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.1875,
-  "delivery_avg": 57.616166666666665,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 50.1105,
+  "delivery_avg": 57.60566666666667,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    1473.1,
-    10007806,
-    null
-   ],
    [
     "2025-11-06",
     1496.1,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     1317.0,
     9397301,
-    52.72
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     1335.4,
     17554310,
-    null
+    52.09
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -3041,16 +3035,6 @@
    "category": "News Verification",
    "subject": "The Exchange has sought clarification from Reliance Industries Limited with respect to recent news item captioned SC slaps Rs 10 lakh fine on Reliance Industries for delaying NTPC gas supply suit. The response from the Company is awaited.",
    "pdf_url": "-"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T17:48:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Please find attached a media release by the Company, titled Reliance Industries and Rolls-Royce announce strategic intent to partner and develop India's indigenous combat engine for the Advanced Medium Combat Aircraft (AMCA) programme.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14082026174801_SE_14082026.pdf"
   }
  ],
  "routine": [
@@ -3092,7 +3076,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -10.57988482657024,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 1335.4,
     "low_52w": 1152.2,
     "high_52w": 1611.8
@@ -3102,8 +3086,8 @@
    "key": "delivery",
    "state": "lower",
    "facts": {
-    "recent": 50.1875,
-    "usual": 57.616166666666665,
+    "recent": 50.1105,
+    "usual": 57.60566666666667,
     "months": 3
    }
   },

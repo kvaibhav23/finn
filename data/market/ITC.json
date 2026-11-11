@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-11T11:23:45Z",
+ "generated_at": "2026-11-11T18:52:32Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 252.8,
   "range_position": 0.20226130653266325,
   "return_1y": -29.949612879439602,
-  "nifty_return_1y": null,
-  "delivery_20d": 53.902,
-  "delivery_avg": 56.7305,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 54.319,
+  "delivery_avg": 56.64066666666667,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    408.9,
-    10085404,
-    null
-   ],
    [
     "2025-11-06",
     407.5,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     278.5,
     11335590,
-    61.56
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     285.0,
     23473983,
-    null
+    56.17
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2751,26 +2745,6 @@
    "category": "Acquisition",
    "subject": "ITC Limited has informed the Exchange about Strategic combination of ITC Infotech India Limited and Happiest Minds Technologies Limited",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_31082026191614_SE.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T16:30:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "ITC Limited has informed the Exchange regarding of 313800 Options.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_14082026162931_StockExchangeletter.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T16:11:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "ITC Limited has informed the Exchange about participation in Investor Conference",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_14082026160912_SE.pdf"
   }
  ],
  "routine": [],
@@ -2778,11 +2752,11 @@
  "move": {
   "date": "2026-11-11",
   "change_pct": 2.223816355810615,
-  "typical_pct": 0.6829434864265016,
-  "times": 3.256223098995677,
+  "typical_pct": 0.6889525076709258,
+  "times": 3.2278224275987513,
   "volume_x": 1.2710030096597706,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 0.8400995821462809,
   "filings": []
  },
  "signals": [
@@ -2792,11 +2766,11 @@
    "facts": {
     "date": "2026-11-11",
     "change_pct": 2.223816355810615,
-    "typical_pct": 0.6829434864265016,
-    "times": 3.256223098995677,
+    "typical_pct": 0.6889525076709258,
+    "times": 3.2278224275987513,
     "volume_x": 1.2710030096597706,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 0.8400995821462809
    },
    "items": []
   },
@@ -2810,7 +2784,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -29.949612879439602,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 285.0,
     "low_52w": 252.8,
     "high_52w": 412.0
@@ -2820,8 +2794,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.902,
-    "usual": 56.7305,
+    "recent": 54.319,
+    "usual": 56.64066666666667,
     "months": 3
    }
   },
@@ -2839,17 +2813,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "04d7b2a949babde0",
-   "symbol": "ITC",
-   "kind": "move",
-   "date": "2026-11-11",
-   "facts": {
-    "change_pct": 2.223816355810615,
-    "times": 3.256223098995677,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

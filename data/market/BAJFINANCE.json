@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-11T11:23:43Z",
+ "generated_at": "2026-11-11T18:51:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 787.9,
   "range_position": 0.7487773487773485,
   "return_1y": 7.321925984878619,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.722,
-  "delivery_avg": 62.380833333333335,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 60.678999999999995,
+  "delivery_avg": 62.501333333333335,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    1057.0,
-    6202540,
-    null
-   ],
    [
     "2025-11-06",
     1041.9,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     1090.8,
     2405186,
-    52.72
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     1078.8,
     9276361,
-    null
+    59.95
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2642,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-11",
+   "filed_at": "2026-11-11T17:13:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Bajaj Finance Limited has informed the Exchange about outcome of QIP 2026 - Special Committee meeting",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf"
+  },
   {
    "date": "2026-11-10",
    "filed_at": "2026-11-10T12:15:00+05:30",
@@ -2959,7 +2963,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 7.321925984878619,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 1078.8,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -2969,8 +2973,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.722,
-    "usual": 62.380833333333335,
+    "recent": 60.678999999999995,
+    "usual": 62.501333333333335,
     "months": 3
    }
   },

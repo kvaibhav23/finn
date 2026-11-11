@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-11T11:23:45Z",
+ "generated_at": "2026-11-11T18:52:41Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 3288.1,
   "range_position": 0.8020661515756576,
   "return_1y": 6.4981036662452585,
-  "nifty_return_1y": null,
-  "delivery_20d": 54.569500000000005,
-  "delivery_avg": 58.008833333333335,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 55.232000000000006,
+  "delivery_avg": 58.18266666666667,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    3924.4,
-    2042881,
-    null
-   ],
    [
     "2025-11-06",
     3881.6,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     4070.7,
     2299928,
-    56.17
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     4212.0,
     2833382,
-    null
+    66.6
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2949,11 +2943,6 @@
  ],
  "calls": [
   {
-   "quarter": "Q2FY26",
-   "date": "2025-11-04",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_04112025204513_TranscriptSep2025.pdf"
-  },
-  {
    "quarter": "Q3FY26",
    "date": "2026-01-28",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_03022026135414_TranscriptDec2025.pdf"
@@ -2986,7 +2975,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 6.4981036662452585,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 4212.0,
     "low_52w": 3288.1,
     "high_52w": 4440.0
@@ -2996,8 +2985,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 54.569500000000005,
-    "usual": 58.008833333333335,
+    "recent": 55.232000000000006,
+    "usual": 58.18266666666667,
     "months": 3
    }
   },

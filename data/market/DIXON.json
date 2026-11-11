@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-11T11:23:44Z",
+ "generated_at": "2026-11-11T18:52:06Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 9600.0,
   "range_position": 0.5337651821862348,
   "return_1y": -14.562077646747051,
-  "nifty_return_1y": null,
-  "delivery_20d": 36.199,
-  "delivery_avg": 38.127500000000005,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 36.761,
+  "delivery_avg": 38.0855,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    15254.0,
-    172440,
-    null
-   ],
    [
     "2025-11-06",
     15079.0,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     14035.0,
     433433,
-    44.82
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     12896.0,
     352841,
-    null
+    42.3
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -3061,16 +3055,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_19082026161620_InvestorMeetOutcome19082026.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T18:59:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Giving guarantees/indemnity/ becoming a surety for third party",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Giving guarantees/indemnity/ becoming a surety for third party",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_14082026185848_CGPEPL14082026.pdf"
   }
  ],
  "routine": [
@@ -3116,7 +3100,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -14.562077646747051,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 12896.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
@@ -3126,8 +3110,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.199,
-    "usual": 38.127500000000005,
+    "recent": 36.761,
+    "usual": 38.0855,
     "months": 3
    }
   },

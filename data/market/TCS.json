@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-11T11:23:46Z",
+ "generated_at": "2026-11-11T18:53:08Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 1976.8,
   "range_position": 0.3606903582872123,
   "return_1y": -18.867738759435515,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.1135,
-  "delivery_avg": 48.819833333333335,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 50.9185,
+  "delivery_avg": 49.178666666666665,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    2990.2,
-    2670720,
-    null
-   ],
    [
     "2025-11-06",
     3010.9,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     2375.0,
     2123494,
-    36.58
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     2472.1,
     4013371,
-    null
+    58.11
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2961,16 +2955,6 @@
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Agentic AI platform to transform drug development'.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_17082026112153_PR_17Aug26_signed.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T20:05:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Pursuant to Regulation 30 read with Schedule III Part A Para A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose the communication se",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14082026200446_SigendStock_exchange_intimation_letter.pdf"
   }
  ],
  "routine": [
@@ -2979,8 +2963,8 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-04",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_04112025165310_SEInt04112025.pdf"
+   "date": "2025-12-23",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_23122025195649_Signed_SEInt_letter.pdf"
   },
   {
    "quarter": "Q3FY26",
@@ -3020,7 +3004,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -18.867738759435515,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 2472.1,
     "low_52w": 1976.8,
     "high_52w": 3350.0
@@ -3030,8 +3014,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.1135,
-    "usual": 48.819833333333335,
+    "recent": 50.9185,
+    "usual": 49.178666666666665,
     "months": 3
    }
   },

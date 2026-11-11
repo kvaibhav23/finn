@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-11T11:23:43Z",
+ "generated_at": "2026-11-11T18:51:57Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 1726.3,
   "range_position": 0.8538598839803659,
   "return_1y": 3.2659256720364294,
-  "nifty_return_1y": null,
-  "delivery_20d": 65.98150000000001,
-  "delivery_avg": 67.80183333333333,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 66.2705,
+  "delivery_avg": 67.98483333333334,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    2113.3,
-    12263078,
-    null
-   ],
    [
     "2025-11-06",
     2094.9,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     1939.1,
     13019222,
-    57.84
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     2109.0,
     8969920,
-    null
+    68.82
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2642,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-11",
+   "filed_at": "2026-11-11T18:33:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_11112026183310_BhartiAirtelSTXIntimation.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T16:11:00+05:30",
@@ -2983,7 +2987,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-04",
+   "date": "2025-11-11",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_11112025164840_EarningCallTranscriptAirtel.pdf"
   },
   {
@@ -3019,7 +3023,7 @@
    "state": "high",
    "facts": {
     "return_1y": 3.2659256720364294,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 2109.0,
     "low_52w": 1726.3,
     "high_52w": 2174.5
@@ -3029,8 +3033,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 65.98150000000001,
-    "usual": 67.80183333333333,
+    "recent": 66.2705,
+    "usual": 67.98483333333334,
     "months": 3
    }
   },

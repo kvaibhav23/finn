@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-11T11:23:46Z",
+ "generated_at": "2026-11-11T18:53:00Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 1583.7,
   "range_position": 0.687823834196891,
   "return_1y": 10.850183555736859,
-  "nifty_return_1y": null,
-  "delivery_20d": 59.206,
-  "delivery_avg": 62.649499999999996,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 59.4105,
+  "delivery_avg": 62.67550000000001,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    1690.0,
-    1597993,
-    null
-   ],
    [
     "2025-11-06",
     1685.9,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     1932.0,
     1216049,
-    62.37
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     1902.3,
     2262492,
-    null
+    63.93
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -2800,15 +2794,7 @@
    "worth_a_look": true,
    "category": "Resignation",
    "subject": "Resignation of Director of the Company",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
-   "profile": {
-    "page": 2,
-    "excerpt": null,
-    "name": "Mr. Gautam Doshi",
-    "role": null,
-    "effective": "12 October 2026",
-    "previous": []
-   }
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
   },
   {
    "date": "2026-10-12",
@@ -3025,7 +3011,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 10.850183555736859,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 1902.3,
     "low_52w": 1583.7,
     "high_52w": 2046.9
@@ -3035,8 +3021,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.206,
-    "usual": 62.649499999999996,
+    "recent": 59.4105,
+    "usual": 62.67550000000001,
     "months": 3
    }
   },

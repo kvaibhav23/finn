@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-11T11:23:44Z",
+ "generated_at": "2026-11-11T18:52:19Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-11",
@@ -11,21 +11,15 @@
   "low_52w": 669.2,
   "range_position": 0.3944875107665805,
   "return_1y": -18.66491882625794,
-  "nifty_return_1y": null,
-  "delivery_20d": 58.3235,
-  "delivery_avg": 59.79566666666666,
+  "nifty_return_1y": -1.7120095582984218,
+  "delivery_20d": 58.8285,
+  "delivery_avg": 59.88816666666666,
   "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-04",
-    985.25,
-    20024544,
-    null
-   ],
    [
     "2025-11-06",
     984.65,
@@ -1164,7 +1158,7 @@
     "2026-08-13",
     725.0,
     22129893,
-    59.95
+    null
    ],
    [
     "2026-08-14",
@@ -1524,15 +1518,11 @@
     "2026-11-11",
     806.6,
     56398940,
-    null
+    65.5
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-04",
-   25597.65
-  ],
   [
    "2025-11-06",
    25509.7
@@ -2528,6 +2518,10 @@
   [
    "2026-11-09",
    25044.65
+  ],
+  [
+   "2026-11-11",
+   25255.05
   ]
  ],
  "results": {
@@ -3032,16 +3026,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16082026193110_SEIntimation_August162026.pdf"
-  },
-  {
-   "date": "2026-08-14",
-   "filed_at": "2026-08-14T14:10:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 1729212 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_14082026140700_SELetterESOP14082026.pdf"
   }
  ],
  "routine": [
@@ -3082,7 +3066,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -18.66491882625794,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -1.7120095582984218,
     "close": 806.6,
     "low_52w": 669.2,
     "high_52w": 1017.5
@@ -3092,8 +3076,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 58.3235,
-    "usual": 59.79566666666666,
+    "recent": 58.8285,
+    "usual": 59.88816666666666,
     "months": 3
    }
   },
