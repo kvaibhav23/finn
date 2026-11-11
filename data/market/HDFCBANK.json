@@ -1,17 +1,17 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-11T00:12:47Z",
+ "generated_at": "2026-11-11T11:23:44Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 798.15,
-  "change": 9.899999999999977,
-  "change_pct": 1.255946717411982,
+  "as_of": "2026-11-11",
+  "close": 806.6,
+  "change": 8.450000000000045,
+  "change_pct": 1.0586982396792566,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.3702268159632499,
-  "return_1y": -18.74681869082765,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.3944875107665805,
+  "return_1y": -18.66491882625794,
+  "nifty_return_1y": null,
   "delivery_20d": 58.3235,
   "delivery_avg": 59.79566666666666,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     798.15,
     64826814,
     62.7
+   ],
+   [
+    "2026-11-11",
+    806.6,
+    56398940,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.38454124903624,
+  "pe": 15.547417116422515,
   "pe_note": null,
-  "market_cap_cr": 1230635.559,
+  "market_cap_cr": 1243664.276,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3075,9 +3081,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.74681869082765,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 798.15,
+    "return_1y": -18.66491882625794,
+    "nifty_return_1y": null,
+    "close": 806.6,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }

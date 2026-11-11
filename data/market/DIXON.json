@@ -1,17 +1,17 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-11T00:12:47Z",
+ "generated_at": "2026-11-11T11:23:44Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 12603.0,
-  "change": -22.0,
-  "change_pct": -0.1742574257425744,
+  "as_of": "2026-11-11",
+  "close": 12896.0,
+  "change": 293.0,
+  "change_pct": 2.3248432912798433,
   "high_52w": 15775.0,
   "low_52w": 9600.0,
-  "range_position": 0.4863157894736842,
-  "return_1y": -15.125597683345681,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.5337651821862348,
+  "return_1y": -14.562077646747051,
+  "nifty_return_1y": null,
   "delivery_20d": 36.199,
   "delivery_avg": 38.127500000000005,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     12603.0,
     171649,
     36.51
+   ],
+   [
+    "2026-11-11",
+    12896.0,
+    352841,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 43.96344228555482,
+  "pe": 44.98552342414623,
   "pe_note": null,
-  "market_cap_cr": 77067.345,
+  "market_cap_cr": 78859.04,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
@@ -3109,9 +3115,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -15.125597683345681,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 12603.0,
+    "return_1y": -14.562077646747051,
+    "nifty_return_1y": null,
+    "close": 12896.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
    }

@@ -3,21 +3,5 @@
  "close": 25044.65,
  "change_pct": 0.05713064339891716,
  "big": false,
- "movers": [
-  {
-   "symbol": "SUPREMEIND",
-   "name": "Supreme Industries Limited",
-   "change_pct": 4.4252272799265135
-  },
-  {
-   "symbol": "ASIANPAINT",
-   "name": "Asian Paints Limited",
-   "change_pct": -1.441476826394339
-  },
-  {
-   "symbol": "TCS",
-   "name": "Tata Consultancy Services Limited",
-   "change_pct": -0.9245547328396997
-  }
- ]
+ "movers": []
 }

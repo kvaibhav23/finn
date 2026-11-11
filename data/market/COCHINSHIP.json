@@ -1,17 +1,17 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-11T00:12:47Z",
+ "generated_at": "2026-11-11T11:23:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 1290.0,
-  "change": 70.0,
-  "change_pct": 5.737704918032782,
+  "as_of": "2026-11-11",
+  "close": 1202.0,
+  "change": -88.0,
+  "change_pct": -6.821705426356594,
   "high_52w": 1842.8,
   "low_52w": 1101.2,
-  "range_position": 0.2545846817691478,
-  "return_1y": -25.25205701703558,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.13592233009708735,
+  "return_1y": -31.49045312054717,
+  "nifty_return_1y": null,
   "delivery_20d": 36.2215,
   "delivery_avg": 35.7225,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     1290.0,
     1742760,
     32.66
+   ],
+   [
+    "2026-11-11",
+    1202.0,
+    8510681,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 626.381,
   "ttm_margin_pct": 12.096750209131036,
   "ttm_eps": 23.809999999999995,
-  "pe": 54.17891642167158,
+  "pe": 50.482990340193204,
   "pe_note": null,
-  "market_cap_cr": 33937.4232,
+  "market_cap_cr": 31622.31216,
   "revenue_yoy_pct": 11.675782779901533,
   "pat_yoy_pct": -49.993397031826305,
   "net_npa_pct": null,
@@ -2916,49 +2922,79 @@
   }
  ],
  "move": {
-  "date": "2026-11-09",
-  "change_pct": 5.737704918032782,
-  "typical_pct": 1.303992102905166,
-  "times": 4.400107105901746,
-  "volume_x": 1.8048006354767285,
+  "date": "2026-11-11",
+  "change_pct": -6.821705426356594,
+  "typical_pct": 1.3232018865452555,
+  "times": 5.1554532197406155,
+  "volume_x": 8.804314575850652,
   "biggest_in_year": false,
-  "nifty_change_pct": 0.05713064339891716,
+  "nifty_change_pct": null,
   "filings": [
    {
-    "date": "2026-11-09",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
+    "date": "2026-11-10",
+    "tag": "Dividend or corporate action",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026161039_SE_Intimation_Sgd.pdf"
+   },
+   {
+    "date": "2026-11-10",
+    "tag": "Dividend or corporate action",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026144437_SE_Intimation_Sgd.pdf"
+   },
+   {
+    "date": "2026-11-10",
+    "tag": "Dividend or corporate action",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026143317_SE_Intimation_Sgd.pdf"
+   },
+   {
+    "date": "2026-11-10",
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
    },
    {
     "date": "2026-11-09",
     "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026163408_SE_Intimation_Results_Sgd.pdf"
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
    }
   ]
  },
  "signals": [
   {
    "key": "move",
-   "state": "up",
+   "state": "down",
    "facts": {
-    "date": "2026-11-09",
-    "change_pct": 5.737704918032782,
-    "typical_pct": 1.303992102905166,
-    "times": 4.400107105901746,
-    "volume_x": 1.8048006354767285,
+    "date": "2026-11-11",
+    "change_pct": -6.821705426356594,
+    "typical_pct": 1.3232018865452555,
+    "times": 5.1554532197406155,
+    "volume_x": 8.804314575850652,
     "biggest_in_year": false,
-    "nifty_change_pct": 0.05713064339891716
+    "nifty_change_pct": null
    },
    "items": [
     {
-     "date": "2026-11-09",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
+     "date": "2026-11-10",
+     "tag": "Dividend or corporate action",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026161039_SE_Intimation_Sgd.pdf"
+    },
+    {
+     "date": "2026-11-10",
+     "tag": "Dividend or corporate action",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026144437_SE_Intimation_Sgd.pdf"
+    },
+    {
+     "date": "2026-11-10",
+     "tag": "Dividend or corporate action",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026143317_SE_Intimation_Sgd.pdf"
+    },
+    {
+     "date": "2026-11-10",
+     "tag": "Results",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
     },
     {
      "date": "2026-11-09",
      "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026163408_SE_Intimation_Results_Sgd.pdf"
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/Aswi4739_09112026164622_SE_Intimation.pdf"
     }
    ]
   },
@@ -2969,11 +3005,11 @@
   },
   {
    "key": "price",
-   "state": "middle",
+   "state": "low",
    "facts": {
-    "return_1y": -25.25205701703558,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 1290.0,
+    "return_1y": -31.49045312054717,
+    "nifty_return_1y": null,
+    "close": 1202.0,
     "low_52w": 1101.2,
     "high_52w": 1842.8
    }
@@ -3009,5 +3045,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "256a3b93e9329f55",
+   "symbol": "COCHINSHIP",
+   "kind": "move",
+   "date": "2026-11-11",
+   "facts": {
+    "change_pct": -6.821705426356594,
+    "times": 5.1554532197406155,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

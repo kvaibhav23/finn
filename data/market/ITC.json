@@ -1,17 +1,17 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-11T00:12:48Z",
+ "generated_at": "2026-11-11T11:23:45Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 278.8,
-  "change": -4.349999999999966,
-  "change_pct": -1.536288186473589,
+  "as_of": "2026-11-11",
+  "close": 285.0,
+  "change": 6.199999999999989,
+  "change_pct": 2.223816355810615,
   "high_52w": 412.0,
   "low_52w": 252.8,
-  "range_position": 0.16331658291457288,
-  "return_1y": -30.998638782328914,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.20226130653266325,
+  "return_1y": -29.949612879439602,
+  "nifty_return_1y": null,
   "delivery_20d": 53.902,
   "delivery_avg": 56.7305,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     278.8,
     18577205,
     45.7
+   ],
+   [
+    "2026-11-11",
+    285.0,
+    23473983,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 19226.31,
   "ttm_margin_pct": 18.20159307286522,
   "ttm_eps": 15.07,
-  "pe": 18.50033178500332,
+  "pe": 18.91174518911745,
   "pe_note": null,
-  "market_cap_cr": 349350.34,
+  "market_cap_cr": 357119.25,
   "revenue_yoy_pct": 43.85868179410291,
   "pat_yoy_pct": -18.455813594778803,
   "net_npa_pct": null,
@@ -2769,8 +2775,31 @@
  ],
  "routine": [],
  "calls": [],
- "move": null,
+ "move": {
+  "date": "2026-11-11",
+  "change_pct": 2.223816355810615,
+  "typical_pct": 0.6829434864265016,
+  "times": 3.256223098995677,
+  "volume_x": 1.2710030096597706,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-11",
+    "change_pct": 2.223816355810615,
+    "typical_pct": 0.6829434864265016,
+    "times": 3.256223098995677,
+    "volume_x": 1.2710030096597706,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "none",
@@ -2780,9 +2809,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -30.998638782328914,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 278.8,
+    "return_1y": -29.949612879439602,
+    "nifty_return_1y": null,
+    "close": 285.0,
     "low_52w": 252.8,
     "high_52w": 412.0
    }
@@ -2810,5 +2839,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "04d7b2a949babde0",
+   "symbol": "ITC",
+   "kind": "move",
+   "date": "2026-11-11",
+   "facts": {
+    "change_pct": 2.223816355810615,
+    "times": 3.256223098995677,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

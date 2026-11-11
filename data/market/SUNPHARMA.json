@@ -1,17 +1,17 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-11T00:12:49Z",
+ "generated_at": "2026-11-11T11:23:46Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 1904.5,
-  "change": 44.5,
-  "change_pct": 2.39247311827957,
+  "as_of": "2026-11-11",
+  "close": 1902.3,
+  "change": -2.2000000000000455,
+  "change_pct": -0.11551588343396979,
   "high_52w": 2046.9,
   "low_52w": 1583.7,
-  "range_position": 0.6925734024179618,
-  "return_1y": 12.599030389026833,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.687823834196891,
+  "return_1y": 10.850183555736859,
+  "nifty_return_1y": null,
   "delivery_20d": 59.206,
   "delivery_avg": 62.649499999999996,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     1904.5,
     3127099,
     56.55
+   ],
+   [
+    "2026-11-11",
+    1902.3,
+    2262492,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 10987.13,
   "ttm_margin_pct": 17.827301620680007,
   "ttm_eps": 45.7,
-  "pe": 41.67396061269147,
+  "pe": 41.625820568927786,
   "pe_note": null,
-  "market_cap_cr": 456946.685,
+  "market_cap_cr": 456418.839,
   "revenue_yoy_pct": 11.88260232029843,
   "pat_yoy_pct": -36.15673850781612,
   "net_npa_pct": null,
@@ -3007,31 +3013,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-09",
-  "change_pct": 2.39247311827957,
-  "typical_pct": 0.6420264702305944,
-  "times": 3.7264399977469367,
-  "volume_x": 1.7457689722596546,
-  "biggest_in_year": false,
-  "nifty_change_pct": 0.05713064339891716,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-09",
-    "change_pct": 2.39247311827957,
-    "typical_pct": 0.6420264702305944,
-    "times": 3.7264399977469367,
-    "volume_x": 1.7457689722596546,
-    "biggest_in_year": false,
-    "nifty_change_pct": 0.05713064339891716
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "none",
@@ -3041,9 +3024,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 12.599030389026833,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 1904.5,
+    "return_1y": 10.850183555736859,
+    "nifty_return_1y": null,
+    "close": 1902.3,
     "low_52w": 1583.7,
     "high_52w": 2046.9
    }

@@ -1,17 +1,17 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-11T00:12:49Z",
+ "generated_at": "2026-11-11T11:23:46Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 3296.6,
-  "change": 139.69999999999982,
-  "change_pct": 4.4252272799265135,
+  "as_of": "2026-11-11",
+  "close": 3320.0,
+  "change": 23.40000000000009,
+  "change_pct": 0.7098222410968802,
   "high_52w": 4074.8,
   "low_52w": 3078.5,
-  "range_position": 0.21890996687744643,
-  "return_1y": -13.953852578826476,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.24239686841312852,
+  "return_1y": -14.304888751226052,
+  "nifty_return_1y": null,
   "delivery_20d": 49.749,
   "delivery_avg": 48.574666666666666,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     3296.6,
     255769,
     39.38
+   ],
+   [
+    "2026-11-11",
+    3320.0,
+    321189,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 37.057104316546756,
+  "pe": 37.32014388489208,
   "pe_note": null,
-  "market_cap_cr": 41883.303,
+  "market_cap_cr": 42180.6,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2763,31 +2769,8 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-09",
-  "change_pct": 4.4252272799265135,
-  "typical_pct": 1.158228525257593,
-  "times": 3.820685800276186,
-  "volume_x": 1.267338705161964,
-  "biggest_in_year": false,
-  "nifty_change_pct": 0.05713064339891716,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-09",
-    "change_pct": 4.4252272799265135,
-    "typical_pct": 1.158228525257593,
-    "times": 3.820685800276186,
-    "volume_x": 1.267338705161964,
-    "biggest_in_year": false,
-    "nifty_change_pct": 0.05713064339891716
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "enough",
@@ -2802,9 +2785,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -13.953852578826476,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 3296.6,
+    "return_1y": -14.304888751226052,
+    "nifty_return_1y": null,
+    "close": 3320.0,
     "low_52w": 3078.5,
     "high_52w": 4074.8
    }

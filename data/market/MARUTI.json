@@ -1,17 +1,17 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-11T00:12:48Z",
+ "generated_at": "2026-11-11T11:23:45Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-09",
-  "close": 12928.0,
-  "change": 178.0,
-  "change_pct": 1.3960784313725494,
+  "as_of": "2026-11-11",
+  "close": 13185.0,
+  "change": 257.0,
+  "change_pct": 1.9879331683168244,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.3043069694596711,
-  "return_1y": -16.480392790231924,
-  "nifty_return_1y": -1.7560204453893835,
+  "range_position": 0.3445575567736883,
+  "return_1y": -15.723873441994252,
+  "nifty_return_1y": null,
   "delivery_20d": 52.2625,
   "delivery_avg": 53.68233333333333,
   "delivery_sessions": 60
@@ -1519,6 +1519,12 @@
     12928.0,
     558028,
     58.27
+   ],
+   [
+    "2026-11-11",
+    13185.0,
+    963516,
+    null
    ]
   ]
  },
@@ -2535,9 +2541,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 30.217609798284368,
+  "pe": 30.81831568613702,
   "pe_note": null,
-  "market_cap_cr": 406456.32,
+  "market_cap_cr": 414536.4,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3014,9 +3020,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -16.480392790231924,
-    "nifty_return_1y": -1.7560204453893835,
-    "close": 12928.0,
+    "return_1y": -15.723873441994252,
+    "nifty_return_1y": null,
+    "close": 13185.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
