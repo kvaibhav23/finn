@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-10T20:35:47Z",
+ "generated_at": "2026-11-11T00:12:48Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-09",
@@ -3057,16 +3057,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "bf2d22a562f84958",
-   "symbol": "MARUTI",
-   "kind": "results",
-   "date": "2026-11-10",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
-   }
-  }
- ]
+ "events": []
 }
