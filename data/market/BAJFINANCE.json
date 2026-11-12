@@ -1,19 +1,19 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-12T11:44:26Z",
+ "generated_at": "2026-11-12T21:02:38Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 1078.8,
-  "change": 13.950000000000045,
-  "change_pct": 1.310043668122285,
+  "as_of": "2026-11-12",
+  "close": 1115.0,
+  "change": 36.200000000000045,
+  "change_pct": 3.3555802743789442,
   "high_52w": 1176.4,
   "low_52w": 787.9,
-  "range_position": 0.7487773487773485,
-  "return_1y": 7.321925984878619,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 60.678999999999995,
-  "delivery_avg": 62.501333333333335,
+  "range_position": 0.8419562419562417,
+  "return_1y": 10.047374654559803,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 60.11749999999999,
+  "delivery_avg": 62.26266666666667,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     1087.0,
     4225781,
-    64.71
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     1078.8,
     9276361,
     59.95
+   ],
+   [
+    "2026-11-12",
+    1115.0,
+    11872744,
+    50.39
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 22066.48,
   "ttm_margin_pct": 24.37436693305645,
   "ttm_eps": 34.790000000000006,
-  "pe": 31.008910606496112,
+  "pe": 32.049439494107496,
   "pe_note": null,
-  "market_cap_cr": 671434.332,
+  "market_cap_cr": 693964.85,
   "revenue_yoy_pct": 21.643746685894683,
   "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
@@ -2951,8 +2961,43 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-12",
+  "change_pct": 3.3555802743789442,
+  "typical_pct": 1.1048572024181746,
+  "times": 3.037116712489782,
+  "volume_x": 1.4988439022407807,
+  "biggest_in_year": false,
+  "nifty_change_pct": 0.1754104624619668,
+  "filings": [
+   {
+    "date": "2026-11-11",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf"
+   }
+  ]
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-12",
+    "change_pct": 3.3555802743789442,
+    "typical_pct": 1.1048572024181746,
+    "times": 3.037116712489782,
+    "volume_x": 1.4988439022407807,
+    "biggest_in_year": false,
+    "nifty_change_pct": 0.1754104624619668
+   },
+   "items": [
+    {
+     "date": "2026-11-11",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf"
+    }
+   ]
+  },
   {
    "key": "track",
    "state": "none",
@@ -2962,9 +3007,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 7.321925984878619,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 1078.8,
+    "return_1y": 10.047374654559803,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 1115.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
    }
@@ -2973,8 +3018,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.678999999999995,
-    "usual": 62.501333333333335,
+    "recent": 60.11749999999999,
+    "usual": 62.26266666666667,
     "months": 3
    }
   },
@@ -2992,5 +3037,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "0a240d17ae362a39",
+   "symbol": "BAJFINANCE",
+   "kind": "move",
+   "date": "2026-11-12",
+   "facts": {
+    "change_pct": 3.3555802743789442,
+    "times": 3.037116712489782,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

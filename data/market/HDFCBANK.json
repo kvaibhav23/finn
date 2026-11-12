@@ -1,19 +1,19 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-12T11:44:27Z",
+ "generated_at": "2026-11-12T21:03:05Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 806.6,
-  "change": 8.450000000000045,
-  "change_pct": 1.0586982396792566,
+  "as_of": "2026-11-12",
+  "close": 812.3,
+  "change": 5.699999999999932,
+  "change_pct": 0.7066699727250159,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.3944875107665805,
-  "return_1y": -18.66491882625794,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 58.8285,
-  "delivery_avg": 59.88816666666666,
+  "range_position": 0.41085271317829436,
+  "return_1y": -17.90803436078828,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 59.114999999999995,
+  "delivery_avg": 59.76366666666667,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     727.0,
     20364131,
-    72.66
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     806.6,
     56398940,
     65.5
+   ],
+   [
+    "2026-11-12",
+    812.3,
+    38292509,
+    65.19
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.547417116422515,
+  "pe": 15.657286044718582,
   "pe_note": null,
-  "market_cap_cr": 1243664.276,
+  "market_cap_cr": 1252452.878,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -2636,6 +2646,27 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T17:33:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "HDFC Bank Limited has informed the Exchange about Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
+   "profile": null
+  },
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T14:27:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T22:27:00+05:30",
@@ -3065,9 +3096,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.66491882625794,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 806.6,
+    "return_1y": -17.90803436078828,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 812.3,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3076,8 +3107,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 58.8285,
-    "usual": 59.88816666666666,
+    "recent": 59.114999999999995,
+    "usual": 59.76366666666667,
     "months": 3
    }
   },

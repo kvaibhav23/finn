@@ -1,19 +1,19 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-12T11:44:28Z",
+ "generated_at": "2026-11-12T21:03:42Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 1335.4,
-  "change": 11.0,
-  "change_pct": 0.8305647840531671,
+  "as_of": "2026-11-12",
+  "close": 1339.7,
+  "change": 4.2999999999999545,
+  "change_pct": 0.3220008986071665,
   "high_52w": 1611.8,
   "low_52w": 1152.2,
-  "range_position": 0.39860748476936486,
-  "return_1y": -10.57988482657024,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 50.1105,
-  "delivery_avg": 57.60566666666667,
+  "range_position": 0.4079634464751959,
+  "return_1y": -11.366192523982798,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 50.012,
+  "delivery_avg": 57.286833333333334,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     1310.0,
     10497358,
-    72.42
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     1335.4,
     17554310,
     52.09
+   ],
+   [
+    "2026-11-12",
+    1339.7,
+    13807921,
+    53.29
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 95625.0,
   "ttm_margin_pct": 7.8844650684186055,
   "ttm_eps": 60.67999999999999,
-  "pe": 22.00725115359262,
+  "pe": 22.078114700065925,
   "pe_note": null,
-  "market_cap_cr": 1807196.82,
+  "market_cap_cr": 1813016.01,
   "revenue_yoy_pct": 28.568393730349406,
   "pat_yoy_pct": 33.758826724606195,
   "net_npa_pct": null,
@@ -2636,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T20:23:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T19:10:00+05:30",
@@ -3075,9 +3095,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -10.57988482657024,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 1335.4,
+    "return_1y": -11.366192523982798,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 1339.7,
     "low_52w": 1152.2,
     "high_52w": 1611.8
    }
@@ -3086,8 +3106,8 @@
    "key": "delivery",
    "state": "lower",
    "facts": {
-    "recent": 50.1105,
-    "usual": 57.60566666666667,
+    "recent": 50.012,
+    "usual": 57.286833333333334,
     "months": 3
    }
   },

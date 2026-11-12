@@ -1,19 +1,19 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-12T11:44:29Z",
+ "generated_at": "2026-11-12T21:04:00Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 4970.0,
-  "change": -35.0,
-  "change_pct": -0.6993006993006978,
+  "as_of": "2026-11-12",
+  "close": 4921.9,
+  "change": -48.100000000000364,
+  "change_pct": -0.9678068410462815,
   "high_52w": 5186.7,
   "low_52w": 3751.0,
-  "range_position": 0.8490631747579579,
-  "return_1y": 30.36407512328192,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 55.552499999999995,
-  "delivery_avg": 56.312,
+  "range_position": 0.8155603538343663,
+  "return_1y": 27.805042715068407,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 55.704499999999996,
+  "delivery_avg": 56.22233333333334,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     5056.2,
     587764,
-    59.34
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     4970.0,
     1716837,
     67.54
+   ],
+   [
+    "2026-11-12",
+    4921.9,
+    732932,
+    53.96
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 7032.73,
   "ttm_margin_pct": 7.457351600110279,
   "ttm_eps": 78.94999999999999,
-  "pe": 62.95123495883472,
+  "pe": 62.34198860037999,
   "pe_note": null,
-  "market_cap_cr": 441236.6,
+  "market_cap_cr": 436966.28199999995,
   "revenue_yoy_pct": 10.088117489986658,
   "pat_yoy_pct": 113.63660714285713,
   "net_npa_pct": null,
@@ -2636,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T15:30:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of Analyst / Institutional Investor Meeting",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026152942_SEintimation_12_Nov_26.pdf"
+  },
   {
    "date": "2026-11-11",
    "filed_at": "2026-11-11T14:39:00+05:30",
@@ -2838,6 +2858,7 @@
   }
  ],
  "routine": [
+  "2026-11-12T18:45:00+05:30",
   "2026-11-09T15:06:00+05:30",
   "2026-11-06T16:56:00+05:30",
   "2026-11-05T18:23:00+05:30",
@@ -2882,9 +2903,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 30.36407512328192,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 4970.0,
+    "return_1y": 27.805042715068407,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 4921.9,
     "low_52w": 3751.0,
     "high_52w": 5186.7
    }
@@ -2893,8 +2914,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.552499999999995,
-    "usual": 56.312,
+    "recent": 55.704499999999996,
+    "usual": 56.22233333333334,
     "months": 3
    }
   },

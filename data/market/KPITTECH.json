@@ -1,19 +1,19 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-12T11:44:27Z",
+ "generated_at": "2026-11-12T21:03:23Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 546.0,
-  "change": 3.6499999999999773,
-  "change_pct": 0.6729971420669223,
+  "as_of": "2026-11-12",
+  "close": 558.05,
+  "change": 12.049999999999955,
+  "change_pct": 2.206959706959699,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.09315169366715755,
-  "return_1y": -54.96907216494845,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 30.512999999999998,
-  "delivery_avg": 34.24883333333333,
+  "range_position": 0.10794059891998027,
+  "return_1y": -55.15149079803906,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 31.496,
+  "delivery_avg": 34.36233333333333,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     614.0,
     640338,
-    28.45
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     546.0,
     1470828,
     30.4
+   ],
+   [
+    "2026-11-12",
+    558.05,
+    1300517,
+    35.26
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 28.0,
+  "pe": 28.617948717948714,
   "pe_note": null,
-  "market_cap_cr": 14881.4484,
+  "market_cap_cr": 15209.87597,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2636,6 +2646,26 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T16:20:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161901_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
+  },
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T16:20:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, November 16, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161655_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
+  },
   {
    "date": "2026-11-03",
    "filed_at": "2026-11-03T22:39:00+05:30",
@@ -2925,9 +2955,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -54.96907216494845,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 546.0,
+    "return_1y": -55.15149079803906,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 558.05,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2936,8 +2966,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 30.512999999999998,
-    "usual": 34.24883333333333,
+    "recent": 31.496,
+    "usual": 34.36233333333333,
     "months": 3
    }
   },

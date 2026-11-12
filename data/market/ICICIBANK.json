@@ -1,19 +1,19 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-12T11:44:27Z",
+ "generated_at": "2026-11-12T21:03:10Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 1571.6,
-  "change": -17.40000000000009,
-  "change_pct": -1.0950283196979327,
+  "as_of": "2026-11-12",
+  "close": 1590.0,
+  "change": 18.40000000000009,
+  "change_pct": 1.1707813693051738,
   "high_52w": 1616.0,
   "low_52w": 1187.6,
-  "range_position": 0.8963585434173668,
-  "return_1y": 15.70345284546859,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 61.692499999999995,
-  "delivery_avg": 61.8895,
+  "range_position": 0.9393090569561158,
+  "return_1y": 17.006402237103522,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 61.8095,
+  "delivery_avg": 61.802,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     1417.0,
     6097934,
-    63.03
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     1571.6,
     29190011,
     70.14
+   ],
+   [
+    "2026-11-12",
+    1590.0,
+    16293900,
+    57.78
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.300012280486307,
+  "pe": 19.52597322853985,
   "pe_note": null,
-  "market_cap_cr": 1128377.368,
+  "market_cap_cr": 1141588.2,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -2636,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T18:08:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_12112026180755_BSENSE12112026.pdf"
+  },
   {
    "date": "2026-11-09",
    "filed_at": "2026-11-09T13:44:00+05:30",
@@ -3213,9 +3233,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 15.70345284546859,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 1571.6,
+    "return_1y": 17.006402237103522,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 1590.0,
     "low_52w": 1187.6,
     "high_52w": 1616.0
    }
@@ -3224,8 +3244,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 61.692499999999995,
-    "usual": 61.8895,
+    "recent": 61.8095,
+    "usual": 61.802,
     "months": 3
    }
   },

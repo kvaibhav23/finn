@@ -1,19 +1,19 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-12T11:44:26Z",
+ "generated_at": "2026-11-12T21:02:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 2109.0,
-  "change": 36.90000000000009,
-  "change_pct": 1.7808020848414596,
+  "as_of": "2026-11-12",
+  "close": 2096.0,
+  "change": -13.0,
+  "change_pct": -0.616405879563775,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.8538598839803659,
-  "return_1y": 3.2659256720364294,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 66.2705,
-  "delivery_avg": 67.98483333333334,
+  "range_position": 0.8248549754573851,
+  "return_1y": 1.070498601600911,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 66.4995,
+  "delivery_avg": 68.01033333333334,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     1992.1,
     12282580,
-    66.98
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     2109.0,
     8969920,
     68.82
+   ],
+   [
+    "2026-11-12",
+    2096.0,
+    7646984,
+    68.51
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.532099251673884,
+  "pe": 41.27609294998031,
   "pe_note": null,
-  "market_cap_cr": 1316184.72,
+  "market_cap_cr": 1308071.68,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -2636,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T17:36:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Bharti Airtel Limited has informed the Exchange about Transcript",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf"
+  },
   {
    "date": "2026-11-11",
    "filed_at": "2026-11-11T18:33:00+05:30",
@@ -3008,7 +3028,7 @@
   {
    "quarter": "Q2FY27",
    "date": "2026-11-06",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026160637_BhartiAirtelSTXdisclosure.pdf"
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf"
   }
  ],
  "move": null,
@@ -3020,11 +3040,11 @@
   },
   {
    "key": "price",
-   "state": "high",
+   "state": "middle",
    "facts": {
-    "return_1y": 3.2659256720364294,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 2109.0,
+    "return_1y": 1.070498601600911,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 2096.0,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }
@@ -3033,8 +3053,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.2705,
-    "usual": 67.98483333333334,
+    "recent": 66.4995,
+    "usual": 68.01033333333334,
     "months": 3
    }
   },

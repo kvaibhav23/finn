@@ -1,19 +1,19 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-12T11:44:28Z",
+ "generated_at": "2026-11-12T21:03:33Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-11",
-  "close": 13185.0,
-  "change": 257.0,
-  "change_pct": 1.9879331683168244,
+  "as_of": "2026-11-12",
+  "close": 13024.0,
+  "change": -161.0,
+  "change_pct": -1.2210845657944613,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.3445575567736883,
-  "return_1y": -15.723873441994252,
-  "nifty_return_1y": -1.7120095582984218,
-  "delivery_20d": 52.962,
-  "delivery_avg": 53.978833333333334,
+  "range_position": 0.31934220830070476,
+  "return_1y": -17.023445463812436,
+  "nifty_return_1y": -2.227757209438941,
+  "delivery_20d": 52.696000000000005,
+  "delivery_avg": 54.258,
   "delivery_sessions": 60
  },
  "prices": {
@@ -1164,7 +1164,7 @@
     "2026-08-14",
     13834.0,
     216810,
-    45.02
+    null
    ],
    [
     "2026-08-17",
@@ -1519,6 +1519,12 @@
     13185.0,
     963516,
     67.56
+   ],
+   [
+    "2026-11-12",
+    13024.0,
+    720496,
+    61.77
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-11",
    25255.05
+  ],
+  [
+   "2026-11-12",
+   25299.35
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 30.81831568613702,
+  "pe": 30.441997989855786,
   "pe_note": null,
-  "market_cap_cr": 414536.4,
+  "market_cap_cr": 409474.56,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -2636,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-12",
+   "filed_at": "2026-11-12T11:57:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12112026115520_Investor_Meeting_17_18_19Nov2026.pdf"
+  },
   {
    "date": "2026-11-10",
    "filed_at": "2026-11-10T11:56:00+05:30",
@@ -3013,9 +3033,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -15.723873441994252,
-    "nifty_return_1y": -1.7120095582984218,
-    "close": 13185.0,
+    "return_1y": -17.023445463812436,
+    "nifty_return_1y": -2.227757209438941,
+    "close": 13024.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3024,8 +3044,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.962,
-    "usual": 53.978833333333334,
+    "recent": 52.696000000000005,
+    "usual": 54.258,
     "months": 3
    }
   },
