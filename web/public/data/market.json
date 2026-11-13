@@ -3,21 +3,5 @@
  "close": 25299.35,
  "change_pct": 0.1754104624619668,
  "big": false,
- "movers": [
-  {
-   "symbol": "KPITTECH",
-   "name": "KPIT Technologies Limited",
-   "change_pct": 2.206959706959699
-  },
-  {
-   "symbol": "TCS",
-   "name": "Tata Consultancy Services Limited",
-   "change_pct": -1.201407710044089
-  },
-  {
-   "symbol": "DIXON",
-   "name": "Dixon Technologies (India) Limited",
-   "change_pct": 0.7444168734491274
-  }
- ]
+ "movers": []
 }

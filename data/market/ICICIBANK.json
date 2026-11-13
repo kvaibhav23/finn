@@ -1,17 +1,17 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-13T00:39:43Z",
+ "generated_at": "2026-11-13T11:27:19Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-12",
-  "close": 1590.0,
-  "change": 18.40000000000009,
-  "change_pct": 1.1707813693051738,
+  "as_of": "2026-11-13",
+  "close": 1583.6,
+  "change": -6.400000000000091,
+  "change_pct": -0.4025157232704468,
   "high_52w": 1616.0,
   "low_52w": 1187.6,
-  "range_position": 0.9393090569561158,
-  "return_1y": 17.006402237103522,
-  "nifty_return_1y": -2.227757209438941,
+  "range_position": 0.9243697478991595,
+  "return_1y": 14.265098491954674,
+  "nifty_return_1y": null,
   "delivery_20d": 61.8095,
   "delivery_avg": 61.802,
   "delivery_sessions": 60
@@ -1525,6 +1525,12 @@
     1590.0,
     16293900,
     57.78
+   ],
+   [
+    "2026-11-13",
+    1583.6,
+    11440109,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.52597322853985,
+  "pe": 19.4473781161734,
   "pe_note": null,
-  "market_cap_cr": 1141588.2,
+  "market_cap_cr": 1136993.128,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3233,9 +3239,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 17.006402237103522,
-    "nifty_return_1y": -2.227757209438941,
-    "close": 1590.0,
+    "return_1y": 14.265098491954674,
+    "nifty_return_1y": null,
+    "close": 1583.6,
     "low_52w": 1187.6,
     "high_52w": 1616.0
    }

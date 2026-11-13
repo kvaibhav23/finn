@@ -1,17 +1,17 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-13T00:39:44Z",
+ "generated_at": "2026-11-13T11:27:21Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-12",
-  "close": 3340.0,
-  "change": 20.0,
-  "change_pct": 0.6024096385542244,
+  "as_of": "2026-11-13",
+  "close": 3307.5,
+  "change": -32.5,
+  "change_pct": -0.9730538922155696,
   "high_52w": 4074.8,
   "low_52w": 3078.5,
-  "range_position": 0.26247114322995074,
-  "return_1y": -14.671844263342104,
-  "nifty_return_1y": -2.227757209438941,
+  "range_position": 0.22985044665261464,
+  "return_1y": -13.68736951983298,
+  "nifty_return_1y": null,
   "delivery_20d": 49.6205,
   "delivery_avg": 48.844500000000004,
   "delivery_sessions": 60
@@ -1525,6 +1525,12 @@
     3340.0,
     174718,
     33.28
+   ],
+   [
+    "2026-11-13",
+    3307.5,
+    93613,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 37.544964028776974,
+  "pe": 37.179631294964025,
   "pe_note": null,
-  "market_cap_cr": 42434.7,
+  "market_cap_cr": 42021.7875,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2789,9 +2795,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -14.671844263342104,
-    "nifty_return_1y": -2.227757209438941,
-    "close": 3340.0,
+    "return_1y": -13.68736951983298,
+    "nifty_return_1y": null,
+    "close": 3307.5,
     "low_52w": 3078.5,
     "high_52w": 4074.8
    }

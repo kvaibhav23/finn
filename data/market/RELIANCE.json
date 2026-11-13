@@ -1,17 +1,17 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-13T00:39:44Z",
+ "generated_at": "2026-11-13T11:27:20Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "close": 1339.7,
-  "change": 4.2999999999999545,
-  "change_pct": 0.3220008986071665,
+  "change": 0.0,
+  "change_pct": 0.0,
   "high_52w": 1611.8,
   "low_52w": 1152.2,
   "range_position": 0.4079634464751959,
-  "return_1y": -11.366192523982798,
-  "nifty_return_1y": -2.227757209438941,
+  "return_1y": -11.330994771328351,
+  "nifty_return_1y": null,
   "delivery_20d": 50.012,
   "delivery_avg": 57.286833333333334,
   "delivery_sessions": 60
@@ -1525,6 +1525,12 @@
     1339.7,
     13807921,
     53.29
+   ],
+   [
+    "2026-11-13",
+    1339.7,
+    13756247,
+    null
    ]
   ]
  },
@@ -3095,8 +3101,8 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -11.366192523982798,
-    "nifty_return_1y": -2.227757209438941,
+    "return_1y": -11.330994771328351,
+    "nifty_return_1y": null,
     "close": 1339.7,
     "low_52w": 1152.2,
     "high_52w": 1611.8

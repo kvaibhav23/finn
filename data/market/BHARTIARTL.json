@@ -1,17 +1,17 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-13T00:39:42Z",
+ "generated_at": "2026-11-13T11:27:18Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-12",
-  "close": 2096.0,
-  "change": -13.0,
-  "change_pct": -0.616405879563775,
+  "as_of": "2026-11-13",
+  "close": 2106.0,
+  "change": 10.0,
+  "change_pct": 0.4770992366412319,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.8248549754573851,
-  "return_1y": 1.070498601600911,
-  "nifty_return_1y": -2.227757209438941,
+  "range_position": 0.8471664435519858,
+  "return_1y": 0.6788411894062429,
+  "nifty_return_1y": null,
   "delivery_20d": 66.4995,
   "delivery_avg": 68.01033333333334,
   "delivery_sessions": 60
@@ -1525,6 +1525,12 @@
     2096.0,
     7646984,
     68.51
+   ],
+   [
+    "2026-11-13",
+    2106.0,
+    6106256,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.27609294998031,
+  "pe": 41.47302087435998,
   "pe_note": null,
-  "market_cap_cr": 1308071.68,
+  "market_cap_cr": 1314312.48,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -3042,9 +3048,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 1.070498601600911,
-    "nifty_return_1y": -2.227757209438941,
-    "close": 2096.0,
+    "return_1y": 0.6788411894062429,
+    "nifty_return_1y": null,
+    "close": 2106.0,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }

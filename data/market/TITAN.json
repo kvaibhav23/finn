@@ -1,17 +1,17 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-13T00:39:44Z",
+ "generated_at": "2026-11-13T11:27:21Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-12",
-  "close": 4921.9,
-  "change": -48.100000000000364,
-  "change_pct": -0.9678068410462815,
+  "as_of": "2026-11-13",
+  "close": 4844.9,
+  "change": -77.0,
+  "change_pct": -1.56443649810033,
   "high_52w": 5186.7,
   "low_52w": 3751.0,
-  "range_position": 0.8155603538343663,
-  "return_1y": 27.805042715068407,
-  "nifty_return_1y": -2.227757209438941,
+  "range_position": 0.7619279793828793,
+  "return_1y": 26.195561575328185,
+  "nifty_return_1y": null,
   "delivery_20d": 55.704499999999996,
   "delivery_avg": 56.22233333333334,
   "delivery_sessions": 60
@@ -1525,6 +1525,12 @@
     4921.9,
     732932,
     53.96
+   ],
+   [
+    "2026-11-13",
+    4844.9,
+    624040,
+    null
    ]
   ]
  },
@@ -2545,9 +2551,9 @@
   "ttm_pat_cr": 7032.73,
   "ttm_margin_pct": 7.457351600110279,
   "ttm_eps": 78.94999999999999,
-  "pe": 62.34198860037999,
+  "pe": 61.366687777074105,
   "pe_note": null,
-  "market_cap_cr": 436966.28199999995,
+  "market_cap_cr": 430130.22199999995,
   "revenue_yoy_pct": 10.088117489986658,
   "pat_yoy_pct": 113.63660714285713,
   "net_npa_pct": null,
@@ -2903,9 +2909,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 27.805042715068407,
-    "nifty_return_1y": -2.227757209438941,
-    "close": 4921.9,
+    "return_1y": 26.195561575328185,
+    "nifty_return_1y": null,
+    "close": 4844.9,
     "low_52w": 3751.0,
     "high_52w": 5186.7
    }
