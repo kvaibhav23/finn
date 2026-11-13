@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-13T11:27:20Z",
+ "generated_at": "2026-11-13T18:44:02Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 1152.2,
   "range_position": 0.4079634464751959,
   "return_1y": -11.330994771328351,
-  "nifty_return_1y": null,
-  "delivery_20d": 50.012,
-  "delivery_avg": 57.286833333333334,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 49.798,
+  "delivery_avg": 57.11524590163935,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    1496.1,
-    16772678,
-    null
-   ],
    [
     "2025-11-07",
     1478.0,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     1339.7,
     13756247,
-    null
+    46.82
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-13",
+   "filed_at": "2026-11-13T18:25:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit, scheduled to be held on November 18 & 19, 2026 at Singapore. It is expected that the meeting with the investors will be on one-o",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_13112026182446_SE_13112026.pdf"
+  },
   {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T20:23:00+05:30",
@@ -3065,8 +3069,7 @@
  ],
  "routine": [
   "2026-10-17T19:32:00+05:30",
-  "2026-10-16T20:58:00+05:30",
-  "2026-10-15T18:06:00+05:30"
+  "2026-10-16T20:58:00+05:30"
  ],
  "calls": [
   {
@@ -3102,7 +3105,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -11.330994771328351,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 1339.7,
     "low_52w": 1152.2,
     "high_52w": 1611.8
@@ -3112,8 +3115,8 @@
    "key": "delivery",
    "state": "lower",
    "facts": {
-    "recent": 50.012,
-    "usual": 57.286833333333334,
+    "recent": 49.798,
+    "usual": 57.11524590163935,
     "months": 3
    }
   },

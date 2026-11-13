@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-13T11:27:18Z",
+ "generated_at": "2026-11-13T18:42:43Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 787.9,
   "range_position": 0.8471042471042469,
   "return_1y": 11.100059677740216,
-  "nifty_return_1y": null,
-  "delivery_20d": 60.11749999999999,
-  "delivery_avg": 62.26266666666667,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 59.8845,
+  "delivery_avg": 62.23491803278689,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    1041.9,
-    5776277,
-    null
-   ],
    [
     "2025-11-07",
     1066.6,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     1117.0,
     11898219,
-    null
+    60.57
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2979,7 +2973,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 11.100059677740216,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 1117.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -2989,8 +2983,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.11749999999999,
-    "usual": 62.26266666666667,
+    "recent": 59.8845,
+    "usual": 62.23491803278689,
     "months": 3
    }
   },

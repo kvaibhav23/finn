@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-13T11:27:19Z",
+ "generated_at": "2026-11-13T18:43:25Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 669.2,
   "range_position": 0.3870226815963249,
   "return_1y": -18.512137029341712,
-  "nifty_return_1y": null,
-  "delivery_20d": 59.114999999999995,
-  "delivery_avg": 59.76366666666667,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 59.2355,
+  "delivery_avg": 59.80311475409836,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    984.65,
-    22279516,
-    null
-   ],
    [
     "2025-11-07",
     982.3,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     804.0,
     23442886,
-    null
+    62.17
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2652,6 +2646,24 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-13",
+   "filed_at": "2026-11-13T16:35:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Change in Director(s)",
+   "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
+   "profile": {
+    "page": 3,
+    "excerpt": "As provided in Annexure II. 4. Disclosure of relationships between directors (in case of appointment of a director) Not related to any other Director or Key Managerial Personnel of the Bank.",
+    "name": "Mr. V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "effective": "November 23, 2026",
+    "previous": []
+   }
+  },
   {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T17:33:00+05:30",
@@ -3053,16 +3065,6 @@
    "category": "Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding 'Intimation under Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations )'.",
    "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_19082026224543_RBIapproval_MajorshareholderLIC.pdf"
-  },
-  {
-   "date": "2026-08-16",
-   "filed_at": "2026-08-16T19:34:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16082026193110_SEIntimation_August162026.pdf"
   }
  ],
  "routine": [
@@ -3103,7 +3105,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -18.512137029341712,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 804.0,
     "low_52w": 669.2,
     "high_52w": 1017.5
@@ -3113,8 +3115,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.114999999999995,
-    "usual": 59.76366666666667,
+    "recent": 59.2355,
+    "usual": 59.80311475409836,
     "months": 3
    }
   },

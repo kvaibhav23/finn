@@ -1,6 +1,6 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-13T11:27:19Z",
+ "generated_at": "2026-11-13T18:42:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 1101.2,
   "range_position": 0.10355987055016176,
   "return_1y": -31.00216716452878,
-  "nifty_return_1y": null,
-  "delivery_20d": 36.463499999999996,
-  "delivery_avg": 35.690666666666665,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 35.832,
+  "delivery_avg": 35.67770491803279,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    1702.7,
-    838981,
-    null
-   ],
    [
     "2025-11-07",
     1725.8,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     1178.0,
     1477689,
-    null
+    34.9
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2935,7 +2929,7 @@
    "state": "low",
    "facts": {
     "return_1y": -31.00216716452878,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 1178.0,
     "low_52w": 1101.2,
     "high_52w": 1842.8
@@ -2945,8 +2939,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.463499999999996,
-    "usual": 35.690666666666665,
+    "recent": 35.832,
+    "usual": 35.67770491803279,
     "months": 3
    }
   },

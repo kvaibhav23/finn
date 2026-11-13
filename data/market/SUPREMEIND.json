@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-13T11:27:21Z",
+ "generated_at": "2026-11-13T18:44:11Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 3078.5,
   "range_position": 0.22985044665261464,
   "return_1y": -13.68736951983298,
-  "nifty_return_1y": null,
-  "delivery_20d": 49.6205,
-  "delivery_avg": 48.844500000000004,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 49.183,
+  "delivery_avg": 48.82852459016394,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    3845.1,
-    200648,
-    null
-   ],
    [
     "2025-11-07",
     3831.2,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     3307.5,
     93613,
-    null
+    47.87
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2796,7 +2790,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -13.68736951983298,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 3307.5,
     "low_52w": 3078.5,
     "high_52w": 4074.8
@@ -2806,8 +2800,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 49.6205,
-    "usual": 48.844500000000004,
+    "recent": 49.183,
+    "usual": 48.82852459016394,
     "months": 3
    }
   },

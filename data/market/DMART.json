@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-13T11:27:19Z",
+ "generated_at": "2026-11-13T18:43:00Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 3102.3,
   "range_position": 0.21858986832717134,
   "return_1y": -15.340307692307686,
-  "nifty_return_1y": null,
-  "delivery_20d": 52.827,
-  "delivery_avg": 53.8845,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 52.6495,
+  "delivery_avg": 53.815245901639344,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    4082.2,
-    487314,
-    null
-   ],
    [
     "2025-11-07",
     4011.0,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     3439.3,
     150703,
-    null
+    49.66
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2652,6 +2646,28 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-13",
+   "filed_at": "2026-11-13T13:17:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Change in Management",
+   "subject": "Avenue Supermarts Limited has informed the Exchange about Changes in Senior Management Personnel of the Company",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_13112026131650_ChangeinManagement13112026.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "Mr. Sanjeev Shankaran is a commerce graduate and completed his PGDM (part time) from AIMA Delhi in 2005. He joined Dmart in September 2021 with over two decades of prior work experience, having worked with major FMCG companies such as Dabur & Kellogs. In his last role at Dabur, he was National Key Account Manager, MT & Ecom Head, Dabur India Ltd",
+    "name": "Sanjeev Shankaran",
+    "role": "Vice President - General Merchandising",
+    "effective": "16th November, 2026",
+    "previous": [
+     "National Key Account Manager, MT & Ecom Head, Dabur India Ltd",
+     "Dabur",
+     "Kellogs"
+    ]
+   }
+  },
   {
    "date": "2026-11-03",
    "filed_at": "2026-11-03T17:36:00+05:30",
@@ -2937,7 +2953,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -15.340307692307686,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 3439.3,
     "low_52w": 3102.3,
     "high_52w": 4644.0
@@ -2947,8 +2963,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.827,
-    "usual": 53.8845,
+    "recent": 52.6495,
+    "usual": 53.815245901639344,
     "months": 3
    }
   },

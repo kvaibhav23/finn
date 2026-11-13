@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-13T11:27:20Z",
+ "generated_at": "2026-11-13T18:43:39Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 252.8,
   "range_position": 0.20226130653266325,
   "return_1y": -29.75104757209761,
-  "nifty_return_1y": null,
-  "delivery_20d": 53.6135,
-  "delivery_avg": 56.357,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 52.888999999999996,
+  "delivery_avg": 56.189180327868854,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    407.5,
-    10095563,
-    null
-   ],
    [
     "2025-11-07",
     404.05,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     285.0,
     8329401,
-    null
+    46.12
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2652,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-13",
+   "filed_at": "2026-11-13T15:19:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "ESOP/ESOS/ESPS",
+   "subject": "ITC Limited has informed the Exchange regarding Allotment of 785300 Shares.",
+   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_13112026151900_SE.pdf"
+  },
   {
    "date": "2026-11-04",
    "filed_at": "2026-11-04T12:18:00+05:30",
@@ -2777,7 +2781,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -29.75104757209761,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 285.0,
     "low_52w": 252.8,
     "high_52w": 412.0
@@ -2787,8 +2791,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.6135,
-    "usual": 56.357,
+    "recent": 52.888999999999996,
+    "usual": 56.189180327868854,
     "months": 3
    }
   },

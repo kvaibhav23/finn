@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-13T11:27:19Z",
+ "generated_at": "2026-11-13T18:42:56Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 9600.0,
   "range_position": 0.5178947368421053,
   "return_1y": -16.478496377993867,
-  "nifty_return_1y": null,
-  "delivery_20d": 36.86,
-  "delivery_avg": 37.9895,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 37.144999999999996,
+  "delivery_avg": 37.96049180327869,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    15079.0,
-    229915,
-    null
-   ],
    [
     "2025-11-07",
     14849.0,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     12798.0,
     196350,
-    null
+    36.22
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -3116,7 +3110,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -16.478496377993867,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 12798.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
@@ -3126,8 +3120,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.86,
-    "usual": 37.9895,
+    "recent": 37.144999999999996,
+    "usual": 37.96049180327869,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-13T11:27:18Z",
+ "generated_at": "2026-11-13T18:42:37Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-13",
@@ -11,21 +11,15 @@
   "low_52w": 2115.0,
   "range_position": 0.4995980245779259,
   "return_1y": -11.439883309022713,
-  "nifty_return_1y": null,
-  "delivery_20d": 53.265,
-  "delivery_avg": 55.8625,
-  "delivery_sessions": 60
+  "nifty_return_1y": -2.8395445754594073,
+  "delivery_20d": 52.29299999999999,
+  "delivery_avg": 55.63819672131147,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-06",
-    2602.9,
-    4448622,
-    null
-   ],
    [
     "2025-11-07",
     2613.8,
@@ -1530,15 +1524,11 @@
     "2026-11-13",
     2550.0,
     613905,
-    null
+    42.18
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-06",
-   25509.7
-  ],
   [
    "2025-11-07",
    25492.3
@@ -2538,6 +2528,10 @@
   [
    "2026-11-12",
    25299.35
+  ],
+  [
+   "2026-11-13",
+   25144.3
   ]
  ],
  "results": {
@@ -2939,9 +2933,7 @@
    "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02092026112840_SEINTIMATIONANALYSTMEETSEP2026signed.pdf"
   }
  ],
- "routine": [
-  "2026-10-15T22:59:00+05:30"
- ],
+ "routine": [],
  "calls": [
   {
    "quarter": "Q2FY26",
@@ -2986,7 +2978,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -11.439883309022713,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.8395445754594073,
     "close": 2550.0,
     "low_52w": 2115.0,
     "high_52w": 2985.7
@@ -2996,8 +2988,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.265,
-    "usual": 55.8625,
+    "recent": 52.29299999999999,
+    "usual": 55.63819672131147,
     "months": 3
    }
   },

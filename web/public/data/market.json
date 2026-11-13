@@ -1,7 +1,23 @@
 {
- "date": "2026-11-12",
- "close": 25299.35,
- "change_pct": 0.1754104624619668,
+ "date": "2026-11-13",
+ "close": 25144.3,
+ "change_pct": -0.6128615952583738,
  "big": false,
- "movers": []
+ "movers": [
+  {
+   "symbol": "DIXON",
+   "name": "Dixon Technologies (India) Limited",
+   "change_pct": -1.4932266009852202
+  },
+  {
+   "symbol": "TCS",
+   "name": "Tata Consultancy Services Limited",
+   "change_pct": -1.428922371437935
+  },
+  {
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies Limited",
+   "change_pct": -1.0841322462144865
+  }
+ ]
 }
