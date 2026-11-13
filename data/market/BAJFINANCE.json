@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-12T21:02:38Z",
+ "generated_at": "2026-11-13T00:39:42Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-12",
@@ -3037,17 +3037,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "0a240d17ae362a39",
-   "symbol": "BAJFINANCE",
-   "kind": "move",
-   "date": "2026-11-12",
-   "facts": {
-    "change_pct": 3.3555802743789442,
-    "times": 3.037116712489782,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }
