@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-16T12:00:42Z",
+ "generated_at": "2026-11-16T23:00:49Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 3288.1,
   "range_position": 0.7395607257574442,
   "return_1y": 3.3862750973928657,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 55.65650000000001,
-  "delivery_avg": 58.319016393442624,
-  "delivery_sessions": 61
+  "delivery_avg": 58.285333333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     4064.3,
     1355575,
-    60.34
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2971,7 +2975,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 3.3862750973928657,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 4140.0,
     "low_52w": 3288.1,
     "high_52w": 4440.0
@@ -2982,7 +2986,7 @@
    "state": "usual",
    "facts": {
     "recent": 55.65650000000001,
-    "usual": 58.319016393442624,
+    "usual": 58.285333333333334,
     "months": 3
    }
   },
@@ -3018,46 +3022,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "e8f19d19b71dc4f1",
-   "symbol": "LT",
-   "kind": "results",
-   "date": "2026-10-27",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026171156_LTSep2026.pdf"
-   }
-  },
-  {
-   "id": "fe094d013de65e21",
-   "symbol": "LT",
-   "kind": "flag",
-   "date": "2026-09-17",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_17092026142102_ESGRating17092026.pdf"
-   }
-  },
-  {
-   "id": "1b52b8f633a42d85",
-   "symbol": "LT",
-   "kind": "flag",
-   "date": "2026-09-04",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
-   }
-  },
-  {
-   "id": "fb684f110ea18f5b",
-   "symbol": "LT",
-   "kind": "flag",
-   "date": "2026-09-01",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
-   }
-  }
- ]
+ "events": []
 }

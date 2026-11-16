@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-16T12:01:26Z",
+ "generated_at": "2026-11-16T23:01:03Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 1152.2,
   "range_position": 0.419060052219321,
   "return_1y": -11.462242412272051,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 49.316,
-  "delivery_avg": 56.845245901639345,
-  "delivery_sessions": 61
+  "delivery_avg": 56.869,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1322.0,
     10180567,
-    55.42
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2642,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T19:26:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said ",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf"
+  },
   {
    "date": "2026-11-13",
    "filed_at": "2026-11-13T18:25:00+05:30",
@@ -3068,7 +3082,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -11.462242412272051,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1344.8,
     "low_52w": 1152.2,
     "high_52w": 1611.8
@@ -3079,7 +3093,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.316,
-    "usual": 56.845245901639345,
+    "usual": 56.869,
     "months": 3
    }
   },
@@ -3126,116 +3140,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "661091bf6fac5d83",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-11-04",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_04112026204646_SE_RIL_041126.pdf"
-   }
-  },
-  {
-   "id": "9256b37f93d5bc07",
-   "symbol": "RELIANCE",
-   "kind": "results",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf"
-   }
-  },
-  {
-   "id": "030b6edefa90dcaf",
-   "symbol": "RELIANCE",
-   "kind": "results",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
-   }
-  },
-  {
-   "id": "33c2b6b7e268b73b",
-   "symbol": "RELIANCE",
-   "kind": "results",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf"
-   }
-  },
-  {
-   "id": "a1eae83cd1cb5926",
-   "symbol": "RELIANCE",
-   "kind": "results",
-   "date": "2026-10-27",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_27102026220855_RIL_SELETTER_271026.pdf"
-   }
-  },
-  {
-   "id": "800ccc933a083200",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-10-21",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf"
-   }
-  },
-  {
-   "id": "17c568f7310e00ed",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-10-07",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf"
-   }
-  },
-  {
-   "id": "6979abcf4bfa23f7",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-09-25",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_25092026224843_SE.pdf"
-   }
-  },
-  {
-   "id": "dcf5d85829756297",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-09-25",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_25092026220844_SE_CARE_and_CRISIL.pdf"
-   }
-  },
-  {
-   "id": "c08749554bdd85df",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-09-09",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_09092026203353_SE_CARE_and_CRISIL.pdf"
-   }
-  },
-  {
-   "id": "44c162860e30d865",
-   "symbol": "RELIANCE",
-   "kind": "flag",
-   "date": "2026-09-05",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_05092026173533_SE05092026.pdf"
-   }
-  }
- ]
+ "events": []
 }

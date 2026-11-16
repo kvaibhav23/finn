@@ -1,6 +1,6 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-16T12:01:11Z",
+ "generated_at": "2026-11-16T23:00:59Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 6663.0,
   "range_position": 0.3732313023390124,
   "return_1y": 4.238731656184491,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 50.766,
-  "delivery_avg": 51.44114754098361,
-  "delivery_sessions": 61
+  "delivery_avg": 51.51583333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     9139.0,
     256413,
-    46.96
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2642,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T17:55:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026175513_Intimationtostockexchange.pdf"
+  },
   {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T11:28:00+05:30",
@@ -2991,16 +3005,6 @@
    "category": "Change in Management",
    "subject": "Polycab India Limited has informed the Exchange about change in Management",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_20082026145343_IntimationforSMPCessation.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T17:55:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19082026175532_Intimationtostockexchange.pdf"
   }
  ],
  "routine": [
@@ -3040,7 +3044,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 4.238731656184491,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 7955.5,
     "low_52w": 6663.0,
     "high_52w": 10126.0
@@ -3051,7 +3055,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.766,
-    "usual": 51.44114754098361,
+    "usual": 51.51583333333333,
     "months": 3
    }
   },
@@ -3097,116 +3101,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "5d8d29ebbe3ca674",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
-   }
-  },
-  {
-   "id": "609482917c29edd6",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-28",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
-   }
-  },
-  {
-   "id": "2349ca086749569e",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-16",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
-   }
-  },
-  {
-   "id": "4d00bf4b0d141bc0",
-   "symbol": "POLYCAB",
-   "kind": "results",
-   "date": "2026-10-15",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf"
-   }
-  },
-  {
-   "id": "c310284d68c7aef5",
-   "symbol": "POLYCAB",
-   "kind": "results",
-   "date": "2026-10-15",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf"
-   }
-  },
-  {
-   "id": "97a085ae0d7b4cf1",
-   "symbol": "POLYCAB",
-   "kind": "results",
-   "date": "2026-10-15",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026130834_PressRelease.pdf"
-   }
-  },
-  {
-   "id": "9ca5f1d53087c656",
-   "symbol": "POLYCAB",
-   "kind": "results",
-   "date": "2026-10-15",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf"
-   }
-  },
-  {
-   "id": "c3216fe14df974ce",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-14",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
-   }
-  },
-  {
-   "id": "6c058e78149c2ac4",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-09",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
-   }
-  },
-  {
-   "id": "38857a1f6ca07b1d",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-08",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf"
-   }
-  },
-  {
-   "id": "48809f04aad45178",
-   "symbol": "POLYCAB",
-   "kind": "flag",
-   "date": "2026-10-08",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf"
-   }
-  }
- ]
+ "events": []
 }

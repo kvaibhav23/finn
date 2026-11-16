@@ -1,6 +1,6 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-16T11:58:25Z",
+ "generated_at": "2026-11-16T23:00:10Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 1101.2,
   "range_position": 0.07659115426105711,
   "return_1y": -32.881238045557296,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 35.7615,
-  "delivery_avg": 35.82524590163935,
-  "delivery_sessions": 61
+  "delivery_avg": 36.04716666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1485.1,
     1360896,
-    22.51
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2915,7 +2919,7 @@
    "state": "low",
    "facts": {
     "return_1y": -32.881238045557296,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1158.0,
     "low_52w": 1101.2,
     "high_52w": 1842.8
@@ -2926,7 +2930,7 @@
    "state": "usual",
    "facts": {
     "recent": 35.7615,
-    "usual": 35.82524590163935,
+    "usual": 36.04716666666666,
     "months": 3
    }
   },
@@ -2952,26 +2956,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "b13c43647dd68395",
-   "symbol": "COCHINSHIP",
-   "kind": "results",
-   "date": "2026-11-10",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/Aswi4739_10112026142305_SE_Intimation_Sgd.pdf"
-   }
-  },
-  {
-   "id": "fbf3d72035eec9e6",
-   "symbol": "COCHINSHIP",
-   "kind": "flag",
-   "date": "2026-08-27",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/Aswi4739_27082026130027_SE_Intimation_27_08_2026_sd.pdf"
-   }
-  }
- ]
+ "events": []
 }

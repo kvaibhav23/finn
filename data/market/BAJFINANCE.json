@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-16T11:57:55Z",
+ "generated_at": "2026-11-16T23:00:01Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 787.9,
   "range_position": 0.8290862290862289,
   "return_1y": 8.98379970544918,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 59.935500000000005,
-  "delivery_avg": 62.45934426229508,
-  "delivery_sessions": 61
+  "delivery_avg": 62.46516666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1094.3,
     3374018,
-    62.11
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2642,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T23:49:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Bajaj Finance Limited has informed the Exchange about the outcome of QIP 2026 - Special Committee Meeting",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16112026234915_BSENSE_Intimation_Issue_closing_pricing.pdf"
+  },
   {
    "date": "2026-11-11",
    "filed_at": "2026-11-11T17:13:00+05:30",
@@ -2959,7 +2973,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 8.98379970544918,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1110.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
@@ -2970,7 +2984,7 @@
    "state": "usual",
    "facts": {
     "recent": 59.935500000000005,
-    "usual": 62.45934426229508,
+    "usual": 62.46516666666666,
     "months": 3
    }
   },
@@ -2988,16 +3002,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "adf94d80d068e346",
-   "symbol": "BAJFINANCE",
-   "kind": "results",
-   "date": "2026-10-19",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf"
-   }
-  }
- ]
+ "events": []
 }

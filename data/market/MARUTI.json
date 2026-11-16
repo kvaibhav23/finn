@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-16T12:00:57Z",
+ "generated_at": "2026-11-16T23:00:55Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 10985.0,
   "range_position": 0.24839467501957713,
   "return_1y": -19.848252996684522,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 53.4455,
-  "delivery_avg": 54.49295081967213,
-  "delivery_sessions": 61
+  "delivery_avg": 54.5255,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     13691.0,
     267433,
-    52.54
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -3030,7 +3034,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -19.848252996684522,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 12571.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
@@ -3041,7 +3045,7 @@
    "state": "usual",
    "facts": {
     "recent": 53.4455,
-    "usual": 54.49295081967213,
+    "usual": 54.5255,
     "months": 3
    }
   },
@@ -3072,56 +3076,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "70b0415de328d46b",
-   "symbol": "MARUTI",
-   "kind": "results",
-   "date": "2026-11-10",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
-   }
-  },
-  {
-   "id": "4e4ea78739fa19b3",
-   "symbol": "MARUTI",
-   "kind": "results",
-   "date": "2026-10-27",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf"
-   }
-  },
-  {
-   "id": "f21f32d34f133b62",
-   "symbol": "MARUTI",
-   "kind": "results",
-   "date": "2026-10-27",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf"
-   }
-  },
-  {
-   "id": "d7671dc0abc0dc07",
-   "symbol": "MARUTI",
-   "kind": "flag",
-   "date": "2026-10-15",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
-   }
-  },
-  {
-   "id": "2b5da858218ce549",
-   "symbol": "MARUTI",
-   "kind": "flag",
-   "date": "2026-09-30",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
-   }
-  }
- ]
+ "events": []
 }

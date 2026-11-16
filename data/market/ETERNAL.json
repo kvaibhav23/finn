@@ -1,6 +1,6 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-16T11:59:09Z",
+ "generated_at": "2026-11-16T23:00:23Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 212.6,
   "range_position": 0.9912445278298938,
   "return_1y": 22.172839506172835,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 55.80650000000001,
-  "delivery_avg": 58.35213114754099,
-  "delivery_sessions": 61
+  "delivery_avg": 58.37683333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     315.9,
     18387007,
-    56.87
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2798,7 +2802,7 @@
    "state": "high",
    "facts": {
     "return_1y": 22.172839506172835,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 371.1,
     "low_52w": 212.6,
     "high_52w": 372.5
@@ -2809,7 +2813,7 @@
    "state": "usual",
    "facts": {
     "recent": 55.80650000000001,
-    "usual": 58.35213114754099,
+    "usual": 58.37683333333334,
     "months": 3
    }
   },
@@ -2835,16 +2839,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "f08a4760b3d6a9ec",
-   "symbol": "ETERNAL",
-   "kind": "flag",
-   "date": "2026-09-03",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
-   }
-  }
- ]
+ "events": []
 }

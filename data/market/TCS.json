@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-16T12:02:09Z",
+ "generated_at": "2026-11-16T23:01:17Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 1976.8,
   "range_position": 0.311826390911739,
   "return_1y": -22.569220862846105,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 49.734500000000004,
-  "delivery_avg": 48.90262295081967,
-  "delivery_sessions": 61
+  "delivery_avg": 48.9765,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     2280.0,
     1797822,
-    44.47
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -3000,7 +3004,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -22.569220862846105,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 2405.0,
     "low_52w": 1976.8,
     "high_52w": 3350.0
@@ -3011,7 +3015,7 @@
    "state": "usual",
    "facts": {
     "recent": 49.734500000000004,
-    "usual": 48.90262295081967,
+    "usual": 48.9765,
     "months": 3
    }
   },
@@ -3037,16 +3041,5 @@
   "Pending": 14,
   "On track": 1
  },
- "events": [
-  {
-   "id": "5ab7dab7108e683c",
-   "symbol": "TCS",
-   "kind": "results",
-   "date": "2026-10-08",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf"
-   }
-  }
- ]
+ "events": []
 }

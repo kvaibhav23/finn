@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-16T12:02:23Z",
+ "generated_at": "2026-11-16T23:01:21Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 3751.0,
   "range_position": 0.8072717141464095,
   "return_1y": 28.22521675545806,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 55.55499999999999,
-  "delivery_avg": 56.35475409836065,
-  "delivery_sessions": 61
+  "delivery_avg": 56.2965,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     5048.6,
     354873,
-    59.85
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2875,7 +2879,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 28.22521675545806,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 4910.0,
     "low_52w": 3751.0,
     "high_52w": 5186.7
@@ -2886,7 +2890,7 @@
    "state": "usual",
    "facts": {
     "recent": 55.55499999999999,
-    "usual": 56.35475409836065,
+    "usual": 56.2965,
     "months": 3
    }
   },
@@ -2918,36 +2922,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "da242482033c8efd",
-   "symbol": "TITAN",
-   "kind": "flag",
-   "date": "2026-11-05",
-   "facts": {
-    "tag": "Auditor change",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf"
-   }
-  },
-  {
-   "id": "87e9dd0ebdbf293b",
-   "symbol": "TITAN",
-   "kind": "results",
-   "date": "2026-11-05",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf"
-   }
-  },
-  {
-   "id": "f598720736a08419",
-   "symbol": "TITAN",
-   "kind": "flag",
-   "date": "2026-09-11",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_11092026175302_SE_Intimation_credit_rating.pdf"
-   }
-  }
- ]
+ "events": []
 }

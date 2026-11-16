@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-16T11:57:37Z",
+ "generated_at": "2026-11-16T22:59:55Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 2115.0,
   "range_position": 0.5258987021936375,
   "return_1y": -11.474676575832643,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 51.36749999999999,
-  "delivery_avg": 55.409672131147545,
-  "delivery_sessions": 61
+  "delivery_avg": 55.45066666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     2628.4,
     1017022,
-    52.95
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2974,7 +2978,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -11.474676575832643,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 2572.9,
     "low_52w": 2115.0,
     "high_52w": 2985.7
@@ -2985,7 +2989,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.36749999999999,
-    "usual": 55.409672131147545,
+    "usual": 55.45066666666666,
     "months": 3
    }
   },
@@ -3018,46 +3022,5 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": [
-  {
-   "id": "e0715bfc4cca21d5",
-   "symbol": "ASIANPAINT",
-   "kind": "results",
-   "date": "2026-10-29",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf"
-   }
-  },
-  {
-   "id": "0496c38ce9ccf987",
-   "symbol": "ASIANPAINT",
-   "kind": "results",
-   "date": "2026-10-29",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf"
-   }
-  },
-  {
-   "id": "e18f115c202a55fc",
-   "symbol": "ASIANPAINT",
-   "kind": "results",
-   "date": "2026-10-29",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
-   }
-  },
-  {
-   "id": "ff42c2ebaddf0eea",
-   "symbol": "ASIANPAINT",
-   "kind": "flag",
-   "date": "2026-09-11",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
-   }
-  }
- ]
+ "events": []
 }

@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-16T11:59:57Z",
+ "generated_at": "2026-11-16T23:00:36Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 980.4,
   "range_position": 0.22030497592295337,
   "return_1y": -23.802235826457284,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 52.631499999999996,
-  "delivery_avg": 54.700819672131146,
-  "delivery_sessions": 61
+  "delivery_avg": 54.6105,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1115.0,
     8851110,
-    60.12
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2901,16 +2905,6 @@
    "category": "Change in Management",
    "subject": "Infosys Limited has informed the Exchange about change in Management",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/INFY_24082026215249_SE_24082026.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T15:25:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Aster Positioned as a Leader in Everest Group s Marketing Transformation Services PEAK Matrix® Assessment 2026'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_19082026152513_PR_19082026.pdf"
   }
  ],
  "routine": [
@@ -2951,7 +2945,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -23.802235826457284,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1145.1,
     "low_52w": 980.4,
     "high_52w": 1728.0
@@ -2962,7 +2956,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.631499999999996,
-    "usual": 54.700819672131146,
+    "usual": 54.6105,
     "months": 3
    }
   },
@@ -2980,26 +2974,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "59db65ed6c0e249e",
-   "symbol": "INFY",
-   "kind": "results",
-   "date": "2026-10-23",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_23102026200652_SE_filing_Auditors_report_with_UDIN.pdf"
-   }
-  },
-  {
-   "id": "624fe4035e94138b",
-   "symbol": "INFY",
-   "kind": "results",
-   "date": "2026-10-23",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf"
-   }
-  }
- ]
+ "events": []
 }

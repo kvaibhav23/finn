@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-16T12:01:55Z",
+ "generated_at": "2026-11-16T23:01:12Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 3078.5,
   "range_position": 0.188497440529961,
   "return_1y": -11.954822362391504,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 49.796,
-  "delivery_avg": 49.41344262295082,
-  "delivery_sessions": 61
+  "delivery_avg": 49.35183333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     3604.0,
     105998,
-    53.11
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2796,7 +2800,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -11.954822362391504,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 3266.3,
     "low_52w": 3078.5,
     "high_52w": 4074.8
@@ -2807,7 +2811,7 @@
    "state": "usual",
    "facts": {
     "recent": 49.796,
-    "usual": 49.41344262295082,
+    "usual": 49.35183333333334,
     "months": 3
    }
   },
@@ -2832,16 +2836,5 @@
   "Pending": 26,
   "On track": 2
  },
- "events": [
-  {
-   "id": "698e3b2d8c4a6bc6",
-   "symbol": "SUPREMEIND",
-   "kind": "results",
-   "date": "2026-10-26",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026130526_Q2Financial_Results.pdf"
-   }
-  }
- ]
+ "events": []
 }

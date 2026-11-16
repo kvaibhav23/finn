@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-16T11:59:24Z",
+ "generated_at": "2026-11-16T23:00:27Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 669.2,
   "range_position": 0.4229112833763996,
   "return_1y": -17.49191592562652,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 59.346000000000004,
-  "delivery_avg": 59.728032786885244,
-  "delivery_sessions": 61
+  "delivery_avg": 59.74033333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     723.0,
     17916507,
-    58.99
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -3041,26 +3045,6 @@
    "category": "Credit Rating",
    "subject": "HDFC Bank Limited has informed the Exchange about Credit Rating",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T23:19:00+05:30",
-   "tag": "Credit rating",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Credit Rating",
-   "subject": "HDFC Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T22:52:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange regarding 'Intimation under Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations )'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026224543_RBIapproval_MajorshareholderLIC.pdf"
   }
  ],
  "routine": [
@@ -3100,7 +3084,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -17.49191592562652,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 816.5,
     "low_52w": 669.2,
     "high_52w": 1017.5
@@ -3111,7 +3095,7 @@
    "state": "usual",
    "facts": {
     "recent": 59.346000000000004,
-    "usual": 59.728032786885244,
+    "usual": 59.74033333333333,
     "months": 3
    }
   },
@@ -3119,7 +3103,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 2,
+    "count": 1,
     "days": 90,
     "tags": [
      "Credit rating"
@@ -3130,11 +3114,6 @@
      "date": "2026-08-20",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
-    },
-    {
-     "date": "2026-08-19",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
     }
    ]
   }
@@ -3142,36 +3121,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "cababaf739937da7",
-   "symbol": "HDFCBANK",
-   "kind": "results",
-   "date": "2026-10-17",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
-   }
-  },
-  {
-   "id": "9065234c333e0781",
-   "symbol": "HDFCBANK",
-   "kind": "flag",
-   "date": "2026-08-20",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
-   }
-  },
-  {
-   "id": "19e554aca03095c6",
-   "symbol": "HDFCBANK",
-   "kind": "flag",
-   "date": "2026-08-19",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
-   }
-  }
- ]
+ "events": []
 }

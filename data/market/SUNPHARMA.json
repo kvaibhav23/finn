@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-16T12:01:40Z",
+ "generated_at": "2026-11-16T23:01:08Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 1583.7,
   "range_position": 0.6126943005181346,
   "return_1y": 6.2830800751237925,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 58.44500000000001,
-  "delivery_avg": 62.31622950819672,
-  "delivery_sessions": 61
+  "delivery_avg": 62.39116666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1875.1,
     1819169,
-    57.82
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -3006,7 +3010,7 @@
    "state": "middle",
    "facts": {
     "return_1y": 6.2830800751237925,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1867.5,
     "low_52w": 1583.7,
     "high_52w": 2046.9
@@ -3017,7 +3021,7 @@
    "state": "usual",
    "facts": {
     "recent": 58.44500000000001,
-    "usual": 62.31622950819672,
+    "usual": 62.39116666666666,
     "months": 3
    }
   },
@@ -3066,86 +3070,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "fc61a22e9564cb05",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-11-04",
-   "facts": {
-    "tag": "Clarification",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
-   }
-  },
-  {
-   "id": "9028cfd46d9d4917",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-11-02",
-   "facts": {
-    "tag": "Clarification",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf"
-   }
-  },
-  {
-   "id": "5fde49139f659fae",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Auditor change",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf"
-   }
-  },
-  {
-   "id": "ef4b39079a842967",
-   "symbol": "SUNPHARMA",
-   "kind": "results",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
-   }
-  },
-  {
-   "id": "15fc8d2c355ee787",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-10-13",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf"
-   }
-  },
-  {
-   "id": "4bc7abab7a031dad",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-10-12",
-   "facts": {
-    "tag": "Resignation",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip"
-   }
-  },
-  {
-   "id": "cf2e087d237797c0",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-10-12",
-   "facts": {
-    "tag": "Resignation",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf"
-   }
-  },
-  {
-   "id": "59d1fb55d46d025b",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-09-08",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_08092026203827_SEIntimationforInternationalCreditRatings.pdf"
-   }
-  }
- ]
+ "events": []
 }

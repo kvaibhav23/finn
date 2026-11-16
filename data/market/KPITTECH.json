@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-16T12:00:26Z",
+ "generated_at": "2026-11-16T23:00:45Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 470.1,
   "range_position": 0.08124693176239559,
   "return_1y": -56.12011127475045,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 32.929,
-  "delivery_avg": 34.480000000000004,
-  "delivery_sessions": 61
+  "delivery_avg": 34.56716666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     596.65,
     1619307,
-    29.25
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2642,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T20:00:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Outcome",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_16112026195704_KPIT_Avendus_Spark_INDS_outcome_Signed.pdf"
+  },
   {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T16:20:00+05:30",
@@ -2952,7 +2966,7 @@
    "state": "low",
    "facts": {
     "return_1y": -56.12011127475045,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 536.3,
     "low_52w": 470.1,
     "high_52w": 1284.9
@@ -2963,7 +2977,7 @@
    "state": "usual",
    "facts": {
     "recent": 32.929,
-    "usual": 34.480000000000004,
+    "usual": 34.56716666666667,
     "months": 3
    }
   },
@@ -3003,36 +3017,5 @@
   "Kept": 2,
   "On track": 1
  },
- "events": [
-  {
-   "id": "490e5b8b4c67c6e2",
-   "symbol": "KPITTECH",
-   "kind": "flag",
-   "date": "2026-10-31",
-   "facts": {
-    "tag": "Resignation",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf"
-   }
-  },
-  {
-   "id": "1cda886fd9164f86",
-   "symbol": "KPITTECH",
-   "kind": "results",
-   "date": "2026-10-28",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026124748_Outcome_NSE.pdf"
-   }
-  },
-  {
-   "id": "0347914fb6580c04",
-   "symbol": "KPITTECH",
-   "kind": "flag",
-   "date": "2026-08-27",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27082026163341_KPIT_SE_intimation_Notice_26_August_2026_signed.pdf"
-   }
-  }
- ]
+ "events": []
 }

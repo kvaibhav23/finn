@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-16T11:58:39Z",
+ "generated_at": "2026-11-16T23:00:14Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 9600.0,
   "range_position": 0.5327935222672064,
   "return_1y": -16.401841883390624,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 36.3985,
-  "delivery_avg": 37.96868852459016,
-  "delivery_sessions": 61
+  "delivery_avg": 38.021166666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     14150.0,
     387416,
-    34.82
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2642,6 +2646,26 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T20:14:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Agreements",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about execution of an Asset Purchase Agreement between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026201438_Regulation30AnnouncementVimal16112026.pdf"
+  },
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T17:44:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026174441_InvestorMeetOutcome16112026.pdf"
+  },
   {
    "date": "2026-11-05",
    "filed_at": "2026-11-05T16:36:00+05:30",
@@ -3051,16 +3075,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_20082026144013_InvestorMeetOutcome20082026.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T16:17:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_19082026161620_InvestorMeetOutcome19082026.pdf"
   }
  ],
  "routine": [
@@ -3106,7 +3120,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -16.401841883390624,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 12890.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
@@ -3117,7 +3131,7 @@
    "state": "usual",
    "facts": {
     "recent": 36.3985,
-    "usual": 37.96868852459016,
+    "usual": 38.021166666666666,
     "months": 3
    }
   },
@@ -3143,16 +3157,5 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": [
-  {
-   "id": "10951a987981bed2",
-   "symbol": "DIXON",
-   "kind": "results",
-   "date": "2026-10-30",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_30102026160547_Outcome30102026.pdf"
-   }
-  }
- ]
+ "events": []
 }

@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-16T11:59:43Z",
+ "generated_at": "2026-11-16T23:00:32Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 1187.6,
   "range_position": 0.9276377217553688,
   "return_1y": 15.440640932265115,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 62.262,
-  "delivery_avg": 62.103770491803274,
-  "delivery_sessions": 61
+  "delivery_avg": 62.20666666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     1412.0,
     8345198,
-    55.93
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -3210,7 +3214,7 @@
    "state": "high",
    "facts": {
     "return_1y": 15.440640932265115,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 1585.0,
     "low_52w": 1187.6,
     "high_52w": 1616.0
@@ -3221,7 +3225,7 @@
    "state": "usual",
    "facts": {
     "recent": 62.262,
-    "usual": 62.103770491803274,
+    "usual": 62.20666666666667,
     "months": 3
    }
   },
@@ -3257,46 +3261,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "0930ad9ee36aeb5d",
-   "symbol": "ICICIBANK",
-   "kind": "flag",
-   "date": "2026-10-24",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
-   }
-  },
-  {
-   "id": "60921d0dff122b91",
-   "symbol": "ICICIBANK",
-   "kind": "results",
-   "date": "2026-10-17",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf"
-   }
-  },
-  {
-   "id": "09577da36ebfdb69",
-   "symbol": "ICICIBANK",
-   "kind": "flag",
-   "date": "2026-09-01",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
-   }
-  },
-  {
-   "id": "8d89d8edc5a07ea6",
-   "symbol": "ICICIBANK",
-   "kind": "flag",
-   "date": "2026-08-24",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
-   }
-  }
- ]
+ "events": []
 }

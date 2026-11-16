@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-16T11:58:54Z",
+ "generated_at": "2026-11-16T23:00:18Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 3102.3,
   "range_position": 0.23045988194849826,
   "return_1y": -14.70508424402398,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 52.459,
-  "delivery_avg": 53.7572131147541,
-  "delivery_sessions": 61
+  "delivery_avg": 53.89933333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     3981.0,
     339330,
-    45.23
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2913,16 +2917,6 @@
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_20082026183258_ASLInitmationStoreOpening20082026.pdf"
-  },
-  {
-   "date": "2026-08-19",
-   "filed_at": "2026-08-19T17:51:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Avenue Supermarts Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on August 19, 2026",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_19082026174944_Proceedingsofthe26thAGM19082026.pdf"
   }
  ],
  "routine": [
@@ -2949,7 +2943,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -14.70508424402398,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 3457.6,
     "low_52w": 3102.3,
     "high_52w": 4644.0
@@ -2960,7 +2954,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.459,
-    "usual": 53.7572131147541,
+    "usual": 53.89933333333333,
     "months": 3
    }
   },
@@ -3007,66 +3001,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "bfcfc0d727731137",
-   "symbol": "DMART",
-   "kind": "flag",
-   "date": "2026-10-27",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
-   }
-  },
-  {
-   "id": "43ea99bd21d727cf",
-   "symbol": "DMART",
-   "kind": "results",
-   "date": "2026-10-10",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf"
-   }
-  },
-  {
-   "id": "f51793731b3f78c3",
-   "symbol": "DMART",
-   "kind": "flag",
-   "date": "2026-10-09",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
-   }
-  },
-  {
-   "id": "c2a0d08e9e03bde7",
-   "symbol": "DMART",
-   "kind": "flag",
-   "date": "2026-08-31",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
-   }
-  },
-  {
-   "id": "6f9b7c712352a8ff",
-   "symbol": "DMART",
-   "kind": "flag",
-   "date": "2026-08-26",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
-   }
-  },
-  {
-   "id": "93073282120fe2fb",
-   "symbol": "DMART",
-   "kind": "flag",
-   "date": "2026-08-24",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
-   }
-  }
- ]
+ "events": []
 }

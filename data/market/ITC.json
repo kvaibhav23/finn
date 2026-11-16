@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-16T12:00:12Z",
+ "generated_at": "2026-11-16T23:00:40Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -11,10 +11,10 @@
   "low_52w": 252.8,
   "range_position": 0.2657035175879398,
   "return_1y": -27.698150189881165,
-  "nifty_return_1y": null,
+  "nifty_return_1y": -2.388841395520269,
   "delivery_20d": 51.979,
-  "delivery_avg": 55.972131147540985,
-  "delivery_sessions": 61
+  "delivery_avg": 55.91866666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-18",
     270.0,
     14561572,
-    59.18
+    null
    ],
    [
     "2026-08-19",
@@ -2528,6 +2528,10 @@
   [
    "2026-11-13",
    25144.3
+  ],
+  [
+   "2026-11-16",
+   25291.1
   ]
  ],
  "results": {
@@ -2772,7 +2776,7 @@
   "times": 5.189096491228041,
   "volume_x": 2.6507090300063796,
   "biggest_in_year": false,
-  "nifty_change_pct": null,
+  "nifty_change_pct": 0.5838301324753603,
   "filings": [
    {
     "date": "2026-11-13",
@@ -2792,7 +2796,7 @@
     "times": 5.189096491228041,
     "volume_x": 2.6507090300063796,
     "biggest_in_year": false,
-    "nifty_change_pct": null
+    "nifty_change_pct": 0.5838301324753603
    },
    "items": [
     {
@@ -2812,7 +2816,7 @@
    "state": "middle",
    "facts": {
     "return_1y": -27.698150189881165,
-    "nifty_return_1y": null,
+    "nifty_return_1y": -2.388841395520269,
     "close": 295.1,
     "low_52w": 252.8,
     "high_52w": 412.0
@@ -2823,7 +2827,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.979,
-    "usual": 55.972131147540985,
+    "usual": 55.91866666666667,
     "months": 3
    }
   },
@@ -2841,27 +2845,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "e231577039764383",
-   "symbol": "ITC",
-   "kind": "move",
-   "date": "2026-11-16",
-   "facts": {
-    "change_pct": 3.5438596491228047,
-    "times": 5.189096491228041,
-    "biggest_in_year": false
-   }
-  },
-  {
-   "id": "f42629cc50aa65ac",
-   "symbol": "ITC",
-   "kind": "results",
-   "date": "2026-11-02",
-   "facts": {
-    "tag": "Results",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026181912_SE_Results_.pdf"
-   }
-  }
- ]
+ "events": []
 }
