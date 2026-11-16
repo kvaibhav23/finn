@@ -1,31 +1,25 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-14T00:26:51Z",
+ "generated_at": "2026-11-16T12:01:11Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 7904.0,
-  "change": -176.5,
-  "change_pct": -2.184270775323305,
+  "as_of": "2026-11-16",
+  "close": 7955.5,
+  "change": 51.5,
+  "change_pct": 0.6515688259109309,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.35835980363846376,
-  "return_1y": 2.37015930578941,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 49.9595,
-  "delivery_avg": 51.481147540983606,
+  "range_position": 0.3732313023390124,
+  "return_1y": 4.238731656184491,
+  "nifty_return_1y": null,
+  "delivery_20d": 50.766,
+  "delivery_avg": 51.44114754098361,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    7542.0,
-    127993,
-    null
-   ],
    [
     "2025-11-10",
     7608.0,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     9370.0,
     239095,
-    48.88
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     7904.0,
     433490,
     49.1
+   ],
+   [
+    "2026-11-16",
+    7955.5,
+    206151,
+    46.44
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 34609.238,
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 37.6542327664237,
+  "pe": 37.89957600876566,
   "pe_note": null,
-  "market_cap_cr": 119106.9568,
+  "market_cap_cr": 119883.0206,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 590.347,
     "pat_cr": 445.208,
     "approved": "2024-10-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_112849_1275859_17102024065630.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_112849_1275859_17102024065630.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 616.573,
     "pat_cr": 464.348,
     "approved": "2025-01-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117488_1357164_22012025051528.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_117488_1357164_22012025051528.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 960.557,
     "pat_cr": 734.362,
     "approved": "2025-05-06",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1432542_06052025071425_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1432542_06052025071425_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 800.587,
     "pat_cr": 599.696,
     "approved": "2025-07-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1485404_17072025035800_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1485404_17072025035800_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 921.001,
     "pat_cr": 692.959,
     "approved": "2025-10-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552465_17102025061553_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552465_17102025061553_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 842.199,
     "pat_cr": 630.168,
     "approved": "2026-01-16",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1602515_16012026051416_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1602515_16012026051416_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 1049.288,
     "pat_cr": 785.604,
     "approved": "2026-05-06",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1664066_06052026044749_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1664066_06052026044749_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 1058.223,
     "pat_cr": 796.654,
     "approved": "2026-07-16",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1694176_16072026035916_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1694176_16072026035916_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,11 +2637,21 @@
     "pbt_cr": 1306.22,
     "pat_cr": 989.997,
     "approved": "2026-10-15",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T11:28:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf"
+  },
   {
    "date": "2026-11-06",
    "filed_at": "2026-11-06T22:03:00+05:30",
@@ -2654,7 +2660,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06112026220329_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_06112026220329_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-11-03",
@@ -2664,7 +2670,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 3403 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_03112026160106_IntimationtoStockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_03112026160106_IntimationtoStockexchange.pdf"
   },
   {
    "date": "2026-10-30",
@@ -2674,7 +2680,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange about the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2684,7 +2690,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2694,7 +2700,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange on the update of NCLAT order dated October 27, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2704,7 +2710,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-10-23",
@@ -2714,7 +2720,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_23102026143418_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_23102026143418_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2724,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Polycab India Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2734,7 +2740,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026162313_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19102026162313_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2744,7 +2750,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2754,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Polycab India Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026204957_Audio_Recording_of_Earnings_Call.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026204957_Audio_Recording_of_Earnings_Call.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2764,7 +2770,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Unaudited Interim Condensed (Standalone and Consolidated) Financial Statements for the quarter ended September 30, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2774,7 +2780,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Earnings Presentation on Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2784,7 +2790,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Polycab India Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Financial results for the quarter ended 30th September 2026\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026130834_PressRelease.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026130834_PressRelease.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2794,7 +2800,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Polycab India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf"
   },
   {
    "date": "2026-10-14",
@@ -2804,7 +2810,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange that Hon''ble NCLAT has granted the request for early listing and the appeal is now scheduled to be held on October 15, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2814,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Press Release on NCLAT Order\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf"
   },
   {
    "date": "2026-10-10",
@@ -2824,7 +2830,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Polycab India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_10102026202405_Intimation_of_Earnings_Call.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_10102026202405_Intimation_of_Earnings_Call.pdf"
   },
   {
    "date": "2026-10-09",
@@ -2834,7 +2840,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2844,7 +2850,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2854,7 +2860,7 @@
    "worth_a_look": true,
    "category": "Corporate Insolvency Resolution Process",
    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf"
   },
   {
    "date": "2026-10-07",
@@ -2864,7 +2870,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about intimation of NCLT order",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2874,7 +2880,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 10,150 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06102026143016_Intimation_of_Stock_Exchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_06102026143016_Intimation_of_Stock_Exchange.pdf"
   },
   {
    "date": "2026-09-23",
@@ -2884,7 +2890,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_23092026125316_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_23092026125316_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2894,7 +2900,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 4885 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_18092026180117_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_18092026180117_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2904,7 +2910,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_17092026183136_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_17092026183136_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2914,7 +2920,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15092026173435_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15092026173435_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-03",
@@ -2924,7 +2930,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_03092026172249_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_03092026172249_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2934,7 +2940,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 14970 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_01092026180854_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_01092026180854_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2944,7 +2950,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_01092026175610_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_01092026175610_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-08-29",
@@ -2954,7 +2960,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_29082026162806_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_29082026162806_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-08-25",
@@ -2964,7 +2970,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_25082026184658_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_25082026184658_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2974,7 +2980,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Polycab India Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_24082026224035_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_24082026224035_Intimationtostockexchange.pdf"
   },
   {
    "date": "2026-08-20",
@@ -2984,7 +2990,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Polycab India Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_20082026145343_IntimationforSMPCessation.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_20082026145343_IntimationforSMPCessation.pdf"
   },
   {
    "date": "2026-08-19",
@@ -2994,17 +3000,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19082026175532_Intimationtostockexchange.pdf"
-  },
-  {
-   "date": "2026-08-18",
-   "filed_at": "2026-08-18T17:45:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Demise",
-   "subject": "Polycab India Limited has informed the Exchange regarding Demise of Mr Diwaker Bharadwaj, SMP of the company on August 17, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_18082026174455_Intimationtostockexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19082026175532_Intimationtostockexchange.pdf"
   }
  ],
  "routine": [
@@ -3014,22 +3010,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-16",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_22012026193636_Intimation_of_Earnings_Call_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_22012026193636_Intimation_of_Earnings_Call_Transcript.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-05-06",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08052026185934_Intimation_of_Earnings_Call_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08052026185934_Intimation_of_Earnings_Call_Transcript.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-16",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_20072026120857_Intimation_of_Earnings_Call_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_20072026120857_Intimation_of_Earnings_Call_Transcript.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-15",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf"
   }
  ],
  "move": null,
@@ -3043,9 +3039,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 2.37015930578941,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 7904.0,
+    "return_1y": 4.238731656184491,
+    "nifty_return_1y": null,
+    "close": 7955.5,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3054,8 +3050,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 49.9595,
-    "usual": 51.481147540983606,
+    "recent": 50.766,
+    "usual": 51.44114754098361,
     "months": 3
    }
   },
@@ -3073,27 +3069,27 @@
     {
      "date": "2026-10-30",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
     },
     {
      "date": "2026-10-28",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
     },
     {
      "date": "2026-10-16",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
     },
     {
      "date": "2026-10-14",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
     },
     {
      "date": "2026-10-09",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
     }
    ]
   }
@@ -3101,5 +3097,116 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "5d8d29ebbe3ca674",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-30",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf"
+   }
+  },
+  {
+   "id": "609482917c29edd6",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-28",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf"
+   }
+  },
+  {
+   "id": "2349ca086749569e",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-16",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16102026093958_CIRP15102026.pdf"
+   }
+  },
+  {
+   "id": "4d00bf4b0d141bc0",
+   "symbol": "POLYCAB",
+   "kind": "results",
+   "date": "2026-10-15",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf"
+   }
+  },
+  {
+   "id": "c310284d68c7aef5",
+   "symbol": "POLYCAB",
+   "kind": "results",
+   "date": "2026-10-15",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf"
+   }
+  },
+  {
+   "id": "97a085ae0d7b4cf1",
+   "symbol": "POLYCAB",
+   "kind": "results",
+   "date": "2026-10-15",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026130834_PressRelease.pdf"
+   }
+  },
+  {
+   "id": "9ca5f1d53087c656",
+   "symbol": "POLYCAB",
+   "kind": "results",
+   "date": "2026-10-15",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf"
+   }
+  },
+  {
+   "id": "c3216fe14df974ce",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-14",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf"
+   }
+  },
+  {
+   "id": "6c058e78149c2ac4",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-09",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf"
+   }
+  },
+  {
+   "id": "38857a1f6ca07b1d",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-08",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf"
+   }
+  },
+  {
+   "id": "48809f04aad45178",
+   "symbol": "POLYCAB",
+   "kind": "flag",
+   "date": "2026-10-08",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf"
+   }
+  }
+ ]
 }

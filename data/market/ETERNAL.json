@@ -1,31 +1,25 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-14T00:26:49Z",
+ "generated_at": "2026-11-16T11:59:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 363.65,
-  "change": -0.7000000000000455,
-  "change_pct": -0.19212295869357465,
-  "high_52w": 372.1,
+  "as_of": "2026-11-16",
+  "close": 371.1,
+  "change": 7.4500000000000455,
+  "change_pct": 2.048673174755966,
+  "high_52w": 372.5,
   "low_52w": 212.6,
-  "range_position": 0.9470219435736674,
-  "return_1y": 22.132661628883277,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 56.1105,
-  "delivery_avg": 58.41098360655738,
+  "range_position": 0.9912445278298938,
+  "return_1y": 22.172839506172835,
+  "nifty_return_1y": null,
+  "delivery_20d": 55.80650000000001,
+  "delivery_avg": 58.35213114754099,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    306.1,
-    26911856,
-    null
-   ],
    [
     "2025-11-10",
     301.45,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     318.0,
     18972081,
-    57.82
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     363.65,
     14093772,
     55.02
+   ],
+   [
+    "2026-11-16",
+    371.1,
+    23653290,
+    54.23
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 77956.0,
   "ttm_pat_cr": 493.0,
   "ttm_margin_pct": 0.632408025039766,
   "ttm_eps": 0.53,
-  "pe": 686.132075471698,
+  "pe": 700.1886792452831,
   "pe_note": null,
-  "market_cap_cr": 334921.65,
+  "market_cap_cr": 341783.1,
   "revenue_yoy_pct": 77.6158940397351,
   "pat_yoy_pct": 92.3076923076923,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 237.0,
     "pat_cr": 176.0,
     "approved": "2024-10-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113034_1285254_22102024070105.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_113034_1285254_22102024070105.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 124.0,
     "pat_cr": 59.0,
     "approved": "2025-01-20",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117408_1353522_20012025062858.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_117408_1353522_20012025062858.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 97.0,
     "pat_cr": 39.0,
     "approved": "2025-05-01",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1430257_01052025070843_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1430257_01052025070843_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 88.0,
     "pat_cr": 25.0,
     "approved": "2025-07-21",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1489332_21072025061641_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1489332_21072025061641_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 129.0,
     "pat_cr": 65.0,
     "approved": "2025-10-16",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 170.0,
     "pat_cr": 102.0,
     "approved": "2026-01-21",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1607505_21012026062540_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1607505_21012026062540_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 228.0,
     "pat_cr": 174.0,
     "approved": "2026-04-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1660628_28042026082148_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1660628_28042026082148_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 272.0,
     "pat_cr": 92.0,
     "approved": "2026-07-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 323.0,
     "pat_cr": 125.0,
     "approved": "2026-10-21",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Eternal Limited has filed with exchange transcript of earnings conference call conducted on October 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Monitoring Agency Report",
    "subject": "Eternal Limited has filed with exchange monitoring agency report for quarter ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026173358_SignedMALletter.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026173358_SignedMALletter.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Sale or disposal",
    "subject": "Eternal Limited has informed exchange regarding proposed restructuring, acquisition and divestment.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Eternal Limited has filed with exchange copy of shareholders letter dated October 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152512_SHLsigned.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026152512_SHLsigned.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Outcome of board meeting dated October 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Eternal Limited has informed the exchange that the Company will hold its Earnings Conference Call on Wednesday, October 21, 2026 at 5 P.M. (IST), to discuss the financial results for the quarter and half year ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_13102026181942_PriorintimationSept2026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_13102026181942_PriorintimationSept2026signed.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "Eternal Limited for informed the exchange regarding grant of stock options pursuant to approval of nomination and remuneration committee.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_01102026171038_grantDisclosureOctober12026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_01102026171038_grantDisclosureOctober12026signed.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Eternal Limited has filed with exchange ESG rating assigned by Niche Ninety Nine Capability and Certifications (OPC) Private Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_18092026150135_ESGRatingdisclosureFinalsigned18092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_18092026150135_ESGRatingdisclosureFinalsigned18092026.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Eternal Limited has informed the exchange about schedule of participation in investor conference.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_11092026191907_SignedInvestorConference.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_11092026191907_SignedInvestorConference.pdf"
   },
   {
    "date": "2026-09-03",
@@ -2744,7 +2740,7 @@
    "worth_a_look": true,
    "category": "General Updates",
    "subject": "Eternal Limited has filed with Exchange ESG rating assigned by CRISIL ESG Credit Rating & Analytics Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
   },
   {
    "date": "2026-08-27",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Eternal Limited has submitted with exchange copy of scrutinizers report and voting results of 16th Annual General Meeting of the Company held on August 26, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_27082026195837_VotingResultSignedAGM.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_27082026195837_VotingResultSignedAGM.pdf"
   },
   {
    "date": "2026-08-26",
@@ -2764,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Eternal Limited has informed the exchange regarding proceedings of 16th Annual General Meeting of the Company held on August 26, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_26082026202912_SignedproceedingsofAGM.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_26082026202912_SignedproceedingsofAGM.pdf"
   }
  ],
  "routine": [],
@@ -2772,22 +2768,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_27012026182242_Eternallimitedtranscriptofearningcallsigned.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_27012026182242_Eternallimitedtranscriptofearningcallsigned.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-05-06",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_06052026135430_TranscriptfilingsignedApril2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_06052026135430_TranscriptfilingsignedApril2026.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_29072026145100_TranscriptfilingJuly222026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_29072026145100_TranscriptfilingJuly222026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf"
   }
  ],
  "move": null,
@@ -2801,19 +2797,19 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 22.132661628883277,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 363.65,
+    "return_1y": 22.172839506172835,
+    "nifty_return_1y": null,
+    "close": 371.1,
     "low_52w": 212.6,
-    "high_52w": 372.1
+    "high_52w": 372.5
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 56.1105,
-    "usual": 58.41098360655738,
+    "recent": 55.80650000000001,
+    "usual": 58.35213114754099,
     "months": 3
    }
   },
@@ -2831,7 +2827,7 @@
     {
      "date": "2026-09-03",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
     }
    ]
   }
@@ -2839,5 +2835,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "f08a4760b3d6a9ec",
+   "symbol": "ETERNAL",
+   "kind": "flag",
+   "date": "2026-09-03",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_03092026140104_SignedESGRatingdisclosureFinal__1_.pdf"
+   }
+  }
+ ]
 }

@@ -1,31 +1,25 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-14T00:26:50Z",
+ "generated_at": "2026-11-16T12:00:42Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 4143.8,
-  "change": -15.399999999999636,
-  "change_pct": -0.3702635122138753,
+  "as_of": "2026-11-16",
+  "close": 4140.0,
+  "change": -3.800000000000182,
+  "change_pct": -0.09170326753221714,
   "high_52w": 4440.0,
   "low_52w": 3288.1,
-  "range_position": 0.7428596232311835,
-  "return_1y": 3.5302935665209256,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 55.483000000000004,
-  "delivery_avg": 58.204918032786885,
+  "range_position": 0.7395607257574442,
+  "return_1y": 3.3862750973928657,
+  "nifty_return_1y": null,
+  "delivery_20d": 55.65650000000001,
+  "delivery_avg": 58.319016393442624,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    3882.5,
-    1577294,
-    null
-   ],
    [
     "2025-11-10",
     3918.5,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     4086.7,
     1066164,
-    51.84
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     4143.8,
     1585695,
     61.35
+   ],
+   [
+    "2026-11-16",
+    4140.0,
+    1137331,
+    58.8
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 300903.54,
   "ttm_pat_cr": 20894.89,
   "ttm_margin_pct": 6.944049245814789,
   "ttm_eps": 129.82,
-  "pe": 31.919580958249888,
+  "pe": 31.89030965952858,
   "pe_note": null,
-  "market_cap_cr": 570145.442,
+  "market_cap_cr": 569622.6,
   "revenue_yoy_pct": 15.836791646447313,
   "pat_yoy_pct": 27.172665299988672,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 5555.09,
     "pat_cr": 4098.84,
     "approved": "2024-10-30",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_114071_1295139_31102024022725.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_114071_1295139_31102024022725.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 5333.03,
     "pat_cr": 3973.98,
     "approved": "2025-01-30",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118260_1367030_31012025015554.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_118260_1367030_31012025015554.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 5859.53,
     "pat_cr": 4318.17,
     "approved": "2025-07-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1497092_29072025074331_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1497092_29072025074331_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 6336.11,
     "pat_cr": 4678.01,
     "approved": "2025-10-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1560629_29102025075509_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1560629_29102025075509_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 5369.89,
     "pat_cr": 3824.65,
     "approved": "2026-01-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1612263_28012026075512_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1612263_28012026075512_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 8410.28,
     "pat_cr": 6133.06,
     "approved": "2026-05-05",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1663820_05052026073236_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1663820_05052026073236_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 6922.26,
     "pat_cr": 4988.03,
     "approved": "2026-07-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1703294_28072026061959_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1703294_28072026061959_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 7641.06,
     "pat_cr": 5949.15,
     "approved": "2026-10-27",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747229_27102026081332_WEB.xml"
    }
   ]
  },
@@ -2644,7 +2640,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_09112026103717_PressRelease09112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_09112026103717_PressRelease09112026.pdf"
   },
   {
    "date": "2026-11-06",
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_06112026153645_AnalystMeetIntimation06112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_06112026153645_AnalystMeetIntimation06112026.pdf"
   },
   {
    "date": "2026-11-04",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding Change in Corporate Office Address of Registrar and Share Transfer Agent '.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_04112026185041_Intimation04112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_04112026185041_Intimation04112026.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_02112026175603_TranscriptSep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_02112026175603_TranscriptSep2026.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_02112026101835_PressRelease02112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_02112026101835_PressRelease02112026.pdf"
   },
   {
    "date": "2026-10-31",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026221257_Intimation27102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026221257_Intimation27102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding 'Analyst Presentation.- Q2 / H1 FY27'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026171156_LTSep2026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026101631_PressRelease27102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026101631_PressRelease27102026.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_21102026094637_PressRelease21102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_21102026094637_PressRelease21102026.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_19102026101805_PressRelease19102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_19102026101805_PressRelease19102026.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2764,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_16102026170806_Intimation16102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_16102026170806_Intimation16102026.pdf"
   },
   {
    "date": "2026-10-07",
@@ -2774,7 +2770,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Larsen & Toubro Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf"
   },
   {
    "date": "2026-10-07",
@@ -2784,7 +2780,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026101304_PressRelease07102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_07102026101304_PressRelease07102026.pdf"
   },
   {
    "date": "2026-10-05",
@@ -2794,7 +2790,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_05102026093512_PressRelease05102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_05102026093512_PressRelease05102026.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2804,7 +2800,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_30092026152845_IntimationLTMRHL30092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_30092026152845_IntimationLTMRHL30092026.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2814,7 +2810,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_30092026121641_PressRelease30092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_30092026121641_PressRelease30092026.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2824,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding a press release dated September 18, 2026, titled \"L&T Semiconductor Technologies Unveils 40 Products at SEMICON 2026. Marks a major milestone with its first silicon carbide chips\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_18092026105408_PressRelease18092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_18092026105408_PressRelease18092026.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2834,7 +2830,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_17092026142102_ESGRating17092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_17092026142102_ESGRating17092026.pdf"
   },
   {
    "date": "2026-09-16",
@@ -2844,7 +2840,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_16092026172400_Intimation16092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_16092026172400_Intimation16092026.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2854,7 +2850,7 @@
    "worth_a_look": false,
    "category": "Allotment of Securities",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 50,000 Listed, Rated, Unsecured, Redeemable, Tokenised Non-Convertible Debentures at its meeting held on September 09, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_09092026144602_Intimation09092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_09092026144602_Intimation09092026.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2864,7 +2860,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Larsen & Toubro Limited has informed the Exchange regarding a press release dated September 09, 2026, titled \"L&T Becomes India s First Private Sector Corporate to Issue Tokenised Bond\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_09092026131822_PressRelease090920261.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_09092026131822_PressRelease090920261.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2874,7 +2870,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_09092026100141_PressRelease09092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_09092026100141_PressRelease09092026.pdf"
   },
   {
    "date": "2026-09-04",
@@ -2884,7 +2880,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2894,7 +2890,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2904,7 +2900,7 @@
    "worth_a_look": false,
    "category": "Scheme of Arrangement",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Scheme of Arrangement",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_01092026184703_Reg30192026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_01092026184703_Reg30192026.pdf"
   },
   {
    "date": "2026-08-25",
@@ -2914,7 +2910,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_25082026093347_PressRelease25082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_25082026093347_PressRelease25082026.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2924,7 +2920,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_24082026093929_PressRelease24082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_24082026093929_PressRelease24082026.pdf"
   },
   {
    "date": "2026-08-20",
@@ -2934,17 +2930,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_20082026100532_Press_Release_Initmation_sgd.pdf"
-  },
-  {
-   "date": "2026-08-17",
-   "filed_at": "2026-08-17T11:36:00+05:30",
-   "tag": "Order or contract",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Bagging/Receiving of orders/contracts",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts - L&T Secures Ultra-Mega* Order for Strategic Offshore Development Project in the Middle East",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/Subhodh_17082026113557_SEIntimation_Pressrelease_17082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_20082026100532_Press_Release_Initmation_sgd.pdf"
   }
  ],
  "routine": [
@@ -2955,22 +2941,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_03022026135414_TranscriptDec2025.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_03022026135414_TranscriptDec2025.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-05-05",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_11052026104447_TranscriptMarch2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_11052026104447_TranscriptMarch2026.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_03082026181720_TranscriptJune2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_03082026181720_TranscriptJune2026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_02112026175603_TranscriptSep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_02112026175603_TranscriptSep2026.pdf"
   }
  ],
  "move": null,
@@ -2984,9 +2970,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 3.5302935665209256,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 4143.8,
+    "return_1y": 3.3862750973928657,
+    "nifty_return_1y": null,
+    "close": 4140.0,
     "low_52w": 3288.1,
     "high_52w": 4440.0
    }
@@ -2995,8 +2981,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.483000000000004,
-    "usual": 58.204918032786885,
+    "recent": 55.65650000000001,
+    "usual": 58.319016393442624,
     "months": 3
    }
   },
@@ -3014,17 +3000,17 @@
     {
      "date": "2026-09-17",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_17092026142102_ESGRating17092026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_17092026142102_ESGRating17092026.pdf"
     },
     {
      "date": "2026-09-04",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
     },
     {
      "date": "2026-09-01",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
     }
    ]
   }
@@ -3032,5 +3018,46 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "e8f19d19b71dc4f1",
+   "symbol": "LT",
+   "kind": "results",
+   "date": "2026-10-27",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_27102026171156_LTSep2026.pdf"
+   }
+  },
+  {
+   "id": "fe094d013de65e21",
+   "symbol": "LT",
+   "kind": "flag",
+   "date": "2026-09-17",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_17092026142102_ESGRating17092026.pdf"
+   }
+  },
+  {
+   "id": "1b52b8f633a42d85",
+   "symbol": "LT",
+   "kind": "flag",
+   "date": "2026-09-04",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_04092026173240_SE_Intimation_Credit_Rating_CRISIL_0409.pdf"
+   }
+  },
+  {
+   "id": "fb684f110ea18f5b",
+   "symbol": "LT",
+   "kind": "flag",
+   "date": "2026-09-01",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_01092026191301_SE_Intimation_CreditRating_IndiaRatings_010926.pdf"
+   }
+  }
+ ]
 }

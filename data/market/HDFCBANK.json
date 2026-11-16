@@ -1,31 +1,25 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-14T00:26:49Z",
+ "generated_at": "2026-11-16T11:59:24Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 804.0,
-  "change": -8.299999999999955,
-  "change_pct": -1.0217899790717633,
+  "as_of": "2026-11-16",
+  "close": 816.5,
+  "change": 12.5,
+  "change_pct": 1.5547263681592094,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.3870226815963249,
-  "return_1y": -18.512137029341712,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 59.2355,
-  "delivery_avg": 59.80311475409836,
+  "range_position": 0.4229112833763996,
+  "return_1y": -17.49191592562652,
+  "nifty_return_1y": null,
+  "delivery_20d": 59.346000000000004,
+  "delivery_avg": 59.728032786885244,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    982.3,
-    15004568,
-    null
-   ],
    [
     "2025-11-10",
     984.5,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     729.0,
     14823722,
-    67.0
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     804.0,
     23442886,
     62.17
+   ],
+   [
+    "2026-11-16",
+    816.5,
+    27152881,
+    62.42
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": true,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml",
   "top_line": "total_income",
   "ttm_revenue_cr": 506316.26,
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.497301464919046,
+  "pe": 15.738242097147264,
   "pe_note": null,
-  "market_cap_cr": 1239655.44,
+  "market_cap_cr": 1258928.69,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 23166.89,
     "pat_cr": 17825.91,
     "approved": "2024-10-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/BANKING_112946_1281172_20102024121424.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_112946_1281172_20102024121424.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 23972.87,
     "pat_cr": 18340.11,
     "approved": "2025-01-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/BANKING_117525_1359016_23012025122721.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_117525_1359016_23012025122721.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 25123.7,
     "pat_cr": 18834.88,
     "approved": "2025-04-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1420333_19042025104215_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1420333_19042025104215_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 20849.83,
     "pat_cr": 17090.43,
     "approved": "2025-07-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1487995_19072025065149_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1487995_19072025065149_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 25905.79,
     "pat_cr": 19610.67,
     "approved": "2025-10-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1553886_18102025082322_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1553886_18102025082322_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 26961.1,
     "pat_cr": 20691.04,
     "approved": "2026-01-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1603568_17012026092624_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1603568_17012026092624_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 26948.17,
     "pat_cr": 20350.76,
     "approved": "2026-04-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1654391_18042026073048_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1654391_18042026073048_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 27193.16,
     "pat_cr": 20382.69,
     "approved": "2026-07-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1696123_18072026040126_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1696123_18072026040126_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 27825.48,
     "pat_cr": 20700.03,
     "approved": "2026-10-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Change in Director(s)",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
    "profile": {
     "page": 3,
     "excerpt": "As provided in Annexure II. 4. Disclosure of relationships between directors (in case of appointment of a director) Not related to any other Director or Key Managerial Personnel of the Bank.",
@@ -2672,7 +2668,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
    "profile": null
   },
   {
@@ -2683,7 +2679,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf"
   },
   {
    "date": "2026-11-06",
@@ -2693,7 +2689,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf"
   },
   {
    "date": "2026-11-06",
@@ -2703,7 +2699,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
    "profile": {
     "page": 3,
     "excerpt": "Mr. V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection. Prior to joining the Bank, he served as Head - Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited. He holds a Post Graduate degree in Business Administration from PSG College of Technology and a Bachelor of Technology (B. Tech) from Sri Venkateshwara University.",
@@ -2723,7 +2719,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
    "profile": null
   },
   {
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 4675598 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf"
   },
   {
    "date": "2026-10-24",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379 Options.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf"
   },
   {
    "date": "2026-10-23",
@@ -2764,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf"
   },
   {
    "date": "2026-10-22",
@@ -2774,7 +2770,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 9138522 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_22102026135701_SELetterESOP22102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_22102026135701_SELetterESOP22102026.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2784,7 +2780,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2794,7 +2790,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026220738_SEintimation-RECORDING-17oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026220738_SEintimation-RECORDING-17oct2026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2804,7 +2800,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2814,7 +2810,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026151509_SE_Intimation_earningcall_presentation17oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026151509_SE_Intimation_earningcall_presentation17oct2026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2824,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "HDFC Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2834,7 +2830,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13102026161935_SE_Intimation_-_Earnings_call.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_13102026161935_SE_Intimation_-_Earnings_call.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2844,7 +2840,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf"
   },
   {
    "date": "2026-10-07",
@@ -2854,7 +2850,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf"
   },
   {
    "date": "2026-10-04",
@@ -2864,7 +2860,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2874,7 +2870,7 @@
    "worth_a_look": false,
    "category": "Change in Director(s)",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2884,7 +2880,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2894,7 +2890,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf"
   },
   {
    "date": "2026-09-29",
@@ -2904,7 +2900,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Newspaper publication regarding special window for transfer and dematerialization of physical shares of HDFC Bank Limited.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf"
   },
   {
    "date": "2026-09-25",
@@ -2914,7 +2910,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 1897180 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_25092026121829_SELetterESOP23092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_25092026121829_SELetterESOP23092026.pdf"
   },
   {
    "date": "2026-09-16",
@@ -2924,7 +2920,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 2521106 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16092026150152_SELetterESOP16092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_16092026150152_SELetterESOP16092026.pdf"
   },
   {
    "date": "2026-09-12",
@@ -2934,7 +2930,7 @@
    "worth_a_look": false,
    "category": "Disclosure of material issue",
    "subject": "HDFC Bank Limited has informed regarding Disclosure of material information",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK1_12092026162117_SE_intimation_Reg30_12062026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK1_12092026162117_SE_intimation_Reg30_12062026.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2944,7 +2940,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_11092026233004_SE_Intimation-_Sept_112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_11092026233004_SE_Intimation-_Sept_112026.pdf"
   },
   {
    "date": "2026-09-10",
@@ -2954,7 +2950,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_10092026180813_SE_Intimation-_September_10_2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_10092026180813_SE_Intimation-_September_10_2026.pdf"
   },
   {
    "date": "2026-09-06",
@@ -2964,7 +2960,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding 'Grant of stock options under Employees Stock Option Scheme 2024 and Grant of Restricted Stock Units under Employees Stock Incentive Master Scheme 2022'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06092026214946_Draft_SE_intimation_LTI_grant.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_06092026214946_Draft_SE_intimation_LTI_grant.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2974,7 +2970,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01092026212904_SEIntimationBondsSeptember12026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_01092026212904_SEIntimationBondsSeptember12026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2984,7 +2980,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01092026151511_SE__Intimation-_SES.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_01092026151511_SE__Intimation-_SES.pdf"
   },
   {
    "date": "2026-08-31",
@@ -2994,7 +2990,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 3058164 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_31082026135453_SELetterESOP31082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_31082026135453_SELetterESOP31082026.pdf"
   },
   {
    "date": "2026-08-29",
@@ -3004,7 +3000,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_29082026202524_Stock_exchange_intimationSJ.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_29082026202524_Stock_exchange_intimationSJ.pdf"
   },
   {
    "date": "2026-08-29",
@@ -3014,7 +3010,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_29082026174541_Stockexchangeintimation_SJ.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_29082026174541_Stockexchangeintimation_SJ.pdf"
   },
   {
    "date": "2026-08-24",
@@ -3024,7 +3020,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_24082026224258_SEIntimationAugust242026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_24082026224258_SEIntimationAugust242026.pdf"
   },
   {
    "date": "2026-08-20",
@@ -3034,7 +3030,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_20082026225919_SE_Intimatio-_Unsecured_bonds.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_20082026225919_SE_Intimatio-_Unsecured_bonds.pdf"
   },
   {
    "date": "2026-08-20",
@@ -3044,7 +3040,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "HDFC Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
   },
   {
    "date": "2026-08-19",
@@ -3054,7 +3050,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "HDFC Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
   },
   {
    "date": "2026-08-19",
@@ -3064,33 +3060,32 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding 'Intimation under Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations )'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_19082026224543_RBIapproval_MajorshareholderLIC.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026224543_RBIapproval_MajorshareholderLIC.pdf"
   }
  ],
  "routine": [
-  "2026-10-22T11:55:00+05:30",
-  "2026-10-16T16:35:00+05:30"
+  "2026-10-22T11:55:00+05:30"
  ],
  "calls": [
   {
    "quarter": "Q3FY26",
    "date": "2026-01-17",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23012026155630_SEintimationTranscriptofearningscall17_Jan_2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_23012026155630_SEintimationTranscriptofearningscall17_Jan_2026.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-18",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24042026154113_SEintimationTranscriptofearningscall18April2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_24042026154113_SEintimationTranscriptofearningscall18April2026.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-18",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24072026154746_SEintimationTranscriptofearningscall18jul2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_24072026154746_SEintimationTranscriptofearningscall18jul2026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-17",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf"
   }
  ],
  "move": null,
@@ -3104,9 +3099,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.512137029341712,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 804.0,
+    "return_1y": -17.49191592562652,
+    "nifty_return_1y": null,
+    "close": 816.5,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3115,8 +3110,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.2355,
-    "usual": 59.80311475409836,
+    "recent": 59.346000000000004,
+    "usual": 59.728032786885244,
     "months": 3
    }
   },
@@ -3134,12 +3129,12 @@
     {
      "date": "2026-08-20",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
     },
     {
      "date": "2026-08-19",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
     }
    ]
   }
@@ -3147,5 +3142,36 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "cababaf739937da7",
+   "symbol": "HDFCBANK",
+   "kind": "results",
+   "date": "2026-10-17",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
+   }
+  },
+  {
+   "id": "9065234c333e0781",
+   "symbol": "HDFCBANK",
+   "kind": "flag",
+   "date": "2026-08-20",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
+   }
+  },
+  {
+   "id": "19e554aca03095c6",
+   "symbol": "HDFCBANK",
+   "kind": "flag",
+   "date": "2026-08-19",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_19082026231821_IndiaandCARErating_19Aug2026.pdf"
+   }
+  }
+ ]
 }

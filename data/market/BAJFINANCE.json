@@ -1,31 +1,25 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-14T00:26:48Z",
+ "generated_at": "2026-11-16T11:57:55Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 1117.0,
-  "change": 2.0,
-  "change_pct": 0.17937219730941312,
+  "as_of": "2026-11-16",
+  "close": 1110.0,
+  "change": -7.0,
+  "change_pct": -0.6266786034019645,
   "high_52w": 1176.4,
   "low_52w": 787.9,
-  "range_position": 0.8471042471042469,
-  "return_1y": 11.100059677740216,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 59.8845,
-  "delivery_avg": 62.23491803278689,
+  "range_position": 0.8290862290862289,
+  "return_1y": 8.98379970544918,
+  "nifty_return_1y": null,
+  "delivery_20d": 59.935500000000005,
+  "delivery_avg": 62.45934426229508,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    1066.6,
-    6940923,
-    null
-   ],
    [
     "2025-11-10",
     1085.0,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     1089.3,
     2295675,
-    54.44
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     1117.0,
     11898219,
     60.57
+   ],
+   [
+    "2026-11-16",
+    1110.0,
+    8224959,
+    68.13
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 90531.5,
   "ttm_pat_cr": 22066.48,
   "ttm_margin_pct": 24.37436693305645,
   "ttm_eps": 34.790000000000006,
-  "pe": 32.10692727795343,
+  "pe": 31.905720034492663,
   "pe_note": null,
-  "market_cap_cr": 695209.63,
+  "market_cap_cr": 690852.9,
   "revenue_yoy_pct": 21.643746685894683,
   "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 5398.03,
     "pat_cr": 4013.74,
     "approved": "2024-10-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/NBFC_INDAS_113040_1285336_22102024074237.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/NBFC_INDAS_113040_1285336_22102024074237.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 5762.4,
     "pat_cr": 4308.19,
     "approved": "2025-01-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/NBFC_INDAS_118072_1365160_29012025074915.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/NBFC_INDAS_118072_1365160_29012025074915.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 5638.56,
     "pat_cr": 4545.57,
     "approved": "2025-04-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1428677_30042025123348_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1428677_30042025123348_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 6366.84,
     "pat_cr": 4765.29,
     "approved": "2025-07-24",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1492810_24072025074528_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1492810_24072025074528_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 6604.83,
     "pat_cr": 4947.76,
     "approved": "2025-11-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1570585_10112025100247_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1570585_10112025100247_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 5428.89,
     "pat_cr": 4066.01,
     "approved": "2026-02-03",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1617485_03022026071306_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1617485_03022026071306_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 7399.63,
     "pat_cr": 5553.3,
     "approved": "2026-04-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1661603_29042026104724_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1661603_29042026104724_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 8143.89,
     "pat_cr": 6080.6,
     "approved": "2026-07-30",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1705543_30072026070233_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1705543_30072026070233_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 8533.47,
     "pat_cr": 6366.57,
     "approved": "2026-10-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1742040_19102026075918_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about outcome of QIP 2026 - Special Committee meeting",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf"
   },
   {
    "date": "2026-11-10",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Committee Meeting Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf"
   },
   {
    "date": "2026-11-07",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf"
   },
   {
    "date": "2026-11-04",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Bajaj Finance Limited has submitted the Exchange a copy Srutinizers report of Extraordinary General Meeting held on November 02, 2026. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding Proceedings of Extraordinary General Meeting held on November 02, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_02112026193032_BFLEGMProceedings.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_02112026193032_BFLEGMProceedings.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_26102026192457_BSENSE_Intimation_Investor_meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_26102026192457_BSENSE_Intimation_Investor_meet.pdf"
   },
   {
    "date": "2026-10-23",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026205822_Outcome_of_investor_call_-_Q2FY27.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026205822_Outcome_of_investor_call_-_Q2FY27.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Issue of Securities",
    "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Bajaj Finance Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
    "profile": {
     "page": 2,
     "excerpt": "Prashant Verma is the Chief Information Security Officer of Bajaj Finance Ltd since February 1, 2024. Prashant Verma has around 21 years of full-time experience on Security Domain. He joined us as head of Cyber Risk Unit 7 years back and is now heading Information Security. In his previous job, he has architected security services and has worked as security auditor and consultant for various domestic and international banks and insurance companies. He is CISSP and is co- author of couple of security books.",
@@ -2766,7 +2762,7 @@
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Bajaj Finance Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2776,7 +2772,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Bajaj Finance Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2786,7 +2782,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2796,7 +2792,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2806,7 +2802,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of Investor Meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_13102026115736_BSENSE_Intimation_Investor_meet_13102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_13102026115736_BSENSE_Intimation_Investor_meet_13102026.pdf"
   },
   {
    "date": "2026-10-09",
@@ -2816,7 +2812,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 02, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_09102026224649_SEIntimationEGMNotice.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_09102026224649_SEIntimationEGMNotice.pdf"
   },
   {
    "date": "2026-10-03",
@@ -2826,7 +2822,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about information under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015 r/w Schedule A of Regulation 8 of SEBI (Prohibition of Insider Trading) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_03102026110139_BFL_Pre-results_earning_intimation_Q2FY2027.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_03102026110139_BFL_Pre-results_earning_intimation_Q2FY2027.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2836,7 +2832,7 @@
    "worth_a_look": false,
    "category": "Qualified Institutional Placement",
    "subject": "Bajaj Finance Limited has informed the Exchange about qualified Institutional Placement",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2846,7 +2842,7 @@
    "worth_a_look": false,
    "category": "Preferential issue",
    "subject": "Bajaj Finance Limited has informed the Exchange about Preferential issue",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2856,7 +2852,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding Outcome of Board Meeting held on October 01, 2026 - Capital raise through QIP and Preferential Issue.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2866,7 +2862,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17092026124615_BSENSE_Intimation_Investor_meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_17092026124615_BSENSE_Intimation_Investor_meet.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2876,7 +2872,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17092026124341_BSENSE_Intimation_Investor_meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_17092026124341_BSENSE_Intimation_Investor_meet.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2886,7 +2882,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_15092026183743_BSENSE_Intimation_Investor_meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_15092026183743_BSENSE_Intimation_Investor_meet.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2896,7 +2892,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_15092026183500_BSENSE_Intimation_Investor_meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_15092026183500_BSENSE_Intimation_Investor_meet.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2906,7 +2902,7 @@
    "worth_a_look": false,
    "category": "Address Change",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding change in Registered Office of the company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01092026184900_3167_001.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_01092026184900_3167_001.pdf"
   },
   {
    "date": "2026-08-26",
@@ -2916,17 +2912,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_26082026172726_BSENSE_Intimation_Group_Investor_Call_27_August_2026.pdf"
-  },
-  {
-   "date": "2026-08-17",
-   "filed_at": "2026-08-17T15:18:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17082026151637_BSENSE_Intimation_Concall_Q1_17_August_2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_26082026172726_BSENSE_Intimation_Group_Investor_Call_27_August_2026.pdf"
   }
  ],
  "routine": [
@@ -2938,27 +2924,27 @@
   {
    "quarter": "Q2FY26",
    "date": "2025-11-10",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_13112025183447_BFLInvestorCalloutcomeTranscriptforupload.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_13112025183447_BFLInvestorCalloutcomeTranscriptforupload.pdf"
   },
   {
    "quarter": "Q3FY26",
    "date": "2026-02-03",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_07022026151022_BFL_Investor_Call_outcome_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_07022026151022_BFL_Investor_Call_outcome_Transcript.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04052026191931_BFL_Investor_Call_outcome_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_04052026191931_BFL_Investor_Call_outcome_Transcript.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-30",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04082026181739_BFL_Investor_Call_outcome_Transcript.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_04082026181739_BFL_Investor_Call_outcome_Transcript.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-19",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf"
   }
  ],
  "move": null,
@@ -2972,9 +2958,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 11.100059677740216,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 1117.0,
+    "return_1y": 8.98379970544918,
+    "nifty_return_1y": null,
+    "close": 1110.0,
     "low_52w": 787.9,
     "high_52w": 1176.4
    }
@@ -2983,8 +2969,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.8845,
-    "usual": 62.23491803278689,
+    "recent": 59.935500000000005,
+    "usual": 62.45934426229508,
     "months": 3
    }
   },
@@ -3002,5 +2988,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "adf94d80d068e346",
+   "symbol": "BAJFINANCE",
+   "kind": "results",
+   "date": "2026-10-19",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf"
+   }
+  }
+ ]
 }

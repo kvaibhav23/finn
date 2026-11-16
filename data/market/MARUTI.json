@@ -1,31 +1,25 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-14T00:26:51Z",
+ "generated_at": "2026-11-16T12:00:57Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 12854.0,
-  "change": -170.0,
-  "change_pct": -1.3052825552825498,
+  "as_of": "2026-11-16",
+  "close": 12571.0,
+  "change": -283.0,
+  "change_pct": -2.201649292049168,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.2927173061863743,
-  "return_1y": -18.382119499650774,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 52.672000000000004,
-  "delivery_avg": 54.29262295081967,
+  "range_position": 0.24839467501957713,
+  "return_1y": -19.848252996684522,
+  "nifty_return_1y": null,
+  "delivery_20d": 53.4455,
+  "delivery_avg": 54.49295081967213,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    15479.0,
-    227247,
-    null
-   ],
    [
     "2025-11-10",
     15583.0,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     13760.0,
     177071,
-    48.3
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     12854.0,
     492029,
     56.37
+   ],
+   [
+    "2026-11-16",
+    12571.0,
+    662372,
+    60.52
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 208191.9,
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 30.04464390061473,
+  "pe": 29.383166210878155,
   "pe_note": null,
-  "market_cap_cr": 404129.76,
+  "market_cap_cr": 395232.24,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 5093.3,
     "pat_cr": 3102.5,
     "approved": "2024-10-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113860_1292897_29102024061312.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_113860_1292897_29102024061312.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 4658.9,
     "pat_cr": 3726.9,
     "approved": "2025-01-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118041_1364863_29012025055034.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_118041_1364863_29012025055034.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 4845.8,
     "pat_cr": 3911.1,
     "approved": "2025-04-25",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1426035_28042025115234_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1426035_28042025115234_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 4908.0,
     "pat_cr": 3792.4,
     "approved": "2025-07-31",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1499451_31072025064050_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1499451_31072025064050_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 4272.0,
     "pat_cr": 3349.0,
     "approved": "2025-10-31",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 4831.9,
     "pat_cr": 3879.1,
     "approved": "2026-01-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1613403_29012026061258_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1613403_29012026061258_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 4821.1,
     "pat_cr": 3659.0,
     "approved": "2026-04-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1660590_28042026074740_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1660590_28042026074740_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 4343.5,
     "pat_cr": 3446.9,
     "approved": "2026-07-31",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 3150.1,
     "pat_cr": 2466.1,
     "approved": "2026-10-27",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12112026115520_Investor_Meeting_17_18_19Nov2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_12112026115520_Investor_Meeting_17_18_19Nov2026.pdf"
   },
   {
    "date": "2026-11-10",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Reference to the Financial Results issued by Suzuki Motor Corporation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
   },
   {
    "date": "2026-11-01",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: October 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01112026143647_STxIntimation_Prod_Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_01112026143647_STxIntimation_Prod_Oct2026.pdf"
   },
   {
    "date": "2026-11-01",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Maruti Suzuki sales in October 2026\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01112026133641_StxIntimation_Sales_Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_01112026133641_StxIntimation_Sales_Oct2026.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Maruti Suzuki, India s No. 1 Electric Vehicle exporter, crosses EV exports of 50,000 units\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_29102026104658_StxIntimation_EVExports.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_29102026104658_StxIntimation_EVExports.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Audio Recording of the investors' call held on 27th October 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2026-27\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Maruti Suzuki India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf"
   },
   {
    "date": "2026-10-24",
@@ -2764,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 24, 2026, titled \"Maruti Suzuki VICTORIS AURUM Edition Launched to Celebrate 1 Year of Record Sales Success\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf"
   },
   {
    "date": "2026-10-21",
@@ -2774,7 +2770,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_21102026153744_STxIntimation_EarningsCall_27Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_21102026153744_STxIntimation_EarningsCall_27Oct2026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2784,7 +2780,7 @@
    "worth_a_look": true,
    "category": "Action(s) taken or orders passed",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
   },
   {
    "date": "2026-10-12",
@@ -2794,7 +2790,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf"
   },
   {
    "date": "2026-10-05",
@@ -2804,7 +2800,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_05102026163802_STxIntimation_InvstConcall_8Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_05102026163802_STxIntimation_InvstConcall_8Sep2026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2814,7 +2810,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: September 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_01102026133208_Production_Oct2026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2824,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026125916_Sales.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_01102026125916_Sales.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2834,7 +2830,7 @@
    "worth_a_look": true,
    "category": "Action(s) taken or orders passed",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
   },
   {
    "date": "2026-09-30",
@@ -2844,7 +2840,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026094634_STxIntimation_ChangeinManagement_30Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_30092026094634_STxIntimation_ChangeinManagement_30Sep2026.pdf"
   },
   {
    "date": "2026-09-28",
@@ -2854,7 +2850,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_28092026170516_STxIntimation_28Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_28092026170516_STxIntimation_28Sep2026.pdf"
   },
   {
    "date": "2026-09-25",
@@ -2864,7 +2860,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Technology Strategy Briefing 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_25092026113222_STxIntimaition_TechnoBreif2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_25092026113222_STxIntimaition_TechnoBreif2026.pdf"
   },
   {
    "date": "2026-09-24",
@@ -2874,7 +2870,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated September 24, 2026, titled \"Maruti Suzuki commissions its first green hydrogen plant at its Manesar facility in Haryana\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_24092026111220_STxIntimation_HydrogenPlant_24Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_24092026111220_STxIntimation_HydrogenPlant_24Sep2026.pdf"
   },
   {
    "date": "2026-09-21",
@@ -2884,7 +2880,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_21092026143607_STxIntimation_InvestorCall_24Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_21092026143607_STxIntimation_InvestorCall_24Sep2026.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2894,7 +2890,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated September 18, 2026, titled \"Maruti Suzuki Launches Auto Green Mission with the introduction of Automatic S-CNG Swift, Dzire and Baleno\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_18092026203545_STxIntimation_AutoGreenMission_18Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_18092026203545_STxIntimation_AutoGreenMission_18Sep2026.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2904,7 +2900,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_17092026183322_STxIntimation_InvestorMeet_22Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_17092026183322_STxIntimation_InvestorMeet_22Sep2026.pdf"
   },
   {
    "date": "2026-09-12",
@@ -2914,7 +2910,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about ESG rating by Crisil ESG Ratings & Analytics Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12092026200509_Intimation_CRISILESG_rating_12Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_12092026200509_Intimation_CRISILESG_rating_12Sep2026.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2924,7 +2920,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Advance intimation regarding price increase",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_07092026112451_STxIntimation_AdvancePriceIncrease.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_07092026112451_STxIntimation_AdvancePriceIncrease.pdf"
   },
   {
    "date": "2026-09-05",
@@ -2934,7 +2930,7 @@
    "worth_a_look": false,
    "category": "Corrigendum",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding Corrigendum to Press Release",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_05092026231335_Corrigendum_PR_Baleno_5Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_05092026231335_Corrigendum_PR_Baleno_5Sep2026.pdf"
   },
   {
    "date": "2026-09-05",
@@ -2944,7 +2940,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated September 05, 2026, titled \" Dare to go Glam with the Stunning New Baleno: Designed for Dynamic Achievers\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_05092026205736_STxIntimation_Baleno_5Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_05092026205736_STxIntimation_Baleno_5Sep2026.pdf"
   },
   {
    "date": "2026-09-02",
@@ -2954,7 +2950,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Maruti Suzuki India Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 31, 2026. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_02092026170250_ScrutinizerReport_Votingresults_AGM2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_02092026170250_ScrutinizerReport_Votingresults_AGM2026.pdf"
   },
   {
    "date": "2026-09-02",
@@ -2964,7 +2960,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated September 02, 2026, titled \"India s Partner in Progress: Maruti Suzuki Eeco crosses 15 lakh sales milestone\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_02092026101106_STxIntimation_Eeco_2Sep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_02092026101106_STxIntimation_Eeco_2Sep2026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2974,7 +2970,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: August 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01092026150902_STxIntimation_Aug2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_01092026150902_STxIntimation_Aug2026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2984,7 +2980,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated September 01, 2026, titled \"Maruti Suzuki sales in August 2026 \".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_01092026121042_STxIntimation_Sales_Aug2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_01092026121042_STxIntimation_Sales_Aug2026.pdf"
   },
   {
    "date": "2026-08-31",
@@ -2994,7 +2990,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Maruti Suzuki India Limited has informed the Exchange about Shareholders meeting",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31082026131802_Proceedings_of_45thAGM.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_31082026131802_Proceedings_of_45thAGM.pdf"
   }
  ],
  "routine": [
@@ -3004,22 +3000,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_04052026223858_Transcript_4May2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_04052026223858_Transcript_4May2026.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-31",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_06082026173039_STxIntimation_Transcript_6Aug2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_06082026173039_STxIntimation_Transcript_6Aug2026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
   }
  ],
  "move": null,
@@ -3033,9 +3029,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.382119499650774,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 12854.0,
+    "return_1y": -19.848252996684522,
+    "nifty_return_1y": null,
+    "close": 12571.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3044,8 +3040,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.672000000000004,
-    "usual": 54.29262295081967,
+    "recent": 53.4455,
+    "usual": 54.49295081967213,
     "months": 3
    }
   },
@@ -3063,12 +3059,12 @@
     {
      "date": "2026-10-15",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
     },
     {
      "date": "2026-09-30",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
     }
    ]
   }
@@ -3076,5 +3072,56 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "70b0415de328d46b",
+   "symbol": "MARUTI",
+   "kind": "results",
+   "date": "2026-11-10",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf"
+   }
+  },
+  {
+   "id": "4e4ea78739fa19b3",
+   "symbol": "MARUTI",
+   "kind": "results",
+   "date": "2026-10-27",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf"
+   }
+  },
+  {
+   "id": "f21f32d34f133b62",
+   "symbol": "MARUTI",
+   "kind": "results",
+   "date": "2026-10-27",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf"
+   }
+  },
+  {
+   "id": "d7671dc0abc0dc07",
+   "symbol": "MARUTI",
+   "kind": "flag",
+   "date": "2026-10-15",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_15102026191103_Intimation_15102026.pdf"
+   }
+  },
+  {
+   "id": "2b5da858218ce549",
+   "symbol": "MARUTI",
+   "kind": "flag",
+   "date": "2026-09-30",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf"
+   }
+  }
+ ]
 }

@@ -1,31 +1,25 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-14T00:26:48Z",
+ "generated_at": "2026-11-16T11:57:37Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 2550.0,
-  "change": 13.5,
-  "change_pct": 0.5322294500295754,
+  "as_of": "2026-11-16",
+  "close": 2572.9,
+  "change": 22.90000000000009,
+  "change_pct": 0.8980392156862749,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.4995980245779259,
-  "return_1y": -11.439883309022713,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 52.29299999999999,
-  "delivery_avg": 55.63819672131147,
+  "range_position": 0.5258987021936375,
+  "return_1y": -11.474676575832643,
+  "nifty_return_1y": null,
+  "delivery_20d": 51.36749999999999,
+  "delivery_avg": 55.409672131147545,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    2613.8,
-    791663,
-    null
-   ],
    [
     "2025-11-10",
     2650.4,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     2687.5,
     312900,
-    54.41
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     2550.0,
     613905,
     42.18
+   ],
+   [
+    "2026-11-16",
+    2572.9,
+    1146250,
+    40.47
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 38632.17,
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 50.53507728894173,
+  "pe": 50.9889021006738,
   "pe_note": null,
-  "market_cap_cr": 244596.0,
+  "market_cap_cr": 246792.568,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 927.92,
     "pat_cr": 693.66,
     "approved": "2024-11-09",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_114752_1302989_09112024045711.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_114752_1302989_09112024045711.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 1468.34,
     "pat_cr": 1128.43,
     "approved": "2025-02-04",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118658_1370927_04022025080634.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_118658_1370927_04022025080634.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 999.2,
     "pat_cr": 700.83,
     "approved": "2025-05-08",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1434305_08052025080224_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1434305_08052025080224_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 1472.39,
     "pat_cr": 1117.05,
     "approved": "2025-07-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1497018_29072025071144_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1497018_29072025071144_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 1353.22,
     "pat_cr": 1018.23,
     "approved": "2025-11-12",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 1423.34,
     "pat_cr": 1073.92,
     "approved": "2026-01-27",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1611229_28012026112809_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1611229_28012026112809_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 1588.9,
     "pat_cr": 1185.49,
     "approved": "2026-05-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1693690_15072026083521_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1693690_15072026083521_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 2057.59,
     "pat_cr": 1559.45,
     "approved": "2026-07-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 1435.79,
     "pat_cr": 1085.35,
     "approved": "2026-10-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The Company will be participating in the analyst/institutional investor conferences/meetings on 18th and 19th November 2026 as per enclosed schedule.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09112026175712_SEINTIMATIONANALYSTMEETSNOV2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_09112026175712_SEINTIMATIONANALYSTMEETSNOV2026.pdf"
   },
   {
    "date": "2026-11-06",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Independent Director of the company w.e.f. September 07, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
    "profile": {
     "page": 1,
     "excerpt": "Mr. Leo Puri, as required under Regulation 30 of the Listing Regulations, was disclosed by the Company vide its letter no. APL/SEC/57/2026-27/35 dated 7th September 2026 and is available on the website of the Company at www.asianpaints.com. Mr. Leo Puri is not related to any of the Directors and/or Key Managerial Personnel and/or members of the Promoter(s) & Promoter(s) Group of the Company.",
@@ -2682,7 +2678,7 @@
    "worth_a_look": false,
    "category": "Change in Director(s)",
    "subject": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
    "profile": {
     "page": 1,
     "excerpt": "Mr. Leo Puri, as required under Regulation 30 of the Listing Regulations, was disclosed by the Company vide its letter no. APL/SEC/57/2026-27/35 dated 7th September 2026 and is available on the website of the Company at www.asianpaints.com. Mr. Leo Puri is not related to any of the Directors and/or Key Managerial Personnel and/or members of the Promoter(s) & Promoter(s) Group of the Company.",
@@ -2700,7 +2696,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of th",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf"
   },
   {
    "date": "2026-11-03",
@@ -2710,7 +2706,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Asian Paints Limited has informed the Exchange about Transcript of the investor conference call held on 29th October 2026 on the performance of the Company for the quarter and half year ended 30th September 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2720,7 +2716,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Asian Paints Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2730,7 +2726,7 @@
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Asian Paints Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2740,7 +2736,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Please find enclosed the Press Release on the performance of the Company for the quarter and half year ended 30th September 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141409_OutcomeofBM29102026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026141409_OutcomeofBM29102026signed.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2750,7 +2746,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "The Board of Directors at their meeting held today i.e., 29th October 2026, has, inter alia, approved the payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 20",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141215_OutcomeofBM29102026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026141215_OutcomeofBM29102026signed.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2760,7 +2756,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2770,7 +2766,7 @@
    "worth_a_look": false,
    "category": "Dividend",
    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf"
   },
   {
    "date": "2026-10-29",
@@ -2780,7 +2776,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Asian Paints Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
   },
   {
    "date": "2026-10-07",
@@ -2790,7 +2786,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the Postal Ballot Notice dated 7th September 2026 together with the Explanatory Statement being sent to the members of the Company seeking their approval for appointment of Mr. Leo Puri as an Independent Director of the Company for a term of five consecutive ",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2800,7 +2796,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The Company will hold a conference with investors on 29th October 2026 at 5 p.m. IST.on the business and financial performance of the Company for the quarter and half year ended 30th September 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026201150_Investor_conference_Q22026-27.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06102026201150_Investor_conference_Q22026-27.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2810,7 +2806,7 @@
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Asian Paints Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2820,7 +2816,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Asian Paints Limited has informed the Exchange regarding 'This is to inform you that a meeting of the Board of Directors of the Company will be held on Thursday, 29th October 2026, inter alia, to consider the declaration of interim dividend, if any, for the financial year ending ",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026190837_BMintimationtoStockExchangesOct26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_06102026190837_BMintimationtoStockExchangesOct26.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2830,7 +2826,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Find enclosed the intimation with respect to ESG rating received by the Company from Niche Ninety Nine Capability and Certifications (OPC) Private Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_18092026184429_ESG_Rating_Niche99_18092026SIGNED.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_18092026184429_ESG_Rating_Niche99_18092026SIGNED.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2840,7 +2836,7 @@
    "worth_a_look": false,
    "category": "Commencement of commercial production/operations",
    "subject": "Find enclosed intimation under Regulation 30 of the SEBI (LODR)Regulations, 2015 with respect to the commencement of commercial production at the Company's VAE manufacturing facility at Dahej, Gujarat.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_17092026215233_Reg_30_commencement_of_VAE_facility_for_filing-signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_17092026215233_Reg_30_commencement_of_VAE_facility_for_filing-signed.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2850,7 +2846,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Asian Paints Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2860,7 +2856,7 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding shareholders' approval for appointment of Ms Shubhlakshmi Dani as Non- Executive Director of the company w.e.f. July 29, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09092026222531_SEintimationAppointmentofNED09092026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_09092026222531_SEintimationAppointmentofNED09092026signed.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2870,7 +2866,7 @@
    "worth_a_look": false,
    "category": "Change in Director(s)",
    "subject": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09092026222029_SEintimationAppointmentofNED09092026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_09092026222029_SEintimationAppointmentofNED09092026signed.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2880,7 +2876,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Please find enclosed the following: 1. Voting result pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014; and 2.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09092026215057_SE_intimation_-_Result_of_Postal_ballotsigned.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_09092026215057_SE_intimation_-_Result_of_Postal_ballotsigned.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2890,7 +2886,7 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Chairman of the company w.e.f. January 23, 2027.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144607_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_07092026144607_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2900,7 +2896,7 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Non- Executive Independent Director of the company w.e.f. September 07, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026144547_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_07092026144547_SE_Appointment_Leo_Puri_-_ID_and_chair_signed.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2910,7 +2906,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "The Company through its representatives, will be participating in the conference as per enclosed communication",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07092026134021_SEINTIMATIONANALYSTMEETSEP162026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_07092026134021_SEINTIMATIONANALYSTMEETSEP162026signed.pdf"
   },
   {
    "date": "2026-09-03",
@@ -2920,7 +2916,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Find enclosed ESG rating received by the Company from NSE Sustainability Ratings & Analytics Ltd",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03092026153426_Reg_30_ESG_rating_NSE_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_03092026153426_Reg_30_ESG_rating_NSE_signed.pdf"
   },
   {
    "date": "2026-09-02",
@@ -2930,7 +2926,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "This is to inform you that the Company through its representatives, will be participating in the conference as per enclosed letter",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02092026112840_SEINTIMATIONANALYSTMEETSEP2026signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_02092026112840_SEINTIMATIONANALYSTMEETSEP2026signed.pdf"
   }
  ],
  "routine": [],
@@ -2938,27 +2934,27 @@
   {
    "quarter": "Q2FY26",
    "date": "2025-11-12",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_18112025120322_SEIntimationTranscriptQ2FY26Nov2025.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_18112025120322_SEIntimationTranscriptQ2FY26Nov2025.pdf"
   },
   {
    "quarter": "Q3FY26",
    "date": "2026-01-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_02022026131104_SE_intimation_Transcript_Q3FY26_Jan2026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_02022026131104_SE_intimation_Transcript_Q3FY26_Jan2026_signed.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-05-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03062026154629_Reg30_Transcript_Q4FY26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_03062026154629_Reg30_Transcript_Q4FY26.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03082026144133_Regulation_30_Intimation_-_Transcript_for_Investor_Conference_Signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_03082026144133_Regulation_30_Intimation_-_Transcript_for_Investor_Conference_Signed.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-29",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
   }
  ],
  "move": null,
@@ -2977,9 +2973,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -11.439883309022713,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 2550.0,
+    "return_1y": -11.474676575832643,
+    "nifty_return_1y": null,
+    "close": 2572.9,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }
@@ -2988,8 +2984,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.29299999999999,
-    "usual": 55.63819672131147,
+    "recent": 51.36749999999999,
+    "usual": 55.409672131147545,
     "months": 3
    }
   },
@@ -3007,7 +3003,7 @@
     {
      "date": "2026-09-11",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
     }
    ]
   }
@@ -3022,5 +3018,46 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "e0715bfc4cca21d5",
+   "symbol": "ASIANPAINT",
+   "kind": "results",
+   "date": "2026-10-29",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf"
+   }
+  },
+  {
+   "id": "0496c38ce9ccf987",
+   "symbol": "ASIANPAINT",
+   "kind": "results",
+   "date": "2026-10-29",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf"
+   }
+  },
+  {
+   "id": "e18f115c202a55fc",
+   "symbol": "ASIANPAINT",
+   "kind": "results",
+   "date": "2026-10-29",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
+   }
+  },
+  {
+   "id": "ff42c2ebaddf0eea",
+   "symbol": "ASIANPAINT",
+   "kind": "flag",
+   "date": "2026-09-11",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_11092026202841_SE_Intimation_-_credit_ratings_-_Crisil_11092026_signed.pdf"
+   }
+  }
+ ]
 }

@@ -1,31 +1,25 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-14T00:26:52Z",
+ "generated_at": "2026-11-16T12:01:55Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 3307.5,
-  "change": -32.5,
-  "change_pct": -0.9730538922155696,
+  "as_of": "2026-11-16",
+  "close": 3266.3,
+  "change": -41.19999999999982,
+  "change_pct": -1.2456538170823817,
   "high_52w": 4074.8,
   "low_52w": 3078.5,
-  "range_position": 0.22985044665261464,
-  "return_1y": -13.68736951983298,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 49.183,
-  "delivery_avg": 48.82852459016394,
+  "range_position": 0.188497440529961,
+  "return_1y": -11.954822362391504,
+  "nifty_return_1y": null,
+  "delivery_20d": 49.796,
+  "delivery_avg": 49.41344262295082,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    3831.2,
-    220703,
-    null
-   ],
    [
     "2025-11-10",
     3866.5,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     3590.0,
     329696,
-    30.72
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     3307.5,
     93613,
     47.87
+   ],
+   [
+    "2026-11-16",
+    3266.3,
+    155722,
+    66.4
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1746109_26102026062429_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1746109_26102026062429_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 12293.53,
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 37.179631294964025,
+  "pe": 36.71650179856115,
   "pe_note": null,
-  "market_cap_cr": 42021.7875,
+  "market_cap_cr": 41498.3415,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 241.72,
     "pat_cr": 206.6,
     "approved": "2024-10-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113017_1284916_22102024050757.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_113017_1284916_22102024050757.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 223.45,
     "pat_cr": 186.97,
     "approved": "2025-01-20",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117407_1353399_20012025061254.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_117407_1353399_20012025061254.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 334.39,
     "pat_cr": 293.94,
     "approved": "2025-04-24",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1424224_24042025072723_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1424224_24042025072723_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 240.0,
     "pat_cr": 202.3,
     "approved": "2025-07-24",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1492598_24072025061103_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1492598_24072025061103_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 202.76,
     "pat_cr": 164.74,
     "approved": "2025-10-27",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1557945_27102025064139_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1557945_27102025064139_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 196.66,
     "pat_cr": 153.37,
     "approved": "2026-01-21",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1609830_24012026031036_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1609830_24012026031036_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 501.29,
     "pat_cr": 433.57,
     "approved": "2026-04-27",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1659572_27042026060920_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1659572_27042026060920_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 280.59,
     "pat_cr": 280.72,
     "approved": "2026-07-28",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1703257_28072026060721_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1703257_28072026060721_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,11 +2637,21 @@
     "pbt_cr": 314.31,
     "pat_cr": 262.44,
     "approved": "2026-10-26",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1746109_26102026062429_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1746109_26102026062429_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T15:35:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Schedule of Analyst / Institutional Investor Meet to be held on Thursday, 19th November 2026",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_16112026153430_InvestorMeetIntimation16112026.pdf"
+  },
   {
    "date": "2026-10-31",
    "filed_at": "2026-10-31T16:29:00+05:30",
@@ -2654,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Supreme Industries Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2664,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Supreme Industries Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026181230_ConCallRecording30092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026181230_ConCallRecording30092026.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2674,7 +2680,7 @@
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "Supreme Industries Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026133151_Q2InvestorsPresentation.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026133151_Q2InvestorsPresentation.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2684,7 +2690,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Supreme Industries Limited has informed the Exchange regarding 'Q2 Investor Presentation '.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026132708_Q2InvestorsPresentation.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026132708_Q2InvestorsPresentation.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2694,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Supreme Industries Limited has informed the Exchange regarding a press release dated October 26, 2026, titled \"Q2 Press Release \".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026132132_Q2PressRelease.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026132132_Q2PressRelease.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2704,7 +2710,7 @@
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Supreme Industries Limited has informed the Exchange that Record date for the purpose of Dividend is 30-Oct-2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026131722_Q2Financial_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026131722_Q2Financial_Results.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2714,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Dividend",
    "subject": "Supreme Industries Limited has informed the Exchange that Board of Directors at its meeting held on October 26, 2026, declared Interim Dividend of Rs. 12 per equity share.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026131155_Q2Financial_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026131155_Q2Financial_Results.pdf"
   },
   {
    "date": "2026-10-26",
@@ -2724,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Q2 Results and Interim Dividend",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_26102026130526_Q2Financial_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026130526_Q2Financial_Results.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2734,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Supreme Industries Limited has informed the Exchange about Conference call for Analyst and Investors on Monday, 26th October, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_19102026165537_ConCallIntiamtion.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_19102026165537_ConCallIntiamtion.pdf"
   },
   {
    "date": "2026-09-04",
@@ -2744,7 +2750,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Supreme Industries Limited has informed the Exchange regarding 'Disclosure under Regulation 10 (6) of SEBI (Substantial Acquisition of Share andTakeover) Regulation, 2011",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_04092026162633_StockExchangeIntimationregarding106.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_04092026162633_StockExchangeIntimationregarding106.pdf"
   }
  ],
  "routine": [
@@ -2755,22 +2761,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-21",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_28012026172337_IntimationofTranscriptoftheearningconferencecall21012026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_28012026172337_IntimationofTranscriptoftheearningconferencecall21012026.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-27",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_04052026181824_Stockexchangeletterdt04052026final.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_04052026181824_Stockexchangeletterdt04052026final.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_03082026183014_SETrancriptIntiamtiontoStockExchanges03082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_03082026183014_SETrancriptIntiamtiontoStockExchanges03082026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-26",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_31102026162841_SEIntiamtionTranscriptoftheearningconferencecallheldon26102026.pdf"
   }
  ],
  "move": null,
@@ -2789,9 +2795,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -13.68736951983298,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 3307.5,
+    "return_1y": -11.954822362391504,
+    "nifty_return_1y": null,
+    "close": 3266.3,
     "low_52w": 3078.5,
     "high_52w": 4074.8
    }
@@ -2800,8 +2806,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 49.183,
-    "usual": 48.82852459016394,
+    "recent": 49.796,
+    "usual": 49.41344262295082,
     "months": 3
    }
   },
@@ -2826,5 +2832,16 @@
   "Pending": 26,
   "On track": 2
  },
- "events": []
+ "events": [
+  {
+   "id": "698e3b2d8c4a6bc6",
+   "symbol": "SUPREMEIND",
+   "kind": "results",
+   "date": "2026-10-26",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUPREMEIND_26102026130526_Q2Financial_Results.pdf"
+   }
+  }
+ ]
 }

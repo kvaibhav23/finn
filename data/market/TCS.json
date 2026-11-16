@@ -1,31 +1,25 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-14T00:26:52Z",
+ "generated_at": "2026-11-16T12:02:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 2407.5,
-  "change": -34.90000000000009,
-  "change_pct": -1.428922371437935,
+  "as_of": "2026-11-16",
+  "close": 2405.0,
+  "change": -2.5,
+  "change_pct": -0.10384215991692258,
   "high_52w": 3350.0,
   "low_52w": 1976.8,
-  "range_position": 0.31364695601514714,
-  "return_1y": -22.481244163956593,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 50.5565,
-  "delivery_avg": 49.14704918032787,
+  "range_position": 0.311826390911739,
+  "return_1y": -22.569220862846105,
+  "nifty_return_1y": null,
+  "delivery_20d": 49.734500000000004,
+  "delivery_avg": 48.90262295081967,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    2991.8,
-    1830520,
-    null
-   ],
    [
     "2025-11-10",
     3025.2,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     2313.2,
     2237636,
-    52.37
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     2407.5,
     3344738,
     56.35
+   ],
+   [
+    "2026-11-16",
+    2405.0,
+    1802456,
+    37.46
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1734607_08102026100810_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1734607_08102026100810_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 283248.0,
   "ttm_pat_cr": 51858.0,
   "ttm_margin_pct": 18.308337569903408,
   "ttm_eps": 142.64000000000001,
-  "pe": 16.878154795288836,
+  "pe": 16.860628154795286,
   "pe_note": null,
-  "market_cap_cr": 871515.0,
+  "market_cap_cr": 870610.0,
   "revenue_yoy_pct": 11.229653946108598,
   "pat_yoy_pct": 14.86274833072294,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 16032.0,
     "pat_cr": 11955.0,
     "approved": "2024-10-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_112733_1265368_10102024065944.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_112733_1265368_10102024065944.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 16666.0,
     "pat_cr": 12444.0,
     "approved": "2025-01-09",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117182_1341298_09012025093940.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_117182_1341298_09012025093940.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 16402.0,
     "pat_cr": 12293.0,
     "approved": "2025-04-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1412101_11042025074137_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1412101_11042025074137_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 16979.0,
     "pat_cr": 12819.0,
     "approved": "2025-07-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1480382_10072025064011_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1480382_10072025064011_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 16068.0,
     "pat_cr": 12131.0,
     "approved": "2025-10-09",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1543879_09102025115624_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1543879_09102025115624_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 14078.0,
     "pat_cr": 10720.0,
     "approved": "2026-01-12",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1599094_12012026064316_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1599094_12012026064316_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 18362.0,
     "pat_cr": 13784.0,
     "approved": "2026-04-09",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1648408_09042026114218_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1648408_09042026114218_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 17944.0,
     "pat_cr": 13420.0,
     "approved": "2026-07-09",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1690004_09072026063620_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1690004_09072026063620_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 18638.0,
     "pat_cr": 13934.0,
     "approved": "2026-10-08",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1734607_08102026100810_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1734607_08102026100810_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09112026171125_SEIntimation_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_09112026171125_SEIntimation_signed.pdf"
   },
   {
    "date": "2026-11-04",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS Enterprise AI Study: 84% say productivity is AI s top benefit; just 10% let AI act without human oversight'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_04112026104913_PR_04Nov26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_04112026104913_PR_04Nov26_signed.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_19102026112258_PR_19Oct26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_19102026112258_PR_19Oct26_signed.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_16102026162737_SE16102026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_16102026162737_SE16102026_signed.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about completion of acquisition of BBY Services India LLP",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026133009_SEInt15102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_15102026133009_SEInt15102026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026112020_PR_15Oct26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_15102026112020_PR_15Oct26_signed.pdf"
   },
   {
    "date": "2026-10-14",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Transcript",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
   },
   {
    "date": "2026-10-14",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release -MyState Limited selects TCS BaNCSTM to transform core banking operations'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026112025_PR_14Oct26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14102026112025_PR_14Oct26_signed.pdf"
   },
   {
    "date": "2026-10-09",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026080757_SE_TCS_Statement_f.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_09102026080757_SE_TCS_Statement_f.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Link of Recording",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026223847_SEInt09072026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026223847_SEInt09072026_signed.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Date of Payment of Dividend.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154436_Post_BM_SE_Letter_fin.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026154436_Post_BM_SE_Letter_fin.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2764,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2774,7 +2770,7 @@
    "worth_a_look": false,
    "category": "Dividend",
    "subject": "Tata Consultancy Services Limited has informed the Exchange that Board of Directors at its meeting held on October 8, 2026, declared Interim Dividend of Rs. 12 per equity share.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154152_Post_BM_SE_Letter_fin.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026154152_Post_BM_SE_Letter_fin.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2784,7 +2780,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2794,7 +2790,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Best Buy s Global Capability Center in India to transition to TCS\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026214236_Signed_PRSEInt01102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_01102026214236_Signed_PRSEInt01102026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2804,7 +2800,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026200753_Signed_SEInt01102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_01102026200753_Signed_SEInt01102026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2814,7 +2810,7 @@
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2824,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf"
   },
   {
    "date": "2026-09-23",
@@ -2834,7 +2830,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS renews title partnership with Jaguar TCS Racing and expands role as official AI partner ahead of Formula E's GEN4 era'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_23092026132301_PR_23Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_23092026132301_PR_23Sep26_signed.pdf"
   },
   {
    "date": "2026-09-22",
@@ -2844,7 +2840,7 @@
    "worth_a_look": false,
    "category": "Record Date",
    "subject": "Tata Consultancy Services Limited has informed the Exchange that Record date for the purpose of Dividend is 14-Oct-2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_22092026182548_Pre_Board_meeting_intimation_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_22092026182548_Pre_Board_meeting_intimation_signed.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2854,7 +2850,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS to Accelerate AI-Led Technology Transformation for Germany's Aareal Bank'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15092026142406_PR_15Sep26230pm_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_15092026142406_PR_15Sep26230pm_signed.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2864,7 +2860,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - DGCX partners with TCS to advance and upgrade derivatives market infrastructure'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15092026112128_PR_15Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_15092026112128_PR_15Sep26_signed.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2874,7 +2870,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches India's first lights-out factory lab to advance AI-first manufacturing'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09092026112108_PR_09Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_09092026112108_PR_09Sep26_signed.pdf"
   },
   {
    "date": "2026-09-08",
@@ -2884,7 +2880,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS wins Rs 122 crore bid to build AI-enabled digital governance platform for Odisha Government'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08092026112028_PR_08Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08092026112028_PR_08Sep26_signed.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2894,7 +2890,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches AI-native creative engineering studio in the UK'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_07092026112044_PR_07Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_07092026112044_PR_07Sep26_signed.pdf"
   },
   {
    "date": "2026-09-05",
@@ -2904,7 +2900,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Press Release titled TCS HyperVault to establish large-scale AI data center campus in Telangana being issued by HyperVault AI Data Center Limited, a subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_05092026152211_Signed_Ltr_05Sep26.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_05092026152211_Signed_Ltr_05Sep26.pdf"
   },
   {
    "date": "2026-09-03",
@@ -2914,7 +2910,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS to harmonise Metro's IT application landscape and support scalable growth'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_03092026112207_PR_03Sep26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_03092026112207_PR_03Sep26_signed.pdf"
   },
   {
    "date": "2026-08-26",
@@ -2924,7 +2920,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_26082026153743_SEInt.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_26082026153743_SEInt.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2934,7 +2930,7 @@
    "worth_a_look": false,
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_24082026165820_SE_Disclosure_award.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165820_SE_Disclosure_award.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2944,7 +2940,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated August 24, 2026, titled \"TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility\".",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_24082026165707_SE_Disclosure_240828_acq.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165707_SE_Disclosure_240828_acq.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2954,17 +2950,7 @@
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_24082026165522_SE_Disclosure_240828_acq.pdf"
-  },
-  {
-   "date": "2026-08-17",
-   "filed_at": "2026-08-17T11:30:00+05:30",
-   "tag": "Press release",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Agentic AI platform to transform drug development'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_17082026112153_PR_17Aug26_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165522_SE_Disclosure_240828_acq.pdf"
   }
  ],
  "routine": [
@@ -2974,27 +2960,27 @@
   {
    "quarter": "Q2FY26",
    "date": "2025-12-23",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_23122025195649_Signed_SEInt_letter.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_23122025195649_Signed_SEInt_letter.pdf"
   },
   {
    "quarter": "Q3FY26",
    "date": "2026-01-12",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_16012026163741_Signed_SEIntimation.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_16012026163741_Signed_SEIntimation.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-09",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14042026200132_SEInt14042026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14042026200132_SEInt14042026_signed.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-09",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15072026193646_SEInt15072026_Signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_15072026193646_SEInt15072026_Signed.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-08",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
   }
  ],
  "move": null,
@@ -3013,9 +2999,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -22.481244163956593,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 2407.5,
+    "return_1y": -22.569220862846105,
+    "nifty_return_1y": null,
+    "close": 2405.0,
     "low_52w": 1976.8,
     "high_52w": 3350.0
    }
@@ -3024,8 +3010,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.5565,
-    "usual": 49.14704918032787,
+    "recent": 49.734500000000004,
+    "usual": 48.90262295081967,
     "months": 3
    }
   },
@@ -3051,5 +3037,16 @@
   "Pending": 14,
   "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "5ab7dab7108e683c",
+   "symbol": "TCS",
+   "kind": "results",
+   "date": "2026-10-08",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf"
+   }
+  }
+ ]
 }

@@ -1,31 +1,25 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-14T00:26:50Z",
+ "generated_at": "2026-11-16T12:00:12Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 285.0,
-  "change": 0.9499999999999886,
-  "change_pct": 0.33444816053511683,
+  "as_of": "2026-11-16",
+  "close": 295.1,
+  "change": 10.100000000000023,
+  "change_pct": 3.5438596491228047,
   "high_52w": 412.0,
   "low_52w": 252.8,
-  "range_position": 0.20226130653266325,
-  "return_1y": -29.75104757209761,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 52.888999999999996,
-  "delivery_avg": 56.189180327868854,
+  "range_position": 0.2657035175879398,
+  "return_1y": -27.698150189881165,
+  "nifty_return_1y": null,
+  "delivery_20d": 51.979,
+  "delivery_avg": 55.972131147540985,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    404.05,
-    8411611,
-    null
-   ],
    [
     "2025-11-10",
     405.55,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     273.05,
     12795275,
-    59.81
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     285.0,
     8329401,
     46.12
+   ],
+   [
+    "2026-11-16",
+    295.1,
+    49035309,
+    46.57
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 105629.82,
   "ttm_pat_cr": 19226.31,
   "ttm_margin_pct": 18.20159307286522,
   "ttm_eps": 15.07,
-  "pe": 18.91174518911745,
+  "pe": 19.58195089581951,
   "pe_note": null,
-  "market_cap_cr": 357119.25,
+  "market_cap_cr": 369775.05500000005,
   "revenue_yoy_pct": 43.85868179410291,
   "pat_yoy_pct": -18.455813594778803,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 6839.84,
     "pat_cr": 5054.43,
     "approved": "2024-10-24",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_113242_1287604_24102024073505.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_113242_1287604_24102024073505.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 6531.96,
     "pat_cr": 5013.18,
     "approved": "2025-02-06",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_118941_1373614_06022025072019.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_118941_1373614_06022025072019.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 6737.71,
     "pat_cr": 19807.88,
     "approved": "2025-05-22",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1447370_22052025061857_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1447370_22052025061857_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 7059.25,
     "pat_cr": 5343.41,
     "approved": "2025-08-01",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1500378_01082025054432_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1500378_01082025054432_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 6912.32,
     "pat_cr": 5186.55,
     "approved": "2025-10-30",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1561750_30102025060703_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1561750_30102025060703_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 6651.69,
     "pat_cr": 5018.45,
     "approved": "2026-01-29",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1613558_29012026065214_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1613558_29012026065214_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 7033.05,
     "pat_cr": 5469.74,
     "approved": "2026-05-21",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1670766_21052026063229_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1670766_21052026063229_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 5774.94,
     "pat_cr": 4508.79,
     "approved": "2026-07-31",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706108_31072026052353_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706108_31072026052353_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 5597.66,
     "pat_cr": 4229.33,
     "approved": "2026-11-02",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1751357_02112026065559_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ITC Limited has informed the Exchange regarding Allotment of 785300 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_13112026151900_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_13112026151900_SE.pdf"
   },
   {
    "date": "2026-11-04",
@@ -2664,7 +2660,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ITC Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_04112026121821_SE.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2674,7 +2670,7 @@
    "worth_a_look": false,
    "category": "Amalgamation/Merger",
    "subject": "ITC Limited has informed the Exchange about Amalgamation/Merger",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2684,7 +2680,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ITC Limited has informed the Exchange about Media Statement and Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026183159_SE_Media_.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2694,7 +2690,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "ITC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026181912_SE_Results_.pdf"
   },
   {
    "date": "2026-11-02",
@@ -2704,7 +2700,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "ITC Limited has informed the Exchange regarding Board meeting held on November 02, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026181547_SE_Results_.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2714,7 +2710,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ITC Limited has informed the Exchange regarding Allotment of 1395500 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_15102026192000_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_15102026192000_SE.pdf"
   },
   {
    "date": "2026-09-28",
@@ -2724,7 +2720,7 @@
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "ITC Limited has informed the Exchange about Acquisition of shares of Sproutlife Foods Private Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_28092026202850_SE_SFPL_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_28092026202850_SE_SFPL_.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2734,7 +2730,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ITC Limited has informed the Exchange regarding Allotment of 735050 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_17092026112029_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_17092026112029_SE.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2744,7 +2740,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ITC Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_09092026110937_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_09092026110937_SE.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2754,7 +2750,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ITC Limited has informed the Exchange about Amalgamation of Blazeclan Technologies Private Limited and Cloudlytics Technologies Private Limited with ITC Infotech India Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_01092026164254_SE_NCLT_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_01092026164254_SE_NCLT_.pdf"
   },
   {
    "date": "2026-08-31",
@@ -2764,13 +2760,48 @@
    "worth_a_look": false,
    "category": "Acquisition",
    "subject": "ITC Limited has informed the Exchange about Strategic combination of ITC Infotech India Limited and Happiest Minds Technologies Limited",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_31082026191614_SE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_31082026191614_SE.pdf"
   }
  ],
  "routine": [],
  "calls": [],
- "move": null,
+ "move": {
+  "date": "2026-11-16",
+  "change_pct": 3.5438596491228047,
+  "typical_pct": 0.6829434864265016,
+  "times": 5.189096491228041,
+  "volume_x": 2.6507090300063796,
+  "biggest_in_year": false,
+  "nifty_change_pct": null,
+  "filings": [
+   {
+    "date": "2026-11-13",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_13112026151900_SE.pdf"
+   }
+  ]
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-16",
+    "change_pct": 3.5438596491228047,
+    "typical_pct": 0.6829434864265016,
+    "times": 5.189096491228041,
+    "volume_x": 2.6507090300063796,
+    "biggest_in_year": false,
+    "nifty_change_pct": null
+   },
+   "items": [
+    {
+     "date": "2026-11-13",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_13112026151900_SE.pdf"
+    }
+   ]
+  },
   {
    "key": "track",
    "state": "none",
@@ -2780,9 +2811,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -29.75104757209761,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 285.0,
+    "return_1y": -27.698150189881165,
+    "nifty_return_1y": null,
+    "close": 295.1,
     "low_52w": 252.8,
     "high_52w": 412.0
    }
@@ -2791,8 +2822,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.888999999999996,
-    "usual": 56.189180327868854,
+    "recent": 51.979,
+    "usual": 55.972131147540985,
     "months": 3
    }
   },
@@ -2810,5 +2841,27 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "e231577039764383",
+   "symbol": "ITC",
+   "kind": "move",
+   "date": "2026-11-16",
+   "facts": {
+    "change_pct": 3.5438596491228047,
+    "times": 5.189096491228041,
+    "biggest_in_year": false
+   }
+  },
+  {
+   "id": "f42629cc50aa65ac",
+   "symbol": "ITC",
+   "kind": "results",
+   "date": "2026-11-02",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ITC_02112026181912_SE_Results_.pdf"
+   }
+  }
+ ]
 }

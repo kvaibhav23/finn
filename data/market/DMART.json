@@ -1,31 +1,25 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-14T00:26:49Z",
+ "generated_at": "2026-11-16T11:58:54Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 3439.3,
-  "change": -14.699999999999818,
-  "change_pct": -0.4255935147654877,
+  "as_of": "2026-11-16",
+  "close": 3457.6,
+  "change": 18.299999999999727,
+  "change_pct": 0.5320850173000213,
   "high_52w": 4644.0,
   "low_52w": 3102.3,
-  "range_position": 0.21858986832717134,
-  "return_1y": -15.340307692307686,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 52.6495,
-  "delivery_avg": 53.815245901639344,
+  "range_position": 0.23045988194849826,
+  "return_1y": -14.70508424402398,
+  "nifty_return_1y": null,
+  "delivery_20d": 52.459,
+  "delivery_avg": 53.7572131147541,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    4011.0,
-    1195522,
-    null
-   ],
    [
     "2025-11-10",
     4019.0,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     3995.0,
     263000,
-    54.17
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     3439.3,
     150703,
     49.66
+   ],
+   [
+    "2026-11-16",
+    3457.6,
+    159992,
+    50.63
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": false,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1735452_10102026050830_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1735452_10102026050830_WEB.xml",
   "top_line": "revenue",
   "ttm_revenue_cr": 74223.28,
   "ttm_pat_cr": 3115.62,
   "ttm_margin_pct": 4.197631794229519,
   "ttm_eps": 47.82,
-  "pe": 71.92179004600585,
+  "pe": 72.30447511501464,
   "pe_note": null,
-  "market_cap_cr": 224328.3425,
+  "market_cap_cr": 225521.96,
   "revenue_yoy_pct": 17.79597392707015,
   "pat_yoy_pct": 8.48799007081842,
   "net_npa_pct": null,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 903.19,
     "pat_cr": 659.44,
     "approved": "2024-10-12",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_112759_1267173_12102024033944.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_112759_1267173_12102024033944.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 995.05,
     "pat_cr": 723.54,
     "approved": "2025-01-11",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INDAS_117203_1343091_11012025091534.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_117203_1343091_11012025091534.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 720.3,
     "pat_cr": 550.79,
     "approved": "2025-05-03",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1431337_05052025110254_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1431337_05052025110254_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 1057.47,
     "pat_cr": 772.81,
     "approved": "2025-07-11",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1481273_11072025071331_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1481273_11072025071331_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 944.79,
     "pat_cr": 684.85,
     "approved": "2025-10-11",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1545336_11102025053020_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1545336_11102025053020_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 1175.19,
     "pat_cr": 855.78,
     "approved": "2026-01-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1598265_10012026055226_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1598265_10012026055226_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 904.17,
     "pat_cr": 656.42,
     "approved": "2026-05-02",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1663031_02052026071326_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1663031_02052026071326_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 1183.14,
     "pat_cr": 860.44,
     "approved": "2026-07-11",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1691006_11072026041124_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1691006_11072026041124_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,7 +2637,7 @@
     "pbt_cr": 1024.84,
     "pat_cr": 742.98,
     "approved": "2026-10-10",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1735452_10102026050830_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1735452_10102026050830_WEB.xml"
    }
   ]
  },
@@ -2654,7 +2650,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Changes in Senior Management Personnel of the Company",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_13112026131650_ChangeinManagement13112026.pdf",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_13112026131650_ChangeinManagement13112026.pdf",
    "profile": {
     "page": 2,
     "excerpt": "Mr. Sanjeev Shankaran is a commerce graduate and completed his PGDM (part time) from AIMA Delhi in 2005. He joined Dmart in September 2021 with over two decades of prior work experience, having worked with major FMCG companies such as Dabur & Kellogs. In his last role at Dabur, he was National Key Account Manager, MT & Ecom Head, Dabur India Ltd",
@@ -2676,7 +2672,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf"
   },
   {
    "date": "2026-10-30",
@@ -2686,7 +2682,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_30102026180249_ASLInitmationStoreOpening30102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_30102026180249_ASLInitmationStoreOpening30102026.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2696,7 +2692,7 @@
    "worth_a_look": true,
    "category": "Action(s) initiated or orders passed",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Action(s) initiated or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
   },
   {
    "date": "2026-10-10",
@@ -2706,7 +2702,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Investor Presentation for the quarter and half year ended 30th September, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026153516_ASLInvestorPresentation10102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_10102026153516_ASLInvestorPresentation10102026.pdf"
   },
   {
    "date": "2026-10-10",
@@ -2716,7 +2712,7 @@
    "worth_a_look": false,
    "category": "Press Release",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding a press release dated October 10, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026153213_ASLPressRelease10102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_10102026153213_ASLPressRelease10102026.pdf"
   },
   {
    "date": "2026-10-10",
@@ -2726,7 +2722,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "Avenue Supermarts Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf"
   },
   {
    "date": "2026-10-09",
@@ -2736,7 +2732,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
   },
   {
    "date": "2026-10-03",
@@ -2746,7 +2742,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Company Update at the end of Quarter 2 (Q2) of Financial Year 2026-27'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_03102026122118_ASLQuarterUpdateSep2026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_03102026122118_ASLQuarterUpdateSep2026.pdf"
   },
   {
    "date": "2026-09-25",
@@ -2756,7 +2752,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_25092026180216_ASLInitmationStoreOpening25092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_25092026180216_ASLInitmationStoreOpening25092026.pdf"
   },
   {
    "date": "2026-09-24",
@@ -2766,7 +2762,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_24092026175941_ASLInitmationStoreOpening24092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24092026175941_ASLInitmationStoreOpening24092026.pdf"
   },
   {
    "date": "2026-09-23",
@@ -2776,7 +2772,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_23092026170755_ASLInitmationStoreOpening23092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_23092026170755_ASLInitmationStoreOpening23092026.pdf"
   },
   {
    "date": "2026-09-22",
@@ -2786,7 +2782,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_22092026170123_ASLInitmationStoreOpening22092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_22092026170123_ASLInitmationStoreOpening22092026.pdf"
   },
   {
    "date": "2026-09-20",
@@ -2796,7 +2792,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_20092026175144_ASLInitmationStoreOpening20092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_20092026175144_ASLInitmationStoreOpening20092026.pdf"
   },
   {
    "date": "2026-09-19",
@@ -2806,7 +2802,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_19092026154143_ASLInitmationStoreOpenin19092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_19092026154143_ASLInitmationStoreOpenin19092026.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2816,7 +2812,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_17092026155739_ASLInitmationStoreOpening17092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_17092026155739_ASLInitmationStoreOpening17092026.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2826,7 +2822,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Receipt of no-objection letter for reclassification from Promoter Group to Public category under Regulation 31A of the SEBI (Listing Obligations",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_11092026130759_ASLNOCforReclassificationofPG11092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_11092026130759_ASLNOCforReclassificationofPG11092026.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2836,7 +2832,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening '.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_07092026180406_ASLInitmationStoreOpening07092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_07092026180406_ASLInitmationStoreOpening07092026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -2846,7 +2842,7 @@
    "worth_a_look": false,
    "category": "Options to purchase securities",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Vesting of stock options under Avenue Supermarts Limited Employee Stock Option Scheme 2023",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_01092026184504_ASLVestingofESOP202301092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_01092026184504_ASLVestingofESOP202301092026.pdf"
   },
   {
    "date": "2026-08-31",
@@ -2856,7 +2852,7 @@
    "worth_a_look": true,
    "category": "Credit Rating- New",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating by Crisil Ratings Limited for Non-Convertible Debentures",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
   },
   {
    "date": "2026-08-27",
@@ -2866,7 +2862,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange about ESG Rating by SES ESG Research Pvt. Ltd.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_27082026155920_ASLSESESGRatingIntimation27082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27082026155920_ASLSESESGRatingIntimation27082026.pdf"
   },
   {
    "date": "2026-08-26",
@@ -2876,7 +2872,7 @@
    "worth_a_look": true,
    "category": "Action(s) taken or orders passed",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
   },
   {
    "date": "2026-08-24",
@@ -2886,7 +2882,7 @@
    "worth_a_look": true,
    "category": "Credit Rating- New",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating by ICRA Limited for Non-Convertible Debentures",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
   },
   {
    "date": "2026-08-21",
@@ -2896,7 +2892,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_21082026142348_ASLInitmationStoreOpening21082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_21082026142348_ASLInitmationStoreOpening21082026.pdf"
   },
   {
    "date": "2026-08-21",
@@ -2906,7 +2902,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Avenue Supermarts Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 19, 2026. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_21082026123430_ASLVotingresultandScritinizerReportAGM19082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_21082026123430_ASLVotingresultandScritinizerReportAGM19082026.pdf"
   },
   {
    "date": "2026-08-20",
@@ -2916,7 +2912,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_20082026183258_ASLInitmationStoreOpening20082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_20082026183258_ASLInitmationStoreOpening20082026.pdf"
   },
   {
    "date": "2026-08-19",
@@ -2926,7 +2922,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "Avenue Supermarts Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on August 19, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_19082026174944_Proceedingsofthe26thAGM19082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_19082026174944_Proceedingsofthe26thAGM19082026.pdf"
   }
  ],
  "routine": [
@@ -2938,7 +2934,7 @@
   {
    "quarter": "Q1FY27",
    "date": "2026-07-28",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_04082026124725_ASLTranscriptIntimation04082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_04082026124725_ASLTranscriptIntimation04082026.pdf"
   }
  ],
  "move": null,
@@ -2952,9 +2948,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -15.340307692307686,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 3439.3,
+    "return_1y": -14.70508424402398,
+    "nifty_return_1y": null,
+    "close": 3457.6,
     "low_52w": 3102.3,
     "high_52w": 4644.0
    }
@@ -2963,8 +2959,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.6495,
-    "usual": 53.815245901639344,
+    "recent": 52.459,
+    "usual": 53.7572131147541,
     "months": 3
    }
   },
@@ -2983,27 +2979,27 @@
     {
      "date": "2026-10-27",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
     },
     {
      "date": "2026-10-09",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
     },
     {
      "date": "2026-08-31",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
     },
     {
      "date": "2026-08-26",
      "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
     },
     {
      "date": "2026-08-24",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
     }
    ]
   }
@@ -3011,5 +3007,66 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "bfcfc0d727731137",
+   "symbol": "DMART",
+   "kind": "flag",
+   "date": "2026-10-27",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf"
+   }
+  },
+  {
+   "id": "43ea99bd21d727cf",
+   "symbol": "DMART",
+   "kind": "results",
+   "date": "2026-10-10",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf"
+   }
+  },
+  {
+   "id": "f51793731b3f78c3",
+   "symbol": "DMART",
+   "kind": "flag",
+   "date": "2026-10-09",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf"
+   }
+  },
+  {
+   "id": "c2a0d08e9e03bde7",
+   "symbol": "DMART",
+   "kind": "flag",
+   "date": "2026-08-31",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
+   }
+  },
+  {
+   "id": "6f9b7c712352a8ff",
+   "symbol": "DMART",
+   "kind": "flag",
+   "date": "2026-08-26",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
+   }
+  },
+  {
+   "id": "93073282120fe2fb",
+   "symbol": "DMART",
+   "kind": "flag",
+   "date": "2026-08-24",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
+   }
+  }
+ ]
 }

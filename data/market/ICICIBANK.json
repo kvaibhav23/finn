@@ -1,31 +1,25 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-14T00:26:50Z",
+ "generated_at": "2026-11-16T11:59:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-13",
-  "close": 1583.6,
-  "change": -6.400000000000091,
-  "change_pct": -0.4025157232704468,
+  "as_of": "2026-11-16",
+  "close": 1585.0,
+  "change": 1.400000000000091,
+  "change_pct": 0.08840616317251637,
   "high_52w": 1616.0,
   "low_52w": 1187.6,
-  "range_position": 0.9243697478991595,
-  "return_1y": 14.265098491954674,
-  "nifty_return_1y": -2.8395445754594073,
-  "delivery_20d": 61.846000000000004,
-  "delivery_avg": 61.90819672131148,
+  "range_position": 0.9276377217553688,
+  "return_1y": 15.440640932265115,
+  "nifty_return_1y": null,
+  "delivery_20d": 62.262,
+  "delivery_avg": 62.103770491803274,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-07",
-    1343.0,
-    7719245,
-    null
-   ],
    [
     "2025-11-10",
     1348.0,
@@ -1164,7 +1158,7 @@
     "2026-08-17",
     1415.3,
     5605603,
-    57.02
+    null
    ],
    [
     "2026-08-18",
@@ -1525,14 +1519,16 @@
     1583.6,
     11440109,
     68.28
+   ],
+   [
+    "2026-11-16",
+    1585.0,
+    10069159,
+    68.95
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-07",
-   25492.3
-  ],
   [
    "2025-11-10",
    25574.35
@@ -2539,15 +2535,15 @@
   "bank": true,
   "latest_quarter": "Q2FY27",
   "latest_qe": "2026-09-30",
-  "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740887_17102026052842_WEB.xml",
+  "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740887_17102026052842_WEB.xml",
   "top_line": "total_income",
   "ttm_revenue_cr": 329246.14,
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.4473781161734,
+  "pe": 19.464570797003564,
   "pe_note": null,
-  "market_cap_cr": 1136993.128,
+  "market_cap_cr": 1137998.3,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -2561,7 +2557,7 @@
     "pbt_cr": 18496.46,
     "pat_cr": 13860.8,
     "approved": "2024-10-26",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/BANKING_113524_1289788_26102024035848.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_113524_1289788_26102024035848.xml"
    },
    {
     "quarter": "Q3FY25",
@@ -2571,7 +2567,7 @@
     "pbt_cr": 18483.02,
     "pat_cr": 13828.61,
     "approved": "2025-01-25",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/BANKING_117722_1361289_25012025034505.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_117722_1361289_25012025034505.xml"
    },
    {
     "quarter": "Q4FY25",
@@ -2581,7 +2577,7 @@
     "pbt_cr": 19112.68,
     "pat_cr": 14323.37,
     "approved": "2025-04-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1420280_19042025082141_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1420280_19042025082141_WEB.xml"
    },
    {
     "quarter": "Q1FY26",
@@ -2591,7 +2587,7 @@
     "pbt_cr": 19494.48,
     "pat_cr": 14393.8,
     "approved": "2025-07-19",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1487706_19072025031950_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1487706_19072025031950_WEB.xml"
    },
    {
     "quarter": "Q2FY26",
@@ -2601,7 +2597,7 @@
     "pbt_cr": 19064.58,
     "pat_cr": 14256.4,
     "approved": "2025-10-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1553893_18102025083009_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1553893_18102025083009_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2611,7 +2607,7 @@
     "pbt_cr": 17754.06,
     "pat_cr": 13411.33,
     "approved": "2026-01-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1603314_17012026042501_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1603314_17012026042501_WEB.xml"
    },
    {
     "quarter": "Q4FY26",
@@ -2621,7 +2617,7 @@
     "pbt_cr": 20744.21,
     "pat_cr": 15611.87,
     "approved": "2026-04-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1654325_18042026060833_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1654325_18042026060833_WEB.xml"
    },
    {
     "quarter": "Q1FY27",
@@ -2631,7 +2627,7 @@
     "pbt_cr": 21307.13,
     "pat_cr": 16209.74,
     "approved": "2026-07-18",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1696196_18072026050643_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1696196_18072026050643_WEB.xml"
    },
    {
     "quarter": "Q2FY27",
@@ -2641,11 +2637,21 @@
     "pbt_cr": 23114.76,
     "pat_cr": 17311.87,
     "approved": "2026-10-17",
-    "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740887_17102026052842_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740887_17102026052842_WEB.xml"
    }
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-16",
+   "filed_at": "2026-11-16T10:16:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "ESOP/ESOS/ESPS",
+   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 3271754 Shares.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_16112026101507_Lettertoexchange.pdf"
+  },
   {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T18:08:00+05:30",
@@ -2654,7 +2660,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_12112026180755_BSENSE12112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_12112026180755_BSENSE12112026.pdf"
   },
   {
    "date": "2026-11-09",
@@ -2664,7 +2670,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_09112026134356_BSENSE_09112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_09112026134356_BSENSE_09112026.pdf"
   },
   {
    "date": "2026-11-03",
@@ -2674,7 +2680,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 62879 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_03112026102424_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_03112026102424_Lettertoexchange.pdf"
   },
   {
    "date": "2026-11-01",
@@ -2684,7 +2690,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01112026094235_BSENSE01112026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01112026094235_BSENSE01112026.pdf"
   },
   {
    "date": "2026-10-30",
@@ -2694,7 +2700,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 109039 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_30102026101600_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_30102026101600_Lettertoexchange.pdf"
   },
   {
    "date": "2026-10-27",
@@ -2704,7 +2710,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 1063398 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_27102026103348_Letter_to_exchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_27102026103348_Letter_to_exchange.pdf"
   },
   {
    "date": "2026-10-24",
@@ -2714,7 +2720,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
   },
   {
    "date": "2026-10-23",
@@ -2724,7 +2730,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about transcript of the call with media and of earnings call with analysts and investors on the financial results for the quarter and six months ended September 30, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
   },
   {
    "date": "2026-10-22",
@@ -2734,7 +2740,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 24096 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_22102026164514_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_22102026164514_Lettertoexchange.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2744,7 +2750,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about link of audio recording of the call with media and of earnings call with analysts and investors on the financial results for quarter and six months ended September 30, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026202758_NSEBSE_17102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026202758_NSEBSE_17102026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2754,7 +2760,7 @@
    "worth_a_look": false,
    "category": "Investor Presentation",
    "subject": "ICICI Bank Limited has informed the Exchange about Investor Presentation",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2764,7 +2770,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "ICICI Bank Limited has informed the Exchange that the Board at its meeting held today, inter alia, approved the filing of an application with RBI seeking its approval for the continuation of Mr. Pradeep Kumar Sinha as a Non-executive Part-time Chairperson of the Bank for a furthe",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152608_NSEBSE17102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026152608_NSEBSE17102026.pdf"
   },
   {
    "date": "2026-10-17",
@@ -2774,7 +2780,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "ICICI Bank Limited has submitted to the Exchange, the unaudited financial results of the Bank (standalone and consolidated) for the quarter and six months ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf"
   },
   {
    "date": "2026-10-15",
@@ -2784,7 +2790,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 113464 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_15102026142254_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_15102026142254_Lettertoexchange.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2794,7 +2800,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 749099 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_13102026100508_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_13102026100508_Lettertoexchange.pdf"
   },
   {
    "date": "2026-10-12",
@@ -2804,7 +2810,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Call with media on financial results for the quarter and six months ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_12102026180729_BSENSE_12102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_12102026180729_BSENSE_12102026.pdf"
   },
   {
    "date": "2026-10-12",
@@ -2814,7 +2820,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Earnings call on financial results for the quarter and six months ended September 30, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_12102026180004_BSENSE_12102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_12102026180004_BSENSE_12102026.pdf"
   },
   {
    "date": "2026-10-08",
@@ -2824,7 +2830,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 80255 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026175523_LETTERTOSTOCKEXCHANGE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_08102026175523_LETTERTOSTOCKEXCHANGE.pdf"
   },
   {
    "date": "2026-10-06",
@@ -2834,7 +2840,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 202836 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_06102026102442_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_06102026102442_Lettertoexchange.pdf"
   },
   {
    "date": "2026-10-02",
@@ -2844,7 +2850,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_02102026174507_NSEBSE_02102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_02102026174507_NSEBSE_02102026.pdf"
   },
   {
    "date": "2026-10-01",
@@ -2854,7 +2860,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf"
   },
   {
    "date": "2026-09-29",
@@ -2864,7 +2870,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "ICICI Bank Limited has informed the Exchange regarding 'Filing of amendment to the Annual Securities Report filed with Director of Kanto Regional Finance Bureau on September 18, 2026'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_29092026200845_NSEBSE29092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_29092026200845_NSEBSE29092026.pdf"
   },
   {
    "date": "2026-09-25",
@@ -2874,7 +2880,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "ICICI Bank Limited has informed the Exchange regarding 'Disclosure under Regulation 30 of the SEBI( Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_25092026233756_NSEBSE_250922026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25092026233756_NSEBSE_250922026.pdf"
   },
   {
    "date": "2026-09-24",
@@ -2884,7 +2890,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 284605 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_24092026120542_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_24092026120542_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-22",
@@ -2894,7 +2900,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 357938 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_22092026100047_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_22092026100047_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-18",
@@ -2904,7 +2910,7 @@
    "worth_a_look": false,
    "category": "Updates",
    "subject": "ICICI Bank Limited has informed the Exchange regarding 'Filing of Annual Securities Report with Director of Kanto Regional Finance Bureau'.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_18092026183227_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_18092026183227_BSENSE.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2914,7 +2920,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 66896 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_17092026172156_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_17092026172156_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-17",
@@ -2924,7 +2930,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17092026103753_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17092026103753_BSENSE.pdf"
   },
   {
    "date": "2026-09-15",
@@ -2934,7 +2940,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulation, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_15092026160330_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_15092026160330_BSENSE.pdf"
   },
   {
    "date": "2026-09-11",
@@ -2944,7 +2950,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 336265 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_11092026101659_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_11092026101659_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-09",
@@ -2954,7 +2960,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_09092026174800_NSEBSE09092026_.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_09092026174800_NSEBSE09092026_.pdf"
   },
   {
    "date": "2026-09-08",
@@ -2964,7 +2970,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 437638 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08092026112846_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_08092026112846_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-07",
@@ -2974,7 +2980,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_07092026175240_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_07092026175240_BSENSE.pdf"
   },
   {
    "date": "2026-09-05",
@@ -2984,7 +2990,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_05092026114449_NSEBSE_05092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_05092026114449_NSEBSE_05092026.pdf"
   },
   {
    "date": "2026-09-04",
@@ -2994,7 +3000,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 38512 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_04092026105925_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_04092026105925_Lettertoexchange.pdf"
   },
   {
    "date": "2026-09-03",
@@ -3004,7 +3010,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - In continuation to our earlier letter dated August 31, 2026, please note that ICICI Bank Limited (Bank), acting thro",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_03092026235129_NSEBSE03092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_03092026235129_NSEBSE03092026.pdf"
   },
   {
    "date": "2026-09-02",
@@ -3014,7 +3020,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_02092026181047_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_02092026181047_BSENSE.pdf"
   },
   {
    "date": "2026-09-02",
@@ -3024,7 +3030,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_02092026174852_NSEBSE02092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_02092026174852_NSEBSE02092026.pdf"
   },
   {
    "date": "2026-09-02",
@@ -3034,7 +3040,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_02092026081249_NSEBSE_02092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_02092026081249_NSEBSE_02092026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -3044,7 +3050,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
   },
   {
    "date": "2026-09-01",
@@ -3054,7 +3060,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 598493 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_01092026110445_Letter_to_exchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_01092026110445_Letter_to_exchange.pdf"
   },
   {
    "date": "2026-08-31",
@@ -3064,7 +3070,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 -This is to inform you that ICICI Bank Limited (Bank), acting through its IFSC Banking Unit, has, today at 9:55 a.m. I",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_31082026160131_NSEBSE_31082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_31082026160131_NSEBSE_31082026.pdf"
   },
   {
    "date": "2026-08-28",
@@ -3074,7 +3080,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_28082026162551_BSENSE28082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_28082026162551_BSENSE28082026.pdf"
   },
   {
    "date": "2026-08-27",
@@ -3084,7 +3090,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_27082026214058_BSENSE27082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_27082026214058_BSENSE27082026.pdf"
   },
   {
    "date": "2026-08-27",
@@ -3094,7 +3100,7 @@
    "worth_a_look": false,
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 48983 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_27082026162709_Lettertoexchange.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_27082026162709_Lettertoexchange.pdf"
   },
   {
    "date": "2026-08-24",
@@ -3104,7 +3110,7 @@
    "worth_a_look": true,
    "category": "Credit Rating",
    "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
   },
   {
    "date": "2026-08-24",
@@ -3114,7 +3120,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - This is to inform you that ICICI Bank Limited, acting through its IFSC Banking Unit, has today at 10:45 a.m. IST pri",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026182614_NSEBSE24082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026182614_NSEBSE24082026.pdf"
   },
   {
    "date": "2026-08-24",
@@ -3124,7 +3130,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026132739_BSENSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026132739_BSENSE.pdf"
   },
   {
    "date": "2026-08-21",
@@ -3134,7 +3140,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "In continuation to our earlier letters dated August 18, 2026, please note that ICICI Bank Limited, acting through its IFSC Banking Unit, has today completed the issuance of USD 750 million Senior Unsecured Fixed Rate Notes (Notes) under the USD 7.5 billion Global Medium Term Note",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026224108_BSENSE21082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026224108_BSENSE21082026.pdf"
   },
   {
    "date": "2026-08-21",
@@ -3144,7 +3150,7 @@
    "worth_a_look": false,
    "category": "Shareholders meeting",
    "subject": "ICICI Bank Limited has informed the Exchange regarding summary of proceedings of 32nd Annual General Meeting held on August 21, 2026 along with consolidated scrutinizers report",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026221317_BSENSE21082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026221317_BSENSE21082026.pdf"
   },
   {
    "date": "2026-08-21",
@@ -3154,7 +3160,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Outcome of Board Meeting held on August 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026105810_NSEBSE_21082026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026105810_NSEBSE_21082026.pdf"
   },
   {
    "date": "2026-08-21",
@@ -3164,37 +3170,7 @@
    "worth_a_look": false,
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about Presentation by Managing Director & Chief Executive Officer 32nd Annual General Meeting August 21, 2026",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026100835_NSEBSE21082026.pdf"
-  },
-  {
-   "date": "2026-08-18",
-   "filed_at": "2026-08-18T18:26:00+05:30",
-   "tag": "Credit rating",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Credit Rating",
-   "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_18082026182546_NSEBSE_18082026[2].pdf"
-  },
-  {
-   "date": "2026-08-18",
-   "filed_at": "2026-08-18T11:02:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - This is to inform you that ICICI Bank Limited (Bank), acting through its IFSC Banking Unit, has, today at 1:39 a.m. ",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_18082026110135_NSEBSE_18082026.pdf"
-  },
-  {
-   "date": "2026-08-17",
-   "filed_at": "2026-08-17T18:07:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 114740 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_17082026180456_LETTER_TO_STOCK_EXCHNAGE1.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026100835_NSEBSE21082026.pdf"
   }
  ],
  "routine": [
@@ -3204,22 +3180,22 @@
   {
    "quarter": "Q3FY26",
    "date": "2026-01-17",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_22012026172959_NSEBSE.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_22012026172959_NSEBSE.pdf"
   },
   {
    "quarter": "Q4FY26",
    "date": "2026-04-18",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24042026135323_NSEBSE_24042026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24042026135323_NSEBSE_24042026.pdf"
   },
   {
    "quarter": "Q1FY27",
    "date": "2026-07-18",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_23072026180406_NSEBSE_23072026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_23072026180406_NSEBSE_23072026.pdf"
   },
   {
    "quarter": "Q2FY27",
    "date": "2026-10-17",
-   "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
   }
  ],
  "move": null,
@@ -3233,9 +3209,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 14.265098491954674,
-    "nifty_return_1y": -2.8395445754594073,
-    "close": 1583.6,
+    "return_1y": 15.440640932265115,
+    "nifty_return_1y": null,
+    "close": 1585.0,
     "low_52w": 1187.6,
     "high_52w": 1616.0
    }
@@ -3244,8 +3220,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 61.846000000000004,
-    "usual": 61.90819672131148,
+    "recent": 62.262,
+    "usual": 62.103770491803274,
     "months": 3
    }
   },
@@ -3253,7 +3229,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 4,
+    "count": 3,
     "days": 90,
     "tags": [
      "Credit rating"
@@ -3263,22 +3239,17 @@
     {
      "date": "2026-10-24",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
     },
     {
      "date": "2026-09-01",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
     },
     {
      "date": "2026-08-24",
      "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
-    },
-    {
-     "date": "2026-08-18",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_18082026182546_NSEBSE_18082026[2].pdf"
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
     }
    ]
   }
@@ -3286,5 +3257,46 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "0930ad9ee36aeb5d",
+   "symbol": "ICICIBANK",
+   "kind": "flag",
+   "date": "2026-10-24",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf"
+   }
+  },
+  {
+   "id": "60921d0dff122b91",
+   "symbol": "ICICIBANK",
+   "kind": "results",
+   "date": "2026-10-17",
+   "facts": {
+    "tag": "Results",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf"
+   }
+  },
+  {
+   "id": "09577da36ebfdb69",
+   "symbol": "ICICIBANK",
+   "kind": "flag",
+   "date": "2026-09-01",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
+   }
+  },
+  {
+   "id": "8d89d8edc5a07ea6",
+   "symbol": "ICICIBANK",
+   "kind": "flag",
+   "date": "2026-08-24",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
+   }
+  }
+ ]
 }
