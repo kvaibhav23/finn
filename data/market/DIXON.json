@@ -1,20 +1,20 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-17T02:34:30Z",
+ "generated_at": "2026-11-17T12:21:41Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 12890.0,
-  "change": 92.0,
-  "change_pct": 0.7188623222378565,
+  "as_of": "2026-11-17",
+  "close": 13081.0,
+  "change": 191.0,
+  "change_pct": 1.4817688130333684,
   "high_52w": 15775.0,
   "low_52w": 9600.0,
-  "range_position": 0.5327935222672064,
-  "return_1y": -16.401841883390624,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 36.3985,
-  "delivery_avg": 38.021166666666666,
-  "delivery_sessions": 60
+  "range_position": 0.5637246963562753,
+  "return_1y": -16.367239946294998,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 35.919,
+  "delivery_avg": 37.99016393442623,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     12890.0,
     224916,
     41.18
+   ],
+   [
+    "2026-11-17",
+    13081.0,
+    374964,
+    36.13
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 44.96459343496006,
+  "pe": 45.63086475738654,
   "pe_note": null,
-  "market_cap_cr": 78822.35,
+  "market_cap_cr": 79990.315,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
@@ -3119,9 +3129,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -16.401841883390624,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 12890.0,
+    "return_1y": -16.367239946294998,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 13081.0,
     "low_52w": 9600.0,
     "high_52w": 15775.0
    }
@@ -3130,8 +3140,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.3985,
-    "usual": 38.021166666666666,
+    "recent": 35.919,
+    "usual": 37.99016393442623,
     "months": 3
    }
   },

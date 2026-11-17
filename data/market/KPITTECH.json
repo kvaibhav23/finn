@@ -1,20 +1,20 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-17T02:34:30Z",
+ "generated_at": "2026-11-17T12:21:42Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 536.3,
-  "change": -15.700000000000045,
-  "change_pct": -2.8442028985507295,
+  "as_of": "2026-11-17",
+  "close": 531.65,
+  "change": -4.649999999999977,
+  "change_pct": -0.8670520231213841,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.08124693176239559,
-  "return_1y": -56.12011127475045,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 32.929,
-  "delivery_avg": 34.56716666666667,
-  "delivery_sessions": 60
+  "range_position": 0.07554000981836027,
+  "return_1y": -56.27878289473684,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 33.364,
+  "delivery_avg": 34.518524590163935,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     536.3,
     1214519,
     37.42
+   ],
+   [
+    "2026-11-17",
+    531.65,
+    931955,
+    31.6
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 27.5025641025641,
+  "pe": 27.26410256410256,
   "pe_note": null,
-  "market_cap_cr": 14617.07102,
+  "market_cap_cr": 14490.33341,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2965,9 +2975,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -56.12011127475045,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 536.3,
+    "return_1y": -56.27878289473684,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 531.65,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2976,8 +2986,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 32.929,
-    "usual": 34.56716666666667,
+    "recent": 33.364,
+    "usual": 34.518524590163935,
     "months": 3
    }
   },

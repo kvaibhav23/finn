@@ -1,20 +1,20 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-17T02:34:30Z",
+ "generated_at": "2026-11-17T12:21:41Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 816.5,
-  "change": 12.5,
-  "change_pct": 1.5547263681592094,
+  "as_of": "2026-11-17",
+  "close": 814.95,
+  "change": -1.5499999999999545,
+  "change_pct": -0.1898346601347134,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.4229112833763996,
-  "return_1y": -17.49191592562652,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 59.346000000000004,
-  "delivery_avg": 59.74033333333333,
-  "delivery_sessions": 60
+  "range_position": 0.41846109675567045,
+  "return_1y": -18.22286889769704,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 59.19,
+  "delivery_avg": 59.7944262295082,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     816.5,
     27152881,
     62.42
+   ],
+   [
+    "2026-11-17",
+    814.95,
+    34909357,
+    63.04
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.738242097147264,
+  "pe": 15.708365458750967,
   "pe_note": null,
-  "market_cap_cr": 1258928.69,
+  "market_cap_cr": 1256538.807,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3083,9 +3093,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -17.49191592562652,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 816.5,
+    "return_1y": -18.22286889769704,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 814.95,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3094,8 +3104,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.346000000000004,
-    "usual": 59.74033333333333,
+    "recent": 59.19,
+    "usual": 59.7944262295082,
     "months": 3
    }
   },

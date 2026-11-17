@@ -1,20 +1,20 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-17T02:34:30Z",
+ "generated_at": "2026-11-17T12:21:41Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 371.1,
-  "change": 7.4500000000000455,
-  "change_pct": 2.048673174755966,
-  "high_52w": 372.5,
+  "as_of": "2026-11-17",
+  "close": 375.05,
+  "change": 3.9499999999999886,
+  "change_pct": 1.0644031258420839,
+  "high_52w": 378.0,
   "low_52w": 212.6,
-  "range_position": 0.9912445278298938,
-  "return_1y": 22.172839506172835,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 55.80650000000001,
-  "delivery_avg": 58.37683333333334,
-  "delivery_sessions": 60
+  "range_position": 0.9821644498186216,
+  "return_1y": 21.159748021321278,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 55.716499999999996,
+  "delivery_avg": 58.415245901639345,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     371.1,
     23653290,
     54.23
+   ],
+   [
+    "2026-11-17",
+    375.05,
+    30484971,
+    60.72
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 493.0,
   "ttm_margin_pct": 0.632408025039766,
   "ttm_eps": 0.53,
-  "pe": 700.1886792452831,
+  "pe": 707.6415094339623,
   "pe_note": null,
-  "market_cap_cr": 341783.1,
+  "market_cap_cr": 345421.05,
   "revenue_yoy_pct": 77.6158940397351,
   "pat_yoy_pct": 92.3076923076923,
   "net_npa_pct": null,
@@ -2801,19 +2811,19 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 22.172839506172835,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 371.1,
+    "return_1y": 21.159748021321278,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 375.05,
     "low_52w": 212.6,
-    "high_52w": 372.5
+    "high_52w": 378.0
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 55.80650000000001,
-    "usual": 58.37683333333334,
+    "recent": 55.716499999999996,
+    "usual": 58.415245901639345,
     "months": 3
    }
   },

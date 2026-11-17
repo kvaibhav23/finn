@@ -1,20 +1,20 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-17T02:34:31Z",
+ "generated_at": "2026-11-17T12:21:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 7955.5,
-  "change": 51.5,
-  "change_pct": 0.6515688259109309,
+  "as_of": "2026-11-17",
+  "close": 7702.0,
+  "change": -253.5,
+  "change_pct": -3.186474765885239,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.3732313023390124,
-  "return_1y": 4.238731656184491,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 50.766,
-  "delivery_avg": 51.51583333333333,
-  "delivery_sessions": 60
+  "range_position": 0.3000288766965059,
+  "return_1y": 0.24729923207080784,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 50.3665,
+  "delivery_avg": 51.45540983606558,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     7955.5,
     206151,
     46.44
+   ],
+   [
+    "2026-11-17",
+    7702.0,
+    533721,
+    47.83
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 37.89957600876566,
+  "pe": 36.69191558286885,
   "pe_note": null,
-  "market_cap_cr": 119883.0206,
+  "market_cap_cr": 116062.9784,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -3043,9 +3053,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 4.238731656184491,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 7955.5,
+    "return_1y": 0.24729923207080784,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 7702.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3054,8 +3064,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.766,
-    "usual": 51.51583333333333,
+    "recent": 50.3665,
+    "usual": 51.45540983606558,
     "months": 3
    }
   },

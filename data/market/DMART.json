@@ -1,20 +1,20 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-17T02:34:30Z",
+ "generated_at": "2026-11-17T12:21:41Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 3457.6,
-  "change": 18.299999999999727,
-  "change_pct": 0.5320850173000213,
+  "as_of": "2026-11-17",
+  "close": 3470.0,
+  "change": 12.400000000000091,
+  "change_pct": 0.3586302637667682,
   "high_52w": 4644.0,
   "low_52w": 3102.3,
-  "range_position": 0.23045988194849826,
-  "return_1y": -14.70508424402398,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 52.459,
-  "delivery_avg": 53.89933333333333,
-  "delivery_sessions": 60
+  "range_position": 0.23850295128753965,
+  "return_1y": -14.028046182052423,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 52.884,
+  "delivery_avg": 53.86262295081967,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     3457.6,
     159992,
     50.63
+   ],
+   [
+    "2026-11-17",
+    3470.0,
+    136879,
+    51.66
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 3115.62,
   "ttm_margin_pct": 4.197631794229519,
   "ttm_eps": 47.82,
-  "pe": 72.30447511501464,
+  "pe": 72.5637808448348,
   "pe_note": null,
-  "market_cap_cr": 225521.96,
+  "market_cap_cr": 226330.75,
   "revenue_yoy_pct": 17.79597392707015,
   "pat_yoy_pct": 8.48799007081842,
   "net_npa_pct": null,
@@ -2942,9 +2952,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -14.70508424402398,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 3457.6,
+    "return_1y": -14.028046182052423,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 3470.0,
     "low_52w": 3102.3,
     "high_52w": 4644.0
    }
@@ -2953,8 +2963,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.459,
-    "usual": 53.89933333333333,
+    "recent": 52.884,
+    "usual": 53.86262295081967,
     "months": 3
    }
   },

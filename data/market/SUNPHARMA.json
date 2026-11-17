@@ -1,20 +1,20 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-17T02:34:31Z",
+ "generated_at": "2026-11-17T12:21:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-16",
-  "close": 1867.5,
-  "change": -12.5,
-  "change_pct": -0.6648936170212782,
+  "as_of": "2026-11-17",
+  "close": 1870.0,
+  "change": 2.5,
+  "change_pct": 0.1338688085676054,
   "high_52w": 2046.9,
   "low_52w": 1583.7,
-  "range_position": 0.6126943005181346,
-  "return_1y": 6.2830800751237925,
-  "nifty_return_1y": -2.388841395520269,
-  "delivery_20d": 58.44500000000001,
-  "delivery_avg": 62.39116666666666,
-  "delivery_sessions": 60
+  "range_position": 0.6180915371329877,
+  "return_1y": 6.015080219967106,
+  "nifty_return_1y": -2.4066396421850933,
+  "delivery_20d": 58.584500000000006,
+  "delivery_avg": 62.439672131147546,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     1867.5,
     1301410,
     53.85
+   ],
+   [
+    "2026-11-17",
+    1870.0,
+    1438065,
+    65.35
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-16",
    25291.1
+  ],
+  [
+   "2026-11-17",
+   25387.4
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 10987.13,
   "ttm_margin_pct": 17.827301620680007,
   "ttm_eps": 45.7,
-  "pe": 40.86433260393873,
+  "pe": 40.91903719912472,
   "pe_note": null,
-  "market_cap_cr": 448069.275,
+  "market_cap_cr": 448669.1,
   "revenue_yoy_pct": 11.88260232029843,
   "pat_yoy_pct": -36.15673850781612,
   "net_npa_pct": null,
@@ -3009,9 +3019,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 6.2830800751237925,
-    "nifty_return_1y": -2.388841395520269,
-    "close": 1867.5,
+    "return_1y": 6.015080219967106,
+    "nifty_return_1y": -2.4066396421850933,
+    "close": 1870.0,
     "low_52w": 1583.7,
     "high_52w": 2046.9
    }
@@ -3020,8 +3030,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 58.44500000000001,
-    "usual": 62.39116666666666,
+    "recent": 58.584500000000006,
+    "usual": 62.439672131147546,
     "months": 3
    }
   },
