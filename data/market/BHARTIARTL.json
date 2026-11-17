@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-16T23:00:05Z",
+ "generated_at": "2026-11-17T02:34:29Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-16",
@@ -3091,16 +3091,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "5a8d960f539df88f",
-   "symbol": "BHARTIARTL",
-   "kind": "flag",
-   "date": "2026-11-16",
-   "facts": {
-    "tag": "Regulatory or legal",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf"
-   }
-  }
- ]
+ "events": []
 }
