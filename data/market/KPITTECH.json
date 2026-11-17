@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-17T12:21:42Z",
+ "generated_at": "2026-11-17T21:53:26Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": -56.27878289473684,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 33.364,
-  "delivery_avg": 34.518524590163935,
-  "delivery_sessions": 61
+  "delivery_avg": 34.48116666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    1192.9,
-    2229653,
-    null
-   ],
    [
     "2025-11-11",
     1212.5,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     589.1,
     1451052,
-    36.76
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2935,7 +2925,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-10",
+   "date": "2025-11-17",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_17112025223456_ransacriptNov10_Signed.pdf"
   },
   {
@@ -2987,7 +2977,7 @@
    "state": "usual",
    "facts": {
     "recent": 33.364,
-    "usual": 34.518524590163935,
+    "usual": 34.48116666666667,
     "months": 3
    }
   },

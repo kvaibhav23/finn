@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-17T12:21:41Z",
+ "generated_at": "2026-11-17T21:52:42Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": 9.183872224386436,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 59.482000000000006,
-  "delivery_avg": 62.35918032786885,
-  "delivery_sessions": 61
+  "delivery_avg": 62.43983333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    1085.0,
-    5692236,
-    null
-   ],
    [
     "2025-11-11",
     1005.2,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     1080.2,
     2877930,
-    57.52
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2806,7 +2796,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2816,7 +2806,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2940,6 +2930,7 @@
   }
  ],
  "routine": [
+  "2026-11-17T08:25:00+05:30",
   "2026-11-10T12:58:00+05:30",
   "2026-10-30T14:53:00+05:30",
   "2026-10-21T12:29:00+05:30"
@@ -2947,7 +2938,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-10",
+   "date": "2025-11-13",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_13112025183447_BFLInvestorCalloutcomeTranscriptforupload.pdf"
   },
   {
@@ -2994,7 +2985,7 @@
    "state": "usual",
    "facts": {
     "recent": 59.482000000000006,
-    "usual": 62.35918032786885,
+    "usual": 62.43983333333333,
     "months": 3
    }
   },

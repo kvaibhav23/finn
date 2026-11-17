@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-17T12:21:42Z",
+ "generated_at": "2026-11-17T21:53:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": 3.1730267894828357,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 55.448,
-  "delivery_avg": 58.26491803278688,
-  "delivery_sessions": 61
+  "delivery_avg": 58.2895,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    3918.5,
-    1397176,
-    null
-   ],
    [
     "2025-11-11",
     3955.0,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     4041.3,
     1190832,
-    56.79
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2935,16 +2925,6 @@
    "category": "Bagging/Receiving of orders/contracts",
    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_24082026093929_PressRelease24082026.pdf"
-  },
-  {
-   "date": "2026-08-20",
-   "filed_at": "2026-08-20T10:05:00+05:30",
-   "tag": "Order or contract",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Bagging/Receiving of orders/contracts",
-   "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_20082026100532_Press_Release_Initmation_sgd.pdf"
   }
  ],
  "routine": [
@@ -2996,7 +2976,7 @@
    "state": "usual",
    "facts": {
     "recent": 55.448,
-    "usual": 58.26491803278688,
+    "usual": 58.2895,
     "months": 3
    }
   },

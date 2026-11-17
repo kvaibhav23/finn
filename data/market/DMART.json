@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-17T12:21:41Z",
+ "generated_at": "2026-11-17T21:53:00Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": -14.028046182052423,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 52.884,
-  "delivery_avg": 53.86262295081967,
-  "delivery_sessions": 61
+  "delivery_avg": 53.97116666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    4019.0,
-    290454,
-    null
-   ],
    [
     "2025-11-11",
     4072.2,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     3965.0,
     214608,
-    47.35
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2917,16 +2907,6 @@
    "category": "Shareholders meeting",
    "subject": "Avenue Supermarts Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 19, 2026. Further, the company has informed the Exchange regarding voting results.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_21082026123430_ASLVotingresultandScritinizerReportAGM19082026.pdf"
-  },
-  {
-   "date": "2026-08-20",
-   "filed_at": "2026-08-20T18:34:00+05:30",
-   "tag": "Business update",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_20082026183258_ASLInitmationStoreOpening20082026.pdf"
   }
  ],
  "routine": [
@@ -2964,7 +2944,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.884,
-    "usual": 53.86262295081967,
+    "usual": 53.97116666666667,
     "months": 3
    }
   },

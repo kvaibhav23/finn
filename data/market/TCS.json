@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-17T12:21:43Z",
+ "generated_at": "2026-11-17T21:53:58Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": -22.422796724904902,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 49.2165,
-  "delivery_avg": 48.943934426229504,
-  "delivery_sessions": 61
+  "delivery_avg": 48.87866666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    3025.2,
-    1556656,
-    null
-   ],
    [
     "2025-11-11",
     3047.0,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     2289.0,
     3368922,
-    52.86
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-17",
+   "filed_at": "2026-11-17T11:00:00+05:30",
+   "tag": "Press release",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release-HFS Research ranks TCS as a leader in agentic application management services'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_17112026105152_PR_17Nov26_signed.pdf"
+  },
+  {
    "date": "2026-11-09",
    "filed_at": "2026-11-09T17:12:00+05:30",
    "tag": "Earnings call",
@@ -3025,7 +3025,7 @@
    "state": "usual",
    "facts": {
     "recent": 49.2165,
-    "usual": 48.943934426229504,
+    "usual": 48.87866666666666,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-17T12:21:41Z",
+ "generated_at": "2026-11-17T21:53:08Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": -18.22286889769704,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 59.19,
-  "delivery_avg": 59.7944262295082,
-  "delivery_sessions": 61
+  "delivery_avg": 59.756,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    984.5,
-    15988262,
-    null
-   ],
    [
     "2025-11-11",
     991.7,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     720.0,
     21342651,
-    62.1
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2657,6 +2647,26 @@
  },
  "filings": [
   {
+   "date": "2026-11-17",
+   "filed_at": "2026-11-17T15:54:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "HDFC Bank Limited has informed the Exchange regarding 'Grant of stock options under Employee Stock Option Scheme (ESOS Plan H-2024) and Grant of Restricted Stock Units under Employees Stock Incentive Master Scheme 2022'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_17112026155359_SE_Intimation_grant_of_ESOP_17112026.pdf"
+  },
+  {
+   "date": "2026-11-17",
+   "filed_at": "2026-11-17T13:59:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "ESOP/ESOS/ESPS",
+   "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 1412278 Shares.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_17112026135613_SELetterESOP17112026.pdf"
+  },
+  {
    "date": "2026-11-13",
    "filed_at": "2026-11-13T16:35:00+05:30",
    "tag": "Appointment",
@@ -3035,26 +3045,6 @@
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_24082026224258_SEIntimationAugust242026.pdf"
-  },
-  {
-   "date": "2026-08-20",
-   "filed_at": "2026-08-20T22:59:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_20082026225919_SE_Intimatio-_Unsecured_bonds.pdf"
-  },
-  {
-   "date": "2026-08-20",
-   "filed_at": "2026-08-20T17:16:00+05:30",
-   "tag": "Credit rating",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Credit Rating",
-   "subject": "HDFC Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
   }
  ],
  "routine": [
@@ -3105,27 +3095,19 @@
    "state": "usual",
    "facts": {
     "recent": 59.19,
-    "usual": 59.7944262295082,
+    "usual": 59.756,
     "months": 3
    }
   },
   {
    "key": "filings",
-   "state": "flagged",
+   "state": "clear",
    "facts": {
-    "count": 1,
+    "count": 0,
     "days": 90,
-    "tags": [
-     "Credit rating"
-    ]
+    "tags": []
    },
-   "items": [
-    {
-     "date": "2026-08-20",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20082026171343_Rating_20Aug2026.pdf"
-    }
-   ]
+   "items": []
   }
  ],
  "rerun": null,

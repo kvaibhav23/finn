@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-17T12:21:43Z",
+ "generated_at": "2026-11-17T21:53:45Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-17",
@@ -13,19 +13,13 @@
   "return_1y": -9.965092537706644,
   "nifty_return_1y": -2.4066396421850933,
   "delivery_20d": 48.684,
-  "delivery_avg": 56.705737704918036,
-  "delivery_sessions": 61
+  "delivery_avg": 56.68216666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-10",
-    1489.3,
-    7068438,
-    null
-   ],
    [
     "2025-11-11",
     1493.4,
@@ -1170,7 +1164,7 @@
     "2026-08-19",
     1311.0,
     7489365,
-    58.12
+    null
    ],
    [
     "2026-08-20",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-10",
-   25574.35
-  ],
   [
    "2025-11-11",
    25694.95
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-17",
+   "filed_at": "2026-11-17T18:47:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "This is further to the disclosure dated November 12, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - JM Financial India Conference and no unpublished price sensitive information was shared/discusse",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_17112026184407_SE_17112026.pdf"
+  },
+  {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T19:26:00+05:30",
    "tag": "Other",
@@ -2754,7 +2754,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended Septemb",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf"
   },
   {
    "date": "2026-10-30",
@@ -2764,7 +2764,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended Septemb",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
   },
   {
    "date": "2026-10-29",
@@ -3103,7 +3103,7 @@
    "state": "lower",
    "facts": {
     "recent": 48.684,
-    "usual": 56.705737704918036,
+    "usual": 56.68216666666667,
     "months": 3
    }
   },
