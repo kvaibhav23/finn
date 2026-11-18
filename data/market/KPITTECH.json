@@ -1,20 +1,20 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-18T01:49:23Z",
+ "generated_at": "2026-11-18T12:08:48Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-17",
-  "close": 531.65,
-  "change": -4.649999999999977,
-  "change_pct": -0.8670520231213841,
+  "as_of": "2026-11-18",
+  "close": 521.75,
+  "change": -9.899999999999977,
+  "change_pct": -1.8621273394150206,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.07554000981836027,
-  "return_1y": -56.27878289473684,
-  "nifty_return_1y": -2.4066396421850933,
-  "delivery_20d": 33.364,
-  "delivery_avg": 34.48116666666667,
-  "delivery_sessions": 60
+  "range_position": 0.06338978890525279,
+  "return_1y": -56.34256547569241,
+  "nifty_return_1y": -2.6325692154202662,
+  "delivery_20d": 33.948,
+  "delivery_avg": 34.54704918032787,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     531.65,
     931955,
     31.6
+   ],
+   [
+    "2026-11-18",
+    521.75,
+    1344563,
+    38.5
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-17",
    25387.4
+  ],
+  [
+   "2026-11-18",
+   25227.95
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 27.26410256410256,
+  "pe": 26.756410256410255,
   "pe_note": null,
-  "market_cap_cr": 14490.33341,
+  "market_cap_cr": 14220.50495,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2965,9 +2975,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -56.27878289473684,
-    "nifty_return_1y": -2.4066396421850933,
-    "close": 531.65,
+    "return_1y": -56.34256547569241,
+    "nifty_return_1y": -2.6325692154202662,
+    "close": 521.75,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2976,8 +2986,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 33.364,
-    "usual": 34.48116666666667,
+    "recent": 33.948,
+    "usual": 34.54704918032787,
     "months": 3
    }
   },

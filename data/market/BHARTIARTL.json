@@ -1,20 +1,20 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-18T01:49:22Z",
+ "generated_at": "2026-11-18T12:08:47Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-17",
-  "close": 2138.3,
-  "change": -15.199999999999818,
-  "change_pct": -0.705827722312502,
+  "as_of": "2026-11-18",
+  "close": 2132.0,
+  "change": -6.300000000000182,
+  "change_pct": -0.294626572510881,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.9192324854975461,
-  "return_1y": 1.235678439541732,
-  "nifty_return_1y": -2.4066396421850933,
-  "delivery_20d": 65.226,
-  "delivery_avg": 67.63416666666666,
-  "delivery_sessions": 60
+  "range_position": 0.9051762605979473,
+  "return_1y": -0.8002977852224036,
+  "nifty_return_1y": -2.6325692154202662,
+  "delivery_20d": 66.189,
+  "delivery_avg": 67.61999999999999,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     2138.3,
     6982829,
     63.73
+   ],
+   [
+    "2026-11-18",
+    2132.0,
+    3984758,
+    66.77
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-17",
    25387.4
+  ],
+  [
+   "2026-11-18",
+   25227.95
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 42.10909807010634,
+  "pe": 41.985033477747145,
   "pe_note": null,
-  "market_cap_cr": 1334470.2640000002,
+  "market_cap_cr": 1330538.56,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -3033,9 +3043,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 1.235678439541732,
-    "nifty_return_1y": -2.4066396421850933,
-    "close": 2138.3,
+    "return_1y": -0.8002977852224036,
+    "nifty_return_1y": -2.6325692154202662,
+    "close": 2132.0,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }
@@ -3044,8 +3054,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 65.226,
-    "usual": 67.63416666666666,
+    "recent": 66.189,
+    "usual": 67.61999999999999,
     "months": 3
    }
   },

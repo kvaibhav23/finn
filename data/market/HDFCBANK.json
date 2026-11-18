@@ -1,20 +1,20 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-18T01:49:23Z",
+ "generated_at": "2026-11-18T12:08:47Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-17",
-  "close": 814.95,
-  "change": -1.5499999999999545,
-  "change_pct": -0.1898346601347134,
+  "as_of": "2026-11-18",
+  "close": 808.15,
+  "change": -6.800000000000068,
+  "change_pct": -0.8344070188355146,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.41846109675567045,
-  "return_1y": -18.22286889769704,
-  "nifty_return_1y": -2.4066396421850933,
-  "delivery_20d": 59.19,
-  "delivery_avg": 59.756,
-  "delivery_sessions": 60
+  "range_position": 0.39893769738730966,
+  "return_1y": -18.570205048113266,
+  "nifty_return_1y": -2.6325692154202662,
+  "delivery_20d": 60.0115,
+  "delivery_avg": 59.73098360655738,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     814.95,
     34909357,
     63.04
+   ],
+   [
+    "2026-11-18",
+    808.15,
+    21579720,
+    58.23
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-17",
    25387.4
+  ],
+  [
+   "2026-11-18",
+   25227.95
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.708365458750967,
+  "pe": 15.577293754818813,
   "pe_note": null,
-  "market_cap_cr": 1256538.807,
+  "market_cap_cr": 1246054.159,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3083,9 +3093,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.22286889769704,
-    "nifty_return_1y": -2.4066396421850933,
-    "close": 814.95,
+    "return_1y": -18.570205048113266,
+    "nifty_return_1y": -2.6325692154202662,
+    "close": 808.15,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3094,8 +3104,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 59.19,
-    "usual": 59.756,
+    "recent": 60.0115,
+    "usual": 59.73098360655738,
     "months": 3
    }
   },
