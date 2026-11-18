@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-18T12:08:48Z",
+ "generated_at": "2026-11-18T21:33:17Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": -25.403659849300332,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 52.935,
-  "delivery_avg": 54.43409836065574,
-  "delivery_sessions": 61
+  "delivery_avg": 54.52316666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    1530.3,
-    13692989,
-    null
-   ],
    [
     "2025-11-12",
     1551.7,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     1130.0,
     8559841,
-    49.09
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2657,6 +2647,26 @@
  },
  "filings": [
   {
+   "date": "2026-11-18",
+   "filed_at": "2026-11-18T22:10:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Infosys Limited has informed the Exchange regarding 'Change in Corporate office address of the Company s Registrar and Share Transfer Agent'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/INFY_18112026221036_SE_filing_17112027__1_.pdf"
+  },
+  {
+   "date": "2026-11-18",
+   "filed_at": "2026-11-18T22:06:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Infosys Limited has informed the Exchange regarding 'Disclosure Under Regulation 30 Of SEBI LODR Regulations'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/INFY_18112026220604_Reg_30_disclosure_18112026.pdf"
+  },
+  {
    "date": "2026-11-17",
    "filed_at": "2026-11-17T14:58:00+05:30",
    "tag": "Other",
@@ -2976,7 +2986,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.935,
-    "usual": 54.43409836065574,
+    "usual": 54.52316666666666,
     "months": 3
    }
   },

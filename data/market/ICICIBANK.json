@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-18T12:08:48Z",
+ "generated_at": "2026-11-18T21:33:12Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": 16.59385466724914,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 62.713,
-  "delivery_avg": 62.11557377049181,
-  "delivery_sessions": 61
+  "delivery_avg": 61.97,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    1358.3,
-    8305184,
-    null
-   ],
    [
     "2025-11-12",
     1358.9,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     1411.9,
     8425049,
-    70.85
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-18",
+   "filed_at": "2026-11-18T10:14:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "ESOP/ESOS/ESPS",
+   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 461865 Shares.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_18112026101250_Lettertoexchange.pdf"
+  },
+  {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T10:16:00+05:30",
    "tag": "Other",
@@ -3145,46 +3145,6 @@
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026132739_BSENSE.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T22:42:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "In continuation to our earlier letters dated August 18, 2026, please note that ICICI Bank Limited, acting through its IFSC Banking Unit, has today completed the issuance of USD 750 million Senior Unsecured Fixed Rate Notes (Notes) under the USD 7.5 billion Global Medium Term Note",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026224108_BSENSE21082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T22:14:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding summary of proceedings of 32nd Annual General Meeting held on August 21, 2026 along with consolidated scrutinizers report",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026221317_BSENSE21082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T10:59:00+05:30",
-   "tag": "Board meeting",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Outcome of Board Meeting",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding Outcome of Board Meeting held on August 21, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026105810_NSEBSE_21082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T10:09:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about Presentation by Managing Director & Chief Executive Officer 32nd Annual General Meeting August 21, 2026",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_21082026100835_NSEBSE21082026.pdf"
   }
  ],
  "routine": [
@@ -3235,7 +3195,7 @@
    "state": "usual",
    "facts": {
     "recent": 62.713,
-    "usual": 62.11557377049181,
+    "usual": 61.97,
     "months": 3
    }
   },

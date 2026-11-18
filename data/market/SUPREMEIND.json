@@ -1,6 +1,6 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-18T12:08:50Z",
+ "generated_at": "2026-11-18T21:33:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": -12.917311518903386,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 48.927499999999995,
-  "delivery_avg": 49.32524590163935,
-  "delivery_sessions": 61
+  "delivery_avg": 49.33433333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    3874.2,
-    126103,
-    null
-   ],
    [
     "2025-11-12",
     3914.3,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     3650.0,
     143243,
-    48.78
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2611,7 +2601,7 @@
     "pbt_cr": 202.76,
     "pat_cr": 164.74,
     "approved": "2025-10-27",
-    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1557945_27102025064139_WEB.xml"
+    "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759841_18112026053332_WEB.xml"
    },
    {
     "quarter": "Q3FY26",
@@ -2821,7 +2811,7 @@
    "state": "usual",
    "facts": {
     "recent": 48.927499999999995,
-    "usual": 49.32524590163935,
+    "usual": 49.33433333333333,
     "months": 3
    }
   },

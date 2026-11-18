@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-18T12:08:47Z",
+ "generated_at": "2026-11-18T21:32:59Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": -13.464425097568288,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 53.088499999999996,
-  "delivery_avg": 54.010327868852464,
-  "delivery_sessions": 61
+  "delivery_avg": 54.17283333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    4072.2,
-    272277,
-    null
-   ],
    [
     "2025-11-12",
     4058.0,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     3960.0,
     399620,
-    44.26
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2897,29 +2887,10 @@
    "category": "Credit Rating- New",
    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating by ICRA Limited for Non-Convertible Debentures",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T14:24:00+05:30",
-   "tag": "Business update",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_21082026142348_ASLInitmationStoreOpening21082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T12:37:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Avenue Supermarts Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 19, 2026. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_21082026123430_ASLVotingresultandScritinizerReportAGM19082026.pdf"
   }
  ],
  "routine": [
+  "2026-11-18T17:01:00+05:30",
   "2026-11-09T16:56:00+05:30",
   "2026-11-05T18:51:00+05:30",
   "2026-10-29T17:40:00+05:30"
@@ -2954,7 +2925,7 @@
    "state": "usual",
    "facts": {
     "recent": 53.088499999999996,
-    "usual": 54.010327868852464,
+    "usual": 54.17283333333333,
     "months": 3
    }
   },

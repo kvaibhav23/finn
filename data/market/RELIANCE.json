@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-18T12:08:49Z",
+ "generated_at": "2026-11-18T21:33:44Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": -10.293536922469404,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 49.5795,
-  "delivery_avg": 56.69508196721311,
-  "delivery_sessions": 61
+  "delivery_avg": 56.8475,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    1493.4,
-    7127506,
-    null
-   ],
    [
     "2025-11-12",
     1511.5,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     1313.2,
     5546227,
-    47.55
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -3045,26 +3035,6 @@
    "category": "Updates",
    "subject": "Observation Letter on the Draft Red Herring Prospectus for the proposed Initial Public Offer of Jio Platforms Limited",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_28082026183323_RIL_SE_28082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T16:42:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Amendment to AOA/MOA",
-   "subject": "Reliance Industries Limited has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_21082026164208_SE_21082026.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T16:36:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "The voting results in the format prescribed under Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 along with the Scrutiniser's Report on remote e-voting, for Postal Ballot notice dated July 17, 2026, are attached.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_21082026163605_SE_21082026.pdf"
   }
  ],
  "routine": [],
@@ -3113,7 +3083,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.5795,
-    "usual": 56.69508196721311,
+    "usual": 56.8475,
     "months": 3
    }
   },

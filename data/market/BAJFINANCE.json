@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-18T12:08:46Z",
+ "generated_at": "2026-11-18T21:32:41Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": 7.917324388318847,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 59.862,
-  "delivery_avg": 62.456393442622954,
-  "delivery_sessions": 61
+  "delivery_avg": 62.38816666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    1005.2,
-    23762890,
-    null
-   ],
    [
     "2025-11-12",
     1013.2,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     1095.0,
     6741475,
-    66.55
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2764,19 +2754,7 @@
    "worth_a_look": false,
    "category": "Change in Management",
    "subject": "Bajaj Finance Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
-   "profile": {
-    "page": 2,
-    "excerpt": "Prashant Verma is the Chief Information Security Officer of Bajaj Finance Ltd since February 1, 2024. Prashant Verma has around 21 years of full-time experience on Security Domain. He joined us as head of Cyber Risk Unit 7 years back and is now heading Information Security. In his previous job, he has architected security services and has worked as security auditor and consultant for various domestic and international banks and insurance companies. He is CISSP and is co- author of couple of security books.",
-    "name": "Prashant Verma",
-    "role": "Chief Information Security Officer",
-    "effective": "1 February 2027",
-    "previous": [
-     "Chief Information Security Officer of Bajaj Finance Ltd",
-     "head of Cyber Risk Unit",
-     "security auditor and consultant"
-    ]
-   }
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf"
   },
   {
    "date": "2026-10-19",
@@ -2995,7 +2973,7 @@
    "state": "usual",
    "facts": {
     "recent": 59.862,
-    "usual": 62.456393442622954,
+    "usual": 62.38816666666666,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-18T12:08:50Z",
+ "generated_at": "2026-11-18T21:34:03Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": 19.82109713342959,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 54.7615,
-  "delivery_avg": 56.23245901639344,
-  "delivery_sessions": 61
+  "delivery_avg": 56.166333333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    3812.4,
-    668789,
-    null
-   ],
    [
     "2025-11-12",
     3851.1,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     5068.0,
     614435,
-    60.2
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-18",
+   "filed_at": "2026-11-18T20:53:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf"
+  },
+  {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T15:30:00+05:30",
    "tag": "Earnings call",
@@ -2879,12 +2879,18 @@
  "move": {
   "date": "2026-11-18",
   "change_pct": -5.295436022819877,
-  "typical_pct": 0.7795490840458719,
-  "times": 6.792947527224946,
+  "typical_pct": 0.7793662777953569,
+  "times": 6.794540864405135,
   "volume_x": 1.6083483555740115,
   "biggest_in_year": false,
   "nifty_change_pct": -0.6280674665385177,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-18",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -2893,13 +2899,19 @@
    "facts": {
     "date": "2026-11-18",
     "change_pct": -5.295436022819877,
-    "typical_pct": 0.7795490840458719,
-    "times": 6.792947527224946,
+    "typical_pct": 0.7793662777953569,
+    "times": 6.794540864405135,
     "volume_x": 1.6083483555740115,
     "biggest_in_year": false,
     "nifty_change_pct": -0.6280674665385177
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-18",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -2922,7 +2934,7 @@
    "state": "usual",
    "facts": {
     "recent": 54.7615,
-    "usual": 56.23245901639344,
+    "usual": 56.166333333333334,
     "months": 3
    }
   },
@@ -2954,17 +2966,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "5486dc67387cc0df",
-   "symbol": "TITAN",
-   "kind": "move",
-   "date": "2026-11-18",
-   "facts": {
-    "change_pct": -5.295436022819877,
-    "times": 6.792947527224946,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

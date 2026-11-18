@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-18T12:08:47Z",
+ "generated_at": "2026-11-18T21:32:46Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-18",
@@ -13,19 +13,13 @@
   "return_1y": -0.8002977852224036,
   "nifty_return_1y": -2.6325692154202662,
   "delivery_20d": 66.189,
-  "delivery_avg": 67.61999999999999,
-  "delivery_sessions": 61
+  "delivery_avg": 67.58716666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-11",
-    2042.3,
-    14825625,
-    null
-   ],
    [
     "2025-11-12",
     2073.8,
@@ -1170,7 +1164,7 @@
     "2026-08-20",
     1941.7,
     4390604,
-    69.59
+    null
    ],
    [
     "2026-08-21",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-11",
-   25694.95
-  ],
   [
    "2025-11-12",
    25875.8
@@ -2985,19 +2975,10 @@
    "category": "Action(s) taken or orders passed",
    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_25082026161157_Bharti_Airtel_-_Reg_30_disclosure.pdf"
-  },
-  {
-   "date": "2026-08-21",
-   "filed_at": "2026-08-21T17:26:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_21082026172328_Bharti_Airtel_-_Investor_Meet_STX_Intimation_sgd.pdf"
   }
  ],
  "routine": [
+  "2026-11-18T15:38:00+05:30",
   "2026-11-14T15:52:00+05:30",
   "2026-11-05T14:01:00+05:30",
   "2026-11-04T15:38:00+05:30",
@@ -3006,11 +2987,6 @@
   "2026-10-26T19:01:00+05:30"
  ],
  "calls": [
-  {
-   "quarter": "Q2FY26",
-   "date": "2025-11-11",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_11112025164840_EarningCallTranscriptAirtel.pdf"
-  },
   {
    "quarter": "Q3FY26",
    "date": "2026-02-06",
@@ -3055,7 +3031,7 @@
    "state": "usual",
    "facts": {
     "recent": 66.189,
-    "usual": 67.61999999999999,
+    "usual": 67.58716666666666,
     "months": 3
    }
   },
