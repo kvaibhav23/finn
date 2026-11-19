@@ -1,23 +1,23 @@
 {
- "date": "2026-11-18",
- "close": 25227.95,
- "change_pct": -0.6280674665385177,
+ "date": "2026-11-19",
+ "close": 25514.3,
+ "change_pct": 1.1350506085512135,
  "big": false,
  "movers": [
   {
    "symbol": "DIXON",
    "name": "Dixon Technologies (India) Limited",
-   "change_pct": -3.562418775322984
+   "change_pct": 3.479984145858106
   },
   {
    "symbol": "SUPREMEIND",
    "name": "Supreme Industries Limited",
-   "change_pct": -2.4850679293163758
+   "change_pct": 1.8248175182481674
   },
   {
-   "symbol": "KPITTECH",
-   "name": "KPIT Technologies Limited",
-   "change_pct": -1.8621273394150206
+   "symbol": "TCS",
+   "name": "Tata Consultancy Services Limited",
+   "change_pct": -1.546543391468802
   }
  ]
 }

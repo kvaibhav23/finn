@@ -1,20 +1,20 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-19T01:24:01Z",
+ "generated_at": "2026-11-19T12:02:37Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-18",
-  "close": 7307.5,
-  "change": -394.5,
-  "change_pct": -5.122046221760579,
+  "as_of": "2026-11-19",
+  "close": 7550.0,
+  "change": 242.5,
+  "change_pct": 3.318508381799523,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.18611030898065262,
-  "return_1y": -4.614280120088765,
-  "nifty_return_1y": -2.6325692154202662,
-  "delivery_20d": 50.1145,
-  "delivery_avg": 51.28616666666667,
-  "delivery_sessions": 60
+  "range_position": 0.2561362980075079,
+  "return_1y": -1.7950052029136354,
+  "nifty_return_1y": -2.0663924783083543,
+  "delivery_20d": 50.408,
+  "delivery_avg": 51.391311475409836,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     7307.5,
     864380,
     38.35
+   ],
+   [
+    "2026-11-19",
+    7550.0,
+    1027023,
+    57.7
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-18",
    25227.95
+  ],
+  [
+   "2026-11-19",
+   25514.3
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 34.81253870706493,
+  "pe": 35.96779572197609,
   "pe_note": null,
-  "market_cap_cr": 110118.179,
+  "market_cap_cr": 113772.46,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -3022,31 +3032,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-18",
-  "change_pct": -5.122046221760579,
-  "typical_pct": 1.150715689026094,
-  "times": 4.451183094666601,
-  "volume_x": 2.023192823818989,
-  "biggest_in_year": false,
-  "nifty_change_pct": -0.6280674665385177,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "down",
-   "facts": {
-    "date": "2026-11-18",
-    "change_pct": -5.122046221760579,
-    "typical_pct": 1.150715689026094,
-    "times": 4.451183094666601,
-    "volume_x": 2.023192823818989,
-    "biggest_in_year": false,
-    "nifty_change_pct": -0.6280674665385177
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "none",
@@ -3056,9 +3043,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -4.614280120088765,
-    "nifty_return_1y": -2.6325692154202662,
-    "close": 7307.5,
+    "return_1y": -1.7950052029136354,
+    "nifty_return_1y": -2.0663924783083543,
+    "close": 7550.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3067,8 +3054,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.1145,
-    "usual": 51.28616666666667,
+    "recent": 50.408,
+    "usual": 51.391311475409836,
     "months": 3
    }
   },

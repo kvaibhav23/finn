@@ -1,20 +1,20 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-19T01:23:59Z",
+ "generated_at": "2026-11-19T12:02:35Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-18",
-  "close": 1601.3,
-  "change": 2.599999999999909,
-  "change_pct": 0.16263213861260617,
+  "as_of": "2026-11-19",
+  "close": 1608.9,
+  "change": 7.600000000000136,
+  "change_pct": 0.4746143758196597,
   "high_52w": 1616.0,
   "low_52w": 1187.6,
-  "range_position": 0.9656862745098038,
-  "return_1y": 16.59385466724914,
-  "nifty_return_1y": -2.6325692154202662,
-  "delivery_20d": 62.713,
-  "delivery_avg": 61.97,
-  "delivery_sessions": 60
+  "range_position": 0.9834267040149395,
+  "return_1y": 16.325645289566925,
+  "nifty_return_1y": -2.0663924783083543,
+  "delivery_20d": 63.064,
+  "delivery_avg": 62.08950819672131,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     1601.3,
     10778116,
     66.15
+   ],
+   [
+    "2026-11-19",
+    1608.9,
+    11223667,
+    69.26
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-18",
    25227.95
+  ],
+  [
+   "2026-11-19",
+   25514.3
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.664742723811866,
+  "pe": 19.758074419747025,
   "pe_note": null,
-  "market_cap_cr": 1149701.374,
+  "market_cap_cr": 1155158.022,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3183,9 +3193,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 16.59385466724914,
-    "nifty_return_1y": -2.6325692154202662,
-    "close": 1601.3,
+    "return_1y": 16.325645289566925,
+    "nifty_return_1y": -2.0663924783083543,
+    "close": 1608.9,
     "low_52w": 1187.6,
     "high_52w": 1616.0
    }
@@ -3194,8 +3204,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 62.713,
-    "usual": 61.97,
+    "recent": 63.064,
+    "usual": 62.08950819672131,
     "months": 3
    }
   },

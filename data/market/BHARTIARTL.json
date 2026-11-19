@@ -1,20 +1,20 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-19T01:23:58Z",
+ "generated_at": "2026-11-19T12:02:34Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-18",
-  "close": 2132.0,
-  "change": -6.300000000000182,
-  "change_pct": -0.294626572510881,
+  "as_of": "2026-11-19",
+  "close": 2144.0,
+  "change": 12.0,
+  "change_pct": 0.5628517823639712,
   "high_52w": 2174.5,
   "low_52w": 1726.3,
-  "range_position": 0.9051762605979473,
-  "return_1y": -0.8002977852224036,
-  "nifty_return_1y": -2.6325692154202662,
-  "delivery_20d": 66.189,
-  "delivery_avg": 67.58716666666666,
-  "delivery_sessions": 60
+  "range_position": 0.9319500223114681,
+  "return_1y": -0.7315492175201443,
+  "nifty_return_1y": -2.0663924783083543,
+  "delivery_20d": 66.00399999999999,
+  "delivery_avg": 67.58081967213116,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     2132.0,
     3984758,
     66.77
+   ],
+   [
+    "2026-11-19",
+    2144.0,
+    6016478,
+    67.2
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-18",
    25227.95
+  ],
+  [
+   "2026-11-19",
+   25514.3
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.985033477747145,
+  "pe": 42.221346987002754,
   "pe_note": null,
-  "market_cap_cr": 1330538.56,
+  "market_cap_cr": 1338027.52,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -3019,9 +3029,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": -0.8002977852224036,
-    "nifty_return_1y": -2.6325692154202662,
-    "close": 2132.0,
+    "return_1y": -0.7315492175201443,
+    "nifty_return_1y": -2.0663924783083543,
+    "close": 2144.0,
     "low_52w": 1726.3,
     "high_52w": 2174.5
    }
@@ -3030,8 +3040,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.189,
-    "usual": 67.58716666666666,
+    "recent": 66.00399999999999,
+    "usual": 67.58081967213116,
     "months": 3
    }
   },
