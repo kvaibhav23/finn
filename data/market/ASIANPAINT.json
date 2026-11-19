@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-19T12:02:34Z",
+ "generated_at": "2026-11-19T21:45:07Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-19",
@@ -13,19 +13,13 @@
   "return_1y": -10.322424577530487,
   "nifty_return_1y": -2.0663924783083543,
   "delivery_20d": 49.093,
-  "delivery_avg": 54.986065573770496,
-  "delivery_sessions": 61
+  "delivery_avg": 54.92766666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-12",
-    2769.8,
-    2859196,
-    null
-   ],
    [
     "2025-11-13",
     2879.4,
@@ -1170,7 +1164,7 @@
     "2026-08-21",
     2640.0,
     330334,
-    58.49
+    null
    ],
    [
     "2026-08-24",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-12",
-   25875.8
-  ],
   [
    "2025-11-13",
    25879.15
@@ -2947,7 +2937,7 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-12",
+   "date": "2025-11-18",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_18112025120322_SEIntimationTranscriptQ2FY26Nov2025.pdf"
   },
   {
@@ -2999,7 +2989,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.093,
-    "usual": 54.986065573770496,
+    "usual": 54.92766666666667,
     "months": 3
    }
   },

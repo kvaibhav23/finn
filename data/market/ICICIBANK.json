@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-19T12:02:35Z",
+ "generated_at": "2026-11-19T21:45:44Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-19",
@@ -13,19 +13,13 @@
   "return_1y": 16.325645289566925,
   "nifty_return_1y": -2.0663924783083543,
   "delivery_20d": 63.064,
-  "delivery_avg": 62.08950819672131,
-  "delivery_sessions": 61
+  "delivery_avg": 62.06733333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-12",
-    1358.9,
-    9736761,
-    null
-   ],
    [
     "2025-11-13",
     1385.9,
@@ -1170,7 +1164,7 @@
     "2026-08-21",
     1420.0,
     4565280,
-    63.42
+    null
    ],
    [
     "2026-08-24",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-12",
-   25875.8
-  ],
   [
    "2025-11-13",
    25879.15
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-19",
+   "filed_at": "2026-11-19T17:29:00+05:30",
+   "tag": "Credit rating",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Credit Rating",
+   "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_19112026172914_NSEBSE19112026.pdf"
+  },
+  {
    "date": "2026-11-18",
    "filed_at": "2026-11-18T10:14:00+05:30",
    "tag": "Other",
@@ -3205,7 +3205,7 @@
    "state": "usual",
    "facts": {
     "recent": 63.064,
-    "usual": 62.08950819672131,
+    "usual": 62.06733333333333,
     "months": 3
    }
   },
@@ -3213,13 +3213,18 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 3,
+    "count": 4,
     "days": 90,
     "tags": [
      "Credit rating"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-19",
+     "tag": "Credit rating",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_19112026172914_NSEBSE19112026.pdf"
+    },
     {
      "date": "2026-10-24",
      "tag": "Credit rating",
@@ -3241,5 +3246,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "ca3c43d34b5d4a98",
+   "symbol": "ICICIBANK",
+   "kind": "flag",
+   "date": "2026-11-19",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_19112026172914_NSEBSE19112026.pdf"
+   }
+  }
+ ]
 }

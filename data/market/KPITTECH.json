@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-19T12:02:36Z",
+ "generated_at": "2026-11-19T21:45:57Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-19",
@@ -13,19 +13,13 @@
   "return_1y": -56.570526140802926,
   "nifty_return_1y": -2.0663924783083543,
   "delivery_20d": 33.681,
-  "delivery_avg": 34.616229508196724,
-  "delivery_sessions": 61
+  "delivery_avg": 34.597833333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-12",
-    1244.3,
-    1128899,
-    null
-   ],
    [
     "2025-11-13",
     1238.7,
@@ -1170,7 +1164,7 @@
     "2026-08-21",
     589.3,
     904430,
-    35.72
+    null
    ],
    [
     "2026-08-24",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-12",
-   25875.8
-  ],
   [
    "2025-11-13",
    25879.15
@@ -2683,8 +2673,8 @@
    "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_12112026161901_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, November 16, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_12112026161655_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
   },
   {
    "date": "2026-11-12",
@@ -2693,8 +2683,8 @@
    "priority": 2,
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, November 16, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_12112026161655_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_12112026161901_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf"
   },
   {
    "date": "2026-11-03",
@@ -2987,7 +2977,7 @@
    "state": "usual",
    "facts": {
     "recent": 33.681,
-    "usual": 34.616229508196724,
+    "usual": 34.597833333333334,
     "months": 3
    }
   },

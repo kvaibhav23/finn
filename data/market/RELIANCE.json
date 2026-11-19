@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-19T12:02:37Z",
+ "generated_at": "2026-11-19T21:46:15Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-19",
@@ -13,19 +13,13 @@
   "return_1y": -9.434459148067686,
   "nifty_return_1y": -2.0663924783083543,
   "delivery_20d": 50.0195,
-  "delivery_avg": 56.81967213114754,
-  "delivery_sessions": 61
+  "delivery_avg": 56.723,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-12",
-    1511.5,
-    12384459,
-    null
-   ],
    [
     "2025-11-13",
     1510.9,
@@ -1170,7 +1164,7 @@
     "2026-08-21",
     1316.0,
     5434871,
-    62.62
+    null
    ],
    [
     "2026-08-24",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-12",
-   25875.8
-  ],
   [
    "2025-11-13",
    25879.15
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-19",
+   "filed_at": "2026-11-19T18:35:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "This is further to the disclosure dated November 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit and no unpublished price sensitive information wa",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_19112026183441_SE_19112026.pdf"
+  },
+  {
    "date": "2026-11-17",
    "filed_at": "2026-11-17T18:47:00+05:30",
    "tag": "Other",
@@ -3093,7 +3093,7 @@
    "state": "lower",
    "facts": {
     "recent": 50.0195,
-    "usual": 56.81967213114754,
+    "usual": 56.723,
     "months": 3
    }
   },

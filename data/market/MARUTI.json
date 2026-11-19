@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-19T12:02:37Z",
+ "generated_at": "2026-11-19T21:46:07Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-19",
@@ -13,19 +13,13 @@
   "return_1y": -13.819127346524606,
   "nifty_return_1y": -2.0663924783083543,
   "delivery_20d": 52.736000000000004,
-  "delivery_avg": 54.43786885245902,
-  "delivery_sessions": 61
+  "delivery_avg": 54.408833333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-12",
-    15696.0,
-    244015,
-    null
-   ],
    [
     "2025-11-13",
     15749.0,
@@ -1170,7 +1164,7 @@
     "2026-08-21",
     13565.0,
     224951,
-    56.18
+    null
    ],
    [
     "2026-08-24",
@@ -1535,10 +1529,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-12",
-   25875.8
-  ],
   [
    "2025-11-13",
    25879.15
@@ -3035,8 +3025,8 @@
  "move": {
   "date": "2026-11-19",
   "change_pct": 7.575997466751105,
-  "typical_pct": 0.9013607783292854,
-  "times": 8.405066704581458,
+  "typical_pct": 0.9178321678321666,
+  "times": 8.254229620917407,
   "volume_x": 2.804500369580518,
   "biggest_in_year": true,
   "nifty_change_pct": 1.1350506085512135,
@@ -3049,8 +3039,8 @@
    "facts": {
     "date": "2026-11-19",
     "change_pct": 7.575997466751105,
-    "typical_pct": 0.9013607783292854,
-    "times": 8.405066704581458,
+    "typical_pct": 0.9178321678321666,
+    "times": 8.254229620917407,
     "volume_x": 2.804500369580518,
     "biggest_in_year": true,
     "nifty_change_pct": 1.1350506085512135
@@ -3078,7 +3068,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.736000000000004,
-    "usual": 54.43786885245902,
+    "usual": 54.408833333333334,
     "months": 3
    }
   },
@@ -3109,17 +3099,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "893a7f08b23fed8a",
-   "symbol": "MARUTI",
-   "kind": "move",
-   "date": "2026-11-19",
-   "facts": {
-    "change_pct": 7.575997466751105,
-    "times": 8.405066704581458,
-    "biggest_in_year": true
-   }
-  }
- ]
+ "events": []
 }
