@@ -1,20 +1,20 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-20T01:25:31Z",
+ "generated_at": "2026-11-20T12:04:52Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-19",
-  "close": 13589.0,
-  "change": 957.0,
-  "change_pct": 7.575997466751105,
+  "as_of": "2026-11-20",
+  "close": 14011.0,
+  "change": 422.0,
+  "change_pct": 3.1054529398778508,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.4078308535630384,
-  "return_1y": -13.819127346524606,
-  "nifty_return_1y": -2.0663924783083543,
-  "delivery_20d": 52.736000000000004,
-  "delivery_avg": 54.408833333333334,
-  "delivery_sessions": 60
+  "range_position": 0.47392325763508225,
+  "return_1y": -11.32839693690273,
+  "nifty_return_1y": -1.4949135523429802,
+  "delivery_20d": 52.7275,
+  "delivery_avg": 54.37393442622951,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     13589.0,
     1371819,
     37.15
+   ],
+   [
+    "2026-11-20",
+    14011.0,
+    1648162,
+    52.28
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-19",
    25514.3
+  ],
+  [
+   "2026-11-20",
+   25800.6
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 31.762615992333405,
+  "pe": 32.748989084449434,
   "pe_note": null,
-  "market_cap_cr": 427238.16,
+  "market_cap_cr": 440505.84,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3023,13 +3033,13 @@
   }
  ],
  "move": {
-  "date": "2026-11-19",
-  "change_pct": 7.575997466751105,
-  "typical_pct": 0.9178321678321666,
-  "times": 8.254229620917407,
-  "volume_x": 2.804500369580518,
-  "biggest_in_year": true,
-  "nifty_change_pct": 1.1350506085512135,
+  "date": "2026-11-20",
+  "change_pct": 3.1054529398778508,
+  "typical_pct": 0.9186358737584666,
+  "times": 3.3805047555701657,
+  "volume_x": 3.2308634751303833,
+  "biggest_in_year": false,
+  "nifty_change_pct": 1.1221158330818382,
   "filings": []
  },
  "signals": [
@@ -3037,13 +3047,13 @@
    "key": "move",
    "state": "up",
    "facts": {
-    "date": "2026-11-19",
-    "change_pct": 7.575997466751105,
-    "typical_pct": 0.9178321678321666,
-    "times": 8.254229620917407,
-    "volume_x": 2.804500369580518,
-    "biggest_in_year": true,
-    "nifty_change_pct": 1.1350506085512135
+    "date": "2026-11-20",
+    "change_pct": 3.1054529398778508,
+    "typical_pct": 0.9186358737584666,
+    "times": 3.3805047555701657,
+    "volume_x": 3.2308634751303833,
+    "biggest_in_year": false,
+    "nifty_change_pct": 1.1221158330818382
    },
    "items": []
   },
@@ -3056,9 +3066,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -13.819127346524606,
-    "nifty_return_1y": -2.0663924783083543,
-    "close": 13589.0,
+    "return_1y": -11.32839693690273,
+    "nifty_return_1y": -1.4949135523429802,
+    "close": 14011.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3067,8 +3077,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.736000000000004,
-    "usual": 54.408833333333334,
+    "recent": 52.7275,
+    "usual": 54.37393442622951,
     "months": 3
    }
   },
@@ -3099,5 +3109,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "a0edb7970cf1962a",
+   "symbol": "MARUTI",
+   "kind": "move",
+   "date": "2026-11-20",
+   "facts": {
+    "change_pct": 3.1054529398778508,
+    "times": 3.3805047555701657,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

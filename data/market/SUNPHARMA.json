@@ -1,20 +1,20 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-20T01:25:32Z",
+ "generated_at": "2026-11-20T12:04:52Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-19",
-  "close": 1900.0,
-  "change": 28.5,
-  "change_pct": 1.522842639593902,
+  "as_of": "2026-11-20",
+  "close": 1884.9,
+  "change": -15.099999999999909,
+  "change_pct": -0.7947368421052592,
   "high_52w": 2046.9,
   "low_52w": 1583.7,
-  "range_position": 0.682858376511226,
-  "return_1y": 6.496272630457933,
-  "nifty_return_1y": -2.0663924783083543,
-  "delivery_20d": 57.915499999999994,
-  "delivery_avg": 62.02616666666667,
-  "delivery_sessions": 60
+  "range_position": 0.650259067357513,
+  "return_1y": 6.0481602340497265,
+  "nifty_return_1y": -1.4949135523429802,
+  "delivery_20d": 57.497,
+  "delivery_avg": 61.9527868852459,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     1900.0,
     1995293,
     53.02
+   ],
+   [
+    "2026-11-20",
+    1884.9,
+    1916054,
+    57.55
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-19",
    25514.3
+  ],
+  [
+   "2026-11-20",
+   25800.6
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 10987.13,
   "ttm_margin_pct": 17.827301620680007,
   "ttm_eps": 45.7,
-  "pe": 41.57549234135667,
+  "pe": 41.24507658643326,
   "pe_note": null,
-  "market_cap_cr": 455867.0,
+  "market_cap_cr": 452244.057,
   "revenue_yoy_pct": 11.88260232029843,
   "pat_yoy_pct": -36.15673850781612,
   "net_npa_pct": null,
@@ -3004,9 +3014,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 6.496272630457933,
-    "nifty_return_1y": -2.0663924783083543,
-    "close": 1900.0,
+    "return_1y": 6.0481602340497265,
+    "nifty_return_1y": -1.4949135523429802,
+    "close": 1884.9,
     "low_52w": 1583.7,
     "high_52w": 2046.9
    }
@@ -3015,8 +3025,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.915499999999994,
-    "usual": 62.02616666666667,
+    "recent": 57.497,
+    "usual": 61.9527868852459,
     "months": 3
    }
   },

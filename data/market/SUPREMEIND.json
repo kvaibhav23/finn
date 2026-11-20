@@ -1,20 +1,20 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-20T01:25:32Z",
+ "generated_at": "2026-11-20T12:04:52Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-19",
-  "close": 3208.5,
-  "change": 57.5,
-  "change_pct": 1.8248175182481674,
+  "as_of": "2026-11-20",
+  "close": 3206.0,
+  "change": -2.5,
+  "change_pct": -0.07791803023219357,
   "high_52w": 4074.8,
   "low_52w": 3078.5,
-  "range_position": 0.13048278630934454,
-  "return_1y": -10.6516290726817,
-  "nifty_return_1y": -2.0663924783083543,
-  "delivery_20d": 49.4425,
-  "delivery_avg": 49.62033333333333,
-  "delivery_sessions": 60
+  "range_position": 0.12797350195724178,
+  "return_1y": -10.16336481071538,
+  "nifty_return_1y": -1.4949135523429802,
+  "delivery_20d": 50.1195,
+  "delivery_avg": 49.78704918032787,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     3208.5,
     422851,
     64.04
+   ],
+   [
+    "2026-11-20",
+    3206.0,
+    230730,
+    59.79
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-19",
    25514.3
+  ],
+  [
+   "2026-11-20",
+   25800.6
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 36.06677158273381,
+  "pe": 36.0386690647482,
   "pe_note": null,
-  "market_cap_cr": 40763.9925,
+  "market_cap_cr": 40732.23,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2799,9 +2809,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -10.6516290726817,
-    "nifty_return_1y": -2.0663924783083543,
-    "close": 3208.5,
+    "return_1y": -10.16336481071538,
+    "nifty_return_1y": -1.4949135523429802,
+    "close": 3206.0,
     "low_52w": 3078.5,
     "high_52w": 4074.8
    }
@@ -2810,8 +2820,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 49.4425,
-    "usual": 49.62033333333333,
+    "recent": 50.1195,
+    "usual": 49.78704918032787,
     "months": 3
    }
   },

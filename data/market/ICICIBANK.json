@@ -1,20 +1,20 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-20T01:25:30Z",
+ "generated_at": "2026-11-20T12:04:50Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-19",
-  "close": 1608.9,
-  "change": 7.600000000000136,
-  "change_pct": 0.4746143758196597,
-  "high_52w": 1616.0,
+  "as_of": "2026-11-20",
+  "close": 1640.0,
+  "change": 31.09999999999991,
+  "change_pct": 1.9329977002921161,
+  "high_52w": 1645.0,
   "low_52w": 1187.6,
-  "range_position": 0.9834267040149395,
-  "return_1y": 16.325645289566925,
-  "nifty_return_1y": -2.0663924783083543,
-  "delivery_20d": 63.064,
-  "delivery_avg": 62.06733333333333,
-  "delivery_sessions": 60
+  "range_position": 0.9890686488850022,
+  "return_1y": 18.5827910339841,
+  "nifty_return_1y": -1.4949135523429802,
+  "delivery_20d": 63.7975,
+  "delivery_avg": 62.12639344262295,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     1608.9,
     11223667,
     69.26
+   ],
+   [
+    "2026-11-20",
+    1640.0,
+    17973342,
+    65.67
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-19",
    25514.3
+  ],
+  [
+   "2026-11-20",
+   25800.6
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.758074419747025,
+  "pe": 20.13999754390274,
   "pe_note": null,
-  "market_cap_cr": 1155158.022,
+  "market_cap_cr": 1177487.2,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3193,19 +3203,19 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 16.325645289566925,
-    "nifty_return_1y": -2.0663924783083543,
-    "close": 1608.9,
+    "return_1y": 18.5827910339841,
+    "nifty_return_1y": -1.4949135523429802,
+    "close": 1640.0,
     "low_52w": 1187.6,
-    "high_52w": 1616.0
+    "high_52w": 1645.0
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 63.064,
-    "usual": 62.06733333333333,
+    "recent": 63.7975,
+    "usual": 62.12639344262295,
     "months": 3
    }
   },

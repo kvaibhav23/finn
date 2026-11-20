@@ -1,20 +1,20 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-20T01:25:29Z",
+ "generated_at": "2026-11-20T12:04:50Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-19",
-  "close": 3500.0,
-  "change": 41.0,
-  "change_pct": 1.185313674472388,
+  "as_of": "2026-11-20",
+  "close": 3490.0,
+  "change": -10.0,
+  "change_pct": -0.28571428571428914,
   "high_52w": 4644.0,
   "low_52w": 3102.3,
-  "range_position": 0.2579619900110267,
-  "return_1y": -13.075872345709671,
-  "nifty_return_1y": -2.0663924783083543,
-  "delivery_20d": 52.633500000000005,
-  "delivery_avg": 54.0045,
-  "delivery_sessions": 60
+  "range_position": 0.25147564376986437,
+  "return_1y": -14.56548347613219,
+  "nifty_return_1y": -1.4949135523429802,
+  "delivery_20d": 51.855,
+  "delivery_avg": 53.857213114754096,
+  "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1525,6 +1525,12 @@
     3500.0,
     264877,
     40.16
+   ],
+   [
+    "2026-11-20",
+    3490.0,
+    263608,
+    45.02
    ]
   ]
  },
@@ -2532,6 +2538,10 @@
   [
    "2026-11-19",
    25514.3
+  ],
+  [
+   "2026-11-20",
+   25800.6
   ]
  ],
  "results": {
@@ -2545,9 +2555,9 @@
   "ttm_pat_cr": 3115.62,
   "ttm_margin_pct": 4.197631794229519,
   "ttm_eps": 47.82,
-  "pe": 73.19113341698035,
+  "pe": 72.98201589293183,
   "pe_note": null,
-  "market_cap_cr": 228287.5,
+  "market_cap_cr": 227635.25,
   "revenue_yoy_pct": 17.79597392707015,
   "pat_yoy_pct": 8.48799007081842,
   "net_npa_pct": null,
@@ -2913,9 +2923,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -13.075872345709671,
-    "nifty_return_1y": -2.0663924783083543,
-    "close": 3500.0,
+    "return_1y": -14.56548347613219,
+    "nifty_return_1y": -1.4949135523429802,
+    "close": 3490.0,
     "low_52w": 3102.3,
     "high_52w": 4644.0
    }
@@ -2924,8 +2934,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.633500000000005,
-    "usual": 54.0045,
+    "recent": 51.855,
+    "usual": 53.857213114754096,
     "months": 3
    }
   },
