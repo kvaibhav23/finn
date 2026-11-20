@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-20T12:04:52Z",
+ "generated_at": "2026-11-20T21:28:48Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-20",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-13",
-    15749.0,
-    250711,
-    null
-   ],
    [
     "2025-11-14",
     15684.0,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-11-13",
-   25879.15
-  ],
-  [
    "2025-11-14",
    25910.05
   ],
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-20",
+   "filed_at": "2026-11-20T14:08:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_20112026140538_STxIntimation_InvstCall_26Nov2026.pdf"
+  },
+  {
    "date": "2026-11-12",
    "filed_at": "2026-11-12T11:57:00+05:30",
    "tag": "Earnings call",
@@ -3035,12 +3035,18 @@
  "move": {
   "date": "2026-11-20",
   "change_pct": 3.1054529398778508,
-  "typical_pct": 0.9186358737584666,
-  "times": 3.3805047555701657,
+  "typical_pct": 0.9194395796847665,
+  "times": 3.3775497688957086,
   "volume_x": 3.2308634751303833,
   "biggest_in_year": false,
   "nifty_change_pct": 1.1221158330818382,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-20",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_20112026140538_STxIntimation_InvstCall_26Nov2026.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -3049,13 +3055,19 @@
    "facts": {
     "date": "2026-11-20",
     "change_pct": 3.1054529398778508,
-    "typical_pct": 0.9186358737584666,
-    "times": 3.3805047555701657,
+    "typical_pct": 0.9194395796847665,
+    "times": 3.3775497688957086,
     "volume_x": 3.2308634751303833,
     "biggest_in_year": false,
     "nifty_change_pct": 1.1221158330818382
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-20",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_20112026140538_STxIntimation_InvstCall_26Nov2026.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -3109,17 +3121,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "a0edb7970cf1962a",
-   "symbol": "MARUTI",
-   "kind": "move",
-   "date": "2026-11-20",
-   "facts": {
-    "change_pct": 3.1054529398778508,
-    "times": 3.3805047555701657,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

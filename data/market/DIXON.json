@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-20T12:04:49Z",
+ "generated_at": "2026-11-20T21:28:07Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-20",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-13",
-    15323.0,
-    244819,
-    null
-   ],
    [
     "2025-11-14",
     15419.0,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-11-13",
-   25879.15
-  ],
-  [
    "2025-11-14",
    25910.05
   ],
@@ -2656,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-20",
+   "filed_at": "2026-11-20T12:13:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst /Institutional Investor Meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_20112026121311_InvestorMeetOutcome20112026.pdf"
+  },
   {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T20:14:00+05:30",

@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-20T12:04:49Z",
+ "generated_at": "2026-11-20T21:27:54Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-20",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-13",
-    1005.4,
-    8503994,
-    null
-   ],
    [
     "2025-11-14",
     1018.5,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-11-13",
-   25879.15
-  ],
-  [
    "2025-11-14",
    25910.05
   ],
@@ -2935,8 +2925,8 @@
  "calls": [
   {
    "quarter": "Q2FY26",
-   "date": "2025-11-13",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_13112025183447_BFLInvestorCalloutcomeTranscriptforupload.pdf"
+   "date": "2025-12-05",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_05122025200709_BFLInvestordayaudio05122025.pdf"
   },
   {
    "quarter": "Q3FY26",

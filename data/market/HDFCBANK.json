@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-20T12:04:50Z",
+ "generated_at": "2026-11-20T21:28:20Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-20",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-13",
-    986.65,
-    14124839,
-    null
-   ],
    [
     "2025-11-14",
     989.6,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-11-13",
-   25879.15
-  ],
-  [
    "2025-11-14",
    25910.05
   ],
@@ -2657,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-20",
+   "filed_at": "2026-11-20T20:43:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Shareholders meeting",
+   "subject": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf"
+  },
+  {
    "date": "2026-11-17",
    "filed_at": "2026-11-17T15:54:00+05:30",
    "tag": "Other",
@@ -3057,9 +3057,7 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_24082026224258_SEIntimationAugust242026.pdf"
   }
  ],
- "routine": [
-  "2026-10-22T11:55:00+05:30"
- ],
+ "routine": [],
  "calls": [
   {
    "quarter": "Q3FY26",
@@ -3085,12 +3083,18 @@
  "move": {
   "date": "2026-11-20",
   "change_pct": 2.9447554149428123,
-  "typical_pct": 0.8979068358406783,
-  "times": 3.279577899844968,
+  "typical_pct": 0.9010833248962236,
+  "times": 3.268016767796647,
   "volume_x": 2.0895869092364525,
   "biggest_in_year": false,
   "nifty_change_pct": 1.1221158330818382,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-20",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -3099,13 +3103,19 @@
    "facts": {
     "date": "2026-11-20",
     "change_pct": 2.9447554149428123,
-    "typical_pct": 0.8979068358406783,
-    "times": 3.279577899844968,
+    "typical_pct": 0.9010833248962236,
+    "times": 3.268016767796647,
     "volume_x": 2.0895869092364525,
     "biggest_in_year": false,
     "nifty_change_pct": 1.1221158330818382
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-20",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -3146,17 +3156,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "3093691c1dcb412a",
-   "symbol": "HDFCBANK",
-   "kind": "move",
-   "date": "2026-11-20",
-   "facts": {
-    "change_pct": 2.9447554149428123,
-    "times": 3.279577899844968,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-20T12:04:52Z",
+ "generated_at": "2026-11-20T21:29:14Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-20",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-13",
-    3839.2,
-    668623,
-    null
-   ],
    [
     "2025-11-14",
     3829.2,
@@ -1536,10 +1530,6 @@
  },
  "nifty": [
   [
-   "2025-11-13",
-   25879.15
-  ],
-  [
    "2025-11-14",
    25910.05
   ],
@@ -2656,6 +2646,26 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-20",
+   "filed_at": "2026-11-20T17:36:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173557_SEintimation_20_November.pdf"
+  },
+  {
+   "date": "2026-11-20",
+   "filed_at": "2026-11-20T17:32:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173215_SEintimation_20_Nov.pdf"
+  },
   {
    "date": "2026-11-18",
    "filed_at": "2026-11-18T20:53:00+05:30",
