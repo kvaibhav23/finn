@@ -1,31 +1,25 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-21T00:55:16Z",
+ "generated_at": "2026-11-23T13:33:30Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 519.0,
-  "change": -3.5,
-  "change_pct": -0.6698564593301426,
+  "as_of": "2026-11-23",
+  "close": 525.5,
+  "change": 6.5,
+  "change_pct": 1.2524084778420042,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.060014727540500704,
-  "return_1y": -56.627110145412,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 33.564,
-  "delivery_avg": 34.50983606557377,
+  "range_position": 0.06799214531173291,
+  "return_1y": -55.04320301137822,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 33.422,
+  "delivery_avg": 34.28262295081967,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    1222.2,
-    612843,
-    null
-   ],
    [
     "2025-11-17",
     1216.0,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     583.1,
     1117937,
-    46.52
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     519.0,
     1554851,
     29.23
+   ],
+   [
+    "2026-11-23",
+    525.5,
+    2543916,
+    32.66
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 26.615384615384617,
+  "pe": 26.94871794871795,
   "pe_note": null,
-  "market_cap_cr": 14145.5526,
+  "market_cap_cr": 14322.7127,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2646,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-23",
+   "filed_at": "2026-11-23T15:33:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Friday, November 27, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_23112026153129_KPIT_Investor_Conference_Kotak_Midcap_S.pdf"
+  },
   {
    "date": "2026-11-18",
    "filed_at": "2026-11-18T18:34:00+05:30",
@@ -2906,16 +2916,6 @@
    "category": "General Updates",
    "subject": "KPIT Technologies Limited has informed the Exchange about Reconstitution of Nomination and Remuneration (HR) Committee of the Board.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/MeghanaPhadnis_26082026134637_Reconstitution_of_NRC_SE_Outcome_signed.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T16:02:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "KPIT Technologies Limited 9th Annual General Meeting to be held on August 31, 2026 - Response to Stakeholders Empowerment Services (SES) Voting Recommendations",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_25082026160235_KPIT_SES_clarification_Signed.pdf"
   }
  ],
  "routine": [
@@ -2965,9 +2965,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -56.627110145412,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 519.0,
+    "return_1y": -55.04320301137822,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 525.5,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2976,8 +2976,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 33.564,
-    "usual": 34.50983606557377,
+    "recent": 33.422,
+    "usual": 34.28262295081967,
     "months": 3
    }
   },

@@ -1,31 +1,25 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-21T00:55:15Z",
+ "generated_at": "2026-11-23T13:32:58Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 13120.0,
-  "change": 66.0,
-  "change_pct": 0.5055921556611054,
-  "high_52w": 15310.0,
+  "as_of": "2026-11-23",
+  "close": 13390.0,
+  "change": 270.0,
+  "change_pct": 2.057926829268286,
+  "high_52w": 15000.0,
   "low_52w": 9600.0,
-  "range_position": 0.6164623467600701,
-  "return_1y": -14.321165023182914,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 34.7575,
-  "delivery_avg": 37.455737704918036,
+  "range_position": 0.7018518518518518,
+  "return_1y": -10.52455730036752,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 34.326,
+  "delivery_avg": 37.41377049180328,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    15419.0,
-    254561,
-    null
-   ],
    [
     "2025-11-17",
     15641.0,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     14570.0,
     735401,
-    33.78
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     13120.0,
     218855,
     27.17
+   ],
+   [
+    "2026-11-23",
+    13390.0,
+    475555,
+    31.22
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 45.76690968709666,
+  "pe": 46.70875920047441,
   "pe_note": null,
-  "market_cap_cr": 80228.8,
+  "market_cap_cr": 81879.85,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
@@ -2646,6 +2646,26 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-23",
+   "filed_at": "2026-11-23T17:56:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Analyst/Institutional Investor Meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_23112026175353_InvestorMeetOutcome23112026.pdf"
+  },
+  {
+   "date": "2026-11-21",
+   "filed_at": "2026-11-21T20:31:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Update on Asset Purchase Agreement executed between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_21112026203112_VimalClosingAnnouncement21112026.pdf"
+  },
   {
    "date": "2026-11-20",
    "filed_at": "2026-11-20T12:13:00+05:30",
@@ -3055,16 +3075,6 @@
    "category": "General Updates",
    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Intimation with regard to 33rd Annual General Meeting of Dixon Technologies (India) Limited, Closure ofRegister of Members & Share Transfer books, E-Voting details and Record date",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_31082026212932_IntimationofAGM31082026.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T14:34:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_25082026143414_InvestorMeetOutcome25082026.pdf"
   }
  ],
  "routine": [
@@ -3109,19 +3119,19 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -14.321165023182914,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 13120.0,
+    "return_1y": -10.52455730036752,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 13390.0,
     "low_52w": 9600.0,
-    "high_52w": 15310.0
+    "high_52w": 15000.0
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 34.7575,
-    "usual": 37.455737704918036,
+    "recent": 34.326,
+    "usual": 37.41377049180328,
     "months": 3
    }
   },

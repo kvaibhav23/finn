@@ -1,31 +1,25 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-21T00:55:16Z",
+ "generated_at": "2026-11-23T13:33:20Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 1098.0,
-  "change": 6.099999999999909,
-  "change_pct": 0.5586592178770777,
+  "as_of": "2026-11-23",
+  "close": 1103.4,
+  "change": 5.400000000000091,
+  "change_pct": 0.4918032786885407,
   "high_52w": 1728.0,
   "low_52w": 980.4,
-  "range_position": 0.15730337078651688,
-  "return_1y": -28.538887081028307,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 52.262,
-  "delivery_avg": 54.10983606557377,
+  "range_position": 0.164526484751204,
+  "return_1y": -28.582524271844655,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 52.0015,
+  "delivery_avg": 54.001311475409835,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    1502.8,
-    9739549,
-    null
-   ],
    [
     "2025-11-17",
     1507.6,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     1130.0,
     8565354,
-    54.22
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     1098.0,
     13749744,
     50.13
+   ],
+   [
+    "2026-11-23",
+    1103.4,
+    12339881,
+    47.6
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 30788.0,
   "ttm_margin_pct": 16.261038576921454,
   "ttm_eps": 75.59,
-  "pe": 14.525730916787934,
+  "pe": 14.59716893769017,
   "pe_note": null,
-  "market_cap_cr": 444909.6,
+  "market_cap_cr": 447097.68,
   "revenue_yoy_pct": 10.685547314003152,
   "pat_yoy_pct": 6.2779661016949095,
   "net_npa_pct": null,
@@ -2895,51 +2895,10 @@
    "category": "Updates",
    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_01092026153342_SE_filing_Investor_conference_01092026.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T17:33:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_25082026173311_SE_filing_Investor_conference_25082026.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T17:26:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Research: The AI ROI Gap: Turning Bold AI Investments into Measurable Enterprise Value'.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_25082026172543_PR_25082026.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T21:58:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "Infosys Limited has informed the Exchange regarding Allotment of 175865 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/INFY_24082026215703_SE_filing_ESOP_Allotment.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T21:54:00+05:30",
-   "tag": "Appointment",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Change in Management",
-   "subject": "Infosys Limited has informed the Exchange about change in Management",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/INFY_24082026215249_SE_24082026.pdf"
   }
  ],
  "routine": [
-  "2026-10-29T15:15:00+05:30",
-  "2026-10-24T19:43:00+05:30"
+  "2026-10-29T15:15:00+05:30"
  ],
  "calls": [
   {
@@ -2974,9 +2933,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -28.538887081028307,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 1098.0,
+    "return_1y": -28.582524271844655,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 1103.4,
     "low_52w": 980.4,
     "high_52w": 1728.0
    }
@@ -2985,8 +2944,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.262,
-    "usual": 54.10983606557377,
+    "recent": 52.0015,
+    "usual": 54.001311475409835,
     "months": 3
    }
   },

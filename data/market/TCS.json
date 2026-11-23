@@ -1,31 +1,25 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-21T00:55:18Z",
+ "generated_at": "2026-11-23T13:34:01Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 2376.2,
-  "change": 33.5,
-  "change_pct": 1.4299739616681517,
+  "as_of": "2026-11-23",
+  "close": 2460.0,
+  "change": 83.80000000000018,
+  "change_pct": 3.526639171786905,
   "high_52w": 3350.0,
   "low_52w": 1976.8,
-  "range_position": 0.2908534809204776,
-  "return_1y": -24.440345967947096,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 47.5695,
-  "delivery_avg": 48.54524590163935,
+  "range_position": 0.3518788231867172,
+  "return_1y": -21.919634355360884,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 47.8395,
+  "delivery_avg": 48.41819672131148,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    3106.0,
-    2210794,
-    null
-   ],
    [
     "2025-11-17",
     3102.2,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     2284.1,
     1542723,
-    47.51
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     2376.2,
     2960416,
     26.04
+   ],
+   [
+    "2026-11-23",
+    2460.0,
+    7386320,
+    39.76
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 51858.0,
   "ttm_margin_pct": 18.308337569903408,
   "ttm_eps": 142.64000000000001,
-  "pe": 16.658721256309587,
+  "pe": 17.24621424565339,
   "pe_note": null,
-  "market_cap_cr": 860184.3999999999,
+  "market_cap_cr": 890520.0,
   "revenue_yoy_pct": 11.229653946108598,
   "pat_yoy_pct": 14.86274833072294,
   "net_npa_pct": null,
@@ -2935,36 +2935,6 @@
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_26082026153743_SEInt.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T16:58:00+05:30",
-   "tag": "Order or contract",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Bagging/Receiving of orders/contracts",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165820_SE_Disclosure_award.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T16:57:00+05:30",
-   "tag": "Press release",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Press Release",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated August 24, 2026, titled \"TCS and Porsche AG Partner to Accelerate the Future of AI-Powered Mobility\".",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165707_SE_Disclosure_240828_acq.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T16:55:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Acquisition",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_24082026165522_SE_Disclosure_240828_acq.pdf"
   }
  ],
  "routine": [
@@ -2999,8 +2969,31 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-23",
+  "change_pct": 3.526639171786905,
+  "typical_pct": 0.9514515735545181,
+  "times": 3.706588196193496,
+  "volume_x": 1.697729612337871,
+  "biggest_in_year": false,
+  "nifty_change_pct": -1.7478275699014612,
+  "filings": []
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-23",
+    "change_pct": 3.526639171786905,
+    "typical_pct": 0.9514515735545181,
+    "times": 3.706588196193496,
+    "volume_x": 1.697729612337871,
+    "biggest_in_year": false,
+    "nifty_change_pct": -1.7478275699014612
+   },
+   "items": []
+  },
   {
    "key": "track",
    "state": "enough",
@@ -3015,9 +3008,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -24.440345967947096,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 2376.2,
+    "return_1y": -21.919634355360884,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 2460.0,
     "low_52w": 1976.8,
     "high_52w": 3350.0
    }
@@ -3026,8 +3019,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 47.5695,
-    "usual": 48.54524590163935,
+    "recent": 47.8395,
+    "usual": 48.41819672131148,
     "months": 3
    }
   },
@@ -3053,5 +3046,17 @@
   "Pending": 14,
   "On track": 1
  },
- "events": []
+ "events": [
+  {
+   "id": "91e92334ad12b276",
+   "symbol": "TCS",
+   "kind": "move",
+   "date": "2026-11-23",
+   "facts": {
+    "change_pct": 3.526639171786905,
+    "times": 3.706588196193496,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

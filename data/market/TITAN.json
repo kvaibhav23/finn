@@ -1,31 +1,25 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-21T00:55:18Z",
+ "generated_at": "2026-11-23T13:34:05Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 4620.0,
-  "change": -80.0,
-  "change_pct": -1.7021276595744705,
+  "as_of": "2026-11-23",
+  "close": 4680.0,
+  "change": 60.0,
+  "change_pct": 1.298701298701288,
   "high_52w": 5186.7,
   "low_52w": 3751.0,
-  "range_position": 0.6052796545239257,
-  "return_1y": 18.388683886838876,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 52.791999999999994,
-  "delivery_avg": 55.783114754098364,
+  "range_position": 0.6470711151354741,
+  "return_1y": 19.870908252650988,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 52.3115,
+  "delivery_avg": 55.66311475409836,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    3829.2,
-    575050,
-    null
-   ],
    [
     "2025-11-17",
     3868.6,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     5079.0,
     256376,
-    49.75
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     4620.0,
     1478945,
     36.71
+   ],
+   [
+    "2026-11-23",
+    4680.0,
+    1005916,
+    42.43
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 7032.73,
   "ttm_margin_pct": 7.457351600110279,
   "ttm_eps": 78.94999999999999,
-  "pe": 58.5180493983534,
+  "pe": 59.27802406586448,
   "pe_note": null,
-  "market_cap_cr": 410163.6,
+  "market_cap_cr": 415490.4,
   "revenue_yoy_pct": 10.088117489986658,
   "pat_yoy_pct": 113.63660714285713,
   "net_npa_pct": null,
@@ -2646,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-23",
+   "filed_at": "2026-11-23T16:56:00+05:30",
+   "tag": "Credit rating",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Credit Rating",
+   "subject": "Titan Company Limited has informed the Exchange about Credit Rating",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf"
+  },
   {
    "date": "2026-11-20",
    "filed_at": "2026-11-20T17:36:00+05:30",
@@ -2907,9 +2917,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 18.388683886838876,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 4620.0,
+    "return_1y": 19.870908252650988,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 4680.0,
     "low_52w": 3751.0,
     "high_52w": 5186.7
    }
@@ -2918,8 +2928,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.791999999999994,
-    "usual": 55.783114754098364,
+    "recent": 52.3115,
+    "usual": 55.66311475409836,
     "months": 3
    }
   },
@@ -2927,14 +2937,19 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 2,
+    "count": 3,
     "days": 90,
     "tags": [
-     "Auditor change",
-     "Credit rating"
+     "Credit rating",
+     "Auditor change"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-23",
+     "tag": "Credit rating",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf"
+    },
     {
      "date": "2026-11-05",
      "tag": "Auditor change",
@@ -2951,5 +2966,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "43b40d82aba2c9a2",
+   "symbol": "TITAN",
+   "kind": "flag",
+   "date": "2026-11-23",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf"
+   }
+  }
+ ]
 }

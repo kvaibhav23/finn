@@ -1,31 +1,25 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-21T00:55:16Z",
+ "generated_at": "2026-11-23T13:33:11Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 846.0,
-  "change": 24.200000000000045,
-  "change_pct": 2.9447554149428123,
+  "as_of": "2026-11-23",
+  "close": 817.8,
+  "change": -28.200000000000045,
+  "change_pct": -3.3333333333333437,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.5076083835773758,
-  "return_1y": -16.14214204292016,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 60.221000000000004,
-  "delivery_avg": 59.54737704918033,
+  "range_position": 0.42664369796152724,
+  "return_1y": -18.060217423976756,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 60.374,
+  "delivery_avg": 59.52426229508197,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    989.6,
-    21386965,
-    null
-   ],
    [
     "2025-11-17",
     996.55,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     729.0,
     11408345,
-    58.94
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     846.0,
     70110384,
     63.2
+   ],
+   [
+    "2026-11-23",
+    817.8,
+    55628667,
+    57.53
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 16.30686198920586,
+  "pe": 15.763299922898998,
   "pe_note": null,
-  "market_cap_cr": 1304413.56,
+  "market_cap_cr": 1260933.108,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3045,16 +3045,6 @@
    "category": "General Updates",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_29082026174541_Stockexchangeintimation_SJ.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T22:43:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_24082026224258_SEIntimationAugust242026.pdf"
   }
  ],
  "routine": [],
@@ -3081,13 +3071,13 @@
   }
  ],
  "move": {
-  "date": "2026-11-20",
-  "change_pct": 2.9447554149428123,
-  "typical_pct": 0.9010833248962236,
-  "times": 3.268016767796647,
-  "volume_x": 2.0895869092364525,
+  "date": "2026-11-23",
+  "change_pct": -3.3333333333333437,
+  "typical_pct": 0.9051434163048322,
+  "times": 3.682657657657592,
+  "volume_x": 1.6026295889594793,
   "biggest_in_year": false,
-  "nifty_change_pct": 1.1221158330818382,
+  "nifty_change_pct": -1.7478275699014612,
   "filings": [
    {
     "date": "2026-11-20",
@@ -3099,15 +3089,15 @@
  "signals": [
   {
    "key": "move",
-   "state": "up",
+   "state": "down",
    "facts": {
-    "date": "2026-11-20",
-    "change_pct": 2.9447554149428123,
-    "typical_pct": 0.9010833248962236,
-    "times": 3.268016767796647,
-    "volume_x": 2.0895869092364525,
+    "date": "2026-11-23",
+    "change_pct": -3.3333333333333437,
+    "typical_pct": 0.9051434163048322,
+    "times": 3.682657657657592,
+    "volume_x": 1.6026295889594793,
     "biggest_in_year": false,
-    "nifty_change_pct": 1.1221158330818382
+    "nifty_change_pct": -1.7478275699014612
    },
    "items": [
     {
@@ -3126,9 +3116,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -16.14214204292016,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 846.0,
+    "return_1y": -18.060217423976756,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 817.8,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3137,8 +3127,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.221000000000004,
-    "usual": 59.54737704918033,
+    "recent": 60.374,
+    "usual": 59.52426229508197,
     "months": 3
    }
   },
@@ -3156,5 +3146,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "6faa22bf3d32ae93",
+   "symbol": "HDFCBANK",
+   "kind": "move",
+   "date": "2026-11-23",
+   "facts": {
+    "change_pct": -3.3333333333333437,
+    "times": 3.682657657657592,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

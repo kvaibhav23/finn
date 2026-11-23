@@ -1,31 +1,25 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-21T00:55:18Z",
+ "generated_at": "2026-11-23T13:33:52Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 1884.9,
-  "change": -15.099999999999909,
-  "change_pct": -0.7947368421052592,
+  "as_of": "2026-11-23",
+  "close": 1860.0,
+  "change": -24.90000000000009,
+  "change_pct": -1.3210249880630354,
   "high_52w": 2046.9,
   "low_52w": 1583.7,
-  "range_position": 0.650259067357513,
-  "return_1y": 6.0481602340497265,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 57.497,
-  "delivery_avg": 61.9527868852459,
+  "range_position": 0.596502590673575,
+  "return_1y": 4.511996403888285,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 57.26649999999999,
+  "delivery_avg": 61.64885245901639,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    1757.1,
-    1667322,
-    null
-   ],
    [
     "2025-11-17",
     1763.9,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     1910.0,
     2317987,
-    73.91
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     1884.9,
     1916054,
     57.55
+   ],
+   [
+    "2026-11-23",
+    1860.0,
+    1580308,
+    55.37
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 10987.13,
   "ttm_margin_pct": 17.827301620680007,
   "ttm_eps": 45.7,
-  "pe": 41.24507658643326,
+  "pe": 40.70021881838074,
   "pe_note": null,
-  "market_cap_cr": 452244.057,
+  "market_cap_cr": 446269.8,
   "revenue_yoy_pct": 11.88260232029843,
   "pat_yoy_pct": -36.15673850781612,
   "net_npa_pct": null,
@@ -2945,29 +2945,10 @@
    "category": "Press Release",
    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated September 01, 2026, titled \"Sun Pharma Participates in White House Signing Ceremony Highlighting U.S. Medicines Pricing and Access Commitments\".",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_01092026014518_SEintimationPRforwhitehouse.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T15:57:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Notice of Postal Ballot",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_25082026155629_SEIntimationforNoticeofPostalBallot.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T11:29:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA456_25082026112916_IntimationSE20260825_for_Analyst_and_Investor_meeting_Signed.pdf"
   }
  ],
  "routine": [
+  "2026-11-21T12:47:00+05:30",
   "2026-10-31T17:32:00+05:30",
   "2026-10-26T12:30:00+05:30"
  ],
@@ -3004,9 +2985,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 6.0481602340497265,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 1884.9,
+    "return_1y": 4.511996403888285,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 1860.0,
     "low_52w": 1583.7,
     "high_52w": 2046.9
    }
@@ -3015,8 +2996,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.497,
-    "usual": 61.9527868852459,
+    "recent": 57.26649999999999,
+    "usual": 61.64885245901639,
     "months": 3
    }
   },

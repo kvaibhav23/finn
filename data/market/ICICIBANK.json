@@ -1,31 +1,25 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-21T00:55:16Z",
+ "generated_at": "2026-11-23T13:33:16Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 1640.0,
-  "change": 31.09999999999991,
-  "change_pct": 1.9329977002921161,
+  "as_of": "2026-11-23",
+  "close": 1585.5,
+  "change": -54.5,
+  "change_pct": -3.3231707317073145,
   "high_52w": 1645.0,
   "low_52w": 1187.6,
-  "range_position": 0.9890686488850022,
-  "return_1y": 18.5827910339841,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 63.7975,
-  "delivery_avg": 62.12639344262295,
+  "range_position": 0.869916921731526,
+  "return_1y": 15.772179627601313,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 63.741,
+  "delivery_avg": 62.28934426229508,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    1373.0,
-    9694498,
-    null
-   ],
    [
     "2025-11-17",
     1379.0,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     1415.0,
     5307113,
-    53.24
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     1640.0,
     17973342,
     65.67
+   ],
+   [
+    "2026-11-23",
+    1585.5,
+    22243169,
+    63.18
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 20.13999754390274,
+  "pe": 19.47071104015719,
   "pe_note": null,
-  "market_cap_cr": 1177487.2,
+  "market_cap_cr": 1138357.29,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3135,36 +3135,6 @@
    "category": "ESOP/ESOS/ESPS",
    "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 48983 Shares.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_27082026162709_Lettertoexchange.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T18:51:00+05:30",
-   "tag": "Credit rating",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Credit Rating",
-   "subject": "ICICI Bank Limited has informed the Exchange about Credit Rating",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T18:26:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - This is to inform you that ICICI Bank Limited, acting through its IFSC Banking Unit, has today at 10:45 a.m. IST pri",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026182614_NSEBSE24082026.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T13:31:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026132739_BSENSE.pdf"
   }
  ],
  "routine": [
@@ -3192,8 +3162,43 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-23",
+  "change_pct": -3.3231707317073145,
+  "typical_pct": 0.7997218358831715,
+  "times": 4.1554082714740135,
+  "volume_x": 1.6655423636021434,
+  "biggest_in_year": true,
+  "nifty_change_pct": -1.7478275699014612,
+  "filings": [
+   {
+    "date": "2026-11-20",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_20112026111433_Lettertoexchange.pdf"
+   }
+  ]
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "down",
+   "facts": {
+    "date": "2026-11-23",
+    "change_pct": -3.3231707317073145,
+    "typical_pct": 0.7997218358831715,
+    "times": 4.1554082714740135,
+    "volume_x": 1.6655423636021434,
+    "biggest_in_year": true,
+    "nifty_change_pct": -1.7478275699014612
+   },
+   "items": [
+    {
+     "date": "2026-11-20",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_20112026111433_Lettertoexchange.pdf"
+    }
+   ]
+  },
   {
    "key": "track",
    "state": "none",
@@ -3203,9 +3208,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 18.5827910339841,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 1640.0,
+    "return_1y": 15.772179627601313,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 1585.5,
     "low_52w": 1187.6,
     "high_52w": 1645.0
    }
@@ -3214,8 +3219,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 63.7975,
-    "usual": 62.12639344262295,
+    "recent": 63.741,
+    "usual": 62.28934426229508,
     "months": 3
    }
   },
@@ -3223,7 +3228,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 4,
+    "count": 3,
     "days": 90,
     "tags": [
      "Credit rating"
@@ -3244,11 +3249,6 @@
      "date": "2026-09-01",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_01092026185213_NSEBSE_01092026.pdf"
-    },
-    {
-     "date": "2026-08-24",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_24082026185053_NSEBSE24082026.pdf"
     }
    ]
   }
@@ -3256,5 +3256,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "3b8a81f4c3f682c2",
+   "symbol": "ICICIBANK",
+   "kind": "move",
+   "date": "2026-11-23",
+   "facts": {
+    "change_pct": -3.3231707317073145,
+    "times": 4.1554082714740135,
+    "biggest_in_year": true
+   }
+  }
+ ]
 }

@@ -1,31 +1,25 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-21T00:55:17Z",
+ "generated_at": "2026-11-23T13:33:39Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 14011.0,
-  "change": 422.0,
-  "change_pct": 3.1054529398778508,
+  "as_of": "2026-11-23",
+  "close": 14010.0,
+  "change": -1.0,
+  "change_pct": -0.007137249304123294,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.47392325763508225,
-  "return_1y": -11.32839693690273,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 52.7275,
-  "delivery_avg": 54.37393442622951,
+  "range_position": 0.47376664056382145,
+  "return_1y": -12.311447706077484,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 52.959500000000006,
+  "delivery_avg": 54.322459016393445,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    15684.0,
-    253698,
-    null
-   ],
    [
     "2025-11-17",
     15878.0,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     13620.0,
     230499,
-    55.68
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     14011.0,
     1648162,
     52.28
+   ],
+   [
+    "2026-11-23",
+    14010.0,
+    1251978,
+    52.54
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 32.748989084449434,
+  "pe": 32.7466517074539,
   "pe_note": null,
-  "market_cap_cr": 440505.84,
+  "market_cap_cr": 440474.4,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -2646,6 +2646,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-22",
+   "filed_at": "2026-11-22T00:08:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Maruti Suzuki India Limited has informed the Exchange about Price increase",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_22112026000413_StxIntimation_PriceIncrease_22Nov20267.pdf"
+  },
   {
    "date": "2026-11-20",
    "filed_at": "2026-11-20T14:08:00+05:30",
@@ -3032,43 +3042,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-20",
-  "change_pct": 3.1054529398778508,
-  "typical_pct": 0.9194395796847665,
-  "times": 3.3775497688957086,
-  "volume_x": 3.2308634751303833,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.1221158330818382,
-  "filings": [
-   {
-    "date": "2026-11-20",
-    "tag": "Earnings call",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_20112026140538_STxIntimation_InvstCall_26Nov2026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-20",
-    "change_pct": 3.1054529398778508,
-    "typical_pct": 0.9194395796847665,
-    "times": 3.3775497688957086,
-    "volume_x": 3.2308634751303833,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.1221158330818382
-   },
-   "items": [
-    {
-     "date": "2026-11-20",
-     "tag": "Earnings call",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_20112026140538_STxIntimation_InvstCall_26Nov2026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -3078,9 +3053,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -11.32839693690273,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 14011.0,
+    "return_1y": -12.311447706077484,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 14010.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3089,8 +3064,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.7275,
-    "usual": 54.37393442622951,
+    "recent": 52.959500000000006,
+    "usual": 54.322459016393445,
     "months": 3
    }
   },

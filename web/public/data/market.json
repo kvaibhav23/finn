@@ -1,23 +1,23 @@
 {
- "date": "2026-11-20",
- "close": 25800.6,
- "change_pct": 1.1221158330818382,
+ "date": "2026-11-23",
+ "close": 25349.65,
+ "change_pct": -1.7478275699014612,
  "big": false,
  "movers": [
   {
    "symbol": "TCS",
    "name": "Tata Consultancy Services Limited",
-   "change_pct": 1.4299739616681517
+   "change_pct": 3.526639171786905
   },
   {
-   "symbol": "KPITTECH",
-   "name": "KPIT Technologies Limited",
-   "change_pct": -0.6698564593301426
+   "symbol": "DIXON",
+   "name": "Dixon Technologies (India) Limited",
+   "change_pct": 2.057926829268286
   },
   {
-   "symbol": "ASIANPAINT",
-   "name": "Asian Paints Limited",
-   "change_pct": 0.5125240847784207
+   "symbol": "SUPREMEIND",
+   "name": "Supreme Industries Limited",
+   "change_pct": -1.5595757953836609
   }
  ]
 }

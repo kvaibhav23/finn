@@ -1,31 +1,25 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-21T00:55:17Z",
+ "generated_at": "2026-11-23T13:33:43Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-20",
-  "close": 7570.0,
-  "change": 20.0,
-  "change_pct": 0.26490066225166586,
+  "as_of": "2026-11-23",
+  "close": 7430.0,
+  "change": -140.0,
+  "change_pct": -1.8494055482166427,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.2619116373086919,
-  "return_1y": -1.0263450349741743,
-  "nifty_return_1y": -1.4949135523429802,
-  "delivery_20d": 50.565,
-  "delivery_avg": 51.433934426229506,
+  "range_position": 0.22148426220040426,
+  "return_1y": -1.2099454859726078,
+  "nifty_return_1y": -2.7562370172029893,
+  "delivery_20d": 50.445499999999996,
+  "delivery_avg": 51.529016393442625,
   "delivery_sessions": 61
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-14",
-    7632.0,
-    127917,
-    null
-   ],
    [
     "2025-11-17",
     7683.0,
@@ -1164,7 +1158,7 @@
     "2026-08-24",
     9054.0,
     142765,
-    48.62
+    null
    ],
    [
     "2026-08-25",
@@ -1525,14 +1519,16 @@
     7570.0,
     639287,
     55.86
+   ],
+   [
+    "2026-11-23",
+    7430.0,
+    513154,
+    54.42
    ]
   ]
  },
  "nifty": [
-  [
-   "2025-11-14",
-   25910.05
-  ],
   [
    "2025-11-17",
    26013.45
@@ -2532,6 +2528,10 @@
   [
    "2026-11-20",
    25800.6
+  ],
+  [
+   "2026-11-23",
+   25349.65
   ]
  ],
  "results": {
@@ -2545,9 +2545,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 36.06307465104092,
+  "pe": 35.396122147587064,
   "pe_note": null,
-  "market_cap_cr": 114073.844,
+  "market_cap_cr": 111964.156,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -2975,26 +2975,6 @@
    "category": "General Updates",
    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_29082026162806_Intimationtostockexchange.pdf"
-  },
-  {
-   "date": "2026-08-25",
-   "filed_at": "2026-08-25T18:47:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_25082026184658_Intimationtostockexchange.pdf"
-  },
-  {
-   "date": "2026-08-24",
-   "filed_at": "2026-08-24T22:40:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Polycab India Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_24082026224035_Intimationtostockexchange.pdf"
   }
  ],
  "routine": [
@@ -3033,9 +3013,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -1.0263450349741743,
-    "nifty_return_1y": -1.4949135523429802,
-    "close": 7570.0,
+    "return_1y": -1.2099454859726078,
+    "nifty_return_1y": -2.7562370172029893,
+    "close": 7430.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3044,8 +3024,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.565,
-    "usual": 51.433934426229506,
+    "recent": 50.445499999999996,
+    "usual": 51.529016393442625,
     "months": 3
    }
   },
