@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-23T13:34:05Z",
+ "generated_at": "2026-11-24T02:32:36Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 19.870908252650988,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 52.3115,
-  "delivery_avg": 55.66311475409836,
-  "delivery_sessions": 61
+  "delivery_avg": 55.70516666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     5124.8,
     347515,
-    53.14
+    null
    ],
    [
     "2026-08-26",
@@ -2929,7 +2929,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.3115,
-    "usual": 55.66311475409836,
+    "usual": 55.70516666666666,
     "months": 3
    }
   },
@@ -2966,16 +2966,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "43b40d82aba2c9a2",
-   "symbol": "TITAN",
-   "kind": "flag",
-   "date": "2026-11-23",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf"
-   }
-  }
- ]
+ "events": []
 }

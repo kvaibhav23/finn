@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-23T13:32:49Z",
+ "generated_at": "2026-11-24T02:31:20Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -1.5813566375364019,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 66.6725,
-  "delivery_avg": 67.61655737704918,
-  "delivery_sessions": 61
+  "delivery_avg": 67.66033333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1947.0,
     3820206,
-    64.99
+    null
    ],
    [
     "2026-08-26",
@@ -3021,7 +3021,7 @@
    "state": "usual",
    "facts": {
     "recent": 66.6725,
-    "usual": 67.61655737704918,
+    "usual": 67.66033333333333,
     "months": 3
    }
   },

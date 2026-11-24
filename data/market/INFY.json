@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-23T13:33:20Z",
+ "generated_at": "2026-11-24T02:31:51Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -28.582524271844655,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 52.0015,
-  "delivery_avg": 54.001311475409835,
-  "delivery_sessions": 61
+  "delivery_avg": 53.809333333333335,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1144.0,
     8121237,
-    65.52
+    null
    ],
    [
     "2026-08-26",
@@ -2945,7 +2945,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.0015,
-    "usual": 54.001311475409835,
+    "usual": 53.809333333333335,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-23T13:33:48Z",
+ "generated_at": "2026-11-24T02:32:18Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -12.647096857623163,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 50.931,
-  "delivery_avg": 56.43229508196721,
-  "delivery_sessions": 61
+  "delivery_avg": 56.4905,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1317.0,
     7115355,
-    52.94
+    null
    ],
    [
     "2026-08-26",
@@ -3093,7 +3093,7 @@
    "state": "lower",
    "facts": {
     "recent": 50.931,
-    "usual": 56.43229508196721,
+    "usual": 56.4905,
     "months": 3
    }
   },

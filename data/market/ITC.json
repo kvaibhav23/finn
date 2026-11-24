@@ -1,6 +1,6 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-23T13:33:25Z",
+ "generated_at": "2026-11-24T02:31:55Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -26.19835723918108,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 50.4545,
-  "delivery_avg": 55.08918032786885,
-  "delivery_sessions": 61
+  "delivery_avg": 55.06633333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     271.4,
     8414719,
-    56.46
+    null
    ],
    [
     "2026-08-26",
@@ -2792,7 +2792,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.4545,
-    "usual": 55.08918032786885,
+    "usual": 55.06633333333333,
     "months": 3
    }
   },

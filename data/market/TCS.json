@@ -1,6 +1,6 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-23T13:34:01Z",
+ "generated_at": "2026-11-24T02:32:32Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -21.919634355360884,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 47.8395,
-  "delivery_avg": 48.41819672131148,
-  "delivery_sessions": 61
+  "delivery_avg": 48.598333333333336,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     2296.2,
     3041609,
-    37.61
+    null
    ],
    [
     "2026-08-26",
@@ -2925,16 +2925,6 @@
    "category": "Updates",
    "subject": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS to harmonise Metro's IT application landscape and support scalable growth'.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_03092026112207_PR_03Sep26_signed.pdf"
-  },
-  {
-   "date": "2026-08-26",
-   "filed_at": "2026-08-26T15:38:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_26082026153743_SEInt.pdf"
   }
  ],
  "routine": [
@@ -3020,7 +3010,7 @@
    "state": "usual",
    "facts": {
     "recent": 47.8395,
-    "usual": 48.41819672131148,
+    "usual": 48.598333333333336,
     "months": 3
    }
   },
@@ -3046,17 +3036,5 @@
   "Pending": 14,
   "On track": 1
  },
- "events": [
-  {
-   "id": "91e92334ad12b276",
-   "symbol": "TCS",
-   "kind": "move",
-   "date": "2026-11-23",
-   "facts": {
-    "change_pct": 3.526639171786905,
-    "times": 3.706588196193496,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

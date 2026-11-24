@@ -1,6 +1,6 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-23T13:33:03Z",
+ "generated_at": "2026-11-24T02:31:33Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -15.66617137196632,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 52.4485,
-  "delivery_avg": 54.11983606557377,
-  "delivery_sessions": 61
+  "delivery_avg": 54.149,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     3909.6,
     215829,
-    52.37
+    null
    ],
    [
     "2026-08-26",
@@ -2877,16 +2877,6 @@
    "category": "General Updates",
    "subject": "Avenue Supermarts Limited has informed the Exchange about ESG Rating by SES ESG Research Pvt. Ltd.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_27082026155920_ASLSESESGRatingIntimation27082026.pdf"
-  },
-  {
-   "date": "2026-08-26",
-   "filed_at": "2026-08-26T11:11:00+05:30",
-   "tag": "Regulatory or legal",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Action(s) taken or orders passed",
-   "subject": "Avenue Supermarts Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
   }
  ],
  "routine": [
@@ -2925,7 +2915,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.4485,
-    "usual": 54.11983606557377,
+    "usual": 54.149,
     "months": 3
    }
   },
@@ -2933,7 +2923,7 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 4,
+    "count": 3,
     "days": 90,
     "tags": [
      "Regulatory or legal",
@@ -2955,11 +2945,6 @@
      "date": "2026-08-31",
      "tag": "Credit rating",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_31082026190013_ASLCRISILNCDCreditRatingIntimation31082026.pdf"
-    },
-    {
-     "date": "2026-08-26",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf"
     }
    ]
   }

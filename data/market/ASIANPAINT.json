@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-23T13:32:39Z",
+ "generated_at": "2026-11-24T02:31:10Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -10.29687825905582,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 49.392,
-  "delivery_avg": 54.85737704918033,
-  "delivery_sessions": 61
+  "delivery_avg": 54.974666666666664,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     2639.8,
     479480,
-    47.82
+    null
    ],
    [
     "2026-08-26",
@@ -3001,7 +3001,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.392,
-    "usual": 54.85737704918033,
+    "usual": 54.974666666666664,
     "months": 3
    }
   },

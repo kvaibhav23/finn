@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-23T13:33:16Z",
+ "generated_at": "2026-11-24T02:31:47Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 15.772179627601313,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 63.741,
-  "delivery_avg": 62.28934426229508,
-  "delivery_sessions": 61
+  "delivery_avg": 62.7375,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1422.7,
     7983249,
-    35.4
+    null
    ],
    [
     "2026-08-26",
@@ -3220,7 +3220,7 @@
    "state": "usual",
    "facts": {
     "recent": 63.741,
-    "usual": 62.28934426229508,
+    "usual": 62.7375,
     "months": 3
    }
   },
@@ -3256,17 +3256,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "3b8a81f4c3f682c2",
-   "symbol": "ICICIBANK",
-   "kind": "move",
-   "date": "2026-11-23",
-   "facts": {
-    "change_pct": -3.3231707317073145,
-    "times": 4.1554082714740135,
-    "biggest_in_year": true
-   }
-  }
- ]
+ "events": []
 }

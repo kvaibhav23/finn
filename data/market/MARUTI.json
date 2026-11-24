@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-23T13:33:39Z",
+ "generated_at": "2026-11-24T02:32:10Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -12.311447706077484,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 52.959500000000006,
-  "delivery_avg": 54.322459016393445,
-  "delivery_sessions": 61
+  "delivery_avg": 54.403999999999996,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     13678.0,
     296429,
-    49.43
+    null
    ],
    [
     "2026-08-26",
@@ -3065,7 +3065,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.959500000000006,
-    "usual": 54.322459016393445,
+    "usual": 54.403999999999996,
     "months": 3
    }
   },

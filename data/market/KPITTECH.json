@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-23T13:33:30Z",
+ "generated_at": "2026-11-24T02:32:00Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -55.04320301137822,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 33.422,
-  "delivery_avg": 34.28262295081967,
-  "delivery_sessions": 61
+  "delivery_avg": 34.0635,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     592.0,
     1582973,
-    47.43
+    null
    ],
    [
     "2026-08-26",
@@ -2906,16 +2906,6 @@
    "category": "Action(s) taken or orders passed",
    "subject": "Disclosure under Regulation 30 of SEBI LODR - adjudication order from the Office of the Collector of Stamps",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27082026163341_KPIT_SE_intimation_Notice_26_August_2026_signed.pdf"
-  },
-  {
-   "date": "2026-08-26",
-   "filed_at": "2026-08-26T13:47:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Reconstitution of Nomination and Remuneration (HR) Committee of the Board.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/MeghanaPhadnis_26082026134637_Reconstitution_of_NRC_SE_Outcome_signed.pdf"
   }
  ],
  "routine": [
@@ -2977,7 +2967,7 @@
    "state": "usual",
    "facts": {
     "recent": 33.422,
-    "usual": 34.28262295081967,
+    "usual": 34.0635,
     "months": 3
    }
   },

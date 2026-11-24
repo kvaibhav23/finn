@@ -1,6 +1,6 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-23T13:33:07Z",
+ "generated_at": "2026-11-24T02:31:38Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 19.920516641828122,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 56.3535,
-  "delivery_avg": 57.83754098360656,
-  "delivery_sessions": 61
+  "delivery_avg": 57.941,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     331.0,
     29062006,
-    51.63
+    null
    ],
    [
     "2026-08-26",
@@ -2755,16 +2755,6 @@
    "category": "Shareholders meeting",
    "subject": "Eternal Limited has submitted with exchange copy of scrutinizers report and voting results of 16th Annual General Meeting of the Company held on August 26, 2026.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_27082026195837_VotingResultSignedAGM.pdf"
-  },
-  {
-   "date": "2026-08-26",
-   "filed_at": "2026-08-26T20:30:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Shareholders meeting",
-   "subject": "Eternal Limited has informed the exchange regarding proceedings of 16th Annual General Meeting of the Company held on August 26, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_26082026202912_SignedproceedingsofAGM.pdf"
   }
  ],
  "routine": [],
@@ -2813,7 +2803,7 @@
    "state": "usual",
    "facts": {
     "recent": 56.3535,
-    "usual": 57.83754098360656,
+    "usual": 57.941,
     "months": 3
    }
   },

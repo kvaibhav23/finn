@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-23T13:33:11Z",
+ "generated_at": "2026-11-24T02:31:42Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -18.060217423976756,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 60.374,
-  "delivery_avg": 59.52426229508197,
-  "delivery_sessions": 61
+  "delivery_avg": 59.78483333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     727.5,
     17511874,
-    43.89
+    null
    ],
    [
     "2026-08-26",
@@ -3128,7 +3128,7 @@
    "state": "usual",
    "facts": {
     "recent": 60.374,
-    "usual": 59.52426229508197,
+    "usual": 59.78483333333334,
     "months": 3
    }
   },
@@ -3146,17 +3146,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "6faa22bf3d32ae93",
-   "symbol": "HDFCBANK",
-   "kind": "move",
-   "date": "2026-11-23",
-   "facts": {
-    "change_pct": -3.3333333333333437,
-    "times": 3.682657657657592,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

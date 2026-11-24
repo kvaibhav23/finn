@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-23T13:33:34Z",
+ "generated_at": "2026-11-24T02:32:04Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 1.8634003329275117,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 57.0955,
-  "delivery_avg": 58.01868852459016,
-  "delivery_sessions": 61
+  "delivery_avg": 57.98066666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     4119.0,
     1316074,
-    60.3
+    null
    ],
    [
     "2026-08-26",
@@ -3001,7 +3001,7 @@
    "state": "usual",
    "facts": {
     "recent": 57.0955,
-    "usual": 58.01868852459016,
+    "usual": 57.98066666666667,
     "months": 3
    }
   },
@@ -3037,17 +3037,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "a5f7d769cb3ed2d0",
-   "symbol": "LT",
-   "kind": "move",
-   "date": "2026-11-23",
-   "facts": {
-    "change_pct": -2.5943788458340444,
-    "times": 3.4176498864333418,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

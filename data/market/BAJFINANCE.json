@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-23T13:32:45Z",
+ "generated_at": "2026-11-24T02:31:16Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 9.102679016034255,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 61.197,
-  "delivery_avg": 62.33409836065574,
-  "delivery_sessions": 61
+  "delivery_avg": 62.45116666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1087.4,
     2770499,
-    55.31
+    null
    ],
    [
     "2026-08-26",
@@ -2905,16 +2905,6 @@
    "category": "Address Change",
    "subject": "Bajaj Finance Limited has informed the Exchange regarding change in Registered Office of the company.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_01092026184900_3167_001.pdf"
-  },
-  {
-   "date": "2026-08-26",
-   "filed_at": "2026-08-26T17:30:00+05:30",
-   "tag": "Earnings call",
-   "priority": 2,
-   "worth_a_look": false,
-   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_26082026172726_BSENSE_Intimation_Group_Investor_Call_27_August_2026.pdf"
   }
  ],
  "routine": [
@@ -2972,7 +2962,7 @@
    "state": "usual",
    "facts": {
     "recent": 61.197,
-    "usual": 62.33409836065574,
+    "usual": 62.45116666666667,
     "months": 3
    }
   },

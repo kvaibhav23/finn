@@ -1,6 +1,6 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-23T13:33:43Z",
+ "generated_at": "2026-11-24T02:32:14Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": -1.2099454859726078,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 50.445499999999996,
-  "delivery_avg": 51.529016393442625,
-  "delivery_sessions": 61
+  "delivery_avg": 51.55383333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     9098.0,
     321426,
-    50.04
+    null
    ],
    [
     "2026-08-26",
@@ -3025,7 +3025,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.445499999999996,
-    "usual": 51.529016393442625,
+    "usual": 51.55383333333334,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-23T13:33:52Z",
+ "generated_at": "2026-11-24T02:32:23Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,8 +13,8 @@
   "return_1y": 4.511996403888285,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 57.26649999999999,
-  "delivery_avg": 61.64885245901639,
-  "delivery_sessions": 61
+  "delivery_avg": 61.709833333333336,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1164,7 +1164,7 @@
     "2026-08-25",
     1922.0,
     1221044,
-    57.99
+    null
    ],
    [
     "2026-08-26",
@@ -2647,6 +2647,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-23",
+   "filed_at": "2026-11-23T20:35:00+05:30",
+   "tag": "Credit rating",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Credit Rating",
+   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
+  },
+  {
    "date": "2026-11-05",
    "filed_at": "2026-11-05T15:54:00+05:30",
    "tag": "Earnings call",
@@ -2997,7 +3007,7 @@
    "state": "usual",
    "facts": {
     "recent": 57.26649999999999,
-    "usual": 61.64885245901639,
+    "usual": 61.709833333333336,
     "months": 3
    }
   },
@@ -3005,16 +3015,21 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 8,
+    "count": 9,
     "days": 90,
     "tags": [
+     "Credit rating",
      "Clarification",
      "Auditor change",
-     "Credit rating",
      "Resignation"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-23",
+     "tag": "Credit rating",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
+    },
     {
      "date": "2026-11-04",
      "tag": "Clarification",
@@ -3034,11 +3049,6 @@
      "date": "2026-10-30",
      "tag": "Auditor change",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf"
-    },
-    {
-     "date": "2026-10-13",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf"
     }
    ]
   }
@@ -3046,5 +3056,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "bcc270b40c15bee9",
+   "symbol": "SUNPHARMA",
+   "kind": "flag",
+   "date": "2026-11-23",
+   "facts": {
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
+   }
+  }
+ ]
 }
