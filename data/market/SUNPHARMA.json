@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-24T02:32:23Z",
+ "generated_at": "2026-11-24T04:23:43Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -3056,16 +3056,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "bcc270b40c15bee9",
-   "symbol": "SUNPHARMA",
-   "kind": "flag",
-   "date": "2026-11-23",
-   "facts": {
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
-   }
-  }
- ]
+ "events": []
 }
