@@ -1,6 +1,6 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-24T14:11:09Z",
+ "generated_at": "2026-11-25T00:02:53Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -35.780357037648024,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 35.662,
-  "delivery_avg": 36.5375,
-  "delivery_sessions": 60
+  "delivery_avg": 36.53186440677966,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    1721.7,
-    878395,
-    null
-   ],
    [
     "2025-11-18",
     1710.0,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     1547.0,
     1691548,
-    36.87
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2885,16 +2875,6 @@
    "category": "Shareholders meeting",
    "subject": "Cochin Shipyard Limited has informed the Exchange regarding Notice of Annual General Meeting to be held on September 29, 2026",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/Aswi4739_04092026110043_SE_Intimation_54th_AGM_Notice_Sgd.pdf"
-  },
-  {
-   "date": "2026-08-27",
-   "filed_at": "2026-08-27T13:00:00+05:30",
-   "tag": "Regulatory or legal",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Action(s) taken or orders passed",
-   "subject": "Cochin Shipyard Limited has informed the Exchange about Action(s) taken or orders passed",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/Aswi4739_27082026130027_SE_Intimation_27_08_2026_sd.pdf"
   }
  ],
  "routine": [
@@ -2930,27 +2910,19 @@
    "state": "usual",
    "facts": {
     "recent": 35.662,
-    "usual": 36.5375,
+    "usual": 36.53186440677966,
     "months": 3
    }
   },
   {
    "key": "filings",
-   "state": "flagged",
+   "state": "clear",
    "facts": {
-    "count": 1,
+    "count": 0,
     "days": 90,
-    "tags": [
-     "Regulatory or legal"
-    ]
+    "tags": []
    },
-   "items": [
-    {
-     "date": "2026-08-27",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/Aswi4739_27082026130027_SE_Intimation_27_08_2026_sd.pdf"
-    }
-   ]
+   "items": []
   }
  ],
  "rerun": null,

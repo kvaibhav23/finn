@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-24T14:11:09Z",
+ "generated_at": "2026-11-25T00:02:39Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -10.29687825905582,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 49.392,
-  "delivery_avg": 54.974666666666664,
-  "delivery_sessions": 60
+  "delivery_avg": 55.05,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    2887.9,
-    1230683,
-    null
-   ],
    [
     "2025-11-18",
     2906.0,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     2626.5,
     339110,
-    50.53
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-24",
+   "filed_at": "2026-11-24T14:24:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "This is to inform you that the management representatives would be meeting the members of the Promoter(s) & Promoter(s) Group on Friday, 27th November 2026, 4.00 pm (IST) onwards in Mumbai, to brief them on the performance of the Company for the quarter and half year ended 30th S",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_24112026142403_SEINTIMATIONPROMOTERMEETNOV2026signed.pdf"
+  },
+  {
    "date": "2026-11-23",
    "filed_at": "2026-11-23T17:44:00+05:30",
    "tag": "Earnings call",
@@ -3001,7 +3001,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.392,
-    "usual": 54.974666666666664,
+    "usual": 55.05,
     "months": 3
    }
   },

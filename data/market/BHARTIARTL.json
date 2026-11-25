@@ -1,6 +1,6 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-24T14:11:09Z",
+ "generated_at": "2026-11-25T00:02:49Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -1.5813566375364019,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 66.6725,
-  "delivery_avg": 67.66033333333333,
-  "delivery_sessions": 60
+  "delivery_avg": 67.72457627118644,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    2112.2,
-    5998770,
-    null
-   ],
    [
     "2025-11-18",
     2149.2,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     1902.1,
     4552921,
-    63.87
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-24",
+   "filed_at": "2026-11-24T13:13:00+05:30",
+   "tag": "Regulatory or legal",
+   "priority": 1,
+   "worth_a_look": true,
+   "category": "Action(s) taken or orders passed",
+   "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf"
+  },
+  {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T19:07:00+05:30",
    "tag": "Regulatory or legal",
@@ -2973,8 +2973,7 @@
   "2026-11-05T14:01:00+05:30",
   "2026-11-04T15:38:00+05:30",
   "2026-11-03T22:33:00+05:30",
-  "2026-10-30T15:23:00+05:30",
-  "2026-10-26T19:01:00+05:30"
+  "2026-10-30T15:23:00+05:30"
  ],
  "calls": [
   {
@@ -3021,7 +3020,7 @@
    "state": "usual",
    "facts": {
     "recent": 66.6725,
-    "usual": 67.66033333333333,
+    "usual": 67.72457627118644,
     "months": 3
    }
   },
@@ -3029,13 +3028,18 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 13,
+    "count": 14,
     "days": 90,
     "tags": [
      "Regulatory or legal"
     ]
    },
    "items": [
+    {
+     "date": "2026-11-24",
+     "tag": "Regulatory or legal",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf"
+    },
     {
      "date": "2026-11-16",
      "tag": "Regulatory or legal",
@@ -3055,11 +3059,6 @@
      "date": "2026-10-30",
      "tag": "Regulatory or legal",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf"
-    },
-    {
-     "date": "2026-10-29",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf"
     }
    ]
   }
@@ -3067,5 +3066,16 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "62249bf6c40e1bc1",
+   "symbol": "BHARTIARTL",
+   "kind": "flag",
+   "date": "2026-11-24",
+   "facts": {
+    "tag": "Regulatory or legal",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf"
+   }
+  }
+ ]
 }

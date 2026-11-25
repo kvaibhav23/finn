@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-24T14:11:10Z",
+ "generated_at": "2026-11-25T00:03:17Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": 15.772179627601313,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 63.741,
-  "delivery_avg": 62.7375,
-  "delivery_sessions": 60
+  "delivery_avg": 62.88677966101695,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    1379.0,
-    7660717,
-    null
-   ],
    [
     "2025-11-18",
     1373.4,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     1430.0,
     4177066,
-    53.93
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -3115,26 +3105,6 @@
    "category": "General Updates",
    "subject": "Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_28082026162551_BSENSE28082026.pdf"
-  },
-  {
-   "date": "2026-08-27",
-   "filed_at": "2026-08-27T21:42:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_27082026214058_BSENSE27082026.pdf"
-  },
-  {
-   "date": "2026-08-27",
-   "filed_at": "2026-08-27T16:27:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "ESOP/ESOS/ESPS",
-   "subject": "ICICI Bank Limited has informed the Exchange regarding Allotment of 48983 Shares.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_27082026162709_Lettertoexchange.pdf"
   }
  ],
  "routine": [
@@ -3165,8 +3135,8 @@
  "move": {
   "date": "2026-11-23",
   "change_pct": -3.3231707317073145,
-  "typical_pct": 0.7997218358831715,
-  "times": 4.1554082714740135,
+  "typical_pct": 0.805266323346987,
+  "times": 4.12679710470814,
   "volume_x": 1.6655423636021434,
   "biggest_in_year": true,
   "nifty_change_pct": -1.7478275699014612,
@@ -3185,8 +3155,8 @@
    "facts": {
     "date": "2026-11-23",
     "change_pct": -3.3231707317073145,
-    "typical_pct": 0.7997218358831715,
-    "times": 4.1554082714740135,
+    "typical_pct": 0.805266323346987,
+    "times": 4.12679710470814,
     "volume_x": 1.6655423636021434,
     "biggest_in_year": true,
     "nifty_change_pct": -1.7478275699014612
@@ -3220,7 +3190,7 @@
    "state": "usual",
    "facts": {
     "recent": 63.741,
-    "usual": 62.7375,
+    "usual": 62.88677966101695,
     "months": 3
    }
   },

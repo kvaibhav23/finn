@@ -1,6 +1,6 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-24T14:11:09Z",
+ "generated_at": "2026-11-25T00:02:58Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -10.52455730036752,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 34.326,
-  "delivery_avg": 37.39866666666667,
-  "delivery_sessions": 60
+  "delivery_avg": 37.33610169491525,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    15641.0,
-    232740,
-    null
-   ],
    [
     "2025-11-18",
     15697.0,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     14735.0,
     429021,
-    41.09
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2647,6 +2637,29 @@
  },
  "filings": [
   {
+   "date": "2026-11-24",
+   "filed_at": "2026-11-24T15:04:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Appointment",
+   "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding Appointment of Ms Aruna Jayanthi (DIN: 00817860) as Other of the company w.e.f. November 24, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/DIXON_24112026150148_Reg30DisclosureArunaJayanthi24112026.pdf",
+   "profile": {
+    "page": 2,
+    "excerpt": "Ms. Aruna Jayanthi holds a Master's degree in Management Studies in Finance from the Narsee Monjee Institute of Management Studies in Mumbai. Ms. Aruna, till March 2026, was leading Capgemini's business in Canada and Latin America. She has held several global leadership positions in Capgemini including CEO Capgemini India, CEO Business Services, Head of Asia-Pacific and Latin America and Member of the Group Executive Committee. Ms. Aruna joined Capgemini in early 2000 and was part of the core team that initiated and set up the offshore capabilities.",
+    "name": "Ms. Aruna Jayanthi",
+    "role": "Non-Executive and Independent Director",
+    "effective": "24th November, 2026",
+    "previous": [
+     "leading Capgemini's business in Canada and Latin America",
+     "CEO Capgemini India",
+     "CEO Business Services",
+     "Head of Asia-Pacific and Latin America"
+    ]
+   }
+  },
+  {
    "date": "2026-11-23",
    "filed_at": "2026-11-23T17:56:00+05:30",
    "tag": "Earnings call",
@@ -3131,7 +3144,7 @@
    "state": "usual",
    "facts": {
     "recent": 34.326,
-    "usual": 37.39866666666667,
+    "usual": 37.33610169491525,
     "months": 3
    }
   },

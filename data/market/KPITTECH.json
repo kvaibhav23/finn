@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-24T14:11:10Z",
+ "generated_at": "2026-11-25T00:03:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -55.04320301137822,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 33.422,
-  "delivery_avg": 34.0635,
-  "delivery_sessions": 60
+  "delivery_avg": 33.98627118644068,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    1216.0,
-    509828,
-    null
-   ],
    [
     "2025-11-18",
     1195.1,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     590.0,
     918198,
-    38.62
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2896,16 +2886,6 @@
    "category": "Shareholders meeting",
    "subject": "KPIT Technologies Limited has informed the Exchange regarding Proceedings of the 9th Annual General Meeting held on August 31, 2026",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_31082026152943_CovLet9AGMproceedings_signed.pdf"
-  },
-  {
-   "date": "2026-08-27",
-   "filed_at": "2026-08-27T16:34:00+05:30",
-   "tag": "Regulatory or legal",
-   "priority": 1,
-   "worth_a_look": true,
-   "category": "Action(s) taken or orders passed",
-   "subject": "Disclosure under Regulation 30 of SEBI LODR - adjudication order from the Office of the Collector of Stamps",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27082026163341_KPIT_SE_intimation_Notice_26_August_2026_signed.pdf"
   }
  ],
  "routine": [
@@ -2913,11 +2893,6 @@
   "2026-10-27T19:45:00+05:30"
  ],
  "calls": [
-  {
-   "quarter": "Q2FY26",
-   "date": "2025-11-17",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_17112025223456_ransacriptNov10_Signed.pdf"
-  },
   {
    "quarter": "Q3FY26",
    "date": "2026-01-30",
@@ -2967,7 +2942,7 @@
    "state": "usual",
    "facts": {
     "recent": 33.422,
-    "usual": 34.0635,
+    "usual": 33.98627118644068,
     "months": 3
    }
   },
@@ -2975,11 +2950,10 @@
    "key": "filings",
    "state": "flagged",
    "facts": {
-    "count": 2,
+    "count": 1,
     "days": 90,
     "tags": [
-     "Resignation",
-     "Regulatory or legal"
+     "Resignation"
     ]
    },
    "items": [
@@ -2987,11 +2961,6 @@
      "date": "2026-10-31",
      "tag": "Resignation",
      "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf"
-    },
-    {
-     "date": "2026-08-27",
-     "tag": "Regulatory or legal",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27082026163341_KPIT_SE_intimation_Notice_26_August_2026_signed.pdf"
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-24T14:11:11Z",
+ "generated_at": "2026-11-25T00:03:35Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": 1.8634003329275117,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 57.0955,
-  "delivery_avg": 57.98066666666667,
-  "delivery_sessions": 60
+  "delivery_avg": 58.11847457627118,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    4027.7,
-    1206133,
-    null
-   ],
    [
     "2025-11-18",
     3999.6,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     4038.1,
     1384669,
-    49.85
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2637,6 +2627,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-24",
+   "filed_at": "2026-11-24T17:33:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_24112026173302_Intimation24112026.pdf"
+  },
+  {
    "date": "2026-11-23",
    "filed_at": "2026-11-23T09:34:00+05:30",
    "tag": "Order or contract",
@@ -2946,8 +2946,8 @@
  "move": {
   "date": "2026-11-23",
   "change_pct": -2.5943788458340444,
-  "typical_pct": 0.7591119430146009,
-  "times": 3.4176498864333418,
+  "typical_pct": 0.7647962235750483,
+  "times": 3.3922485047148796,
   "volume_x": 0.6271379873852446,
   "biggest_in_year": false,
   "nifty_change_pct": -1.7478275699014612,
@@ -2966,8 +2966,8 @@
    "facts": {
     "date": "2026-11-23",
     "change_pct": -2.5943788458340444,
-    "typical_pct": 0.7591119430146009,
-    "times": 3.4176498864333418,
+    "typical_pct": 0.7647962235750483,
+    "times": 3.3922485047148796,
     "volume_x": 0.6271379873852446,
     "biggest_in_year": false,
     "nifty_change_pct": -1.7478275699014612
@@ -3001,7 +3001,7 @@
    "state": "usual",
    "facts": {
     "recent": 57.0955,
-    "usual": 57.98066666666667,
+    "usual": 58.11847457627118,
     "months": 3
    }
   },

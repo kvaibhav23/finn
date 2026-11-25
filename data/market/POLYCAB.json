@@ -1,6 +1,6 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-24T14:11:11Z",
+ "generated_at": "2026-11-25T00:03:45Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-23",
@@ -13,19 +13,13 @@
   "return_1y": -1.2099454859726078,
   "nifty_return_1y": -2.7562370172029893,
   "delivery_20d": 50.445499999999996,
-  "delivery_avg": 51.55383333333334,
-  "delivery_sessions": 60
+  "delivery_avg": 51.6371186440678,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-17",
-    7683.0,
-    146747,
-    null
-   ],
    [
     "2025-11-18",
     7661.0,
@@ -1170,7 +1164,7 @@
     "2026-08-26",
     9060.0,
     239534,
-    46.64
+    null
    ],
    [
     "2026-08-27",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-17",
-   26013.45
-  ],
   [
    "2025-11-18",
    25910.05
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-24",
+   "filed_at": "2026-11-24T10:46:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_24112026104607_Intimationtostockexchange.pdf"
+  },
+  {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T17:55:00+05:30",
    "tag": "Earnings call",
@@ -3025,7 +3025,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.445499999999996,
-    "usual": 51.55383333333334,
+    "usual": 51.6371186440678,
     "months": 3
    }
   },
