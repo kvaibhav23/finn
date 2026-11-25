@@ -1,6 +1,6 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-25T13:24:06Z",
+ "generated_at": "2026-11-25T22:41:22Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": 14.718109916852562,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 61.3735,
-  "delivery_avg": 62.382333333333335,
-  "delivery_sessions": 60
+  "delivery_avg": 62.399491525423734,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    1013.6,
-    4562185,
-    null
-   ],
    [
     "2025-11-19",
     1005.6,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     1083.0,
     5220239,
-    61.37
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T18:41:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of Investor meet to be held on 7 December 2026",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_25112026184120_BSENSE_Intimation_Investor_meet.pdf"
+  },
+  {
    "date": "2026-11-16",
    "filed_at": "2026-11-16T23:49:00+05:30",
    "tag": "Other",
@@ -2784,7 +2784,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-16",
@@ -2794,7 +2794,7 @@
    "worth_a_look": false,
    "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf"
   },
   {
    "date": "2026-10-13",
@@ -2908,6 +2908,7 @@
   }
  ],
  "routine": [
+  "2026-11-25T12:55:00+05:30",
   "2026-11-17T08:25:00+05:30",
   "2026-11-10T12:58:00+05:30",
   "2026-10-30T14:53:00+05:30"
@@ -2962,7 +2963,7 @@
    "state": "usual",
    "facts": {
     "recent": 61.3735,
-    "usual": 62.382333333333335,
+    "usual": 62.399491525423734,
     "months": 3
    }
   },

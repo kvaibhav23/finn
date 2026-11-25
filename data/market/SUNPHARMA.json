@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-25T13:24:09Z",
+ "generated_at": "2026-11-25T22:43:24Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": 6.990094552003612,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 57.42100000000001,
-  "delivery_avg": 61.6145,
-  "delivery_sessions": 60
+  "delivery_avg": 61.55898305084746,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    1758.8,
-    1429522,
-    null
-   ],
    [
     "2025-11-19",
     1784.1,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     1913.3,
     1107552,
-    64.89
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2986,8 +2976,8 @@
  "move": {
   "date": "2026-11-25",
   "change_pct": 2.204301075268811,
-  "typical_pct": 0.6441915396177889,
-  "times": 3.421810035842235,
+  "typical_pct": 0.6439348502686681,
+  "times": 3.4231740592221604,
   "volume_x": 1.2648297965884934,
   "biggest_in_year": false,
   "nifty_change_pct": 1.8524910600343558,
@@ -3006,8 +2996,8 @@
    "facts": {
     "date": "2026-11-25",
     "change_pct": 2.204301075268811,
-    "typical_pct": 0.6441915396177889,
-    "times": 3.421810035842235,
+    "typical_pct": 0.6439348502686681,
+    "times": 3.4231740592221604,
     "volume_x": 1.2648297965884934,
     "biggest_in_year": false,
     "nifty_change_pct": 1.8524910600343558
@@ -3041,7 +3031,7 @@
    "state": "usual",
    "facts": {
     "recent": 57.42100000000001,
-    "usual": 61.6145,
+    "usual": 61.55898305084746,
     "months": 3
    }
   },
@@ -3090,17 +3080,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "6eab8465ef55da28",
-   "symbol": "SUNPHARMA",
-   "kind": "move",
-   "date": "2026-11-25",
-   "facts": {
-    "change_pct": 2.204301075268811,
-    "times": 3.421810035842235,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

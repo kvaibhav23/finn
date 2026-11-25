@@ -1,6 +1,6 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-25T13:24:09Z",
+ "generated_at": "2026-11-25T22:43:19Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -10.76833149314801,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 51.73049999999999,
-  "delivery_avg": 56.300333333333334,
-  "delivery_sessions": 60
+  "delivery_avg": 56.30983050847458,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    1519.4,
-    11045042,
-    null
-   ],
    [
     "2025-11-19",
     1518.9,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     1282.2,
     11271497,
-    55.74
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2764,7 +2754,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended Septemb",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
   },
   {
    "date": "2026-10-30",
@@ -2774,7 +2764,7 @@
    "worth_a_look": false,
    "category": "Outcome of Board Meeting",
    "subject": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended Septemb",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf"
   },
   {
    "date": "2026-10-29",
@@ -3025,26 +3015,6 @@
    "category": "Other Restructuring",
    "subject": "Roptonal Limited (Roptonal), a step-down subsidiary of the Company, stands dissolved with effect from August 18, 2026, as per the certificate dated September 4, 2026 issued by the Department of Insolvency, Republic of Cyprus.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/kavinavora_05092026173533_SE05092026.pdf"
-  },
-  {
-   "date": "2026-08-28",
-   "filed_at": "2026-08-28T19:45:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Media Statement",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_28082026194500_RIL_SE_28082026_MS.pdf"
-  },
-  {
-   "date": "2026-08-28",
-   "filed_at": "2026-08-28T18:36:00+05:30",
-   "tag": "Expansion",
-   "priority": 1,
-   "worth_a_look": false,
-   "category": "Updates",
-   "subject": "Observation Letter on the Draft Red Herring Prospectus for the proposed Initial Public Offer of Jio Platforms Limited",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/PVIVINMA_28082026183323_RIL_SE_28082026.pdf"
   }
  ],
  "routine": [],
@@ -3093,7 +3063,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.73049999999999,
-    "usual": 56.300333333333334,
+    "usual": 56.30983050847458,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-25T13:24:06Z",
+ "generated_at": "2026-11-25T22:41:16Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -8.85318867793311,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 50.028,
-  "delivery_avg": 54.9775,
-  "delivery_sessions": 60
+  "delivery_avg": 54.9822033898305,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    2906.0,
-    1819066,
-    null
-   ],
    [
     "2025-11-19",
     2893.7,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     2631.0,
     525106,
-    54.7
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T17:03:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "This is to inform you that the Company through its representatives, will be participating in the meeting as per enclosed schedule.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_25112026170311_SEINTIMATIONANALYSTMEETSDEC2026signed.pdf"
+  },
+  {
    "date": "2026-11-24",
    "filed_at": "2026-11-24T14:24:00+05:30",
    "tag": "Earnings call",
@@ -2958,11 +2958,6 @@
  ],
  "calls": [
   {
-   "quarter": "Q2FY26",
-   "date": "2025-11-18",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_18112025120322_SEIntimationTranscriptQ2FY26Nov2025.pdf"
-  },
-  {
    "quarter": "Q3FY26",
    "date": "2026-01-27",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_02022026131104_SE_intimation_Transcript_Q3FY26_Jan2026_signed.pdf"
@@ -3011,7 +3006,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.028,
-    "usual": 54.9775,
+    "usual": 54.9822033898305,
     "months": 3
    }
   },

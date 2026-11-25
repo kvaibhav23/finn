@@ -1,6 +1,6 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-25T13:24:09Z",
+ "generated_at": "2026-11-25T22:43:15Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -0.8065600215082624,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 50.5625,
-  "delivery_avg": 51.71383333333333,
-  "delivery_sessions": 60
+  "delivery_avg": 51.835084745762714,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    7661.0,
-    255512,
-    null
-   ],
    [
     "2025-11-19",
     7688.0,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     9079.0,
     477929,
-    44.56
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2987,9 +2977,7 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_29082026162806_Intimationtostockexchange.pdf"
   }
  ],
- "routine": [
-  "2026-10-27T18:42:00+05:30"
- ],
+ "routine": [],
  "calls": [
   {
    "quarter": "Q3FY26",
@@ -3035,7 +3023,7 @@
    "state": "usual",
    "facts": {
     "recent": 50.5625,
-    "usual": 51.71383333333333,
+    "usual": 51.835084745762714,
     "months": 3
    }
   },

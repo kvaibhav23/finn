@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-25T13:24:07Z",
+ "generated_at": "2026-11-25T22:41:48Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -14.507981410385929,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 60.85850000000001,
-  "delivery_avg": 59.67633333333333,
-  "delivery_sessions": 60
+  "delivery_avg": 59.71661016949153,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    992.45,
-    20002640,
-    null
-   ],
    [
     "2025-11-19",
     994.6,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     711.0,
     46515020,
-    57.3
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,24 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T18:01:00+05:30",
+   "tag": "Appointment",
+   "priority": 1,
+   "worth_a_look": false,
+   "category": "Change in Director(s)",
+   "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf",
+   "profile": {
+    "page": 1,
+    "excerpt": "of Dr. (Mr.) Bhanwala is enclosed herewith as Annexure-I. This is for your information and appropriate dissemination. Thank you. Yours faithfully, For HDFC Bank Limited Ajay Agarwal Company Secretary Group Head - Secretarial & Group Oversight Encl: as above Copy to: 1. New York Stock Exchange 11, Wall Street, New York NY 10005, USA 2. Singapore Exchange Securities Trading Limited 2 Shenton Way 068804 # 02-00 SGX Centre 1 Singapore CIN: L65920MH1994PLC080618 Email: shareholder.grievances@hdfc.bank.in Website: www.hdfc.bank.in HDFC Bank Limited, HDFC House, H.T.",
+    "name": "Dr. (Mr.) Harsh Kumar Bhanwala",
+    "role": "Independent Director",
+    "effective": "January 25, 2027",
+    "previous": []
+   }
+  },
+  {
    "date": "2026-11-20",
    "filed_at": "2026-11-20T20:43:00+05:30",
    "tag": "Other",
@@ -3073,12 +3081,18 @@
  "move": {
   "date": "2026-11-25",
   "change_pct": 3.47273171924678,
-  "typical_pct": 0.9055491207749844,
-  "times": 3.8349457136844842,
+  "typical_pct": 0.9082531336489785,
+  "times": 3.823528475255358,
   "volume_x": 1.3602332182740884,
   "biggest_in_year": false,
   "nifty_change_pct": 1.8524910600343558,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-25",
+    "tag": "Appointment",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -3087,13 +3101,19 @@
    "facts": {
     "date": "2026-11-25",
     "change_pct": 3.47273171924678,
-    "typical_pct": 0.9055491207749844,
-    "times": 3.8349457136844842,
+    "typical_pct": 0.9082531336489785,
+    "times": 3.823528475255358,
     "volume_x": 1.3602332182740884,
     "biggest_in_year": false,
     "nifty_change_pct": 1.8524910600343558
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-25",
+     "tag": "Appointment",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -3116,7 +3136,7 @@
    "state": "usual",
    "facts": {
     "recent": 60.85850000000001,
-    "usual": 59.67633333333333,
+    "usual": 59.71661016949153,
     "months": 3
    }
   },
@@ -3134,17 +3154,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "d3d63a1dd4b8f85f",
-   "symbol": "HDFCBANK",
-   "kind": "move",
-   "date": "2026-11-25",
-   "facts": {
-    "change_pct": 3.47273171924678,
-    "times": 3.8349457136844842,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

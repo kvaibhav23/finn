@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-25T13:24:08Z",
+ "generated_at": "2026-11-25T22:42:52Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -26.172742715275056,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 52.051,
-  "delivery_avg": 53.74033333333333,
-  "delivery_sessions": 60
+  "delivery_avg": 53.73711864406779,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    1486.4,
-    7525119,
-    null
-   ],
    [
     "2025-11-19",
     1541.1,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     1110.8,
     6933998,
-    53.93
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T15:00:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Becomes the World s First Organization to Achieve CMMI AI Maturity (AIM) Level 5'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_25112026150030_PR_25112026.pdf"
+  },
+  {
    "date": "2026-11-18",
    "filed_at": "2026-11-18T22:10:00+05:30",
    "tag": "Other",
@@ -2945,7 +2945,7 @@
    "state": "usual",
    "facts": {
     "recent": 52.051,
-    "usual": 53.74033333333333,
+    "usual": 53.73711864406779,
     "months": 3
    }
   },

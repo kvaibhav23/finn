@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-25T13:24:09Z",
+ "generated_at": "2026-11-25T22:43:10Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": -10.629995594436403,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 53.088499999999996,
-  "delivery_avg": 54.323,
-  "delivery_sessions": 60
+  "delivery_avg": 54.293898305084745,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    15930.0,
-    392903,
-    null
-   ],
    [
     "2025-11-19",
     15768.0,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     13440.0,
     315555,
-    56.04
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T12:42:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "Maruti Suzuki India Limited has informed the Exchange about Shifting of Corporate Office of Registrar and Transfer Agent (RTA) of the Company",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_25112026123715_StxIntimation_ChangeinRTAaddress_25Nov20267.pdf"
+  },
+  {
    "date": "2026-11-22",
    "filed_at": "2026-11-22T00:08:00+05:30",
    "tag": "Other",
@@ -3065,7 +3065,7 @@
    "state": "usual",
    "facts": {
     "recent": 53.088499999999996,
-    "usual": 54.323,
+    "usual": 54.293898305084745,
     "months": 3
    }
   },

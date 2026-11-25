@@ -1,6 +1,6 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-25T13:24:07Z",
+ "generated_at": "2026-11-25T22:42:48Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-25",
@@ -13,19 +13,13 @@
   "return_1y": 20.78362056267491,
   "nifty_return_1y": -0.2532374211892674,
   "delivery_20d": 63.909000000000006,
-  "delivery_avg": 62.867,
-  "delivery_sessions": 60
+  "delivery_avg": 63.01305084745763,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-18",
-    1373.4,
-    9529560,
-    null
-   ],
    [
     "2025-11-19",
     1383.1,
@@ -1170,7 +1164,7 @@
     "2026-08-27",
     1443.0,
     11539716,
-    54.25
+    null
    ],
    [
     "2026-08-28",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-18",
-   25910.05
-  ],
   [
    "2025-11-19",
    26052.65
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-25",
+   "filed_at": "2026-11-25T13:53:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "General Updates",
+   "subject": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulation, 2015.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25112026135254_BSENSE_25112026.pdf"
+  },
+  {
    "date": "2026-11-20",
    "filed_at": "2026-11-20T11:15:00+05:30",
    "tag": "Other",
@@ -3105,16 +3105,6 @@
    "category": "General Updates",
    "subject": "ICICI Bank Limited has informed the Exchange about disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 -This is to inform you that ICICI Bank Limited (Bank), acting through its IFSC Banking Unit, has, today at 9:55 a.m. I",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_31082026160131_NSEBSE_31082026.pdf"
-  },
-  {
-   "date": "2026-08-28",
-   "filed_at": "2026-08-28T16:27:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_28082026162551_BSENSE28082026.pdf"
   }
  ],
  "routine": [
@@ -3145,12 +3135,18 @@
  "move": {
   "date": "2026-11-25",
   "change_pct": 3.4374014506464823,
-  "typical_pct": 0.8108108108108025,
-  "times": 4.239461789130705,
+  "typical_pct": 0.8125482625482627,
+  "times": 4.230396653444708,
   "volume_x": 1.400158751603971,
   "biggest_in_year": false,
   "nifty_change_pct": 1.8524910600343558,
-  "filings": []
+  "filings": [
+   {
+    "date": "2026-11-25",
+    "tag": "Other",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25112026135254_BSENSE_25112026.pdf"
+   }
+  ]
  },
  "signals": [
   {
@@ -3159,13 +3155,19 @@
    "facts": {
     "date": "2026-11-25",
     "change_pct": 3.4374014506464823,
-    "typical_pct": 0.8108108108108025,
-    "times": 4.239461789130705,
+    "typical_pct": 0.8125482625482627,
+    "times": 4.230396653444708,
     "volume_x": 1.400158751603971,
     "biggest_in_year": false,
     "nifty_change_pct": 1.8524910600343558
    },
-   "items": []
+   "items": [
+    {
+     "date": "2026-11-25",
+     "tag": "Other",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25112026135254_BSENSE_25112026.pdf"
+    }
+   ]
   },
   {
    "key": "track",
@@ -3188,7 +3190,7 @@
    "state": "usual",
    "facts": {
     "recent": 63.909000000000006,
-    "usual": 62.867,
+    "usual": 63.01305084745763,
     "months": 3
    }
   },
@@ -3224,17 +3226,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "0c83c7bd2a03cb2e",
-   "symbol": "ICICIBANK",
-   "kind": "move",
-   "date": "2026-11-25",
-   "facts": {
-    "change_pct": 3.4374014506464823,
-    "times": 4.239461789130705,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }
