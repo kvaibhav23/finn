@@ -1,20 +1,20 @@
 {
  "symbol": "RELIANCE",
- "generated_at": "2026-11-25T03:08:28Z",
+ "generated_at": "2026-11-25T13:24:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 1351.0,
-  "change": -26.5,
-  "change_pct": -1.9237749546279437,
+  "as_of": "2026-11-25",
+  "close": 1373.9,
+  "change": 22.90000000000009,
+  "change_pct": 1.6950407105847498,
   "high_52w": 1611.8,
   "low_52w": 1152.2,
-  "range_position": 0.43255004351610093,
-  "return_1y": -12.647096857623163,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 50.931,
-  "delivery_avg": 56.36559322033899,
-  "delivery_sessions": 59
+  "range_position": 0.48237597911227176,
+  "return_1y": -10.76833149314801,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 51.73049999999999,
+  "delivery_avg": 56.300333333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1351.0,
     15392522,
     53.91
+   ],
+   [
+    "2026-11-25",
+    1373.9,
+    18781717,
+    52.45
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 95625.0,
   "ttm_margin_pct": 7.8844650684186055,
   "ttm_eps": 60.67999999999999,
-  "pe": 22.26433750823995,
+  "pe": 22.64172709294661,
   "pe_note": null,
-  "market_cap_cr": 1828308.3,
+  "market_cap_cr": 1859298.87,
   "revenue_yoy_pct": 28.568393730349406,
   "pat_yoy_pct": 33.758826724606195,
   "net_npa_pct": null,
@@ -3071,19 +3081,19 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -12.647096857623163,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 1351.0,
+    "return_1y": -10.76833149314801,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 1373.9,
     "low_52w": 1152.2,
     "high_52w": 1611.8
    }
   },
   {
    "key": "delivery",
-   "state": "lower",
+   "state": "usual",
    "facts": {
-    "recent": 50.931,
-    "usual": 56.36559322033899,
+    "recent": 51.73049999999999,
+    "usual": 56.300333333333334,
     "months": 3
    }
   },

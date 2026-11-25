@@ -1,20 +1,20 @@
 {
  "symbol": "BAJFINANCE",
- "generated_at": "2026-11-25T03:08:24Z",
+ "generated_at": "2026-11-25T13:24:06Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 1095.5,
-  "change": -26.5,
-  "change_pct": -2.3618538324420624,
+  "as_of": "2026-11-25",
+  "close": 1131.35,
+  "change": 35.84999999999991,
+  "change_pct": 3.2724783204016283,
   "high_52w": 1176.4,
   "low_52w": 787.9,
-  "range_position": 0.7917631917631915,
-  "return_1y": 9.102679016034255,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 61.197,
-  "delivery_avg": 62.50813559322034,
-  "delivery_sessions": 59
+  "range_position": 0.8840411840411836,
+  "return_1y": 14.718109916852562,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 61.3735,
+  "delivery_avg": 62.382333333333335,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1095.5,
     9622884,
     62.16
+   ],
+   [
+    "2026-11-25",
+    1131.35,
+    10260906,
+    54.96
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 22066.48,
   "ttm_margin_pct": 24.37436693305645,
   "ttm_eps": 34.790000000000006,
-  "pe": 31.488933601609652,
+  "pe": 32.519402127048,
   "pe_note": null,
-  "market_cap_cr": 681828.245,
+  "market_cap_cr": 704140.9265,
   "revenue_yoy_pct": 21.643746685894683,
   "pat_yoy_pct": 28.67580480864067,
   "net_npa_pct": null,
@@ -2938,11 +2948,11 @@
   },
   {
    "key": "price",
-   "state": "middle",
+   "state": "high",
    "facts": {
-    "return_1y": 9.102679016034255,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 1095.5,
+    "return_1y": 14.718109916852562,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 1131.35,
     "low_52w": 787.9,
     "high_52w": 1176.4
    }
@@ -2951,8 +2961,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 61.197,
-    "usual": 62.50813559322034,
+    "recent": 61.3735,
+    "usual": 62.382333333333335,
     "months": 3
    }
   },

@@ -1,20 +1,20 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-25T03:08:26Z",
+ "generated_at": "2026-11-25T13:24:07Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 1585.5,
-  "change": -54.5,
-  "change_pct": -3.3231707317073145,
-  "high_52w": 1645.0,
+  "as_of": "2026-11-25",
+  "close": 1640.0,
+  "change": 54.5,
+  "change_pct": 3.4374014506464823,
+  "high_52w": 1650.0,
   "low_52w": 1187.6,
-  "range_position": 0.869916921731526,
-  "return_1y": 15.772179627601313,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 63.741,
-  "delivery_avg": 62.88677966101695,
-  "delivery_sessions": 59
+  "range_position": 0.9783737024221454,
+  "return_1y": 20.78362056267491,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 63.909000000000006,
+  "delivery_avg": 62.867,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1585.5,
     22243169,
     63.18
+   ],
+   [
+    "2026-11-25",
+    1640.0,
+    18982380,
+    61.7
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 19.47071104015719,
+  "pe": 20.13999754390274,
   "pe_note": null,
-  "market_cap_cr": 1138357.29,
+  "market_cap_cr": 1177487.2,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3133,41 +3143,29 @@
   }
  ],
  "move": {
-  "date": "2026-11-23",
-  "change_pct": -3.3231707317073145,
-  "typical_pct": 0.805266323346987,
-  "times": 4.12679710470814,
-  "volume_x": 1.6655423636021434,
-  "biggest_in_year": true,
-  "nifty_change_pct": -1.7478275699014612,
-  "filings": [
-   {
-    "date": "2026-11-20",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_20112026111433_Lettertoexchange.pdf"
-   }
-  ]
+  "date": "2026-11-25",
+  "change_pct": 3.4374014506464823,
+  "typical_pct": 0.8108108108108025,
+  "times": 4.239461789130705,
+  "volume_x": 1.400158751603971,
+  "biggest_in_year": false,
+  "nifty_change_pct": 1.8524910600343558,
+  "filings": []
  },
  "signals": [
   {
    "key": "move",
-   "state": "down",
+   "state": "up",
    "facts": {
-    "date": "2026-11-23",
-    "change_pct": -3.3231707317073145,
-    "typical_pct": 0.805266323346987,
-    "times": 4.12679710470814,
-    "volume_x": 1.6655423636021434,
-    "biggest_in_year": true,
-    "nifty_change_pct": -1.7478275699014612
+    "date": "2026-11-25",
+    "change_pct": 3.4374014506464823,
+    "typical_pct": 0.8108108108108025,
+    "times": 4.239461789130705,
+    "volume_x": 1.400158751603971,
+    "biggest_in_year": false,
+    "nifty_change_pct": 1.8524910600343558
    },
-   "items": [
-    {
-     "date": "2026-11-20",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_20112026111433_Lettertoexchange.pdf"
-    }
-   ]
+   "items": []
   },
   {
    "key": "track",
@@ -3178,19 +3176,19 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 15.772179627601313,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 1585.5,
+    "return_1y": 20.78362056267491,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 1640.0,
     "low_52w": 1187.6,
-    "high_52w": 1645.0
+    "high_52w": 1650.0
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 63.741,
-    "usual": 62.88677966101695,
+    "recent": 63.909000000000006,
+    "usual": 62.867,
     "months": 3
    }
   },
@@ -3226,5 +3224,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "0c83c7bd2a03cb2e",
+   "symbol": "ICICIBANK",
+   "kind": "move",
+   "date": "2026-11-25",
+   "facts": {
+    "change_pct": 3.4374014506464823,
+    "times": 4.239461789130705,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

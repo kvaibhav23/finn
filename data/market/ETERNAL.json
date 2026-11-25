@@ -1,20 +1,20 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-25T03:08:25Z",
+ "generated_at": "2026-11-25T13:24:07Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 362.1,
-  "change": -1.8999999999999773,
-  "change_pct": -0.5219780219780201,
+  "as_of": "2026-11-25",
+  "close": 371.7,
+  "change": 9.599999999999966,
+  "change_pct": 2.6512013256006606,
   "high_52w": 378.0,
   "low_52w": 212.6,
-  "range_position": 0.9038694074969772,
-  "return_1y": 19.920516641828122,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 56.3535,
-  "delivery_avg": 57.75271186440678,
-  "delivery_sessions": 59
+  "range_position": 0.9619105199516323,
+  "return_1y": 22.957327158451868,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 56.536,
+  "delivery_avg": 57.717,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     362.1,
     14775393,
     53.08
+   ],
+   [
+    "2026-11-25",
+    371.7,
+    29694684,
+    55.61
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 493.0,
   "ttm_margin_pct": 0.632408025039766,
   "ttm_eps": 0.53,
-  "pe": 683.2075471698113,
+  "pe": 701.3207547169811,
   "pe_note": null,
-  "market_cap_cr": 333494.1,
+  "market_cap_cr": 342335.7,
   "revenue_yoy_pct": 77.6158940397351,
   "pat_yoy_pct": 92.3076923076923,
   "net_npa_pct": null,
@@ -2771,9 +2781,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 19.920516641828122,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 362.1,
+    "return_1y": 22.957327158451868,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 371.7,
     "low_52w": 212.6,
     "high_52w": 378.0
    }
@@ -2782,8 +2792,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 56.3535,
-    "usual": 57.75271186440678,
+    "recent": 56.536,
+    "usual": 57.717,
     "months": 3
    }
   },

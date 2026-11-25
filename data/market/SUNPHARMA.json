@@ -1,20 +1,20 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-25T03:08:28Z",
+ "generated_at": "2026-11-25T13:24:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 1860.0,
-  "change": -24.90000000000009,
-  "change_pct": -1.3210249880630354,
+  "as_of": "2026-11-25",
+  "close": 1901.0,
+  "change": 41.0,
+  "change_pct": 2.204301075268811,
   "high_52w": 2046.9,
   "low_52w": 1583.7,
-  "range_position": 0.596502590673575,
-  "return_1y": 4.511996403888285,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 57.26649999999999,
-  "delivery_avg": 61.605254237288136,
-  "delivery_sessions": 59
+  "range_position": 0.6850172711571674,
+  "return_1y": 6.990094552003612,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 57.42100000000001,
+  "delivery_avg": 61.6145,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1860.0,
     1580308,
     55.37
+   ],
+   [
+    "2026-11-25",
+    1901.0,
+    2383981,
+    62.16
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 10987.13,
   "ttm_margin_pct": 17.827301620680007,
   "ttm_eps": 45.7,
-  "pe": 40.70021881838074,
+  "pe": 41.59737417943107,
   "pe_note": null,
-  "market_cap_cr": 446269.8,
+  "market_cap_cr": 456106.93,
   "revenue_yoy_pct": 11.88260232029843,
   "pat_yoy_pct": -36.15673850781612,
   "net_npa_pct": null,
@@ -2973,8 +2983,43 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf"
   }
  ],
- "move": null,
+ "move": {
+  "date": "2026-11-25",
+  "change_pct": 2.204301075268811,
+  "typical_pct": 0.6441915396177889,
+  "times": 3.421810035842235,
+  "volume_x": 1.2648297965884934,
+  "biggest_in_year": false,
+  "nifty_change_pct": 1.8524910600343558,
+  "filings": [
+   {
+    "date": "2026-11-23",
+    "tag": "Credit rating",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
+   }
+  ]
+ },
  "signals": [
+  {
+   "key": "move",
+   "state": "up",
+   "facts": {
+    "date": "2026-11-25",
+    "change_pct": 2.204301075268811,
+    "typical_pct": 0.6441915396177889,
+    "times": 3.421810035842235,
+    "volume_x": 1.2648297965884934,
+    "biggest_in_year": false,
+    "nifty_change_pct": 1.8524910600343558
+   },
+   "items": [
+    {
+     "date": "2026-11-23",
+     "tag": "Credit rating",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf"
+    }
+   ]
+  },
   {
    "key": "track",
    "state": "none",
@@ -2984,9 +3029,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 4.511996403888285,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 1860.0,
+    "return_1y": 6.990094552003612,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 1901.0,
     "low_52w": 1583.7,
     "high_52w": 2046.9
    }
@@ -2995,8 +3040,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.26649999999999,
-    "usual": 61.605254237288136,
+    "recent": 57.42100000000001,
+    "usual": 61.6145,
     "months": 3
    }
   },
@@ -3045,5 +3090,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "6eab8465ef55da28",
+   "symbol": "SUNPHARMA",
+   "kind": "move",
+   "date": "2026-11-25",
+   "facts": {
+    "change_pct": 2.204301075268811,
+    "times": 3.421810035842235,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

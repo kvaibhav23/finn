@@ -1,20 +1,20 @@
 {
  "symbol": "SUPREMEIND",
- "generated_at": "2026-11-25T03:08:28Z",
+ "generated_at": "2026-11-25T13:24:09Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 3156.0,
-  "change": -50.0,
-  "change_pct": -1.5595757953836609,
+  "as_of": "2026-11-25",
+  "close": 3176.0,
+  "change": 20.0,
+  "change_pct": 0.6337135614702172,
   "high_52w": 4074.8,
   "low_52w": 3078.5,
-  "range_position": 0.07778781491518617,
-  "return_1y": -9.187696026242342,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 50.5185,
-  "delivery_avg": 49.613898305084746,
-  "delivery_sessions": 59
+  "range_position": 0.09786208973200841,
+  "return_1y": -7.3323023954716575,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 51.6255,
+  "delivery_avg": 49.665333333333336,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     3156.0,
     90909,
     57.63
+   ],
+   [
+    "2026-11-25",
+    3176.0,
+    123198,
+    52.7
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 1130.1,
   "ttm_margin_pct": 9.192640356350047,
   "ttm_eps": 88.96000000000001,
-  "pe": 35.47661870503597,
+  "pe": 35.70143884892086,
   "pe_note": null,
-  "market_cap_cr": 40096.98,
+  "market_cap_cr": 40351.08,
   "revenue_yoy_pct": 40.41155117028077,
   "pat_yoy_pct": 59.30557241714216,
   "net_npa_pct": null,
@@ -2789,9 +2799,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -9.187696026242342,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 3156.0,
+    "return_1y": -7.3323023954716575,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 3176.0,
     "low_52w": 3078.5,
     "high_52w": 4074.8
    }
@@ -2800,8 +2810,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.5185,
-    "usual": 49.613898305084746,
+    "recent": 51.6255,
+    "usual": 49.665333333333336,
     "months": 3
    }
   },

@@ -1,20 +1,20 @@
 {
  "symbol": "LT",
- "generated_at": "2026-11-25T03:08:26Z",
+ "generated_at": "2026-11-25T13:24:08Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 4099.9,
-  "change": -109.20000000000073,
-  "change_pct": -2.5943788458340444,
+  "as_of": "2026-11-25",
+  "close": 4156.0,
+  "change": 56.100000000000364,
+  "change_pct": 1.3683260567330935,
   "high_52w": 4440.0,
   "low_52w": 3288.1,
-  "range_position": 0.7047486761003556,
-  "return_1y": 1.8634003329275117,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 57.0955,
-  "delivery_avg": 58.11847457627118,
-  "delivery_sessions": 59
+  "range_position": 0.7534508203837139,
+  "return_1y": 3.98578827532714,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 57.414,
+  "delivery_avg": 58.0455,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     4099.9,
     1259578,
     47.47
+   ],
+   [
+    "2026-11-25",
+    4156.0,
+    1313101,
+    53.74
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 20894.89,
   "ttm_margin_pct": 6.944049245814789,
   "ttm_eps": 129.82,
-  "pe": 31.581420428285316,
+  "pe": 32.01355723309197,
   "pe_note": null,
-  "market_cap_cr": 564105.2409999999,
+  "market_cap_cr": 571824.04,
   "revenue_yoy_pct": 15.836791646447313,
   "pat_yoy_pct": 27.172665299988672,
   "net_npa_pct": null,
@@ -2943,43 +2953,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_02112026175603_TranscriptSep2026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-23",
-  "change_pct": -2.5943788458340444,
-  "typical_pct": 0.7647962235750483,
-  "times": 3.3922485047148796,
-  "volume_x": 0.6271379873852446,
-  "biggest_in_year": false,
-  "nifty_change_pct": -1.7478275699014612,
-  "filings": [
-   {
-    "date": "2026-11-23",
-    "tag": "Order or contract",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_23112026093338_PressRelease23112026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "down",
-   "facts": {
-    "date": "2026-11-23",
-    "change_pct": -2.5943788458340444,
-    "typical_pct": 0.7647962235750483,
-    "times": 3.3922485047148796,
-    "volume_x": 0.6271379873852446,
-    "biggest_in_year": false,
-    "nifty_change_pct": -1.7478275699014612
-   },
-   "items": [
-    {
-     "date": "2026-11-23",
-     "tag": "Order or contract",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/PAM_23112026093338_PressRelease23112026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2989,9 +2964,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": 1.8634003329275117,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 4099.9,
+    "return_1y": 3.98578827532714,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 4156.0,
     "low_52w": 3288.1,
     "high_52w": 4440.0
    }
@@ -3000,8 +2975,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 57.0955,
-    "usual": 58.11847457627118,
+    "recent": 57.414,
+    "usual": 58.0455,
     "months": 3
    }
   },

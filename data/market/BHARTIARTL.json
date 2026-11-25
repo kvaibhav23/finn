@@ -1,20 +1,20 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-25T03:08:25Z",
+ "generated_at": "2026-11-25T13:24:06Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 2128.5,
-  "change": -33.19999999999982,
-  "change_pct": -1.5358282832955483,
+  "as_of": "2026-11-25",
+  "close": 2117.5,
+  "change": -11.0,
+  "change_pct": -0.5167958656330796,
   "high_52w": 2172.9,
   "low_52w": 1726.3,
-  "range_position": 0.9005821764442452,
-  "return_1y": -1.5813566375364019,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 66.6725,
-  "delivery_avg": 67.72457627118644,
-  "delivery_sessions": 59
+  "range_position": 0.8759516345723241,
+  "return_1y": -2.040155440414504,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 67.174,
+  "delivery_avg": 67.758,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     2128.5,
     5700272,
     67.7
+   ],
+   [
+    "2026-11-25",
+    2117.5,
+    6984567,
+    69.73
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.91610870421426,
+  "pe": 41.69948798739661,
   "pe_note": null,
-  "market_cap_cr": 1328354.28,
+  "market_cap_cr": 1321489.4,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -3008,9 +3018,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": -1.5813566375364019,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 2128.5,
+    "return_1y": -2.040155440414504,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 2117.5,
     "low_52w": 1726.3,
     "high_52w": 2172.9
    }
@@ -3019,8 +3029,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.6725,
-    "usual": 67.72457627118644,
+    "recent": 67.174,
+    "usual": 67.758,
     "months": 3
    }
   },

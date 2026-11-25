@@ -1,20 +1,20 @@
 {
  "symbol": "TCS",
- "generated_at": "2026-11-25T03:08:29Z",
+ "generated_at": "2026-11-25T13:24:10Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 2460.0,
-  "change": 83.80000000000018,
-  "change_pct": 3.526639171786905,
+  "as_of": "2026-11-25",
+  "close": 2517.3,
+  "change": 57.30000000000018,
+  "change_pct": 2.32926829268294,
   "high_52w": 3350.0,
   "low_52w": 1976.8,
-  "range_position": 0.3518788231867172,
-  "return_1y": -21.919634355360884,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 47.8395,
-  "delivery_avg": 48.49728813559322,
-  "delivery_sessions": 59
+  "range_position": 0.3936061753568309,
+  "return_1y": -19.296614516542686,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 47.834,
+  "delivery_avg": 48.54816666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     2460.0,
     7386320,
     39.76
+   ],
+   [
+    "2026-11-25",
+    2517.3,
+    5001661,
+    51.55
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 51858.0,
   "ttm_margin_pct": 18.308337569903408,
   "ttm_eps": 142.64000000000001,
-  "pe": 17.24621424565339,
+  "pe": 17.647924845765562,
   "pe_note": null,
-  "market_cap_cr": 890520.0,
+  "market_cap_cr": 911262.6,
   "revenue_yoy_pct": 11.229653946108598,
   "pat_yoy_pct": 14.86274833072294,
   "net_npa_pct": null,
@@ -2949,31 +2959,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-23",
-  "change_pct": 3.526639171786905,
-  "typical_pct": 0.9514967118873896,
-  "times": 3.7064123582639197,
-  "volume_x": 1.697729612337871,
-  "biggest_in_year": false,
-  "nifty_change_pct": -1.7478275699014612,
-  "filings": []
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-23",
-    "change_pct": 3.526639171786905,
-    "typical_pct": 0.9514967118873896,
-    "times": 3.7064123582639197,
-    "volume_x": 1.697729612337871,
-    "biggest_in_year": false,
-    "nifty_change_pct": -1.7478275699014612
-   },
-   "items": []
-  },
   {
    "key": "track",
    "state": "enough",
@@ -2988,9 +2975,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -21.919634355360884,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 2460.0,
+    "return_1y": -19.296614516542686,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 2517.3,
     "low_52w": 1976.8,
     "high_52w": 3350.0
    }
@@ -2999,8 +2986,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 47.8395,
-    "usual": 48.49728813559322,
+    "recent": 47.834,
+    "usual": 48.54816666666667,
     "months": 3
    }
   },

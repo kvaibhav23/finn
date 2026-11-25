@@ -1,20 +1,20 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-25T03:08:26Z",
+ "generated_at": "2026-11-25T13:24:08Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 525.5,
-  "change": 6.5,
-  "change_pct": 1.2524084778420042,
+  "as_of": "2026-11-25",
+  "close": 516.0,
+  "change": -9.5,
+  "change_pct": -1.807802093244526,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.06799214531173291,
-  "return_1y": -55.04320301137822,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 33.422,
-  "delivery_avg": 33.98627118644068,
-  "delivery_sessions": 59
+  "range_position": 0.05633284241531661,
+  "return_1y": -55.972696245733786,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 32.8495,
+  "delivery_avg": 33.88583333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     525.5,
     2543916,
     32.66
+   ],
+   [
+    "2026-11-25",
+    516.0,
+    931901,
+    27.96
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 26.94871794871795,
+  "pe": 26.46153846153846,
   "pe_note": null,
-  "market_cap_cr": 14322.7127,
+  "market_cap_cr": 14063.7864,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2930,9 +2940,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -55.04320301137822,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 525.5,
+    "return_1y": -55.972696245733786,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 516.0,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2941,8 +2951,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 33.422,
-    "usual": 33.98627118644068,
+    "recent": 32.8495,
+    "usual": 33.88583333333334,
     "months": 3
    }
   },

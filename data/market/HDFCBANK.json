@@ -1,20 +1,20 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-25T03:08:25Z",
+ "generated_at": "2026-11-25T13:24:07Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 817.8,
-  "change": -28.200000000000045,
-  "change_pct": -3.3333333333333437,
+  "as_of": "2026-11-25",
+  "close": 846.2,
+  "change": 28.40000000000009,
+  "change_pct": 3.47273171924678,
   "high_52w": 1017.5,
   "low_52w": 669.2,
-  "range_position": 0.42664369796152724,
-  "return_1y": -18.060217423976756,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 60.374,
-  "delivery_avg": 59.66576271186441,
-  "delivery_sessions": 59
+  "range_position": 0.5081826012058571,
+  "return_1y": -14.507981410385929,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 60.85850000000001,
+  "delivery_avg": 59.67633333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     817.8,
     55628667,
     57.53
+   ],
+   [
+    "2026-11-25",
+    846.2,
+    48187313,
+    60.3
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 82124.52,
   "ttm_margin_pct": 16.220004469143458,
   "ttm_eps": 51.879999999999995,
-  "pe": 15.763299922898998,
+  "pe": 16.310717039321514,
   "pe_note": null,
-  "market_cap_cr": 1260933.108,
+  "market_cap_cr": 1304721.932,
   "revenue_yoy_pct": 9.10762704280501,
   "pat_yoy_pct": 5.554935145000139,
   "net_npa_pct": null,
@@ -3061,41 +3071,29 @@
   }
  ],
  "move": {
-  "date": "2026-11-23",
-  "change_pct": -3.3333333333333437,
-  "typical_pct": 0.9053462685399083,
-  "times": 3.6818325199585313,
-  "volume_x": 1.6026295889594793,
+  "date": "2026-11-25",
+  "change_pct": 3.47273171924678,
+  "typical_pct": 0.9055491207749844,
+  "times": 3.8349457136844842,
+  "volume_x": 1.3602332182740884,
   "biggest_in_year": false,
-  "nifty_change_pct": -1.7478275699014612,
-  "filings": [
-   {
-    "date": "2026-11-20",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf"
-   }
-  ]
+  "nifty_change_pct": 1.8524910600343558,
+  "filings": []
  },
  "signals": [
   {
    "key": "move",
-   "state": "down",
+   "state": "up",
    "facts": {
-    "date": "2026-11-23",
-    "change_pct": -3.3333333333333437,
-    "typical_pct": 0.9053462685399083,
-    "times": 3.6818325199585313,
-    "volume_x": 1.6026295889594793,
+    "date": "2026-11-25",
+    "change_pct": 3.47273171924678,
+    "typical_pct": 0.9055491207749844,
+    "times": 3.8349457136844842,
+    "volume_x": 1.3602332182740884,
     "biggest_in_year": false,
-    "nifty_change_pct": -1.7478275699014612
+    "nifty_change_pct": 1.8524910600343558
    },
-   "items": [
-    {
-     "date": "2026-11-20",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf"
-    }
-   ]
+   "items": []
   },
   {
    "key": "track",
@@ -3106,9 +3104,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -18.060217423976756,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 817.8,
+    "return_1y": -14.507981410385929,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 846.2,
     "low_52w": 669.2,
     "high_52w": 1017.5
    }
@@ -3117,8 +3115,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 60.374,
-    "usual": 59.66576271186441,
+    "recent": 60.85850000000001,
+    "usual": 59.67633333333333,
     "months": 3
    }
   },
@@ -3136,5 +3134,17 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": []
+ "events": [
+  {
+   "id": "d3d63a1dd4b8f85f",
+   "symbol": "HDFCBANK",
+   "kind": "move",
+   "date": "2026-11-25",
+   "facts": {
+    "change_pct": 3.47273171924678,
+    "times": 3.8349457136844842,
+    "biggest_in_year": false
+   }
+  }
+ ]
 }

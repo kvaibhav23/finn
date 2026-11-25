@@ -1,20 +1,20 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-25T03:08:24Z",
+ "generated_at": "2026-11-25T13:24:06Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-23",
-  "close": 2580.4,
-  "change": -27.90000000000009,
-  "change_pct": -1.0696622321052063,
+  "as_of": "2026-11-25",
+  "close": 2621.2,
+  "change": 40.79999999999973,
+  "change_pct": 1.581150209269877,
   "high_52w": 2985.7,
   "low_52w": 2115.0,
-  "range_position": 0.5345124612380845,
-  "return_1y": -10.29687825905582,
-  "nifty_return_1y": -2.7562370172029893,
-  "delivery_20d": 49.392,
-  "delivery_avg": 55.05,
-  "delivery_sessions": 59
+  "range_position": 0.5813713104398759,
+  "return_1y": -8.85318867793311,
+  "nifty_return_1y": -0.2532374211892674,
+  "delivery_20d": 50.028,
+  "delivery_avg": 54.9775,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     2580.4,
     525311,
     56.81
+   ],
+   [
+    "2026-11-25",
+    2621.2,
+    757708,
+    50.7
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-23",
    25349.65
+  ],
+  [
+   "2026-11-25",
+   25819.25
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 4904.21,
   "ttm_margin_pct": 12.694627301546872,
   "ttm_eps": 50.46000000000001,
-  "pe": 51.13753468093539,
+  "pe": 51.94609591755845,
   "pe_note": null,
-  "market_cap_cr": 247511.968,
+  "market_cap_cr": 251425.504,
   "revenue_yoy_pct": 16.94050241054379,
   "pat_yoy_pct": 6.591830922286723,
   "net_npa_pct": null,
@@ -2989,19 +2999,19 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -10.29687825905582,
-    "nifty_return_1y": -2.7562370172029893,
-    "close": 2580.4,
+    "return_1y": -8.85318867793311,
+    "nifty_return_1y": -0.2532374211892674,
+    "close": 2621.2,
     "low_52w": 2115.0,
     "high_52w": 2985.7
    }
   },
   {
    "key": "delivery",
-   "state": "lower",
+   "state": "usual",
    "facts": {
-    "recent": 49.392,
-    "usual": 55.05,
+    "recent": 50.028,
+    "usual": 54.9775,
     "months": 3
    }
   },
