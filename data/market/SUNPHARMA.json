@@ -1,6 +1,6 @@
 {
  "symbol": "SUNPHARMA",
- "generated_at": "2026-11-26T13:02:38Z",
+ "generated_at": "2026-11-26T22:33:12Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-26",
@@ -13,19 +13,13 @@
   "return_1y": 6.1388442572995805,
   "nifty_return_1y": -1.2241798414824423,
   "delivery_20d": 57.0835,
-  "delivery_avg": 61.478500000000004,
-  "delivery_sessions": 60
+  "delivery_avg": 61.49694915254238,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-19",
-    1784.1,
-    2131124,
-    null
-   ],
    [
     "2025-11-20",
     1777.4,
@@ -1170,7 +1164,7 @@
     "2026-08-28",
     1920.0,
     1140742,
-    60.39
+    null
    ],
    [
     "2026-08-31",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-19",
-   26052.65
-  ],
   [
    "2025-11-20",
    26192.15
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-26",
+   "filed_at": "2026-11-26T19:58:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Investor Presentation",
+   "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Investor Presentation",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA456_26112026195823_IntimationSE20261126_Investor_Presenatation_Nov2026_Signed.pdf"
+  },
+  {
    "date": "2026-11-23",
    "filed_at": "2026-11-23T20:35:00+05:30",
    "tag": "Credit rating",
@@ -3006,7 +3006,7 @@
    "state": "usual",
    "facts": {
     "recent": 57.0835,
-    "usual": 61.478500000000004,
+    "usual": 61.49694915254238,
     "months": 3
    }
   },

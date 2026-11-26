@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-26T13:02:35Z",
+ "generated_at": "2026-11-26T22:31:58Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-26",
@@ -13,19 +13,13 @@
   "return_1y": -11.51704940848991,
   "nifty_return_1y": -1.2241798414824423,
   "delivery_20d": 49.6435,
-  "delivery_avg": 54.81366666666667,
-  "delivery_sessions": 60
+  "delivery_avg": 54.84762711864407,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-19",
-    2893.7,
-    1387906,
-    null
-   ],
    [
     "2025-11-20",
     2859.8,
@@ -1170,7 +1164,7 @@
     "2026-08-28",
     2608.7,
     482544,
-    52.81
+    null
    ],
    [
     "2026-08-31",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-19",
-   26052.65
-  ],
   [
    "2025-11-20",
    26192.15
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-26",
+   "filed_at": "2026-11-26T20:14:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Investor Presentation",
+   "subject": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_26112026201352_Investor_Presentation_Japan_filingsigned.pdf"
+  },
+  {
    "date": "2026-11-25",
    "filed_at": "2026-11-25T17:03:00+05:30",
    "tag": "Earnings call",
@@ -2991,12 +2991,17 @@
  "move": {
   "date": "2026-11-26",
   "change_pct": -2.983366397070042,
-  "typical_pct": 0.7999015505783857,
-  "times": 3.7296669757832768,
+  "typical_pct": 0.7989119706672709,
+  "times": 3.7342867632566086,
   "volume_x": 1.1381583613551591,
   "biggest_in_year": false,
   "nifty_change_pct": 0.2527184174598407,
   "filings": [
+   {
+    "date": "2026-11-26",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_26112026201352_Investor_Presentation_Japan_filingsigned.pdf"
+   },
    {
     "date": "2026-11-25",
     "tag": "Earnings call",
@@ -3011,13 +3016,18 @@
    "facts": {
     "date": "2026-11-26",
     "change_pct": -2.983366397070042,
-    "typical_pct": 0.7999015505783857,
-    "times": 3.7296669757832768,
+    "typical_pct": 0.7989119706672709,
+    "times": 3.7342867632566086,
     "volume_x": 1.1381583613551591,
     "biggest_in_year": false,
     "nifty_change_pct": 0.2527184174598407
    },
    "items": [
+    {
+     "date": "2026-11-26",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_26112026201352_Investor_Presentation_Japan_filingsigned.pdf"
+    },
     {
      "date": "2026-11-25",
      "tag": "Earnings call",
@@ -3051,7 +3061,7 @@
    "state": "lower",
    "facts": {
     "recent": 49.6435,
-    "usual": 54.81366666666667,
+    "usual": 54.84762711864407,
     "months": 3
    }
   },
@@ -3084,17 +3094,5 @@
   "Dropped": 1,
   "On track": 1
  },
- "events": [
-  {
-   "id": "f9e7a596979bb747",
-   "symbol": "ASIANPAINT",
-   "kind": "move",
-   "date": "2026-11-26",
-   "facts": {
-    "change_pct": -2.983366397070042,
-    "times": 3.7296669757832768,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

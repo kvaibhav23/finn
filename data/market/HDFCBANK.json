@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-26T13:02:36Z",
+ "generated_at": "2026-11-26T22:32:31Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-26",
@@ -13,19 +13,13 @@
   "return_1y": -14.134873991433405,
   "nifty_return_1y": -1.2241798414824423,
   "delivery_20d": 61.504999999999995,
-  "delivery_avg": 59.785,
-  "delivery_sessions": 60
+  "delivery_avg": 59.90067796610169,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-19",
-    994.6,
-    19813847,
-    null
-   ],
    [
     "2025-11-20",
     1008.85,
@@ -1170,7 +1164,7 @@
     "2026-08-28",
     720.3,
     16494301,
-    52.96
+    null
    ],
    [
     "2026-08-31",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-19",
-   26052.65
-  ],
   [
    "2025-11-20",
    26192.15
@@ -3043,26 +3033,6 @@
    "category": "ESOP/ESOS/ESPS",
    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 3058164 Shares.",
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_31082026135453_SELetterESOP31082026.pdf"
-  },
-  {
-   "date": "2026-08-29",
-   "filed_at": "2026-08-29T20:28:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange regarding Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_29082026202524_Stock_exchange_intimationSJ.pdf"
-  },
-  {
-   "date": "2026-08-29",
-   "filed_at": "2026-08-29T17:46:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "General Updates",
-   "subject": "HDFC Bank Limited has informed the Exchange regarding Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_29082026174541_Stockexchangeintimation_SJ.pdf"
   }
  ],
  "routine": [],
@@ -3111,7 +3081,7 @@
    "state": "usual",
    "facts": {
     "recent": 61.504999999999995,
-    "usual": 59.785,
+    "usual": 59.90067796610169,
     "months": 3
    }
   },

@@ -1,6 +1,6 @@
 {
  "symbol": "INFY",
- "generated_at": "2026-11-26T13:02:36Z",
+ "generated_at": "2026-11-26T22:32:40Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-26",
@@ -13,19 +13,13 @@
   "return_1y": -24.064445728223895,
   "nifty_return_1y": -1.2241798414824423,
   "delivery_20d": 51.8515,
-  "delivery_avg": 53.75183333333334,
-  "delivery_sessions": 60
+  "delivery_avg": 53.622542372881355,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-19",
-    1541.1,
-    10981126,
-    null
-   ],
    [
     "2025-11-20",
     1536.5,
@@ -1170,7 +1164,7 @@
     "2026-08-28",
     1144.0,
     9621969,
-    61.38
+    null
    ],
    [
     "2026-08-31",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-19",
-   26052.65
-  ],
   [
    "2025-11-20",
    26192.15
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-26",
+   "filed_at": "2026-11-26T22:17:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Updates",
+   "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_26112026221607_SE_filing_Investor_conference_26112026.pdf"
+  },
+  {
    "date": "2026-11-25",
    "filed_at": "2026-11-25T15:00:00+05:30",
    "tag": "Other",
@@ -2935,12 +2935,17 @@
  "move": {
   "date": "2026-11-26",
   "change_pct": 4.690265486725664,
-  "typical_pct": 1.1275633479957747,
-  "times": 4.15964699017801,
+  "typical_pct": 1.1307134729486357,
+  "times": 4.14805837105182,
   "volume_x": 1.3153625756985894,
   "biggest_in_year": false,
   "nifty_change_pct": 0.2527184174598407,
   "filings": [
+   {
+    "date": "2026-11-26",
+    "tag": "Earnings call",
+    "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_26112026221607_SE_filing_Investor_conference_26112026.pdf"
+   },
    {
     "date": "2026-11-25",
     "tag": "Other",
@@ -2955,13 +2960,18 @@
    "facts": {
     "date": "2026-11-26",
     "change_pct": 4.690265486725664,
-    "typical_pct": 1.1275633479957747,
-    "times": 4.15964699017801,
+    "typical_pct": 1.1307134729486357,
+    "times": 4.14805837105182,
     "volume_x": 1.3153625756985894,
     "biggest_in_year": false,
     "nifty_change_pct": 0.2527184174598407
    },
    "items": [
+    {
+     "date": "2026-11-26",
+     "tag": "Earnings call",
+     "pdf_url": "https://nsearchives.nseindia.in/corporate/Infosys_26112026221607_SE_filing_Investor_conference_26112026.pdf"
+    },
     {
      "date": "2026-11-25",
      "tag": "Other",
@@ -2990,7 +3000,7 @@
    "state": "usual",
    "facts": {
     "recent": 51.8515,
-    "usual": 53.75183333333334,
+    "usual": 53.622542372881355,
     "months": 3
    }
   },
@@ -3008,17 +3018,5 @@
  "rerun": null,
  "ledger_generated_at": null,
  "ledger_counts": null,
- "events": [
-  {
-   "id": "35460bfacc36e2ad",
-   "symbol": "INFY",
-   "kind": "move",
-   "date": "2026-11-26",
-   "facts": {
-    "change_pct": 4.690265486725664,
-    "times": 4.15964699017801,
-    "biggest_in_year": false
-   }
-  }
- ]
+ "events": []
 }

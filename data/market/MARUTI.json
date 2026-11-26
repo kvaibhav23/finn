@@ -1,6 +1,6 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-26T13:02:37Z",
+ "generated_at": "2026-11-26T22:32:59Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-26",
@@ -13,19 +13,13 @@
   "return_1y": -13.252042584798218,
   "nifty_return_1y": -1.2241798414824423,
   "delivery_20d": 53.08,
-  "delivery_avg": 54.128,
-  "delivery_sessions": 60
+  "delivery_avg": 54.085762711864405,
+  "delivery_sessions": 59
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-19",
-    15768.0,
-    286434,
-    null
-   ],
    [
     "2025-11-20",
     15801.0,
@@ -1170,7 +1164,7 @@
     "2026-08-28",
     13376.0,
     277509,
-    56.62
+    null
    ],
    [
     "2026-08-31",
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-19",
-   26052.65
-  ],
   [
    "2025-11-20",
    26192.15
@@ -3027,9 +3017,7 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/MARUTI_31082026131802_Proceedings_of_45thAGM.pdf"
   }
  ],
- "routine": [
-  "2026-10-28T10:38:00+05:30"
- ],
+ "routine": [],
  "calls": [
   {
    "quarter": "Q3FY26",
@@ -3075,7 +3063,7 @@
    "state": "usual",
    "facts": {
     "recent": 53.08,
-    "usual": 54.128,
+    "usual": 54.085762711864405,
     "months": 3
    }
   },
