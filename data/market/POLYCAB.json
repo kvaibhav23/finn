@@ -1,20 +1,20 @@
 {
  "symbol": "POLYCAB",
- "generated_at": "2026-11-26T02:24:14Z",
+ "generated_at": "2026-11-26T13:02:38Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 7379.0,
-  "change": -51.0,
-  "change_pct": -0.6864064602960962,
+  "as_of": "2026-11-26",
+  "close": 7350.0,
+  "change": -29.0,
+  "change_pct": -0.3930071825450576,
   "high_52w": 10126.0,
   "low_52w": 6663.0,
-  "range_position": 0.2067571469823852,
-  "return_1y": -0.8065600215082624,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 50.5625,
-  "delivery_avg": 51.835084745762714,
-  "delivery_sessions": 59
+  "range_position": 0.1983829049956685,
+  "return_1y": -2.506963788300831,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 49.93,
+  "delivery_avg": 51.844500000000004,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     7379.0,
     573991,
     56.24
+   ],
+   [
+    "2026-11-26",
+    7350.0,
+    594715,
+    52.4
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 3202.423,
   "ttm_margin_pct": 9.253087282649794,
   "ttm_eps": 209.91,
-  "pe": 35.15316087847172,
+  "pe": 35.01500643132771,
   "pe_note": null,
-  "market_cap_cr": 111195.6268,
+  "market_cap_cr": 110758.62,
   "revenue_yoy_pct": 52.82659465624941,
   "pat_yoy_pct": 42.86516229675925,
   "net_npa_pct": null,
@@ -3011,9 +3021,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -0.8065600215082624,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 7379.0,
+    "return_1y": -2.506963788300831,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 7350.0,
     "low_52w": 6663.0,
     "high_52w": 10126.0
    }
@@ -3022,8 +3032,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.5625,
-    "usual": 51.835084745762714,
+    "recent": 49.93,
+    "usual": 51.844500000000004,
     "months": 3
    }
   },

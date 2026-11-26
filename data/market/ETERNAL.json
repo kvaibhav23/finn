@@ -1,20 +1,20 @@
 {
  "symbol": "ETERNAL",
- "generated_at": "2026-11-26T02:24:13Z",
+ "generated_at": "2026-11-26T13:02:36Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 371.7,
-  "change": 9.599999999999966,
-  "change_pct": 2.6512013256006606,
+  "as_of": "2026-11-26",
+  "close": 367.7,
+  "change": -4.0,
+  "change_pct": -1.0761366693570085,
   "high_52w": 378.0,
   "low_52w": 212.6,
-  "range_position": 0.9619105199516323,
-  "return_1y": 22.957327158451868,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 56.536,
-  "delivery_avg": 57.45152542372881,
-  "delivery_sessions": 59
+  "range_position": 0.937726723095526,
+  "return_1y": 19.83053609255334,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 56.55499999999999,
+  "delivery_avg": 57.477333333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     371.7,
     29694684,
     55.61
+   ],
+   [
+    "2026-11-26",
+    367.7,
+    24718884,
+    59.0
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 493.0,
   "ttm_margin_pct": 0.632408025039766,
   "ttm_eps": 0.53,
-  "pe": 701.3207547169811,
+  "pe": 693.7735849056603,
   "pe_note": null,
-  "market_cap_cr": 342335.7,
+  "market_cap_cr": 338651.7,
   "revenue_yoy_pct": 77.6158940397351,
   "pat_yoy_pct": 92.3076923076923,
   "net_npa_pct": null,
@@ -2771,9 +2781,9 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 22.957327158451868,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 371.7,
+    "return_1y": 19.83053609255334,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 367.7,
     "low_52w": 212.6,
     "high_52w": 378.0
    }
@@ -2782,8 +2792,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 56.536,
-    "usual": 57.45152542372881,
+    "recent": 56.55499999999999,
+    "usual": 57.477333333333334,
     "months": 3
    }
   },

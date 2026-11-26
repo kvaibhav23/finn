@@ -1,20 +1,20 @@
 {
  "symbol": "DIXON",
- "generated_at": "2026-11-26T02:24:12Z",
+ "generated_at": "2026-11-26T13:02:35Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 12978.0,
-  "change": -412.0,
-  "change_pct": -3.076923076923077,
+  "as_of": "2026-11-26",
+  "close": 12718.0,
+  "change": -260.0,
+  "change_pct": -2.0033903529049213,
   "high_52w": 15000.0,
   "low_52w": 9600.0,
-  "range_position": 0.6255555555555555,
-  "return_1y": -9.881258245955138,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 34.1755,
-  "delivery_avg": 37.07847457627119,
-  "delivery_sessions": 59
+  "range_position": 0.5774074074074074,
+  "return_1y": -14.212478920741988,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 33.3375,
+  "delivery_avg": 37.018166666666666,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     12978.0,
     499774,
     31.21
+   ],
+   [
+    "2026-11-26",
+    12718.0,
+    413125,
+    33.46
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 1747.23,
   "ttm_margin_pct": 2.98552373922226,
   "ttm_eps": 286.67,
-  "pe": 45.27156660969058,
+  "pe": 44.364600411623115,
   "pe_note": null,
-  "market_cap_cr": 79360.47,
+  "market_cap_cr": 77770.57,
   "revenue_yoy_pct": 46.70872646589979,
   "pat_yoy_pct": -44.90143489338876,
   "net_npa_pct": null,
@@ -3142,9 +3152,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -9.881258245955138,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 12978.0,
+    "return_1y": -14.212478920741988,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 12718.0,
     "low_52w": 9600.0,
     "high_52w": 15000.0
    }
@@ -3153,8 +3163,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 34.1755,
-    "usual": 37.07847457627119,
+    "recent": 33.3375,
+    "usual": 37.018166666666666,
     "months": 3
    }
   },

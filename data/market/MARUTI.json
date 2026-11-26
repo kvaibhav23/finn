@@ -1,20 +1,20 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-26T02:24:14Z",
+ "generated_at": "2026-11-26T13:02:37Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 14200.0,
-  "change": 190.0,
-  "change_pct": 1.3561741613133504,
+  "as_of": "2026-11-26",
+  "close": 14015.0,
+  "change": -185.0,
+  "change_pct": -1.3028169014084545,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.5035238841033672,
-  "return_1y": -10.629995594436403,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 53.088499999999996,
-  "delivery_avg": 54.293898305084745,
-  "delivery_sessions": 59
+  "range_position": 0.4745497259201253,
+  "return_1y": -13.252042584798218,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 53.08,
+  "delivery_avg": 54.128,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     14200.0,
     730287,
     55.04
+   ],
+   [
+    "2026-11-26",
+    14015.0,
+    455910,
+    44.34
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 33.19075333660566,
+  "pe": 32.75833859243158,
   "pe_note": null,
-  "market_cap_cr": 446448.0,
+  "market_cap_cr": 440631.6,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3053,9 +3063,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -10.629995594436403,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 14200.0,
+    "return_1y": -13.252042584798218,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 14015.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3064,8 +3074,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.088499999999996,
-    "usual": 54.293898305084745,
+    "recent": 53.08,
+    "usual": 54.128,
     "months": 3
    }
   },

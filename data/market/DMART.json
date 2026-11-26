@@ -1,20 +1,20 @@
 {
  "symbol": "DMART",
- "generated_at": "2026-11-26T02:24:12Z",
+ "generated_at": "2026-11-26T13:02:36Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 3592.0,
-  "change": 186.5999999999999,
-  "change_pct": 5.479532507194462,
+  "as_of": "2026-11-26",
+  "close": 3533.0,
+  "change": -59.0,
+  "change_pct": -1.6425389755011177,
   "high_52w": 4644.0,
   "low_52w": 3102.3,
-  "range_position": 0.31763637542972034,
-  "return_1y": -9.943338514767087,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 52.827999999999996,
-  "delivery_avg": 54.23033898305085,
-  "delivery_sessions": 59
+  "range_position": 0.27936693260686246,
+  "return_1y": -12.094747580304045,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 52.211,
+  "delivery_avg": 54.00833333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     3592.0,
     1137553,
     41.94
+   ],
+   [
+    "2026-11-26",
+    3533.0,
+    300906,
+    40.91
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 3115.62,
   "ttm_margin_pct": 4.197631794229519,
   "ttm_eps": 47.82,
-  "pe": 75.11501463822668,
+  "pe": 73.88122124634044,
   "pe_note": null,
-  "market_cap_cr": 234288.2,
+  "market_cap_cr": 230439.925,
   "revenue_yoy_pct": 17.79597392707015,
   "pat_yoy_pct": 8.48799007081842,
   "net_npa_pct": null,
@@ -2882,43 +2892,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_04082026124725_ASLTranscriptIntimation04082026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-25",
-  "change_pct": 5.479532507194462,
-  "typical_pct": 0.9210461976975337,
-  "times": 5.949248279719742,
-  "volume_x": 1.9390726254293973,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.8524910600343558,
-  "filings": [
-   {
-    "date": "2026-11-24",
-    "tag": "Credit rating",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24112026153252_CRISLRevisioninCreditRating24112026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-25",
-    "change_pct": 5.479532507194462,
-    "typical_pct": 0.9210461976975337,
-    "times": 5.949248279719742,
-    "volume_x": 1.9390726254293973,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.8524910600343558
-   },
-   "items": [
-    {
-     "date": "2026-11-24",
-     "tag": "Credit rating",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/DMART_24112026153252_CRISLRevisioninCreditRating24112026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -2928,9 +2903,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -9.943338514767087,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 3592.0,
+    "return_1y": -12.094747580304045,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 3533.0,
     "low_52w": 3102.3,
     "high_52w": 4644.0
    }
@@ -2939,8 +2914,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 52.827999999999996,
-    "usual": 54.23033898305085,
+    "recent": 52.211,
+    "usual": 54.00833333333333,
     "months": 3
    }
   },

@@ -1,20 +1,20 @@
 {
  "symbol": "ICICIBANK",
- "generated_at": "2026-11-26T02:24:13Z",
+ "generated_at": "2026-11-26T13:02:36Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-25",
-  "close": 1640.0,
-  "change": 54.5,
-  "change_pct": 3.4374014506464823,
-  "high_52w": 1650.0,
+  "as_of": "2026-11-26",
+  "close": 1611.0,
+  "change": -29.0,
+  "change_pct": -1.7682926829268308,
+  "high_52w": 1652.0,
   "low_52w": 1187.6,
-  "range_position": 0.9783737024221454,
-  "return_1y": 20.78362056267491,
-  "nifty_return_1y": -0.2532374211892674,
-  "delivery_20d": 63.909000000000006,
-  "delivery_avg": 63.01305084745763,
-  "delivery_sessions": 59
+  "range_position": 0.9117140396210164,
+  "return_1y": 17.163636363636357,
+  "nifty_return_1y": -1.2241798414824423,
+  "delivery_20d": 64.7945,
+  "delivery_avg": 63.021,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1640.0,
     18982380,
     61.7
+   ],
+   [
+    "2026-11-26",
+    1611.0,
+    15390377,
+    63.49
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-25",
    25819.25
+  ],
+  [
+   "2026-11-26",
+   25884.5
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 62544.81,
   "ttm_margin_pct": 18.99636849197382,
   "ttm_eps": 81.42999999999999,
-  "pe": 20.13999754390274,
+  "pe": 19.783863440992263,
   "pe_note": null,
-  "market_cap_cr": 1177487.2,
+  "market_cap_cr": 1156665.78,
   "revenue_yoy_pct": 15.778237738551383,
   "pat_yoy_pct": 21.432269016020868,
   "net_npa_pct": 0.0032,
@@ -3132,43 +3142,8 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf"
   }
  ],
- "move": {
-  "date": "2026-11-25",
-  "change_pct": 3.4374014506464823,
-  "typical_pct": 0.8125482625482627,
-  "times": 4.230396653444708,
-  "volume_x": 1.400158751603971,
-  "biggest_in_year": false,
-  "nifty_change_pct": 1.8524910600343558,
-  "filings": [
-   {
-    "date": "2026-11-25",
-    "tag": "Other",
-    "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25112026135254_BSENSE_25112026.pdf"
-   }
-  ]
- },
+ "move": null,
  "signals": [
-  {
-   "key": "move",
-   "state": "up",
-   "facts": {
-    "date": "2026-11-25",
-    "change_pct": 3.4374014506464823,
-    "typical_pct": 0.8125482625482627,
-    "times": 4.230396653444708,
-    "volume_x": 1.400158751603971,
-    "biggest_in_year": false,
-    "nifty_change_pct": 1.8524910600343558
-   },
-   "items": [
-    {
-     "date": "2026-11-25",
-     "tag": "Other",
-     "pdf_url": "https://nsearchives.nseindia.in/corporate/ICICI2022_25112026135254_BSENSE_25112026.pdf"
-    }
-   ]
-  },
   {
    "key": "track",
    "state": "none",
@@ -3178,19 +3153,19 @@
    "key": "price",
    "state": "high",
    "facts": {
-    "return_1y": 20.78362056267491,
-    "nifty_return_1y": -0.2532374211892674,
-    "close": 1640.0,
+    "return_1y": 17.163636363636357,
+    "nifty_return_1y": -1.2241798414824423,
+    "close": 1611.0,
     "low_52w": 1187.6,
-    "high_52w": 1650.0
+    "high_52w": 1652.0
    }
   },
   {
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 63.909000000000006,
-    "usual": 63.01305084745763,
+    "recent": 64.7945,
+    "usual": 63.021,
     "months": 3
    }
   },
