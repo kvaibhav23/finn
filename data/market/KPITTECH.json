@@ -1,6 +1,6 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-27T13:00:18Z",
+ "generated_at": "2026-11-27T22:17:19Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-27",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-20",
-    1196.6,
-    966267,
-    null
-   ],
    [
     "2025-11-21",
     1168.9,
@@ -1530,10 +1524,6 @@
  },
  "nifty": [
   [
-   "2025-11-20",
-   26192.15
-  ],
-  [
    "2025-11-21",
    26068.15
   ],
@@ -2647,6 +2637,16 @@
  },
  "filings": [
   {
+   "date": "2026-11-27",
+   "filed_at": "2026-11-27T19:49:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "KPIT Technologies Limited has informed the Exchange about the Outcome of Investor conference held on Friday, November 27, 2026.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27112026194907_KPIT_Kotak_Midcap_Conference_outcome_S.pdf"
+  },
+  {
    "date": "2026-11-23",
    "filed_at": "2026-11-23T15:33:00+05:30",
    "tag": "Earnings call",
@@ -2747,26 +2747,6 @@
   {
    "date": "2026-10-28",
    "filed_at": "2026-10-28T13:28:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Giving guarantees/indemnity/ becoming a surety for third party",
-   "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "filed_at": "2026-10-28T13:28:00+05:30",
-   "tag": "Other",
-   "priority": 3,
-   "worth_a_look": false,
-   "category": "Sale or disposal",
-   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
-  },
-  {
-   "date": "2026-10-28",
-   "filed_at": "2026-10-28T13:28:00+05:30",
    "tag": "Expansion",
    "priority": 1,
    "worth_a_look": false,
@@ -2782,20 +2762,27 @@
    "worth_a_look": false,
    "category": "Appointment",
    "subject": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
-   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132119_1_Outcome.pdf",
-   "profile": {
-    "page": 4,
-    "excerpt": "Mr. Anant Talaulicar holds a bachelor's degree in Mechanical Engineering from Mysore University, a master's degree from the University of Michigan in Ann Arbor and a MBA degree from Tulane University, USA. He was the Chairman and Managing Director of the Cummins Group in India from March 2004 through October 2017, was a member of t he Cummins Inc. global leadership team from August 2009 t ill October 2017 and t he President of the Cummins Inc. Components Group from 2010 through 2014.",
-    "name": "Mr. Anant Talaulicar",
-    "role": "Board of KPIT US",
-    "effective": "October 28, 2026",
-    "previous": [
-     "Chairman and Managing Director of the Cummins Group in India",
-     "member of t he Cummins Inc. global leadership team",
-     "President of the Cummins Inc. Components Group",
-     "Managing Director of Tat a Cummins Private Limited"
-    ]
-   }
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132119_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "filed_at": "2026-10-28T13:28:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Sale or disposal",
+   "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132555_1_Outcome.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "filed_at": "2026-10-28T13:28:00+05:30",
+   "tag": "Other",
+   "priority": 3,
+   "worth_a_look": false,
+   "category": "Giving guarantees/indemnity/ becoming a surety for third party",
+   "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_28102026132739_1_Outcome.pdf"
   },
   {
    "date": "2026-10-28",
@@ -2898,9 +2885,7 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_31082026152943_CovLet9AGMproceedings_signed.pdf"
   }
  ],
- "routine": [
-  "2026-10-29T15:33:00+05:30"
- ],
+ "routine": [],
  "calls": [
   {
    "quarter": "Q3FY26",

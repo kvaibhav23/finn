@@ -1,6 +1,6 @@
 {
  "symbol": "ASIANPAINT",
- "generated_at": "2026-11-27T13:00:16Z",
+ "generated_at": "2026-11-27T22:16:30Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-27",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-20",
-    2859.8,
-    1062883,
-    null
-   ],
    [
     "2025-11-21",
     2876.6,
@@ -1530,10 +1524,6 @@
  },
  "nifty": [
   [
-   "2025-11-20",
-   26192.15
-  ],
-  [
    "2025-11-21",
    26068.15
   ],
@@ -2646,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-27",
+   "filed_at": "2026-11-27T13:07:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "The Company vide its letter no. APL/SEC/57/2026-27/44 dated 23rd November 2026 had informed that the Company, through its representatives, would be participating in a One - on -One meeting with Capital International, an Institutional Investor, at Mumbai on 27th November 2026, 11.",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_27112026130734_SEINTIMATIONANALYSTMEETSNOV2026_-_cancelled.pdf"
+  },
   {
    "date": "2026-11-26",
    "filed_at": "2026-11-26T20:14:00+05:30",

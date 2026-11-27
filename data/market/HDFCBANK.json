@@ -1,6 +1,6 @@
 {
  "symbol": "HDFCBANK",
- "generated_at": "2026-11-27T13:00:17Z",
+ "generated_at": "2026-11-27T22:17:01Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-27",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-20",
-    1008.85,
-    19850865,
-    null
-   ],
    [
     "2025-11-21",
     998.05,
@@ -1529,10 +1523,6 @@
   ]
  },
  "nifty": [
-  [
-   "2025-11-20",
-   26192.15
-  ],
   [
    "2025-11-21",
    26068.15
@@ -3045,7 +3035,9 @@
    "pdf_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_31082026135453_SELetterESOP31082026.pdf"
   }
  ],
- "routine": [],
+ "routine": [
+  "2026-11-27T16:12:00+05:30"
+ ],
  "calls": [
   {
    "quarter": "Q3FY26",

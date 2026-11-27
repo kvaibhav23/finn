@@ -1,6 +1,6 @@
 {
  "symbol": "TITAN",
- "generated_at": "2026-11-27T13:00:20Z",
+ "generated_at": "2026-11-27T22:17:55Z",
  "errors": {},
  "price": {
   "as_of": "2026-11-27",
@@ -20,12 +20,6 @@
   "source": "NSE end-of-day bhavcopy",
   "adjusted_for": [],
   "rows": [
-   [
-    "2025-11-20",
-    3902.4,
-    762391,
-    null
-   ],
    [
     "2025-11-21",
     3904.2,
@@ -1530,10 +1524,6 @@
  },
  "nifty": [
   [
-   "2025-11-20",
-   26192.15
-  ],
-  [
    "2025-11-21",
    26068.15
   ],
@@ -2646,6 +2636,16 @@
   ]
  },
  "filings": [
+  {
+   "date": "2026-11-27",
+   "filed_at": "2026-11-27T16:47:00+05:30",
+   "tag": "Earnings call",
+   "priority": 2,
+   "worth_a_look": false,
+   "category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "subject": "Titan Company Limited has informed the Exchange about Schedule of Analysts / Institutional Investors Meeting",
+   "pdf_url": "https://nsearchives.nseindia.in/corporate/Titan002_27112026164524_SEintimation_27_Nov.pdf"
+  },
   {
    "date": "2026-11-26",
    "filed_at": "2026-11-26T17:09:00+05:30",
