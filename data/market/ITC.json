@@ -1,20 +1,20 @@
 {
  "symbol": "ITC",
- "generated_at": "2026-11-27T02:22:30Z",
+ "generated_at": "2026-11-27T13:00:18Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-26",
-  "close": 307.0,
-  "change": -2.25,
-  "change_pct": -0.7275666936135794,
+  "as_of": "2026-11-27",
+  "close": 304.7,
+  "change": -2.3000000000000114,
+  "change_pct": -0.74918566775245,
   "high_52w": 409.5,
   "low_52w": 252.8,
-  "range_position": 0.3458838544990427,
-  "return_1y": -23.688789460601544,
-  "nifty_return_1y": -1.2241798414824423,
-  "delivery_20d": 50.262,
-  "delivery_avg": 54.86406779661017,
-  "delivery_sessions": 59
+  "range_position": 0.3312061263560943,
+  "return_1y": -24.63517190205293,
+  "nifty_return_1y": -2.3205692804461386,
+  "delivery_20d": 50.567,
+  "delivery_avg": 54.75383333333333,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     307.0,
     17177190,
     54.47
+   ],
+   [
+    "2026-11-27",
+    304.7,
+    12535532,
+    48.25
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-26",
    25884.5
+  ],
+  [
+   "2026-11-27",
+   25607.2
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 19226.31,
   "ttm_margin_pct": 18.20159307286522,
   "ttm_eps": 15.07,
-  "pe": 20.37159920371599,
+  "pe": 20.21897810218978,
   "pe_note": null,
-  "market_cap_cr": 384686.35,
+  "market_cap_cr": 381804.335,
   "revenue_yoy_pct": 43.85868179410291,
   "pat_yoy_pct": -18.455813594778803,
   "net_npa_pct": null,
@@ -2770,9 +2780,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -23.688789460601544,
-    "nifty_return_1y": -1.2241798414824423,
-    "close": 307.0,
+    "return_1y": -24.63517190205293,
+    "nifty_return_1y": -2.3205692804461386,
+    "close": 304.7,
     "low_52w": 252.8,
     "high_52w": 409.5
    }
@@ -2781,8 +2791,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 50.262,
-    "usual": 54.86406779661017,
+    "recent": 50.567,
+    "usual": 54.75383333333333,
     "months": 3
    }
   },

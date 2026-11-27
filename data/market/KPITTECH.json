@@ -1,20 +1,20 @@
 {
  "symbol": "KPITTECH",
- "generated_at": "2026-11-27T02:22:30Z",
+ "generated_at": "2026-11-27T13:00:18Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-26",
-  "close": 522.2,
-  "change": 6.2000000000000455,
-  "change_pct": 1.2015503875969058,
+  "as_of": "2026-11-27",
+  "close": 520.0,
+  "change": -2.2000000000000455,
+  "change_pct": -0.42129452317121174,
   "high_52w": 1284.9,
   "low_52w": 470.1,
-  "range_position": 0.06394207167403046,
-  "return_1y": -56.29759812536614,
-  "nifty_return_1y": -1.2241798414824423,
-  "delivery_20d": 31.570999999999998,
-  "delivery_avg": 33.682203389830505,
-  "delivery_sessions": 59
+  "range_position": 0.06124202258222874,
+  "return_1y": -57.33858396915252,
+  "nifty_return_1y": -2.3205692804461386,
+  "delivery_20d": 33.0095,
+  "delivery_avg": 33.798,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     522.2,
     757672,
     27.76
+   ],
+   [
+    "2026-11-27",
+    520.0,
+    753274,
+    40.63
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-26",
    25884.5
+  ],
+  [
+   "2026-11-27",
+   25607.2
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 533.453,
   "ttm_margin_pct": 7.968622818500007,
   "ttm_eps": 19.5,
-  "pe": 26.77948717948718,
+  "pe": 26.666666666666668,
   "pe_note": null,
-  "market_cap_cr": 14232.76988,
+  "market_cap_cr": 14172.808,
   "revenue_yoy_pct": 6.50338758124116,
   "pat_yoy_pct": -28.64206000461301,
   "net_npa_pct": null,
@@ -2929,9 +2939,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -56.29759812536614,
-    "nifty_return_1y": -1.2241798414824423,
-    "close": 522.2,
+    "return_1y": -57.33858396915252,
+    "nifty_return_1y": -2.3205692804461386,
+    "close": 520.0,
     "low_52w": 470.1,
     "high_52w": 1284.9
    }
@@ -2940,8 +2950,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 31.570999999999998,
-    "usual": 33.682203389830505,
+    "recent": 33.0095,
+    "usual": 33.798,
     "months": 3
    }
   },

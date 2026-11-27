@@ -1,20 +1,20 @@
 {
  "symbol": "BHARTIARTL",
- "generated_at": "2026-11-27T02:22:29Z",
+ "generated_at": "2026-11-27T13:00:17Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-26",
-  "close": 2102.5,
-  "change": -15.0,
-  "change_pct": -0.708382526564344,
+  "as_of": "2026-11-27",
+  "close": 2067.9,
+  "change": -34.59999999999991,
+  "change_pct": -1.6456599286563622,
   "high_52w": 2172.9,
   "low_52w": 1726.3,
-  "range_position": 0.8423645320197043,
-  "return_1y": -1.1425615948843393,
-  "nifty_return_1y": -1.2241798414824423,
-  "delivery_20d": 66.31649999999999,
-  "delivery_avg": 67.50610169491526,
-  "delivery_sessions": 59
+  "range_position": 0.7648902821316615,
+  "return_1y": -2.2546795235394157,
+  "nifty_return_1y": -2.3205692804461386,
+  "delivery_20d": 65.638,
+  "delivery_avg": 67.41866666666667,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     2102.5,
     3946729,
     55.07
+   ],
+   [
+    "2026-11-27",
+    2067.9,
+    3626984,
+    62.26
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-26",
    25884.5
+  ],
+  [
+   "2026-11-27",
+   25607.2
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 38472.2,
   "ttm_margin_pct": 16.816139773600476,
   "ttm_eps": 50.78,
-  "pe": 41.4040961008271,
+  "pe": 40.722725482473415,
   "pe_note": null,
-  "market_cap_cr": 1312128.2,
+  "market_cap_cr": 1290535.032,
   "revenue_yoy_pct": 16.745676512213926,
   "pat_yoy_pct": 23.808202709575998,
   "net_npa_pct": null,
@@ -3008,9 +3018,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -1.1425615948843393,
-    "nifty_return_1y": -1.2241798414824423,
-    "close": 2102.5,
+    "return_1y": -2.2546795235394157,
+    "nifty_return_1y": -2.3205692804461386,
+    "close": 2067.9,
     "low_52w": 1726.3,
     "high_52w": 2172.9
    }
@@ -3019,8 +3029,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 66.31649999999999,
-    "usual": 67.50610169491526,
+    "recent": 65.638,
+    "usual": 67.41866666666667,
     "months": 3
    }
   },

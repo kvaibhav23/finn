@@ -1,20 +1,20 @@
 {
  "symbol": "COCHINSHIP",
- "generated_at": "2026-11-27T02:22:29Z",
+ "generated_at": "2026-11-27T13:00:17Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-26",
-  "close": 1103.0,
-  "change": 21.0,
-  "change_pct": 1.9408502772643166,
+  "as_of": "2026-11-27",
+  "close": 1126.0,
+  "change": 23.0,
+  "change_pct": 2.0852221214868516,
   "high_52w": 1842.8,
   "low_52w": 1071.1,
-  "range_position": 0.041337307243747685,
-  "return_1y": -34.2356308132602,
-  "nifty_return_1y": -1.2241798414824423,
-  "delivery_20d": 36.635000000000005,
-  "delivery_avg": 36.802542372881355,
-  "delivery_sessions": 59
+  "range_position": 0.07114163535052492,
+  "return_1y": -32.81622911694511,
+  "nifty_return_1y": -2.3205692804461386,
+  "delivery_20d": 36.553,
+  "delivery_avg": 36.68833333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     1103.0,
     653460,
     37.31
+   ],
+   [
+    "2026-11-27",
+    1126.0,
+    2097107,
+    29.95
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-26",
    25884.5
+  ],
+  [
+   "2026-11-27",
+   25607.2
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 626.381,
   "ttm_margin_pct": 12.096750209131036,
   "ttm_eps": 23.809999999999995,
-  "pe": 46.32507349853004,
+  "pe": 47.29105417891643,
   "pe_note": null,
-  "market_cap_cr": 29017.81224,
+  "market_cap_cr": 29622.89808,
   "revenue_yoy_pct": 11.675782779901533,
   "pat_yoy_pct": -49.993397031826305,
   "net_npa_pct": null,
@@ -2898,9 +2908,9 @@
    "key": "price",
    "state": "low",
    "facts": {
-    "return_1y": -34.2356308132602,
-    "nifty_return_1y": -1.2241798414824423,
-    "close": 1103.0,
+    "return_1y": -32.81622911694511,
+    "nifty_return_1y": -2.3205692804461386,
+    "close": 1126.0,
     "low_52w": 1071.1,
     "high_52w": 1842.8
    }
@@ -2909,8 +2919,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 36.635000000000005,
-    "usual": 36.802542372881355,
+    "recent": 36.553,
+    "usual": 36.68833333333334,
     "months": 3
    }
   },

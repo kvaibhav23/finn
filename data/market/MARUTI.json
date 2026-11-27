@@ -1,20 +1,20 @@
 {
  "symbol": "MARUTI",
- "generated_at": "2026-11-27T02:22:31Z",
+ "generated_at": "2026-11-27T13:00:19Z",
  "errors": {},
  "price": {
-  "as_of": "2026-11-26",
-  "close": 14015.0,
-  "change": -185.0,
-  "change_pct": -1.3028169014084545,
+  "as_of": "2026-11-27",
+  "close": 13765.0,
+  "change": -250.0,
+  "change_pct": -1.7838030681412764,
   "high_52w": 17370.0,
   "low_52w": 10985.0,
-  "range_position": 0.4745497259201253,
-  "return_1y": -13.252042584798218,
-  "nifty_return_1y": -1.2241798414824423,
-  "delivery_20d": 53.08,
-  "delivery_avg": 54.085762711864405,
-  "delivery_sessions": 59
+  "range_position": 0.43539545810493346,
+  "return_1y": -13.444004275922783,
+  "nifty_return_1y": -2.3205692804461386,
+  "delivery_20d": 53.107000000000006,
+  "delivery_avg": 53.94383333333334,
+  "delivery_sessions": 60
  },
  "prices": {
   "source": "NSE end-of-day bhavcopy",
@@ -1519,6 +1519,12 @@
     14015.0,
     455910,
     44.34
+   ],
+   [
+    "2026-11-27",
+    13765.0,
+    392664,
+    45.57
    ]
   ]
  },
@@ -2522,6 +2528,10 @@
   [
    "2026-11-26",
    25884.5
+  ],
+  [
+   "2026-11-27",
+   25607.2
   ]
  ],
  "results": {
@@ -2535,9 +2545,9 @@
   "ttm_pat_cr": 13451.1,
   "ttm_margin_pct": 6.460914185422199,
   "ttm_eps": 427.83,
-  "pe": 32.75833859243158,
+  "pe": 32.17399434354767,
   "pe_note": null,
-  "market_cap_cr": 440631.6,
+  "market_cap_cr": 432771.6,
   "revenue_yoy_pct": 26.004269770122,
   "pat_yoy_pct": -26.363093460734543,
   "net_npa_pct": null,
@@ -3051,9 +3061,9 @@
    "key": "price",
    "state": "middle",
    "facts": {
-    "return_1y": -13.252042584798218,
-    "nifty_return_1y": -1.2241798414824423,
-    "close": 14015.0,
+    "return_1y": -13.444004275922783,
+    "nifty_return_1y": -2.3205692804461386,
+    "close": 13765.0,
     "low_52w": 10985.0,
     "high_52w": 17370.0
    }
@@ -3062,8 +3072,8 @@
    "key": "delivery",
    "state": "usual",
    "facts": {
-    "recent": 53.08,
-    "usual": 54.085762711864405,
+    "recent": 53.107000000000006,
+    "usual": 53.94383333333334,
     "months": 3
    }
   },
